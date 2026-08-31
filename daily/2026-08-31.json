@@ -1,1 +1,216 @@
+{
+  "date": "2026-08-31",
+  "questions": [
+    {
+      "id": "dd-2026-08-31-01",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A body of mass 5 kg is lifted vertically through a height of 4 m. Taking $g = 10\\,m/s^2$, what is the work done against gravity?",
+        "hi": "5 kg द्रव्यमान के एक पिंड को 4 m ऊँचाई तक ऊर्ध्वाधर उठाया जाता है। $g = 10\\,m/s^2$ लेते हुए, गुरुत्व के विरुद्ध किया गया कार्य क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "100 J", "hi": "100 J"}},
+        {"id": "B", "text": {"en": "150 J", "hi": "150 J"}},
+        {"id": "C", "text": {"en": "200 J", "hi": "200 J"}},
+        {"id": "D", "text": {"en": "250 J", "hi": "250 J"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Work done against gravity equals the gain in gravitational potential energy: $W = mgh = 5 \\times 10 \\times 4 = 200\\,J$. The mass and $g$ don't change during the lift, so this is a direct substitution once you recognise $W = mgh$ is the right formula here (not $W=Fd\\cos\\theta$ with some other force).",
+        "hi": "गुरुत्व के विरुद्ध किया गया कार्य गुरुत्वीय स्थितिज ऊर्जा में वृद्धि के बराबर होता है: $W = mgh = 5 \\times 10 \\times 4 = 200\\,J$। द्रव्यमान और $g$ उठाने के दौरान अपरिवर्तित रहते हैं, इसलिए एक बार यह पहचानने के बाद कि यहाँ सही सूत्र $W = mgh$ है, सीधे मान रखकर हल किया जा सकता है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-02",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two resistors of $6\\,\\Omega$ and $3\\,\\Omega$ are connected in parallel. What is their equivalent resistance?",
+        "hi": "$6\\,\\Omega$ और $3\\,\\Omega$ के दो प्रतिरोधक समानांतर क्रम में जोड़े गए हैं। उनका तुल्य प्रतिरोध क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$1\\,\\Omega$", "hi": "$1\\,\\Omega$"}},
+        {"id": "B", "text": {"en": "$2\\,\\Omega$", "hi": "$2\\,\\Omega$"}},
+        {"id": "C", "text": {"en": "$3\\,\\Omega$", "hi": "$3\\,\\Omega$"}},
+        {"id": "D", "text": {"en": "$9\\,\\Omega$", "hi": "$9\\,\\Omega$"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For resistors in parallel, reciprocals add: $\\frac{1}{R_{eq}} = \\frac{1}{R_1}+\\frac{1}{R_2} = \\frac{1}{6}+\\frac{1}{3} = \\frac{1}{2}$, so $R_{eq}=2\\,\\Omega$. Quick shortcut for exactly two resistors: $R_{eq}=\\frac{R_1 R_2}{R_1+R_2}=\\frac{18}{9}=2\\,\\Omega$ — faster than the reciprocal method when you only have two.",
+        "hi": "समानांतर प्रतिरोधकों के लिए व्युत्क्रम जुड़ते हैं: $\\frac{1}{R_{eq}} = \\frac{1}{R_1}+\\frac{1}{R_2} = \\frac{1}{6}+\\frac{1}{3} = \\frac{1}{2}$, अतः $R_{eq}=2\\,\\Omega$। केवल दो प्रतिरोधकों के लिए त्वरित तरीका: $R_{eq}=\\frac{R_1 R_2}{R_1+R_2}=\\frac{18}{9}=2\\,\\Omega$ — जब केवल दो प्रतिरोधक हों तो यह व्युत्क्रम विधि से तेज़ है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": {
+        "en": "A particle executes SHM with amplitude 5 cm and time period 2 s. What is its maximum speed, in cm/s? (Take $\\pi \\approx 3.14$)",
+        "hi": "एक कण 5 cm आयाम और 2 s आवर्तकाल के साथ सरल आवर्त गति (SHM) करता है। इसकी अधिकतम चाल cm/s में क्या है? ($\\pi \\approx 3.14$ लें)"
+      },
+      "options": [],
+      "correctAnswer": {"min": 15.5, "max": 15.9},
+      "solution": {
+        "en": "Maximum speed in SHM occurs at the mean position: $v_{max} = A\\omega$, where $\\omega = \\frac{2\\pi}{T}$. Here $\\omega = \\frac{2\\times3.14}{2} = 3.14\\,rad/s$, so $v_{max} = 5 \\times 3.14 = 15.7\\,cm/s$. Remember: speed is maximum at the centre of oscillation (where displacement is zero) and zero at the extremes — the opposite of acceleration.",
+        "hi": "SHM में अधिकतम चाल माध्य स्थिति पर होती है: $v_{max} = A\\omega$, जहाँ $\\omega = \\frac{2\\pi}{T}$। यहाँ $\\omega = \\frac{2\\times3.14}{2} = 3.14\\,rad/s$, अतः $v_{max} = 5 \\times 3.14 = 15.7\\,cm/s$। याद रखें: चाल दोलन के केंद्र पर (जहाँ विस्थापन शून्य है) अधिकतम होती है और चरम बिंदुओं पर शून्य — यह त्वरण के व्यवहार के ठीक विपरीत है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-04",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The escape velocity from Earth's surface is about 11.2 km/s. If Earth's radius were doubled while its mass stayed the same, the new escape velocity would be closest to:",
+        "hi": "पृथ्वी की सतह से पलायन वेग लगभग 11.2 km/s है। यदि पृथ्वी की त्रिज्या दोगुनी कर दी जाए और द्रव्यमान वही रहे, तो नया पलायन वेग किसके सबसे निकट होगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "22.4 km/s", "hi": "22.4 km/s"}},
+        {"id": "B", "text": {"en": "15.8 km/s", "hi": "15.8 km/s"}},
+        {"id": "C", "text": {"en": "7.92 km/s", "hi": "7.92 km/s"}},
+        {"id": "D", "text": {"en": "5.6 km/s", "hi": "5.6 km/s"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Escape velocity is $v_{esc}=\\sqrt{\\frac{2GM}{R}}$, so with mass $M$ fixed, $v_{esc} \\propto \\frac{1}{\\sqrt{R}}$. Doubling $R$ multiplies $v_{esc}$ by $\\frac{1}{\\sqrt{2}} \\approx 0.707$. New $v_{esc} \\approx 11.2 \\times 0.707 \\approx 7.92\\,km/s$. The trap here is assuming velocity halves when radius doubles — it doesn't, because of the square root.",
+        "hi": "पलायन वेग $v_{esc}=\\sqrt{\\frac{2GM}{R}}$ है, अतः द्रव्यमान $M$ स्थिर रहने पर $v_{esc} \\propto \\frac{1}{\\sqrt{R}}$। $R$ को दोगुना करने पर $v_{esc}$ में $\\frac{1}{\\sqrt{2}} \\approx 0.707$ का गुणक आता है। नया $v_{esc} \\approx 11.2 \\times 0.707 \\approx 7.92\\,km/s$। यहाँ सामान्य गलती यह मान लेना है कि त्रिज्या दोगुनी होने पर वेग आधा हो जाता है — वर्गमूल के कारण ऐसा नहीं होता।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-05",
+      "subject": "chemistry",
+      "chapter": "Mole Concept",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "How many moles are there in 4 g of NaOH? (Molar mass of NaOH = 40 g/mol)",
+        "hi": "4 g NaOH में कितने मोल होते हैं? (NaOH का मोलर द्रव्यमान = 40 g/mol)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.1", "hi": "0.1"}},
+        {"id": "B", "text": {"en": "0.2", "hi": "0.2"}},
+        {"id": "C", "text": {"en": "0.4", "hi": "0.4"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Moles $= \\frac{\\text{given mass}}{\\text{molar mass}} = \\frac{4}{40} = 0.1\\,mol$. Always double check the molar mass by adding atomic masses: Na (23) + O (16) + H (1) = 40 g/mol.",
+        "hi": "मोल $= \\frac{\\text{दिया गया द्रव्यमान}}{\\text{मोलर द्रव्यमान}} = \\frac{4}{40} = 0.1\\,mol$। मोलर द्रव्यमान की जाँच परमाणु द्रव्यमान जोड़कर करें: Na (23) + O (16) + H (1) = 40 g/mol।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following molecules has a linear shape, according to VSEPR theory?",
+        "hi": "VSEPR सिद्धांत के अनुसार, निम्नलिखित में से किस अणु का आकार रैखिक (linear) है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$H_2O$", "hi": "$H_2O$"}},
+        {"id": "B", "text": {"en": "$NH_3$", "hi": "$NH_3$"}},
+        {"id": "C", "text": {"en": "$CO_2$", "hi": "$CO_2$"}},
+        {"id": "D", "text": {"en": "$CH_4$", "hi": "$CH_4$"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In $CO_2$, the central carbon forms 2 $\\sigma$-bonds and has 0 lone pairs (sp hybridised), so the electron pairs arrange themselves $180^\\circ$ apart — linear. Compare: $H_2O$ (2 bond pairs + 2 lone pairs) is bent, $NH_3$ (3 bond pairs + 1 lone pair) is pyramidal, $CH_4$ (4 bond pairs, 0 lone pairs) is tetrahedral. The rule of thumb: count bond pairs AND lone pairs on the central atom, then apply VSEPR — lone pairs shape the molecule even though they're not drawn as bonds.",
+        "hi": "$CO_2$ में केंद्रीय कार्बन 2 $\\sigma$-बंध बनाता है और उस पर 0 एकाकी युग्म होते हैं (sp संकरण), इसलिए इलेक्ट्रॉन युग्म $180^\\circ$ के कोण पर व्यवस्थित होते हैं — रैखिक आकार। तुलना करें: $H_2O$ (2 बंध युग्म + 2 एकाकी युग्म) मुड़ा हुआ (bent), $NH_3$ (3 बंध युग्म + 1 एकाकी युग्म) पिरामिडनुमा, $CH_4$ (4 बंध युग्म, 0 एकाकी युग्म) चतुष्फलकीय। नियम: केंद्रीय परमाणु पर बंध युग्मों के साथ-साथ एकाकी युग्मों को भी गिनें और फिर VSEPR लागू करें — एकाकी युग्म भी आकार तय करते हैं, भले ही उन्हें बंध के रूप में न दर्शाया जाए।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-07",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "For the reaction $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$, if the volume of the container is suddenly reduced to half at constant temperature, the equilibrium will shift:",
+        "hi": "अभिक्रिया $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ के लिए, यदि स्थिर ताप पर पात्र का आयतन अचानक आधा कर दिया जाए, तो साम्य किस दिशा में विस्थापित होगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Towards the reactants", "hi": "अभिकारकों की ओर"}},
+        {"id": "B", "text": {"en": "Towards the products", "hi": "उत्पादों की ओर"}},
+        {"id": "C", "text": {"en": "No shift occurs", "hi": "कोई विस्थापन नहीं होगा"}},
+        {"id": "D", "text": {"en": "Cannot be determined", "hi": "निर्धारित नहीं किया जा सकता"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Halving the volume increases the pressure. By Le Chatelier's principle, the equilibrium shifts toward the side with fewer moles of gas to partly counteract that pressure increase. Reactant side: $1+3=4$ mol of gas. Product side: $2$ mol of gas. Since products have fewer moles, the equilibrium shifts forward, towards the products — this is exactly why the industrial Haber process uses high pressure to favour $NH_3$ formation.",
+        "hi": "आयतन आधा करने से दाब बढ़ जाता है। ले शातेलिए के सिद्धांत के अनुसार, साम्य उस दिशा में विस्थापित होता है जिस ओर गैस के मोल कम हों, ताकि दाब वृद्धि का आंशिक प्रतिकार हो सके। अभिकारक पक्ष: $1+3=4$ मोल गैस। उत्पाद पक्ष: $2$ मोल गैस। चूँकि उत्पादों की मोल संख्या कम है, साम्य आगे की ओर, उत्पादों की ओर विस्थापित होता है — यही कारण है कि औद्योगिक हैबर प्रक्रम में $NH_3$ बनाने के लिए उच्च दाब का उपयोग किया जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-08",
+      "subject": "maths",
+      "chapter": "Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If the roots of $x^2 - 7x + 12 = 0$ are $\\alpha$ and $\\beta$, what is $\\alpha + \\beta$?",
+        "hi": "यदि $x^2 - 7x + 12 = 0$ के मूल $\\alpha$ और $\\beta$ हैं, तो $\\alpha + \\beta$ क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "7", "hi": "7"}},
+        {"id": "C", "text": {"en": "12", "hi": "12"}},
+        {"id": "D", "text": {"en": "-7", "hi": "-7"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $ax^2+bx+c=0$, the sum of roots is $-\\frac{b}{a}$. Here $a=1, b=-7$, so $\\alpha+\\beta = -\\frac{-7}{1} = 7$. You don't need to actually factor or solve the equation to answer this — the sum/product-of-roots shortcut is faster and less error-prone.",
+        "hi": "$ax^2+bx+c=0$ के लिए मूलों का योग $-\\frac{b}{a}$ होता है। यहाँ $a=1, b=-7$, अतः $\\alpha+\\beta = -\\frac{-7}{1} = 7$। इसका उत्तर देने के लिए समीकरण को गुणनखंडित या हल करने की आवश्यकता नहीं है — मूलों के योग/गुणनफल का शॉर्टकट तेज़ और कम त्रुटिपूर्ण है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-09",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the value of $\\sin 75^\\circ$?",
+        "hi": "$\\sin 75^\\circ$ का मान क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$", "hi": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$"}},
+        {"id": "B", "text": {"en": "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$", "hi": "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$"}},
+        {"id": "C", "text": {"en": "$\\frac{\\sqrt{3}}{2}$", "hi": "$\\frac{\\sqrt{3}}{2}$"}},
+        {"id": "D", "text": {"en": "$\\frac{1}{2}$", "hi": "$\\frac{1}{2}$"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Write $75^\\circ = 45^\\circ + 30^\\circ$ and use $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$: $\\sin75^\\circ = \\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ = \\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac{1}{2} = \\frac{\\sqrt6+\\sqrt2}{4}$. This 45+30 split (or 45+60 style) is the standard trick whenever you're asked for the exact value of a 15°/75°/105° angle.",
+        "hi": "$75^\\circ = 45^\\circ + 30^\\circ$ लिखें और $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ का उपयोग करें: $\\sin75^\\circ = \\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ = \\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\cdot\\frac{1}{2} = \\frac{\\sqrt6+\\sqrt2}{4}$। जब भी 15°/75°/105° जैसे कोण के सटीक मान के लिए पूछा जाए, तो यह 45+30 (या 45+60) में तोड़ने की तरकीब मानक तरीका है।"
+      }
+    },
+    {
+      "id": "dd-2026-08-31-10",
+      "subject": "maths",
+      "chapter": "Application of Derivatives",
+      "difficulty": "medium",
+      "type": "numerical",
+      "question": {
+        "en": "If $y = x^3 - 3x^2 + 2$, find the value of $\\frac{dy}{dx}$ at $x = 1$.",
+        "hi": "यदि $y = x^3 - 3x^2 + 2$, तो $x = 1$ पर $\\frac{dy}{dx}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": -3,
+      "solution": {
+        "en": "Differentiate term by term: $\\frac{dy}{dx} = 3x^2 - 6x$. Substituting $x=1$: $3(1)^2 - 6(1) = 3 - 6 = -3$. A negative derivative here means the curve is falling (decreasing) at $x=1$ — useful to sanity-check your sign, not just the number.",
+        "hi": "पद-दर-पद अवकलन करें: $\\frac{dy}{dx} = 3x^2 - 6x$। $x=1$ रखने पर: $3(1)^2 - 6(1) = 3 - 6 = -3$। यहाँ ऋणात्मक अवकलज का अर्थ है कि $x=1$ पर वक्र घट रहा है — केवल संख्या ही नहीं, चिह्न की भी जाँच कर लेना उपयोगी होता है।"
+      }
+    }
+  ]
+}
 
