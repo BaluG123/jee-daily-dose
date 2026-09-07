@@ -1,1 +1,211 @@
+ {
+    "date": "2026-09-06",
+    "questions": [
+      {
+        "id": "dd-2026-09-06-01",
+        "subject": "physics",
+        "chapter": "Modern Physics",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "If the work function of a metal is $2.0\\,\\text{eV}$, what is its threshold wavelength in nm? (Take $hc \\approx 1240\\,\\text{eV}\\cdot\\text{nm}$)",
+          "hi": "यदि किसी धातु का कार्यफलन $2.0\\,\\text{eV}$ है, तो nm में इसकी देहली तरंगदैर्ध्य क्या है? ($hc \\approx 1240\\,\\text{eV}\\cdot\\text{nm}$ लें)"
+        },
+        "options": [],
+        "correctAnswer": 620,
+        "solution": {
+          "en": "Threshold wavelength $\\lambda_0 = \\frac{hc}{\\phi} = \\frac{1240}{2.0} = 620\\,\\text{nm}$.",
+          "hi": "देहली तरंगदैर्ध्य $\\lambda_0 = \\frac{hc}{\\phi} = \\frac{1240}{2.0} = 620\\,\\text{nm}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-02",
+        "subject": "physics",
+        "chapter": "Gravitation",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "The value of acceleration due to gravity $g$ at the centre of the Earth is:",
+          "hi": "पृथ्वी के केंद्र पर गुरुत्वीय त्वरण $g$ का मान है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "B", "text": {"en": "$9.8\\,\\text{m/s}^2$", "hi": "$9.8\\,\\text{m/s}^2$"}},
+          {"id": "C", "text": {"en": "Infinite", "hi": "अनंत"}},
+          {"id": "D", "text": {"en": "Double the surface value", "hi": "सतह के मान का दोगुना"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "At depth $d = R$, $g' = g\\left(1 - \\frac{d}{R}\\right) = g(1 - 1) = 0$.",
+          "hi": "गहराई $d = R$ पर, $g' = g\\left(1 - \\frac{d}{R}\\right) = g(1 - 1) = 0$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-03",
+        "subject": "physics",
+        "chapter": "Electrostatics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Electric field intensity inside a uniformly charged hollow conducting sphere is:",
+          "hi": "एकसमान रूप से आवेशित खोखले चालक गोले के भीतर विद्युत क्षेत्र की तीव्रता होती है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "B", "text": {"en": "Constant and non-zero", "hi": "स्थिर और गैर-शून्य"}},
+          {"id": "C", "text": {"en": "Inversely proportional to distance", "hi": "दूरी के व्युत्क्रमानुपाती"}},
+          {"id": "D", "text": {"en": "Infinite", "hi": "अनंत"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "According to Gauss's Law, enclosing no charge inside a closed Gaussian surface within the shell results in $E = 0$.",
+          "hi": "गॉस के नियम के अनुसार, कोश के भीतर किसी बंद गॉसियन सतह के अंदर कोई आवेश न होने के कारण $E = 0$ होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-04",
+        "subject": "chemistry",
+        "chapter": "Coordination Compounds",
+        "difficulty": "hard",
+        "type": "mcq",
+        "question": {
+          "en": "What is the IUPAC name of $[Co(NH_3)_5(Cl)]Cl_2$?",
+          "hi": "$[Co(NH_3)_5(Cl)]Cl_2$ का IUPAC नाम क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Pentaamminechloridocobalt(III) chloride", "hi": "पेन्टाऐम्मीनक्लोराइडोकोबाल्ट(III) क्लोराइड"}},
+          {"id": "B", "text": {"en": "Pentaamminechloridocobalt(II) chloride", "hi": "पेन्टाऐम्मीनक्लोराइडोकोबाल्ट(II) क्लोराइड"}},
+          {"id": "C", "text": {"en": "Chloridopentaamminecobalt(III) chloride", "hi": "क्लोराइडोपेन्टाऐम्मीनकोबाल्ट(III) क्लोराइड"}},
+          {"id": "D", "text": {"en": "Pentaamminedichloridocobalt(III) chloride", "hi": "पेन्टाऐम्मीनडाइक्लोराइडोकोबाल्ट(III) क्लोराइड"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Ligands are named alphabetically ('ammine' before 'chlorido'). Oxidation state of Cobalt is $+3$.",
+          "hi": "लिगंडों का नामकरण वर्णमाला के क्रम में किया जाता है ('ammine' पहले 'chlorido' से)। कोबाल्ट की ऑक्सीकरण अवस्था $+3$ है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-05",
+        "subject": "chemistry",
+        "chapter": "Chemical Equilibrium",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the relation between $K_p$ and $K_c$ for the reaction $\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$?",
+          "hi": "अभिक्रिया $\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$ के लिए $K_p$ और $K_c$ में क्या संबंध है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$K_p = K_c (RT)^{-2}$", "hi": "$K_p = K_c (RT)^{-2}$"}},
+          {"id": "B", "text": {"en": "$K_p = K_c (RT)^{2}$", "hi": "$K_p = K_c (RT)^{2}$"}},
+          {"id": "C", "text": {"en": "$K_p = K_c$", "hi": "$K_p = K_c$"}},
+          {"id": "D", "text": {"en": "$K_p = K_c (RT)^{-1}$", "hi": "$K_p = K_c (RT)^{-1}$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$\\Delta n_g = 2 - (1 + 3) = -2$. $K_p = K_c (RT)^{\\Delta n_g} = K_c (RT)^{-2}$.",
+          "hi": "$\\Delta n_g = 2 - (1 + 3) = -2$। $K_p = K_c (RT)^{\\Delta n_g} = K_c (RT)^{-2}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-06",
+        "subject": "chemistry",
+        "chapter": "Structure of Atom",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "Find the maximum number of electrons that can be accommodated in a subshell with $l = 2$.",
+          "hi": "$l = 2$ वाले उपकोश में समाहित किए जा सकने वाले इलेक्ट्रॉनों की अधिकतम संख्या ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 10,
+        "solution": {
+          "en": "$l = 2$ represents the d-subshell. Maximum electrons $= 2(2l + 1) = 2(2(2) + 1) = 10$.",
+          "hi": "$l = 2$ d-उपकोश का प्रतिनिधित्व करता है। अधिकतम इलेक्ट्रॉन $= 2(2l + 1) = 2(2(2) + 1) = 10$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-07",
+        "subject": "maths",
+        "chapter": "Complex Numbers",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "If $z = 1 + i\\sqrt{3}$, what is the principal argument of $z$?",
+          "hi": "यदि $z = 1 + i\\sqrt{3}$ है, तो $z$ का मुख्य कोणांक क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$\\pi/3$", "hi": "$\\pi/3$"}},
+          {"id": "B", "text": {"en": "$\\pi/6$", "hi": "$\\pi/6$"}},
+          {"id": "C", "text": {"en": "$2\\pi/3$", "hi": "$2\\pi/3$"}},
+          {"id": "D", "text": {"en": "5\\pi/6$", "hi": "5\\pi/6$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Since $x > 0, y > 0$, $\\text{Arg}(z) = \\tan^{-1}\\left|\\frac{y}{x}\\right| = \\tan^{-1}(\\sqrt{3}) = \\frac{\\pi}{3}$.",
+          "hi": "चूँकि $x > 0, y > 0$, $\\text{Arg}(z) = \\tan^{-1}\\left|\\frac{y}{x}\\right| = \\tan^{-1}(\\sqrt{3}) = \\frac{\\pi}{3}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-08",
+        "subject": "maths",
+        "chapter": "Straight Lines",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "Find the distance between the parallel lines $3x + 4y + 5 = 0$ and $3x + 4y - 10 = 0$.",
+          "hi": "समांतर रेखाओं $3x + 4y + 5 = 0$ और $3x + 4y - 10 = 0$ के बीच की दूरी ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 3,
+        "solution": {
+          "en": "Distance $d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}} = \\frac{|5 - (-10)|}{\\sqrt{3^2 + 4^2}} = \\frac{15}{5} = 3$.",
+          "hi": "दूरी $d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}} = \\frac{|5 - (-10)|}{\\sqrt{3^2 + 4^2}} = \\frac{15}{5} = 3$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-09",
+        "subject": "maths",
+        "chapter": "Permutations and Combinations",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Find the value of $^5C_2$.",
+          "hi": "$^5C_2$ का मान ज्ञात कीजिए।"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "10", "hi": "10"}},
+          {"id": "B", "text": {"en": "20", "hi": "20"}},
+          {"id": "C", "text": {"en": "5", "hi": "5"}},
+          {"id": "D", "text": {"en": "60", "hi": "60"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$^5C_2 = \\frac{5 \\times 4}{2 \\times 1} = 10$.",
+          "hi": "$^5C_2 = \\frac{5 \\times 4}{2 \\times 1} = 10$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-06-10",
+        "subject": "physics",
+        "chapter": "Kinematics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "An object thrown vertically upwards reaches a maximum height $H$. What is its velocity at the peak?",
+          "hi": "ऊर्ध्वाधर ऊपर की ओर फेंका गया पिंड अधिकतम ऊंचाई $H$ तक पहुंचता है। शीर्ष पर इसका वेग क्या होगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "B", "text": {"en": "$\\\\sqrt{gH}$", "hi": "$\\\\sqrt{gH}$"}},
+          {"id": "C", "text": {"en": "$gH$", "hi": "$gH$"}},
+          {"id": "D", "text": {"en": "$2gH$", "hi": "$2gH$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "At the highest point of projectile/vertical motion, the instantaneous velocity momentarily becomes zero before changing direction.",
+          "hi": "प्रक्षेप्य/ऊर्ध्वाधर गति के उच्चतम बिंदु पर, दिशा बदलने से पहले क्षणिक वेग शून्य हो जाता है।"
+        }
+      }
+    ]
+  }
 
