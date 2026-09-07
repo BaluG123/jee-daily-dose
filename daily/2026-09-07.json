@@ -1,1 +1,211 @@
+{
+    "date": "2026-09-07",
+    "questions": [
+      {
+        "id": "dd-2026-09-07-01",
+        "subject": "physics",
+        "chapter": "Capacitance",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "A parallel plate capacitor with air between plates has capacitance $C$. If a dielectric slab of $K = 4$ is inserted to completely fill the space while keeping the battery connected, how does the stored energy change?",
+          "hi": "वायु संधारित्र की धारिता $C$ है। यदि बैटरी को जुड़ा रखते हुए $K = 4$ की परावैद्युत पट्टी पूरी तरह से डाली जाती है, तो संचित ऊर्जा में क्या परिवर्तन होगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Increases by 4 times", "hi": "4 गुना बढ़ जाती है"}},
+          {"id": "B", "text": {"en": "Decreases to 1/4th", "hi": "1/4 तक घट जाती है"}},
+          {"id": "C", "text": {"en": "Remains unchanged", "hi": "अपरिवर्तित रहती है"}},
+          {"id": "D", "text": {"en": "Increases by 16 times", "hi": "16 गुना बढ़ जाती है"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Battery stays connected $\\implies V$ is constant. $C' = 4C$. Energy $U' = \\frac{1}{2}(4C)V^2 = 4 U$.",
+          "hi": "बैटरी जुड़ी रहती है $\\implies V$ स्थिर रहता है। $C' = 4C$। ऊर्जा $U' = \\frac{1}{2}(4C)V^2 = 4 U$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-02",
+        "subject": "physics",
+        "chapter": "Current Electricity",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "According to Ohm's law, the slope of the $V-I$ graph represents:",
+          "hi": "ओम के नियम के अनुसार, $V-I$ ग्राफ का ढाल (slope) दर्शाता है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Resistance", "hi": "प्रतिरोध"}},
+          {"id": "B", "text": {"en": "Conductance", "hi": "चालकता"}},
+          {"id": "C", "text": {"en": "Charge", "hi": "आवेश"}},
+          {"id": "D", "text": {"en": "Power", "hi": "शक्ति"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "From $V = IR$, slope $= \\frac{V}{I} = R$, which is the resistance of the conductor.",
+          "hi": "$V = IR$ से, ढाल $= \\frac{V}{I} = R$, जो चालक का प्रतिरोध है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-03",
+        "subject": "physics",
+        "chapter": "Work, Energy and Power",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "An engine lifts $100\\,\\text{kg}$ of water to a height of $10\\,\\text{m}$ in $10\\,\\text{seconds}$. Calculate its power in watts. (Take $g = 10\\,\\text{m/s}^2$)",
+          "hi": "एक इंजन $100\\,\\text{kg}$ पानी को $10\\,\\text{सेकंड}$ में $10\\,\\text{m}$ की ऊंचाई तक उठाता है। वाट में इसकी शक्ति की गणना कीजिए। ($g = 10\\,\\text{m/s}^2$ लें)"
+        },
+        "options": [],
+        "correctAnswer": 1000,
+        "solution": {
+          "en": "Power $P = \\frac{mgh}{t} = \\frac{100 \\times 10 \\times 10}{10} = 1000\\,\\text{W}$.",
+          "hi": "शक्ति $P = \\frac{mgh}{t} = \\frac{100 \\times 10 \\times 10}{10} = 1000\\,\\text{W}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-04",
+        "subject": "chemistry",
+        "chapter": "Electrochemistry",
+        "difficulty": "hard",
+        "type": "numerical",
+        "question": {
+          "en": "How many Faradays of electricity are required to reduce $1\\,\\text{mole}$ of $\\text{MnO}_4^-$ to $\\text{Mn}^{2+}$ in acidic medium?",
+          "hi": "अम्लीय माध्यम में $\\text{MnO}_4^-$ के $1\\,\\text{मोल}$ को $\\text{Mn}^{2+}$ में अपचयित करने के लिए कितने फैराडे विद्युत की आवश्यकता होगी?"
+        },
+        "options": [],
+        "correctAnswer": 5,
+        "solution": {
+          "en": "Reduction half reaction: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\to \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$. $1\\,\\text{mol}$ requires 5 moles of $e^- = 5\\,\\text{Faradays}$.",
+          "hi": "अपचयन अर्ध-अभिक्रिया: $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\to \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$। $1\\,\\text{मोल}$ को 5 मोल $e^- = 5\\,\\text{फैराडे}$ की आवश्यकता होती है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-05",
+        "subject": "chemistry",
+        "chapter": "Chemical Bonding",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the hybridization of carbon in methane ($\\text{CH}_4$)?",
+          "hi": "मेथेन ($\\text{CH}_4$) में कार्बन का संकरण क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$sp^3$", "hi": "$sp^3$"}},
+          {"id": "B", "text": {"en": "$sp^2$", "hi": "$sp^2$"}},
+          {"id": "C", "text": {"en": "$sp$", "hi": "$sp$"}},
+          {"id": "D", "text": {"en": "$sp^3d$", "hi": "$sp^3d$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Methane forms 4 single $\\sigma$-bonds with zero lone pairs on carbon, giving steric number $4 \\implies sp^3$ hybridization.",
+          "hi": "मेथेन कार्बन पर बिना किसी एकाकी युग्म के 4 एकल $\\sigma$-बंध बनाता है, जिससे स्टेरिक संख्या $4 \\implies sp^3$ संकरण प्राप्त होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-06",
+        "subject": "chemistry",
+        "chapter": "Some Basic Concepts of Chemistry",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the volume occupied by $1\\,\\text{mole}$ of an ideal gas at STP?",
+          "hi": "STP पर $1\\,\\text{मोल}$ आदर्श गैस द्वारा घेरा गया आयतन क्या होता है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "22.4 L", "hi": "22.4 L"}},
+          {"id": "B", "text": {"en": "11.2 L", "hi": "11.2 L"}},
+          {"id": "C", "text": {"en": "44.8 L", "hi": "44.8 L"}},
+          {"id": "D", "text": {"en": "2.24 L", "hi": "2.24 L"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "At standard temperature and pressure (STP), 1 mole of any ideal gas occupies $22.4\\,\\text{litres}$.",
+          "hi": "मानक ताप और दाब (STP) पर, किसी भी आदर्श गैस का 1 मोल $22.4\\,\\text{लीटर}$ आयतन घेरता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-07",
+        "subject": "maths",
+        "chapter": "3D Geometry",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "The distance of the point $(1, 2, 3)$ from the origin is:",
+          "hi": "मूल बिंदु से बिंदु $(1, 2, 3)$ की दूरी है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$\\sqrt{14}$", "hi": "$\\sqrt{14}$"}},
+          {"id": "B", "text": {"en": "$\\sqrt{6}$", "hi": "$\\sqrt{6}$"}},
+          {"id": "C", "text": {"en": "14", "hi": "14"}},
+          {"id": "D", "text": {"en": "6", "hi": "6"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Distance $d = \\sqrt{1^2 + 2^2 + 3^2} = \\sqrt{1 + 4 + 9} = \\sqrt{14}$.",
+          "hi": "दूरी $d = \\sqrt{1^2 + 2^2 + 3^2} = \\sqrt{1 + 4 + 9} = \\sqrt{14}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-08",
+        "subject": "maths",
+        "chapter": "Matrices",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "If $A$ is a square matrix of order 2 with $|A| = 5$, what is the value of $|2A|$?",
+          "hi": "यदि $A$ कोटि 2 का एक वर्ग आव्यूह है और $|A| = 5$ है, तो $|2A|$ का मान क्या होगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "20", "hi": "20"}},
+          {"id": "B", "text": {"en": "10", "hi": "10"}},
+          {"id": "C", "text": {"en": "40", "hi": "40"}},
+          {"id": "D", "text": {"en": "5", "hi": "5"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "For an $n \\times n$ matrix, $|kA| = k^n |A|$. Here $n = 2 \\implies |2A| = 2^2 |A| = 4 \\times 5 = 20$.",
+          "hi": "$n \\times n$ आव्यूह के लिए, $|kA| = k^n |A|$। यहाँ $n = 2 \\implies |2A| = 2^2 |A| = 4 \\times 5 = 20$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-09",
+        "subject": "maths",
+        "chapter": "Binomial Theorem",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Find the number of terms in the expansion of $(x + y)^{10}$.",
+          "hi": "$(x + y)^{10}$ के प्रसार में पदों की संख्या ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 11,
+        "solution": {
+          "en": "The expansion of $(a + b)^n$ contains $n + 1$ terms. For $n = 10$, total terms $= 10 + 1 = 11$.",
+          "hi": "$(a + b)^n$ के प्रसार में $n + 1$ पद होते हैं। $n = 10$ के लिए, कुल पद $= 10 + 1 = 11$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-07-10",
+        "subject": "physics",
+        "chapter": "Units and Measurements",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following is NOT a fundamental SI unit?",
+          "hi": "निम्नलिखित में से कौन सी मूल SI इकाई नहीं है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Joule", "hi": "जूल"}},
+          {"id": "B", "text": {"en": "Kelvin", "hi": "केल्विन"}},
+          {"id": "C", "text": {"en": "Candela", "hi": "कैंडेला"}},
+          {"id": "D", "text": {"en": "Ampere", "hi": "एम्पीयर"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Joule is a derived SI unit for energy ($\\\\text{kg}\\cdot\\text{m}^2\\cdot\\text{s}^{-2}$), whereas Kelvin, Candela, and Ampere are fundamental units.",
+          "hi": "जूल ऊर्जा की एक व्युत्पन्न SI इकाई है ($\\\\text{kg}\\cdot\\text{m}^2\\cdot\\text{s}^{-2}$), जबकि केल्विन, कैंडेला और एम्पीयर मूल इकाइयां हैं।"
+        }
+      }
+    ]
+  }
 
