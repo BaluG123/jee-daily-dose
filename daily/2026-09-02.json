@@ -1,1 +1,66 @@
-
+{
+    "date": "2026-09-02",
+    "questions": [
+      {
+        "id": "dd-2026-09-02-01",
+        "subject": "physics",
+        "chapter": "Ray Optics",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "A convex lens of focal length $20\\,\\text{cm}$ is placed in contact with a concave lens of focal length $10\\,\\text{cm}$. The focal length of the combination is:",
+          "hi": "$20\\,\\text{cm}$ फोकस दूरी का एक उत्तल लेंस $10\\,\\text{cm}$ फोकस दूरी के एक अवतल लेंस के संपर्क में रखा गया है। संयोजन की फोकस दूरी क्या होगी?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$-20\\,\\text{cm}$", "hi": "$-20\\,\\text{cm}$"}},
+          {"id": "B", "text": {"en": "$+20\\,\\text{cm}$", "hi": "$+20\\,\\text{cm}$"}},
+          {"id": "C", "text": {"en": "$-10\\,\\text{cm}$", "hi": "$-10\\,\\text{cm}$"}},
+          {"id": "D", "text": {"en": "$+30\\,\\text{cm}$", "hi": "$+30\\,\\text{cm}$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "For lenses in contact: $\\frac{1}{F_{eq}} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Here $f_1 = +20\\,\\text{cm}$ (convex) and $f_2 = -10\\,\\text{cm}$ (concave). $\\frac{1}{F_{eq}} = \\frac{1}{20} - \\frac{1}{10} = -\\frac{1}{20} \\implies F_{eq} = -20\\,\\text{cm}$. The combination behaves as a diverging lens.",
+          "hi": "संपर्क में रखे लेंसों के लिए: $\\frac{1}{F_{eq}} = \\frac{1}{f_1} + \\frac{1}{f_2}$। यहाँ $f_1 = +20\\,\\text{cm}$ (उत्तल) और $f_2 = -10\\,\\text{cm}$ (अवतल)। $\\frac{1}{F_{eq}} = \\frac{1}{20} - \\frac{1}{10} = -\\frac{1}{20} \\implies F_{eq} = -20\\,\\text{cm}$। संयोजन एक अपसारी (diverging) लेंस की तरह व्यवहार करता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-02",
+        "subject": "chemistry",
+        "chapter": "Chemical Kinetics",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "A first-order reaction is $75\\%$ complete in $40\\,\\text{minutes}$. What is the half-life ($t_{1/2}$) of the reaction in minutes?",
+          "hi": "एक प्रथम कोटि की अभिक्रिया $40\\,\\text{मिनट}$ में $75\\%$ पूरी हो जाती है। अभिक्रिया की अर्ध-आयु ($t_{1/2}$) मिनट में क्या है?"
+        },
+        "options": [],
+        "correctAnswer": 20,
+        "solution": {
+          "en": "For a first-order reaction, completing $75\\%$ means $25\\%$ reactant remains, which corresponds to two half-lives ($100\\% \\to 50\\% \\to 25\\%$). Therefore, $2 \\times t_{1/2} = 40\\,\\text{min} \\implies t_{1/2} = 20\\,\\text{min}$. Shortcut rule: $t_{75\\%} = 2 \\times t_{50\\%}$.",
+          "hi": "प्रथम कोटि की अभिक्रिया के लिए, $75\\%$ पूरा होने का अर्थ है $25\\%$ अभिकारक शेष बचना, जो दो अर्ध-आयु ($100\\% \\to 50\\% \\to 25\\%$) के बराबर है। इसलिए, $2 \\times t_{1/2} = 40\\,\\text{मिनट} \\implies t_{1/2} = 20\\,\\text{मिनट}$। संक्षिप्त नियम: $t_{75\\%} = 2 \\times t_{50\\%}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-03",
+        "subject": "maths",
+        "chapter": "Limits and Continuity",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Evaluate the limit: $\\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x^2}$.",
+          "hi": "सीमा का मान ज्ञात कीजिए: $\\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x^2}$। "
+        },
+        "options": [
+          {"id": "A", "text": {"en": "1", "hi": "1"}},
+          {"id": "B", "text": {"en": "2", "hi": "2"}},
+          {"id": "C", "text": {"en": "4", "hi": "4"}},
+          {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+        ],
+        "correctAnswer": "B",
+        "solution": {
+          "en": "Using trigonometric identity $1 - \\cos(2x) = 2\\sin^2 x$, the limit becomes $\\lim_{x \\to 0} \\frac{2\\sin^2 x}{x^2} = 2 \\left(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\right)^2 = 2(1)^2 = 2$. Alternatively, apply L'Hôpital's Rule twice.",
+          "hi": "त्रिकोणमितीय सर्वसमिका $1 - \\cos(2x) = 2\\sin^2 x$ का उपयोग करने पर, सीमा हो जाती है: $\\lim_{x \\to 0} \\frac{2\\sin^2 x}{x^2} = 2 \\left(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\right)^2 = 2(1)^2 = 2$। या आप L'Hôpital नियम दो बार लागू कर सकते हैं।"
+        }
+      }
+    ]
+  }
