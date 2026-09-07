@@ -1,1 +1,206 @@
+{
+    "date": "2026-09-04",
+    "questions": [
+      {
+        "id": "dd-2026-09-04-01",
+        "subject": "physics",
+        "chapter": "Electromagnetic Induction",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "A circular loop of radius $r$ is placed in a uniform magnetic field $B$ perpendicular to its plane. If the radius shrinks at a constant rate $\\frac{dr}{dt} = -v$, what is the induced EMF in the loop at the instant when the radius is $r_0$?",
+          "hi": "त्रिज्या $r$ का एक वृत्ताकार लूप इसके तल के लंबवत एकसमान चुंबकीय क्षेत्र $B$ में रखा है। यदि त्रिज्या एक समान दर $\\frac{dr}{dt} = -v$ से सिकुड़ती है, तो उस क्षण लूप में प्रेरित EMF क्या होगा जब त्रिज्या $r_0$ है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$2\\pi B r_0 v$", "hi": "$2\\pi B r_0 v$"}},
+          {"id": "B", "text": {"en": "$\\pi B r_0^2 v$", "hi": "$\\pi B r_0^2 v$"}},
+          {"id": "C", "text": {"en": "$B r_0 v$", "hi": "$B r_0 v$"}},
+          {"id": "D", "text": {"en": "$4\\pi B r_0 v$", "hi": "$4\\pi B r_0 v$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Magnetic flux $\\Phi = B \\cdot (\\pi r^2)$. Induced EMF magnitude is $|\\mathcal{E}| = \\frac{d\\Phi}{dt} = 2\\pi B r \\left|\\frac{dr}{dt}\\right|$. Substituting $r = r_0$ and $\\left|\\frac{dr}{dt}\\right| = v$ gives $2\\pi B r_0 v$.",
+          "hi": "चुंबकीय फ्लक्स $\\Phi = B \\cdot (\\pi r^2)$ है। प्रेरित EMF का परिमाण $|\\mathcal{E}| = \\frac{d\\Phi}{dt} = 2\\pi B r \\left|\\frac{dr}{dt}\\right|$ है। $r = r_0$ और $\\left|\\frac{dr}{dt}\\right| = v$ रखने पर $2\\pi B r_0 v$ प्राप्त होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-02",
+        "subject": "physics",
+        "chapter": "Electrostatics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Two point charges $+q$ and $-q$ are placed at a distance $d$ apart. What is the electric potential at the midpoint of the line joining them?",
+          "hi": "दो बिंदु आवेश $+q$ और $-q$ एक दूसरे से $d$ दूरी पर रखे हैं। उन्हें जोड़ने वाली रेखा के मध्य बिंदु पर विद्युत विभव क्या होगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "B", "text": {"en": "$\\frac{2kq}{d}$", "hi": "$\\frac{2kq}{d}$"}},
+          {"id": "C", "text": {"en": "$\\frac{4kq}{d}$", "hi": "$\\frac{4kq}{d}$"}},
+          {"id": "D", "text": {"en": "$\\frac{kq}{d^2}$", "hi": "$\\frac{kq}{d^2}$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "The potential at the midpoint $V = V_1 + V_2 = \\frac{k(+q)}{d/2} + \\frac{k(-q)}{d/2} = 0$.",
+          "hi": "मध्य बिंदु पर विभव $V = V_1 + V_2 = \\frac{k(+q)}{d/2} + \\frac{k(-q)}{d/2} = 0$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-03",
+        "subject": "physics",
+        "chapter": "Current Electricity",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "A wire of resistance $12\\,\\Omega$ is bent into a closed circle. Find the equivalent resistance between two diametrically opposite points in ohms.",
+          "hi": "12 ओम प्रतिरोध के एक तार को मोड़कर एक बंद वृत्त बनाया गया है। दो व्यासतः विपरीत बिंदुओं के बीच तुल्य प्रतिरोध (ओम में) ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 3,
+        "solution": {
+          "en": "The circle is divided into two semi-circular paths of resistance $6\\,\\Omega$ each in parallel. $R_{eq} = \\frac{6 \\times 6}{6 + 6} = 3\\,\\Omega$.",
+          "hi": "वृत्त $6\\,\\Omega$ के दो अर्धवृत्ताकार मार्गों में समांतर क्रम में विभाजित हो जाता है। $R_{eq} = \\frac{6 \\times 6}{6 + 6} = 3\\,\\Omega$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-04",
+        "subject": "chemistry",
+        "chapter": "Thermodynamics in Chemistry",
+        "difficulty": "hard",
+        "type": "mcq",
+        "question": {
+          "en": "For a spontaneous process at all temperatures, what must be the signs of $\\Delta H$ and $\\Delta S$, respectively?",
+          "hi": "सभी तापों पर एक स्वतःप्रवर्तित प्रक्रम के लिए, $\\Delta H$ और $\\Delta S$ के चिह्न क्रमशः क्या होने चाहिए?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Negative, Positive", "hi": "ऋणात्मक, धनात्मक"}},
+          {"id": "B", "text": {"en": "Positive, Negative", "hi": "धनात्मक, ऋणात्मक"}},
+          {"id": "C", "text": {"en": "Negative, Negative", "hi": "ऋणात्मक, ऋणात्मक"}},
+          {"id": "D", "text": {"en": "Positive, Positive", "hi": "धनात्मक, धनात्मक"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "For spontaneity, $\\Delta G = \\Delta H - T\\Delta S < 0$. If $\\Delta H < 0$ and $\\Delta S > 0$, then $\\Delta G < 0$ for all temperatures.",
+          "hi": "स्वतःप्रवर्तनीयता के लिए $\\Delta G = \\Delta H - T\\Delta S < 0$ होना चाहिए। यदि $\\Delta H < 0$ और $\\Delta S > 0$ हो, तो सभी तापों पर $\\Delta G < 0$ रहेगा।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-05",
+        "subject": "chemistry",
+        "chapter": "Chemical Bonding",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following species is diamagnetic in nature according to Molecular Orbital Theory?",
+          "hi": "आणविक कक्षक सिद्धांत के अनुसार निम्नलिखित में से कौन सी प्रजाति प्रतिचुंबकीय (diamagnetic) है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$N_2$", "hi": "$N_2$"}},
+          {"id": "B", "text": {"en": "$O_2$", "hi": "$O_2$"}},
+          {"id": "C", "text": {"en": "$B_2$", "hi": "$B_2$"}},
+          {"id": "D", "text": {"en": "$NO$", "hi": "$NO$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$N_2$ has 14 electrons with all electrons paired in MO configuration, making it diamagnetic. $O_2$ and $B_2$ have unpaired electrons.",
+          "hi": "$N_2$ में 14 इलेक्ट्रॉन होते हैं और MO विन्यास में सभी इलेक्ट्रॉन युग्मित होते हैं, जिससे यह प्रतिचुंबकीय होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-06",
+        "subject": "chemistry",
+        "chapter": "Solutions",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Calculate the molality (in mol/kg) of a solution prepared by dissolving $10\\,\\text{g}$ of $\\text{NaOH}$ (molar mass $= 40\\,\\text{g/mol}$) in $500\\,\\text{g}$ of water.",
+          "hi": "$500\\,\\text{g}$ जल में $10\\,\\text{g}$ $\\text{NaOH}$ (मोलर द्रव्यमान $= 40\\,\\text{g/mol}$) घोलकर बनाए गए विलयन की मोललता (mol/kg में) की गणना कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 0.5,
+        "solution": {
+          "en": "Moles of $\\text{NaOH} = \\frac{10}{40} = 0.25\\,\\text{mol}$. Molality $m = \\frac{\\text{Moles}}{\\text{Mass of solvent in kg}} = \\frac{0.25}{0.5} = 0.5\\,\\text{m}$.",
+          "hi": "$\\text{NaOH}$ के मोल $= \\frac{10}{40} = 0.25\\,\\text{mol}$। मोललता $m = \\frac{\\text{मोल}}{\\text{विलायक का द्रव्यमान (kg में)}} = \\frac{0.25}{0.5} = 0.5\\,\\text{m}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-07",
+        "subject": "maths",
+        "chapter": "Vector Algebra",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "If vectors $\\vec{a} = 2\\hat{i} + \\lambda\\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$ are perpendicular to each other, find the value of $\\lambda$.",
+          "hi": "यदि सदिश $\\vec{a} = 2\\hat{i} + \\lambda\\hat{j} + \\hat{k}$ और $\\vec{b} = \\hat{i} - 2\\hat{j} + 3\\hat{k}$ एक-दूसरे के लंबवत हैं, तो $\\lambda$ का मान ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 2.5,
+        "solution": {
+          "en": "$\\vec{a} \\cdot \\vec{b} = 0 \\implies (2)(1) + (\\lambda)(-2) + (1)(3) = 0 \\implies 5 - 2\\lambda = 0 \\implies \\lambda = 2.5$.",
+          "hi": "$\\vec{a} \\cdot \\vec{b} = 0 \\implies (2)(1) + (\\lambda)(-2) + (1)(3) = 0 \\implies 5 - 2\\lambda = 0 \\implies \\lambda = 2.5$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-08",
+        "subject": "maths",
+        "chapter": "Matrices",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "If matrix $A$ is of order $2 \\times 3$ and matrix $B$ is of order $3 \\times 4$, then what is the order of matrix $AB$?",
+          "hi": "यदि आव्यूह $A$ की कोटि $2 \\times 3$ है और आव्यूह $B$ की कोटि $3 \\times 4$ है, तो आव्यूह $AB$ की कोटि क्या होगी?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$2 \\times 4$", "hi": "$2 \\times 4$"}},
+          {"id": "B", "text": {"en": "$3 \\times 3$", "hi": "$3 \\times 3$"}},
+          {"id": "C", "text": {"en": "$4 \\times 2$", "hi": "$4 \\times 2$"}},
+          {"id": "D", "text": {"en": "Product $AB$ is not defined", "hi": "गुणनफल $AB$ परिभाषित नहीं है"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "For multiplication $A_{m \\times n} B_{n \\times p}$, the resulting matrix has order $m \\times p$. Thus, $AB$ has order $2 \\times 4$.",
+          "hi": "गुणनफल $A_{m \\times n} B_{n \\times p}$ के लिए प्राप्त आव्यूह की कोटि $m \\times p$ होती है। अतः $AB$ की कोटि $2 \\times 4$ होगी।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-09",
+        "subject": "maths",
+        "chapter": "Limits and Derivatives",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Evaluate $\\lim_{x \\to 0} \\frac{\\sin(5x)}{3x}$.",
+          "hi": "$\\lim_{x \\to 0} \\frac{\\sin(5x)}{3x}$ का मान ज्ञात कीजिए।"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$5/3$", "hi": "$5/3$"}},
+          {"id": "B", "text": {"en": "$3/5$", "hi": "$3/5$"}},
+          {"id": "C", "text": {"en": "$1$", "hi": "$1$"}},
+          {"id": "D", "text": {"en": "$0$", "hi": "$0$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$\\lim_{x \\to 0} \\frac{\\sin(5x)}{5x} \\cdot \\frac{5}{3} = 1 \\cdot \\frac{5}{3} = \\frac{5}{3}$.",
+          "hi": "$\\lim_{x \\to 0} \\frac{\\sin(5x)}{5x} \\cdot \\frac{5}{3} = 1 \\cdot \\frac{5}{3} = \\frac{5}{3}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-04-10",
+        "subject": "physics",
+        "chapter": "Kinematics",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "A car accelerates uniformly from rest to $20\\,\\text{m/s}$ in $5\\,\\text{seconds}$. Find its acceleration in $\\text{m/s}^2$.",
+          "hi": "एक कार विराम अवस्था से $5\\,\\text{सेकंड}$ में समान रूप से त्वरित होकर $20\\,\\text{m/s}$ की गति प्राप्त करती है। इसका त्वरण $\\text{m/s}^2$ में ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 4,
+        "solution": {
+          "en": "Using $v = u + at$: $20 = 0 + a(5) \\implies a = 4\\,\\text{m/s}^2$.",
+          "hi": "$v = u + at$ का प्रयोग करने पर: $20 = 0 + a(5) \\implies a = 4\\,\\text{m/s}^2$।"
+        }
+      }
+    ]
+  }
 
