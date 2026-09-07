@@ -1,104 +1,204 @@
-{
+  {
     "date": "2026-09-01",
     "questions": [
       {
         "id": "dd-2026-09-01-01",
         "subject": "physics",
-        "chapter": "Electrostatics",
-        "difficulty": "medium",
+        "chapter": "Units and Measurements",
+        "difficulty": "easy",
         "type": "mcq",
         "question": {
-          "en": "Two identical metallic spheres having charges $+4q$ and $-2q$ are placed at a distance $r$ apart. They exert a force $F$ on each other. If they are brought into contact and then separated back to the same distance $r$, what will be the new electrostatic force between them?",
-          "hi": "दो समान धातु के गोलों पर क्रमश: $+4q$ और $-2q$ आवेश हैं तथा वे एक-दूसरे से $r$ दूरी पर स्थित हैं। वे एक-दूसरे पर $F$ बल लगाते हैं। यदि उन्हें आपस में स्पर्श कराने के बाद पुनः उसी दूरी $r$ पर रख दिया जाए, तो उनके बीच नया विद्युत-स्थैतिक बल क्या होगा?"
+          "en": "The dimensional formula for Universal Gravitational Constant ($G$) is:",
+          "hi": "सार्वत्रिक गुरुत्वाकर्षण स्थिरांक ($G$) का विमीय सूत्र है:"
         },
         "options": [
-          {"id": "A", "text": {"en": "$F/8$", "hi": "$F/8$"}},
-          {"id": "B", "text": {"en": "$F/4$", "hi": "$F/4$"}},
-          {"id": "C", "text": {"en": "$F/2$", "hi": "$F/2$"}},
-          {"id": "D", "text": {"en": "$F$", "hi": "$F$"}}
+          {"id": "A", "text": {"en": "$[M^{-1} L^3 T^{-2}]$", "hi": "$[M^{-1} L^3 T^{-2}]$"}},
+          {"id": "B", "text": {"en": "$[M^1 L^2 T^{-2}]$", "hi": "$[M^1 L^2 T^{-2}]$"}},
+          {"id": "C", "text": {"en": "$[M^{-1} L^2 T^{-1}]$", "hi": "$[M^{-1} L^2 T^{-1}]$"}},
+          {"id": "D", "text": {"en": "$[M^0 L^3 T^{-2}]$", "hi": "$[M^0 L^3 T^{-2}]$"}}
         ],
         "correctAnswer": "A",
         "solution": {
-          "en": "Initial force magnitude: $F = k \\frac{|(4q)(-2q)|}{r^2} = \\frac{8kq^2}{r^2}$. When brought into contact, charge redistributes equally: $q_{new} = \\frac{4q + (-2q)}{2} = +q$. The new force is $F' = k \\frac{q \\cdot q}{r^2} = \\frac{kq^2}{r^2}$. Comparing both, $F' = \\frac{F}{8}$. Always remember: identical conducting spheres share total charge equally upon contact.",
-          "hi": "प्रारंभिक बल का परिमाण: $F = k \\frac{|(4q)(-2q)|}{r^2} = \\frac{8kq^2}{r^2}$। स्पर्श कराने पर आवेश समान रूप से वितरित होता है: $q_{new} = \\frac{4q + (-2q)}{2} = +q$। नया बल $F' = k \\frac{q \\cdot q}{r^2} = \\frac{kq^2}{r^2}$ है। तुलना करने पर $F' = \\frac{F}{8}$। याद रखें: समान चालक गोलों को स्पर्श कराने पर कुल आवेश आधा-आधा बँट जाता है।"
+          "en": "From Newton's law of gravitation, $F = G \\frac{m_1 m_2}{r^2} \\implies G = \\frac{F r^2}{m_1 m_2}$. Dimensions: $[G] = \\frac{[M L T^{-2}][L^2]}{[M^2]} = [M^{-1} L^3 T^{-2}]$.",
+          "hi": "न्यूटन के गुरुत्वाकर्षण नियम से, $F = G \\frac{m_1 m_2}{r^2} \\implies G = \\frac{F r^2}{m_1 m_2}$। विमाएं: $[G] = \\frac{[M L T^{-2}][L^2]}{[M^2]} = [M^{-1} L^3 T^{-2}]$।"
         }
       },
       {
         "id": "dd-2026-09-01-02",
         "subject": "physics",
-        "chapter": "Laws of Motion",
-        "difficulty": "hard",
+        "chapter": "Units and Measurements",
+        "difficulty": "easy",
         "type": "numerical",
         "question": {
-          "en": "A block of mass 2 kg rests on an inclined plane of inclination $30^\\circ$. If the coefficient of static friction $\\mu_s = 0.6$, what magnitude of frictional force (in N) acts on the block? (Take $g = 10\\,m/s^2$)",
-          "hi": "2 kg द्रव्यमान का एक गुटका $30^\\circ$ झुकाव वाले आनत तल पर रखा है। यदि स्थैतिक घर्षण गुणांक $\\mu_s = 0.6$ है, तो गुटके पर लगने वाले घर्षण बल का परिमाण (N में) क्या है? ($g = 10\\,m/s^2$ लें)"
+          "en": "If the error in measuring the radius of a sphere is 2%, calculate the percentage error in the measurement of its volume.",
+          "hi": "यदि किसी गोले की त्रिज्या के मापन में त्रुटि 2% है, तो इसके आयतन के मापन में प्रतिशत त्रुटि की गणना कीजिए।"
         },
         "options": [],
-        "correctAnswer": 10,
+        "correctAnswer": 6,
         "solution": {
-          "en": "First calculate the maximum static friction: $f_{s,max} = \\mu_s m g \\cos 30^\\circ = 0.6 \\times 2 \\times 10 \\times \\frac{\\sqrt{3}}{2} \\approx 10.39\\,N$. The component of gravity pulling down the incline is $F_{down} = m g \\sin 30^\\circ = 2 \\times 10 \\times 0.5 = 10\\,N$. Since $F_{down} < f_{s,max}$, the block does NOT slide, so static friction equals the applied downward force $10\\,N$. The classic trap is writing $f = \\mu N$ without checking if slipping actually occurs!",
-          "hi": "पहले अधिकतम स्थैतिक घर्षण निकालें: $f_{s,max} = \\mu_s m g \\cos 30^\\circ = 0.6 \\times 2 \\times 10 \\times \\frac{\\sqrt{3}}{2} \\approx 10.39\\,N$। आनत तल पर नीचे की ओर खींचने वाला गुरुत्व घटक $F_{down} = m g \\sin 30^\\circ = 2 \\times 10 \\times 0.5 = 10\\,N$ है। चूँकि $F_{down} < f_{s,max}$, गुटका फिसलेगा नहीं, इसलिए स्थैतिक घर्षण बल नीचे की ओर लगने वाले बल $10\\,N$ के बराबर होगा। सबसे आम गलती बिना यह जाँचे कि फिसलना शुरू हुआ है या नहीं, सीधे $f = \\mu N$ लिख देना है!"
+          "en": "Volume $V = \\frac{4}{3}\\pi r^3$. Fractional error $\\frac{\\Delta V}{V} = 3 \\left(\\frac{\\Delta r}{r}\\right)$. Percentage error $= 3 \\times 2\\% = 6\\%$.",
+          "hi": "आयतन $V = \\frac{4}{3}\\pi r^3$। भिन्नात्मक त्रुटि $\\frac{\\Delta V}{V} = 3 \\left(\\frac{\\Delta r}{r}\\right)$। प्रतिशत त्रुटि $= 3 \\times 2\\% = 6\\%$।"
         }
       },
       {
         "id": "dd-2026-09-01-03",
-        "subject": "chemistry",
-        "chapter": "Atomic Structure",
-        "difficulty": "medium",
+        "subject": "physics",
+        "chapter": "Kinematics",
+        "difficulty": "easy",
         "type": "mcq",
         "question": {
-          "en": "According to Bohr's theory, how does the radius $r_n$ of a hydrogen atom scale with the principal quantum number $n$?",
-          "hi": "बोर के सिद्धांत के अनुसार, हाइड्रोजन परमाणु की त्रिज्या $r_n$ मुख्य क्वांटम संख्या $n$ के साथ किस प्रकार बदलती है?"
+          "en": "A body dropped from height $h$ reaches the ground in time $t$. What is the height of the body at time $t/2$ from the ground?",
+          "hi": "ऊंचाई $h$ से गिराया गया एक पिंड $t$ समय में जमीन पर पहुंचता है। $t/2$ समय पर जमीन से पिंड की ऊंचाई क्या है?"
         },
         "options": [
-          {"id": "A", "text": {"en": "$r_n \\propto n$", "hi": "$r_n \\propto n$"}},
-          {"id": "B", "text": {"en": "$r_n \\propto n^2$", "hi": "$r_n \\propto n^2$"}},
-          {"id": "C", "text": {"en": "$r_n \\propto \\frac{1}{n}$", "hi": "$r_n \\propto \\frac{1}{n}$"}},
-          {"id": "D", "text": {"en": "$r_n \\propto \\frac{1}{n^2}$", "hi": "$r_n \\propto \\frac{1}{n^2}$"}}
+          {"id": "A", "text": {"en": "$h/4$", "hi": "$h/4$"}},
+          {"id": "B", "text": {"en": "$h/2$", "hi": "$h/2$"}},
+          {"id": "C", "text": {"en": "$3h/4$", "hi": "$3h/4$"}},
+          {"id": "D", "text": {"en": "$2h/3$", "hi": "$2h/3$"}}
         ],
-        "correctAnswer": "B",
+        "correctAnswer": "C",
         "solution": {
-          "en": "Bohr's radius formula is $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m e^2 Z} \\approx 0.529 \\frac{n^2}{Z}\\,\\text{Å}$. Thus, radius is directly proportional to $n^2$. As $n$ increases, energy levels get exponentially farther from the nucleus.",
-          "hi": "बोर का त्रिज्या सूत्र $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m e^2 Z} \\approx 0.529 \\frac{n^2}{Z}\\,\\text{Å}$ है। अत: त्रिज्या $n^2$ के अनुक्रमानुपाती होती है। जैसे-जैसे $n$ बढ़ता है, ऊर्जा स्तर नाभिक से तेज़ी से दूर होते जाते हैं।"
+          "en": "Total height $h = \\frac{1}{2}gt^2$. Distance fallen in time $t/2$ is $y = \\frac{1}{2}g(t/2)^2 = \\frac{h}{4}$. Height from ground $= h - \\frac{h}{4} = \\frac{3h}{4}$.",
+          "hi": "कुल ऊंचाई $h = \\frac{1}{2}gt^2$। $t/2$ समय में तय की गई दूरी $y = \\frac{1}{2}g(t/2)^2 = \\frac{h}{4}$ है। जमीन से ऊंचाई $= h - \\frac{h}{4} = \\frac{3h}{4}$।"
         }
       },
       {
         "id": "dd-2026-09-01-04",
         "subject": "chemistry",
-        "chapter": "Solutions",
-        "difficulty": "hard",
-        "type": "numerical",
+        "chapter": "Some Basic Concepts of Chemistry",
+        "difficulty": "easy",
+        "type": "mcq",
         "question": {
-          "en": "What is the van 't Hoff factor ($i$) for a 0.1 M aqueous solution of $K_4[Fe(CN)_6]$ assuming 100% dissociation?",
-          "hi": "100% वियोजन मानते हुए $K_4[Fe(CN)_6]$ के 0.1 M जलीय विलयन के लिए वांट हॉफ कारक ($i$) क्या है?"
+          "en": "How many moles of oxygen atoms are present in $49\\,\\text{g}$ of pure $\\text{H}_2\\text{SO}_4$? (Molar mass $= 98\\,\\text{g/mol}$)",
+          "hi": "$49\\,\\text{g}$ शुद्ध $\\text{H}_2\\text{SO}_4$ में ऑक्सीजन परमाणुओं के कितने मोल उपस्थित हैं? (मोलर द्रव्यमान $= 98\\,\\text{g/mol}$)"
         },
-        "options": [],
-        "correctAnswer": 5,
+        "options": [
+          {"id": "A", "text": {"en": "1", "hi": "1"}},
+          {"id": "B", "text": {"en": "2", "hi": "2"}},
+          {"id": "C", "text": {"en": "0.5", "hi": "0.5"}},
+          {"id": "D", "text": {"en": "4", "hi": "4"}}
+        ],
+        "correctAnswer": "B",
         "solution": {
-          "en": "When $K_4[Fe(CN)_6]$ completely dissociates, it forms 4 $K^+$ ions and 1 complex anion $[Fe(CN)_6]^{4-}$. Total ions produced per formula unit = $4 + 1 = 5$. Thus, $i = 5$. Complex ions inside coordination brackets do not dissociate further in water.",
-          "hi": "जब $K_4[Fe(CN)_6]$ पूरी तरह से वियोजित होता है, तो यह 4 $K^+$ आयन और 1 जटिल ऋणायन $[Fe(CN)_6]^{4-}$ बनाता है। प्रति सूत्र इकाई उत्पन्न कुल आयन = $4 + 1 = 5$। अतः $i = 5$। उपसहसंयोजन कोष्ठक (brackets) के अंदर के जटिल आयन पानी में आगे वियोजित नहीं होते।"
+          "en": "Moles of $\\text{H}_2\\text{SO}_4 = \\frac{49}{98} = 0.5\\,\\text{mol}$. Since 1 mole contains 4 moles of O atoms, total moles of O $= 0.5 \\times 4 = 2\\,\\text{moles}$.",
+          "hi": "$\\text{H}_2\\text{SO}_4$ के मोल $= \\frac{49}{98} = 0.5\\,\\text{mol}$। चूंकि 1 मोल में 4 मोल O परमाणु होते हैं, O के कुल मोल $= 0.5 \\times 4 = 2\\,\\text{मोल}$।"
         }
       },
       {
         "id": "dd-2026-09-01-05",
-        "subject": "maths",
-        "chapter": "Matrices and Determinants",
+        "subject": "chemistry",
+        "chapter": "Some Basic Concepts of Chemistry",
         "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Find the molarity of a solution prepared by dissolving $4\\,\\text{g}$ of $\\text{NaOH}$ in water to form $250\\,\\text{mL}$ solution.",
+          "hi": "$4\\,\\text{g}$ $\\text{NaOH}$ को जल में घोलकर $250\\,\\text{mL}$ विलयन बनाने पर प्राप्त विलयन की मोलरता ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 0.4,
+        "solution": {
+          "en": "Moles of $\\text{NaOH} = \\frac{4}{40} = 0.1\\,\\text{mol}$. Molarity $M = \\frac{\\text{moles}}{\\text{Volume in L}} = \\frac{0.1}{0.25} = 0.4\\,\\text{M}$.",
+          "hi": "$\\text{NaOH}$ के मोल $= \\frac{4}{40} = 0.1\\,\\text{mol}$। मोलरता $M = \\frac{\\text{मोल}}{\\text{लीटर में आयतन}} = \\frac{0.1}{0.25} = 0.4\\,\\text{M}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-06",
+        "subject": "chemistry",
+        "chapter": "Structure of Atom",
+        "difficulty": "easy",
         "type": "mcq",
         "question": {
-          "en": "If $A$ is a non-singular square matrix of order $3 \\times 3$ such that $|A| = 4$, then what is the value of $|\text{adj}(A)|$?",
-          "hi": "यदि $A$ कोटि $3 \\times 3$ का एक व्युत्क्रमणीय वर्ग आव्यूह है जहाँ $|A| = 4$, तो $|\text{adj}(A)|$ का मान क्या है?"
+          "en": "The total number of orbitals associated with the principal quantum number $n = 3$ is:",
+          "hi": "मुख्य क्वांटम संख्या $n = 3$ से संबंधित कक्षकों की कुल संख्या है:"
         },
         "options": [
-          {"id": "A", "text": {"en": "4", "hi": "4"}},
-          {"id": "B", "text": {"en": "12", "hi": "12"}},
+          {"id": "A", "text": {"en": "9", "hi": "9"}},
+          {"id": "B", "text": {"en": "4", "hi": "4"}},
           {"id": "C", "text": {"en": "16", "hi": "16"}},
-          {"id": "D", "text": {"en": "64", "hi": "64"}}
+          {"id": "D", "text": {"en": "3", "hi": "3"}}
         ],
-        "correctAnswer": "C",
+        "correctAnswer": "A",
         "solution": {
-          "en": "For any non-singular matrix $A$ of order $n$, $|\text{adj}(A)| = |A|^{n-1}$. Here $n=3$ and $|A|=4$, so $|\text{adj}(A)| = 4^{3-1} = 4^2 = 16$. This is one of the most frequently tested matrix properties in JEE Main.",
-          "hi": "कोटि $n$ के किसी भी व्युत्क्रमणीय आव्यूह $A$ के लिए, $|\text{adj}(A)| = |A|^{n-1}$। यहाँ $n=3$ और $|A|=4$, इसलिए $|\text{adj}(A)| = 4^{3-1} = 4^2 = 16$। यह JEE Main में सबसे अधिक पूछे जाने वाले आव्यूह गुणों में से एक है।"
+          "en": "The total number of orbitals in a shell given by principal quantum number $n$ is $n^2$. For $n = 3$, $n^2 = 3^2 = 9$.",
+          "hi": "मुख्य क्वांटम संख्या $n$ द्वारा दी गई कोश में कक्षकों की कुल संख्या $n^2$ होती है। $n = 3$ के लिए, $n^2 = 3^2 = 9$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-07",
+        "subject": "maths",
+        "chapter": "Sets and Relations",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "If a set $A$ contains 4 elements, then the total number of subsets of $A$ is:",
+          "hi": "यदि एक समुच्चय $A$ में 4 अवयव हैं, तो $A$ के उपसमुच्चयों की कुल संख्या है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "16", "hi": "16"}},
+          {"id": "B", "text": {"en": "8", "hi": "8"}},
+          {"id": "C", "text": {"en": "12", "hi": "12"}},
+          {"id": "D", "text": {"en": "32", "hi": "32"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "For a set with $n$ elements, the number of subsets is $2^n$. Here $2^4 = 16$.",
+          "hi": "$n$ अवयवों वाले समुच्चय के लिए, उपसमुच्चयों की संख्या $2^n$ होती है। यहाँ $2^4 = 16$ है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-08",
+        "subject": "maths",
+        "chapter": "Sets and Relations",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "If $n(A) = 15$, $n(B) = 20$, and $n(A \\cup B) = 30$, find $n(A \\cap B)$.",
+          "hi": "यदि $n(A) = 15$, $n(B) = 20$, और $n(A \\cup B) = 30$ है, तो $n(A \\cap B)$ ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 5,
+        "solution": {
+          "en": "Using formula $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) \\implies 30 = 15 + 20 - n(A \\cap B) \\implies n(A \\cap B) = 5$.",
+          "hi": "सूत्र $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) \\implies 30 = 15 + 20 - n(A \\cap B) \\implies n(A \\cap B) = 5$ का उपयोग करने पर।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-09",
+        "subject": "maths",
+        "chapter": "Trigonometric Functions",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Find the value of $\\sin(75^\\circ)$.",
+          "hi": "$\\sin(75^\\circ)$ का मान ज्ञात कीजिए।"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$", "hi": "$\\frac{\\sqrt{3}+1}{2\\sqrt{2}}$"}},
+          {"id": "B", "text": {"en": "$\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$", "hi": "$\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$"}},
+          {"id": "C", "text": {"en": "$\\frac{\\sqrt{3}}{2}$", "hi": "$\\frac{\\sqrt{3}}{2}$"}},
+          {"id": "D", "text": {"en": "$\\frac{1}{\\sqrt{2}}$", "hi": "$\\frac{1}{\\sqrt{2}}$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$\\sin(45^\\circ + 30^\\circ) = \\sin 45^\\circ \\cos 30^\\circ + \\cos 45^\\circ \\sin 30^\\circ = \\left(\\frac{1}{\\sqrt{2}}\\right)\\left(\\frac{\\sqrt{3}}{2}\\right) + \\left(\\frac{1}{\\sqrt{2}}\\right)\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$.",
+          "hi": "$\\sin(45^\\circ + 30^\\circ) = \\sin 45^\\circ \\cos 30^\\circ + \\cos 45^\\circ \\sin 30^\\circ = \\left(\\frac{1}{\\sqrt{2}}\\right)\\left(\\frac{\\sqrt{3}}{2}\\right) + \\left(\\frac{1}{\\sqrt{2}}\\right)\\left(\\frac{1}{2}\\right) = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-10",
+        "subject": "physics",
+        "chapter": "Vectors",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "Find the magnitude of the vector $\\vec{A} = 3\\hat{i} + 4\\hat{j} + 12\\hat{k}$.",
+          "hi": "सदिश $\\vec{A} = 3\\hat{i} + 4\\hat{j} + 12\\hat{k}$ का परिमाण ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 13,
+        "solution": {
+          "en": "$|\\vec{A}| = \\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$.",
+          "hi": "$|\\vec{A}| = \\sqrt{3^2 + 4^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$।"
         }
       }
     ]
