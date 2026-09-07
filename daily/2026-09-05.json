@@ -1,1 +1,211 @@
+  {
+    "date": "2026-09-05",
+    "questions": [
+      {
+        "id": "dd-2026-09-05-01",
+        "subject": "physics",
+        "chapter": "Rotational Motion",
+        "difficulty": "hard",
+        "type": "mcq",
+        "question": {
+          "en": "A solid sphere and a hollow sphere of equal mass $M$ and equal radius $R$ roll down an inclined plane without slipping from rest. Which one reaches the bottom first?",
+          "hi": "समान द्रव्यमान $M$ और समान त्रिज्या $R$ का एक ठोस गोला और एक खोखला गोला विराम अवस्था से बिना फिसले एक आनत तल पर नीचे की ओर लुढ़कते हैं। कौन सा पहले नीचे पहुँचेगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Solid sphere", "hi": "ठोस गोला"}},
+          {"id": "B", "text": {"en": "Hollow sphere", "hi": "खोखला गोला"}},
+          {"id": "C", "text": {"en": "Both reach at the same time", "hi": "दोनों एक ही समय पर पहुँचेंगे"}},
+          {"id": "D", "text": {"en": "Depends on the incline angle", "hi": "आनत कोण पर निर्भर करता है"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Acceleration $a = \\frac{g \\sin\\theta}{1 + k^2/R^2}$. Solid sphere has $k^2/R^2 = 0.4$, which is smaller than hollow sphere ($0.67$). Smaller $k^2/R^2$ gives higher acceleration, so the solid sphere reaches first.",
+          "hi": "त्वरण $a = \\frac{g \\sin\\theta}{1 + k^2/R^2}$ होता है। ठोस गोले के लिए $k^2/R^2 = 0.4$ है, जो खोखले गोले ($0.67$) से कम है। कम मान उच्च त्वरण देता है, इसलिए ठोस गोला पहले पहुँचेगा।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-02",
+        "subject": "physics",
+        "chapter": "Work, Energy and Power",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "A force $\\vec{F} = (3\\hat{i} + 4\\hat{j})\\,\\text{N}$ acts on a particle and displaces it by $\\vec{d} = (2\\hat{i} + 5\\hat{j})\\,\\text{m}$. Calculate the work done in Joules.",
+          "hi": "एक बल $\\vec{F} = (3\\hat{i} + 4\\hat{j})\\,\\text{N}$ एक कण पर कार्य करता है और उसे $\\vec{d} = (2\\hat{i} + 5\\hat{j})\\,\\text{m}$ विस्थापित करता है। जूल में किए गए कार्य की गणना कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 26,
+        "solution": {
+          "en": "Work done $W = \\vec{F} \\cdot \\vec{d} = (3)(2) + (4)(5) = 6 + 20 = 26\\,\\text{J}$.",
+          "hi": "किया गया कार्य $W = \\vec{F} \\cdot \\vec{d} = (3)(2) + (4)(5) = 6 + 20 = 26\\,\\text{J}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-03",
+        "subject": "physics",
+        "chapter": "Ray Optics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "The focal length of a plane mirror is:",
+          "hi": "समतल दर्पण की फोकस दूरी होती है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Infinity", "hi": "अनंत"}},
+          {"id": "B", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "C", "text": {"en": "$25\\,\\text{cm}$", "hi": "$25\\,\\text{cm}$"}},
+          {"id": "D", "text": {"en": "$1\\,\\text{m}$", "hi": "$1\\,\\text{m}$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "A plane mirror is a flat reflecting surface, which can be thought of as a spherical mirror with infinite radius of curvature ($R = \\infty$). Therefore, $f = R/2 = \\infty$.",
+          "hi": "समतल दर्पण एक सपाट परावर्तक सतह है, जिसे अनंत वक्रता त्रिज्या ($R = \\infty$) वाला गोलीय दर्पण माना जा सकता है। अतः $f = R/2 = \\infty$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-04",
+        "subject": "chemistry",
+        "chapter": "Organic Chemistry - Hydrocarbons",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Addition of HBr to propene in the presence of benzoyl peroxide yields majorly:",
+          "hi": "बेंज़ोइल परऑक्साइड की उपस्थिति में प्रोपीन में HBr मिलाने पर मुख्य रूप से क्या प्राप्त होता है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "1-bromopropane", "hi": "1-ब्रोमोप्रोपेन"}},
+          {"id": "B", "text": {"en": "2-bromopropane", "hi": "2-ब्रोमोप्रोपेन"}},
+          {"id": "C", "text": {"en": "1,2-dibromopropane", "hi": "1,2-डाइब्रोमोप्रोपेन"}},
+          {"id": "D", "text": {"en": "2-propanol", "hi": "2-प्रोपेनॉल"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Peroxide induces Anti-Markovnikov addition via free-radical mechanism, yielding 1-bromopropane.",
+          "hi": "परऑक्साइड मुक्त-मूलक क्रियाविधि के माध्यम से ऐंटी-मार्कोनिकॉफ योग को प्रेरित करता है, जिससे 1-ब्रोमोप्रोपेन प्राप्त होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-05",
+        "subject": "chemistry",
+        "chapter": "Periodic Table & Periodicity",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following elements has the highest electronegativity?",
+          "hi": "निम्नलिखित में से किस तत्व की विद्युत ऋणात्मकता सबसे अधिक है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Fluorine", "hi": "फ्लोरीन"}},
+          {"id": "B", "text": {"en": "Chlorine", "hi": "क्लोरीन"}},
+          {"id": "C", "text": {"en": "Oxygen", "hi": "ऑक्सीजन"}},
+          {"id": "D", "text": {"en": "Nitrogen", "hi": "नाइट्रोजन"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Fluorine is the most electronegative element in the periodic table with a Pauling scale value of 4.0.",
+          "hi": "पॉलिंग पैमाने पर 4.0 के मान के साथ फ्लोरीन आवर्त सारणी में सबसे अधिक विद्युत ऋणात्मक तत्व है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-06",
+        "subject": "chemistry",
+        "chapter": "Chemical Kinetics",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "The half-life of a first-order reaction is $20\\,\\text{minutes}$. Calculate the rate constant $k$ in $\\text{min}^{-1}$. (Use $\\ln 2 \\approx 0.693$)",
+          "hi": "एक प्रथम कोटि की अभिक्रिया की अर्ध-आयु $20\\,\\text{मिनट}$ है। $\\text{min}^{-1}$ में दर स्थिरांक $k$ की गणना कीजिए। ($\\ln 2 \\approx 0.693$ का उपयोग करें)"
+        },
+        "options": [],
+        "correctAnswer": 0.03465,
+        "solution": {
+          "en": "For first order reaction, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{20} = 0.03465\\,\\text{min}^{-1}$.",
+          "hi": "प्रथम कोटि की अभिक्रिया के लिए, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{20} = 0.03465\\,\\text{min}^{-1}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-07",
+        "subject": "maths",
+        "chapter": "Probability",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Two fair dice are rolled simultaneously. What is the probability that the sum of the numbers appearing on top is 8?",
+          "hi": "दो निष्पक्ष पासे एक साथ फेंके जाते हैं। ऊपर आने वाली संख्याओं का योग 8 होने की प्रायिकता क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "5/36", "hi": "5/36"}},
+          {"id": "B", "text": {"en": "1/6", "hi": "1/6"}},
+          {"id": "C", "text": {"en": "1/9", "hi": "1/9"}},
+          {"id": "D", "text": {"en": "7/36", "hi": "7/36"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Favourable pairs = $(2,6), (3,5), (4,4), (5,3), (6,2)$ (5 outcomes). Total outcomes = 36. Probability = 5/36.",
+          "hi": "अनुकूल युग्म = $(2,6), (3,5), (4,4), (5,3), (6,2)$ (5 परिणाम)। कुल परिणाम = 36। प्रायिकता = 5/36।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-08",
+        "subject": "maths",
+        "chapter": "Quadratic Equations",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 - 5x + 6 = 0$, find the value of $\\alpha^2 + \\beta^2$.",
+          "hi": "यदि $\\alpha$ और $\\beta$ समीकरण $x^2 - 5x + 6 = 0$ के मूल हैं, तो $\\alpha^2 + \\beta^2$ का मान ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 13,
+        "solution": {
+          "en": "Sum of roots $\\alpha + \\beta = 5$, Product of roots $\\alpha\\beta = 6$. $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 5^2 - 2(6) = 25 - 12 = 13$.",
+          "hi": "मूलों का योग $\\alpha + \\beta = 5$, मूलों का गुणनफल $\\alpha\\beta = 6$। $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 5^2 - 2(6) = 25 - 12 = 13$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-09",
+        "subject": "maths",
+        "chapter": "Integration",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Evaluate $\\int e^x (x + 1) \\, dx$.",
+          "hi": "$\\int e^x (x + 1) \\, dx$ का मान ज्ञात कीजिए।"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$x e^x + C$", "hi": "$x e^x + C$"}},
+          {"id": "B", "text": {"en": "$e^x + C$", "hi": "$e^x + C$"}},
+          {"id": "C", "text": {"en": "$(x-1)e^x + C$", "hi": "$(x-1)e^x + C$"}},
+          {"id": "D", "text": {"en": "$\\frac{x^2}{2}e^x + C$", "hi": "$\\frac{x^2}{2}e^x + C$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Using formula $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$. Here $f(x) = x \\implies f'(x) = 1$. Result is $x e^x + C$.",
+          "hi": "सूत्र $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$ का उपयोग करने पर। यहाँ $f(x) = x \\implies f'(x) = 1$ है। उत्तर $x e^x + C$ है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-05-10",
+        "subject": "maths",
+        "chapter": "Straight Lines",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the slope of a line perpendicular to $2x + 3y + 5 = 0$?",
+          "hi": "रेखा $2x + 3y + 5 = 0$ के लंबवत रेखा की प्रवणता (slope) क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$3/2$", "hi": "$3/2$"}},
+          {"id": "B", "text": {"en": "$-2/3$", "hi": "$-2/3$"}},
+          {"id": "C", "text": {"en": "$-3/2$", "hi": "$-3/2$"}},
+          {"id": "D", "text": {"en": "$2/3$", "hi": "$2/3$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Slope of given line $m_1 = -2/3$. For perpendicular lines, $m_1 m_2 = -1 \\implies m_2 = -1 / (-2/3) = 3/2$.",
+          "hi": "दी गई रेखा की प्रवणता $m_1 = -2/3$। लंबवत रेखाओं के लिए, $m_1 m_2 = -1 \\implies m_2 = -1 / (-2/3) = 3/2$।"
+        }
+      }
+    ]
+  }
 
