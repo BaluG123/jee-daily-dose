@@ -1,1 +1,206 @@
+{
+    "date": "2026-09-03",
+    "questions": [
+      {
+        "id": "dd-2026-09-03-01",
+        "subject": "physics",
+        "chapter": "Kinematics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "A particle moves along a circular path of radius $R$. What is the displacement of the particle after completing half a revolution?",
+          "hi": "एक कण त्रिज्या $R$ के एक वृत्ताकार पथ के अनुदिश गति करता है। आधा चक्कर पूरा करने के बाद कण का विस्थापन क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$\\pi R$", "hi": "$\\pi R$"}},
+          {"id": "B", "text": {"en": "$2R$", "hi": "$2R$"}},
+          {"id": "C", "text": {"en": "$2\\pi R$", "hi": "$2\\pi R$"}},
+          {"id": "D", "text": {"en": "Zero", "hi": "शून्य"}}
+        ],
+        "correctAnswer": "B",
+        "solution": {
+          "en": "Displacement is the shortest distance between initial and final points. After half a circle, the particle is diametrically opposite to its starting point, so displacement $= 2R$.",
+          "hi": "विस्थापन प्रारंभिक और अंतिम बिंदुओं के बीच की न्यूनतम दूरी है। आधा वृत्त पूरा करने के बाद, कण अपने शुरुआती बिंदु के ठीक व्यास के विपरीत होता है, इसलिए विस्थापन $= 2R$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-02",
+        "subject": "physics",
+        "chapter": "Kinematics",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "A ball is projected horizontally with a velocity of $10\\,\\text{m/s}$ from a height of $20\\,\\text{m}$. Find the horizontal distance (in meters) covered by the ball before striking the ground. (Take $g = 10\\,\\text{m/s}^2$)",
+          "hi": "एक गेंद को $20\\,\\text{m}$ की ऊंचाई से $10\\,\\text{m/s}$ के वेग से क्षैतिज रूप से प्रक्षेपित किया जाता है। जमीन से टकराने से पहले गेंद द्वारा तय की गई क्षैतिज दूरी (मीटर में) ज्ञात कीजिए। ($g = 10\\,\\text{m/s}^2$ लें)"
+        },
+        "options": [],
+        "correctAnswer": 20,
+        "solution": {
+          "en": "Time to hit ground $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\times 20}{10}} = 2\\,\\text{seconds}$. Horizontal range $x = u_x \\times t = 10 \\times 2 = 20\\,\\text{m}$.",
+          "hi": "जमीन से टकराने का समय $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\times 20}{10}} = 2\\,\\text{सेकंड}$। क्षैतिज परास $x = u_x \\times t = 10 \\times 2 = 20\\,\\text{m}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-03",
+        "subject": "physics",
+        "chapter": "Work, Energy and Power",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Work done by a conservative force along a closed path is always:",
+          "hi": "एक बंद पथ के अनुदिश एक संरक्षित बल द्वारा किया गया कार्य हमेशा होता है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+          {"id": "B", "text": {"en": "Positive", "hi": "धनात्मक"}},
+          {"id": "C", "text": {"en": "Negative", "hi": "ऋणात्मक"}},
+          {"id": "D", "text": {"en": "Dependent on the path taken", "hi": "तय किए गए पथ पर निर्भर"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "By definition, work done by any conservative force (like gravity or electrostatic force) over a closed loop is zero.",
+          "hi": "परिभाषा के अनुसार, किसी भी संरक्षित बल (जैसे गुरुत्वाकर्षण या स्थिरविद्युत बल) द्वारा बंद लूप पर किया गया कार्य शून्य होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-04",
+        "subject": "chemistry",
+        "chapter": "Some Basic Concepts of Chemistry",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following concentration terms is independent of temperature?",
+          "hi": "निम्नलिखित में से कौन सा सांद्रता पद तापमान पर निर्भर नहीं करता है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Molality", "hi": "मोललता"}},
+          {"id": "B", "text": {"en": "Molarity", "hi": "मोलरता"}},
+          {"id": "C", "text": {"en": "Normality", "hi": "नॉर्मलता"}},
+          {"id": "D", "text": {"en": "Volume percentage", "hi": "आयतन प्रतिशत"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Molality is defined as moles of solute per kilogram of solvent. Since mass does not change with temperature, molality is temperature-independent.",
+          "hi": "मोललता को प्रति किलोग्राम विलायक में विलेय के मोल के रूप में परिभाषित किया जाता है। चूँकि द्रव्यमान तापमान के साथ नहीं बदलता है, इसलिए मोललता तापमान से स्वतंत्र होती है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-05",
+        "subject": "chemistry",
+        "chapter": "Structure of Atom",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Calculate the maximum number of electrons in an atom that can have quantum numbers $n = 4$ and $m_l = -1$.",
+          "hi": "एक परमाणु में अधिकतम इलेक्ट्रॉनों की संख्या की गणना कीजिए जिनके लिए क्वांटम संख्याएं $n = 4$ और $m_l = -1$ हो सकती हैं।"
+        },
+        "options": [],
+        "correctAnswer": 6,
+        "solution": {
+          "en": "For $n = 4$, possible values of $l$ are $0, 1, 2, 3$ (s, p, d, f subshells). Subshell s ($l=0$) has no $m_l = -1$. Subshells p, d, and f each contain exactly one orbital with $m_l = -1$. Total orbitals $= 3$. Since each orbital holds 2 electrons, total electrons $= 3 \\times 2 = 6$.",
+          "hi": "$n = 4$ के लिए, $l$ के संभावित मान $0, 1, 2, 3$ (s, p, d, f उपकोश) हैं। s उपकोश ($l=0$) में $m_l = -1$ नहीं होता है। p, d, और f उपकोशों में से प्रत्येक में $m_l = -1$ वाला ठीक एक कक्षक होता है। कुल कक्षक $= 3$। चूंकि प्रत्येक कक्षक में 2 इलेक्ट्रॉन हो सकते हैं, कुल इलेक्ट्रॉन $= 3 \\times 2 = 6$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-06",
+        "subject": "chemistry",
+        "chapter": "Periodic Table & Periodicity",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following elements has the highest electron gain enthalpy (most negative)?",
+          "hi": "निम्नलिखित में से किस तत्व की इलेक्ट्रॉन लब्धि एन्थैल्पी सबसे अधिक (सबसे अधिक ऋणात्मक) है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Chlorine (Cl)", "hi": "क्लोरीन (Cl)"}},
+          {"id": "B", "text": {"en": "Fluorine (F)", "hi": "फ्लोरीन (F)"}},
+          {"id": "C", "text": {"en": "Bromine (Br)", "hi": "ब्रोमीन (Br)"}},
+          {"id": "D", "text": {"en": "Oxygen (O)", "hi": "ऑक्सीजन (O)"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Chlorine has a more negative electron gain enthalpy than Fluorine because Fluorine's small 2p orbital experiences stronger inter-electronic repulsions.",
+          "hi": "क्लोरीन की इलेक्ट्रॉन लब्धि एन्थैल्पी फ्लोरीन की तुलना में अधिक ऋणात्मक होती है क्योंकि फ्लोरीन के छोटे 2p कक्षक में तीव्र अंतर-इलेक्ट्रॉनी प्रतिकर्षण होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-07",
+        "subject": "maths",
+        "chapter": "Trigonometric Functions",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the principal value of $\\cos^{-1}\\left(-\\frac{1}{2}\\right)$?",
+          "hi": "$\\cos^{-1}\\left(-\\frac{1}{2}\\right)$ का मुख्य मान क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$2\\pi/3$", "hi": "$2\\pi/3$"}},
+          {"id": "B", "text": {"en": "$\\pi/3$", "hi": "$\\pi/3$"}},
+          {"id": "C", "text": {"en": "$4\\pi/3$", "hi": "$4\\pi/3$"}},
+          {"id": "D", "text": {"en": "-\\pi/3$", "hi": "-\\pi/3$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Using the identity $\\cos^{-1}(-x) = \\pi - \\cos^{-1}(x)$, we get $\\cos^{-1}\\left(-\\frac{1}{2}\\right) = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$.",
+          "hi": "सर्वसमिका $\\cos^{-1}(-x) = \\pi - \\cos^{-1}(x)$ का उपयोग करने पर, हमें $\\cos^{-1}\\left(-\\frac{1}{2}\\right) = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$ प्राप्त होता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-08",
+        "subject": "maths",
+        "chapter": "Sequences and Series",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "The $n^{\\text{th}}$ term of an Arithmetic Progression is given by $a_n = 3n + 5$. Find the sum of the first 10 terms.",
+          "hi": "एक समांतर श्रेणी का $n$वां पद $a_n = 3n + 5$ द्वारा दिया गया है। प्रथम 10 पदों का योग ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 215,
+        "solution": {
+          "en": "First term $a_1 = 3(1) + 5 = 8$. $10^{\\text{th}}$ term $a_{10} = 3(10) + 5 = 35$. Sum $S_{10} = \\frac{n}{2}(a_1 + a_{10}) = \\frac{10}{2}(8 + 35) = 5 \\times 43 = 215$.",
+          "hi": "पहला पद $a_1 = 3(1) + 5 = 8$। $10$वां पद $a_{10} = 3(10) + 5 = 35$। योग $S_{10} = \\frac{n}{2}(a_1 + a_{10}) = \\frac{10}{2}(8 + 35) = 5 \\times 43 = 215$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-09",
+        "subject": "maths",
+        "chapter": "Straight Lines",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "The slope of a line perpendicular to the line $2x - 3y + 6 = 0$ is:",
+          "hi": "रेखा $2x - 3y + 6 = 0$ के लंबवत रेखा की प्रवणता (slope) है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$-3/2$", "hi": "$-3/2$"}},
+          {"id": "B", "text": {"en": "$2/3$", "hi": "$2/3$"}},
+          {"id": "C", "text": {"en": "$-2/3$", "hi": "$-2/3$"}},
+          {"id": "D", "text": {"en": "$3/2$", "hi": "$3/2$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Slope of given line $m_1 = -\\frac{a}{b} = -\\frac{2}{-3} = \\frac{2}{3}$. Slope of perpendicular line $m_2 = -\\frac{1}{m_1} = -\\frac{3}{2}$.",
+          "hi": "दी गई रेखा की प्रवणता $m_1 = -\\frac{a}{b} = -\\frac{2}{-3} = \\frac{2}{3}$। लंबवत रेखा की प्रवणता $m_2 = -\\frac{1}{m_1} = -\\frac{3}{2}$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-03-10",
+        "subject": "physics",
+        "chapter": "Vectors",
+        "difficulty": "easy",
+        "type": "numerical",
+        "question": {
+          "en": "If vectors $\\vec{A} = 2\\hat{i} + a\\hat{j} + \\hat{k}$ and $\\vec{B} = 4\\hat{i} - 2\\hat{j} - 2\\hat{k}$ are perpendicular to each other, find the value of $a$.",
+          "hi": "यदि सदिश $\\vec{A} = 2\\hat{i} + a\\hat{j} + \\hat{k}$ और $\\vec{B} = 4\\hat{i} - 2\\hat{j} - 2\\hat{k}$ एक दूसरे के लंबवत हैं, तो $a$ का मान ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 3,
+        "solution": {
+          "en": "For perpendicular vectors, $\\vec{A} \\cdot \\vec{B} = 0 \\implies (2)(4) + (a)(-2) + (1)(-2) = 0 \\implies 8 - 2a - 2 = 0 \\implies 2a = 6 \\implies a = 3$.",
+          "hi": "लंबवत सदिशों के लिए, $\\vec{A} \\cdot \\vec{B} = 0 \\implies (2)(4) + (a)(-2) + (1)(-2) = 0 \\implies 8 - 2a - 2 = 0 \\implies 2a = 6 \\implies a = 3$।"
+        }
+      }
+    ]
+  }
 
