@@ -1,1 +1,105 @@
-
+{
+    "date": "2026-09-01",
+    "questions": [
+      {
+        "id": "dd-2026-09-01-01",
+        "subject": "physics",
+        "chapter": "Electrostatics",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "Two identical metallic spheres having charges $+4q$ and $-2q$ are placed at a distance $r$ apart. They exert a force $F$ on each other. If they are brought into contact and then separated back to the same distance $r$, what will be the new electrostatic force between them?",
+          "hi": "दो समान धातु के गोलों पर क्रमश: $+4q$ और $-2q$ आवेश हैं तथा वे एक-दूसरे से $r$ दूरी पर स्थित हैं। वे एक-दूसरे पर $F$ बल लगाते हैं। यदि उन्हें आपस में स्पर्श कराने के बाद पुनः उसी दूरी $r$ पर रख दिया जाए, तो उनके बीच नया विद्युत-स्थैतिक बल क्या होगा?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$F/8$", "hi": "$F/8$"}},
+          {"id": "B", "text": {"en": "$F/4$", "hi": "$F/4$"}},
+          {"id": "C", "text": {"en": "$F/2$", "hi": "$F/2$"}},
+          {"id": "D", "text": {"en": "$F$", "hi": "$F$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Initial force magnitude: $F = k \\frac{|(4q)(-2q)|}{r^2} = \\frac{8kq^2}{r^2}$. When brought into contact, charge redistributes equally: $q_{new} = \\frac{4q + (-2q)}{2} = +q$. The new force is $F' = k \\frac{q \\cdot q}{r^2} = \\frac{kq^2}{r^2}$. Comparing both, $F' = \\frac{F}{8}$. Always remember: identical conducting spheres share total charge equally upon contact.",
+          "hi": "प्रारंभिक बल का परिमाण: $F = k \\frac{|(4q)(-2q)|}{r^2} = \\frac{8kq^2}{r^2}$। स्पर्श कराने पर आवेश समान रूप से वितरित होता है: $q_{new} = \\frac{4q + (-2q)}{2} = +q$। नया बल $F' = k \\frac{q \\cdot q}{r^2} = \\frac{kq^2}{r^2}$ है। तुलना करने पर $F' = \\frac{F}{8}$। याद रखें: समान चालक गोलों को स्पर्श कराने पर कुल आवेश आधा-आधा बँट जाता है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-02",
+        "subject": "physics",
+        "chapter": "Laws of Motion",
+        "difficulty": "hard",
+        "type": "numerical",
+        "question": {
+          "en": "A block of mass 2 kg rests on an inclined plane of inclination $30^\\circ$. If the coefficient of static friction $\\mu_s = 0.6$, what magnitude of frictional force (in N) acts on the block? (Take $g = 10\\,m/s^2$)",
+          "hi": "2 kg द्रव्यमान का एक गुटका $30^\\circ$ झुकाव वाले आनत तल पर रखा है। यदि स्थैतिक घर्षण गुणांक $\\mu_s = 0.6$ है, तो गुटके पर लगने वाले घर्षण बल का परिमाण (N में) क्या है? ($g = 10\\,m/s^2$ लें)"
+        },
+        "options": [],
+        "correctAnswer": 10,
+        "solution": {
+          "en": "First calculate the maximum static friction: $f_{s,max} = \\mu_s m g \\cos 30^\\circ = 0.6 \\times 2 \\times 10 \\times \\frac{\\sqrt{3}}{2} \\approx 10.39\\,N$. The component of gravity pulling down the incline is $F_{down} = m g \\sin 30^\\circ = 2 \\times 10 \\times 0.5 = 10\\,N$. Since $F_{down} < f_{s,max}$, the block does NOT slide, so static friction equals the applied downward force $10\\,N$. The classic trap is writing $f = \\mu N$ without checking if slipping actually occurs!",
+          "hi": "पहले अधिकतम स्थैतिक घर्षण निकालें: $f_{s,max} = \\mu_s m g \\cos 30^\\circ = 0.6 \\times 2 \\times 10 \\times \\frac{\\sqrt{3}}{2} \\approx 10.39\\,N$। आनत तल पर नीचे की ओर खींचने वाला गुरुत्व घटक $F_{down} = m g \\sin 30^\\circ = 2 \\times 10 \\times 0.5 = 10\\,N$ है। चूँकि $F_{down} < f_{s,max}$, गुटका फिसलेगा नहीं, इसलिए स्थैतिक घर्षण बल नीचे की ओर लगने वाले बल $10\\,N$ के बराबर होगा। सबसे आम गलती बिना यह जाँचे कि फिसलना शुरू हुआ है या नहीं, सीधे $f = \\mu N$ लिख देना है!"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-03",
+        "subject": "chemistry",
+        "chapter": "Atomic Structure",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "According to Bohr's theory, how does the radius $r_n$ of a hydrogen atom scale with the principal quantum number $n$?",
+          "hi": "बोर के सिद्धांत के अनुसार, हाइड्रोजन परमाणु की त्रिज्या $r_n$ मुख्य क्वांटम संख्या $n$ के साथ किस प्रकार बदलती है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$r_n \\propto n$", "hi": "$r_n \\propto n$"}},
+          {"id": "B", "text": {"en": "$r_n \\propto n^2$", "hi": "$r_n \\propto n^2$"}},
+          {"id": "C", "text": {"en": "$r_n \\propto \\frac{1}{n}$", "hi": "$r_n \\propto \\frac{1}{n}$"}},
+          {"id": "D", "text": {"en": "$r_n \\propto \\frac{1}{n^2}$", "hi": "$r_n \\propto \\frac{1}{n^2}$"}}
+        ],
+        "correctAnswer": "B",
+        "solution": {
+          "en": "Bohr's radius formula is $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m e^2 Z} \\approx 0.529 \\frac{n^2}{Z}\\,\\text{Å}$. Thus, radius is directly proportional to $n^2$. As $n$ increases, energy levels get exponentially farther from the nucleus.",
+          "hi": "बोर का त्रिज्या सूत्र $r_n = \\frac{n^2 h^2 \\epsilon_0}{\\pi m e^2 Z} \\approx 0.529 \\frac{n^2}{Z}\\,\\text{Å}$ है। अत: त्रिज्या $n^2$ के अनुक्रमानुपाती होती है। जैसे-जैसे $n$ बढ़ता है, ऊर्जा स्तर नाभिक से तेज़ी से दूर होते जाते हैं।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-04",
+        "subject": "chemistry",
+        "chapter": "Solutions",
+        "difficulty": "hard",
+        "type": "numerical",
+        "question": {
+          "en": "What is the van 't Hoff factor ($i$) for a 0.1 M aqueous solution of $K_4[Fe(CN)_6]$ assuming 100% dissociation?",
+          "hi": "100% वियोजन मानते हुए $K_4[Fe(CN)_6]$ के 0.1 M जलीय विलयन के लिए वांट हॉफ कारक ($i$) क्या है?"
+        },
+        "options": [],
+        "correctAnswer": 5,
+        "solution": {
+          "en": "When $K_4[Fe(CN)_6]$ completely dissociates, it forms 4 $K^+$ ions and 1 complex anion $[Fe(CN)_6]^{4-}$. Total ions produced per formula unit = $4 + 1 = 5$. Thus, $i = 5$. Complex ions inside coordination brackets do not dissociate further in water.",
+          "hi": "जब $K_4[Fe(CN)_6]$ पूरी तरह से वियोजित होता है, तो यह 4 $K^+$ आयन और 1 जटिल ऋणायन $[Fe(CN)_6]^{4-}$ बनाता है। प्रति सूत्र इकाई उत्पन्न कुल आयन = $4 + 1 = 5$। अतः $i = 5$। उपसहसंयोजन कोष्ठक (brackets) के अंदर के जटिल आयन पानी में आगे वियोजित नहीं होते।"
+        }
+      },
+      {
+        "id": "dd-2026-09-01-05",
+        "subject": "maths",
+        "chapter": "Matrices and Determinants",
+        "difficulty": "medium",
+        "type": "mcq",
+        "question": {
+          "en": "If $A$ is a non-singular square matrix of order $3 \\times 3$ such that $|A| = 4$, then what is the value of $|\text{adj}(A)|$?",
+          "hi": "यदि $A$ कोटि $3 \\times 3$ का एक व्युत्क्रमणीय वर्ग आव्यूह है जहाँ $|A| = 4$, तो $|\text{adj}(A)|$ का मान क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "4", "hi": "4"}},
+          {"id": "B", "text": {"en": "12", "hi": "12"}},
+          {"id": "C", "text": {"en": "16", "hi": "16"}},
+          {"id": "D", "text": {"en": "64", "hi": "64"}}
+        ],
+        "correctAnswer": "C",
+        "solution": {
+          "en": "For any non-singular matrix $A$ of order $n$, $|\text{adj}(A)| = |A|^{n-1}$. Here $n=3$ and $|A|=4$, so $|\text{adj}(A)| = 4^{3-1} = 4^2 = 16$. This is one of the most frequently tested matrix properties in JEE Main.",
+          "hi": "कोटि $n$ के किसी भी व्युत्क्रमणीय आव्यूह $A$ के लिए, $|\text{adj}(A)| = |A|^{n-1}$। यहाँ $n=3$ और $|A|=4$, इसलिए $|\text{adj}(A)| = 4^{3-1} = 4^2 = 16$। यह JEE Main में सबसे अधिक पूछे जाने वाले आव्यूह गुणों में से एक है।"
+        }
+      }
+    ]
+  }
