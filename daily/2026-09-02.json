@@ -1,65 +1,209 @@
-{
+  {
     "date": "2026-09-02",
     "questions": [
       {
         "id": "dd-2026-09-02-01",
         "subject": "physics",
-        "chapter": "Ray Optics",
-        "difficulty": "medium",
+        "chapter": "Laws of Motion",
+        "difficulty": "easy",
         "type": "mcq",
         "question": {
-          "en": "A convex lens of focal length $20\\,\\text{cm}$ is placed in contact with a concave lens of focal length $10\\,\\text{cm}$. The focal length of the combination is:",
-          "hi": "$20\\,\\text{cm}$ फोकस दूरी का एक उत्तल लेंस $10\\,\\text{cm}$ फोकस दूरी के एक अवतल लेंस के संपर्क में रखा गया है। संयोजन की फोकस दूरी क्या होगी?"
+          "en": "A force of $10\\,\\text{N}$ acts on a body of mass $2\\,\\text{kg}$ initially at rest. What is the distance covered by the body in $3\\,\\text{seconds}$?",
+          "hi": "विराम अवस्था में स्थित $2\\,\\text{kg}$ द्रव्यमान के पिंड पर $10\\,\\text{N}$ का बल कार्य करता है। $3\\,\\text{सेकंड}$ में पिंड द्वारा तय की गई दूरी क्या है?"
         },
         "options": [
-          {"id": "A", "text": {"en": "$-20\\,\\text{cm}$", "hi": "$-20\\,\\text{cm}$"}},
-          {"id": "B", "text": {"en": "$+20\\,\\text{cm}$", "hi": "$+20\\,\\text{cm}$"}},
-          {"id": "C", "text": {"en": "$-10\\,\\text{cm}$", "hi": "$-10\\,\\text{cm}$"}},
-          {"id": "D", "text": {"en": "$+30\\,\\text{cm}$", "hi": "$+30\\,\\text{cm}$"}}
+          {"id": "A", "text": {"en": "$22.5\\,\\text{m}$", "hi": "$22.5\\,\\text{m}$"}},
+          {"id": "B", "text": {"en": "$45\\,\\text{m}$", "hi": "$45\\,\\text{m}$"}},
+          {"id": "C", "text": {"en": "$15\\,\\text{m}$", "hi": "$15\\,\\text{m}$"}},
+          {"id": "D", "text": {"en": "$30\\,\\text{m}$", "hi": "$30\\,\\text{m}$"}}
         ],
         "correctAnswer": "A",
         "solution": {
-          "en": "For lenses in contact: $\\frac{1}{F_{eq}} = \\frac{1}{f_1} + \\frac{1}{f_2}$. Here $f_1 = +20\\,\\text{cm}$ (convex) and $f_2 = -10\\,\\text{cm}$ (concave). $\\frac{1}{F_{eq}} = \\frac{1}{20} - \\frac{1}{10} = -\\frac{1}{20} \\implies F_{eq} = -20\\,\\text{cm}$. The combination behaves as a diverging lens.",
-          "hi": "संपर्क में रखे लेंसों के लिए: $\\frac{1}{F_{eq}} = \\frac{1}{f_1} + \\frac{1}{f_2}$। यहाँ $f_1 = +20\\,\\text{cm}$ (उत्तल) और $f_2 = -10\\,\\text{cm}$ (अवतल)। $\\frac{1}{F_{eq}} = \\frac{1}{20} - \\frac{1}{10} = -\\frac{1}{20} \\implies F_{eq} = -20\\,\\text{cm}$। संयोजन एक अपसारी (diverging) लेंस की तरह व्यवहार करता है।"
+          "en": "Acceleration $a = F/m = 10/2 = 5\\,\\text{m/s}^2$. Distance $s = ut + \\frac{1}{2}at^2 = 0 + \\frac{1}{2}(5)(3^2) = 22.5\\,\\text{m}$.",
+          "hi": "त्वरण $a = F/m = 10/2 = 5\\,\\text{m/s}^2$। दूरी $s = ut + \\frac{1}{2}at^2 = 0 + \\frac{1}{2}(5)(3^2) = 22.5\\,\\text{m}$।"
         }
       },
       {
         "id": "dd-2026-09-02-02",
-        "subject": "chemistry",
-        "chapter": "Chemical Kinetics",
+        "subject": "physics",
+        "chapter": "Laws of Motion",
         "difficulty": "medium",
         "type": "numerical",
         "question": {
-          "en": "A first-order reaction is $75\\%$ complete in $40\\,\\text{minutes}$. What is the half-life ($t_{1/2}$) of the reaction in minutes?",
-          "hi": "एक प्रथम कोटि की अभिक्रिया $40\\,\\text{मिनट}$ में $75\\%$ पूरी हो जाती है। अभिक्रिया की अर्ध-आयु ($t_{1/2}$) मिनट में क्या है?"
+          "en": "A machine gun fires 20 bullets per second, each of mass $30\\,\\text{g}$ with a speed of $400\\,\\text{m/s}$. Find the force in Newtons required to hold the gun in position.",
+          "hi": "एक मशीन गन प्रति सेकंड 20 गोलियां दागती है, जिनमें से प्रत्येक का द्रव्यमान $30\\,\\text{g}$ और चाल $400\\,\\text{m/s}$ है। गन को अपनी स्थिति में रखने के लिए आवश्यक बल (न्यूटन में) ज्ञात कीजिए।"
         },
         "options": [],
-        "correctAnswer": 20,
+        "correctAnswer": 240,
         "solution": {
-          "en": "For a first-order reaction, completing $75\\%$ means $25\\%$ reactant remains, which corresponds to two half-lives ($100\\% \\to 50\\% \\to 25\\%$). Therefore, $2 \\times t_{1/2} = 40\\,\\text{min} \\implies t_{1/2} = 20\\,\\text{min}$. Shortcut rule: $t_{75\\%} = 2 \\times t_{50\\%}$.",
-          "hi": "प्रथम कोटि की अभिक्रिया के लिए, $75\\%$ पूरा होने का अर्थ है $25\\%$ अभिकारक शेष बचना, जो दो अर्ध-आयु ($100\\% \\to 50\\% \\to 25\\%$) के बराबर है। इसलिए, $2 \\times t_{1/2} = 40\\,\\text{मिनट} \\implies t_{1/2} = 20\\,\\text{मिनट}$। संक्षिप्त नियम: $t_{75\\%} = 2 \\times t_{50\\%}$।"
+          "en": "Force $F = n \\cdot m \\cdot v = 20 \\times 0.03\\,\\text{kg} \\times 400\\,\\text{m/s} = 240\\,\\text{N}$.",
+          "hi": "बल $F = n \\cdot m \\cdot v = 20 \\times 0.03\\,\\text{kg} \\times 400\\,\\text{m/s} = 240\\,\\text{N}$।"
         }
       },
       {
         "id": "dd-2026-09-02-03",
-        "subject": "maths",
-        "chapter": "Limits and Continuity",
-        "difficulty": "medium",
+        "subject": "physics",
+        "chapter": "Work, Energy and Power",
+        "difficulty": "easy",
         "type": "mcq",
         "question": {
-          "en": "Evaluate the limit: $\\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x^2}$.",
-          "hi": "सीमा का मान ज्ञात कीजिए: $\\lim_{x \\to 0} \\frac{1 - \\cos(2x)}{x^2}$। "
+          "en": "If the kinetic energy of a body becomes 4 times its initial value, how does its momentum change?",
+          "hi": "यदि किसी पिंड की गतिज ऊर्जा उसके प्रारंभिक मान की 4 गुनी हो जाती है, तो उसका संवेग किस प्रकार परिवर्तित होगा?"
         },
         "options": [
-          {"id": "A", "text": {"en": "1", "hi": "1"}},
-          {"id": "B", "text": {"en": "2", "hi": "2"}},
-          {"id": "C", "text": {"en": "4", "hi": "4"}},
-          {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+          {"id": "A", "text": {"en": "Doubled", "hi": "दोगुना हो जाएगा"}},
+          {"id": "B", "text": {"en": "Quadrupled", "hi": "चार गुना हो जाएगा"}},
+          {"id": "C", "text": {"en": "Halved", "hi": "आधा हो जाएगा"}},
+          {"id": "D", "text": {"en": "Remains same", "hi": "समान रहेगा"}}
         ],
-        "correctAnswer": "B",
+        "correctAnswer": "A",
         "solution": {
-          "en": "Using trigonometric identity $1 - \\cos(2x) = 2\\sin^2 x$, the limit becomes $\\lim_{x \\to 0} \\frac{2\\sin^2 x}{x^2} = 2 \\left(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\right)^2 = 2(1)^2 = 2$. Alternatively, apply L'Hôpital's Rule twice.",
-          "hi": "त्रिकोणमितीय सर्वसमिका $1 - \\cos(2x) = 2\\sin^2 x$ का उपयोग करने पर, सीमा हो जाती है: $\\lim_{x \\to 0} \\frac{2\\sin^2 x}{x^2} = 2 \\left(\\lim_{x \\to 0} \\frac{\\sin x}{x}\\right)^2 = 2(1)^2 = 2$। या आप L'Hôpital नियम दो बार लागू कर सकते हैं।"
+          "en": "Momentum $p = \\sqrt{2mK}$. If $K' = 4K$, then $p' = \\sqrt{2m(4K)} = 2p$.",
+          "hi": "संवेग $p = \\sqrt{2mK}$। यदि $K' = 4K$, तो $p' = \\sqrt{2m(4K)} = 2p$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-04",
+        "subject": "chemistry",
+        "chapter": "Structure of Atom",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which electronic configuration represents an alkali metal in its ground state?",
+          "hi": "कौन सा इलेक्ट्रॉनिक विन्यास अपनी आद्य अवस्था (ground state) में एक क्षार धातु को दर्शाता है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$1s^2 2s^2 2p^6 3s^1$", "hi": "$1s^2 2s^2 2p^6 3s^1$"}},
+          {"id": "B", "text": {"en": "$1s^2 2s^2 2p^6$", "hi": "$1s^2 2s^2 2p^6$"}},
+          {"id": "C", "text": {"en": "$1s^2 2s^2 2p^5$", "hi": "$1s^2 2s^2 2p^5$"}},
+          {"id": "D", "text": {"en": "$1s^2 2s^2 2p^6 3s^2$", "hi": "$1s^2 2s^2 2p^6 3s^2$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Alkali metals have valence configuration $ns^1$. $1s^2 2s^2 2p^6 3s^1$ corresponds to Sodium (Na), an alkali metal.",
+          "hi": "क्षार धातुओं का संयोजी विन्यास $ns^1$ होता है। $1s^2 2s^2 2p^6 3s^1$ सोडियम (Na) का प्रतिनिधित्व करता है, जो एक क्षार धातु है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-05",
+        "subject": "chemistry",
+        "chapter": "Periodic Table & Periodicity",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Which of the following elements has the largest atomic radius?",
+          "hi": "निम्नलिखित में से किस तत्व की परमाणु त्रिज्या सबसे बड़ी है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Cs", "hi": "Cs"}},
+          {"id": "B", "text": {"en": "Na", "hi": "Na"}},
+          {"id": "C", "text": {"en": "K", "hi": "K"}},
+          {"id": "D", "text": {"en": "Li", "hi": "Li"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Atomic radius increases down a group in the periodic table. Among alkali metals, Cesium (Cs) is farthest down and has the largest radius.",
+          "hi": "आवर्त सारणी में वर्ग में नीचे जाने पर परमाणु त्रिज्या बढ़ती है। क्षार धातुओं में, सीज़ियम (Cs) सबसे नीचे है और इसकी त्रिज्या सबसे बड़ी है।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-06",
+        "subject": "chemistry",
+        "chapter": "Chemical Bonding",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Calculate the number of lone pairs on the central atom of $\\text{XeF}_4$.",
+          "hi": "$\\text{XeF}_4$ के केंद्रीय परमाणु पर एकाकी युग्मों (lone pairs) की संख्या ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 2,
+        "solution": {
+          "en": "Xenon has 8 valence electrons. 4 form single bonds with fluorine atoms. Remaining 4 electrons form 2 lone pairs.",
+          "hi": "ज़ेनॉन में 8 संयोजी इलेक्ट्रॉन होते हैं। 4 फ्लोरीन परमाणुओं के साथ एकल बंध बनाते हैं। शेष 4 इलेक्ट्रॉन 2 एकाकी युग्म बनाते हैं।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-07",
+        "subject": "maths",
+        "chapter": "Complex Numbers",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Find the value of $i^{107}$.",
+          "hi": "$i^{107}$ का मान ज्ञात कीजिए।"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "$-i$", "hi": "$-i$"}},
+          {"id": "B", "text": {"en": "$i$", "hi": "$i$"}},
+          {"id": "C", "text": {"en": "$1$", "hi": "$1$"}},
+          {"id": "D", "text": {"en": "$-1$", "hi": "$-1$"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "$107 = 4 \\times 26 + 3$. Therefore $i^{107} = (i^4)^{26} \\cdot i^3 = 1 \\cdot (-i) = -i$.",
+          "hi": "$107 = 4 \\times 26 + 3$। इसलिए $i^{107} = (i^4)^{26} \\cdot i^3 = 1 \\cdot (-i) = -i$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-08",
+        "subject": "maths",
+        "chapter": "Quadratic Equations",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "What is the nature of roots of the quadratic equation $2x^2 - 4x + 3 = 0$?",
+          "hi": "द्विघात समीकरण $2x^2 - 4x + 3 = 0$ के मूलों की प्रकृति क्या है?"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Complex / Imaginary", "hi": "सम्मिश्र / काल्पनिक"}},
+          {"id": "B", "text": {"en": "Real and equal", "hi": "वास्तविक और समान"}},
+          {"id": "C", "text": {"en": "Real and distinct", "hi": "वास्तविक और भिन्न"}},
+          {"id": "D", "text": {"en": "Rational and equal", "hi": "परिमेय और समान"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Discriminant $D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8 < 0$. Negative discriminant implies non-real/complex roots.",
+          "hi": "विविक्तकर $D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8 < 0$। ऋणात्मक विविक्तकर का अर्थ अवास्तविक/काल्पनिक मूल हैं।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-09",
+        "subject": "maths",
+        "chapter": "Sequences and Series",
+        "difficulty": "medium",
+        "type": "numerical",
+        "question": {
+          "en": "Find the sum of the infinite geometric series $1 + \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots$",
+          "hi": "अनंत गुणोत्तर श्रेणी $1 + \\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots$ का योग ज्ञात कीजिए।"
+        },
+        "options": [],
+        "correctAnswer": 2,
+        "solution": {
+          "en": "First term $a = 1$, common ratio $r = 1/2$. Sum $S_\\infty = \\frac{a}{1-r} = \\frac{1}{1 - 1/2} = 2$.",
+          "hi": "प्रथम पद $a = 1$, सार्व अनुपात $r = 1/2$। योग $S_\\infty = \\frac{a}{1-r} = \\frac{1}{1 - 1/2} = 2$।"
+        }
+      },
+      {
+        "id": "dd-2026-09-02-10",
+        "subject": "physics",
+        "chapter": "Electrostatics",
+        "difficulty": "easy",
+        "type": "mcq",
+        "question": {
+          "en": "Coulomb's law is valid for:",
+          "hi": "कूलॉम का नियम मान्य है:"
+        },
+        "options": [
+          {"id": "A", "text": {"en": "Point charges at rest", "hi": "विराम में स्थित बिंदु आवेशों के लिए"}},
+          {"id": "B", "text": {"en": "Moving extended charges only", "hi": "केवल गतिमान विस्तृत आवेशों के लिए"}},
+          {"id": "C", "text": {"en": "Large conductor spheres in motion", "hi": "गति में बड़े चालक गोलों के लिए"}},
+          {"id": "D", "text": {"en": "All charges under any condition", "hi": "किसी भी स्थिति में सभी आवेशों के लिए"}}
+        ],
+        "correctAnswer": "A",
+        "solution": {
+          "en": "Coulomb's law applies specifically to static point charges.",
+          "hi": "कूलॉम का नियम विशेष रूप से स्थिर बिंदु आवेशों पर लागू होता है।"
         }
       }
     ]
