@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-10",
+  "questions": [
+    {
+      "id": "dd-2026-09-10-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The percentage errors in the measurement of mass and speed are 2% and 3% respectively. What is the maximum percentage error in the calculation of kinetic energy?",
+        "hi": "द्रव्यमान और चाल के मापन में प्रतिशत त्रुटियाँ क्रमशः 2% और 3% हैं। गतिज ऊर्जा की गणना में अधिकतम प्रतिशत त्रुटि क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5%", "hi": "5%"}},
+        {"id": "B", "text": {"en": "8%", "hi": "8%"}},
+        {"id": "C", "text": {"en": "11%", "hi": "11%"}},
+        {"id": "D", "text": {"en": "12%", "hi": "12%"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Kinetic energy $K = \\frac{1}{2}mv^2$. Maximum relative error $\\frac{\\Delta K}{K} = \\frac{\\Delta m}{m} + 2\\left(\\frac{\\Delta v}{v}\\right)$. Percentage error $= 2\\% + 2(3\\%) = 2\\% + 6\\% = 8\\%$.",
+        "hi": "गतिज ऊर्जा $K = \\frac{1}{2}mv^2$। अधिकतम आपेक्षिक त्रुटि $\\frac{\\Delta K}{K} = \\frac{\\Delta m}{m} + 2\\left(\\frac{\\Delta v}{v}\\right)$। प्रतिशत त्रुटि $= 2\\% + 2(3\\%) = 2\\% + 6\\% = 8\\%$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A particle moves in a circle of radius 5 m with a constant speed of 10 m/s. What is the magnitude of its centripetal acceleration?",
+        "hi": "एक कण 5 m त्रिज्या के वृत्त में 10 m/s की नियत चाल से गति करता है। इसके अभिकेंद्री त्वरण का परिमाण क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10 m/s²", "hi": "10 m/s²"}},
+        {"id": "B", "text": {"en": "20 m/s²", "hi": "20 m/s²"}},
+        {"id": "C", "text": {"en": "50 m/s²", "hi": "50 m/s²"}},
+        {"id": "D", "text": {"en": "2 m/s²", "hi": "2 m/s²"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Centripetal acceleration is $a_c = \\frac{v^2}{r} = \\frac{10^2}{5} = \\frac{100}{5} = 20\\text{ m/s}^2$.",
+        "hi": "अभिकेंद्री त्वरण $a_c = \\frac{v^2}{r} = \\frac{10^2}{5} = \\frac{100}{5} = 20\\text{ m/s}^2$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A projectile is launched from ground level with speed $u = 20\\text{ m/s}$. If its horizontal range equals three times its maximum height ($R = 3H$), find $\\tan\\theta$, where $\\theta$ is the angle of projection.",
+        "hi": "एक प्रक्षेप्य को धरातल से $u = 20\\text{ m/s}$ की चाल से प्रक्षेपित किया जाता है। यदि इसकी क्षैतिज परास इसकी अधिकतम ऊँचाई की तीन गुनी है ($R = 3H$), तो $\\tan\\theta$ ज्ञात कीजिए, जहाँ $\\theta$ प्रक्षेपण कोण है।"
+      },
+      "options": [],
+      "correctAnswer": 1.33,
+      "solution": {
+        "en": "Using the relation $R = \\frac{4H}{\\tan\\theta} \\implies 3H = \\frac{4H}{\\tan\\theta} \\implies \\tan\\theta = \\frac{4}{3} \\approx 1.33$. Notice that the result is independent of $u$ or $g$.",
+        "hi": "संबंध $R = \\frac{4H}{\\tan\\theta} \\implies 3H = \\frac{4H}{\\tan\\theta} \\implies \\tan\\theta = \\frac{4}{3} \\approx 1.33$ का प्रयोग करें। ध्यान दें कि यह उत्तर $u$ या $g$ पर निर्भर नहीं करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the empirical formula of a compound containing 40% Carbon, 6.7% Hydrogen, and 53.3% Oxygen by mass?",
+        "hi": "द्रव्यमान के अनुसार 40% कार्बन, 6.7% हाइड्रोजन और 53.3% ऑक्सीजन वाले एक यौगिक का मूलानुपाती सूत्र (empirical formula) क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH2O", "hi": "CH2O"}},
+        {"id": "B", "text": {"en": "CHO", "hi": "CHO"}},
+        {"id": "C", "text": {"en": "C2H4O", "hi": "C2H4O"}},
+        {"id": "D", "text": {"en": "CH3O", "hi": "CH3O"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Relative moles: $C = \\frac{40}{12} = 3.33$, $H = \\frac{6.7}{1} = 6.70$, $O = \\frac{53.3}{16} = 3.33$. Divide by smallest value ($3.33$): $C : H : O = 1 : 2 : 1$. Hence, empirical formula is $\\text{CH}_2\\text{O}$.",
+        "hi": "सापेक्ष मोल: $C = \\frac{40}{12} = 3.33$, $H = \\frac{6.7}{1} = 6.70$, $O = \\frac{53.3}{16} = 3.33$। सबसे छोटे मान ($3.33$) से भाग दें: $C : H : O = 1 : 2 : 1$। अतः मूलानुपाती सूत्र $\\text{CH}_2\\text{O}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the ratio of the radius of the first orbit of $\\text{H}$ atom to that of the second orbit of $\\text{He}^+$ ion?",
+        "hi": "$\\text{H}$ परमाणु की प्रथम कक्षा की त्रिज्या और $\\text{He}^+$ आयन की दूसरी कक्षा की त्रिज्या का अनुपात क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1 : 1", "hi": "1 : 1"}},
+        {"id": "B", "text": {"en": "1 : 2", "hi": "1 : 2"}},
+        {"id": "C", "text": {"en": "2 : 1", "hi": "2 : 1"}},
+        {"id": "D", "text": {"en": "1 : 4", "hi": "1 : 4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Radius formula: $r = 0.529 \\times \\frac{n^2}{Z}\\text{ \\AA}$. For $\\text{H}$ ($n=1, Z=1$), $r_1 = 0.529\\text{ \\AA}$. For $\\text{He}^+$ ($n=2, Z=2$), $r_2 = 0.529 \\times \\frac{2^2}{2} = 0.529 \\times 2\\text{ \\AA}$. Ratio $\\frac{r_1}{r_2} = \\frac{1}{2} = 1 : 2$.",
+        "hi": "त्रिज्या सूत्र: $r = 0.529 \\times \\frac{n^2}{Z}\\text{ \\AA}$। $\\text{H}$ के लिए ($n=1, Z=1$), $r_1 = 0.529\\text{ \\AA}$। $\\text{He}^+$ के लिए ($n=2, Z=2$), $r_2 = 0.529 \\times \\frac{2^2}{2} = 0.529 \\times 2\\text{ \\AA}$। अनुपात $\\frac{r_1}{r_2} = \\frac{1}{2} = 1 : 2$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-06",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which element has the highest negative electron gain enthalpy (most exothermic) among the following?",
+        "hi": "निम्नलिखित में से किस तत्व की ऋणात्मक इलेक्ट्रॉन लब्धि एन्थैल्पी सबसे अधिक (सबसे अधिक ऊष्माक्षेपी) है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fluorine (F)", "hi": "फ़्लोरिन (F)"}},
+        {"id": "B", "text": {"en": "Chlorine (Cl)", "hi": "क्लोरीन (Cl)"}},
+        {"id": "C", "text": {"en": "Oxygen (O)", "hi": "ऑक्सीजन (O)"}},
+        {"id": "D", "text": {"en": "Sulfur (S)", "hi": "सल्फर (S)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Chlorine has a more negative electron gain enthalpy than fluorine because Fluorine's small 2p orbital experiences high inter-electronic repulsions when adding an extra electron, making Cl the element with the highest negative electron gain enthalpy in the periodic table.",
+        "hi": "क्लोरीन की इलेक्ट्रॉन लब्धि एन्थैल्पी फ़्लोरिन से अधिक ऋणात्मक होती है क्योंकि फ़्लोरिन के छोटे 2p कक्षक में अतिरिक्त इलेक्ट्रॉन जोड़ने पर उच्च अंतर-इलेक्ट्रॉनी प्रतिकर्षण होता है, जिससे पूरे आवर्त सारणी में Cl की ऋणात्मक इलेक्ट्रॉन लब्धि एन्थैल्पी सबसे अधिक होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $n(A) = 20$, $n(B) = 30$, and $n(A \\cup B) = 45$, find $n(A \\cap B)$.",
+        "hi": "यदि $n(A) = 20$, $n(B) = 30$, और $n(A \\cup B) = 45$ है, तो $n(A \\cap B)$ ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "10", "hi": "10"}},
+        {"id": "C", "text": {"en": "15", "hi": "15"}},
+        {"id": "D", "text": {"en": "25", "hi": "25"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using the cardinal formula $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$: $45 = 20 + 30 - n(A \\cap B) \\implies n(A \\cap B) = 50 - 45 = 5$.",
+        "hi": "सूत्र $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ का उपयोग करने पर: $45 = 20 + 30 - n(A \\cap B) \\implies n(A \\cap B) = 50 - 45 = 5$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\tan\\theta = \\frac{3}{4}$ and $\\theta$ lies in the third quadrant, what is the value of $\\sin\\theta + \\cos\\theta$?",
+        "hi": "यदि $\\tan\\theta = \\frac{3}{4}$ और $\\theta$ तीसरे चतुर्थांश में है, तो $\\sin\\theta + \\cos\\theta$ का मान क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7/5", "hi": "7/5"}},
+        {"id": "B", "text": {"en": "-7/5", "hi": "-7/5"}},
+        {"id": "C", "text": {"en": "-1/5", "hi": "-1/5"}},
+        {"id": "D", "text": {"en": "1/5", "hi": "1/5"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "In Quadrant III, both sine and cosine are negative. Hypotenuse $= \\sqrt{3^2 + 4^2} = 5$. Thus $\\sin\\theta = -\\frac{3}{5}$ and $\\cos\\theta = -\\frac{4}{5}$. Their sum $\\sin\\theta + \\cos\\theta = -\\frac{3}{5} - \\frac{4}{5} = -\\frac{7}{5}$.",
+        "hi": "तृतीय चतुर्थांश में, साइन और कोसाइन दोनों ऋणात्मक होते हैं। कर्ण $= \\sqrt{3^2 + 4^2} = 5$। अतः $\\sin\\theta = -\\frac{3}{5}$ और $\\cos\\theta = -\\frac{4}{5}$। इनका योग $\\sin\\theta + \\cos\\theta = -\\frac{3}{5} - \\frac{4}{5} = -\\frac{7}{5}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\omega$ is a complex cube root of unity, what is the value of $(1 - \\omega + \\omega^2)^5 + (1 + \\omega - \\omega^2)^5$?",
+        "hi": "यदि $\\omega$ इकाई का एक जटिल घनमूल है, तो $(1 - \\omega + \\omega^2)^5 + (1 + \\omega - \\omega^2)^5$ का मान क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "32", "hi": "32"}},
+        {"id": "B", "text": {"en": "-32", "hi": "-32"}},
+        {"id": "C", "text": {"en": "64", "hi": "64"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using $1 + \\omega + \\omega^2 = 0$: $1 + \\omega^2 = -\\omega$ and $1 + \\omega = -\\omega^2$. Substitute: $(-\\omega - \\omega)^5 + (-\\omega^2 - \\omega^2)^5 = (-2\\omega)^5 + (-2\\omega^2)^5 = -32\\omega^5 - 32\\omega^{10} = -32(\\omega^2 + \\omega) = -32(-1) = 32$.",
+        "hi": "$1 + \\omega + \\omega^2 = 0$ का उपयोग करते हुए: $1 + \\omega^2 = -\\omega$ और $1 + \\omega = -\\omega^2$। प्रतिस्थापन: $(-\\omega - \\omega)^5 + (-\\omega^2 - \\omega^2)^5 = (-2\\omega)^5 + (-2\\omega^2)^5 = -32\\omega^5 - 32\\omega^{10} = -32(\\omega^2 + \\omega) = -32(-1) = 32$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-10-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $z$ lies on the circle $|z - 2| = 1$, find the maximum possible value of $|z|$.",
+        "hi": "यदि $z$ वृत्त $|z - 2| = 1$ पर स्थित है, तो $|z|$ का अधिकतम संभव मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "By triangle inequality, $|z| = |(z - 2) + 2| \\le |z - 2| + |2| = 1 + 2 = 3$. Geometrically, this circle has center $(2, 0)$ and radius $1$, so points on the circle range in distance from origin from $2 - 1 = 1$ to $2 + 1 = 3$.",
+        "hi": "त्रिभुज असमिका द्वारा, $|z| = |(z - 2) + 2| \\le |z - 2| + |2| = 1 + 2 = 3$। ज्यामितीय रूप से, इस वृत्त का केंद्र $(2, 0)$ और त्रिज्या $1$ है, अतः वृत्त पर बिंदुओं की मूल बिंदु से दूरी $2 - 1 = 1$ से $2 + 1 = 3$ के बीच होती है।"
+      }
+    }
+  ]
+}
