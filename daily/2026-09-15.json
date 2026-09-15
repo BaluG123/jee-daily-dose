@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-15",
+  "questions": [
+    {
+      "id": "dd-2026-09-15-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The temperature of a body is increased by $50^\\circ\\text{C}$. The corresponding temperature increase on the Kelvin scale is:",
+        "hi": "किसी पिंड का तापमान $50^\\circ\\text{C}$ बढ़ाया जाता है। केल्विन पैमाने पर तदनुरूपी तापमान वृद्धि होगी:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "50 K", "hi": "50 K"}},
+        {"id": "B", "text": {"en": "323 K", "hi": "323 K"}},
+        {"id": "C", "text": {"en": "223 K", "hi": "223 K"}},
+        {"id": "D", "text": {"en": "100 K", "hi": "100 K"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "A temperature difference of $1^\\circ\\text{C}$ is equal to a temperature difference of $1\\text{ K}$. Hence $\\Delta T_K = \\Delta T_C = 50\\text{ K}$.",
+        "hi": "$1^\\circ\\text{C}$ का तापांतर $1\\text{ K}$ के तापांतर के बराबर होता है। अतः $\\Delta T_K = \\Delta T_C = 50\\text{ K}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "An ideal gas expands adiabatically from volume $V$ to $8V$. If ratio of specific heats $\\gamma = 5/3$, the ratio of final pressure to initial pressure is:",
+        "hi": "एक आदर्श गैस आयतन $V$ से $8V$ तक रुद्धोष्म रूप से (adiabatically) प्रसारित होती है। यदि विशिष्ट ऊष्माओं का अनुपात $\\gamma = 5/3$ है, तो अंतिम दाब और प्रारंभिक दाब का अनुपात है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/32", "hi": "1/32"}},
+        {"id": "B", "text": {"en": "1/16", "hi": "1/16"}},
+        {"id": "C", "text": {"en": "1/8", "hi": "1/8"}},
+        {"id": "D", "text": {"en": "1/64", "hi": "1/64"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For adiabatic process: $P_1 V_1^\\gamma = P_2 V_2^\\gamma \\implies \\frac{P_2}{P_1} = \\left(\\frac{V_1}{V_2}\\right)^\\gamma = \\left(\\frac{1}{8}\\right)^{5/3} = \\left(2^{-3}\\right)^{5/3} = 2^{-5} = \\frac{1}{32}$.",
+        "hi": "रुद्धोष्म प्रक्रम के लिए: $P_1 V_1^\\gamma = P_2 V_2^\\gamma \\implies \\frac{P_2}{P_1} = \\left(\\frac{V_1}{V_2}\\right)^\\gamma = \\left(\\frac{1}{8}\\right)^{5/3} = \\left(2^{-3}\\right)^{5/3} = 2^{-5} = \\frac{1}{32}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A particle undergoing simple harmonic motion has displacement equation $x = 5 \\sin(10 t + \\pi/3)\\text{ cm}$. Find the magnitude of its maximum velocity in cm/s.",
+        "hi": "सरल आवर्त गति करने वाले कण का विस्थापन समीकरण $x = 5 \\sin(10 t + \\pi/3)\\text{ cm}$ है। सेमी/सेकंड में इसके अधिकतम वेग का परिमाण ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 50,
+      "solution": {
+        "en": "Standard SHM equation: $x = A \\sin(\\omega t + \\phi)$. Here amplitude $A = 5\\text{ cm}$ and angular frequency $\\omega = 10\\text{ rad/s}$. Maximum velocity $v_{max} = A \\omega = 5 \\times 10 = 50\\text{ cm/s}$.",
+        "hi": "मानक SHM समीकरण: $x = A \\sin(\\omega t + \\phi)$। यहाँ आयाम $A = 5\\text{ cm}$ और कोणीय आवृत्ति $\\omega = 10\\text{ rad/s}$। अधिकतम वेग $v_{max} = A \\omega = 5 \\times 10 = 50\\text{ cm/s}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the molarity of a solution containing $4\\text{ g}$ of $\\text{NaOH}$ dissolved in $250\\text{ mL}$ of water? (Molar mass of $\\text{NaOH} = 40\\text{ g/mol}$)",
+        "hi": "$250\\text{ mL}$ जल में घुले $4\\text{ g}$ $\\text{NaOH}$ वाले विलयन की मोलरता (molarity) क्या है? ($\\text{NaOH}$ का मोलर द्रव्यमान $= 40\\text{ g/mol}$)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.1 M", "hi": "0.1 M"}},
+        {"id": "B", "text": {"en": "0.4 M", "hi": "0.4 M"}},
+        {"id": "C", "text": {"en": "0.2 M", "hi": "0.2 M"}},
+        {"id": "D", "text": {"en": "1.0 M", "hi": "1.0 M"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Moles of $\\text{NaOH} = 4 / 40 = 0.1\\text{ mol}$. Volume of solution in liters $= 250 / 1000 = 0.25\\text{ L}$. Molarity $M = 0.1 / 0.25 = 0.4\\text{ M}$.",
+        "hi": "$\\text{NaOH}$ के मोल $= 4 / 40 = 0.1\\text{ mol}$। लीटर में विलयन का आयतन $= 250 / 1000 = 0.25\\text{ L}$। मोलरता $M = 0.1 / 0.25 = 0.4\\text{ M}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For the cell reaction $\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu}(s)$, given $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\text{ V}$ and $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\text{ V}$, the standard EMF of the cell $E^\\circ_{\\text{cell}}$ is:",
+        "hi": "सेल अभिक्रिया $\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu}(s)$ के लिए, दिए गए $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\text{ V}$ और $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\text{ V}$ हैं, सेल का मानक EMF $E^\\circ_{\\text{cell}}$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+1.10 V", "hi": "+1.10 V"}},
+        {"id": "B", "text": {"en": "-0.42 V", "hi": "-0.42 V"}},
+        {"id": "C", "text": {"en": "+0.42 V", "hi": "+0.42 V"}},
+        {"id": "D", "text": {"en": "-1.10 V", "hi": "-1.10 V"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} - E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = +0.34 - (-0.76) = +1.10\\text{ V}$.",
+        "hi": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} - E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = +0.34 - (-0.76) = +1.10\\text{ V}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "A first-order reaction has a rate constant $k = 2.303 \\times 10^{-2}\\text{ s}^{-1}$. How much time (in seconds) will it take for $90\\%$ of the reactant to react?",
+        "hi": "एक प्रथम कोटि की अभिक्रिया का दर स्थिरांक $k = 2.303 \\times 10^{-2}\\text{ s}^{-1}$ है। अभिकारक का $90\\%$ अभिक्रिया करने में कितना समय (सेकंड में) लगेगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "100 s", "hi": "100 s"}},
+        {"id": "B", "text": {"en": "230 s", "hi": "230 s"}},
+        {"id": "C", "text": {"en": "10 s", "hi": "10 s"}},
+        {"id": "D", "text": {"en": "460 s", "hi": "460 s"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For first order: $t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]}\\right)$. If $90\\%$ reacts, $[A] = 0.1 [A]_0 \\implies \\frac{[A]_0}{[A]} = 10$. $t = \\frac{2.303}{2.303 \\times 10^{-2}} \\log(10) = 100 \\times 1 = 100\\text{ s}$.",
+        "hi": "प्रथम कोटि के लिए: $t = \\frac{2.303}{k} \\log\\left(\\frac{[A]_0}{[A]}\\right)$। यदि $90\\%$ अभिक्रिया करता है, तो $[A] = 0.1 [A]_0 \\implies \\frac{[A]_0}{[A]} = 10$। $t = \\frac{2.303}{2.303 \\times 10^{-2}} \\log(10) = 100 \\times 1 = 100\\text{ s}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0} \\frac{\\sin 5x}{3x}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{\\sin 5x}{3x}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5/3", "hi": "5/3"}},
+        {"id": "B", "text": {"en": "3/5", "hi": "3/5"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "15", "hi": "15"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\lim_{x \\to 0} \\frac{\\sin 5x}{3x} = \\frac{5}{3} \\lim_{x \\to 0} \\frac{\\sin 5x}{5x} = \\frac{5}{3} \\times 1 = \\frac{5}{3}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{\\sin 5x}{3x} = \\frac{5}{3} \\lim_{x \\to 0} \\frac{\\sin 5x}{5x} = \\frac{5}{3} \\times 1 = \\frac{5}{3}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the variance of the numbers 2, 4, 6, 8, 10 is $V$, find the variance of 12, 14, 16, 18, 20.",
+        "hi": "यदि संख्याओं 2, 4, 6, 8, 10 का प्रसरण (variance) $V$ है, तो 12, 14, 16, 18, 20 का प्रसरण ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "V", "hi": "V"}},
+        {"id": "B", "text": {"en": "V + 10", "hi": "V + 10"}},
+        {"id": "C", "text": {"en": "10V", "hi": "10V"}},
+        {"id": "D", "text": {"en": "V^2", "hi": "V^2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Adding a constant value (10) to each observation shifts the mean but does not change the dispersion or variance. Therefore, the variance remains $V$.",
+        "hi": "प्रत्येक प्रेक्षण में एक नियत मान (10) जोड़ने पर माध्य स्थानांतरित होता है लेकिन प्रसरण नहीं बदलता है। इसलिए, प्रसरण $V$ ही रहता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two fair dice are rolled together. What is the probability of getting a sum equal to 8?",
+        "hi": "दो निष्पक्ष पासे एक साथ फेंके जाते हैं। योग 8 प्राप्त होने की प्रायिकता क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5/36", "hi": "5/36"}},
+        {"id": "B", "text": {"en": "1/6", "hi": "1/6"}},
+        {"id": "C", "text": {"en": "7/36", "hi": "7/36"}},
+        {"id": "D", "text": {"en": "1/9", "hi": "1/9"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Favorable outcomes for sum 8: $(2,6), (3,5), (4,4), (5,3), (6,2)$ — total 5 outcomes. Total possible outcomes $= 6 \\times 6 = 36$. Probability $= 5/36$.",
+        "hi": "योग 8 के लिए अनुकूल परिणाम: $(2,6), (3,5), (4,4), (5,3), (6,2)$ — कुल 5 परिणाम। कुल संभावित परिणाम $= 6 \\times 6 = 36$। प्रायिकता $= 5/36$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-15-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If matrix $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}$, find the determinant of $A^2$.",
+        "hi": "यदि आव्यूह $A = \\begin{bmatrix} 2 & 1 \\\\ 3 & 4 \\end{bmatrix}$ है, तो $A^2$ का सारणिक (determinant) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 25,
+      "solution": {
+        "en": "Determinant of $A$: $|A| = (2)(4) - (1)(3) = 8 - 3 = 5$. Using matrix property $|A^2| = |A|^2$, we get $|A^2| = 5^2 = 25$.",
+        "hi": "$A$ का सारणिक: $|A| = (2)(4) - (1)(3) = 8 - 3 = 5$। आव्यूह गुण $|A^2| = |A|^2$ का उपयोग करने पर, $|A^2| = 5^2 = 25$।"
+      }
+    }
+  ]
+}
