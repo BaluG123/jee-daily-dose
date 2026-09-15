@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-12",
+  "questions": [
+    {
+      "id": "dd-2026-09-12-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following pairs of physical quantities has identical dimensions?",
+        "hi": "निम्नलिखित में से भौतिक राशियों के किस युग्म की विमाएं समान हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Force and Torque", "hi": "बल और बल-आघूर्ण"}},
+        {"id": "B", "text": {"en": "Work and Torque", "hi": "कार्य और बल-आघूर्ण"}},
+        {"id": "C", "text": {"en": "Stress and Strain", "hi": "प्रतिबल और विकृति"}},
+        {"id": "D", "text": {"en": "Momentum and Force", "hi": "संवेग और बल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Work $= \\text{Force} \\times \\text{Displacement} = [M^1 L^2 T^{-2}]$. Torque $= \\text{Force} \\times \\text{Perpendicular distance} = [M^1 L^2 T^{-2}]$. Both have identical dimensions.",
+        "hi": "कार्य $= \\text{बल} \\times \\text{विस्थापन} = [M^1 L^2 T^{-2}]$। बल-आघूर्ण $= \\text{बल} \\times \\text{लंबवत दूरी} = [M^1 L^2 T^{-2}]$। दोनों की विमाएं समान हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For a projectile thrown at angle $\\theta$ to horizontal, if time of flight is $T = 4\\text{ s}$, what is the maximum height $H$ reached? (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "क्षैतिज से $\\theta$ कोण पर फेंके गए प्रक्षेप्य के लिए, यदि उड्डयन काल $T = 4\\text{ s}$ है, तो प्राप्त अधिकतम ऊँचाई $H$ क्या है? ($g = 10\\text{ m/s}^2$ लें)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10 m", "hi": "10 m"}},
+        {"id": "B", "text": {"en": "20 m", "hi": "20 m"}},
+        {"id": "C", "text": {"en": "40 m", "hi": "40 m"}},
+        {"id": "D", "text": {"en": "80 m", "hi": "80 m"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Useful relation between $H$ and $T$: $H = \\frac{g T^2}{8}$. Substituting values: $H = \\frac{10 \\times 4^2}{8} = \\frac{10 \\times 16}{8} = 20\\text{ m}$.",
+        "hi": "$H$ और $T$ के बीच उपयोगी संबंध: $H = \\frac{g T^2}{8}$। मान रखने पर: $H = \\frac{10 \\times 4^2}{8} = \\frac{10 \\times 16}{8} = 20\\text{ m}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-03",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A car accelerates from rest at a constant rate $\\alpha = 2\\text{ m/s}^2$ for some time, after which it decelerates at a constant rate $\\beta = 4\\text{ m/s}^2$ to come to rest. If total time taken is $t = 6\\text{ s}$, find the maximum velocity attained in m/s.",
+        "hi": "एक कार कुछ समय के लिए नियत दर $\\alpha = 2\\text{ m/s}^2$ से विरामवस्था से त्वरित होती है, जिसके बाद यह नियत दर $\\beta = 4\\text{ m/s}^2$ से मंदित होकर विरामवस्था में आ जाती है। यदि कुल समय $t = 6\\text{ s}$ है, तो m/s में प्राप्त अधिकतम वेग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Maximum velocity formula for acceleration followed by deceleration: $v_{max} = \\frac{\\alpha \\beta}{\\alpha + \\beta} t$. Here $\\alpha = 2, \\beta = 4, t = 6$. $v_{max} = \\frac{2 \\times 4}{2 + 4} \\times 6 = \\frac{8}{6} \\times 6 = 8\\text{ m/s}$.",
+        "hi": "त्वरण के बाद मंदी के लिए अधिकतम वेग का सूत्र: $v_{max} = \\frac{\\alpha \\beta}{\\alpha + \\beta} t$। यहाँ $\\alpha = 2, \\beta = 4, t = 6$। $v_{max} = \\frac{2 \\times 4}{2 + 4} \\times 6 = \\frac{8}{6} \\times 6 = 8\\text{ m/s}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the number of atoms present in 0.5 moles of $\\text{N}_2$ gas?",
+        "hi": "0.5 मोल $\\text{N}_2$ गैस में उपस्थित परमाणुओं की संख्या क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$6.022 \\times 10^{23}$", "hi": "$6.022 \\times 10^{23}$"}},
+        {"id": "B", "text": {"en": "$3.011 \\times 10^{23}$", "hi": "$3.011 \\times 10^{23}$"}},
+        {"id": "C", "text": {"en": "$1.204 \\times 10^{24}$", "hi": "$1.204 \\times 10^{24}$"}},
+        {"id": "D", "text": {"en": "$1.505 \\times 10^{23}$", "hi": "$1.505 \\times 10^{23}$"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "1 mole of $\\text{N}_2$ contains $2 \\times 6.022 \\times 10^{23}$ atoms (diatomic). So 0.5 moles of $\\text{N}_2$ contains $0.5 \\times 2 \\times 6.022 \\times 10^{23} = 6.022 \\times 10^{23}$ atoms.",
+        "hi": "1 मोल $\\text{N}_2$ में $2 \\times 6.022 \\times 10^{23}$ परमाणु होते हैं (द्विपरमाणुक)। इसलिए 0.5 मोल $\\text{N}_2$ में $0.5 \\times 2 \\times 6.022 \\times 10^{23} = 6.022 \\times 10^{23}$ परमाणु होंगे।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which electronic transition in a hydrogen atom emits a photon of the shortest wavelength?",
+        "hi": "हाइड्रोजन परमाणु में कौन सा इलेक्ट्रॉनिक संक्रमण सबसे छोटी तरंगदैर्ध्य का फोटॉन उत्सर्जित करता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "n = 2 to n = 1", "hi": "n = 2 से n = 1"}},
+        {"id": "B", "text": {"en": "n = 3 to n = 2", "hi": "n = 3 से n = 2"}},
+        {"id": "C", "text": {"en": "n = 4 to n = 3", "hi": "n = 4 से n = 3"}},
+        {"id": "D", "text": {"en": "n = 5 to n = 4", "hi": "n = 5 से n = 4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Energy gap $\\Delta E = 13.6 \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)\\text{ eV}$. Shortest wavelength corresponds to the maximum energy gap $\\Delta E_{max}$ ($E = h c / \\lambda$). Transition $n = 2 \\rightarrow 1$ has $\\Delta E = 13.6 \\times (1 - 1/4) = 10.2\\text{ eV}$, which is larger than any other listed transition.",
+        "hi": "ऊर्जा अंतराल $\\Delta E = 13.6 \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)\\text{ eV}$। सबसे छोटी तरंगदैर्ध्य अधिकतम ऊर्जा अंतराल $\\Delta E_{max}$ से संबंधित है ($E = h c / \\lambda$)। संक्रमण $n = 2 \\rightarrow 1$ में $\\Delta E = 13.6 \\times (1 - 1/4) = 10.2\\text{ eV}$ है, जो सूची में किसी भी अन्य संक्रमण से बड़ा है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-06",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The correct order of acidic strength of oxides is:",
+        "hi": "ऑक्साइडों की अम्लीय शक्ति का सही क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Na2O < MgO < Al2O3 < SO3", "hi": "Na2O < MgO < Al2O3 < SO3"}},
+        {"id": "B", "text": {"en": "SO3 < Al2O3 < MgO < Na2O", "hi": "SO3 < Al2O3 < MgO < Na2O"}},
+        {"id": "C", "text": {"en": "MgO < Na2O < Al2O3 < SO3", "hi": "MgO < Na2O < Al2O3 < SO3"}},
+        {"id": "D", "text": {"en": "Na2O < Al2O3 < MgO < SO3", "hi": "Na2O < Al2O3 < MgO < SO3"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Metallic oxides are basic and non-metallic oxides are acidic. Across a period (left to right), non-metallic character increases, making oxides more acidic. $\\text{Na}_2\\text{O}$ (strongly basic) < $\\text{MgO}$ (basic) < $\\text{Al}_2\\text{O}_3$ (amphoteric) < $\\text{SO}_3$ (strongly acidic).",
+        "hi": "धात्विक ऑक्साइड क्षारीय होते हैं और अधात्विक ऑक्साइड अम्लीय होते हैं। एक आवर्त में (बाएं से दाएं), अधात्विक लक्षण बढ़ता है, जिससे ऑक्साइड अधिक अम्लीय होते हैं। $\\text{Na}_2\\text{O}$ (प्रबल क्षारीय) < $\\text{MgO}$ (क्षारीय) < $\\text{Al}_2\\text{O}_3$ (उभयधर्मी) < $\\text{SO}_3$ (प्रबल अम्लीय)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is an empty set?",
+        "hi": "निम्नलिखित में से कौन सा एक रिक्त समुच्चय (empty set) है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "{x ∈ R : x² - 1 = 0}", "hi": "{x ∈ R : x² - 1 = 0}"}},
+        {"id": "B", "text": {"en": "{x ∈ R : x² + 1 = 0}", "hi": "{x ∈ R : x² + 1 = 0}"}},
+        {"id": "C", "text": {"en": "{x ∈ N : x is even and prime}", "hi": "{x ∈ N : x सम और अभाज्य है}"}},
+        {"id": "D", "text": {"en": "{0}", "hi": "{0}"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $x \\in \\mathbb{R}$, $x^2 + 1 = 0 \\implies x^2 = -1$, which has no real solutions. Thus $\\{x \\in \\mathbb{R} : x^2 + 1 = 0\\} = \\emptyset$. Option C has element 2; Option D has element 0.",
+        "hi": "$x \\in \\mathbb{R}$ के लिए, $x^2 + 1 = 0 \\implies x^2 = -1$, जिसका कोई वास्तविक हल नहीं है। इस प्रकार $\\{x \\in \\mathbb{R} : x^2 + 1 = 0\\} = \\emptyset$। विकल्प C में अवयव 2 है; विकल्प D में अवयव 0 है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Find the value of $\\sin 18^\\circ$.",
+        "hi": "$\\sin 18^\\circ$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\frac{\\sqrt{5}-1}{4}$", "hi": "$\\frac{\\sqrt{5}-1}{4}$"}},
+        {"id": "B", "text": {"en": "$\\frac{\\sqrt{5}+1}{4}$", "hi": "$\\frac{\\sqrt{5}+1}{4}$"}},
+        {"id": "C", "text": {"en": "$\\frac{\\sqrt{10-2\\sqrt{5}}}{4}$", "hi": "$\\frac{\\sqrt{10-2\\sqrt{5}}}{4}$"}},
+        {"id": "D", "text": {"en": "$\\frac{\\sqrt{5}-1}{2}$", "hi": "$\\frac{\\sqrt{5}-1}{2}$"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Let $\\theta = 18^\\circ \\implies 5\\theta = 90^\\circ \\implies 2\\theta = 90^\\circ - 3\\theta$. Taking sine on both sides: $\\sin 2\\theta = \\cos 3\\theta \\implies 2\\sin\\theta\\cos\\theta = 4\\cos^3\\theta - 3\\cos\\theta$. Solving the quadratic $4\\sin^2\\theta + 2\\sin\\theta - 1 = 0$ gives positive root $\\sin 18^\\circ = \\frac{\\sqrt{5}-1}{4}$.",
+        "hi": "माना $\\theta = 18^\\circ \\implies 5\\theta = 90^\\circ \\implies 2\\theta = 90^\\circ - 3\\theta$। दोनों तरफ साइन लेने पर: $\\sin 2\\theta = \\cos 3\\theta \\implies 2\\sin\\theta\\cos\\theta = 4\\cos^3\\theta - 3\\cos\\theta$। द्विघात समीकरण $4\\sin^2\\theta + 2\\sin\\theta - 1 = 0$ को हल करने पर धनात्मक मूल $\\sin 18^\\circ = \\frac{\\sqrt{5}-1}{4}$ मिलता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the square root of $-8 - 6i$?",
+        "hi": "$-8 - 6i$ का वर्गमूल क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\pm (1 - 3i)$", "hi": "$\\pm (1 - 3i)$"}},
+        {"id": "B", "text": {"en": "$\\pm (3 - i)$", "hi": "$\\pm (3 - i)$"}},
+        {"id": "C", "text": {"en": "$\\pm (1 + 3i)$", "hi": "$\\pm (1 + 3i)$"}},
+        {"id": "D", "text": {"en": "$\\pm (2 - 3i)$", "hi": "$\\pm (2 - 3i)$"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Let $\\sqrt{-8 - 6i} = x + iy$. Squaring both sides: $x^2 - y^2 = -8$ and $2xy = -6$. From $2xy = -6$, $y = -3/x$. Substituting gives $x^2 - 9/x^2 = -8 \\implies x^4 + 8x^2 - 9 = 0 \\implies (x^2 + 9)(x^2 - 1) = 0$. Since $x \\in \\mathbb{R}$, $x^2 = 1 \\implies x = \\pm 1$, $y = \\mp 3$. So root is $\\pm (1 - 3i)$.",
+        "hi": "माना $\\sqrt{-8 - 6i} = x + iy$। दोनों पक्षों का वर्ग करने पर: $x^2 - y^2 = -8$ और $2xy = -6$। $2xy = -6$ से, $y = -3/x$। मान रखने पर $x^2 - 9/x^2 = -8 \\implies x^4 + 8x^2 - 9 = 0 \\implies (x^2 + 9)(x^2 - 1) = 0$। चूँकि $x \\in \\mathbb{R}$, $x^2 = 1 \\implies x = \\pm 1$, $y = \\mp 3$। अतः वर्गमूल $\\pm (1 - 3i)$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-12-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $a$ and $b$ are real numbers such that $\\frac{a + ib}{1 + i} = 2 + 3i$, find the value of $a + b$.",
+        "hi": "यदि $a$ और $b$ ऐसी वास्तविक संख्याएँ हैं कि $\\frac{a + ib}{1 + i} = 2 + 3i$ है, तो $a + b$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "Cross multiplying gives $a + ib = (2 + 3i)(1 + i) = 2 + 2i + 3i + 3i^2 = 2 + 5i - 3 = -1 + 5i$. Equating real and imaginary parts: $a = -1$ and $b = 5$. Therefore, $a + b = -1 + 5 = 4$.",
+        "hi": "तिर्यक गुणा करने पर $a + ib = (2 + 3i)(1 + i) = 2 + 2i + 3i + 3i^2 = 2 + 5i - 3 = -1 + 5i$ मिलता है। वास्तविक और काल्पनिक भागों की तुलना करने पर: $a = -1$ और $b = 5$। इसलिए, $a + b = -1 + 5 = 4$।"
+      }
+    }
+  ]
+}
