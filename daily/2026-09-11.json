@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-11",
+  "questions": [
+    {
+      "id": "dd-2026-09-11-01",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A body starts from rest and moves with a uniform acceleration of 2 m/s². What distance does it cover in the 3rd second of its motion?",
+        "hi": "एक वस्तु विरामवस्था से प्रारंभ होकर 2 m/s² के एकसमान त्वरण से गति करती है। अपनी गति के तीसरे सेकंड में यह कितनी दूरी तय करती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 m", "hi": "3 m"}},
+        {"id": "B", "text": {"en": "5 m", "hi": "5 m"}},
+        {"id": "C", "text": {"en": "9 m", "hi": "9 m"}},
+        {"id": "D", "text": {"en": "4 m", "hi": "4 m"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Distance in $n$-th second formula: $S_n = u + \\frac{a}{2}(2n - 1)$. Here $u = 0, a = 2, n = 3$: $S_3 = 0 + \\frac{2}{2}(2 \\times 3 - 1) = 1 \\times 5 = 5\\text{ m}$.",
+        "hi": "$n$-वें सेकंड में दूरी का सूत्र: $S_n = u + \\frac{a}{2}(2n - 1)$। यहाँ $u = 0, a = 2, n = 3$: $S_3 = 0 + \\frac{2}{2}(2 \\times 3 - 1) = 1 \\times 5 = 5\\text{ m}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A river is flowing west to east at $3\\text{ km/h}$. A swimmer who can swim at $5\\text{ km/h}$ in still water wants to cross the river along the shortest path. At what angle to the upstream (west) should he swim?",
+        "hi": "एक नदी पश्चिम से पूर्व की ओर $3\\text{ km/h}$ की चाल से बह रही है। एक तैराक जो शांत जल में $5\\text{ km/h}$ से तैर सकता है, न्यूनतम पथ द्वारा नदी पार करना चाहता है। उसे धारा के प्रतिकूल (पश्चिम) से किस कोण पर तैरना चाहिए?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "127°", "hi": "127°"}},
+        {"id": "B", "text": {"en": "143°", "hi": "143°"}},
+        {"id": "C", "text": {"en": "53°", "hi": "53°"}},
+        {"id": "D", "text": {"en": "37°", "hi": "37°"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For shortest path (straight across, perpendicular to river bank), swimmer's upstream component must cancel river flow: $v_{swimmer} \\sin\\alpha = v_{river} \\implies 5 \\sin\\alpha = 3 \\implies \\sin\\alpha = 3/5 \\implies \\alpha = 37^\\circ$ from perpendicular. Angle with upstream $= 90^\\circ - 37^\\circ = 53^\\circ$.",
+        "hi": "न्यूनतम पथ (सीधे पार, नदी तट के लंबवत) के लिए, तैराक का धारा के प्रतिकूल घटक नदी के बहाव को संतुलित करना चाहिए: $v_{swimmer} \\sin\\alpha = v_{river} \\implies 5 \\sin\\alpha = 3 \\implies \\sin\\alpha = 3/5 \\implies \\alpha = 37^\\circ$ लंबवत से। धारा के प्रतिकूल से कोण $= 90^\\circ - 37^\\circ = 53^\\circ$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The position vector of a particle is given by $\\vec{r}(t) = (3t^2 \\hat{i} + 4t^2 \\hat{j})\\text{ m}$. Find the magnitude of acceleration (in m/s²) of the particle at $t = 2\\text{ s}$.",
+        "hi": "एक कण का स्थिति सदिश $\\vec{r}(t) = (3t^2 \\hat{i} + 4t^2 \\hat{j})\\text{ m}$ द्वारा दिया गया है। $t = 2\\text{ s}$ पर कण के त्वरण का परिमाण (m/s² में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "Velocity $\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = 6t \\hat{i} + 8t \\hat{j}$. Acceleration $\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = 6 \\hat{i} + 8 \\hat{j}$. The acceleration vector is constant (independent of time $t$). Magnitude $|\\vec{a}| = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = 10\\text{ m/s}^2$.",
+        "hi": "वेग $\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = 6t \\hat{i} + 8t \\hat{j}$। त्वरण $\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = 6 \\hat{i} + 8 \\hat{j}$। त्वरण सदिश नियत है (समय $t$ पर निर्भर नहीं करता)। परिमाण $|\\vec{a}| = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = 10\\text{ m/s}^2$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following concentration terms is independent of temperature?",
+        "hi": "निम्नलिखित में से कौन सा सांद्रता पद तापमान पर निर्भर नहीं करता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Molarity", "hi": "मोलरता (Molarity)"}},
+        {"id": "B", "text": {"en": "Molality", "hi": "मोललता (Molality)"}},
+        {"id": "C", "text": {"en": "Normality", "hi": "सामान्यतः (Normality)"}},
+        {"id": "D", "text": {"en": "Volume Percentage", "hi": "आयतन प्रतिशत" }}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Molality is defined as moles of solute per kilogram of solvent. Since mass does not change with temperature, molality (and mole fraction) is temperature independent, whereas molarity depends on volume, which expands with temperature.",
+        "hi": "मोललता को प्रति किलोग्राम विलायक में विलय के मोलों के रूप में परिभाषित किया जाता है। चूँकि द्रव्यमान तापमान के साथ नहीं बदलता, इसलिए मोललता (और मोल अंश) तापमान पर निर्भर नहीं करती है, जबकि मोलरता आयतन पर निर्भर करती है, जो तापमान के साथ बढ़ता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "How many total radial nodes are present in a 4p orbital?",
+        "hi": "4p कक्षक में कुल कितने त्रिज्या नोड (radial nodes) उपस्थित होते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Formula for number of radial nodes $= n - l - 1$. For $4p$ orbital: principal quantum number $n = 4$ and azimuthal quantum number $l = 1$. Radial nodes $= 4 - 1 - 1 = 2$.",
+        "hi": "त्रिज्या नोडों की संख्या का सूत्र $= n - l - 1$। $4p$ कक्षक के लिए: मुख्य क्वांटम संख्या $n = 4$ और दिगंशी क्वांटम संख्या $l = 1$। त्रिज्या नोड $= 4 - 1 - 1 = 2$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-06",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The correct order of first ionization energy ($IE_1$) among B, C, N, and O is:",
+        "hi": "B, C, N, और O में प्रथम आयनन ऊर्जा ($IE_1$) का सही क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "B < C < O < N", "hi": "B < C < O < N"}},
+        {"id": "B", "text": {"en": "B < C < N < O", "hi": "B < C < N < O"}},
+        {"id": "C", "text": {"en": "C < B < O < N", "hi": "C < B < O < N"}},
+        {"id": "D", "text": {"en": "B < O < C < N", "hi": "B < O < C < N"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Across a period, $IE_1$ generally increases, but Nitrogen ($1s^2 2s^2 2p^3$) has a half-filled $2p$ subshell which confers extra stability. Hence, removing an electron from Oxygen ($2p^4$) requires less energy than Nitrogen ($2p^3$). The correct order is $\\text{B} < \\text{C} < \\text{O} < \\text{N}$.",
+        "hi": "एक आवर्त में, $IE_1$ सामान्यतः बढ़ता है, लेकिन नाइट्रोजन ($1s^2 2s^2 2p^3$) में आधा भरा $2p$ उपकोश होता है जो अतिरिक्त स्थायित्व प्रदान करता है। इसलिए, ऑक्सीजन ($2p^4$) से इलेक्ट्रॉन निकालने के लिए नाइट्रोजन ($2p^3$) की तुलना में कम ऊर्जा की आवश्यकता होती है। सही क्रम $\\text{B} < \\text{C} < \\text{O} < \\text{N}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $f(x) = 2x + 5$, what is $f(f(2))$?",
+        "hi": "यदि $f(x) = 2x + 5$ है, तो $f(f(2))$ क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9", "hi": "9"}},
+        {"id": "B", "text": {"en": "18", "hi": "18"}},
+        {"id": "C", "text": {"en": "23", "hi": "23"}},
+        {"id": "D", "text": {"en": "14", "hi": "14"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "First calculate $f(2) = 2(2) + 5 = 9$. Then substitute this into $f$: $f(f(2)) = f(9) = 2(9) + 5 = 18 + 5 = 23$.",
+        "hi": "पहले $f(2) = 2(2) + 5 = 9$ की गणना करें। फिर इसे $f$ में रखें: $f(f(2)) = f(9) = 2(9) + 5 = 18 + 5 = 23$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the value of $\\tan 15^\\circ$?",
+        "hi": "$\\tan 15^\\circ$ का मान क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2 + \\sqrt{3}", "hi": "2 + \\sqrt{3}"}},
+        {"id": "B", "text": {"en": "2 - \\sqrt{3}", "hi": "2 - \\sqrt{3}"}},
+        {"id": "C", "text": {"en": "\\sqrt{3} - 1", "hi": "\\sqrt{3} - 1"}},
+        {"id": "D", "text": {"en": "\\frac{\\sqrt{3}-1}{2}", "hi": "\\frac{\\sqrt{3}-1}{2}"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Using $\\tan(45^\\circ - 30^\\circ) = \\frac{\\tan 45^\\circ - \\tan 30^\\circ}{1 + \\tan 45^\\circ \\tan 30^\\circ} = \\frac{1 - 1/\\sqrt{3}}{1 + 1/\\sqrt{3}} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}$. Rationalizing gives $\\frac{(\\sqrt{3}-1)^2}{3-1} = \\frac{4-2\\sqrt{3}}{2} = 2 - \\sqrt{3}$.",
+        "hi": "$\\tan(45^\\circ - 30^\\circ) = \\frac{\\tan 45^\\circ - \\tan 30^\\circ}{1 + \\tan 45^\\circ \\tan 30^\\circ} = \\frac{1 - 1/\\sqrt{3}}{1 + 1/\\sqrt{3}} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}$ का उपयोग करके। परिमेयीकरण करने पर $\\frac{(\\sqrt{3}-1)^2}{3-1} = \\frac{4-2\\sqrt{3}}{2} = 2 - \\sqrt{3}$ प्राप्त होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $z = 1 + i\\sqrt{3}$, what is the argument $\\text{Arg}(z)$ of $z$?",
+        "hi": "यदि $z = 1 + i\\sqrt{3}$ है, तो $z$ का कोण/कोणांक $\\text{Arg}(z)$ क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\pi/6$", "hi": "$\\pi/6$"}},
+        {"id": "B", "text": {"en": "$\\pi/3$", "hi": "$\\pi/3$"}},
+        {"id": "C", "text": {"en": "$2\\pi/3$", "hi": "$2\\pi/3$"}},
+        {"id": "D", "text": {"en": "$\\pi/4$", "hi": "$\\pi/4$"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $z = x + iy = 1 + i\\sqrt{3}$, both $x > 0$ and $y > 0$ (Quadrant I). $\\tan\\theta = \\frac{y}{x} = \\frac{\\sqrt{3}}{1} = \\sqrt{3} \\implies \\theta = \\frac{\\pi}{3}$ ($60^\\circ$).",
+        "hi": "$z = x + iy = 1 + i\\sqrt{3}$ के लिए, $x > 0$ और $y > 0$ दोनों प्रथम चतुर्थांश में हैं। $\\tan\\theta = \\frac{y}{x} = \\frac{\\sqrt{3}}{1} = \\sqrt{3} \\implies \\theta = \\frac{\\pi}{3}$ ($60^\\circ$)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-11-10",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the maximum value of the expression $3\\sin x + 4\\cos x + 5$.",
+        "hi": "व्यंजक $3\\sin x + 4\\cos x + 5$ का अधिकतम मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "The range of $a\\sin x + b\\cos x$ is $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}]$. Here $a=3, b=4$, so $\\sqrt{3^2+4^2} = 5$. Thus $-5 \\le 3\\sin x + 4\\cos x \\le 5$. Adding 5 to the whole inequality gives $0 \\le 3\\sin x + 4\\cos x + 5 \\le 10$. The maximum value is 10.",
+        "hi": "$a\\sin x + b\\cos x$ का परिसर $[-\\sqrt{a^2+b^2}, \\sqrt{a^2+b^2}]$ होता है। यहाँ $a=3, b=4$, अतः $\\sqrt{3^2+4^2} = 5$। इस प्रकार $-5 \\le 3\\sin x + 4\\cos x \\le 5$। संपूर्ण असमिका में 5 जोड़ने पर $0 \\le 3\\sin x + 4\\cos x + 5 \\le 10$ प्राप्त होता है। अधिकतम मान 10 है।"
+      }
+    }
+  ]
+}
