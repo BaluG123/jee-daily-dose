@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-09",
+  "questions": [
+    {
+      "id": "dd-2026-09-09-01",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The velocity-time graph of an object moving along a straight line is parallel to the time axis. This indicates that the object is:",
+        "hi": "एक सीधी रेखा में गतिमान वस्तु का वेग-समय ग्राफ समय अक्ष के समानांतर है। यह दर्शाता है कि वस्तु:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "At rest", "hi": "विरामवस्था में है"}},
+        {"id": "B", "text": {"en": "Moving with uniform velocity", "hi": "एकसमान वेग से गतिमान है"}},
+        {"id": "C", "text": {"en": "Moving with uniform acceleration", "hi": "एकसमान त्वरण से गतिमान है"}},
+        {"id": "D", "text": {"en": "Moving with non-uniform acceleration", "hi": "असमान त्वरण से गतिमान है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A horizontal line on a velocity-time graph means $v$ remains constant over time ($t$). Since acceleration $a = \\frac{dv}{dt} = 0$, the body moves with a uniform velocity.",
+        "hi": "वेग-समय ग्राफ पर एक क्षैतिज रेखा का अर्थ है कि वेग $v$ समय ($t$) के साथ नियत रहता है। चूँकि त्वरण $a = \\frac{dv}{dt} = 0$, इसलिए वस्तु एकसमान वेग से गति करती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A projectile is thrown with an initial velocity $u$ at an angle $\\theta$ with the horizontal. At the highest point of its trajectory, its speed is half of its initial speed. What is the angle of projection $\\theta$?",
+        "hi": "एक प्रक्षेप्य को क्षैतिज से $\\theta$ कोण पर प्रारंभिक वेग $u$ के साथ फेंका जाता है। इसके प्रक्षेप पथ के उच्चतम बिंदु पर इसकी चाल इसकी प्रारंभिक चाल की आधी है। प्रक्षेपण कोण $\\theta$ क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "30°", "hi": "30°"}},
+        {"id": "B", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "C", "text": {"en": "60°", "hi": "60°"}},
+        {"id": "D", "text": {"en": "75°", "hi": "75°"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "At the highest point, the vertical component of velocity is zero, leaving only the horizontal component: $v_{top} = u \\cos\\theta$. Given $v_{top} = \\frac{u}{2}$, we have $u \\cos\\theta = \\frac{u}{2} \\implies \\cos\\theta = \\frac{1}{2} \\implies \\theta = 60^\\circ$.",
+        "hi": "उच्चतम बिंदु पर, वेग का ऊर्ध्वाधर घटक शून्य होता है, केवल क्षैतिज घटक बचता है: $v_{top} = u \\cos\\theta$। दिया गया है $v_{top} = \\frac{u}{2}$, अतः $u \\cos\\theta = \\frac{u}{2} \\implies \\cos\\theta = \\frac{1}{2} \\implies \\theta = 60^\\circ$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Two vectors $\\vec{A}$ and $\\vec{B}$ have equal magnitudes $|\\vec{A}| = |\\vec{B}| = 10\\text{ units}$. If the magnitude of their vector cross product $|\\vec{A} \\times \\vec{B}| = 50\\text{ units}$, find the scalar dot product $\\vec{A} \\cdot \\vec{B}$.",
+        "hi": "दो सदिशों $\\vec{A}$ और $\\vec{B}$ के परिमाण बराबर हैं $|\\vec{A}| = |\\vec{B}| = 10\\text{ units}$। यदि उनके सदिश गुणनफल का परिमाण $|\\vec{A} \\times \\vec{B}| = 50\\text{ units}$ है, तो अदिश गुणनफल $\\vec{A} \\cdot \\vec{B}$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 86.6,
+      "solution": {
+        "en": "$|\\vec{A} \\times \\vec{B}| = AB \\sin\\theta = 10 \\times 10 \\times \\sin\\theta = 100 \\sin\\theta = 50 \\implies \\sin\\theta = 0.5 \\implies \\theta = 30^\\circ$. The scalar dot product is $\\vec{A} \\cdot \\vec{B} = AB \\cos\\theta = 100 \\cos 30^\\circ = 100 \\times \\frac{\\sqrt{3}}{2} = 50\\sqrt{3} \\approx 86.6\\text{ units}$.",
+        "hi": "$|\\vec{A} \\times \\vec{B}| = AB \\sin\\theta = 10 \\times 10 \\times \\sin\\theta = 100 \\sin\\theta = 50 \\implies \\sin\\theta = 0.5 \\implies \\theta = 30^\\circ$। अदिश गुणनफल $\\vec{A} \\cdot \\vec{B} = AB \\cos\\theta = 100 \\cos 30^\\circ = 100 \\times \\frac{\\sqrt{3}}{2} = 50\\sqrt{3} \\approx 86.6\\text{ units}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-04",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following subshells has the lowest energy according to the $(n + l)$ rule?",
+        "hi": "$(n + l)$ नियम के अनुसार निम्नलिखित में से किस उपकोश की ऊर्जा सबसे कम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4s", "hi": "4s"}},
+        {"id": "B", "text": {"en": "3d", "hi": "3d"}},
+        {"id": "C", "text": {"en": "4p", "hi": "4p"}},
+        {"id": "D", "text": {"en": "5s", "hi": "5s"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Calculate $(n + l)$ values: $4s \\rightarrow 4 + 0 = 4$; $3d \\rightarrow 3 + 2 = 5$; $4p \\rightarrow 4 + 1 = 5$; $5s \\rightarrow 5 + 0 = 5$. Lower $(n + l)$ value corresponds to lower energy, so $4s$ is filled before $3d$.",
+        "hi": "$(n + l)$ मानों की गणना करें: $4s \\rightarrow 4 + 0 = 4$; $3d \\rightarrow 3 + 2 = 5$; $4p \\rightarrow 4 + 1 = 5$; $5s \\rightarrow 5 + 0 = 5$। कम $(n + l)$ मान कम ऊर्जा से संबंधित है, इसलिए $4s$ को $3d$ से पहले भरा जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the de Broglie wavelength of an electron moving with a velocity of $10^6\\text{ m/s}$? ($m_e = 9.1 \\times 10^{-31}\\text{ kg}, h = 6.63 \\times 10^{-34}\\text{ J s}$)",
+        "hi": "$10^6\\text{ m/s}$ के वेग से गतिमान एक इलेक्ट्रॉन की डी-ब्रोग्ली तरंगदैर्ध्य क्या है? ($m_e = 9.1 \\times 10^{-31}\\text{ kg}, h = 6.63 \\times 10^{-34}\\text{ J s}$)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.728 nm", "hi": "0.728 nm"}},
+        {"id": "B", "text": {"en": "7.28 nm", "hi": "7.28 nm"}},
+        {"id": "C", "text": {"en": "0.0728 nm", "hi": "0.0728 nm"}},
+        {"id": "D", "text": {"en": "72.8 nm", "hi": "72.8 nm"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\lambda = \\frac{h}{mv} = \\frac{6.63 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 10^6} = \\frac{6.63}{9.1} \\times 10^{-9}\\text{ m} \\approx 0.728 \\times 10^{-9}\\text{ m} = 0.728\\text{ nm}$.",
+        "hi": "$\\lambda = \\frac{h}{mv} = \\frac{6.63 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 10^6} = \\frac{6.63}{9.1} \\times 10^{-9}\\text{ m} \\approx 0.728 \\times 10^{-9}\\text{ m} = 0.728\\text{ nm}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-06",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following species has the largest ionic radius?",
+        "hi": "निम्नलिखित में से किस प्रजाति की आयनिक त्रिज्या सबसे बड़ी है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\text{Na}^+$", "hi": "$\\text{Na}^+$"}},
+        {"id": "B", "text": {"en": "$\\text{Mg}^{2+}$", "hi": "$\\text{Mg}^{2+}$"}},
+        {"id": "C", "text": {"en": "$\\text{F}^-$", "hi": "$\\text{F}^-$"}},
+        {"id": "D", "text": {"en": "$\\text{O}^{2-}$", "hi": "$\\text{O}^{2-}$"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "All given ions ($\\text{Na}^+, \\text{Mg}^{2+}, \\text{F}^-, \\text{O}^{2-}$) are isoelectronic species with 10 electrons. For isoelectronic species, as nuclear charge ($Z$) increases, ionic radius decreases. Protons: $\\text{O}^{2-} (8)$, $\\text{F}^- (9)$, $\\text{Na}^+ (11)$, $\\text{Mg}^{2+} (12)$. Thus, $\\text{O}^{2-}$ has the smallest $Z$ and the largest radius.",
+        "hi": "सभी दिए गए आयन ($\\text{Na}^+, \\text{Mg}^{2+}, \\text{F}^-, \\text{O}^{2-}$) 10 इलेक्ट्रॉनों वाली सम-इलेक्ट्रॉनी प्रजातियाँ हैं। सम-इलेक्ट्रॉनी प्रजातियों के लिए, जैसे-जैसे नाभिकीय आवेश ($Z$) बढ़ता है, आयनिक त्रिज्या घटती है। प्रोटॉन संख्या: $\\text{O}^{2-} (8)$, $\\text{F}^- (9)$, $\\text{Na}^+ (11)$, $\\text{Mg}^{2+} (12)$। अतः $\\text{O}^{2-}$ का $Z$ सबसे कम है और त्रिज्या सबसे बड़ी है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A = \\{1, 2, 3\\}$ and $B = \\{a, b\\}$, how many total relations can be defined from set $A$ to set $B$?",
+        "hi": "यदि $A = \\{1, 2, 3\\}$ और $B = \\{a, b\\}$ है, तो समुच्चय $A$ से समुच्चय $B$ में कुल कितने संबंध परिभाषित किए जा सकते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6", "hi": "6"}},
+        {"id": "B", "text": {"en": "36", "hi": "36"}},
+        {"id": "C", "text": {"en": "64", "hi": "64"}},
+        {"id": "D", "text": {"en": "128", "hi": "128"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Number of elements in $A \\times B$ is $n(A) \\times n(B) = 3 \\times 2 = 6$. The total number of relations from $A$ to $B$ is the number of subsets of $A \\times B$, which is $2^6 = 64$.",
+        "hi": "$A \\times B$ में अवयवों की संख्या $n(A) \\times n(B) = 3 \\times 2 = 6$ है। $A$ से $B$ में संबंधों की कुल संख्या $A \\times B$ के उपसमुच्चयों की संख्या होती है, जो $2^6 = 64$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the principal value of $\\cos\\left(-\\frac{5\\pi}{6}\\right)$?",
+        "hi": "$\\cos\\left(-\\frac{5\\pi}{6}\\right)$ का मुख्य मान क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\frac{\\sqrt{3}}{2}$", "hi": "$\\frac{\\sqrt{3}}{2}$"}},
+        {"id": "B", "text": {"en": "$-\\frac{\\sqrt{3}}{2}$", "hi": "$-\\frac{\\sqrt{3}}{2}$"}},
+        {"id": "C", "text": {"en": "$\\frac{1}{2}$", "hi": "$\\frac{1}{2}$"}},
+        {"id": "D", "text": {"en": "$-\\frac{1}{2}$", "hi": "$-\\frac{1}{2}$"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Since $\\cos(-\\theta) = \\cos\\theta$, we have $\\cos\\left(-\\frac{5\\pi}{6}\\right) = \\cos\\left(\\frac{5\\pi}{6}\\right) = \\cos\\left(\\pi - \\frac{\\pi}{6}\\right) = -\\cos\\left(\\frac{\\pi}{6}\\right) = -\\frac{\\sqrt{3}}{2}$.",
+        "hi": "चूँकि $\\cos(-\\theta) = \\cos\\theta$, हमारे पास $\\cos\\left(-\\frac{5\\pi}{6}\\right) = \\cos\\left(\\frac{5\\pi}{6}\\right) = \\cos\\left(\\pi - \\frac{\\pi}{6}\\right) = -\\cos\\left(\\frac{\\pi}{6}\\right) = -\\frac{\\sqrt{3}}{2}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-09",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Find the value of $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$.",
+        "hi": "$\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "C", "text": {"en": "1/8", "hi": "1/8"}},
+        {"id": "D", "text": {"en": "1/16", "hi": "1/16"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Standard product formula: $\\cos A \\cos 2A \\cos 4A = \\frac{\\sin(2^3 A)}{2^3 \\sin A}$. For $A = 20^\\circ$: $\\frac{\\sin 160^\\circ}{8 \\sin 20^\\circ} = \\frac{\\sin(180^\\circ - 20^\\circ)}{8 \\sin 20^\\circ} = \\frac{\\sin 20^\\circ}{8 \\sin 20^\\circ} = \\frac{1}{8}$.",
+        "hi": "मानक गुणन सूत्र: $\\cos A \\cos 2A \\cos 4A = \\frac{\\sin(2^3 A)}{2^3 \\sin A}$। $A = 20^\\circ$ के लिए: $\\frac{\\sin 160^\\circ}{8 \\sin 20^\\circ} = \\frac{\\sin(180^\\circ - 20^\\circ)}{8 \\sin 20^\\circ} = \\frac{\\sin 20^\\circ}{8 \\sin 20^\\circ} = \\frac{1}{8}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-09-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the real part of $(1 + i)^8$.",
+        "hi": "$(1 + i)^8$ का वास्तविक भाग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 16,
+      "solution": {
+        "en": "Write $1 + i$ in polar form: $\\sqrt{2} e^{i\\pi/4}$. Then $(1 + i)^8 = (\\sqrt{2} e^{i\\pi/4})^8 = (\\sqrt{2})^8 e^{i 2\\pi} = 16 (\\cos 2\\pi + i \\sin 2\\pi) = 16(1 + 0i) = 16$. The real part is 16.",
+        "hi": "$1 + i$ को ध्रुवीय रूप में लिखें: $\\sqrt{2} e^{i\\pi/4}$। तब $(1 + i)^8 = (\\sqrt{2} e^{i\\pi/4})^8 = (\\sqrt{2})^8 e^{i 2\\pi} = 16 (\\cos 2\\pi + i \\sin 2\\pi) = 16(1 + 0i) = 16$। वास्तविक भाग 16 है।"
+      }
+    }
+  ]
+}
