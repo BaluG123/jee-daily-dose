@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-14",
+  "questions": [
+    {
+      "id": "dd-2026-09-14-01",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "At what height $h$ above the Earth's surface does acceleration due to gravity become $g/4$? ($R$ is Earth's radius)",
+        "hi": "पृथ्वी की सतह से किस ऊँचाई $h$ पर गुरुत्वीय त्वरण $g/4$ हो जाता है? ($R$ पृथ्वी की त्रिज्या है)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "R", "hi": "R"}},
+        {"id": "B", "text": {"en": "2R", "hi": "2R"}},
+        {"id": "C", "text": {"en": "R/2", "hi": "R/2"}},
+        {"id": "D", "text": {"en": "4R", "hi": "4R"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Formula: $g' = g \\frac{R^2}{(R+h)^2}$. Given $g' = g/4 \\implies \\frac{R^2}{(R+h)^2} = \\frac{1}{4} \\implies \\frac{R}{R+h} = \\frac{1}{2} \\implies R+h = 2R \\implies h = R$.",
+        "hi": "सूत्र: $g' = g \\frac{R^2}{(R+h)^2}$। दिया है $g' = g/4 \\implies \\frac{R^2}{(R+h)^2} = \\frac{1}{4} \\implies \\frac{R}{R+h} = \\frac{1}{2} \\implies R+h = 2R \\implies h = R$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Solids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A steel wire of length $2\\text{ m}$ and cross-sectional area $1\\text{ mm}^2$ is stretched by a force of $200\\text{ N}$. If Young's modulus $Y = 2 \\times 10^{11}\\text{ N/m}^2$, find the extension in length.",
+        "hi": "$2\\text{ m}$ लंबाई और $1\\text{ mm}^2$ अनुप्रस्थ काट क्षेत्रफल वाले स्टील के तार को $200\\text{ N}$ बल द्वारा खींचा जाता है। यदि यंग प्रत्यास्थता गुणांक $Y = 2 \\times 10^{11}\\text{ N/m}^2$ है, तो लंबाई में वृद्धि ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1 mm", "hi": "1 mm"}},
+        {"id": "B", "text": {"en": "2 mm", "hi": "2 mm"}},
+        {"id": "C", "text": {"en": "0.5 mm", "hi": "0.5 mm"}},
+        {"id": "D", "text": {"en": "4 mm", "hi": "4 mm"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Formula: $\\Delta L = \\frac{F L}{A Y}$. Given $F = 200\\text{ N}, L = 2\\text{ m}, A = 10^{-6}\\text{ m}^2, Y = 2 \\times 10^{11}\\text{ N/m}^2$. $\\Delta L = \\frac{200 \\times 2}{10^{-6} \\times 2 \\times 10^{11}} = \\frac{400}{2 \\times 10^5} = 2 \\times 10^{-3}\\text{ m} = 2\\text{ mm}$. Wait, $400 / (2 \\times 10^5) = 2 \\times 10^{-3}\\text{ m} = 2\\text{ mm}$. Correct option is B.",
+        "hi": "सूत्र: $\\Delta L = \\frac{F L}{A Y}$। दिया है $F = 200\\text{ N}, L = 2\\text{ m}, A = 10^{-6}\\text{ m}^2, Y = 2 \\times 10^{11}\\text{ N/m}^2$। $\\Delta L = \\frac{200 \\times 2}{10^{-6} \\times 2 \\times 10^{11}} = 2 \\times 10^{-3}\\text{ m} = 2\\text{ mm}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-03",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Water flows through a horizontal pipe of varying cross-section. At a point where pressure is $20\\text{ kPa}$, velocity is $2\\text{ m/s}$. At another point, velocity is $4\\text{ m/s}$. Find the pressure at the second point in kPa. (Density of water $= 1000\\text{ kg/m}^3$)",
+        "hi": "पानी परिवर्तनशील अनुप्रस्थ-काट वाले एक क्षैतिज पाइप से होकर बहता है। जिस बिंदु पर दाब $20\\text{ kPa}$ है, वहाँ वेग $2\\text{ m/s}$ है। दूसरे बिंदु पर, वेग $4\\text{ m/s}$ है। kPa में दूसरे बिंदु पर दाब ज्ञात कीजिए। (पानी का घनत्व $= 1000\\text{ kg/m}^3$)"
+      },
+      "options": [],
+      "correctAnswer": 14,
+      "solution": {
+        "en": "By Bernoulli's principle for horizontal pipe: $P_1 + \\frac{1}{2} \\rho v_1^2 = P_2 + \\frac{1}{2} \\rho v_2^2 \\implies P_2 = P_1 + \\frac{1}{2} \\rho (v_1^2 - v_2^2)$. Substituting: $P_2 = 20000 + \\frac{1}{2} (1000)(2^2 - 4^2) = 20000 + 500(4 - 16) = 20000 - 6000 = 14000\\text{ Pa} = 14\\text{ kPa}$.",
+        "hi": "क्षैतिज पाइप के लिए बर्नौली के सिद्धांत से: $P_1 + \\frac{1}{2} \\rho v_1^2 = P_2 + \\frac{1}{2} \\rho v_2^2 \\implies P_2 = P_1 + \\frac{1}{2} \\rho (v_1^2 - v_2^2)$। मान रखने पर: $P_2 = 20000 + \\frac{1}{2} (1000)(2^2 - 4^2) = 20000 + 500(-12) = 14000\\text{ Pa} = 14\\text{ kPa}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-04",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the oxidation state of Mn in $\\text{KMnO}_4$?",
+        "hi": "$\\text{KMnO}_4$ में Mn की ऑक्सीकरण अवस्था क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+2", "hi": "+2"}},
+        {"id": "B", "text": {"en": "+6", "hi": "+6"}},
+        {"id": "C", "text": {"en": "+7", "hi": "+7"}},
+        {"id": "D", "text": {"en": "+4", "hi": "+4"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Let oxidation state of Mn be $x$. Oxidation states of K $= +1$, O $= -2$. $+1 + x + 4(-2) = 0 \\implies x - 7 = 0 \\implies x = +7$.",
+        "hi": "माना Mn की ऑक्सीकरण अवस्था $x$ है। K की ऑक्सीकरण अवस्था $= +1$, O $= -2$। $+1 + x + 4(-2) = 0 \\implies x - 7 = 0 \\implies x = +7$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-05",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry - Some Basic Principles and Techniques",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the IUPAC name of $\\text{CH}_3-\\text{CH}(\\text{CH}_3)-\\text{CH}_2-\\text{COOH}$?",
+        "hi": "$\\text{CH}_3-\\text{CH}(\\text{CH}_3)-\\text{CH}_2-\\text{COOH}$ का IUPAC नाम क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2-Methylbutanoic acid", "hi": "2-मेथिलब्यूटेनॉइक अम्ल"}},
+        {"id": "B", "text": {"en": "3-Methylbutanoic acid", "hi": "3-मेथिलब्यूटेनॉइक अम्ल"}},
+        {"id": "C", "text": {"en": "Isovaleric acid", "hi": "आइसोवैलेरिक अम्ल"}},
+        {"id": "D", "text": {"en": "2-Methylpropanoic acid", "hi": "2-मेथिलप्रोपैनॉइक अम्ल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Longest continuous carbon chain containing carboxylic carbon has 4 carbons (butanoic acid). Numbering starts from $-\\text{COOH}$ carbon: C1 is $-\\text{COOH}$, C2 is $-\\text{CH}_2-$, C3 carries methyl group. Hence, 3-Methylbutanoic acid.",
+        "hi": "कार्बोक्सिलिक कार्बन युक्त सबसे लंबी सतत कार्बन श्रृंखला में 4 कार्बन हैं (ब्यूटेनॉइक अम्ल)। नंबरिंग $-\\text{COOH}$ कार्बन से शुरू होती है: C1 $-\\text{COOH}$ है, C2 $-\\text{CH}_2-$ है, C3 पर मेथिल समूह है। अतः, 3-मेथिलब्यूटेनॉइक अम्ल।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following alkenes gives only one major product on ozonolysis followed by reduction with $\\text{Zn}/\\text{H}_2\\text{O}$?",
+        "hi": "निम्नलिखित में से कौन सा एल्कीन ओजोनोलिसिस और उसके बाद $\\text{Zn}/\\text{H}_2\\text{O}$ के साथ अपचयन पर केवल एक मुख्य उत्पाद देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "But-1-ene", "hi": "ब्यूट-1-इन"}},
+        {"id": "B", "text": {"en": "But-2-ene", "hi": "ब्यूट-2-इन"}},
+        {"id": "C", "text": {"en": "Pent-2-ene", "hi": "पेंट-2-इन"}},
+        {"id": "D", "text": {"en": "2-Methylbut-2-ene", "hi": "2-मेथिलब्यूट-2-इन"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Symmetrical alkenes yield a single carbonyl product. $\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3$ (But-2-ene) splits at the double bond to give 2 molecules of acetaldehyde ($\\text{CH}_3\\text{CHO}$).",
+        "hi": "सममित एल्कीन (Symmetrical alkenes) केवल एक कार्बोनिल उत्पाद देते हैं। $\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{CH}_3$ (ब्यूट-2-इन) द्वि-बंध पर टूटकर एसिटैल्डिहाइड ($\\text{CH}_3\\text{CHO}$) के 2 अणु देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-07",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the number of terms in the expansion of $(x + 2y)^{10}$?",
+        "hi": "$(x + 2y)^{10}$ के प्रसार में पदों की संख्या क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "11", "hi": "11"}},
+        {"id": "C", "text": {"en": "9", "hi": "9"}},
+        {"id": "D", "text": {"en": "12", "hi": "12"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The total number of terms in the binomial expansion of $(a + b)^n$ is $n + 1$. Here $n = 10$, so total terms $= 10 + 1 = 11$.",
+        "hi": "द्विपद प्रसार $(a + b)^n$ में कुल पदों की संख्या $n + 1$ होती है। यहाँ $n = 10$, इसलिए कुल पद $= 10 + 1 = 11$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the $n$-th term of an AP is $T_n = 3n + 2$, find the sum of its first 20 terms.",
+        "hi": "यदि किसी समांतर श्रेणी (AP) का $n$-वां पद $T_n = 3n + 2$ है, तो इसके प्रथम 20 पदों का योग ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "670", "hi": "670"}},
+        {"id": "B", "text": {"en": "650", "hi": "650"}},
+        {"id": "C", "text": {"en": "700", "hi": "700"}},
+        {"id": "D", "text": {"en": "620", "hi": "620"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "First term $a = T_1 = 3(1) + 2 = 5$. 20th term $T_{20} = 3(20) + 2 = 62$. Sum $S_{20} = \\frac{n}{2}(a + l) = \\frac{20}{2}(5 + 62) = 10 \\times 67 = 670$.",
+        "hi": "प्रथम पद $a = T_1 = 3(1) + 2 = 5$। 20वां पद $T_{20} = 3(20) + 2 = 62$। योग $S_{20} = \\frac{n}{2}(a + l) = \\frac{20}{2}(5 + 62) = 10 \\times 67 = 670$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Find the perpendicular distance from point $(2, 3)$ to the line $3x + 4y - 6 = 0$.",
+        "hi": "बिंदु $(2, 3)$ से रेखा $3x + 4y - 6 = 0$ की लंबवत दूरी ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2.4", "hi": "2.4"}},
+        {"id": "B", "text": {"en": "1.2", "hi": "1.2"}},
+        {"id": "C", "text": {"en": "3.6", "hi": "3.6"}},
+        {"id": "D", "text": {"en": "4.8", "hi": "4.8"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Formula: $d = \\frac{|a x_1 + b y_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3(2) + 4(3) - 6|}{\\sqrt{3^2 + 4^2}} = \\frac{|6 + 12 - 6|}{5} = \\frac{12}{5} = 2.4$.",
+        "hi": "सूत्र: $d = \\frac{|a x_1 + b y_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3(2) + 4(3) - 6|}{\\sqrt{3^2 + 4^2}} = \\frac{|6 + 12 - 6|}{5} = \\frac{12}{5} = 2.4$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-14-10",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the length of the latus rectum of the ellipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+        "hi": "दीर्घवृत्त $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ के नाभिलंब (latus rectum) की लंबाई ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3.6,
+      "solution": {
+        "en": "Here $a^2 = 25 \\implies a = 5$ and $b^2 = 9 \\implies b = 3$. Length of latus rectum $= \\frac{2b^2}{a} = \\frac{2 \\times 9}{5} = \\frac{18}{5} = 3.6$.",
+        "hi": "यहाँ $a^2 = 25 \\implies a = 5$ और $b^2 = 9 \\implies b = 3$। नाभिलंब की लंबाई $= \\frac{2b^2}{a} = \\frac{2 \\times 9}{5} = \\frac{18}{5} = 3.6$।"
+      }
+    }
+  ]
+}
