@@ -1,1 +1,215 @@
-
+{
+  "date": "2026-09-08",
+  "questions": [
+    {
+      "id": "dd-2026-09-08-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The dimensional formula for Planck's constant $h$ is:",
+        "hi": "प्लांक नियतांक $h$ का विमीय सूत्र है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[M^1 L^2 T^{-1}]", "hi": "[M^1 L^2 T^{-1}]"}},
+        {"id": "B", "text": {"en": "[M^1 L^1 T^{-1}]", "hi": "[M^1 L^1 T^{-1}]"}},
+        {"id": "C", "text": {"en": "[M^1 L^2 T^{-2}]", "hi": "[M^1 L^2 T^{-2}]"}},
+        {"id": "D", "text": {"en": "[M^1 L^0 T^{-1}]", "hi": "[M^1 L^0 T^{-1}]"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using the relation $E = h\\nu$, we have $h = \\frac{E}{\\nu}$. The dimensions of energy $E$ are $[M^1 L^2 T^{-2}]$ and frequency $\\nu$ is $[T^{-1}]$. Therefore, $[h] = \\frac{[M^1 L^2 T^{-2}]}{[T^{-1}]} = [M^1 L^2 T^{-1}]$. Planck's constant has the same dimensions as angular momentum ($L = mvr$).",
+        "hi": "संबंध $E = h\\nu$ का उपयोग करके, $h = \\frac{E}{\\nu}$। ऊर्जा $E$ की विमाएं $[M^1 L^2 T^{-2}]$ तथा आवृत्ति $\\nu$ की विमा $[T^{-1}]$ हैं। इसलिए, $[h] = \\frac{[M^1 L^2 T^{-2}]}{[T^{-1}]} = [M^1 L^2 T^{-1}]$। प्लांक नियतांक की विमाएं कोणीय संवेग ($L = mvr$) की विमाओं के समान होती हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-02",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A ball is projected vertically upwards with a velocity of 20 m/s from the top of a tower of height 25 m. Taking $g = 10\\,m/s^2$, the total time taken by the ball to reach the ground is:",
+        "hi": "25 m ऊँची मीनार की चोटी से एक गेंद को 20 m/s के वेग से ऊर्ध्वाधर ऊपर की ओर फेंका जाता है। $g = 10\\,m/s^2$ लेते हुए, गेंद को जमीन तक पहुँचने में लगा कुल समय है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 s", "hi": "3 s"}},
+        {"id": "B", "text": {"en": "5 s", "hi": "5 s"}},
+        {"id": "C", "text": {"en": "6 s", "hi": "6 s"}},
+        {"id": "D", "text": {"en": "4 s", "hi": "4 s"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Taking upward direction as positive, $u = +20\\,m/s$, displacement $y = -25\\,m$, and $a = -g = -10\\,m/s^2$. Using $y = ut + \\frac{1}{2}at^2 \\implies -25 = 20t - 5t^2 \\implies t^2 - 4t - 5 = 0$. Factoring gives $(t - 5)(t + 1) = 0$. Since time cannot be negative, $t = 5\\,s$.",
+        "hi": "ऊपर की दिशा को धनात्मक मानते हुए, $u = +20\\,m/s$, विस्थापन $y = -25\\,m$, तथा $a = -g = -10\\,m/s^2$। $y = ut + \\frac{1}{2}at^2 \\implies -25 = 20t - 5t^2 \\implies t^2 - 4t - 5 = 0$ का उपयोग करने पर। गुणनखंड करने पर $(t - 5)(t + 1) = 0$ प्राप्त होता है। समय ऋणात्मक नहीं हो सकता, अतः $t = 5\\,s$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-03",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The displacement $x$ (in metres) of a particle moving in one dimension under the action of a constant force is related to time $t$ (in seconds) by $t = \\sqrt{x} + 3$. What is the displacement (in m) of the particle when its velocity is zero?",
+        "hi": "एक समान बल के प्रभाव में एक विमा में गतिमान कण का विस्थापन $x$ (मीटर में) समय $t$ (सेकंड में) से $t = \\sqrt{x} + 3$ द्वारा संबंधित है। जब कण का वेग शून्य होता है, तब उसका विस्थापन (m में) क्या होगा?"
+      },
+      "options": [],
+      "correctAnswer": 0,
+      "solution": {
+        "en": "Rearranging $t = \\sqrt{x} + 3$ gives $\\sqrt{x} = t - 3 \\implies x = (t - 3)^2 = t^2 - 6t + 9$. Differentiating with respect to $t$ gives velocity $v = \\frac{dx}{dt} = 2t - 6$. Setting $v = 0$ yields $2t - 6 = 0 \\implies t = 3\\,s$. Substituting $t = 3$ back into $x = (3 - 3)^2 = 0\\,m$.",
+        "hi": "$t = \\sqrt{x} + 3$ को व्यवस्थित करने पर $\\sqrt{x} = t - 3 \\implies x = (t - 3)^2 = t^2 - 6t + 9$ मिलता है। $t$ के सापेक्ष अवकलन करने पर वेग $v = \\frac{dx}{dt} = 2t - 6$ प्राप्त होता है। $v = 0$ रखने पर $2t - 6 = 0 \\implies t = 3\\,s$। $t = 3$ को पुनः रखने पर $x = (3 - 3)^2 = 0\\,m$ प्राप्त होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "What is the concentration of $\\text{H}_2\\text{SO}_4$ in mol/L (molarity) if 4.9 g of $\\text{H}_2\\text{SO}_4$ is dissolved in enough water to make 250 mL of solution? (Molar mass of $\\text{H}_2\\text{SO}_4 = 98\\text{ g/mol}$)",
+        "hi": "यदि 4.9 g $\\text{H}_2\\text{SO}_4$ को पर्याप्त जल में घोलकर 250 mL विलयन बनाया जाता है, तो mol/L में $\\text{H}_2\\text{SO}_4$ की सांद्रता (मोलरता) क्या है? ($\\text{H}_2\\text{SO}_4$ का मोलर द्रव्यमान = $98\\text{ g/mol}$)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.1 M", "hi": "0.1 M"}},
+        {"id": "B", "text": {"en": "0.2 M", "hi": "0.2 M"}},
+        {"id": "C", "text": {"en": "0.05 M", "hi": "0.05 M"}},
+        {"id": "D", "text": {"en": "0.4 M", "hi": "0.4 M"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Moles of $\\text{H}_2\\text{SO}_4 = \\frac{4.9}{98} = 0.05\\text{ mol}$. Volume of solution in litres $= \\frac{250}{1000} = 0.25\\text{ L}$. Molarity $M = \\frac{\\text{Moles}}{\\text{Volume in L}} = \\frac{0.05}{0.25} = 0.2\\text{ M}$.",
+        "hi": "$\\text{H}_2\\text{SO}_4$ के मोल $= \\frac{4.9}{98} = 0.05\\text{ mol}$। लीटर में विलयन का आयतन $= \\frac{250}{1000} = 0.25\\text{ L}$। मोलरता $M = \\frac{\\text{मोल}}{\\text{लीटर में आयतन}} = \\frac{0.05}{0.25} = 0.2\\text{ M}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-05",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "When 3.0 g of $\\text{H}_2$ reacts with 29.0 g of $\\text{O}_2$ to form water ($\\text{H}_2\\text{O}$), which reactant is the limiting reagent and what is the maximum amount of water formed?",
+        "hi": "जब 3.0 g $\\text{H}_2$ जल ($\\text{H}_2\\text{O}$) बनाने के लिए 29.0 g $\\text{O}_2$ के साथ अभिक्रिया करता है, तो कौन सा अभिकारक सीमांत अभिकर्मक (limiting reagent) है और जल की अधिकतम कितनी मात्रा बनती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\text{H}_2$ is limiting; 27.0 g $\\text{H}_2\\text{O}$", "hi": "$\\text{H}_2$ सीमांत है; 27.0 g $\\text{H}_2\\text{O}$"}},
+        {"id": "B", "text": {"en": "$\\text{O}_2$ is limiting; 32.6 g $\\text{H}_2\\text{O}$", "hi": "$\\text{O}_2$ सीमांत है; 32.6 g $\\text{H}_2\\text{O}$"}},
+        {"id": "C", "text": {"en": "$\\text{H}_2$ is limiting; 18.0 g $\\text{H}_2\\text{O}$", "hi": "$\\text{H}_2$ सीमांत है; 18.0 g $\\text{H}_2\\text{O}$"}},
+        {"id": "D", "text": {"en": "$\\text{O}_2$ is limiting; 27.0 g $\\text{H}_2\\text{O}$", "hi": "$\\text{O}_2$ सीमांत है; 27.0 g $\\text{H}_2\\text{O}$"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Balanced equation: $2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$. Initial moles: $n(\\text{H}_2) = \\frac{3.0}{2} = 1.5\\text{ mol}$, $n(\\text{O}_2) = \\frac{29.0}{32} = 0.906\\text{ mol}$. Required $n(\\text{O}_2)$ for 1.5 mol $\\text{H}_2$ is $0.75\\text{ mol}$. Since available $\\text{O}_2$ ($0.906\\text{ mol}$) > required ($0.75\\text{ mol}$), $\\text{H}_2$ is the limiting reagent. Moles of $\\text{H}_2\\text{O}$ formed $= 1.5\\text{ mol}$. Mass of $\\text{H}_2\\text{O} = 1.5 \\times 18 = 27.0\\text{ g}$.",
+        "hi": "संतुलित समीकरण: $2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$। प्रारंभिक मोल: $n(\\text{H}_2) = \\frac{3.0}{2} = 1.5\\text{ mol}$, $n(\\text{O}_2) = \\frac{29.0}{32} = 0.906\\text{ mol}$। 1.5 मोल $\\text{H}_2$ के लिए आवश्यक $n(\\text{O}_2)$, $0.75\\text{ mol}$ है। चूँकि उपलब्ध $\\text{O}_2$ ($0.906\\text{ mol}$) > आवश्यक ($0.75\\text{ mol}$), इसलिए $\\text{H}_2$ सीमांत अभिकर्मक है। निर्मित $\\text{H}_2\\text{O}$ के मोल $= 1.5\\text{ mol}$। $\\text{H}_2\\text{O}$ का द्रव्यमान $= 1.5 \\times 18 = 27.0\\text{ g}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-06",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "What is the maximum number of electrons in an atom that can have the quantum numbers $n = 4$, $l = 2$, and $m_l = -1$?",
+        "hi": "एक परमाणु में अधिकतम कितने इलेक्ट्रॉनों के लिए क्वांटम संख्याएँ $n = 4$, $l = 2$, तथा $m_l = -1$ हो सकती हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Quantum numbers $n = 4$ and $l = 2$ define the $4d$ subshell. Specifying $m_l = -1$ isolates one particular $d$-orbital within this subshell. According to Pauli's exclusion principle, any single orbital can accommodate a maximum of 2 electrons with opposite spins ($m_s = +1/2, -1/2$).",
+        "hi": "क्वांटम संख्याएँ $n = 4$ और $l = 2$, $4d$ उपकोश को निर्दिष्ट करती हैं। $m_l = -1$ इस उपकोश में एक विशिष्ट $d$-कक्षक को अलग करता है। पाउली के अपवर्जन नियम के अनुसार, किसी भी एक कक्षक में विपरीत चक्रण ($m_s = +1/2, -1/2$) वाले अधिकतम 2 इलेक्ट्रॉन ही आ सकते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If set $A$ has 4 elements, how many non-empty proper subsets does set $A$ have?",
+        "hi": "यदि समुच्चय $A$ में 4 अवयव हैं, तो समुच्चय $A$ के कितने अरिक्त उचित उपसमुच्चय (non-empty proper subsets) हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "16", "hi": "16"}},
+        {"id": "B", "text": {"en": "15", "hi": "15"}},
+        {"id": "C", "text": {"en": "14", "hi": "14"}},
+        {"id": "D", "text": {"en": "12", "hi": "12"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Total number of subsets of set $A$ with $n = 4$ elements is $2^n = 2^4 = 16$. The proper subsets exclude the set itself (1 set), giving $16 - 1 = 15$ proper subsets. The non-empty proper subsets also exclude the empty set $\\emptyset$ (1 set). Hence, the required number is $16 - 1 - 1 = 14$.",
+        "hi": "$n = 4$ अवयवों वाले समुच्चय $A$ के कुल उपसमुच्चयों की संख्या $2^n = 2^4 = 16$ होती है। उचित उपसमुच्चयों में स्वयं समुच्चय (1 समुच्चय) शामिल नहीं होता, जिससे $16 - 1 = 15$ उचित उपसमुच्चय प्राप्त होते हैं। अरिक्त उचित उपसमुच्चयों में रिक्त समुच्चय $\\emptyset$ (1 समुच्चय) भी शामिल नहीं होता। अतः, अभीष्ट संख्या $16 - 1 - 1 = 14$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-08",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the domain of the real function $f(x) = \\sqrt{16 - x^2}$?",
+        "hi": "वास्तविक फलन $f(x) = \\sqrt{16 - x^2}$ का प्रांत (domain) क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$(-\\infty, 4]$", "hi": "$(-\\infty, 4]$"}},
+        {"id": "B", "text": {"en": "$[-4, 4]$", "hi": "$[-4, 4]$"}},
+        {"id": "C", "text": {"en": "$(0, 4]$", "hi": "$(0, 4]$"}},
+        {"id": "D", "text": {"en": "$(-4, 4)$", "hi": "$(-4, 4)$"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $f(x)$ to be defined as a real-valued function, the expression inside the square root must be non-negative: $16 - x^2 \\ge 0 \\implies x^2 \\le 16 \\implies -4 \\le x \\le 4$. In interval notation, the domain is $x \\in [-4, 4]$.",
+        "hi": "$f(x)$ के वास्तविक फलन के रूप में परिभाषित होने के लिए, वर्गमूल के अंदर का व्यंजक अऋणात्मक होना चाहिए: $16 - x^2 \\ge 0 \\implies x^2 \\le 16 \\implies -4 \\le x \\le 4$। अंतराल रूप में, प्रांत $x \\in [-4, 4]$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "What is the modulus of the complex number $z = \\frac{1 + 2i}{1 - 3i}$?",
+        "hi": "समिश्र संख्या $z = \\frac{1 + 2i}{1 - 3i}$ का मापांक (modulus) क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "$\\frac{1}{\\sqrt{2}}$", "hi": "$\\frac{1}{\\sqrt{2}}$"}},
+        {"id": "B", "text": {"en": "$\\frac{1}{2}$", "hi": "$\\frac{1}{2}$"}},
+        {"id": "C", "text": {"en": "$\\sqrt{2}$", "hi": "$\\sqrt{2}$"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using the modulus property $\\left|\\frac{z_1}{z_2}\\right| = \\frac{|z_1|}{|z_2|}$: $|1 + 2i| = \\sqrt{1^2 + 2^2} = \\sqrt{5}$, and $|1 - 3i| = \\sqrt{1^2 + (-3)^2} = \\sqrt{10}$. Therefore, $|z| = \\frac{\\sqrt{5}}{\\sqrt{10}} = \\frac{1}{\\sqrt{2}}$. This avoids full rationalisation.",
+        "hi": "मापांक गुण $\\left|\\frac{z_1}{z_2}\\right| = \\frac{|z_1|}{|z_2|}$ का उपयोग करने पर: $|1 + 2i| = \\sqrt{1^2 + 2^2} = \\sqrt{5}$, तथा $|1 - 3i| = \\sqrt{1^2 + (-3)^2} = \\sqrt{10}$। इसलिए, $|z| = \\frac{\\sqrt{5}}{\\sqrt{10}} = \\frac{1}{\\sqrt{2}}$। इससे पूरे परिमेयीकरण से बचाव होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-08-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $z = x + iy$ satisfies $|z - 3| = 2|z + 3|$, the locus of $z$ is a circle $x^2 + y^2 + 2gx + c = 0$. What is the value of $g$?",
+        "hi": "यदि $z = x + iy$, $|z - 3| = 2|z + 3|$ को संतुष्ट करता है, तो $z$ का बिंदुथ एक वृत्त $x^2 + y^2 + 2gx + c = 0$ है। $g$ का मान क्या है?"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Squaring both sides gives $|z - 3|^2 = 4|z + 3|^2 \\implies (x - 3)^2 + y^2 = 4[(x + 3)^2 + y^2]$. Expanding: $x^2 - 6x + 9 + y^2 = 4(x^2 + 6x + 9 + y^2) = 4x^2 + 24x + 36 + 4y^2$. Rearranging: $3x^2 + 3y^2 + 30x + 27 = 0 \\implies x^2 + y^2 + 10x + 9 = 0$. Comparing with $x^2 + y^2 + 2gx + c = 0$, $2g = 10 \\implies g = 5$.",
+        "hi": "दोनों पक्षों का वर्ग करने पर $|z - 3|^2 = 4|z + 3|^2 \\implies (x - 3)^2 + y^2 = 4[(x + 3)^2 + y^2]$ प्राप्त होता है। विस्तार करने पर: $x^2 - 6x + 9 + y^2 = 4(x^2 + 6x + 9 + y^2) = 4x^2 + 24x + 36 + 4y^2$। व्यवस्थित करने पर: $3x^2 + 3y^2 + 30x + 27 = 0 \\implies x^2 + y^2 + 10x + 9 = 0$। $x^2 + y^2 + 2gx + c = 0$ से तुलना करने पर, $2g = 10 \\implies g = 5$।"
+      }
+    }
+  ]
+}
