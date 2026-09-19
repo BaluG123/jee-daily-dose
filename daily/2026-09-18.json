@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-18",
+  "questions": [
+    {
+      "id": "dd-2026-09-18-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of specific heat capacity is:",
+        "hi": "विशिष्ट ऊष्मा धारिता की SI इकाई है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "J kg^-1 K^-1", "hi": "J kg^-1 K^-1"}},
+        {"id": "B", "text": {"en": "J K^-1", "hi": "J K^-1"}},
+        {"id": "C", "text": {"en": "cal g^-1", "hi": "cal g^-1"}},
+        {"id": "D", "text": {"en": "J kg^-1", "hi": "J kg^-1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Specific heat capacity $c = \\frac{Q}{m \\Delta T} = \\frac{\\text{Joles}}{\\text{kg} \\cdot \\text{Kelvin}} = \\text{J kg}^{-1} \\text{K}^{-1}$.",
+        "hi": "विशिष्ट ऊष्मा धारिता $c = \\frac{Q}{m \\Delta T} = \\frac{\\text{Joles}}{\\text{kg} \\cdot \\text{Kelvin}} = \\text{J kg}^{-1} \\text{K}^{-1}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In an isochoric process, which parameter remains constant?",
+        "hi": "समायतनी प्रक्रम (isochoric process) में कौन सा पैरामीटर स्थिर रहता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Volume", "hi": "आयतन (Volume)"}},
+        {"id": "B", "text": {"en": "Pressure", "hi": "दाब (Pressure)"}},
+        {"id": "C", "text": {"en": "Temperature", "hi": "तापमान (Temperature)"}},
+        {"id": "D", "text": {"en": "Entropy", "hi": "एन्ट्रॉपी (Entropy)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "By definition, an isochoric process takes place at constant volume ($\\Delta V = 0$), so work done $W = P \\Delta V = 0$.",
+        "hi": "परिभाषा के अनुसार, समायतनी प्रक्रम स्थिर आयतन ($\\Delta V = 0$) पर होता है, इसलिए किया गया कार्य $W = P \\Delta V = 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A particle performs SHM with an amplitude of $10\\text{ cm}$. At what displacement from the mean position (in cm) are its kinetic and potential energies equal?",
+        "hi": "एक कण $10\\text{ cm}$ के आयाम के साथ SHM करता है। माध्य स्थिति से किस विस्थापन पर (सेमी में) इसकी गतिज ऊर्जा और स्थितिज ऊर्जा बराबर होती हैं?"
+      },
+      "options": [],
+      "correctAnswer": 7,
+      "solution": {
+        "en": "$KE = PE \\implies \\frac{1}{2} k (A^2 - x^2) = \\frac{1}{2} k x^2 \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}} = \\frac{10}{1.414} \\approx 7.07 \\text{ cm} \\approx 7\\text{ cm}$.",
+        "hi": "$KE = PE \\implies \\frac{1}{2} k (A^2 - x^2) = \\frac{1}{2} k x^2 \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}} = \\frac{10}{1.414} \\approx 7.07 \\text{ cm} \\approx 7\\text{ cm}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following colligative properties is most suitable for determining the molar mass of polymers?",
+        "hi": "बहुलकों (polymers) के मोलर द्रव्यमान को निर्धारित करने के लिए निम्नलिखित में से कौन सा अणुसंख्या गुणधर्म (colligative property) सबसे उपयुक्त है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Osmotic Pressure", "hi": "परासरण दाब (Osmotic Pressure)"}},
+        {"id": "B", "text": {"en": "Relative lowering of vapor pressure", "hi": "वाष्प दाब का आपेक्षिक अवनमन"}},
+        {"id": "C", "text": {"en": "Elevation in boiling point", "hi": "क्वथनांक में उन्नयन"}},
+        {"id": "D", "text": {"en": "Depression in freezing point", "hi": "हिमांंक में अवनमन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Osmotic pressure produces measurable values even at very low solute concentrations and room temperature, making it ideal for biomolecules and polymers.",
+        "hi": "कम सांद्रता और कमरे के तापमान पर भी परासरण दाब के मापने योग्य मान प्राप्त होते हैं, जो इसे जैव अणुओं और बहुलकों के लिए आदर्श बनाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Kohlrausch's law of independent migration of ions is applicable to determine:",
+        "hi": "आयनों के स्वतंत्र अभिगमन का कोह्लराउश नियम किसको निर्धारित करने के लिए लागू होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Limiting molar conductivity of weak electrolytes", "hi": "दुर्बल विद्युत अपघट्यों की सीमांत मोलर चालकता"}},
+        {"id": "B", "text": {"en": "Standard EMF of a cell", "hi": "सेल का मानक EMF"}},
+        {"id": "C", "text": {"en": "Rate constant of a reaction", "hi": "अभिक्रिया का दर स्थिरांक"}},
+        {"id": "D", "text": {"en": "Solubility of highly soluble salts", "hi": "अत्यधिक घुलनशील लवणों की घुलनशीलता"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Kohlrausch's law allows calculation of $\\Lambda_m^0$ for weak electrolytes by summing up the individual ionic contributions at infinite dilution.",
+        "hi": "कोह्लराउश नियम अनंत तनुता पर व्यक्तिगत आयनिक योगदानों को जोड़कर दुर्बल विद्युत अपघट्यों के लिए $\\Lambda_m^0$ की गणना करने की अनुमति देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "For a zero-order reaction, the unit of rate constant is:",
+        "hi": "शून्य-कोटि की अभिक्रिया के लिए, दर स्थिरांक की इकाई है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "mol L^-1 s^-1", "hi": "mol L^-1 s^-1"}},
+        {"id": "B", "text": {"en": "s^-1", "hi": "s^-1"}},
+        {"id": "C", "text": {"en": "L mol^-1 s^-1", "hi": "L mol^-1 s^-1"}},
+        {"id": "D", "text": {"en": "L^2 mol^-2 s^-1", "hi": "L^2 mol^-2 s^-1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For order $n$, unit of $k = (\\text{mol L}^{-1})^{1-n} \\text{s}^{-1}$. For $n = 0$, unit $= \\text{mol L}^{-1} \\text{s}^{-1}$.",
+        "hi": "कोटि $n$ के लिए, $k$ की इकाई $= (\\text{mol L}^{-1})^{1-n} \\text{s}^{-1}$। $n = 0$ के लिए, इकाई $= \\text{mol L}^{-1} \\text{s}^{-1}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+        "hi": "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "Undefined", "hi": "अपरिभाषित"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Factorizing numerator: $\\frac{(x - 2)(x + 2)}{x - 2} = x + 2$. Taking limit $x \\to 2$, we get $2 + 2 = 4$.",
+        "hi": "अंश का गुणनखंड करने पर: $\\frac{(x - 2)(x + 2)}{x - 2} = x + 2$। सीमा $x \\to 2$ लेने पर, $2 + 2 = 4$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The mean of 10 observations is 15. If one observation 21 is removed, find the new mean.",
+        "hi": "10 प्रेक्षणों का माध्य 15 है। यदि एक प्रेक्षण 21 को हटा दिया जाए, तो नया माध्य ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "14.33", "hi": "14.33"}},
+        {"id": "B", "text": {"en": "14.00", "hi": "14.00"}},
+        {"id": "C", "text": {"en": "13.50", "hi": "13.50"}},
+        {"id": "D", "text": {"en": "15.00", "hi": "15.00"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Sum of 10 observations $= 10 \\times 15 = 150$. New sum $= 150 - 21 = 129$. New mean $= 129 / 9 = 14.33$.",
+        "hi": "10 प्रेक्षणों का योग $= 10 \\times 15 = 150$। नया योग $= 150 - 21 = 129$। नया माध्य $= 129 / 9 = 14.33$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A bag contains 5 red and 3 black balls. Two balls are drawn at random without replacement. Find the probability that both are red.",
+        "hi": "एक थैले में 5 लाल और 3 काली गेंदें हैं। बिना प्रतिस्थापन (without replacement) के दो गेंदें यादृच्छिक रूप से निकाली जाती हैं। दोनों के लाल होने की प्रायिकता ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5/14", "hi": "5/14"}},
+        {"id": "B", "text": {"en": "25/64", "hi": "25/64"}},
+        {"id": "C", "text": {"en": "15/56", "hi": "15/56"}},
+        {"id": "D", "text": {"en": "3/28", "hi": "3/28"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$P(\\text{1st Red}) = 5/8$, $P(\\text{2nd Red}) = 4/7$. Total probability $= \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}$.",
+        "hi": "$P(\\text{पहली लाल}) = 5/8$, $P(\\text{दूसरी लाल}) = 4/7$। कुल प्रायिकता $= \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-18-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 4 & 0 \\\\ 0 & 4 \\end{bmatrix}$, find $|\\text{adj } A|$.",
+        "hi": "यदि $A = \\begin{bmatrix} 4 & 0 \\\\ 0 & 4 \\end{bmatrix}$ है, तो $|\\text{adj } A|$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 16,
+      "solution": {
+        "en": "$|A| = (4)(4) - 0 = 16$. Order $n = 2$. Formula: $|\\text{adj } A| = |A|^{n-1} = 16^{2-1} = 16$.",
+        "hi": "$|A| = (4)(4) - 0 = 16$। कोटि $n = 2$। सूत्र: $|\\text{adj } A| = |A|^{n-1} = 16^{2-1} = 16$।"
+      }
+    }
+  ]
+}
