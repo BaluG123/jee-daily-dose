@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-17",
+  "questions": [
+    {
+      "id": "dd-2026-09-17-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following modes of heat transfer does not require a material medium?",
+        "hi": "ऊष्मा स्थानांतरण की निम्नलिखित में से किस विधि के लिए किसी भौतिक माध्यम की आवश्यकता नहीं होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Radiation", "hi": "विकिरण (Radiation)"}},
+        {"id": "B", "text": {"en": "Conduction", "hi": "चालन (Conduction)"}},
+        {"id": "C", "text": {"en": "Convection", "hi": "संवहन (Convection)"}},
+        {"id": "D", "text": {"en": "Advection", "hi": "अभिवहन (Advection)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Radiation propagates via electromagnetic waves and therefore travels through vacuum without requiring any material medium.",
+        "hi": "विकिरण विद्युत चुंबकीय तरंगों के माध्यम से संचरित होता है और इसलिए बिना किसी भौतिक माध्यम के निर्वात में भी गमन कर सकता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A Carnot engine operates between temperatures $600\\text{ K}$ and $300\\text{ K}$. Its efficiency is:",
+        "hi": "एक कारनोट इंजन $600\\text{ K}$ और $300\\text{ K}$ तापमानों के बीच कार्य करता है। इसकी दक्षता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "50%", "hi": "50%"}},
+        {"id": "B", "text": {"en": "25%", "hi": "25%"}},
+        {"id": "C", "text": {"en": "75%", "hi": "75%"}},
+        {"id": "D", "text": {"en": "100%", "hi": "100%"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Efficiency $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{600} = 1 - 0.5 = 0.5$ or $50\\%$.",
+        "hi": "दक्षता $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{600} = 1 - 0.5 = 0.5$ या $50\\%$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A simple pendulum of length $L$ has a time period of $2\\text{ s}$. If its length is made $4L$, what is the new time period in seconds?",
+        "hi": "$L$ लंबाई वाले एक सरल लोलक का आवर्तकाल $2\\text{ s}$ है। यदि इसकी लंबाई $4L$ कर दी जाए, तो नया आवर्तकाल सेकंड में क्या होगा?"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "$T = 2\\pi \\sqrt{\\frac{L}{g}} \\implies T \\propto \\sqrt{L}$. $\\frac{T'}{T} = \\sqrt{\\frac{4L}{L}} = 2 \\implies T' = 2 \\times 2 = 4\\text{ s}$.",
+        "hi": "$T = 2\\pi \\sqrt{\\frac{L}{g}} \\implies T \\propto \\sqrt{L}$। $\\frac{T'}{T} = \\sqrt{\\frac{4L}{L}} = 2 \\implies T' = 2 \\times 2 = 4\\text{ s}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Henry's law constant $K_H$ for solubility of a gas in liquid increases with:",
+        "hi": "द्रव में गैस की घुलनशीलता के लिए हेनरी नियम स्थिरांक $K_H$ किसके साथ बढ़ता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increase in temperature", "hi": "तापमान में वृद्धि"}},
+        {"id": "B", "text": {"en": "Decrease in temperature", "hi": "तापमान में कमी"}},
+        {"id": "C", "text": {"en": "Increase in pressure", "hi": "दाब में वृद्धि"}},
+        {"id": "D", "text": {"en": "Decrease in pressure", "hi": "दाब में कमी"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Solubility of a gas in liquid decreases as temperature increases, and since $p = K_H \\cdot x$, $K_H$ increases with an increase in temperature.",
+        "hi": "तापमान बढ़ने पर द्रव में गैस की घुलनशीलता घटती है, और चूँकि $p = K_H \\cdot x$, तापमान बढ़ने पर $K_H$ बढ़ता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The unit of molar conductivity $\\Lambda_m$ is:",
+        "hi": "मोलर चालकता $\\Lambda_m$ की इकाई है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "S cm^2 mol^-1", "hi": "S cm^2 mol^-1"}},
+        {"id": "B", "text": {"en": "S cm^-1 mol^-1", "hi": "S cm^-1 mol^-1"}},
+        {"id": "C", "text": {"en": "S cm^2 mol", "hi": "S cm^2 mol"}},
+        {"id": "D", "text": {"en": "ohm^-1 cm^-1", "hi": "ohm^-1 cm^-1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$. Since $\\kappa$ is in $\\text{S cm}^{-1}$ and $M$ is in $\\text{mol cm}^{-3}$, the unit is $\\text{S cm}^2 \\text{mol}^{-1}$.",
+        "hi": "$\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$। चूँकि $\\kappa$ $\\text{S cm}^{-1}$ में और $M$ $\\text{mol cm}^{-3}$ में है, इसकी इकाई $\\text{S cm}^2 \\text{mol}^{-1}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "If the activation energy $E_a$ of a reaction is zero, the rate constant $k$ at $300\\text{ K}$ relative to frequency factor $A$ is:",
+        "hi": "यदि किसी अभिक्रिया की सक्रियण ऊर्जा $E_a$ शून्य है, तो $300\\text{ K}$ पर आवृत्ति कारक $A$ की तुलना में दर स्थिरांक $k$ होगा:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "k = A", "hi": "k = A"}},
+        {"id": "B", "text": {"en": "k = 0", "hi": "k = 0"}},
+        {"id": "C", "text": {"en": "k = A / 300", "hi": "k = A / 300"}},
+        {"id": "D", "text": {"en": "k = infinity", "hi": "k = अनंत"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Arrhenius equation: $k = A e^{-E_a / RT}$. When $E_a = 0$, $e^0 = 1 \\implies k = A$.",
+        "hi": "आरहेनियस समीकरण: $k = A e^{-E_a / RT}$। जब $E_a = 0$ हो, $e^0 = 1 \\implies k = A$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Find the derivative of $y = x^3 \\sin x$ at $x = 0$.",
+        "hi": "$x = 0$ पर $y = x^3 \\sin x$ का अवकलज (derivative) ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0", "hi": "0"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "Undefined", "hi": "अपरिभाषित"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Product rule: $\\frac{dy}{dx} = 3x^2 \\sin x + x^3 \\cos x$. At $x = 0$, $\\frac{dy}{dx} = 3(0)^2 \\sin(0) + (0)^3 \\cos(0) = 0$.",
+        "hi": "गुणनफल नियम: $\\frac{dy}{dx} = 3x^2 \\sin x + x^3 \\cos x$। $x = 0$ पर, $\\frac{dy}{dx} = 3(0)^2 \\sin(0) + (0)^3 \\cos(0) = 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The standard deviation of a dataset is 5. What is its variance?",
+        "hi": "एक आंकड़े का मानक विचलन (standard deviation) 5 है। इसका प्रसरण (variance) क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "25", "hi": "25"}},
+        {"id": "B", "text": {"en": "5", "hi": "5"}},
+        {"id": "C", "text": {"en": "10", "hi": "10"}},
+        {"id": "D", "text": {"en": "sqrt(5)", "hi": "sqrt(5)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\text{Variance} = (\\text{Standard Deviation})^2 = 5^2 = 25$.",
+        "hi": "$\\text{प्रसरण} = (\\text{मानक विचलन})^2 = 5^2 = 25$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A card is drawn from a well-shuffled deck of 52 playing cards. What is the probability of drawing a King or a Heart?",
+        "hi": "52 ताश के पत्तों की एक अच्छी तरह से फेंटी गई गड्डी से एक पत्ता निकाला जाता है। बादशाह (King) या पान (Heart) का पत्ता निकलने की प्रायिकता क्या है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4/13", "hi": "4/13"}},
+        {"id": "B", "text": {"en": "17/52", "hi": "17/52"}},
+        {"id": "C", "text": {"en": "1/13", "hi": "1/13"}},
+        {"id": "D", "text": {"en": "1/4", "hi": "1/4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$P(K) = 4/52$, $P(H) = 13/52$, $P(K \\cap H) = 1/52$. $P(K \\cup H) = 4/52 + 13/52 - 1/52 = 16/52 = 4/13$.",
+        "hi": "$P(K) = 4/52$, $P(H) = 13/52$, $P(K \\cap H) = 1/52$। $P(K \\cup H) = 4/52 + 13/52 - 1/52 = 16/52 = 4/13$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-17-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If matrix $A$ is symmetric and $A = \\begin{bmatrix} 3 & x+1 \\\\ 5 & 2 \\end{bmatrix}$, find the value of $x$.",
+        "hi": "यदि आव्यूह $A$ सममित (symmetric) है और $A = \\begin{bmatrix} 3 & x+1 \\\\ 5 & 2 \\end{bmatrix}$ है, तो $x$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "For a symmetric matrix, $A = A^T \\implies a_{12} = a_{21} \\implies x + 1 = 5 \\implies x = 4$.",
+        "hi": "सममित आव्यूह के लिए, $A = A^T \\implies a_{12} = a_{21} \\implies x + 1 = 5 \\implies x = 4$।"
+      }
+    }
+  ]
+}
