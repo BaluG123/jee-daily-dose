@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-16",
+  "questions": [
+    {
+      "id": "dd-2026-09-16-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "At what temperature do the Celsius and Fahrenheit scales read the same numerical value?",
+        "hi": "किस तापमान पर सेल्सियस और फारेनहाइट पैमाने समान संख्यात्मक मान दर्शाते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "-40", "hi": "-40"}},
+        {"id": "B", "text": {"en": "40", "hi": "40"}},
+        {"id": "C", "text": {"en": "273", "hi": "273"}},
+        {"id": "D", "text": {"en": "-273", "hi": "-273"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using $\\frac{C}{5} = \\frac{F - 32}{9}$, set $C = F = x \\implies \\frac{x}{5} = \\frac{x - 32}{9} \\implies 9x = 5x - 160 \\implies 4x = -160 \\implies x = -40$.",
+        "hi": "$\\frac{C}{5} = \\frac{F - 32}{9}$ का उपयोग करते हुए, $C = F = x$ रखें $\\implies \\frac{x}{5} = \\frac{x - 32}{9} \\implies 9x = 5x - 160 \\implies 4x = -160 \\implies x = -40$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In an isothermal expansion of an ideal gas, the work done by the gas is equal to:",
+        "hi": "एक आदर्श गैस के समतापी प्रसार (isothermal expansion) में, गैस द्वारा किया गया कार्य किसके बराबर होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Heat absorbed by the gas", "hi": "गैस द्वारा अवशोषित ऊष्मा"}},
+        {"id": "B", "text": {"en": "Change in internal energy", "hi": "आंतरिक ऊर्जा में परिवर्तन"}},
+        {"id": "C", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "D", "text": {"en": "Heat released by the gas", "hi": "गैस द्वारा जारी ऊष्मा"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For an isothermal process, $\\Delta T = 0 \\implies \\Delta U = 0$. By First Law of Thermodynamics, $Q = \\Delta U + W \\implies Q = W$.",
+        "hi": "समतापी प्रक्रम के लिए, $\\Delta T = 0 \\implies \\Delta U = 0$। ऊष्मागतिकी के प्रथम नियम से, $Q = \\Delta U + W \\implies Q = W$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A particle of mass $0.2\\text{ kg}$ executes simple harmonic motion with frequency $5\\text{ Hz}$ and amplitude $0.1\\text{ m}$. Calculate its total mechanical energy in Joules. (Take $\\pi^2 = 10$)",
+        "hi": "$0.2\\text{ kg}$ द्रव्यमान का एक कण $5\\text{ Hz}$ आवृत्ति और $0.1\\text{ m}$ आयाम के साथ सरल आवर्त गति करता है। जूल में इसकी कुल यांत्रिक ऊर्जा की गणना कीजिए। ($\\pi^2 = 10$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 1,
+      "solution": {
+        "en": "$E = \\frac{1}{2} m \\omega^2 A^2 = \\frac{1}{2} m (2\\pi f)^2 A^2 = 2 \\pi^2 m f^2 A^2 = 2 \\times 10 \\times 0.2 \\times 5^2 \\times (0.1)^2 = 4 \\times 25 \\times 0.01 = 1\\text{ J}$.",
+        "hi": "$E = \\frac{1}{2} m \\omega^2 A^2 = \\frac{1}{2} m (2\\pi f)^2 A^2 = 2 \\pi^2 m f^2 A^2 = 2 \\times 10 \\times 0.2 \\times 5^2 \\times (0.1)^2 = 4 \\times 25 \\times 0.01 = 1\\text{ J}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following concentration terms is independent of temperature?",
+        "hi": "निम्नलिखित में से कौन सी सांद्रता इकाई तापमान पर निर्भर नहीं करती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Molality", "hi": "मोललता (Molality)"}},
+        {"id": "B", "text": {"en": "Molarity", "hi": "मोलरता (Molarity)"}},
+        {"id": "C", "text": {"en": "Normality", "hi": "नॉर्मलता (Normality)"}},
+        {"id": "D", "text": {"en": "Formality", "hi": "फॉर्मलता (Formality)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Molality is defined as moles of solute per kilogram of solvent. Since mass does not depend on temperature, molality is independent of temperature.",
+        "hi": "मोललता को प्रति किलोग्राम विलायक में विलेय के मोलों के रूप में परिभाषित किया जाता है। चूँकि द्रव्यमान तापमान पर निर्भर नहीं करता है, इसलिए मोललता तापमान से स्वतंत्र होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "How many Coulombs of charge are required for the reduction of $1\\text{ mol}$ of $\\text{Al}^{3+}$ to $\\text{Al}$?",
+        "hi": "$1\\text{ mol}$ $\\text{Al}^{3+}$ को $\\text{Al}$ में अपचयित (reduce) करने के लिए कितने कूलॉम आवेश की आवश्यकता होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "289500 C", "hi": "289500 C"}},
+        {"id": "B", "text": {"en": "96500 C", "hi": "96500 C"}},
+        {"id": "C", "text": {"en": "193000 C", "hi": "193000 C"}},
+        {"id": "D", "text": {"en": "386000 C", "hi": "386000 C"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Reduction reaction: $\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$. Charge required $= 3F = 3 \\times 96500\\text{ C} = 289500\\text{ C}$.",
+        "hi": "अपचयन अभिक्रिया: $\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$। आवश्यक आवेश $= 3F = 3 \\times 96500\\text{ C} = 289500\\text{ C}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The half-life of a first-order reaction is $60\\text{ minutes}$. What fraction of the reactant will remain after $180\\text{ minutes}$?",
+        "hi": "एक प्रथम कोटि की अभिक्रिया की अर्ध-आयु (half-life) $60\\text{ मिनट}$ है। $180\\text{ मिनट}$ बाद अभिकारक का कितना अंश शेष रहेगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/8", "hi": "1/8"}},
+        {"id": "B", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "C", "text": {"en": "1/16", "hi": "1/16"}},
+        {"id": "D", "text": {"en": "1/3", "hi": "1/3"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Number of half-lives $n = \\frac{\\text{Total time}}{t_{1/2}} = \\frac{180}{60} = 3$. Remaining fraction $= \\left(\\frac{1}{2}\\right)^n = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$.",
+        "hi": "अर्ध-आयु की संख्या $n = \\frac{\\text{कुल समय}}{t_{1/2}} = \\frac{180}{60} = 3$। शेष अंश $= \\left(\\frac{1}{2}\\right)^n = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Using identity $1 - \\cos x = 2 \\sin^2(x/2)$: $\\lim_{x \\to 0} \\frac{2 \\sin^2(x/2)}{4 (x/2)^2} = \\frac{1}{2} \\left(\\lim_{x \\to 0} \\frac{\\sin(x/2)}{x/2}\\right)^2 = \\frac{1}{2} (1)^2 = \\frac{1}{2}$.",
+        "hi": "सर्वसमिका $1 - \\cos x = 2 \\sin^2(x/2)$ का उपयोग करने पर: $\\lim_{x \\to 0} \\frac{2 \\sin^2(x/2)}{4 (x/2)^2} = \\frac{1}{2} \\left(\\lim_{x \\to 0} \\frac{\\sin(x/2)}{x/2}\\right)^2 = \\frac{1}{2} (1)^2 = \\frac{1}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If each observation in a data set is multiplied by 3, how does the mean change?",
+        "hi": "यदि आंकड़े के प्रत्येक प्रेक्षण को 3 से गुणा किया जाता है, तो माध्य में क्या परिवर्तन होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "It becomes 3 times the original mean", "hi": "यह मूल माध्य का 3 गुना हो जाता है"}},
+        {"id": "B", "text": {"en": "It increases by 3", "hi": "यह 3 से बढ़ जाता है"}},
+        {"id": "C", "text": {"en": "It remains unchanged", "hi": "यह अपरिवर्तित रहता है"}},
+        {"id": "D", "text": {"en": "It becomes 9 times the original mean", "hi": "यह मूल माध्य का 9 गुना हो जाता है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Property of Mean: If every value $x_i$ is multiplied by a constant $k$, the new mean $\\bar{x}_{new} = k \\bar{x}$. Here $k = 3$.",
+        "hi": "माध्य का गुण: यदि प्रत्येक मान $x_i$ को एक अचर $k$ से गुणा किया जाता है, तो नया माध्य $\\bar{x}_{new} = k \\bar{x}$ होता है। यहाँ $k = 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $P(A) = 0.6$, $P(B) = 0.3$, and $A$ and $B$ are independent events, find $P(A \\cup B)$.",
+        "hi": "यदि $P(A) = 0.6$, $P(B) = 0.3$, और $A$ तथा $B$ स्वतंत्र घटनाएं हैं, तो $P(A \\cup B)$ ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.72", "hi": "0.72"}},
+        {"id": "B", "text": {"en": "0.90", "hi": "0.90"}},
+        {"id": "C", "text": {"en": "0.18", "hi": "0.18"}},
+        {"id": "D", "text": {"en": "0.42", "hi": "0.42"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For independent events: $P(A \\cap B) = P(A) \\cdot P(B) = 0.6 \\times 0.3 = 0.18$. $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.6 + 0.3 - 0.18 = 0.72$.",
+        "hi": "स्वतंत्र घटनाओं के लिए: $P(A \\cap B) = P(A) \\cdot P(B) = 0.6 \\times 0.3 = 0.18$। $P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.6 + 0.3 - 0.18 = 0.72$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-16-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$, find the trace of $A^{10}$.",
+        "hi": "यदि $A = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$ है, तो $A^{10}$ का ट्रेस (trace) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "By induction, $A^n = \\begin{bmatrix} 1 & 2n \\\\ 0 & 1 \\end{bmatrix}$. For $n = 10$, $A^{10} = \\begin{bmatrix} 1 & 20 \\\\ 0 & 1 \\end{bmatrix}$. Trace is the sum of diagonal elements $= 1 + 1 = 2$.",
+        "hi": "गणितीय आगमन से, $A^n = \\begin{bmatrix} 1 & 2n \\\\ 0 & 1 \\end{bmatrix}$। $n = 10$ के लिए, $A^{10} = \\begin{bmatrix} 1 & 20 \\\\ 0 & 1 \\end{bmatrix}$। ट्रेस विकर्ण तत्वों का योग है $= 1 + 1 = 2$।"
+      }
+    }
+  ]
+}
