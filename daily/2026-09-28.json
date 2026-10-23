@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-28",
+  "questions": [
+    {
+      "id": "dd-2026-09-28-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Heat from the Sun reaches the Earth by:",
+        "hi": "सूर्य से ऊष्मा पृथ्वी तक किसके द्वारा पहुँचती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Radiation", "hi": "विकिरण"}},
+        {"id": "B", "text": {"en": "Conduction", "hi": "चालन"}},
+        {"id": "C", "text": {"en": "Convection", "hi": "संवहन"}},
+        {"id": "D", "text": {"en": "Both conduction and convection", "hi": "चालन और संवहन दोनों"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The space between the Sun and the Earth is mostly vacuum. Conduction and convection need a material medium; only radiation (electromagnetic waves) can travel through vacuum.",
+        "hi": "सूर्य और पृथ्वी के बीच का अधिकांश स्थान निर्वात है। चालन और संवहन के लिए द्रव्यात्मक माध्यम आवश्यक है; केवल विकिरण (विद्युतचुंबकीय तरंगें) निर्वात में गमन कर सकता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The efficiency of a Carnot engine working between 527°C and 127°C is:",
+        "hi": "527°C और 127°C के बीच कार्यरत कार्नो इंजन की दक्षता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "24%", "hi": "24%"}},
+        {"id": "B", "text": {"en": "76%", "hi": "76%"}},
+        {"id": "C", "text": {"en": "50%", "hi": "50%"}},
+        {"id": "D", "text": {"en": "100%", "hi": "100%"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Always use kelvin: $T_1 = 527 + 273 = 800\\text{ K}$, $T_2 = 127 + 273 = 400\\text{ K}$. $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{400}{800} = 0.5 = 50\\%$. (Using °C directly gives the wrong answer 24%.)",
+        "hi": "सदैव केल्विन का प्रयोग करें: $T_1 = 527 + 273 = 800\\text{ K}$, $T_2 = 127 + 273 = 400\\text{ K}$। $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{400}{800} = 0.5 = 50\\%$। (सीधे °C लेने पर गलत उत्तर 24% आता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-03",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A diatomic ideal gas ($\\gamma = \\frac{7}{5}$) at 300 K is compressed adiabatically to $\\frac{1}{32}$ of its initial volume. Find its final temperature (in K).",
+        "hi": "300 K पर एक द्विपरमाणुक आदर्श गैस ($\\gamma = \\frac{7}{5}$) को रुद्धोष्म रूप से उसके प्रारंभिक आयतन के $\\frac{1}{32}$ तक संपीडित किया जाता है। इसका अंतिम ताप (K में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1200,
+      "solution": {
+        "en": "For an adiabatic process, $TV^{\\gamma - 1} = \\text{constant}$. $T_2 = T_1\\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1} = 300 \\times 32^{2/5} = 300 \\times (2^5)^{2/5} = 300 \\times 4 = 1200\\text{ K}$.",
+        "hi": "रुद्धोष्म प्रक्रम के लिए $TV^{\\gamma - 1} = \\text{constant}$। $T_2 = T_1\\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1} = 300 \\times 32^{2/5} = 300 \\times (2^5)^{2/5} = 300 \\times 4 = 1200\\text{ K}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-04",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is an electrophile?",
+        "hi": "निम्नलिखित में से कौन इलेक्ट्रॉनस्नेही (electrophile) है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "NH₃", "hi": "NH₃"}},
+        {"id": "B", "text": {"en": "H₂O", "hi": "H₂O"}},
+        {"id": "C", "text": {"en": "OH⁻", "hi": "OH⁻"}},
+        {"id": "D", "text": {"en": "NO₂⁺", "hi": "NO₂⁺"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Electrophiles are electron-deficient species that accept an electron pair. NO₂⁺ (nitronium ion) is electron-deficient and is the electrophile in nitration of benzene. NH₃, H₂O and OH⁻ have lone pairs and act as nucleophiles.",
+        "hi": "इलेक्ट्रॉनस्नेही इलेक्ट्रॉन-न्यून स्पीशीज़ होते हैं जो इलेक्ट्रॉन युग्म ग्रहण करते हैं। NO₂⁺ (नाइट्रोनियम आयन) इलेक्ट्रॉन-न्यून है और बेन्ज़ीन के नाइट्रोकरण में इलेक्ट्रॉनस्नेही है। NH₃, H₂O और OH⁻ पर एकाकी युग्म हैं, अतः ये नाभिकस्नेही हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-05",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Boric acid, B(OH)₃, behaves in water as:",
+        "hi": "जल में बोरिक अम्ल, B(OH)₃, किस रूप में व्यवहार करता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A strong tribasic protonic acid", "hi": "एक प्रबल त्रिक्षारकी प्रोटिक अम्ल"}},
+        {"id": "B", "text": {"en": "A weak monobasic Lewis acid", "hi": "एक दुर्बल एकक्षारकी लूइस अम्ल"}},
+        {"id": "C", "text": {"en": "A Lewis base", "hi": "एक लूइस क्षारक"}},
+        {"id": "D", "text": {"en": "A strong Arrhenius base", "hi": "एक प्रबल आरेनियस क्षारक"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Boron in B(OH)₃ is electron-deficient. It does not donate H⁺; instead it accepts OH⁻ from water: B(OH)₃ + 2H₂O → [B(OH)₄]⁻ + H₃O⁺. So it is a weak monobasic Lewis acid.",
+        "hi": "B(OH)₃ में बोरॉन इलेक्ट्रॉन-न्यून है। यह H⁺ नहीं देता; बल्कि जल से OH⁻ ग्रहण करता है: B(OH)₃ + 2H₂O → [B(OH)₄]⁻ + H₃O⁺। अतः यह एक दुर्बल एकक्षारकी लूइस अम्ल है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The solubility $s$ (in mol/L) of Ag₂CrO₄ in water in terms of its solubility product $K_{sp}$ is:",
+        "hi": "जल में Ag₂CrO₄ की विलेयता $s$ (mol/L में), उसके विलेयता गुणनफल $K_{sp}$ के पदों में है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "∛(Ksp/4)", "hi": "∛(Ksp/4)"}},
+        {"id": "B", "text": {"en": "√(Ksp/4)", "hi": "√(Ksp/4)"}},
+        {"id": "C", "text": {"en": "∛Ksp", "hi": "∛Ksp"}},
+        {"id": "D", "text": {"en": "√Ksp", "hi": "√Ksp"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Ag₂CrO₄(s) ⇌ 2Ag⁺(aq) + CrO₄²⁻(aq). If solubility is $s$: $[\\text{Ag}^+] = 2s$, $[\\text{CrO}_4^{2-}] = s$. $K_{sp} = (2s)^2(s) = 4s^3 \\Rightarrow s = \\left(\\frac{K_{sp}}{4}\\right)^{1/3}$.",
+        "hi": "Ag₂CrO₄(s) ⇌ 2Ag⁺(aq) + CrO₄²⁻(aq)। यदि विलेयता $s$ है: $[\\text{Ag}^+] = 2s$, $[\\text{CrO}_4^{2-}] = s$। $K_{sp} = (2s)^2(s) = 4s^3 \\Rightarrow s = \\left(\\frac{K_{sp}}{4}\\right)^{1/3}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-07",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The median of the data $3, 7, 1, 9, 5$ is:",
+        "hi": "आँकड़ों $3, 7, 1, 9, 5$ की माध्यिका है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7", "hi": "7"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Arrange in ascending order: $1, 3, 5, 7, 9$. With $n = 5$ (odd), the median is the $\\frac{n + 1}{2} = 3$rd value, i.e. 5.",
+        "hi": "आरोही क्रम में लिखें: $1, 3, 5, 7, 9$। $n = 5$ (विषम) होने से माध्यिका $\\frac{n + 1}{2} = 3$रा मान, अर्थात 5 है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\cos^2 15^\\circ - \\sin^2 15^\\circ$ is:",
+        "hi": "$\\cos^2 15^\\circ - \\sin^2 15^\\circ$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "√3/2", "hi": "√3/2"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "1/√2", "hi": "1/√2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$. So the value is $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$.",
+        "hi": "$\\cos^2\\theta - \\sin^2\\theta = \\cos 2\\theta$। अतः मान $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-09",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If set $A$ has 2 elements and set $B$ has 3 elements, the number of relations from $A$ to $B$ is:",
+        "hi": "यदि समुच्चय $A$ में 2 अवयव और समुच्चय $B$ में 3 अवयव हैं, तो $A$ से $B$ में संबंधों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6", "hi": "6"}},
+        {"id": "B", "text": {"en": "32", "hi": "32"}},
+        {"id": "C", "text": {"en": "64", "hi": "64"}},
+        {"id": "D", "text": {"en": "8", "hi": "8"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A relation from $A$ to $B$ is any subset of $A \\times B$. $n(A \\times B) = 2 \\times 3 = 6$, so the number of relations $= 2^6 = 64$.",
+        "hi": "$A$ से $B$ में कोई भी संबंध $A \\times B$ का एक उपसमुच्चय होता है। $n(A \\times B) = 2 \\times 3 = 6$, अतः संबंधों की संख्या $= 2^6 = 64$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-28-10",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of common tangents to the circles $x^2 + y^2 = 4$ and $x^2 + y^2 - 6x - 8y + 16 = 0$.",
+        "hi": "वृत्तों $x^2 + y^2 = 4$ और $x^2 + y^2 - 6x - 8y + 16 = 0$ की उभयनिष्ठ स्पर्श रेखाओं की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "$C_1$: centre $(0, 0)$, $r_1 = 2$. $C_2$: centre $(3, 4)$, $r_2 = \\sqrt{9 + 16 - 16} = 3$. Distance between centres $= \\sqrt{9 + 16} = 5 = r_1 + r_2$, so the circles touch externally → 3 common tangents (2 direct + 1 transverse at the point of contact). Recall: $d > r_1 + r_2$: 4; $d = r_1 + r_2$: 3; $|r_1 - r_2| < d < r_1 + r_2$: 2; $d = |r_1 - r_2|$: 1.",
+        "hi": "$C_1$: केंद्र $(0, 0)$, $r_1 = 2$। $C_2$: केंद्र $(3, 4)$, $r_2 = \\sqrt{9 + 16 - 16} = 3$। केंद्रों के बीच दूरी $= \\sqrt{9 + 16} = 5 = r_1 + r_2$, अतः वृत्त बाह्यतः स्पर्श करते हैं → 3 उभयनिष्ठ स्पर्श रेखाएँ (2 प्रत्यक्ष + 1 अनुप्रस्थ, स्पर्श बिंदु पर)। याद रखें: $d > r_1 + r_2$: 4; $d = r_1 + r_2$: 3; $|r_1 - r_2| < d < r_1 + r_2$: 2; $d = |r_1 - r_2|$: 1।"
+      }
+    }
+  ]
+}

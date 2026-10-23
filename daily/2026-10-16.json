@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-16",
+  "questions": [
+    {
+      "id": "dd-2026-10-16-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A light year is a unit of:",
+        "hi": "प्रकाश वर्ष किसका मात्रक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Time", "hi": "समय"}},
+        {"id": "B", "text": {"en": "Speed", "hi": "चाल"}},
+        {"id": "C", "text": {"en": "Distance", "hi": "दूरी"}},
+        {"id": "D", "text": {"en": "Intensity of light", "hi": "प्रकाश की तीव्रता"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A light year is the distance travelled by light in vacuum in one year: $3 \\times 10^8 \\times 365.25 \\times 24 \\times 3600 \\approx 9.46 \\times 10^{15}\\text{ m}$. Despite the word 'year', it measures distance.",
+        "hi": "प्रकाश वर्ष वह दूरी है जो प्रकाश निर्वात में एक वर्ष में तय करता है: $3 \\times 10^8 \\times 365.25 \\times 24 \\times 3600 \\approx 9.46 \\times 10^{15}\\text{ m}$। 'वर्ष' शब्द होने पर भी यह दूरी को मापता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A boat can travel at 5 km/h in still water. It crosses a river flowing at 3 km/h along the shortest path (straight across). Its resultant speed across the river is:",
+        "hi": "एक नाव शांत जल में 5 km/h की चाल से चल सकती है। यह 3 km/h से बहती नदी को सबसे छोटे पथ (सीधे आर-पार) से पार करती है। नदी के आर-पार इसकी परिणामी चाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8 km/h", "hi": "8 km/h"}},
+        {"id": "B", "text": {"en": "4 km/h", "hi": "4 km/h"}},
+        {"id": "C", "text": {"en": "2 km/h", "hi": "2 km/h"}},
+        {"id": "D", "text": {"en": "√34 km/h", "hi": "√34 km/h"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For the shortest path, the boat is headed upstream at an angle so that the upstream component of its velocity cancels the river's flow: $5\\sin\\theta = 3$. The remaining component across the river is $\\sqrt{5^2 - 3^2} = 4$ km/h.",
+        "hi": "सबसे छोटे पथ के लिए नाव को धारा के विपरीत एक कोण पर मोड़ा जाता है ताकि उसके वेग का धारा-विपरीत घटक नदी के प्रवाह को निरस्त कर दे: $5\\sin\\theta = 3$। नदी के आर-पार शेष घटक $\\sqrt{5^2 - 3^2} = 4$ km/h है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-03",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A ball is thrown vertically upward with a speed of 40 m/s. Find the total distance (in m) travelled by it in the first 6 seconds. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "एक गेंद को 40 m/s की चाल से ऊर्ध्वाधर ऊपर फेंका जाता है। प्रथम 6 सेकंड में इसके द्वारा तय की गई कुल दूरी (m में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 100,
+      "solution": {
+        "en": "Time to reach the top $= \\frac{u}{g} = 4$ s; maximum height $= \\frac{u^2}{2g} = 80$ m. In the next 2 s it falls $\\frac{1}{2}(10)(2)^2 = 20$ m. Total distance $= 80 + 20 = 100$ m. (Trap: the displacement is only $40(6) - \\frac{1}{2}(10)(36) = 60$ m.)",
+        "hi": "शीर्ष तक पहुँचने का समय $= \\frac{u}{g} = 4$ s; अधिकतम ऊँचाई $= \\frac{u^2}{2g} = 80$ m। अगले 2 s में यह $\\frac{1}{2}(10)(2)^2 = 20$ m गिरती है। कुल दूरी $= 80 + 20 = 100$ m। (ध्यान दें: विस्थापन केवल $40(6) - \\frac{1}{2}(10)(36) = 60$ m है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "An ionic bond is most likely to be formed between:",
+        "hi": "आयनिक आबंध सबसे अधिक संभावित रूप से किनके बीच बनता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "H and Cl", "hi": "H और Cl"}},
+        {"id": "B", "text": {"en": "Na and Cl", "hi": "Na और Cl"}},
+        {"id": "C", "text": {"en": "C and H", "hi": "C और H"}},
+        {"id": "D", "text": {"en": "Cl and Cl", "hi": "Cl और Cl"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Ionic bonds form between an element with low ionisation enthalpy (metal, Na) and one with highly negative electron gain enthalpy (non-metal, Cl), i.e. a large electronegativity difference. Na transfers its electron to Cl, forming Na⁺Cl⁻. The others form covalent bonds.",
+        "hi": "आयनिक आबंध कम आयनन एन्थैल्पी वाले तत्व (धातु, Na) और अधिक ऋणात्मक इलेक्ट्रॉन लब्धि एन्थैल्पी वाले तत्व (अधातु, Cl) के बीच बनता है, अर्थात विद्युत ऋणात्मकता में बड़ा अंतर। Na अपना इलेक्ट्रॉन Cl को स्थानांतरित करता है और Na⁺Cl⁻ बनता है। अन्य सहसंयोजी आबंध बनाते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-05",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The solubility of AgCl in water decreases when NaCl is added to the solution. This is due to:",
+        "hi": "विलयन में NaCl मिलाने पर जल में AgCl की विलेयता घट जाती है। इसका कारण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Hydrolysis of AgCl", "hi": "AgCl का जल-अपघटन"}},
+        {"id": "B", "text": {"en": "An increase in Ksp of AgCl", "hi": "AgCl के Ksp में वृद्धि"}},
+        {"id": "C", "text": {"en": "The common ion effect", "hi": "सम-आयन प्रभाव"}},
+        {"id": "D", "text": {"en": "Formation of a complex ion", "hi": "संकुल आयन का बनना"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "AgCl(s) ⇌ Ag⁺ + Cl⁻. Adding NaCl increases [Cl⁻] (the common ion), so the ionic product exceeds $K_{sp}$ and, by Le Chatelier's principle, the equilibrium shifts left, precipitating AgCl. $K_{sp}$ itself stays constant at a given temperature.",
+        "hi": "AgCl(s) ⇌ Ag⁺ + Cl⁻। NaCl मिलाने से [Cl⁻] (सम आयन) बढ़ता है, अतः आयनिक गुणनफल $K_{sp}$ से अधिक हो जाता है और ला-शातैलिए सिद्धांत से साम्य बाईं ओर खिसकता है, जिससे AgCl अवक्षेपित होता है। दिए गए ताप पर $K_{sp}$ स्वयं नियत रहता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-06",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For a reaction, $\\Delta H = +40\\text{ kJ mol}^{-1}$ and $\\Delta S = +100\\text{ J K}^{-1}\\text{mol}^{-1}$. Assuming both are independent of temperature, find the temperature (in K) above which the reaction becomes spontaneous.",
+        "hi": "एक अभिक्रिया के लिए $\\Delta H = +40\\text{ kJ mol}^{-1}$ और $\\Delta S = +100\\text{ J K}^{-1}\\text{mol}^{-1}$ है। दोनों को ताप से स्वतंत्र मानते हुए, वह ताप (K में) ज्ञात कीजिए जिसके ऊपर अभिक्रिया स्वतः प्रवर्तित हो जाती है।"
+      },
+      "options": [],
+      "correctAnswer": 400,
+      "solution": {
+        "en": "Spontaneous when $\\Delta G = \\Delta H - T\\Delta S < 0 \\Rightarrow T > \\frac{\\Delta H}{\\Delta S}$. Convert units first: $\\Delta H = 40000\\text{ J mol}^{-1}$. $T = \\frac{40000}{100} = 400\\text{ K}$. (Forgetting to convert kJ to J gives the wrong answer 0.4 K.)",
+        "hi": "स्वतः प्रवर्तन तब होता है जब $\\Delta G = \\Delta H - T\\Delta S < 0 \\Rightarrow T > \\frac{\\Delta H}{\\Delta S}$। पहले मात्रक बदलें: $\\Delta H = 40000\\text{ J mol}^{-1}$। $T = \\frac{40000}{100} = 400\\text{ K}$। (kJ को J में न बदलने पर गलत उत्तर 0.4 K आता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-07",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "$\\frac{\\pi}{6}$ radians is equal to:",
+        "hi": "$\\frac{\\pi}{6}$ रेडियन बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "60°", "hi": "60°"}},
+        {"id": "B", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "C", "text": {"en": "90°", "hi": "90°"}},
+        {"id": "D", "text": {"en": "30°", "hi": "30°"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\pi$ rad $= 180^\\circ$, so $\\frac{\\pi}{6}$ rad $= \\frac{180^\\circ}{6} = 30^\\circ$.",
+        "hi": "$\\pi$ rad $= 180^\\circ$, अतः $\\frac{\\pi}{6}$ rad $= \\frac{180^\\circ}{6} = 30^\\circ$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-08",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For $a > 0$, $\\lim_{x \\to 0} \\frac{a^x - 1}{x}$ equals:",
+        "hi": "$a > 0$ के लिए $\\lim_{x \\to 0} \\frac{a^x - 1}{x}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "a", "hi": "a"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "log₁₀ a", "hi": "log₁₀ a"}},
+        {"id": "D", "text": {"en": "ln a", "hi": "ln a"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Write $a^x = e^{x\\ln a}$. Then $\\frac{a^x - 1}{x} = \\frac{e^{x\\ln a} - 1}{x\\ln a} \\cdot \\ln a \\to 1 \\cdot \\ln a = \\ln a$. Special case $a = e$ gives the standard limit 1.",
+        "hi": "$a^x = e^{x\\ln a}$ लिखें। तब $\\frac{a^x - 1}{x} = \\frac{e^{x\\ln a} - 1}{x\\ln a} \\cdot \\ln a \\to 1 \\cdot \\ln a = \\ln a$। विशेष स्थिति $a = e$ पर मानक सीमा 1 मिलती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two cards are drawn one after the other without replacement from a well-shuffled pack of 52 cards. The probability that both are aces is:",
+        "hi": "52 पत्तों की अच्छी तरह फेंटी गई गड्डी से बिना प्रतिस्थापन के एक के बाद एक दो पत्ते निकाले जाते हैं। दोनों के इक्के होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/221", "hi": "1/221"}},
+        {"id": "B", "text": {"en": "1/169", "hi": "1/169"}},
+        {"id": "C", "text": {"en": "1/13", "hi": "1/13"}},
+        {"id": "D", "text": {"en": "2/13", "hi": "2/13"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$P = \\frac{4}{52} \\times \\frac{3}{51} = \\frac{12}{2652} = \\frac{1}{221}$. (With replacement it would be $\\frac{1}{13} \\times \\frac{1}{13} = \\frac{1}{169}$ — that's the trap.) Equivalently $\\frac{{}^4C_2}{{}^{52}C_2} = \\frac{6}{1326} = \\frac{1}{221}$.",
+        "hi": "$P = \\frac{4}{52} \\times \\frac{3}{51} = \\frac{12}{2652} = \\frac{1}{221}$। (प्रतिस्थापन के साथ यह $\\frac{1}{13} \\times \\frac{1}{13} = \\frac{1}{169}$ होता — यही भ्रामक विकल्प है।) समतुल्य रूप से $\\frac{{}^4C_2}{{}^{52}C_2} = \\frac{6}{1326} = \\frac{1}{221}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-16-10",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the area (in square units) of the triangle formed by the lines $y = x$, $y = -x$ and $y = 4$.",
+        "hi": "रेखाओं $y = x$, $y = -x$ और $y = 4$ से बने त्रिभुज का क्षेत्रफल (वर्ग इकाई में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 16,
+      "solution": {
+        "en": "Vertices: $y = x$ and $y = -x$ meet at $(0, 0)$; $y = x$ and $y = 4$ at $(4, 4)$; $y = -x$ and $y = 4$ at $(-4, 4)$. Base (on $y = 4$) $= 8$, height $= 4$. Area $= \\frac{1}{2} \\times 8 \\times 4 = 16$.",
+        "hi": "शीर्ष: $y = x$ और $y = -x$, $(0, 0)$ पर मिलते हैं; $y = x$ और $y = 4$, $(4, 4)$ पर; $y = -x$ और $y = 4$, $(-4, 4)$ पर। आधार ($y = 4$ पर) $= 8$, ऊँचाई $= 4$। क्षेत्रफल $= \\frac{1}{2} \\times 8 \\times 4 = 16$।"
+      }
+    }
+  ]
+}

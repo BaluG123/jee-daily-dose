@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-22",
+  "questions": [
+    {
+      "id": "dd-2026-10-22-01",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "According to Gauss's law, the total electric flux through a closed surface enclosing a net charge $q$ (in vacuum) is:",
+        "hi": "गाउस नियम के अनुसार, नेट आवेश $q$ को घेरने वाले बंद पृष्ठ (निर्वात में) से गुजरने वाला कुल विद्युत फ्लक्स है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "ε₀q", "hi": "ε₀q"}},
+        {"id": "B", "text": {"en": "q/(4πε₀)", "hi": "q/(4πε₀)"}},
+        {"id": "C", "text": {"en": "q/ε₀", "hi": "q/ε₀"}},
+        {"id": "D", "text": {"en": "q/(4πε₀r²)", "hi": "q/(4πε₀r²)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Gauss's law: $\\oint \\vec{E}\\cdot d\\vec{A} = \\frac{q_{\\text{enc}}}{\\varepsilon_0}$. The flux depends only on the enclosed charge — not on the shape or size of the surface or on charges outside it.",
+        "hi": "गाउस नियम: $\\oint \\vec{E}\\cdot d\\vec{A} = \\frac{q_{\\text{enc}}}{\\varepsilon_0}$। फ्लक्स केवल घेरे गए आवेश पर निर्भर करता है — पृष्ठ के आकार या आकृति अथवा बाहर स्थित आवेशों पर नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-02",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The energy stored in a 10 μF capacitor charged to a potential difference of 100 V is:",
+        "hi": "100 V विभवांतर तक आवेशित 10 μF संधारित्र में संचित ऊर्जा है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.5 J", "hi": "0.5 J"}},
+        {"id": "B", "text": {"en": "0.1 J", "hi": "0.1 J"}},
+        {"id": "C", "text": {"en": "5 J", "hi": "5 J"}},
+        {"id": "D", "text": {"en": "0.05 J", "hi": "0.05 J"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$U = \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 10 \\times 10^{-6} \\times (100)^2 = 0.05\\text{ J}$. (Forgetting the ½ gives 0.1 J.)",
+        "hi": "$U = \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 10 \\times 10^{-6} \\times (100)^2 = 0.05\\text{ J}$। (½ भूलने पर 0.1 J आता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-03",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An electric dipole of dipole moment $2 \\times 10^{-8}\\text{ C m}$ is placed in a uniform electric field of $5 \\times 10^4\\text{ N/C}$ at an angle of $30^\\circ$ to the field. If the magnitude of the torque on it is $x \\times 10^{-4}\\text{ N m}$, find $x$.",
+        "hi": "$2 \\times 10^{-8}\\text{ C m}$ द्विध्रुव आघूर्ण वाला एक विद्युत द्विध्रुव $5 \\times 10^4\\text{ N/C}$ के एकसमान विद्युत क्षेत्र में क्षेत्र से $30^\\circ$ कोण पर रखा है। यदि इस पर बल आघूर्ण का परिमाण $x \\times 10^{-4}\\text{ N m}$ है, तो $x$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "$\\tau = pE\\sin\\theta = 2 \\times 10^{-8} \\times 5 \\times 10^4 \\times \\sin 30^\\circ = 10^{-3} \\times 0.5 = 5 \\times 10^{-4}\\text{ N m}$. So $x = 5$. (The net force on a dipole in a uniform field is zero; only torque acts.)",
+        "hi": "$\\tau = pE\\sin\\theta = 2 \\times 10^{-8} \\times 5 \\times 10^4 \\times \\sin 30^\\circ = 10^{-3} \\times 0.5 = 5 \\times 10^{-4}\\text{ N m}$। अतः $x = 5$। (एकसमान क्षेत्र में द्विध्रुव पर नेट बल शून्य होता है; केवल बल आघूर्ण लगता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following statements about the order of a reaction is correct?",
+        "hi": "अभिक्रिया की कोटि के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "It can be zero or fractional", "hi": "यह शून्य या भिन्नात्मक हो सकती है"}},
+        {"id": "B", "text": {"en": "It is always a whole number", "hi": "यह सदैव एक पूर्ण संख्या होती है"}},
+        {"id": "C", "text": {"en": "It is always equal to the molecularity", "hi": "यह सदैव आण्विकता के बराबर होती है"}},
+        {"id": "D", "text": {"en": "It can be found from the balanced equation alone", "hi": "इसे केवल संतुलित समीकरण से ज्ञात किया जा सकता है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Order is the sum of the powers of concentration terms in the experimentally determined rate law. It can be 0, fractional or even negative, and must be found experimentally. Molecularity, by contrast, is always a whole number and applies only to elementary steps.",
+        "hi": "कोटि, प्रयोग द्वारा ज्ञात वेग नियम में सांद्रता पदों की घातों का योग है। यह 0, भिन्नात्मक या ऋणात्मक भी हो सकती है, और इसे प्रयोग द्वारा ही ज्ञात करना होता है। इसके विपरीत आण्विकता सदैव पूर्ण संख्या होती है और केवल प्राथमिक चरणों पर लागू होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "On increasing the concentration of Cu²⁺ ions, the reduction potential of the Cu²⁺/Cu electrode at 298 K:",
+        "hi": "Cu²⁺ आयनों की सांद्रता बढ़ाने पर 298 K पर Cu²⁺/Cu इलेक्ट्रोड का अपचयन विभव:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Decreases", "hi": "घटता है"}},
+        {"id": "B", "text": {"en": "Remains unchanged", "hi": "अपरिवर्तित रहता है"}},
+        {"id": "C", "text": {"en": "Increases", "hi": "बढ़ता है"}},
+        {"id": "D", "text": {"en": "Becomes zero", "hi": "शून्य हो जाता है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Nernst equation: $E = E^\\circ - \\frac{0.059}{2}\\log\\frac{1}{[\\text{Cu}^{2+}]} = E^\\circ + 0.0295\\log[\\text{Cu}^{2+}]$. A higher $[\\text{Cu}^{2+}]$ makes $E$ larger (more positive), consistent with Le Chatelier's principle favouring reduction.",
+        "hi": "नर्न्स्ट समीकरण: $E = E^\\circ - \\frac{0.059}{2}\\log\\frac{1}{[\\text{Cu}^{2+}]} = E^\\circ + 0.0295\\log[\\text{Cu}^{2+}]$। अधिक $[\\text{Cu}^{2+}]$ से $E$ बढ़ता (अधिक धनात्मक) है, जो ला-शातैलिए सिद्धांत के अनुसार अपचयन के पक्ष में है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-06",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Dissolving 6 g of a non-volatile non-electrolyte in 100 g of water lowers its freezing point by 0.93 K. Find the molar mass (in g/mol) of the solute. ($K_f$ for water $= 1.86\\text{ K kg mol}^{-1}$)",
+        "hi": "100 g जल में 6 g अवाष्पशील अविद्युत-अपघट्य घोलने पर इसका हिमांक 0.93 K कम हो जाता है। विलेय का मोलर द्रव्यमान (g/mol में) ज्ञात कीजिए। (जल के लिए $K_f = 1.86\\text{ K kg mol}^{-1}$)"
+      },
+      "options": [],
+      "correctAnswer": 120,
+      "solution": {
+        "en": "$\\Delta T_f = K_f \\cdot m = K_f \\cdot \\frac{w_2 \\times 1000}{M_2 \\times w_1} \\Rightarrow M_2 = \\frac{K_f \\times w_2 \\times 1000}{\\Delta T_f \\times w_1} = \\frac{1.86 \\times 6 \\times 1000}{0.93 \\times 100} = 120\\text{ g/mol}$.",
+        "hi": "$\\Delta T_f = K_f \\cdot m = K_f \\cdot \\frac{w_2 \\times 1000}{M_2 \\times w_1} \\Rightarrow M_2 = \\frac{K_f \\times w_2 \\times 1000}{\\Delta T_f \\times w_1} = \\frac{1.86 \\times 6 \\times 1000}{0.93 \\times 100} = 120\\text{ g/mol}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{1 - \\cos x}{x^2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$1 - \\cos x = 2\\sin^2\\frac{x}{2}$. So the limit $= \\lim_{x \\to 0}\\frac{2\\sin^2(x/2)}{x^2} = 2 \\times \\frac{1}{4} \\times \\left(\\frac{\\sin(x/2)}{x/2}\\right)^2 = \\frac{1}{2}$.",
+        "hi": "$1 - \\cos x = 2\\sin^2\\frac{x}{2}$। अतः सीमा $= \\lim_{x \\to 0}\\frac{2\\sin^2(x/2)}{x^2} = 2 \\times \\frac{1}{4} \\times \\left(\\frac{\\sin(x/2)}{x/2}\\right)^2 = \\frac{1}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-08",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $P(A) = 0.6$ and $P(B|A) = 0.5$, then $P(A \\cap B)$ is:",
+        "hi": "यदि $P(A) = 0.6$ और $P(B|A) = 0.5$ है, तो $P(A \\cap B)$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.5", "hi": "0.5"}},
+        {"id": "B", "text": {"en": "1.1", "hi": "1.1"}},
+        {"id": "C", "text": {"en": "0.12", "hi": "0.12"}},
+        {"id": "D", "text": {"en": "0.3", "hi": "0.3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Multiplication rule: $P(A \\cap B) = P(A)\\cdot P(B|A) = 0.6 \\times 0.5 = 0.3$.",
+        "hi": "गुणन नियम: $P(A \\cap B) = P(A)\\cdot P(B|A) = 0.6 \\times 0.5 = 0.3$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-09",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The maximum value of $\\sin x \\cos x$ is:",
+        "hi": "$\\sin x \\cos x$ का अधिकतम मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "1/4", "hi": "1/4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\sin x\\cos x = \\frac{1}{2}\\sin 2x$, and $\\sin 2x \\le 1$. So the maximum is $\\frac{1}{2}$ (at $x = \\frac{\\pi}{4}$).",
+        "hi": "$\\sin x\\cos x = \\frac{1}{2}\\sin 2x$, और $\\sin 2x \\le 1$। अतः अधिकतम मान $\\frac{1}{2}$ है ($x = \\frac{\\pi}{4}$ पर)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-22-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the sum of the first 10 terms of the series $1 + 3 + 7 + 15 + 31 + \\cdots$.",
+        "hi": "श्रेणी $1 + 3 + 7 + 15 + 31 + \\cdots$ के प्रथम 10 पदों का योग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2036,
+      "solution": {
+        "en": "Differences $2, 4, 8, 16, \\ldots$ form a GP, so $T_n = 2^n - 1$. $S_{10} = \\sum_{n=1}^{10}(2^n - 1) = (2 + 4 + \\cdots + 2^{10}) - 10 = (2^{11} - 2) - 10 = 2036$.",
+        "hi": "अंतर $2, 4, 8, 16, \\ldots$ गुणोत्तर श्रेणी बनाते हैं, अतः $T_n = 2^n - 1$। $S_{10} = \\sum_{n=1}^{10}(2^n - 1) = (2 + 4 + \\cdots + 2^{10}) - 10 = (2^{11} - 2) - 10 = 2036$।"
+      }
+    }
+  ]
+}

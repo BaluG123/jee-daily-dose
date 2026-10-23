@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-03",
+  "questions": [
+    {
+      "id": "dd-2026-10-03-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Lenz's law is a consequence of the law of conservation of:",
+        "hi": "लेंज़ का नियम किसके संरक्षण के नियम का परिणाम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Charge", "hi": "आवेश"}},
+        {"id": "B", "text": {"en": "Energy", "hi": "ऊर्जा"}},
+        {"id": "C", "text": {"en": "Linear momentum", "hi": "रैखिक संवेग"}},
+        {"id": "D", "text": {"en": "Mass", "hi": "द्रव्यमान"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The induced current opposes the change that produces it, so mechanical work must be done against this opposition; that work appears as electrical energy. If the induced current aided the change, energy would be created from nothing.",
+        "hi": "प्रेरित धारा उस परिवर्तन का विरोध करती है जो उसे उत्पन्न करता है, अतः इस विरोध के विरुद्ध यांत्रिक कार्य करना पड़ता है; यही कार्य विद्युत ऊर्जा के रूप में प्रकट होता है। यदि प्रेरित धारा परिवर्तन में सहायता करती, तो ऊर्जा शून्य से उत्पन्न हो जाती।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-02",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A conducting rod of length 0.5 m moves with a speed of 4 m/s perpendicular to a uniform magnetic field of 0.2 T (rod, velocity and field mutually perpendicular). The emf induced across its ends is:",
+        "hi": "0.5 m लंबी एक चालक छड़ 0.2 T के एकसमान चुंबकीय क्षेत्र में 4 m/s की चाल से गति करती है (छड़, वेग और क्षेत्र परस्पर लंबवत)। इसके सिरों के बीच प्रेरित विद्युत वाहक बल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4 V", "hi": "4 V"}},
+        {"id": "B", "text": {"en": "0.04 V", "hi": "0.04 V"}},
+        {"id": "C", "text": {"en": "0.4 V", "hi": "0.4 V"}},
+        {"id": "D", "text": {"en": "1.6 V", "hi": "1.6 V"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Motional emf $\\varepsilon = Blv = 0.2 \\times 0.5 \\times 4 = 0.4\\text{ V}$.",
+        "hi": "गतिक विद्युत वाहक बल $\\varepsilon = Blv = 0.2 \\times 0.5 \\times 4 = 0.4\\text{ V}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-03",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A solid sphere is released from rest at the top of an inclined plane of height 7 m and rolls down without slipping. Find its speed (in m/s) at the bottom. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "एक ठोस गोला 7 m ऊँचे आनत तल के शीर्ष से विराम से छोड़ा जाता है और बिना फिसले लुढ़कता है। तल के आधार पर इसकी चाल (m/s में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "Energy conservation: $mgh = \\frac{1}{2}mv^2\\left(1 + \\frac{k^2}{R^2}\\right)$. For a solid sphere $\\frac{k^2}{R^2} = \\frac{2}{5}$. $v = \\sqrt{\\frac{2gh}{1 + 2/5}} = \\sqrt{\\frac{10gh}{7}} = \\sqrt{\\frac{10 \\times 10 \\times 7}{7}} = 10\\text{ m/s}$. (No energy is lost to friction in pure rolling.)",
+        "hi": "ऊर्जा संरक्षण: $mgh = \\frac{1}{2}mv^2\\left(1 + \\frac{k^2}{R^2}\\right)$। ठोस गोले के लिए $\\frac{k^2}{R^2} = \\frac{2}{5}$। $v = \\sqrt{\\frac{2gh}{1 + 2/5}} = \\sqrt{\\frac{10gh}{7}} = \\sqrt{\\frac{10 \\times 10 \\times 7}{7}} = 10\\text{ m/s}$। (शुद्ध लोटनिक गति में घर्षण से ऊर्जा का ह्रास नहीं होता।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-04",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following compounds is a ketone?",
+        "hi": "निम्नलिखित में से कौन-सा यौगिक कीटोन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₃CHO", "hi": "CH₃CHO"}},
+        {"id": "B", "text": {"en": "CH₃COCH₃", "hi": "CH₃COCH₃"}},
+        {"id": "C", "text": {"en": "CH₃COOH", "hi": "CH₃COOH"}},
+        {"id": "D", "text": {"en": "CH₃OCH₃", "hi": "CH₃OCH₃"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "In a ketone, the carbonyl group (>C=O) is bonded to two carbon atoms: CH₃–CO–CH₃ (propanone). CH₃CHO is an aldehyde, CH₃COOH a carboxylic acid and CH₃OCH₃ an ether.",
+        "hi": "कीटोन में कार्बोनिल समूह (>C=O) दो कार्बन परमाणुओं से जुड़ा होता है: CH₃–CO–CH₃ (प्रोपेनोन)। CH₃CHO ऐल्डिहाइड, CH₃COOH कार्बोक्सिलिक अम्ल और CH₃OCH₃ ईथर है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-05",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of structural isomers possible for C₅H₁₂ is:",
+        "hi": "C₅H₁₂ के लिए संभव संरचनात्मक समावयवियों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3", "hi": "3"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "C₅H₁₂ (pentane) has three chain isomers: n-pentane CH₃(CH₂)₃CH₃, isopentane (2-methylbutane) and neopentane (2,2-dimethylpropane).",
+        "hi": "C₅H₁₂ (पेन्टेन) के तीन शृंखला समावयवी हैं: n-पेन्टेन CH₃(CH₂)₃CH₃, आइसोपेन्टेन (2-मेथिलब्यूटेन) और नियोपेन्टेन (2,2-डाइमेथिलप्रोपेन)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Kolbe's electrolysis of an aqueous solution of sodium propanoate gives which hydrocarbon at the anode?",
+        "hi": "सोडियम प्रोपेनोएट के जलीय विलयन का कोल्बे विद्युत-अपघटन करने पर ऐनोड पर कौन-सा हाइड्रोकार्बन प्राप्त होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Propane", "hi": "प्रोपेन"}},
+        {"id": "B", "text": {"en": "Ethane", "hi": "एथेन"}},
+        {"id": "C", "text": {"en": "Butane", "hi": "ब्यूटेन"}},
+        {"id": "D", "text": {"en": "Hexane", "hi": "हेक्सेन"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "2CH₃CH₂COO⁻Na⁺ + 2H₂O → CH₃CH₂–CH₂CH₃ + 2CO₂ + H₂ + 2NaOH. At the anode, carboxylate ions lose an electron and CO₂, giving ethyl radicals (C₂H₅•) that couple to form butane; H₂ is liberated at the cathode. The alkane formed has twice the number of carbons in the alkyl group (an even number).",
+        "hi": "2CH₃CH₂COO⁻Na⁺ + 2H₂O → CH₃CH₂–CH₂CH₃ + 2CO₂ + H₂ + 2NaOH। ऐनोड पर कार्बोक्सिलेट आयन एक इलेक्ट्रॉन और CO₂ खोकर एथिल मूलक (C₂H₅•) देते हैं जो युग्मित होकर ब्यूटेन बनाते हैं; कैथोड पर H₂ मुक्त होती है। बनी ऐल्केन में ऐल्किल समूह के कार्बनों की दोगुनी संख्या (सम संख्या) होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-07",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If ${}^nC_2 = 45$, then $n$ is:",
+        "hi": "यदि ${}^nC_2 = 45$ है, तो $n$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9", "hi": "9"}},
+        {"id": "B", "text": {"en": "45", "hi": "45"}},
+        {"id": "C", "text": {"en": "15", "hi": "15"}},
+        {"id": "D", "text": {"en": "10", "hi": "10"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "${}^nC_2 = \\frac{n(n - 1)}{2} = 45 \\Rightarrow n(n - 1) = 90 = 10 \\times 9 \\Rightarrow n = 10$.",
+        "hi": "${}^nC_2 = \\frac{n(n - 1)}{2} = 45 \\Rightarrow n(n - 1) = 90 = 10 \\times 9 \\Rightarrow n = 10$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-08",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0} \\frac{\\tan x - \\sin x}{x^3}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{\\tan x - \\sin x}{x^3}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "1/6", "hi": "1/6"}},
+        {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\tan x - \\sin x = \\tan x(1 - \\cos x)$. So the limit $= \\lim_{x \\to 0}\\frac{\\tan x}{x} \\cdot \\frac{1 - \\cos x}{x^2} = 1 \\times \\frac{1}{2} = \\frac{1}{2}$. (Series check: $\\tan x - \\sin x \\approx \\frac{x^3}{3} + \\frac{x^3}{6} = \\frac{x^3}{2}$.)",
+        "hi": "$\\tan x - \\sin x = \\tan x(1 - \\cos x)$। अतः सीमा $= \\lim_{x \\to 0}\\frac{\\tan x}{x} \\cdot \\frac{1 - \\cos x}{x^2} = 1 \\times \\frac{1}{2} = \\frac{1}{2}$। (श्रेणी से जाँच: $\\tan x - \\sin x \\approx \\frac{x^3}{3} + \\frac{x^3}{6} = \\frac{x^3}{2}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ and $B$ are independent events with $P(A) = 0.4$ and $P(B) = 0.5$, then $P(A \\cup B)$ is:",
+        "hi": "यदि $A$ और $B$ स्वतंत्र घटनाएँ हैं जिनमें $P(A) = 0.4$ और $P(B) = 0.5$ है, तो $P(A \\cup B)$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.7", "hi": "0.7"}},
+        {"id": "B", "text": {"en": "0.9", "hi": "0.9"}},
+        {"id": "C", "text": {"en": "0.2", "hi": "0.2"}},
+        {"id": "D", "text": {"en": "0.8", "hi": "0.8"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For independent events, $P(A \\cap B) = P(A)P(B) = 0.2$. $P(A \\cup B) = 0.4 + 0.5 - 0.2 = 0.7$. (Alternatively $1 - P(\\bar{A})P(\\bar{B}) = 1 - 0.6 \\times 0.5 = 0.7$.)",
+        "hi": "स्वतंत्र घटनाओं के लिए $P(A \\cap B) = P(A)P(B) = 0.2$। $P(A \\cup B) = 0.4 + 0.5 - 0.2 = 0.7$। (वैकल्पिक: $1 - P(\\bar{A})P(\\bar{B}) = 1 - 0.6 \\times 0.5 = 0.7$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-03-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The sum of the first $n$ terms of an AP is $S_n = 3n^2 + 2n$. Find its 10th term.",
+        "hi": "एक समांतर श्रेणी के प्रथम $n$ पदों का योग $S_n = 3n^2 + 2n$ है। इसका 10वाँ पद ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 59,
+      "solution": {
+        "en": "$a_n = S_n - S_{n-1}$. $S_{10} = 300 + 20 = 320$, $S_9 = 243 + 18 = 261$. $a_{10} = 320 - 261 = 59$. (In general $a_n = 6n - 1$, so $a = 5$, $d = 6$.)",
+        "hi": "$a_n = S_n - S_{n-1}$। $S_{10} = 300 + 20 = 320$, $S_9 = 243 + 18 = 261$। $a_{10} = 320 - 261 = 59$। (व्यापक रूप से $a_n = 6n - 1$, अतः $a = 5$, $d = 6$।)"
+      }
+    }
+  ]
+}

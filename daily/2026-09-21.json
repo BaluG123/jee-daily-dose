@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-21",
+  "questions": [
+    {
+      "id": "dd-2026-09-21-01",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The area under a velocity–time graph gives the:",
+        "hi": "वेग–समय ग्राफ़ के नीचे का क्षेत्रफल क्या देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Acceleration", "hi": "त्वरण"}},
+        {"id": "B", "text": {"en": "Force", "hi": "बल"}},
+        {"id": "C", "text": {"en": "Momentum", "hi": "संवेग"}},
+        {"id": "D", "text": {"en": "Displacement", "hi": "विस्थापन"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Since $v = \\frac{dx}{dt}$, we have $x = \\int v\\,dt$, which is the area under the $v$–$t$ graph. (The slope of the $v$–$t$ graph gives acceleration.)",
+        "hi": "चूँकि $v = \\frac{dx}{dt}$, अतः $x = \\int v\\,dt$, जो $v$–$t$ ग्राफ़ के नीचे का क्षेत्रफल है। ($v$–$t$ ग्राफ़ का ढाल त्वरण देता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-02",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the kinetic energy of a body increases by 300%, its linear momentum increases by:",
+        "hi": "यदि किसी पिंड की गतिज ऊर्जा 300% बढ़ जाए, तो उसका रैखिक संवेग कितना बढ़ेगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "300%", "hi": "300%"}},
+        {"id": "B", "text": {"en": "100%", "hi": "100%"}},
+        {"id": "C", "text": {"en": "200%", "hi": "200%"}},
+        {"id": "D", "text": {"en": "50%", "hi": "50%"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$p = \\sqrt{2mK}$. A 300% increase means $K' = K + 3K = 4K$. Then $p' = \\sqrt{2m(4K)} = 2p$, i.e. momentum increases by $\\frac{2p - p}{p} \\times 100 = 100\\%$.",
+        "hi": "$p = \\sqrt{2mK}$। 300% वृद्धि का अर्थ है $K' = K + 3K = 4K$। तब $p' = \\sqrt{2m(4K)} = 2p$, अर्थात संवेग में वृद्धि $= \\frac{2p - p}{p} \\times 100 = 100\\%$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-03",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A stone of mass $0.5\\text{ kg}$ tied to a string of length $2\\text{ m}$ is whirled in a vertical circle with the minimum speed at the lowest point needed to just complete the circle. Find the tension (in N) in the string at the lowest point. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "$0.5\\text{ kg}$ द्रव्यमान का एक पत्थर $2\\text{ m}$ लंबी डोरी से बाँधकर ऊर्ध्वाधर वृत्त में घुमाया जाता है, निम्नतम बिंदु पर उतनी ही न्यूनतम चाल से जितनी वृत्त को ठीक पूरा करने के लिए आवश्यक है। निम्नतम बिंदु पर डोरी में तनाव (N में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 30,
+      "solution": {
+        "en": "To just complete the vertical circle, $v_{\\text{bottom}} = \\sqrt{5gl}$. At the lowest point: $T - mg = \\frac{mv^2}{l} \\Rightarrow T = mg + \\frac{m(5gl)}{l} = 6mg = 6(0.5)(10) = 30\\text{ N}$. Remember: in this critical case, tension at the bottom is $6mg$ and at the top it is zero.",
+        "hi": "ऊर्ध्वाधर वृत्त को ठीक पूरा करने के लिए $v_{\\text{bottom}} = \\sqrt{5gl}$। निम्नतम बिंदु पर: $T - mg = \\frac{mv^2}{l} \\Rightarrow T = mg + \\frac{m(5gl)}{l} = 6mg = 6(0.5)(10) = 30\\text{ N}$। याद रखें: इस क्रांतिक स्थिति में निम्नतम बिंदु पर तनाव $6mg$ और उच्चतम बिंदु पर शून्य होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-04",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following elements has the highest electronegativity?",
+        "hi": "निम्नलिखित में से किस तत्व की विद्युत ऋणात्मकता सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fluorine (F)", "hi": "फ्लुओरीन (F)"}},
+        {"id": "B", "text": {"en": "Oxygen (O)", "hi": "ऑक्सीजन (O)"}},
+        {"id": "C", "text": {"en": "Chlorine (Cl)", "hi": "क्लोरीन (Cl)"}},
+        {"id": "D", "text": {"en": "Nitrogen (N)", "hi": "नाइट्रोजन (N)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Fluorine is the most electronegative element (Pauling value 4.0) because of its very small size and high effective nuclear charge. Electronegativity increases across a period and decreases down a group.",
+        "hi": "फ्लुओरीन सबसे अधिक विद्युत ऋणात्मक तत्व है (पॉलिंग मान 4.0), क्योंकि इसका आकार बहुत छोटा और प्रभावी नाभिकीय आवेश अधिक है। विद्युत ऋणात्मकता आवर्त में बाएँ से दाएँ बढ़ती है और वर्ग में नीचे जाने पर घटती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-05",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g) at temperature $T$, the value of $\\Delta H - \\Delta U$ is:",
+        "hi": "ताप $T$ पर अभिक्रिया N₂(g) + 3H₂(g) → 2NH₃(g) के लिए $\\Delta H - \\Delta U$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−2RT", "hi": "−2RT"}},
+        {"id": "B", "text": {"en": "+2RT", "hi": "+2RT"}},
+        {"id": "C", "text": {"en": "−RT", "hi": "−RT"}},
+        {"id": "D", "text": {"en": "+RT", "hi": "+RT"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\Delta H = \\Delta U + \\Delta n_g RT$, where $\\Delta n_g$ = moles of gaseous products − moles of gaseous reactants $= 2 - (1 + 3) = -2$. Hence $\\Delta H - \\Delta U = -2RT$.",
+        "hi": "$\\Delta H = \\Delta U + \\Delta n_g RT$, जहाँ $\\Delta n_g$ = गैसीय उत्पादों के मोल − गैसीय अभिकारकों के मोल $= 2 - (1 + 3) = -2$। अतः $\\Delta H - \\Delta U = -2RT$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The correct decreasing order of acidic strength is:",
+        "hi": "अम्लीय सामर्थ्य का सही घटता क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "phenol > p-nitrophenol > p-cresol > ethanol", "hi": "फ़ीनॉल > p-नाइट्रोफ़ीनॉल > p-क्रीसॉल > एथेनॉल"}},
+        {"id": "B", "text": {"en": "p-cresol > phenol > p-nitrophenol > ethanol", "hi": "p-क्रीसॉल > फ़ीनॉल > p-नाइट्रोफ़ीनॉल > एथेनॉल"}},
+        {"id": "C", "text": {"en": "p-nitrophenol > phenol > p-cresol > ethanol", "hi": "p-नाइट्रोफ़ीनॉल > फ़ीनॉल > p-क्रीसॉल > एथेनॉल"}},
+        {"id": "D", "text": {"en": "ethanol > p-cresol > phenol > p-nitrophenol", "hi": "एथेनॉल > p-क्रीसॉल > फ़ीनॉल > p-नाइट्रोफ़ीनॉल"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Acidity depends on the stability of the conjugate base. The –NO₂ group (−M and −I effects) delocalises the negative charge of the phenoxide ion, so p-nitrophenol is the strongest acid. The –CH₃ group (+I and hyperconjugation) destabilises the phenoxide ion, so p-cresol is weaker than phenol. The ethoxide ion has no resonance stabilisation, so ethanol is the weakest.",
+        "hi": "अम्लता संयुग्मी क्षारक के स्थायित्व पर निर्भर करती है। –NO₂ समूह (−M तथा −I प्रभाव) फ़ीनॉक्साइड आयन के ऋणावेश को विस्थानीकृत करता है, अतः p-नाइट्रोफ़ीनॉल सबसे प्रबल अम्ल है। –CH₃ समूह (+I तथा अतिसंयुग्मन) फ़ीनॉक्साइड आयन को अस्थायी करता है, अतः p-क्रीसॉल फ़ीनॉल से दुर्बल है। एथॉक्साइड आयन अनुनाद द्वारा स्थायी नहीं होता, अतः एथेनॉल सबसे दुर्बल है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The domain of the function $f(x) = \\sqrt{x - 2}$ is:",
+        "hi": "फलन $f(x) = \\sqrt{x - 2}$ का प्रांत है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(2, ∞)", "hi": "(2, ∞)"}},
+        {"id": "B", "text": {"en": "(−∞, 2]", "hi": "(−∞, 2]"}},
+        {"id": "C", "text": {"en": "[2, ∞)", "hi": "[2, ∞)"}},
+        {"id": "D", "text": {"en": "ℝ", "hi": "ℝ"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For $\\sqrt{x - 2}$ to be real, we need $x - 2 \\ge 0 \\Rightarrow x \\ge 2$. Domain $= [2, \\infty)$. Note that $x = 2$ is included since $\\sqrt{0} = 0$ is defined.",
+        "hi": "$\\sqrt{x - 2}$ के वास्तविक होने के लिए $x - 2 \\ge 0 \\Rightarrow x \\ge 2$। प्रांत $= [2, \\infty)$। ध्यान दें कि $x = 2$ शामिल है क्योंकि $\\sqrt{0} = 0$ परिभाषित है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The sum of the first 20 terms of the AP $2, 5, 8, \\ldots$ is:",
+        "hi": "समांतर श्रेणी $2, 5, 8, \\ldots$ के प्रथम 20 पदों का योग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "620", "hi": "620"}},
+        {"id": "B", "text": {"en": "600", "hi": "600"}},
+        {"id": "C", "text": {"en": "590", "hi": "590"}},
+        {"id": "D", "text": {"en": "610", "hi": "610"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$a = 2$, $d = 3$, $n = 20$. $S_n = \\frac{n}{2}[2a + (n - 1)d] = \\frac{20}{2}[4 + 19 \\times 3] = 10 \\times 61 = 610$.",
+        "hi": "$a = 2$, $d = 3$, $n = 20$। $S_n = \\frac{n}{2}[2a + (n - 1)d] = \\frac{20}{2}[4 + 19 \\times 3] = 10 \\times 61 = 610$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The acute angle between the lines $y = \\sqrt{3}x + 1$ and $y = \\frac{x}{\\sqrt{3}}$ is:",
+        "hi": "रेखाओं $y = \\sqrt{3}x + 1$ और $y = \\frac{x}{\\sqrt{3}}$ के बीच न्यून कोण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "60°", "hi": "60°"}},
+        {"id": "B", "text": {"en": "30°", "hi": "30°"}},
+        {"id": "C", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "D", "text": {"en": "90°", "hi": "90°"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Slopes $m_1 = \\sqrt{3}$ (inclination $60^\\circ$) and $m_2 = \\frac{1}{\\sqrt{3}}$ (inclination $30^\\circ$). Using $\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| = \\frac{\\sqrt{3} - \\frac{1}{\\sqrt{3}}}{2} = \\frac{1}{\\sqrt{3}}$, so $\\theta = 30^\\circ$.",
+        "hi": "ढाल $m_1 = \\sqrt{3}$ (झुकाव $60^\\circ$) और $m_2 = \\frac{1}{\\sqrt{3}}$ (झुकाव $30^\\circ$)। $\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right| = \\frac{\\sqrt{3} - \\frac{1}{\\sqrt{3}}}{2} = \\frac{1}{\\sqrt{3}}$ से $\\theta = 30^\\circ$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-21-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "How many 4-digit numbers with all distinct digits can be formed using the digits $0, 1, 2, 3, 4, 5$?",
+        "hi": "अंकों $0, 1, 2, 3, 4, 5$ का प्रयोग करके सभी भिन्न अंकों वाली कितनी 4-अंकीय संख्याएँ बनाई जा सकती हैं?"
+      },
+      "options": [],
+      "correctAnswer": 300,
+      "solution": {
+        "en": "The thousands place cannot be 0, so it has 5 choices. The remaining 3 places are filled from the remaining 5 digits (0 is now allowed): $5 \\times 4 \\times 3 = 60$ ways. Total $= 5 \\times 60 = 300$. (Alternatively: ${}^6P_4 - {}^5P_3 = 360 - 60 = 300$.)",
+        "hi": "हज़ार के स्थान पर 0 नहीं आ सकता, अतः इसके 5 विकल्प हैं। शेष 3 स्थान बचे 5 अंकों (अब 0 भी शामिल) से $5 \\times 4 \\times 3 = 60$ प्रकार से भरे जा सकते हैं। कुल $= 5 \\times 60 = 300$। (वैकल्पिक: ${}^6P_4 - {}^5P_3 = 360 - 60 = 300$।)"
+      }
+    }
+  ]
+}

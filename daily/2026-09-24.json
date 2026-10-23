@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-24",
+  "questions": [
+    {
+      "id": "dd-2026-09-24-01",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The work done by a gas in an isochoric (constant volume) process is:",
+        "hi": "समआयतनिक (नियत आयतन) प्रक्रम में गैस द्वारा किया गया कार्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Maximum", "hi": "अधिकतम"}},
+        {"id": "B", "text": {"en": "Equal to the heat supplied", "hi": "दी गई ऊष्मा के बराबर"}},
+        {"id": "C", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "D", "text": {"en": "Always negative", "hi": "सदैव ऋणात्मक"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$W = \\int P\\,dV$. In an isochoric process $dV = 0$, so $W = 0$. By the first law, all heat supplied goes into internal energy: $\\Delta Q = \\Delta U$.",
+        "hi": "$W = \\int P\\,dV$। समआयतनिक प्रक्रम में $dV = 0$, अतः $W = 0$। प्रथम नियम से, दी गई पूरी ऊष्मा आंतरिक ऊर्जा में जाती है: $\\Delta Q = \\Delta U$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-02",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the absolute temperature of an ideal gas is doubled, its rms speed becomes:",
+        "hi": "यदि किसी आदर्श गैस का परम ताप दोगुना कर दिया जाए, तो उसकी वर्ग-माध्य-मूल (rms) चाल हो जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "√2 times", "hi": "√2 गुना"}},
+        {"id": "B", "text": {"en": "2 times", "hi": "2 गुना"}},
+        {"id": "C", "text": {"en": "4 times", "hi": "4 गुना"}},
+        {"id": "D", "text": {"en": "1/√2 times", "hi": "1/√2 गुना"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\propto \\sqrt{T}$. Doubling $T$ multiplies $v_{\\text{rms}}$ by $\\sqrt{2}$. (Average kinetic energy, being $\\propto T$, doubles.)",
+        "hi": "$v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}} \\propto \\sqrt{T}$। $T$ दोगुना करने पर $v_{\\text{rms}}$, $\\sqrt{2}$ गुना हो जाती है। (औसत गतिज ऊर्जा $\\propto T$ होने से दोगुनी हो जाती है।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "A particle executes SHM with amplitude $A$. At what displacement from the mean position is its kinetic energy three times its potential energy?",
+        "hi": "एक कण आयाम $A$ के साथ सरल आवर्त गति करता है। माध्य स्थिति से किस विस्थापन पर इसकी गतिज ऊर्जा, स्थितिज ऊर्जा की तीन गुनी होगी?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A/√2", "hi": "A/√2"}},
+        {"id": "B", "text": {"en": "A/2", "hi": "A/2"}},
+        {"id": "C", "text": {"en": "A/4", "hi": "A/4"}},
+        {"id": "D", "text": {"en": "(√3/2)A", "hi": "(√3/2)A"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$K = \\frac{1}{2}k(A^2 - x^2)$ and $U = \\frac{1}{2}kx^2$. Setting $K = 3U$: $A^2 - x^2 = 3x^2 \\Rightarrow x^2 = \\frac{A^2}{4} \\Rightarrow x = \\frac{A}{2}$. General result: $K = nU$ at $x = \\frac{A}{\\sqrt{n + 1}}$ (so $K = U$ at $x = \\frac{A}{\\sqrt{2}}$).",
+        "hi": "$K = \\frac{1}{2}k(A^2 - x^2)$ तथा $U = \\frac{1}{2}kx^2$। $K = 3U$ रखने पर: $A^2 - x^2 = 3x^2 \\Rightarrow x^2 = \\frac{A^2}{4} \\Rightarrow x = \\frac{A}{2}$। व्यापक परिणाम: $K = nU$ तब होता है जब $x = \\frac{A}{\\sqrt{n + 1}}$ (अतः $K = U$ पर $x = \\frac{A}{\\sqrt{2}}$)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-04",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following has the largest atomic radius?",
+        "hi": "निम्नलिखित में से किसकी परमाणु त्रिज्या सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Cs", "hi": "Cs"}},
+        {"id": "B", "text": {"en": "K", "hi": "K"}},
+        {"id": "C", "text": {"en": "Na", "hi": "Na"}},
+        {"id": "D", "text": {"en": "Li", "hi": "Li"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "All are alkali metals (group 1). Atomic radius increases down a group because a new shell is added at each step. Cs (period 6) is the largest among Li, Na, K and Cs.",
+        "hi": "सभी क्षार धातुएँ (वर्ग 1) हैं। वर्ग में नीचे जाने पर हर चरण में एक नया कोश जुड़ता है, अतः परमाणु त्रिज्या बढ़ती है। Li, Na, K और Cs में Cs (आवर्त 6) सबसे बड़ा है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-05",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A reaction is spontaneous at all temperatures when:",
+        "hi": "कोई अभिक्रिया सभी तापों पर स्वतः प्रवर्तित होती है जब:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "ΔH > 0 and ΔS < 0", "hi": "ΔH > 0 and ΔS < 0"}},
+        {"id": "B", "text": {"en": "ΔH < 0 and ΔS > 0", "hi": "ΔH < 0 and ΔS > 0"}},
+        {"id": "C", "text": {"en": "ΔH < 0 and ΔS < 0", "hi": "ΔH < 0 and ΔS < 0"}},
+        {"id": "D", "text": {"en": "ΔH > 0 and ΔS > 0", "hi": "ΔH > 0 and ΔS > 0"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\Delta G = \\Delta H - T\\Delta S$. If $\\Delta H < 0$ and $\\Delta S > 0$, both terms make $\\Delta G$ negative at every temperature. ($\\Delta H < 0, \\Delta S < 0$: spontaneous only at low $T$; $\\Delta H > 0, \\Delta S > 0$: only at high $T$; $\\Delta H > 0, \\Delta S < 0$: never.)",
+        "hi": "$\\Delta G = \\Delta H - T\\Delta S$। यदि $\\Delta H < 0$ और $\\Delta S > 0$ हो, तो दोनों पद हर ताप पर $\\Delta G$ को ऋणात्मक बनाते हैं। ($\\Delta H < 0, \\Delta S < 0$: केवल निम्न $T$ पर; $\\Delta H > 0, \\Delta S > 0$: केवल उच्च $T$ पर; $\\Delta H > 0, \\Delta S < 0$: कभी नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-06",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "4 g of H₂ is allowed to react with 16 g of O₂ to form water. Find the mass (in g) of water formed.",
+        "hi": "4 g H₂ को 16 g O₂ के साथ अभिक्रिया करके जल बनाने दिया जाता है। बने जल का द्रव्यमान (g में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 18,
+      "solution": {
+        "en": "2H₂ + O₂ → 2H₂O. $n(\\text{H}_2) = \\frac{4}{2} = 2$ mol; $n(\\text{O}_2) = \\frac{16}{32} = 0.5$ mol. 0.5 mol O₂ needs only 1 mol H₂, so O₂ is the limiting reagent. Water formed $= 2 \\times 0.5 = 1$ mol $= 18$ g (1 mol H₂ is left unreacted).",
+        "hi": "2H₂ + O₂ → 2H₂O। $n(\\text{H}_2) = \\frac{4}{2} = 2$ mol; $n(\\text{O}_2) = \\frac{16}{32} = 0.5$ mol। 0.5 mol O₂ को केवल 1 mol H₂ चाहिए, अतः O₂ सीमांत अभिकर्मक है। बना जल $= 2 \\times 0.5 = 1$ mol $= 18$ g (1 mol H₂ बिना अभिक्रिया के बचता है)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-07",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The slope of the line joining the points $(1, 2)$ and $(3, 8)$ is:",
+        "hi": "बिंदुओं $(1, 2)$ और $(3, 8)$ को मिलाने वाली रेखा का ढाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/3", "hi": "1/3"}},
+        {"id": "B", "text": {"en": "−3", "hi": "−3"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "3", "hi": "3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Slope $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{8 - 2}{3 - 1} = \\frac{6}{2} = 3$.",
+        "hi": "ढाल $m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{8 - 2}{3 - 1} = \\frac{6}{2} = 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-08",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The middle term in the expansion of $\\left(x + \\frac{1}{x}\\right)^{10}$ is:",
+        "hi": "$\\left(x + \\frac{1}{x}\\right)^{10}$ के प्रसार में मध्य पद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "210", "hi": "210"}},
+        {"id": "B", "text": {"en": "120", "hi": "120"}},
+        {"id": "C", "text": {"en": "462", "hi": "462"}},
+        {"id": "D", "text": {"en": "252", "hi": "252"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$n = 10$ gives 11 terms, so the middle term is $T_6$: $T_6 = {}^{10}C_5\\, x^5\\left(\\frac{1}{x}\\right)^5 = {}^{10}C_5 = 252$.",
+        "hi": "$n = 10$ से 11 पद होते हैं, अतः मध्य पद $T_6$ है: $T_6 = {}^{10}C_5\\, x^5\\left(\\frac{1}{x}\\right)^5 = {}^{10}C_5 = 252$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-09",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $f(x) = 2x + 3$, then $f^{-1}(x)$ is:",
+        "hi": "यदि $f(x) = 2x + 3$ है, तो $f^{-1}(x)$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(x + 3)/2", "hi": "(x + 3)/2"}},
+        {"id": "B", "text": {"en": "2x − 3", "hi": "2x − 3"}},
+        {"id": "C", "text": {"en": "(x − 3)/2", "hi": "(x − 3)/2"}},
+        {"id": "D", "text": {"en": "1/(2x + 3)", "hi": "1/(2x + 3)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Let $y = 2x + 3 \\Rightarrow x = \\frac{y - 3}{2}$. Interchanging, $f^{-1}(x) = \\frac{x - 3}{2}$. Check: $f(f^{-1}(x)) = 2\\cdot\\frac{x - 3}{2} + 3 = x$ ✓.",
+        "hi": "माना $y = 2x + 3 \\Rightarrow x = \\frac{y - 3}{2}$। अदला-बदली करने पर $f^{-1}(x) = \\frac{x - 3}{2}$। जाँच: $f(f^{-1}(x)) = 2\\cdot\\frac{x - 3}{2} + 3 = x$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-09-24-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the maximum area (in square units) of a rectangle inscribed in a circle of radius 5 units.",
+        "hi": "5 इकाई त्रिज्या वाले वृत्त के अंतर्गत बने आयत का अधिकतम क्षेत्रफल (वर्ग इकाई में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 50,
+      "solution": {
+        "en": "Take a vertex at $(5\\cos\\theta, 5\\sin\\theta)$. Sides are $10\\cos\\theta$ and $10\\sin\\theta$, so $A = 100\\sin\\theta\\cos\\theta = 50\\sin 2\\theta$. Maximum when $\\sin 2\\theta = 1$, i.e. $\\theta = 45^\\circ$ (a square of side $5\\sqrt{2}$). $A_{\\max} = 50$. In general $A_{\\max} = 2r^2$.",
+        "hi": "एक शीर्ष $(5\\cos\\theta, 5\\sin\\theta)$ पर लें। भुजाएँ $10\\cos\\theta$ और $10\\sin\\theta$ हैं, अतः $A = 100\\sin\\theta\\cos\\theta = 50\\sin 2\\theta$। अधिकतम जब $\\sin 2\\theta = 1$, अर्थात $\\theta = 45^\\circ$ (भुजा $5\\sqrt{2}$ का वर्ग)। $A_{\\max} = 50$। व्यापक रूप से $A_{\\max} = 2r^2$।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-13",
+  "questions": [
+    {
+      "id": "dd-2026-10-13-01",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of magnetic field (magnetic flux density) $B$ is:",
+        "hi": "चुंबकीय क्षेत्र (चुंबकीय फ्लक्स घनत्व) $B$ का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Weber (Wb)", "hi": "वेबर (Wb)"}},
+        {"id": "B", "text": {"en": "Henry (H)", "hi": "हेनरी (H)"}},
+        {"id": "C", "text": {"en": "Gauss (G)", "hi": "गॉस (G)"}},
+        {"id": "D", "text": {"en": "Tesla (T)", "hi": "टेस्ला (T)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The SI unit of $B$ is the tesla: 1 T = 1 N A⁻¹ m⁻¹ = 1 Wb m⁻². Weber is the unit of magnetic flux, henry of inductance, and gauss is the CGS unit of $B$ (1 T = 10⁴ G).",
+        "hi": "$B$ का SI मात्रक टेस्ला है: 1 T = 1 N A⁻¹ m⁻¹ = 1 Wb m⁻²। वेबर चुंबकीय फ्लक्स का, हेनरी प्रेरकत्व का मात्रक है, और गॉस $B$ का CGS मात्रक है (1 T = 10⁴ G)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-02",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A galvanometer can be converted into an ammeter by connecting:",
+        "hi": "एक धारामापी को अमीटर में बदला जा सकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A high resistance in series", "hi": "श्रेणी क्रम में उच्च प्रतिरोध जोड़कर"}},
+        {"id": "B", "text": {"en": "A low resistance in series", "hi": "श्रेणी क्रम में कम प्रतिरोध जोड़कर"}},
+        {"id": "C", "text": {"en": "A low resistance in parallel", "hi": "समांतर क्रम में कम प्रतिरोध जोड़कर"}},
+        {"id": "D", "text": {"en": "A high resistance in parallel", "hi": "समांतर क्रम में उच्च प्रतिरोध जोड़कर"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "An ammeter must have very low resistance and carry large currents. A small shunt $S = \\frac{I_g G}{I - I_g}$ in parallel diverts most of the current away from the galvanometer. (A high resistance in series converts it into a voltmeter.)",
+        "hi": "अमीटर का प्रतिरोध बहुत कम होना चाहिए और उसे अधिक धारा वहन करनी होती है। समांतर क्रम में छोटा शंट $S = \\frac{I_g G}{I - I_g}$ अधिकांश धारा को धारामापी से दूर मोड़ देता है। (श्रेणी क्रम में उच्च प्रतिरोध इसे वोल्टमीटर बना देता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-03",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A galvanometer of resistance 50 Ω gives full-scale deflection for a current of 1 mA. Find the resistance (in Ω) that must be connected in series to convert it into a voltmeter of range 0–10 V.",
+        "hi": "50 Ω प्रतिरोध वाला एक धारामापी 1 mA धारा पर पूर्ण-पैमाना विक्षेप देता है। इसे 0–10 V परास के वोल्टमीटर में बदलने के लिए श्रेणी क्रम में कितना प्रतिरोध (Ω में) जोड़ना होगा?"
+      },
+      "options": [],
+      "correctAnswer": 9950,
+      "solution": {
+        "en": "At full scale, $I_g(G + R) = V \\Rightarrow R = \\frac{V}{I_g} - G = \\frac{10}{10^{-3}} - 50 = 10000 - 50 = 9950\\,\\Omega$.",
+        "hi": "पूर्ण-पैमाने पर $I_g(G + R) = V \\Rightarrow R = \\frac{V}{I_g} - G = \\frac{10}{10^{-3}} - 50 = 10000 - 50 = 9950\\,\\Omega$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The rate of a reaction increases with temperature mainly because of an increase in the:",
+        "hi": "ताप बढ़ाने पर अभिक्रिया का वेग मुख्यतः किसमें वृद्धि के कारण बढ़ता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fraction of molecules having energy ≥ activation energy", "hi": "सक्रियण ऊर्जा के बराबर या अधिक ऊर्जा वाले अणुओं का अंश"}},
+        {"id": "B", "text": {"en": "Activation energy", "hi": "सक्रियण ऊर्जा"}},
+        {"id": "C", "text": {"en": "Total number of molecules", "hi": "अणुओं की कुल संख्या"}},
+        {"id": "D", "text": {"en": "Volume of the reaction mixture", "hi": "अभिक्रिया मिश्रण का आयतन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Raising the temperature shifts the Maxwell–Boltzmann distribution so that a much larger fraction of molecules have energy ≥ $E_a$ (the fraction $\\propto e^{-E_a/RT}$). Collision frequency rises only slightly. Activation energy itself does not change with temperature.",
+        "hi": "ताप बढ़ाने पर मैक्सवेल–बोल्ट्ज़मान वितरण इस प्रकार खिसकता है कि $E_a$ के बराबर या अधिक ऊर्जा वाले अणुओं का अंश बहुत बढ़ जाता है (अंश $\\propto e^{-E_a/RT}$)। संघट्ट आवृत्ति केवल थोड़ी बढ़ती है। सक्रियण ऊर्जा स्वयं ताप के साथ नहीं बदलती।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Kohlrausch's law of independent migration of ions is used to determine the:",
+        "hi": "आयनों के स्वतंत्र अभिगमन का कोलराउश नियम किसे ज्ञात करने में प्रयुक्त होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Standard electrode potential", "hi": "मानक इलेक्ट्रोड विभव"}},
+        {"id": "B", "text": {"en": "Limiting molar conductivity of weak electrolytes", "hi": "दुर्बल वैद्युतअपघट्यों की सीमांत मोलर चालकता"}},
+        {"id": "C", "text": {"en": "EMF of a galvanic cell", "hi": "गैल्वेनी सेल का विद्युत वाहक बल"}},
+        {"id": "D", "text": {"en": "Mass of substance deposited in electrolysis", "hi": "वैद्युतअपघटन में निक्षेपित पदार्थ का द्रव्यमान"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For weak electrolytes, $\\Lambda_m$ rises steeply at low concentration, so $\\Lambda_m^\\circ$ can't be found by extrapolation. Kohlrausch's law gives it from ionic contributions, e.g. $\\Lambda^\\circ_m(\\text{CH}_3\\text{COOH}) = \\Lambda^\\circ(\\text{CH}_3\\text{COONa}) + \\Lambda^\\circ(\\text{HCl}) - \\Lambda^\\circ(\\text{NaCl})$. It also gives the degree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}$.",
+        "hi": "दुर्बल वैद्युतअपघट्यों के लिए कम सांद्रता पर $\\Lambda_m$ तेज़ी से बढ़ता है, अतः $\\Lambda_m^\\circ$ बहिर्वेशन से नहीं निकाला जा सकता। कोलराउश नियम इसे आयनिक योगदानों से देता है, जैसे $\\Lambda^\\circ_m(\\text{CH}_3\\text{COOH}) = \\Lambda^\\circ(\\text{CH}_3\\text{COONa}) + \\Lambda^\\circ(\\text{HCl}) - \\Lambda^\\circ(\\text{NaCl})$। इससे वियोजन मात्रा $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}$ भी मिलती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The rate of a reaction doubles for every 10°C rise in temperature. By what factor will the rate increase when the temperature is raised from 20°C to 50°C?",
+        "hi": "ताप में प्रत्येक 10°C वृद्धि पर एक अभिक्रिया का वेग दोगुना हो जाता है। ताप 20°C से 50°C करने पर वेग कितने गुना बढ़ जाएगा?"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Temperature coefficient $\\mu = 2$ per 10°C. Number of 10°C steps $= \\frac{50 - 20}{10} = 3$. Rate ratio $= 2^3 = 8$.",
+        "hi": "ताप गुणांक $\\mu = 2$ प्रति 10°C। 10°C के चरणों की संख्या $= \\frac{50 - 20}{10} = 3$। वेग अनुपात $= 2^3 = 8$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $\\ln x$ (for $x > 0$) is:",
+        "hi": "$\\ln x$ ($x > 0$ के लिए) का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/x", "hi": "1/x"}},
+        {"id": "B", "text": {"en": "ln x", "hi": "ln x"}},
+        {"id": "C", "text": {"en": "x", "hi": "x"}},
+        {"id": "D", "text": {"en": "eˣ", "hi": "eˣ"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\frac{d}{dx}\\ln x = \\frac{1}{x}$. (By chain rule, $\\frac{d}{dx}\\ln f(x) = \\frac{f'(x)}{f(x)}$.)",
+        "hi": "$\\frac{d}{dx}\\ln x = \\frac{1}{x}$। (शृंखला नियम से, $\\frac{d}{dx}\\ln f(x) = \\frac{f'(x)}{f(x)}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-08",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The greatest integer function $f(x) = [x]$ is discontinuous at:",
+        "hi": "महत्तम पूर्णांक फलन $f(x) = [x]$ असंतत है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Only at x = 0", "hi": "केवल x = 0 पर"}},
+        {"id": "B", "text": {"en": "No point", "hi": "किसी भी बिंदु पर नहीं"}},
+        {"id": "C", "text": {"en": "Every integer", "hi": "प्रत्येक पूर्णांक पर"}},
+        {"id": "D", "text": {"en": "Every real number", "hi": "प्रत्येक वास्तविक संख्या पर"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "At an integer $n$: left-hand limit $= n - 1$, right-hand limit $= n$, so the limit doesn't exist and $[x]$ jumps. At non-integer points, $[x]$ is locally constant and hence continuous.",
+        "hi": "पूर्णांक $n$ पर: बाएँ पक्ष की सीमा $= n - 1$, दाएँ पक्ष की सीमा $= n$, अतः सीमा का अस्तित्व नहीं है और $[x]$ में छलाँग होती है। अपूर्णांक बिंदुओं पर $[x]$ स्थानीय रूप से अचर है, अतः संतत है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-09",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\tan^{-1}\\left(\\frac{1}{2}\\right) + \\tan^{-1}\\left(\\frac{1}{3}\\right)$ is:",
+        "hi": "$\\tan^{-1}\\left(\\frac{1}{2}\\right) + \\tan^{-1}\\left(\\frac{1}{3}\\right)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "B", "text": {"en": "π/4", "hi": "π/4"}},
+        {"id": "C", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "D", "text": {"en": "π/6", "hi": "π/6"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Since $xy = \\frac{1}{6} < 1$: $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x + y}{1 - xy} = \\tan^{-1}\\frac{\\frac{1}{2} + \\frac{1}{3}}{1 - \\frac{1}{6}} = \\tan^{-1}\\frac{5/6}{5/6} = \\tan^{-1}1 = \\frac{\\pi}{4}$.",
+        "hi": "चूँकि $xy = \\frac{1}{6} < 1$: $\\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x + y}{1 - xy} = \\tan^{-1}\\frac{\\frac{1}{2} + \\frac{1}{3}}{1 - \\frac{1}{6}} = \\tan^{-1}\\frac{5/6}{5/6} = \\tan^{-1}1 = \\frac{\\pi}{4}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-13-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A wire of length 20 m is bent to form a rectangle. Find the maximum possible area (in m²) of the rectangle.",
+        "hi": "20 m लंबे तार को मोड़कर एक आयत बनाया जाता है। आयत का अधिकतम संभव क्षेत्रफल (m² में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 25,
+      "solution": {
+        "en": "Perimeter $2(x + y) = 20 \\Rightarrow y = 10 - x$. Area $A = x(10 - x) = 10x - x^2$. $\\frac{dA}{dx} = 10 - 2x = 0 \\Rightarrow x = 5$, and $\\frac{d^2A}{dx^2} = -2 < 0$ (maximum). So $x = y = 5$ (a square) and $A_{\\max} = 25\\text{ m}^2$.",
+        "hi": "परिमाप $2(x + y) = 20 \\Rightarrow y = 10 - x$। क्षेत्रफल $A = x(10 - x) = 10x - x^2$। $\\frac{dA}{dx} = 10 - 2x = 0 \\Rightarrow x = 5$, और $\\frac{d^2A}{dx^2} = -2 < 0$ (उच्चतम)। अतः $x = y = 5$ (वर्ग) और $A_{\\max} = 25\\text{ m}^2$।"
+      }
+    }
+  ]
+}

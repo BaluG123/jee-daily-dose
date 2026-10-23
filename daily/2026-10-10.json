@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-10",
+  "questions": [
+    {
+      "id": "dd-2026-10-10-01",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Newton's first law of motion gives the concept of:",
+        "hi": "न्यूटन का गति का प्रथम नियम किसकी अवधारणा देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Momentum", "hi": "संवेग"}},
+        {"id": "B", "text": {"en": "Energy", "hi": "ऊर्जा"}},
+        {"id": "C", "text": {"en": "Power", "hi": "शक्ति"}},
+        {"id": "D", "text": {"en": "Inertia", "hi": "जड़त्व"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The first law says a body stays at rest or in uniform straight-line motion unless acted on by a net external force. This tendency to resist change in its state of motion is inertia (hence 'law of inertia'). It also gives a qualitative definition of force.",
+        "hi": "प्रथम नियम कहता है कि कोई पिंड विराम या एकसमान सरल रेखीय गति की अवस्था में बना रहता है जब तक कि उस पर नेट बाह्य बल न लगे। गति की अवस्था में परिवर्तन का विरोध करने की यह प्रवृत्ति जड़त्व है (इसलिए 'जड़त्व का नियम')। यह बल की गुणात्मक परिभाषा भी देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-02",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The maximum speed with which a car can safely take a turn on a level (unbanked) circular road of radius $r$, with coefficient of static friction $\\mu$ between tyres and road, is:",
+        "hi": "$r$ त्रिज्या की समतल (बिना ढाल की) वृत्तीय सड़क पर, टायरों और सड़क के बीच स्थैतिक घर्षण गुणांक $\\mu$ होने पर, कार किस अधिकतम चाल से सुरक्षित मोड़ ले सकती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "√(μrg)", "hi": "√(μrg)"}},
+        {"id": "B", "text": {"en": "μrg", "hi": "μrg"}},
+        {"id": "C", "text": {"en": "√(rg/μ)", "hi": "√(rg/μ)"}},
+        {"id": "D", "text": {"en": "√(μg/r)", "hi": "√(μg/r)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Friction provides the centripetal force: $\\frac{mv^2}{r} \\le \\mu mg \\Rightarrow v_{\\max} = \\sqrt{\\mu rg}$. It is independent of the car's mass.",
+        "hi": "घर्षण अभिकेंद्र बल प्रदान करता है: $\\frac{mv^2}{r} \\le \\mu mg \\Rightarrow v_{\\max} = \\sqrt{\\mu rg}$। यह कार के द्रव्यमान पर निर्भर नहीं करती।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-03",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A 3 kg block on a smooth horizontal table is connected by a light inextensible string passing over a smooth pulley at the edge of the table to a hanging block of mass 2 kg. Find the tension (in N) in the string. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "एक चिकनी क्षैतिज मेज़ पर रखा 3 kg का गुटका, मेज़ के किनारे पर लगी चिकनी घिरनी के ऊपर से गुजरने वाली हल्की अवितान्य डोरी द्वारा 2 kg के लटकते गुटके से जुड़ा है। डोरी में तनाव (N में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 12,
+      "solution": {
+        "en": "System acceleration $a = \\frac{m_2 g}{m_1 + m_2} = \\frac{20}{5} = 4\\text{ m/s}^2$. For the block on the table: $T = m_1 a = 3 \\times 4 = 12\\text{ N}$. Check with the hanging block: $m_2 g - T = m_2 a \\Rightarrow 20 - 12 = 8 = 2 \\times 4$ ✓. Shortcut: $T = \\frac{m_1 m_2 g}{m_1 + m_2}$.",
+        "hi": "निकाय का त्वरण $a = \\frac{m_2 g}{m_1 + m_2} = \\frac{20}{5} = 4\\text{ m/s}^2$। मेज़ पर रखे गुटके के लिए: $T = m_1 a = 3 \\times 4 = 12\\text{ N}$। लटकते गुटके से जाँच: $m_2 g - T = m_2 a \\Rightarrow 20 - 12 = 8 = 2 \\times 4$ ✓। शॉर्टकट: $T = \\frac{m_1 m_2 g}{m_1 + m_2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The total number of atoms present in 1 mole of water (H₂O) is:",
+        "hi": "1 मोल जल (H₂O) में उपस्थित परमाणुओं की कुल संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6.022 × 10²³", "hi": "6.022 × 10²³"}},
+        {"id": "B", "text": {"en": "2 × 6.022 × 10²³", "hi": "2 × 6.022 × 10²³"}},
+        {"id": "C", "text": {"en": "18 × 6.022 × 10²³", "hi": "18 × 6.022 × 10²³"}},
+        {"id": "D", "text": {"en": "3 × 6.022 × 10²³", "hi": "3 × 6.022 × 10²³"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "1 mol H₂O contains $N_A = 6.022 \\times 10^{23}$ molecules. Each molecule has 3 atoms (2 H + 1 O), so total atoms $= 3N_A = 3 \\times 6.022 \\times 10^{23}$.",
+        "hi": "1 mol H₂O में $N_A = 6.022 \\times 10^{23}$ अणु होते हैं। प्रत्येक अणु में 3 परमाणु (2 H + 1 O) हैं, अतः कुल परमाणु $= 3N_A = 3 \\times 6.022 \\times 10^{23}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following sets of quantum numbers is NOT allowed?",
+        "hi": "क्वांटम संख्याओं का निम्नलिखित में से कौन-सा समुच्चय संभव नहीं है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "n = 2, l = 1, mₗ = −1", "hi": "n = 2, l = 1, mₗ = −1"}},
+        {"id": "B", "text": {"en": "n = 3, l = 2, mₗ = +2", "hi": "n = 3, l = 2, mₗ = +2"}},
+        {"id": "C", "text": {"en": "n = 2, l = 2, mₗ = 0", "hi": "n = 2, l = 2, mₗ = 0"}},
+        {"id": "D", "text": {"en": "n = 1, l = 0, mₗ = 0", "hi": "n = 1, l = 0, mₗ = 0"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For a given $n$, $l$ can take values $0, 1, \\ldots, (n - 1)$, and $m_l$ ranges from $-l$ to $+l$. For $n = 2$, $l$ can only be 0 or 1, so $l = 2$ is not allowed.",
+        "hi": "दिए गए $n$ के लिए $l$ के मान $0, 1, \\ldots, (n - 1)$ हो सकते हैं, और $m_l$ का मान $-l$ से $+l$ तक होता है। $n = 2$ के लिए $l$ केवल 0 या 1 हो सकता है, अतः $l = 2$ संभव नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "According to Fajans' rules, which of the following compounds has the maximum covalent character?",
+        "hi": "फ़ायान्स नियमों के अनुसार, निम्नलिखित में से किस यौगिक में सहसंयोजी लक्षण अधिकतम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "LiF", "hi": "LiF"}},
+        {"id": "B", "text": {"en": "LiI", "hi": "LiI"}},
+        {"id": "C", "text": {"en": "NaCl", "hi": "NaCl"}},
+        {"id": "D", "text": {"en": "KF", "hi": "KF"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Covalent character increases with (i) high polarising power of the cation (small size, high charge) and (ii) high polarisability of the anion (large size). Li⁺ is the smallest cation here and I⁻ is the largest, most polarisable anion, so LiI has maximum covalent character. KF (large cation, small anion) is the most ionic.",
+        "hi": "सहसंयोजी लक्षण बढ़ता है जब (i) धनायन की ध्रुवण क्षमता अधिक हो (छोटा आकार, अधिक आवेश) और (ii) ऋणायन की ध्रुवणीयता अधिक हो (बड़ा आकार)। यहाँ Li⁺ सबसे छोटा धनायन और I⁻ सबसे बड़ा, सबसे अधिक ध्रुवणीय ऋणायन है, अतः LiI में सहसंयोजी लक्षण अधिकतम है। KF (बड़ा धनायन, छोटा ऋणायन) सबसे अधिक आयनिक है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\lim_{x \\to 0} (1 + x)^{1/x}$ is:",
+        "hi": "$\\lim_{x \\to 0} (1 + x)^{1/x}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "e", "hi": "e"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "∞", "hi": "∞"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "This is a standard limit (a $1^\\infty$ form) and defines Euler's number: $\\lim_{x \\to 0}(1 + x)^{1/x} = e \\approx 2.718$. Trap: it is not 1, even though the base tends to 1.",
+        "hi": "यह एक मानक सीमा ($1^\\infty$ रूप) है जो ऑयलर संख्या को परिभाषित करती है: $\\lim_{x \\to 0}(1 + x)^{1/x} = e \\approx 2.718$। ध्यान दें: आधार 1 की ओर जाने पर भी इसका मान 1 नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The sum of the infinite GP $6 + 3 + \\frac{3}{2} + \\frac{3}{4} + \\cdots$ is:",
+        "hi": "अनंत गुणोत्तर श्रेणी $6 + 3 + \\frac{3}{2} + \\frac{3}{4} + \\cdots$ का योग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9", "hi": "9"}},
+        {"id": "B", "text": {"en": "10.5", "hi": "10.5"}},
+        {"id": "C", "text": {"en": "12", "hi": "12"}},
+        {"id": "D", "text": {"en": "∞", "hi": "∞"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$a = 6$, $r = \\frac{1}{2}$ with $|r| < 1$, so $S_\\infty = \\frac{a}{1 - r} = \\frac{6}{1/2} = 12$.",
+        "hi": "$a = 6$, $r = \\frac{1}{2}$ और $|r| < 1$, अतः $S_\\infty = \\frac{a}{1 - r} = \\frac{6}{1/2} = 12$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the variance of $x_1, x_2, \\ldots, x_n$ is 9, then the variance of $3x_1 + 2, 3x_2 + 2, \\ldots, 3x_n + 2$ is:",
+        "hi": "यदि $x_1, x_2, \\ldots, x_n$ का प्रसरण 9 है, तो $3x_1 + 2, 3x_2 + 2, \\ldots, 3x_n + 2$ का प्रसरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "27", "hi": "27"}},
+        {"id": "B", "text": {"en": "81", "hi": "81"}},
+        {"id": "C", "text": {"en": "29", "hi": "29"}},
+        {"id": "D", "text": {"en": "83", "hi": "83"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\text{Var}(ax + b) = a^2\\,\\text{Var}(x)$. Adding a constant shifts all values equally and doesn't change spread. So the new variance $= 3^2 \\times 9 = 81$.",
+        "hi": "$\\text{Var}(ax + b) = a^2\\,\\text{Var}(x)$। अचर जोड़ने से सभी मान बराबर खिसकते हैं और प्रकीर्णन नहीं बदलता। अतः नया प्रसरण $= 3^2 \\times 9 = 81$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-10-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In how many ways can 5 boys and 3 girls be seated in a row so that no two girls sit together?",
+        "hi": "5 लड़कों और 3 लड़कियों को एक पंक्ति में कितने प्रकार से बैठाया जा सकता है ताकि कोई भी दो लड़कियाँ एक साथ न बैठें?"
+      },
+      "options": [],
+      "correctAnswer": 14400,
+      "solution": {
+        "en": "Gap method: first arrange the 5 boys in $5! = 120$ ways. This creates 6 gaps (4 between boys + 2 at the ends): _B_B_B_B_B_. Place 3 girls in 3 of these 6 gaps, in order: ${}^6P_3 = 120$ ways. Total $= 120 \\times 120 = 14400$.",
+        "hi": "रिक्त-स्थान विधि: पहले 5 लड़कों को $5! = 120$ प्रकार से बैठाएँ। इससे 6 रिक्त स्थान बनते हैं (लड़कों के बीच 4 + दोनों सिरों पर 2): _B_B_B_B_B_। 3 लड़कियों को इन 6 में से 3 स्थानों पर क्रम से बैठाएँ: ${}^6P_3 = 120$ प्रकार। कुल $= 120 \\times 120 = 14400$।"
+      }
+    }
+  ]
+}

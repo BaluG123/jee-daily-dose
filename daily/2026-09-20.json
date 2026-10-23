@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-20",
+  "questions": [
+    {
+      "id": "dd-2026-09-20-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The dimensional formula of Planck's constant $h$ is:",
+        "hi": "प्लांक नियतांक $h$ का विमीय सूत्र है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[ML²T⁻¹]", "hi": "[ML²T⁻¹]"}},
+        {"id": "B", "text": {"en": "[ML²T⁻²]", "hi": "[ML²T⁻²]"}},
+        {"id": "C", "text": {"en": "[MLT⁻¹]", "hi": "[MLT⁻¹]"}},
+        {"id": "D", "text": {"en": "[ML²T⁻³]", "hi": "[ML²T⁻³]"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "From $E = h\\nu$, we get $h = \\frac{E}{\\nu}$. So $[h] = \\frac{[ML^2T^{-2}]}{[T^{-1}]} = [ML^2T^{-1}]$. Tip: this is the same as the dimensional formula of angular momentum ($mvr$).",
+        "hi": "$E = h\\nu$ से $h = \\frac{E}{\\nu}$ प्राप्त होता है। अतः $[h] = \\frac{[ML^2T^{-2}]}{[T^{-1}]} = [ML^2T^{-1}]$। टिप: यह कोणीय संवेग ($mvr$) के विमीय सूत्र के समान है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A projectile is launched such that its maximum height is equal to its horizontal range. The angle of projection with the horizontal is:",
+        "hi": "एक प्रक्षेप्य को इस प्रकार प्रक्षेपित किया जाता है कि उसकी अधिकतम ऊँचाई उसकी क्षैतिज परास के बराबर हो। क्षैतिज से प्रक्षेपण कोण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "tan⁻¹(2)", "hi": "tan⁻¹(2)"}},
+        {"id": "B", "text": {"en": "tan⁻¹(4)", "hi": "tan⁻¹(4)"}},
+        {"id": "C", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "D", "text": {"en": "tan⁻¹(1/4)", "hi": "tan⁻¹(1/4)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$H = \\frac{u^2\\sin^2\\theta}{2g}$ and $R = \\frac{2u^2\\sin\\theta\\cos\\theta}{g}$. Setting $H = R$: $\\frac{\\sin\\theta}{2} = 2\\cos\\theta \\Rightarrow \\tan\\theta = 4$, so $\\theta = \\tan^{-1}(4)$. Useful result to remember: $\\frac{H}{R} = \\frac{\\tan\\theta}{4}$.",
+        "hi": "$H = \\frac{u^2\\sin^2\\theta}{2g}$ तथा $R = \\frac{2u^2\\sin\\theta\\cos\\theta}{g}$। $H = R$ रखने पर: $\\frac{\\sin\\theta}{2} = 2\\cos\\theta \\Rightarrow \\tan\\theta = 4$, अतः $\\theta = \\tan^{-1}(4)$। याद रखने योग्य परिणाम: $\\frac{H}{R} = \\frac{\\tan\\theta}{4}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-03",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A block of mass $2\\text{ kg}$ rests on a rough inclined plane of inclination $37^\\circ$. The coefficient of kinetic friction is $\\mu = 0.5$. Find the force (in N), applied parallel to the incline, needed to move the block up the incline with constant velocity. (Take $g = 10\\text{ m/s}^2$, $\\sin 37^\\circ = 0.6$, $\\cos 37^\\circ = 0.8$)",
+        "hi": "द्रव्यमान $2\\text{ kg}$ का एक गुटका $37^\\circ$ झुकाव वाले खुरदरे आनत तल पर रखा है। गतिज घर्षण गुणांक $\\mu = 0.5$ है। गुटके को नियत वेग से आनत तल पर ऊपर ले जाने के लिए तल के समांतर कितना बल (N में) लगाना होगा? ($g = 10\\text{ m/s}^2$, $\\sin 37^\\circ = 0.6$, $\\cos 37^\\circ = 0.8$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "At constant velocity the net force is zero. While moving up, both the gravity component ($mg\\sin\\theta$) and kinetic friction ($\\mu mg\\cos\\theta$) act down the incline. So $F = mg\\sin\\theta + \\mu mg\\cos\\theta = 2(10)(0.6) + 0.5(2)(10)(0.8) = 12 + 8 = 20\\text{ N}$.",
+        "hi": "नियत वेग पर नेट बल शून्य होता है। ऊपर की ओर गति करते समय गुरुत्व का घटक ($mg\\sin\\theta$) और गतिज घर्षण ($\\mu mg\\cos\\theta$) दोनों तल के नीचे की ओर लगते हैं। अतः $F = mg\\sin\\theta + \\mu mg\\cos\\theta = 2(10)(0.6) + 0.5(2)(10)(0.8) = 12 + 8 = 20\\text{ N}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of moles present in 4.4 g of CO₂ is:",
+        "hi": "4.4 g CO₂ में उपस्थित मोलों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1 mol", "hi": "1 mol"}},
+        {"id": "B", "text": {"en": "0.01 mol", "hi": "0.01 mol"}},
+        {"id": "C", "text": {"en": "0.1 mol", "hi": "0.1 mol"}},
+        {"id": "D", "text": {"en": "0.44 mol", "hi": "0.44 mol"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Molar mass of CO₂ $= 12 + 2(16) = 44\\text{ g/mol}$. Number of moles $n = \\frac{\\text{mass}}{\\text{molar mass}} = \\frac{4.4}{44} = 0.1\\text{ mol}$.",
+        "hi": "CO₂ का मोलर द्रव्यमान $= 12 + 2(16) = 44\\text{ g/mol}$। मोलों की संख्या $n = \\frac{\\text{mass}}{\\text{molar mass}} = \\frac{4.4}{44} = 0.1\\text{ mol}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The maximum number of electrons that can be accommodated in a subshell with azimuthal quantum number $l = 3$ is:",
+        "hi": "दिगंशी क्वांटम संख्या $l = 3$ वाले उपकोश में अधिकतम कितने इलेक्ट्रॉन समा सकते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "14", "hi": "14"}},
+        {"id": "C", "text": {"en": "7", "hi": "7"}},
+        {"id": "D", "text": {"en": "6", "hi": "6"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$l = 3$ is the f-subshell. Number of orbitals $= 2l + 1 = 7$, and each orbital holds 2 electrons (Pauli principle). Maximum electrons $= 2(2l + 1) = 14$.",
+        "hi": "$l = 3$ f-उपकोश है। कक्षकों की संख्या $= 2l + 1 = 7$, और प्रत्येक कक्षक में 2 इलेक्ट्रॉन (पाउली सिद्धांत) होते हैं। अधिकतम इलेक्ट्रॉन $= 2(2l + 1) = 14$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "According to molecular orbital theory, which of the following species is paramagnetic and has a bond order of 2.5?",
+        "hi": "आण्विक कक्षक सिद्धांत के अनुसार, निम्नलिखित में से कौन-सी स्पीशीज़ अनुचुंबकीय है और जिसकी आबंध कोटि 2.5 है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "O₂", "hi": "O₂"}},
+        {"id": "B", "text": {"en": "N₂", "hi": "N₂"}},
+        {"id": "C", "text": {"en": "C₂", "hi": "C₂"}},
+        {"id": "D", "text": {"en": "O₂⁺", "hi": "O₂⁺"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "O₂⁺ has 15 electrons: σ1s² σ*1s² σ2s² σ*2s² σ2pz² π2px² π2py² π*2px¹. Bonding electrons $N_b = 10$, antibonding $N_a = 5$, so bond order $= \\frac{10 - 5}{2} = 2.5$, and the single unpaired electron makes it paramagnetic. For comparison: O₂ (BO 2, paramagnetic), N₂ (BO 3, diamagnetic), C₂ (BO 2, diamagnetic).",
+        "hi": "O₂⁺ में 15 इलेक्ट्रॉन हैं: σ1s² σ*1s² σ2s² σ*2s² σ2pz² π2px² π2py² π*2px¹। आबंधी इलेक्ट्रॉन $N_b = 10$, प्रतिआबंधी $N_a = 5$, अतः आबंध कोटि $= \\frac{10 - 5}{2} = 2.5$, और एक अयुग्मित इलेक्ट्रॉन के कारण यह अनुचुंबकीय है। तुलना: O₂ (आबंध कोटि 2, अनुचुंबकीय), N₂ (आबंध कोटि 3, प्रतिचुंबकीय), C₂ (आबंध कोटि 2, प्रतिचुंबकीय)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of subsets of a set containing 4 elements is:",
+        "hi": "4 अवयवों वाले समुच्चय के उपसमुच्चयों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "16", "hi": "16"}},
+        {"id": "B", "text": {"en": "8", "hi": "8"}},
+        {"id": "C", "text": {"en": "15", "hi": "15"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "A set with $n$ elements has $2^n$ subsets (including $\\phi$ and the set itself). Here $2^4 = 16$.",
+        "hi": "$n$ अवयवों वाले समुच्चय के $2^n$ उपसमुच्चय होते हैं ($\\phi$ और स्वयं समुच्चय सहित)। यहाँ $2^4 = 16$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The maximum value of $3\\sin x + 4\\cos x$ is:",
+        "hi": "$3\\sin x + 4\\cos x$ का अधिकतम मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7", "hi": "7"}},
+        {"id": "B", "text": {"en": "4", "hi": "4"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "For $a\\sin x + b\\cos x$, the range is $[-\\sqrt{a^2 + b^2}, \\sqrt{a^2 + b^2}]$. Maximum $= \\sqrt{3^2 + 4^2} = 5$. (Write it as $5\\sin(x + \\alpha)$ with $\\tan\\alpha = \\frac{4}{3}$.)",
+        "hi": "$a\\sin x + b\\cos x$ का परिसर $[-\\sqrt{a^2 + b^2}, \\sqrt{a^2 + b^2}]$ होता है। अधिकतम मान $= \\sqrt{3^2 + 4^2} = 5$। (इसे $5\\sin(x + \\alpha)$ के रूप में लिखें, जहाँ $\\tan\\alpha = \\frac{4}{3}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $(1 + i)^8$ is:",
+        "hi": "$(1 + i)^8$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−16", "hi": "−16"}},
+        {"id": "B", "text": {"en": "16i", "hi": "16i"}},
+        {"id": "C", "text": {"en": "16", "hi": "16"}},
+        {"id": "D", "text": {"en": "8", "hi": "8"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$(1 + i)^2 = 1 + 2i + i^2 = 2i$. So $(1 + i)^8 = \\left[(1 + i)^2\\right]^4 = (2i)^4 = 16i^4 = 16$.",
+        "hi": "$(1 + i)^2 = 1 + 2i + i^2 = 2i$। अतः $(1 + i)^8 = \\left[(1 + i)^2\\right]^4 = (2i)^4 = 16i^4 = 16$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-20-10",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the term independent of $x$ in the expansion of $\\left(x^2 + \\frac{1}{x}\\right)^9$.",
+        "hi": "$\\left(x^2 + \\frac{1}{x}\\right)^9$ के प्रसार में $x$ से स्वतंत्र पद ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 84,
+      "solution": {
+        "en": "General term: $T_{r+1} = {}^9C_r (x^2)^{9-r}\\left(\\frac{1}{x}\\right)^r = {}^9C_r\\, x^{18 - 3r}$. For the term independent of $x$: $18 - 3r = 0 \\Rightarrow r = 6$. Term $= {}^9C_6 = {}^9C_3 = 84$.",
+        "hi": "व्यापक पद: $T_{r+1} = {}^9C_r (x^2)^{9-r}\\left(\\frac{1}{x}\\right)^r = {}^9C_r\\, x^{18 - 3r}$। $x$ से स्वतंत्र पद के लिए: $18 - 3r = 0 \\Rightarrow r = 6$। पद $= {}^9C_6 = {}^9C_3 = 84$।"
+      }
+    }
+  ]
+}

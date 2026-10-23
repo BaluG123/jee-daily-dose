@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-14",
+  "questions": [
+    {
+      "id": "dd-2026-10-14-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of self-inductance is:",
+        "hi": "स्वप्रेरकत्व का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Weber (Wb)", "hi": "वेबर (Wb)"}},
+        {"id": "B", "text": {"en": "Tesla (T)", "hi": "टेस्ला (T)"}},
+        {"id": "C", "text": {"en": "Farad (F)", "hi": "फैरड (F)"}},
+        {"id": "D", "text": {"en": "Henry (H)", "hi": "हेनरी (H)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "From $\\varepsilon = -L\\frac{dI}{dt}$, $L$ is measured in V s A⁻¹ = henry (H). Also $\\Phi = LI$, so 1 H = 1 Wb A⁻¹.",
+        "hi": "$\\varepsilon = -L\\frac{dI}{dt}$ से $L$ का मात्रक V s A⁻¹ = हेनरी (H) है। साथ ही $\\Phi = LI$, अतः 1 H = 1 Wb A⁻¹।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-02",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The energy stored in an inductor of inductance 2 H carrying a steady current of 3 A is:",
+        "hi": "3 A की स्थिर धारा वहन कर रहे 2 H प्रेरकत्व वाले प्रेरक में संचित ऊर्जा है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "18 J", "hi": "18 J"}},
+        {"id": "B", "text": {"en": "6 J", "hi": "6 J"}},
+        {"id": "C", "text": {"en": "9 J", "hi": "9 J"}},
+        {"id": "D", "text": {"en": "3 J", "hi": "3 J"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Magnetic energy $U = \\frac{1}{2}LI^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 9\\text{ J}$.",
+        "hi": "चुंबकीय ऊर्जा $U = \\frac{1}{2}LI^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 9\\text{ J}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-03",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The magnetic flux through a coil varies with time as $\\Phi = (5t^2 + 3t)\\text{ Wb}$, where $t$ is in seconds. Find the magnitude of the emf (in V) induced in the coil at $t = 2\\text{ s}$.",
+        "hi": "एक कुंडली से गुजरने वाला चुंबकीय फ्लक्स समय के साथ $\\Phi = (5t^2 + 3t)\\text{ Wb}$ के अनुसार बदलता है, जहाँ $t$ सेकंड में है। $t = 2\\text{ s}$ पर कुंडली में प्रेरित विद्युत वाहक बल का परिमाण (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 23,
+      "solution": {
+        "en": "Faraday's law: $\\varepsilon = -\\frac{d\\Phi}{dt} = -(10t + 3)$. At $t = 2$ s: $|\\varepsilon| = 10(2) + 3 = 23\\text{ V}$.",
+        "hi": "फैराडे का नियम: $\\varepsilon = -\\frac{d\\Phi}{dt} = -(10t + 3)$। $t = 2$ s पर: $|\\varepsilon| = 10(2) + 3 = 23\\text{ V}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-04",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "An SN2 reaction at a chiral carbon proceeds with:",
+        "hi": "किसी किरेल कार्बन पर SN2 अभिक्रिया किसके साथ होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Retention of configuration", "hi": "विन्यास के धारण (retention) के साथ"}},
+        {"id": "B", "text": {"en": "Complete racemisation", "hi": "पूर्ण रेसिमीकरण के साथ"}},
+        {"id": "C", "text": {"en": "Formation of a carbocation intermediate", "hi": "कार्बधनायन मध्यवर्ती बनने के साथ"}},
+        {"id": "D", "text": {"en": "Inversion of configuration", "hi": "विन्यास के प्रतीपन (inversion) के साथ"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In SN2, the nucleophile attacks from the side opposite to the leaving group (backside attack) in a single step, so the configuration flips like an umbrella turning inside out (Walden inversion). SN1 goes through a planar carbocation and gives racemisation.",
+        "hi": "SN2 में नाभिकस्नेही एक ही चरण में अवशिष्ट समूह के विपरीत ओर से (पृष्ठ आक्रमण) आक्रमण करता है, अतः विन्यास उलटी छतरी की तरह पलट जाता है (वाल्डेन प्रतीपन)। SN1 समतलीय कार्बधनायन से होकर जाती है और रेसिमीकरण देती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-05",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is the most reactive towards an SN2 reaction?",
+        "hi": "निम्नलिखित में से कौन SN2 अभिक्रिया के प्रति सबसे अधिक क्रियाशील है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₃Br", "hi": "CH₃Br"}},
+        {"id": "B", "text": {"en": "CH₃CH₂Br", "hi": "CH₃CH₂Br"}},
+        {"id": "C", "text": {"en": "(CH₃)₂CHBr", "hi": "(CH₃)₂CHBr"}},
+        {"id": "D", "text": {"en": "(CH₃)₃CBr", "hi": "(CH₃)₃CBr"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "SN2 involves backside attack through a crowded five-coordinate transition state, so it is controlled by steric hindrance. Reactivity: CH₃X > 1° > 2° > 3°. Methyl bromide has the least hindrance.",
+        "hi": "SN2 में भीड़भाड़ वाली पंचसंयोजी संक्रमण अवस्था से होकर पृष्ठ आक्रमण होता है, अतः यह त्रिविम बाधा से नियंत्रित होती है। क्रियाशीलता: CH₃X > 1° > 2° > 3°। मेथिल ब्रोमाइड में बाधा सबसे कम है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-06",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "A mixture of methyl bromide and ethyl bromide is treated with sodium in dry ether (Wurtz reaction). The product obtained is:",
+        "hi": "मेथिल ब्रोमाइड और एथिल ब्रोमाइड के मिश्रण को शुष्क ईथर में सोडियम से उपचारित किया जाता है (वुर्ट्ज़ अभिक्रिया)। प्राप्त उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Only propane", "hi": "केवल प्रोपेन"}},
+        {"id": "B", "text": {"en": "A mixture of ethane, propane and butane", "hi": "एथेन, प्रोपेन और ब्यूटेन का मिश्रण"}},
+        {"id": "C", "text": {"en": "Only butane", "hi": "केवल ब्यूटेन"}},
+        {"id": "D", "text": {"en": "A mixture of methane and ethane", "hi": "मेथेन और एथेन का मिश्रण"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Three couplings are possible: CH₃–CH₃ (ethane), CH₃–C₂H₅ (propane) and C₂H₅–C₂H₅ (butane). Separating them is difficult, which is why the Wurtz reaction is used only to prepare symmetrical alkanes (even number of carbons) from a single alkyl halide.",
+        "hi": "तीन युग्मन संभव हैं: CH₃–CH₃ (एथेन), CH₃–C₂H₅ (प्रोपेन) और C₂H₅–C₂H₅ (ब्यूटेन)। इन्हें अलग करना कठिन है, इसीलिए वुर्ट्ज़ अभिक्रिया का प्रयोग केवल एक ही ऐल्किल हैलाइड से सममित ऐल्केन (सम संख्या में कार्बन) बनाने के लिए किया जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 3 \\end{bmatrix}$, then $|A^2|$ equals:",
+        "hi": "यदि $A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 3 \\end{bmatrix}$ है, तो $|A^2|$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "13", "hi": "13"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "36", "hi": "36"}},
+        {"id": "D", "text": {"en": "10", "hi": "10"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$A^2 = \\begin{bmatrix} 4 & 0 \\\\ 0 & 9 \\end{bmatrix}$, so $|A^2| = 36$. Alternatively $|A^2| = |A|^2 = 6^2 = 36$. (13 is the trace of $A^2$, a common distractor.)",
+        "hi": "$A^2 = \\begin{bmatrix} 4 & 0 \\\\ 0 & 9 \\end{bmatrix}$, अतः $|A^2| = 36$। वैकल्पिक रूप से $|A^2| = |A|^2 = 6^2 = 36$। (13, $A^2$ का अनुरेख है, जो एक सामान्य भ्रामक विकल्प है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-08",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ is a square matrix of order 3 and $|A| = 5$, then $|2A|$ is:",
+        "hi": "यदि $A$ कोटि 3 का वर्ग आव्यूह है और $|A| = 5$ है, तो $|2A|$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "40", "hi": "40"}},
+        {"id": "C", "text": {"en": "20", "hi": "20"}},
+        {"id": "D", "text": {"en": "80", "hi": "80"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Multiplying an $n \\times n$ matrix by $k$ multiplies every row by $k$, so $|kA| = k^n|A|$. Here $|2A| = 2^3 \\times 5 = 40$.",
+        "hi": "$n \\times n$ आव्यूह को $k$ से गुणा करने पर प्रत्येक पंक्ति $k$ से गुणा हो जाती है, अतः $|kA| = k^n|A|$। यहाँ $|2A| = 2^3 \\times 5 = 40$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-09",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The relation $R = \\{(1, 1), (2, 2), (3, 3), (1, 2)\\}$ on the set $\\{1, 2, 3\\}$ is:",
+        "hi": "समुच्चय $\\{1, 2, 3\\}$ पर संबंध $R = \\{(1, 1), (2, 2), (3, 3), (1, 2)\\}$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Reflexive and transitive but not symmetric", "hi": "स्वतुल्य और संक्रामक परंतु सममित नहीं"}},
+        {"id": "B", "text": {"en": "An equivalence relation", "hi": "एक तुल्यता संबंध"}},
+        {"id": "C", "text": {"en": "Symmetric and transitive but not reflexive", "hi": "सममित और संक्रामक परंतु स्वतुल्य नहीं"}},
+        {"id": "D", "text": {"en": "Reflexive and symmetric but not transitive", "hi": "स्वतुल्य और सममित परंतु संक्रामक नहीं"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Reflexive: $(1,1), (2,2), (3,3) \\in R$ ✓. Symmetric: $(1, 2) \\in R$ but $(2, 1) \\notin R$ ✗. Transitive: the only non-trivial chains are $(1,1),(1,2) \\to (1,2)$ and $(1,2),(2,2) \\to (1,2)$, both in $R$ ✓. So reflexive and transitive but not symmetric.",
+        "hi": "स्वतुल्य: $(1,1), (2,2), (3,3) \\in R$ ✓। सममित: $(1, 2) \\in R$ परंतु $(2, 1) \\notin R$ ✗। संक्रामक: केवल अतुच्छ शृंखलाएँ $(1,1),(1,2) \\to (1,2)$ और $(1,2),(2,2) \\to (1,2)$ हैं, दोनों $R$ में हैं ✓। अतः स्वतुल्य और संक्रामक परंतु सममित नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-14-10",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of onto (surjective) functions from a set with 3 elements to a set with 2 elements.",
+        "hi": "3 अवयवों वाले समुच्चय से 2 अवयवों वाले समुच्चय में आच्छादक (onto) फलनों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "Total functions $= 2^3 = 8$. A function fails to be onto only if all 3 elements map to the same element of $B$ — there are 2 such constant functions. Onto functions $= 8 - 2 = 6$. General formula for 2 elements in the codomain: $2^n - 2$.",
+        "hi": "कुल फलन $= 2^3 = 8$। कोई फलन आच्छादक नहीं होता केवल तब जब तीनों अवयव $B$ के एक ही अवयव पर जाएँ — ऐसे 2 अचर फलन हैं। आच्छादक फलन $= 8 - 2 = 6$। सहप्रांत में 2 अवयव होने पर व्यापक सूत्र: $2^n - 2$।"
+      }
+    }
+  ]
+}

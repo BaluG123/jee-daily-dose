@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-20",
+  "questions": [
+    {
+      "id": "dd-2026-10-20-01",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The gravitational force is a:",
+        "hi": "गुरुत्वाकर्षण बल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Non-conservative force", "hi": "असंरक्षी बल"}},
+        {"id": "B", "text": {"en": "Conservative force", "hi": "संरक्षी बल"}},
+        {"id": "C", "text": {"en": "Dissipative force like friction", "hi": "घर्षण जैसा क्षयकारी बल"}},
+        {"id": "D", "text": {"en": "Velocity-dependent force", "hi": "वेग पर निर्भर बल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Work done by gravity depends only on the initial and final positions, not on the path, and is zero over any closed path. Hence gravity is conservative, and a gravitational potential energy can be defined.",
+        "hi": "गुरुत्व द्वारा किया गया कार्य केवल प्रारंभिक और अंतिम स्थितियों पर निर्भर करता है, पथ पर नहीं, और किसी भी बंद पथ पर शून्य होता है। अतः गुरुत्व संरक्षी है और गुरुत्वीय स्थितिज ऊर्जा परिभाषित की जा सकती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-02",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The weight of a body at the centre of the Earth is:",
+        "hi": "पृथ्वी के केंद्र पर किसी पिंड का भार होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "B", "text": {"en": "Same as on the surface", "hi": "पृष्ठ के समान"}},
+        {"id": "C", "text": {"en": "Twice that on the surface", "hi": "पृष्ठ के मान का दोगुना"}},
+        {"id": "D", "text": {"en": "Infinite", "hi": "अनंत"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "At depth $d$, $g_d = g\\left(1 - \\frac{d}{R}\\right)$. At the centre $d = R$, so $g = 0$ and weight $mg = 0$ (the mass is unchanged). Physically, the pull of Earth's mass cancels from all directions.",
+        "hi": "गहराई $d$ पर $g_d = g\\left(1 - \\frac{d}{R}\\right)$। केंद्र पर $d = R$, अतः $g = 0$ और भार $mg = 0$ (द्रव्यमान अपरिवर्तित रहता है)। भौतिक रूप से, पृथ्वी के द्रव्यमान का खिंचाव सभी दिशाओं से निरस्त हो जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-03",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The escape velocity from the Earth's surface is 11 km/s. Find the escape velocity (in km/s) from the surface of a planet whose mass is 8 times and radius is 2 times that of the Earth.",
+        "hi": "पृथ्वी की सतह से पलायन वेग 11 km/s है। उस ग्रह की सतह से पलायन वेग (km/s में) ज्ञात कीजिए जिसका द्रव्यमान पृथ्वी का 8 गुना और त्रिज्या 2 गुनी है।"
+      },
+      "options": [],
+      "correctAnswer": 22,
+      "solution": {
+        "en": "$v_e = \\sqrt{\\frac{2GM}{R}} \\propto \\sqrt{\\frac{M}{R}}$. $\\frac{v_p}{v_E} = \\sqrt{\\frac{8}{2}} = 2 \\Rightarrow v_p = 2 \\times 11 = 22\\text{ km/s}$.",
+        "hi": "$v_e = \\sqrt{\\frac{2GM}{R}} \\propto \\sqrt{\\frac{M}{R}}$। $\\frac{v_p}{v_E} = \\sqrt{\\frac{8}{2}} = 2 \\Rightarrow v_p = 2 \\times 11 = 22\\text{ km/s}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-04",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is a bidentate ligand?",
+        "hi": "निम्नलिखित में से कौन-सा द्विदंतुर लिगैंड है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Ammonia (NH₃)", "hi": "अमोनिया (NH₃)"}},
+        {"id": "B", "text": {"en": "Chloride (Cl⁻)", "hi": "क्लोराइड (Cl⁻)"}},
+        {"id": "C", "text": {"en": "Water (H₂O)", "hi": "जल (H₂O)"}},
+        {"id": "D", "text": {"en": "Ethylenediamine (en)", "hi": "एथिलीनडाइऐमीन (en)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Ethylenediamine, H₂N–CH₂–CH₂–NH₂, has two N donor atoms that can bind to the same metal ion, forming a five-membered chelate ring. NH₃, Cl⁻ and H₂O are monodentate.",
+        "hi": "एथिलीनडाइऐमीन, H₂N–CH₂–CH₂–NH₂, में दो N दाता परमाणु हैं जो एक ही धातु आयन से जुड़कर पाँच-सदस्यीय कीलेट वलय बनाते हैं। NH₃, Cl⁻ और H₂O एकदंतुर हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A consequence of lanthanoid contraction is:",
+        "hi": "लैंथेनॉइड आकुंचन का एक परिणाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Atomic radius increases sharply from La to Lu", "hi": "La से Lu तक परमाणु त्रिज्या तेज़ी से बढ़ती है"}},
+        {"id": "B", "text": {"en": "Lanthanoids show only the +2 oxidation state", "hi": "लैंथेनॉइड केवल +2 ऑक्सीकरण अवस्था दर्शाते हैं"}},
+        {"id": "C", "text": {"en": "Zr and Hf have almost identical atomic radii", "hi": "Zr और Hf की परमाणु त्रिज्याएँ लगभग समान हैं"}},
+        {"id": "D", "text": {"en": "Basicity of Ln(OH)₃ increases from La to Lu", "hi": "La से Lu तक Ln(OH)₃ की क्षारकता बढ़ती है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Poor shielding by 4f electrons causes a steady decrease in size from La to Lu. As a result, the 5d elements following the lanthanoids are nearly the same size as their 4d counterparts — Zr (160 pm) and Hf (159 pm) — making them very hard to separate. It also makes Ln(OH)₃ basicity decrease from La to Lu, and the common oxidation state is +3.",
+        "hi": "4f इलेक्ट्रॉनों के दुर्बल परिरक्षण के कारण La से Lu तक आकार लगातार घटता है। परिणामस्वरूप लैंथेनॉइडों के बाद आने वाले 5d तत्व अपने 4d समकक्षों के लगभग समान आकार के होते हैं — Zr (160 pm) और Hf (159 pm) — जिससे इन्हें अलग करना बहुत कठिन होता है। इसी से La से Lu तक Ln(OH)₃ की क्षारकता घटती है, और सामान्य ऑक्सीकरण अवस्था +3 है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-06",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "When KMnO₄ acts as an oxidising agent in neutral or faintly alkaline medium, the oxidation state of manganese in the product is:",
+        "hi": "जब KMnO₄ उदासीन या दुर्बल क्षारीय माध्यम में ऑक्सीकारक के रूप में कार्य करता है, तो उत्पाद में मैंगनीज़ की ऑक्सीकरण अवस्था होती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+2", "hi": "+2"}},
+        {"id": "B", "text": {"en": "+4", "hi": "+4"}},
+        {"id": "C", "text": {"en": "+6", "hi": "+6"}},
+        {"id": "D", "text": {"en": "+7", "hi": "+7"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Neutral/faintly alkaline: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ (Mn: +7 → +4, brown precipitate). Acidic: MnO₄⁻ → Mn²⁺ (+2, 5e⁻). Strongly alkaline: MnO₄⁻ → MnO₄²⁻ (+6, 1e⁻). The medium decides the product — a frequent JEE question.",
+        "hi": "उदासीन/दुर्बल क्षारीय: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ (Mn: +7 → +4, भूरा अवक्षेप)। अम्लीय: MnO₄⁻ → Mn²⁺ (+2, 5e⁻)। प्रबल क्षारीय: MnO₄⁻ → MnO₄²⁻ (+6, 1e⁻)। माध्यम उत्पाद तय करता है — JEE में अक्सर पूछा जाने वाला प्रश्न।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For matrices $A$ and $B$ for which $AB$ is defined, $(AB)^T$ equals:",
+        "hi": "आव्यूहों $A$ और $B$ के लिए जिनका $AB$ परिभाषित है, $(AB)^T$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "BᵀAᵀ", "hi": "BᵀAᵀ"}},
+        {"id": "B", "text": {"en": "AᵀBᵀ", "hi": "AᵀBᵀ"}},
+        {"id": "C", "text": {"en": "AB", "hi": "AB"}},
+        {"id": "D", "text": {"en": "BA", "hi": "BA"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Reversal law of transpose: $(AB)^T = B^T A^T$ (the order reverses). The same reversal holds for inverses: $(AB)^{-1} = B^{-1}A^{-1}$.",
+        "hi": "परिवर्त का उत्क्रम नियम: $(AB)^T = B^T A^T$ (क्रम उलट जाता है)। व्युत्क्रम के लिए भी यही उत्क्रम लागू होता है: $(AB)^{-1} = B^{-1}A^{-1}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The domain of $\\sin^{-1}(2x)$ is:",
+        "hi": "$\\sin^{-1}(2x)$ का प्रांत है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[−1, 1]", "hi": "[−1, 1]"}},
+        {"id": "B", "text": {"en": "[−2, 2]", "hi": "[−2, 2]"}},
+        {"id": "C", "text": {"en": "[−1/2, 1/2]", "hi": "[−1/2, 1/2]"}},
+        {"id": "D", "text": {"en": "[0, 1/2]", "hi": "[0, 1/2]"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\sin^{-1}t$ is defined for $-1 \\le t \\le 1$. So $-1 \\le 2x \\le 1 \\Rightarrow -\\frac{1}{2} \\le x \\le \\frac{1}{2}$.",
+        "hi": "$\\sin^{-1}t$, $-1 \\le t \\le 1$ के लिए परिभाषित है। अतः $-1 \\le 2x \\le 1 \\Rightarrow -\\frac{1}{2} \\le x \\le \\frac{1}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-09",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A system of $n$ linear equations $AX = B$ in $n$ unknowns has a unique solution if:",
+        "hi": "$n$ अज्ञातों वाले $n$ रैखिक समीकरणों का निकाय $AX = B$ का अद्वितीय हल होता है यदि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "|A| = 0", "hi": "|A| = 0"}},
+        {"id": "B", "text": {"en": "|A| = 0 and (adj A)B = O", "hi": "|A| = 0 and (adj A)B = O"}},
+        {"id": "C", "text": {"en": "|A| = 0 and (adj A)B ≠ O", "hi": "|A| = 0 and (adj A)B ≠ O"}},
+        {"id": "D", "text": {"en": "|A| ≠ 0", "hi": "|A| ≠ 0"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "If $|A| \\ne 0$, $A^{-1}$ exists and $X = A^{-1}B$ is the unique solution (consistent). If $|A| = 0$ and $(\\text{adj }A)B \\ne O$: no solution (inconsistent). If $|A| = 0$ and $(\\text{adj }A)B = O$: infinitely many solutions or none (needs further checking).",
+        "hi": "यदि $|A| \\ne 0$, तो $A^{-1}$ का अस्तित्व है और $X = A^{-1}B$ अद्वितीय हल है (संगत)। यदि $|A| = 0$ और $(\\text{adj }A)B \\ne O$: कोई हल नहीं (असंगत)। यदि $|A| = 0$ और $(\\text{adj }A)B = O$: अनंत हल या कोई हल नहीं (आगे जाँच आवश्यक)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-20-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$ satisfies $A^2 - kA + I = O$, find $k$.",
+        "hi": "यदि $A = \\begin{bmatrix} 3 & -4 \\\\ 1 & -1 \\end{bmatrix}$, $A^2 - kA + I = O$ को संतुष्ट करता है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "Cayley–Hamilton for $2 \\times 2$: $A^2 - (\\text{tr }A)A + |A|I = O$. Here $\\text{tr }A = 3 + (-1) = 2$ and $|A| = -3 + 4 = 1$, so $A^2 - 2A + I = O$ and $k = 2$. Direct check: $A^2 = \\begin{bmatrix} 5 & -8 \\\\ 2 & -3 \\end{bmatrix}$, and $A^2 - 2A + I = O$ ✓.",
+        "hi": "$2 \\times 2$ के लिए केली–हैमिल्टन: $A^2 - (\\text{tr }A)A + |A|I = O$। यहाँ $\\text{tr }A = 3 + (-1) = 2$ और $|A| = -3 + 4 = 1$, अतः $A^2 - 2A + I = O$ और $k = 2$। सीधी जाँच: $A^2 = \\begin{bmatrix} 5 & -8 \\\\ 2 & -3 \\end{bmatrix}$, तथा $A^2 - 2A + I = O$ ✓।"
+      }
+    }
+  ]
+}

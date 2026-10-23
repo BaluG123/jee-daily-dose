@@ -1,0 +1,225 @@
+{
+  "date": "2026-09-26",
+  "questions": [
+    {
+      "id": "dd-2026-09-26-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of significant figures in 0.003050 is:",
+        "hi": "0.003050 में सार्थक अंकों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "7", "hi": "7"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Leading zeros (before 3) are not significant. The zero between 3 and 5 and the trailing zero after the decimal point are significant. Significant digits: 3, 0, 5, 0 → 4.",
+        "hi": "प्रारंभिक शून्य (3 से पहले) सार्थक नहीं होते। 3 और 5 के बीच का शून्य तथा दशमलव के बाद अंत का शून्य सार्थक हैं। सार्थक अंक: 3, 0, 5, 0 → 4।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-02",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A constant force acting on a body of mass 5 kg changes its velocity from 2 m/s to 8 m/s in 3 s (in the same direction). The magnitude of the force is:",
+        "hi": "5 kg द्रव्यमान के पिंड पर लगा एक नियत बल 3 s में उसका वेग 2 m/s से 8 m/s (उसी दिशा में) कर देता है। बल का परिमाण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5 N", "hi": "5 N"}},
+        {"id": "B", "text": {"en": "15 N", "hi": "15 N"}},
+        {"id": "C", "text": {"en": "10 N", "hi": "10 N"}},
+        {"id": "D", "text": {"en": "30 N", "hi": "30 N"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$F = \\frac{\\Delta p}{\\Delta t} = \\frac{m(v - u)}{t} = \\frac{5(8 - 2)}{3} = 10\\text{ N}$.",
+        "hi": "$F = \\frac{\\Delta p}{\\Delta t} = \\frac{m(v - u)}{t} = \\frac{5(8 - 2)}{3} = 10\\text{ N}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-03",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The ratio of the acceleration due to gravity at a height $\\frac{R}{2}$ above the Earth's surface to that at a depth $\\frac{R}{2}$ below the surface is ($R$ = radius of the Earth):",
+        "hi": "पृथ्वी की सतह से $\\frac{R}{2}$ ऊँचाई पर गुरुत्वीय त्वरण तथा सतह से $\\frac{R}{2}$ गहराई पर गुरुत्वीय त्वरण का अनुपात है ($R$ = पृथ्वी की त्रिज्या):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9/8", "hi": "9/8"}},
+        {"id": "B", "text": {"en": "8/9", "hi": "8/9"}},
+        {"id": "C", "text": {"en": "4/9", "hi": "4/9"}},
+        {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "At height $h$: $g_h = \\frac{g}{(1 + h/R)^2} = \\frac{g}{(3/2)^2} = \\frac{4g}{9}$. At depth $d$: $g_d = g\\left(1 - \\frac{d}{R}\\right) = \\frac{g}{2}$. Ratio $= \\frac{4/9}{1/2} = \\frac{8}{9}$. Note: don't use $g(1 - 2h/R)$ here — that approximation is valid only for $h \\ll R$.",
+        "hi": "ऊँचाई $h$ पर: $g_h = \\frac{g}{(1 + h/R)^2} = \\frac{g}{(3/2)^2} = \\frac{4g}{9}$। गहराई $d$ पर: $g_d = g\\left(1 - \\frac{d}{R}\\right) = \\frac{g}{2}$। अनुपात $= \\frac{4/9}{1/2} = \\frac{8}{9}$। ध्यान दें: यहाँ $g(1 - 2h/R)$ का प्रयोग न करें — यह सन्निकटन केवल $h \\ll R$ के लिए मान्य है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-04",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The de Broglie wavelength of a particle of mass $m$ moving with velocity $v$ is:",
+        "hi": "वेग $v$ से गतिमान $m$ द्रव्यमान के कण की दे ब्रॉग्ली तरंगदैर्ध्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "λ = mv/h", "hi": "λ = mv/h"}},
+        {"id": "B", "text": {"en": "λ = h/(mv)", "hi": "λ = h/(mv)"}},
+        {"id": "C", "text": {"en": "λ = hmv", "hi": "λ = hmv"}},
+        {"id": "D", "text": {"en": "λ = h/(mc²)", "hi": "λ = h/(mc²)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "de Broglie relation: $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$. The wave nature is significant only for microscopic particles like electrons because $h$ is very small.",
+        "hi": "दे ब्रॉग्ली संबंध: $\\lambda = \\frac{h}{p} = \\frac{h}{mv}$। चूँकि $h$ बहुत छोटा है, तरंग प्रकृति केवल इलेक्ट्रॉन जैसे सूक्ष्म कणों के लिए महत्वपूर्ण होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-05",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The correct order of first ionisation enthalpy is:",
+        "hi": "प्रथम आयनन एन्थैल्पी का सही क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "B < C < N < O", "hi": "B < C < N < O"}},
+        {"id": "B", "text": {"en": "C < B < O < N", "hi": "C < B < O < N"}},
+        {"id": "C", "text": {"en": "B < C < O < N", "hi": "B < C < O < N"}},
+        {"id": "D", "text": {"en": "O < N < C < B", "hi": "O < N < C < B"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Ionisation enthalpy generally increases across a period. Exception: N (2p³, half-filled, extra stable) > O (2p⁴, where pairing in one 2p orbital causes repulsion, making removal easier). Also B < C since B loses a 2p electron that is well shielded. Values (kJ/mol): B 801, C 1086, O 1314, N 1402.",
+        "hi": "आवर्त में आयनन एन्थैल्पी सामान्यतः बढ़ती है। अपवाद: N (2p³, अर्धपूरित, अधिक स्थायी) > O (2p⁴, एक 2p कक्षक में युग्मन से प्रतिकर्षण होता है, जिससे इलेक्ट्रॉन निकालना आसान होता है)। साथ ही B < C। मान (kJ/mol): B 801, C 1086, O 1314, N 1402।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The IUPAC name of CH₃–CH(CH₃)–CH₂–CH(C₂H₅)–CH₃ is:",
+        "hi": "CH₃–CH(CH₃)–CH₂–CH(C₂H₅)–CH₃ का IUPAC नाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2-Ethyl-4-methylpentane", "hi": "2-एथिल-4-मेथिलपेन्टेन"}},
+        {"id": "B", "text": {"en": "2,4-Dimethylhexane", "hi": "2,4-डाइमेथिलहेक्सेन"}},
+        {"id": "C", "text": {"en": "3,5-Dimethylhexane", "hi": "3,5-डाइमेथिलहेक्सेन"}},
+        {"id": "D", "text": {"en": "4-Ethyl-2-methylpentane", "hi": "4-एथिल-2-मेथिलपेन्टेन"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The longest chain must include the carbons of the ethyl group: CH₃–CH(CH₃)–CH₂–CH(CH₃)–CH₂–CH₃ → 6 carbons (hexane). Number from the end nearer the first branch: methyl groups at C-2 and C-4 (locants {2,4} are lower than {3,5}). Name: 2,4-dimethylhexane. A '2-ethyl' name is always a sign that a longer chain was missed.",
+        "hi": "सबसे लंबी शृंखला में एथिल समूह के कार्बन भी शामिल होने चाहिए: CH₃–CH(CH₃)–CH₂–CH(CH₃)–CH₂–CH₃ → 6 कार्बन (हेक्सेन)। पहली शाखा के निकट वाले सिरे से क्रमांकन: मेथिल समूह C-2 और C-4 पर (स्थानांक {2,4}, {3,5} से कम हैं)। नाम: 2,4-डाइमेथिलहेक्सेन। '2-एथिल' वाला नाम हमेशा संकेत देता है कि लंबी शृंखला छूट गई है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-07",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The modulus of the complex number $3 - 4i$ is:",
+        "hi": "सम्मिश्र संख्या $3 - 4i$ का मापांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7", "hi": "7"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "25", "hi": "25"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$|a + ib| = \\sqrt{a^2 + b^2}$. So $|3 - 4i| = \\sqrt{9 + 16} = 5$.",
+        "hi": "$|a + ib| = \\sqrt{a^2 + b^2}$। अतः $|3 - 4i| = \\sqrt{9 + 16} = 5$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of diagonals of a decagon (10-sided polygon) is:",
+        "hi": "एक दशभुज (10 भुजाओं वाला बहुभुज) के विकर्णों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "45", "hi": "45"}},
+        {"id": "B", "text": {"en": "70", "hi": "70"}},
+        {"id": "C", "text": {"en": "35", "hi": "35"}},
+        {"id": "D", "text": {"en": "40", "hi": "40"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Lines joining any two vertices: ${}^{10}C_2 = 45$. Of these, 10 are sides. Diagonals $= 45 - 10 = 35$. Formula: $\\frac{n(n - 3)}{2} = \\frac{10 \\times 7}{2} = 35$.",
+        "hi": "किन्हीं दो शीर्षों को मिलाने वाली रेखाएँ: ${}^{10}C_2 = 45$। इनमें 10 भुजाएँ हैं। विकर्ण $= 45 - 10 = 35$। सूत्र: $\\frac{n(n - 3)}{2} = \\frac{10 \\times 7}{2} = 35$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-09",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $x^2 \\sin x$ with respect to $x$ is:",
+        "hi": "$x$ के सापेक्ष $x^2 \\sin x$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2x sin x + x² cos x", "hi": "2x sin x + x² cos x"}},
+        {"id": "B", "text": {"en": "2x cos x", "hi": "2x cos x"}},
+        {"id": "C", "text": {"en": "2x sin x − x² cos x", "hi": "2x sin x − x² cos x"}},
+        {"id": "D", "text": {"en": "x² cos x", "hi": "x² cos x"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Product rule: $\\frac{d}{dx}(uv) = u'v + uv'$. With $u = x^2$, $v = \\sin x$: $2x\\sin x + x^2\\cos x$.",
+        "hi": "गुणन नियम: $\\frac{d}{dx}(uv) = u'v + uv'$। $u = x^2$, $v = \\sin x$ लेने पर: $2x\\sin x + x^2\\cos x$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-26-10",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\tan^{-1}(1) + \\tan^{-1}(2) + \\tan^{-1}(3)$ is:",
+        "hi": "$\\tan^{-1}(1) + \\tan^{-1}(2) + \\tan^{-1}(3)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "B", "text": {"en": "3π/4", "hi": "3π/4"}},
+        {"id": "C", "text": {"en": "π/4", "hi": "π/4"}},
+        {"id": "D", "text": {"en": "π", "hi": "π"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Since $2 \\times 3 > 1$ (both positive), $\\tan^{-1}2 + \\tan^{-1}3 = \\pi + \\tan^{-1}\\left(\\frac{2 + 3}{1 - 6}\\right) = \\pi + \\tan^{-1}(-1) = \\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$. Adding $\\tan^{-1}1 = \\frac{\\pi}{4}$ gives $\\pi$. Common trap: forgetting the $+\\pi$ when $xy > 1$.",
+        "hi": "चूँकि $2 \\times 3 > 1$ (दोनों धनात्मक), $\\tan^{-1}2 + \\tan^{-1}3 = \\pi + \\tan^{-1}\\left(\\frac{2 + 3}{1 - 6}\\right) = \\pi + \\tan^{-1}(-1) = \\pi - \\frac{\\pi}{4} = \\frac{3\\pi}{4}$। $\\tan^{-1}1 = \\frac{\\pi}{4}$ जोड़ने पर $\\pi$ प्राप्त होता है। सामान्य गलती: $xy > 1$ होने पर $+\\pi$ भूल जाना।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-04",
+  "questions": [
+    {
+      "id": "dd-2026-10-04-01",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of resistivity is:",
+        "hi": "प्रतिरोधकता का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Ω m⁻¹", "hi": "Ω m⁻¹"}},
+        {"id": "B", "text": {"en": "Ω", "hi": "Ω"}},
+        {"id": "C", "text": {"en": "S m⁻¹", "hi": "S m⁻¹"}},
+        {"id": "D", "text": {"en": "Ω m", "hi": "Ω m"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$R = \\frac{\\rho L}{A} \\Rightarrow \\rho = \\frac{RA}{L}$, with unit $\\frac{\\Omega\\cdot\\text{m}^2}{\\text{m}} = \\Omega\\text{ m}$. (S m⁻¹ is the unit of conductivity, the reciprocal of resistivity.)",
+        "hi": "$R = \\frac{\\rho L}{A} \\Rightarrow \\rho = \\frac{RA}{L}$, जिसका मात्रक $\\frac{\\Omega\\cdot\\text{m}^2}{\\text{m}} = \\Omega\\text{ m}$ है। (S m⁻¹ चालकता का मात्रक है, जो प्रतिरोधकता का व्युत्क्रम है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-02",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The relation between the escape velocity $v_e$ from the Earth's surface and the orbital velocity $v_o$ of a satellite orbiting very close to the surface is:",
+        "hi": "पृथ्वी की सतह से पलायन वेग $v_e$ तथा सतह के बहुत निकट परिक्रमा करने वाले उपग्रह के कक्षीय वेग $v_o$ के बीच संबंध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "vₑ = 2 × vₒ", "hi": "vₑ = 2 × vₒ"}},
+        {"id": "B", "text": {"en": "vₑ = √2 × vₒ", "hi": "vₑ = √2 × vₒ"}},
+        {"id": "C", "text": {"en": "vₑ = vₒ/√2", "hi": "vₑ = vₒ/√2"}},
+        {"id": "D", "text": {"en": "vₑ = vₒ", "hi": "vₑ = vₒ"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$v_o = \\sqrt{\\frac{GM}{R}}$ and $v_e = \\sqrt{\\frac{2GM}{R}}$, so $v_e = \\sqrt{2}\\,v_o$. For Earth: $v_o \\approx 7.9$ km/s, $v_e \\approx 11.2$ km/s.",
+        "hi": "$v_o = \\sqrt{\\frac{GM}{R}}$ और $v_e = \\sqrt{\\frac{2GM}{R}}$, अतः $v_e = \\sqrt{2}\\,v_o$। पृथ्वी के लिए: $v_o \\approx 7.9$ km/s, $v_e \\approx 11.2$ km/s।"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-03",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A battery of emf $E$ and internal resistance $r$ drives a current of 2 A through an external resistance of 5 Ω, and a current of 1 A through an external resistance of 11 Ω. Find $E$ (in V).",
+        "hi": "विद्युत वाहक बल $E$ और आंतरिक प्रतिरोध $r$ वाली एक बैटरी 5 Ω बाह्य प्रतिरोध में 2 A तथा 11 Ω बाह्य प्रतिरोध में 1 A धारा प्रवाहित करती है। $E$ (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 12,
+      "solution": {
+        "en": "$E = I(R + r)$. So $2(5 + r) = 1(11 + r) \\Rightarrow 10 + 2r = 11 + r \\Rightarrow r = 1\\,\\Omega$. Then $E = 2(5 + 1) = 12\\text{ V}$.",
+        "hi": "$E = I(R + r)$। अतः $2(5 + r) = 1(11 + r) \\Rightarrow 10 + 2r = 11 + r \\Rightarrow r = 1\\,\\Omega$। तब $E = 2(5 + 1) = 12\\text{ V}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-04",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The pH of a $10^{-3}$ M HCl solution at 25°C is:",
+        "hi": "25°C पर $10^{-3}$ M HCl विलयन का pH है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3", "hi": "3"}},
+        {"id": "B", "text": {"en": "11", "hi": "11"}},
+        {"id": "C", "text": {"en": "−3", "hi": "−3"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "HCl is a strong acid, so $[\\text{H}^+] = 10^{-3}$ M. pH $= -\\log[\\text{H}^+] = -\\log(10^{-3}) = 3$.",
+        "hi": "HCl एक प्रबल अम्ल है, अतः $[\\text{H}^+] = 10^{-3}$ M। pH $= -\\log[\\text{H}^+] = -\\log(10^{-3}) = 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following molecules has the largest bond angle?",
+        "hi": "निम्नलिखित में से किस अणु का आबंध कोण सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₄", "hi": "CH₄"}},
+        {"id": "B", "text": {"en": "NH₃", "hi": "NH₃"}},
+        {"id": "C", "text": {"en": "BF₃", "hi": "BF₃"}},
+        {"id": "D", "text": {"en": "H₂O", "hi": "H₂O"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "BF₃: sp², trigonal planar, 120°. CH₄: sp³, 109.5°. NH₃: one lone pair, ~107°. H₂O: two lone pairs, ~104.5°. Lone pairs repel more than bond pairs and compress bond angles.",
+        "hi": "BF₃: sp², त्रिकोणीय समतलीय, 120°। CH₄: sp³, 109.5°। NH₃: एक एकाकी युग्म, ~107°। H₂O: दो एकाकी युग्म, ~104.5°। एकाकी युग्म, आबंध युग्मों से अधिक प्रतिकर्षण करते हैं और आबंध कोण घटाते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The correct decreasing order of basic strength of the following in aqueous solution is:",
+        "hi": "जलीय विलयन में निम्नलिखित की क्षारकीय सामर्थ्य का सही घटता क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃", "hi": "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃"}},
+        {"id": "B", "text": {"en": "NH₃ > CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N", "hi": "NH₃ > CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N"}},
+        {"id": "C", "text": {"en": "CH₃NH₂ > (CH₃)₂NH > NH₃ > (CH₃)₃N", "hi": "CH₃NH₂ > (CH₃)₂NH > NH₃ > (CH₃)₃N"}},
+        {"id": "D", "text": {"en": "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃", "hi": "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In water, basicity depends on three factors: +I effect of alkyl groups (increases basicity), solvation of the protonated amine by H-bonding (more N–H bonds → better stabilised), and steric hindrance. The 3° amine has the strongest +I effect, but its cation has only one N–H for H-bonding and is crowded, so it falls below 2° and 1°. Result for methylamines: 2° > 1° > 3° > NH₃. (In the gas phase, where solvation is absent: 3° > 2° > 1° > NH₃.)",
+        "hi": "जल में क्षारकता तीन कारकों पर निर्भर करती है: ऐल्किल समूहों का +I प्रभाव (क्षारकता बढ़ाता है), H-आबंधन द्वारा प्रोटॉनित ऐमीन का विलायकन (अधिक N–H आबंध → अधिक स्थायित्व), और त्रिविम बाधा। 3° ऐमीन का +I प्रभाव सबसे अधिक है, परंतु इसके धनायन में H-आबंधन के लिए केवल एक N–H है और यह भीड़भाड़ वाला है, अतः यह 2° और 1° से नीचे आता है। मेथिलऐमीनों के लिए: 2° > 1° > 3° > NH₃। (गैस प्रावस्था में, जहाँ विलायकन नहीं होता: 3° > 2° > 1° > NH₃।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-07",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The x-intercept of the line $2x + 3y = 12$ is:",
+        "hi": "रेखा $2x + 3y = 12$ का x-अंतःखंड है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "12", "hi": "12"}},
+        {"id": "D", "text": {"en": "3", "hi": "3"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Put $y = 0$: $2x = 12 \\Rightarrow x = 6$. (Intercept form: $\\frac{x}{6} + \\frac{y}{4} = 1$, so the y-intercept is 4.)",
+        "hi": "$y = 0$ रखने पर: $2x = 12 \\Rightarrow x = 6$। (अंतःखंड रूप: $\\frac{x}{6} + \\frac{y}{4} = 1$, अतः y-अंतःखंड 4 है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\tan\\theta = \\frac{3}{4}$ and $\\theta$ lies in the first quadrant, then $\\sin 2\\theta$ is:",
+        "hi": "यदि $\\tan\\theta = \\frac{3}{4}$ और $\\theta$ प्रथम चतुर्थांश में है, तो $\\sin 2\\theta$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "24/25", "hi": "24/25"}},
+        {"id": "B", "text": {"en": "7/25", "hi": "7/25"}},
+        {"id": "C", "text": {"en": "12/25", "hi": "12/25"}},
+        {"id": "D", "text": {"en": "3/5", "hi": "3/5"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\sin 2\\theta = \\frac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{2 \\cdot \\frac{3}{4}}{1 + \\frac{9}{16}} = \\frac{3/2}{25/16} = \\frac{24}{25}$. (Or: $\\sin\\theta = \\frac{3}{5}$, $\\cos\\theta = \\frac{4}{5}$, $2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$.)",
+        "hi": "$\\sin 2\\theta = \\frac{2\\tan\\theta}{1 + \\tan^2\\theta} = \\frac{2 \\cdot \\frac{3}{4}}{1 + \\frac{9}{16}} = \\frac{3/2}{25/16} = \\frac{24}{25}$। (या: $\\sin\\theta = \\frac{3}{5}$, $\\cos\\theta = \\frac{4}{5}$, $2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-09",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The coefficient of $x^3$ in the expansion of $(1 + 2x)^5$ is:",
+        "hi": "$(1 + 2x)^5$ के प्रसार में $x^3$ का गुणांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "40", "hi": "40"}},
+        {"id": "C", "text": {"en": "80", "hi": "80"}},
+        {"id": "D", "text": {"en": "160", "hi": "160"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$T_{r+1} = {}^5C_r (2x)^r$. For $x^3$, $r = 3$: ${}^5C_3 \\cdot 2^3 = 10 \\times 8 = 80$. Don't forget to raise the 2 to the power 3.",
+        "hi": "$T_{r+1} = {}^5C_r (2x)^r$। $x^3$ के लिए $r = 3$: ${}^5C_3 \\cdot 2^3 = 10 \\times 8 = 80$। 2 की घात 3 करना न भूलें।"
+      }
+    },
+    {
+      "id": "dd-2026-10-04-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix}$, find the sum of all the entries of $A^5$.",
+        "hi": "यदि $A = \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix}$ है, तो $A^5$ के सभी अवयवों का योग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 64,
+      "solution": {
+        "en": "$A^2 = \\begin{bmatrix} 2 & 2 \\\\ 2 & 2 \\end{bmatrix} = 2A$. By induction $A^n = 2^{n-1}A$. So $A^5 = 16A$, every entry is 16, and the sum of the 4 entries $= 64$.",
+        "hi": "$A^2 = \\begin{bmatrix} 2 & 2 \\\\ 2 & 2 \\end{bmatrix} = 2A$। आगमन से $A^n = 2^{n-1}A$। अतः $A^5 = 16A$, प्रत्येक अवयव 16 है, और 4 अवयवों का योग $= 64$।"
+      }
+    }
+  ]
+}

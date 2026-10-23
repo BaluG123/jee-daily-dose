@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-17",
+  "questions": [
+    {
+      "id": "dd-2026-10-17-01",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of torque is:",
+        "hi": "बल आघूर्ण का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "N m", "hi": "N m"}},
+        {"id": "B", "text": {"en": "N m⁻¹", "hi": "N m⁻¹"}},
+        {"id": "C", "text": {"en": "N m s⁻¹", "hi": "N m s⁻¹"}},
+        {"id": "D", "text": {"en": "kg m s⁻¹", "hi": "kg m s⁻¹"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$, so its unit is newton × metre = N m. Although torque has the same dimensions as work ($[ML^2T^{-2}]$), it is not expressed in joules because it is a vector, not energy.",
+        "hi": "$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$, अतः इसका मात्रक न्यूटन × मीटर = N m है। यद्यपि बल आघूर्ण की विमाएँ कार्य के समान ($[ML^2T^{-2}]$) हैं, इसे जूल में व्यक्त नहीं करते क्योंकि यह सदिश है, ऊर्जा नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-02",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The radius of gyration of a uniform circular disc of radius $R$ about an axis through its centre and perpendicular to its plane is:",
+        "hi": "$R$ त्रिज्या की एकसमान वृत्तीय चकती की, उसके केंद्र से गुजरने वाली और तल के लंबवत अक्ष के परितः घूर्णन त्रिज्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "R", "hi": "R"}},
+        {"id": "B", "text": {"en": "R/2", "hi": "R/2"}},
+        {"id": "C", "text": {"en": "√(2/5) R", "hi": "√(2/5) R"}},
+        {"id": "D", "text": {"en": "R/√2", "hi": "R/√2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$I = \\frac{1}{2}MR^2 = Mk^2 \\Rightarrow k = \\frac{R}{\\sqrt{2}}$. (For a ring $k = R$; for a solid sphere about a diameter $k = \\sqrt{\\frac{2}{5}}R$.)",
+        "hi": "$I = \\frac{1}{2}MR^2 = Mk^2 \\Rightarrow k = \\frac{R}{\\sqrt{2}}$। (वलय के लिए $k = R$; व्यास के परितः ठोस गोले के लिए $k = \\sqrt{\\frac{2}{5}}R$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-03",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "From a uniform circular disc of radius $2R$, a circular hole of radius $R$ is cut out such that the hole touches the rim of the disc (its centre is at a distance $R$ from the centre of the disc). If $R = 6\\text{ cm}$, find the distance (in cm) of the centre of mass of the remaining part from the centre of the original disc.",
+        "hi": "$2R$ त्रिज्या की एकसमान वृत्तीय चकती से $R$ त्रिज्या का एक वृत्ताकार छिद्र इस प्रकार काटा जाता है कि छिद्र चकती की परिधि को स्पर्श करे (इसका केंद्र चकती के केंद्र से $R$ दूरी पर है)। यदि $R = 6\\text{ cm}$ है, तो शेष भाग के द्रव्यमान केंद्र की मूल चकती के केंद्र से दूरी (cm में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "Mass ∝ area. Full disc: area $4\\pi R^2$ at the origin; removed part: area $\\pi R^2$ at $x = R$. Remaining area $3\\pi R^2$ at $x_{cm}$: $4\\pi R^2(0) = 3\\pi R^2 x_{cm} + \\pi R^2(R) \\Rightarrow x_{cm} = -\\frac{R}{3}$. Distance $= \\frac{R}{3} = 2$ cm, on the side opposite to the hole.",
+        "hi": "द्रव्यमान ∝ क्षेत्रफल। पूरी चकती: क्षेत्रफल $4\\pi R^2$ मूलबिंदु पर; हटाया गया भाग: क्षेत्रफल $\\pi R^2$, $x = R$ पर। शेष क्षेत्रफल $3\\pi R^2$, $x_{cm}$ पर: $4\\pi R^2(0) = 3\\pi R^2 x_{cm} + \\pi R^2(R) \\Rightarrow x_{cm} = -\\frac{R}{3}$। दूरी $= \\frac{R}{3} = 2$ cm, छिद्र के विपरीत ओर।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-04",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "In Lassaigne's test, the formation of a Prussian blue colour on adding FeSO₄ and then acidifying the sodium fusion extract indicates the presence of:",
+        "hi": "लैसें परीक्षण में सोडियम संगलन निष्कर्ष में FeSO₄ मिलाकर अम्लीकृत करने पर प्रशियन नीला रंग बनना किसकी उपस्थिति दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Sulphur", "hi": "सल्फ़र"}},
+        {"id": "B", "text": {"en": "Nitrogen", "hi": "नाइट्रोजन"}},
+        {"id": "C", "text": {"en": "Chlorine", "hi": "क्लोरीन"}},
+        {"id": "D", "text": {"en": "Phosphorus", "hi": "फ़ॉस्फ़ोरस"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "On fusion with Na, nitrogen (with carbon) forms NaCN. CN⁻ reacts with FeSO₄ to form [Fe(CN)₆]⁴⁻, which combines with Fe³⁺ to give Prussian blue, Fe₄[Fe(CN)₆]₃. (If both N and S are present, a blood-red colour with Fe³⁺ appears due to SCN⁻.)",
+        "hi": "Na के साथ संगलन पर नाइट्रोजन (कार्बन के साथ) NaCN बनाता है। CN⁻, FeSO₄ से अभिक्रिया करके [Fe(CN)₆]⁴⁻ बनाता है, जो Fe³⁺ से मिलकर प्रशियन नीला, Fe₄[Fe(CN)₆]₃ देता है। (यदि N और S दोनों उपस्थित हों, तो SCN⁻ के कारण Fe³⁺ के साथ रक्त-लाल रंग आता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-05",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Aniline is separated from a mixture of aniline and water by:",
+        "hi": "ऐनिलीन और जल के मिश्रण से ऐनिलीन को किसके द्वारा पृथक किया जाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Steam distillation", "hi": "भाप आसवन"}},
+        {"id": "B", "text": {"en": "Simple distillation", "hi": "साधारण आसवन"}},
+        {"id": "C", "text": {"en": "Sublimation", "hi": "ऊर्ध्वपातन"}},
+        {"id": "D", "text": {"en": "Crystallisation", "hi": "क्रिस्टलन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Aniline is steam-volatile and immiscible with water. In steam distillation, the mixture boils when the sum of the vapour pressures of aniline and water equals atmospheric pressure — i.e. below 100°C — so aniline distils without decomposing at its high normal boiling point (184°C).",
+        "hi": "ऐनिलीन भाप-वाष्पशील है और जल में अमिश्रणीय है। भाप आसवन में मिश्रण तब उबलता है जब ऐनिलीन और जल के वाष्प दाबों का योग वायुमंडलीय दाब के बराबर हो जाए — अर्थात 100°C से कम पर — अतः ऐनिलीन अपने उच्च सामान्य क्वथनांक (184°C) पर अपघटित हुए बिना आसवित हो जाती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In a Carius estimation, 0.2 g of an organic compound gave 0.287 g of AgCl. Find the percentage of chlorine in the compound. (Molar mass of AgCl = 143.5 g/mol, atomic mass of Cl = 35.5)",
+        "hi": "कैरियस आकलन में 0.2 g कार्बनिक यौगिक से 0.287 g AgCl प्राप्त हुआ। यौगिक में क्लोरीन की प्रतिशतता ज्ञात कीजिए। (AgCl का मोलर द्रव्यमान = 143.5 g/mol, Cl का परमाणु द्रव्यमान = 35.5)"
+      },
+      "options": [],
+      "correctAnswer": 35.5,
+      "solution": {
+        "en": "143.5 g AgCl contains 35.5 g Cl. Mass of Cl in 0.287 g AgCl $= \\frac{35.5}{143.5} \\times 0.287 = 0.071$ g. Percentage $= \\frac{0.071}{0.2} \\times 100 = 35.5\\%$.",
+        "hi": "143.5 g AgCl में 35.5 g Cl होता है। 0.287 g AgCl में Cl का द्रव्यमान $= \\frac{35.5}{143.5} \\times 0.287 = 0.071$ g। प्रतिशतता $= \\frac{0.071}{0.2} \\times 100 = 35.5\\%$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f(x) = |x|$, $x \\in \\mathbb{R}$, is:",
+        "hi": "फलन $f(x) = |x|$, $x \\in \\mathbb{R}$, है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "An odd function", "hi": "एक विषम फलन"}},
+        {"id": "B", "text": {"en": "Neither even nor odd", "hi": "न सम न विषम"}},
+        {"id": "C", "text": {"en": "Both even and odd", "hi": "सम और विषम दोनों"}},
+        {"id": "D", "text": {"en": "An even function", "hi": "एक सम फलन"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$f(-x) = |-x| = |x| = f(x)$ for all $x$, so $f$ is even (its graph is symmetric about the y-axis). The only function that is both even and odd is $f(x) = 0$.",
+        "hi": "सभी $x$ के लिए $f(-x) = |-x| = |x| = f(x)$, अतः $f$ सम है (इसका ग्राफ़ y-अक्ष के परितः सममित है)। केवल $f(x) = 0$ ही सम और विषम दोनों है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-08",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of distinct terms in the expansion of $(x + y + z)^4$ is:",
+        "hi": "$(x + y + z)^4$ के प्रसार में भिन्न पदों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "12", "hi": "12"}},
+        {"id": "C", "text": {"en": "15", "hi": "15"}},
+        {"id": "D", "text": {"en": "10", "hi": "10"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Each term is $x^a y^b z^c$ with $a + b + c = 4$, $a, b, c \\ge 0$. The number of solutions is ${}^{n+r-1}C_{r-1} = {}^{4+2}C_2 = {}^6C_2 = 15$.",
+        "hi": "प्रत्येक पद $x^a y^b z^c$ है जहाँ $a + b + c = 4$, $a, b, c \\ge 0$। हलों की संख्या ${}^{n+r-1}C_{r-1} = {}^{4+2}C_2 = {}^6C_2 = 15$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The eccentricity of a rectangular hyperbola is:",
+        "hi": "एक आयतीय अतिपरवलय की उत्केंद्रता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "√2", "hi": "√2"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "1/√2", "hi": "1/√2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A rectangular hyperbola has $a = b$ (asymptotes perpendicular). $e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + 1} = \\sqrt{2}$.",
+        "hi": "आयतीय अतिपरवलय में $a = b$ होता है (अनंतस्पर्शी परस्पर लंबवत)। $e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + 1} = \\sqrt{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-17-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The area of the triangle with vertices $(k, 0)$, $(4, 0)$ and $(0, 2)$ is 4 square units. Find the sum of all possible values of $k$.",
+        "hi": "शीर्षों $(k, 0)$, $(4, 0)$ और $(0, 2)$ वाले त्रिभुज का क्षेत्रफल 4 वर्ग इकाई है। $k$ के सभी संभव मानों का योग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Area $= \\frac{1}{2}\\left|\\begin{vmatrix} k & 0 & 1 \\\\ 4 & 0 & 1 \\\\ 0 & 2 & 1 \\end{vmatrix}\\right| = \\frac{1}{2}|k(0 - 2) - 0 + 1(8 - 0)| = |4 - k|$. Setting $|4 - k| = 4$: $k = 0$ or $k = 8$. Sum $= 8$. (Remember the modulus — missing it loses one value.)",
+        "hi": "क्षेत्रफल $= \\frac{1}{2}\\left|\\begin{vmatrix} k & 0 & 1 \\\\ 4 & 0 & 1 \\\\ 0 & 2 & 1 \\end{vmatrix}\\right| = \\frac{1}{2}|k(0 - 2) - 0 + 1(8 - 0)| = |4 - k|$। $|4 - k| = 4$ रखने पर: $k = 0$ या $k = 8$। योग $= 8$। (मापांक याद रखें — इसे भूलने पर एक मान छूट जाता है।)"
+      }
+    }
+  ]
+}

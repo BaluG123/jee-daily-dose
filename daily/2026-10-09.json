@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-09",
+  "questions": [
+    {
+      "id": "dd-2026-10-09-01",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The relation between wave speed $v$, frequency $f$ and wavelength $\\lambda$ is:",
+        "hi": "तरंग चाल $v$, आवृत्ति $f$ और तरंगदैर्ध्य $\\lambda$ के बीच संबंध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "v = f/λ", "hi": "v = f/λ"}},
+        {"id": "B", "text": {"en": "v = λ/f", "hi": "v = λ/f"}},
+        {"id": "C", "text": {"en": "v = fλ", "hi": "v = fλ"}},
+        {"id": "D", "text": {"en": "v = f²λ", "hi": "v = f²λ"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In one time period $T$ the wave advances one wavelength, so $v = \\frac{\\lambda}{T} = f\\lambda$.",
+        "hi": "एक आवर्तकाल $T$ में तरंग एक तरंगदैर्ध्य आगे बढ़ती है, अतः $v = \\frac{\\lambda}{T} = f\\lambda$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-02",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. The number of beats heard per second is:",
+        "hi": "256 Hz और 260 Hz आवृत्तियों के दो स्वरित्र एक साथ बजाए जाते हैं। प्रति सेकंड सुनाई देने वाले विस्पंदों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "516", "hi": "516"}},
+        {"id": "B", "text": {"en": "4", "hi": "4"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "8", "hi": "8"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Beat frequency $= |f_1 - f_2| = |260 - 256| = 4$ beats per second.",
+        "hi": "विस्पंद आवृत्ति $= |f_1 - f_2| = |260 - 256| = 4$ विस्पंद प्रति सेकंड।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-03",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A string of length 1 m and linear mass density 0.01 kg/m is fixed at both ends and stretched with a tension of 100 N. Find its fundamental frequency (in Hz).",
+        "hi": "1 m लंबी और 0.01 kg/m रैखिक द्रव्यमान घनत्व वाली एक डोरी दोनों सिरों पर बँधी है और 100 N तनाव से तनी है। इसकी मूल आवृत्ति (Hz में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 50,
+      "solution": {
+        "en": "Wave speed $v = \\sqrt{\\frac{T}{\\mu}} = \\sqrt{\\frac{100}{0.01}} = 100\\text{ m/s}$. Fundamental: $L = \\frac{\\lambda}{2}$, so $f_1 = \\frac{v}{2L} = \\frac{100}{2} = 50\\text{ Hz}$.",
+        "hi": "तरंग चाल $v = \\sqrt{\\frac{T}{\\mu}} = \\sqrt{\\frac{100}{0.01}} = 100\\text{ m/s}$। मूल विधा: $L = \\frac{\\lambda}{2}$, अतः $f_1 = \\frac{v}{2L} = \\frac{100}{2} = 50\\text{ Hz}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-04",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is NOT regarded as a transition element?",
+        "hi": "निम्नलिखित में से किसे संक्रमण तत्व नहीं माना जाता?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fe", "hi": "Fe"}},
+        {"id": "B", "text": {"en": "Cu", "hi": "Cu"}},
+        {"id": "C", "text": {"en": "Mn", "hi": "Mn"}},
+        {"id": "D", "text": {"en": "Zn", "hi": "Zn"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "A transition element has an incompletely filled d subshell in its ground state or in a common oxidation state. Zn (3d¹⁰ 4s²) and Zn²⁺ (3d¹⁰) both have completely filled d orbitals, so Zn is not a transition element. Cu is, because Cu²⁺ is 3d⁹.",
+        "hi": "संक्रमण तत्व की मूल अवस्था या किसी सामान्य ऑक्सीकरण अवस्था में d उपकोश अपूर्ण भरा होता है। Zn (3d¹⁰ 4s²) और Zn²⁺ (3d¹⁰) दोनों में d कक्षक पूर्णतः भरे हैं, अतः Zn संक्रमण तत्व नहीं है। Cu है, क्योंकि Cu²⁺ 3d⁹ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-05",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The coordination number of iron in [Fe(C₂O₄)₃]³⁻ is:",
+        "hi": "[Fe(C₂O₄)₃]³⁻ में आयरन की उपसहसंयोजन संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3", "hi": "3"}},
+        {"id": "B", "text": {"en": "9", "hi": "9"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Oxalate (C₂O₄²⁻) is a bidentate ligand — it binds through two O atoms. Three oxalates give $3 \\times 2 = 6$ donor atoms, so the coordination number is 6 (octahedral). Coordination number counts donor atoms, not ligands.",
+        "hi": "ऑक्सेलेट (C₂O₄²⁻) एक द्विदंतुर लिगैंड है — यह दो O परमाणुओं से जुड़ता है। तीन ऑक्सेलेट से $3 \\times 2 = 6$ दाता परमाणु मिलते हैं, अतः उपसहसंयोजन संख्या 6 (अष्टफलकीय) है। उपसहसंयोजन संख्या दाता परमाणुओं की गिनती है, लिगैंडों की नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The spin-only magnetic moment of [Fe(H₂O)₆]²⁺ is approximately:",
+        "hi": "[Fe(H₂O)₆]²⁺ का केवल-चक्रण (spin-only) चुंबकीय आघूर्ण लगभग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0 BM", "hi": "0 BM"}},
+        {"id": "B", "text": {"en": "4.90 BM", "hi": "4.90 BM"}},
+        {"id": "C", "text": {"en": "2.83 BM", "hi": "2.83 BM"}},
+        {"id": "D", "text": {"en": "5.92 BM", "hi": "5.92 BM"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Fe²⁺ is 3d⁶. H₂O is a weak-field ligand, so the complex is high-spin: t₂g⁴ e_g², with 4 unpaired electrons. $\\mu = \\sqrt{n(n + 2)} = \\sqrt{24} \\approx 4.90$ BM. (Low-spin Fe²⁺, as in [Fe(CN)₆]⁴⁻, is diamagnetic; high-spin Fe³⁺ (d⁵) gives 5.92 BM.)",
+        "hi": "Fe²⁺ का विन्यास 3d⁶ है। H₂O दुर्बल क्षेत्र लिगैंड है, अतः संकुल उच्च-चक्रण है: t₂g⁴ e_g², जिसमें 4 अयुग्मित इलेक्ट्रॉन हैं। $\\mu = \\sqrt{n(n + 2)} = \\sqrt{24} \\approx 4.90$ BM। (निम्न-चक्रण Fe²⁺, जैसे [Fe(CN)₆]⁴⁻, प्रतिचुंबकीय होता है; उच्च-चक्रण Fe³⁺ (d⁵) 5.92 BM देता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-07",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "$\\sin(\\pi - \\theta)$ is equal to:",
+        "hi": "$\\sin(\\pi - \\theta)$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−sin θ", "hi": "−sin θ"}},
+        {"id": "B", "text": {"en": "cos θ", "hi": "cos θ"}},
+        {"id": "C", "text": {"en": "−cos θ", "hi": "−cos θ"}},
+        {"id": "D", "text": {"en": "sin θ", "hi": "sin θ"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\pi - \\theta$ lies in the second quadrant (for acute $\\theta$), where sine is positive, and the function name doesn't change for $\\pi \\pm \\theta$. So $\\sin(\\pi - \\theta) = \\sin\\theta$.",
+        "hi": "$\\pi - \\theta$ (न्यून $\\theta$ के लिए) द्वितीय चतुर्थांश में है, जहाँ sine धनात्मक होता है, और $\\pi \\pm \\theta$ के लिए फलन का नाम नहीं बदलता। अतः $\\sin(\\pi - \\theta) = \\sin\\theta$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The principal argument of $-1 + i\\sqrt{3}$ is:",
+        "hi": "$-1 + i\\sqrt{3}$ का मुख्य कोणांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2π/3", "hi": "2π/3"}},
+        {"id": "B", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "C", "text": {"en": "−π/3", "hi": "−π/3"}},
+        {"id": "D", "text": {"en": "5π/6", "hi": "5π/6"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The point $(-1, \\sqrt{3})$ lies in the second quadrant. Reference angle $\\alpha = \\tan^{-1}\\frac{\\sqrt{3}}{1} = \\frac{\\pi}{3}$, so $\\arg z = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$. (Also $|z| = 2$.)",
+        "hi": "बिंदु $(-1, \\sqrt{3})$ द्वितीय चतुर्थांश में है। संदर्भ कोण $\\alpha = \\tan^{-1}\\frac{\\sqrt{3}}{1} = \\frac{\\pi}{3}$, अतः $\\arg z = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$। (साथ ही $|z| = 2$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-09",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The term independent of $x$ in the expansion of $\\left(2x - \\frac{1}{x}\\right)^6$ is:",
+        "hi": "$\\left(2x - \\frac{1}{x}\\right)^6$ के प्रसार में $x$ से स्वतंत्र पद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−160", "hi": "−160"}},
+        {"id": "B", "text": {"en": "160", "hi": "160"}},
+        {"id": "C", "text": {"en": "−20", "hi": "−20"}},
+        {"id": "D", "text": {"en": "20", "hi": "20"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$T_{r+1} = {}^6C_r (2x)^{6-r}\\left(-\\frac{1}{x}\\right)^r = {}^6C_r\\, 2^{6-r}(-1)^r x^{6-2r}$. Constant term: $6 - 2r = 0 \\Rightarrow r = 3$. Value $= 20 \\times 8 \\times (-1) = -160$.",
+        "hi": "$T_{r+1} = {}^6C_r (2x)^{6-r}\\left(-\\frac{1}{x}\\right)^r = {}^6C_r\\, 2^{6-r}(-1)^r x^{6-2r}$। अचर पद: $6 - 2r = 0 \\Rightarrow r = 3$। मान $= 20 \\times 8 \\times (-1) = -160$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-09-10",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An ellipse centred at the origin has its foci at $(\\pm 4, 0)$ and eccentricity $\\frac{4}{5}$. Find the length of its minor axis.",
+        "hi": "मूलबिंदु पर केंद्रित एक दीर्घवृत्त की नाभियाँ $(\\pm 4, 0)$ पर हैं और उत्केंद्रता $\\frac{4}{5}$ है। इसके लघु अक्ष की लंबाई ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "$ae = 4$ with $e = \\frac{4}{5} \\Rightarrow a = 5$. $b^2 = a^2(1 - e^2) = 25 - 16 = 9 \\Rightarrow b = 3$. Length of minor axis $= 2b = 6$. Equation: $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+        "hi": "$ae = 4$ और $e = \\frac{4}{5} \\Rightarrow a = 5$। $b^2 = a^2(1 - e^2) = 25 - 16 = 9 \\Rightarrow b = 3$। लघु अक्ष की लंबाई $= 2b = 6$। समीकरण: $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$।"
+      }
+    }
+  ]
+}

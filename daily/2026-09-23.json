@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-23",
+  "questions": [
+    {
+      "id": "dd-2026-09-23-01",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Solids",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of Young's modulus is:",
+        "hi": "यंग गुणांक का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "N m⁻² (Pa)", "hi": "N m⁻² (Pa)"}},
+        {"id": "B", "text": {"en": "N m⁻¹", "hi": "N m⁻¹"}},
+        {"id": "C", "text": {"en": "N m", "hi": "N m"}},
+        {"id": "D", "text": {"en": "No unit (dimensionless)", "hi": "कोई मात्रक नहीं (विमाहीन)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$Y = \\frac{\\text{stress}}{\\text{strain}}$. Strain is dimensionless, so $Y$ has the unit of stress, i.e. N m⁻² or pascal (Pa).",
+        "hi": "$Y = \\frac{\\text{stress}}{\\text{strain}}$। विकृति विमाहीन होती है, अतः $Y$ का मात्रक प्रतिबल का मात्रक है, अर्थात N m⁻² या पास्कल (Pa)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The terminal velocity of a small spherical ball falling through a viscous liquid is proportional to ($r$ = radius of the ball):",
+        "hi": "किसी श्यान द्रव में गिरती हुई छोटी गोलाकार गेंद का सीमांत वेग किसके अनुक्रमानुपाती होता है? ($r$ = गेंद की त्रिज्या)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "r", "hi": "r"}},
+        {"id": "B", "text": {"en": "r³", "hi": "r³"}},
+        {"id": "C", "text": {"en": "r²", "hi": "r²"}},
+        {"id": "D", "text": {"en": "1/r", "hi": "1/r"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "At terminal velocity, weight = buoyant force + Stokes' drag, which gives $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$. Hence $v_t \\propto r^2$.",
+        "hi": "सीमांत वेग पर, भार = उत्प्लावन बल + स्टोक्स कर्षण, जिससे $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$ प्राप्त होता है। अतः $v_t \\propto r^2$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-03",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "20 g of ice at 0°C is added to 100 g of water at 40°C in an insulated container. Find the final temperature (in °C) of the mixture. (Latent heat of fusion of ice = 80 cal/g, specific heat of water = 1 cal/g°C; neglect the heat capacity of the container)",
+        "hi": "एक ऊष्मारोधी पात्र में 40°C पर रखे 100 g जल में 0°C की 20 g बर्फ़ डाली जाती है। मिश्रण का अंतिम ताप (°C में) ज्ञात कीजिए। (बर्फ़ की गलन की गुप्त ऊष्मा = 80 cal/g, जल की विशिष्ट ऊष्मा = 1 cal/g°C; पात्र की ऊष्मा धारिता नगण्य मानें)"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "First check whether all ice melts: heat needed $= 20 \\times 80 = 1600$ cal, while water can give $100 \\times 40 = 4000$ cal on cooling to 0°C. Since $4000 > 1600$, all ice melts. Heat lost = heat gained: $100(1)(40 - T) = 1600 + 20(1)(T - 0) \\Rightarrow 4000 - 100T = 1600 + 20T \\Rightarrow T = 20^\\circ\\text{C}$.",
+        "hi": "पहले जाँचें कि क्या पूरी बर्फ़ पिघलेगी: आवश्यक ऊष्मा $= 20 \\times 80 = 1600$ cal, जबकि जल 0°C तक ठंडा होकर $100 \\times 40 = 4000$ cal दे सकता है। चूँकि $4000 > 1600$, पूरी बर्फ़ पिघल जाएगी। दी गई ऊष्मा = ली गई ऊष्मा: $100(1)(40 - T) = 1600 + 20(1)(T - 0) \\Rightarrow 4000 - 100T = 1600 + 20T \\Rightarrow T = 20^\\circ\\text{C}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-04",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of neutrons in ${}^{37}_{17}\\text{Cl}$ is:",
+        "hi": "${}^{37}_{17}\\text{Cl}$ में न्यूट्रॉनों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "17", "hi": "17"}},
+        {"id": "B", "text": {"en": "37", "hi": "37"}},
+        {"id": "C", "text": {"en": "54", "hi": "54"}},
+        {"id": "D", "text": {"en": "20", "hi": "20"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Number of neutrons = mass number − atomic number $= 37 - 17 = 20$.",
+        "hi": "न्यूट्रॉनों की संख्या = द्रव्यमान संख्या − परमाणु क्रमांक $= 37 - 17 = 20$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The hybridisation of sulphur in SF₆ is:",
+        "hi": "SF₆ में सल्फ़र का संकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sp³d²", "hi": "sp³d²"}},
+        {"id": "B", "text": {"en": "sp³d", "hi": "sp³d"}},
+        {"id": "C", "text": {"en": "sp³", "hi": "sp³"}},
+        {"id": "D", "text": {"en": "dsp²", "hi": "dsp²"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "S forms 6 S–F sigma bonds and has no lone pair, so it needs 6 hybrid orbitals: one 3s, three 3p and two 3d → sp³d². The geometry is octahedral.",
+        "hi": "S छह S–F सिग्मा आबंध बनाता है और इस पर कोई एकाकी युग्म नहीं है, अतः 6 संकर कक्षक चाहिए: एक 3s, तीन 3p और दो 3d → sp³d²। ज्यामिति अष्टफलकीय है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Ozonolysis of 2-methylbut-2-ene followed by treatment with Zn/H₂O gives:",
+        "hi": "2-मेथिलब्यूट-2-ईन का ओज़ोनीअपघटन करके Zn/H₂O से उपचार करने पर प्राप्त होते हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Two molecules of ethanal", "hi": "एथेनैल के दो अणु"}},
+        {"id": "B", "text": {"en": "Propanone and methanal", "hi": "प्रोपेनोन और मेथेनैल"}},
+        {"id": "C", "text": {"en": "Propanone (acetone) and ethanal (acetaldehyde)", "hi": "प्रोपेनोन (ऐसीटोन) और एथेनैल (ऐसीटैल्डिहाइड)"}},
+        {"id": "D", "text": {"en": "Propanal and methanal", "hi": "प्रोपेनैल और मेथेनैल"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "2-Methylbut-2-ene is (CH₃)₂C=CH–CH₃. Reductive ozonolysis cleaves the C=C bond and converts each doubly bonded carbon into a C=O group: (CH₃)₂C=O (propanone) + O=CH–CH₃ (ethanal). Trick: just break the double bond and put =O on both carbons.",
+        "hi": "2-मेथिलब्यूट-2-ईन (CH₃)₂C=CH–CH₃ है। अपचायी ओज़ोनीअपघटन C=C आबंध को तोड़ता है और प्रत्येक द्विआबंधित कार्बन को C=O समूह में बदल देता है: (CH₃)₂C=O (प्रोपेनोन) + O=CH–CH₃ (एथेनैल)। ट्रिक: द्विआबंध तोड़ें और दोनों कार्बनों पर =O लगा दें।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-07",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\sin 75^\\circ$ is:",
+        "hi": "$\\sin 75^\\circ$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(√6 − √2)/4", "hi": "(√6 − √2)/4"}},
+        {"id": "B", "text": {"en": "(√6 + √2)/4", "hi": "(√6 + √2)/4"}},
+        {"id": "C", "text": {"en": "(√3 + 1)/2", "hi": "(√3 + 1)/2"}},
+        {"id": "D", "text": {"en": "(√3 − 1)/2", "hi": "(√3 − 1)/2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\sin 75^\\circ = \\sin(45^\\circ + 30^\\circ) = \\sin 45^\\circ\\cos 30^\\circ + \\cos 45^\\circ\\sin 30^\\circ = \\frac{1}{\\sqrt{2}}\\cdot\\frac{\\sqrt{3}}{2} + \\frac{1}{\\sqrt{2}}\\cdot\\frac{1}{2} = \\frac{\\sqrt{3} + 1}{2\\sqrt{2}} = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$.",
+        "hi": "$\\sin 75^\\circ = \\sin(45^\\circ + 30^\\circ) = \\sin 45^\\circ\\cos 30^\\circ + \\cos 45^\\circ\\sin 30^\\circ = \\frac{1}{\\sqrt{2}}\\cdot\\frac{\\sqrt{3}}{2} + \\frac{1}{\\sqrt{2}}\\cdot\\frac{1}{2} = \\frac{\\sqrt{3} + 1}{2\\sqrt{2}} = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\alpha$ and $\\beta$ are the roots of $x^2 - 5x + 6 = 0$, then $\\alpha^2 + \\beta^2$ equals:",
+        "hi": "यदि $\\alpha$ और $\\beta$ समीकरण $x^2 - 5x + 6 = 0$ के मूल हैं, तो $\\alpha^2 + \\beta^2$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "25", "hi": "25"}},
+        {"id": "B", "text": {"en": "13", "hi": "13"}},
+        {"id": "C", "text": {"en": "12", "hi": "12"}},
+        {"id": "D", "text": {"en": "37", "hi": "37"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\alpha + \\beta = 5$, $\\alpha\\beta = 6$. $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 25 - 12 = 13$. (Check: roots are 2 and 3, and $4 + 9 = 13$.)",
+        "hi": "$\\alpha + \\beta = 5$, $\\alpha\\beta = 6$। $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 25 - 12 = 13$। (जाँच: मूल 2 और 3 हैं, तथा $4 + 9 = 13$।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two fair dice are thrown together. The probability that the sum of the numbers obtained is 7 is:",
+        "hi": "दो निष्पक्ष पासे एक साथ फेंके जाते हैं। प्राप्त संख्याओं का योग 7 होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7/36", "hi": "7/36"}},
+        {"id": "B", "text": {"en": "5/36", "hi": "5/36"}},
+        {"id": "C", "text": {"en": "1/12", "hi": "1/12"}},
+        {"id": "D", "text": {"en": "1/6", "hi": "1/6"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Total outcomes $= 36$. Favourable: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$ = 6. Probability $= \\frac{6}{36} = \\frac{1}{6}$. (7 is the most likely sum with two dice.)",
+        "hi": "कुल परिणाम $= 36$। अनुकूल: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$ = 6। प्रायिकता $= \\frac{6}{36} = \\frac{1}{6}$। (दो पासों में 7 सबसे अधिक संभावित योग है।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-23-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the value of $\\sum_{k=1}^{10} k(k + 1)$.",
+        "hi": "$\\sum_{k=1}^{10} k(k + 1)$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 440,
+      "solution": {
+        "en": "$\\sum k(k+1) = \\sum k^2 + \\sum k = \\frac{n(n+1)(2n+1)}{6} + \\frac{n(n+1)}{2}$. For $n = 10$: $385 + 55 = 440$. (Shortcut: $\\sum_{k=1}^{n} k(k+1) = \\frac{n(n+1)(n+2)}{3} = \\frac{10 \\cdot 11 \\cdot 12}{3} = 440$.)",
+        "hi": "$\\sum k(k+1) = \\sum k^2 + \\sum k = \\frac{n(n+1)(2n+1)}{6} + \\frac{n(n+1)}{2}$। $n = 10$ के लिए: $385 + 55 = 440$। (शॉर्टकट: $\\sum_{k=1}^{n} k(k+1) = \\frac{n(n+1)(n+2)}{3} = \\frac{10 \\cdot 11 \\cdot 12}{3} = 440$।)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-06",
+  "questions": [
+    {
+      "id": "dd-2026-10-06-01",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The slope of a position–time ($x$–$t$) graph gives the:",
+        "hi": "स्थिति–समय ($x$–$t$) ग्राफ़ का ढाल क्या देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Acceleration", "hi": "त्वरण"}},
+        {"id": "B", "text": {"en": "Displacement", "hi": "विस्थापन"}},
+        {"id": "C", "text": {"en": "Velocity", "hi": "वेग"}},
+        {"id": "D", "text": {"en": "Distance", "hi": "दूरी"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Slope of $x$–$t$ graph $= \\frac{dx}{dt} = v$ (instantaneous velocity). A straight-line $x$–$t$ graph means uniform velocity; a curved one means acceleration.",
+        "hi": "$x$–$t$ ग्राफ़ का ढाल $= \\frac{dx}{dt} = v$ (तात्क्षणिक वेग)। सरल रेखीय $x$–$t$ ग्राफ़ का अर्थ एकसमान वेग है; वक्र ग्राफ़ का अर्थ त्वरण है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-02",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The coefficient of restitution $e$ for a perfectly inelastic collision is:",
+        "hi": "पूर्णतः अप्रत्यास्थ संघट्ट के लिए प्रत्यावस्थान गुणांक $e$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "0.5", "hi": "0.5"}},
+        {"id": "D", "text": {"en": "∞", "hi": "∞"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$e = \\frac{\\text{velocity of separation}}{\\text{velocity of approach}}$. In a perfectly inelastic collision the bodies stick together, so the velocity of separation is zero and $e = 0$. (Perfectly elastic: $e = 1$.)",
+        "hi": "$e = \\frac{\\text{velocity of separation}}{\\text{velocity of approach}}$। पूर्णतः अप्रत्यास्थ संघट्ट में पिंड आपस में चिपक जाते हैं, अतः पृथक्करण वेग शून्य और $e = 0$। (पूर्णतः प्रत्यास्थ: $e = 1$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-03",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A satellite revolving in a circular orbit of radius $R$ around a planet has a time period of 3 hours. Find the time period (in hours) of another satellite orbiting the same planet in a circular orbit of radius $4R$.",
+        "hi": "किसी ग्रह के चारों ओर $R$ त्रिज्या की वृत्तीय कक्षा में परिक्रमा करने वाले उपग्रह का आवर्तकाल 3 घंटे है। उसी ग्रह के चारों ओर $4R$ त्रिज्या की वृत्तीय कक्षा में परिक्रमा करने वाले दूसरे उपग्रह का आवर्तकाल (घंटों में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 24,
+      "solution": {
+        "en": "Kepler's third law: $T^2 \\propto r^3 \\Rightarrow \\frac{T_2}{T_1} = \\left(\\frac{r_2}{r_1}\\right)^{3/2} = 4^{3/2} = 8$. $T_2 = 8 \\times 3 = 24$ hours. (The period does not depend on the satellite's mass.)",
+        "hi": "केप्लर का तृतीय नियम: $T^2 \\propto r^3 \\Rightarrow \\frac{T_2}{T_1} = \\left(\\frac{r_2}{r_1}\\right)^{3/2} = 4^{3/2} = 8$। $T_2 = 8 \\times 3 = 24$ घंटे। (आवर्तकाल उपग्रह के द्रव्यमान पर निर्भर नहीं करता।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-04",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The ground-state electronic configuration of chromium (Z = 24) is:",
+        "hi": "क्रोमियम (Z = 24) का मूल अवस्था इलेक्ट्रॉनिक विन्यास है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[Ar] 3d⁵ 4s¹", "hi": "[Ar] 3d⁵ 4s¹"}},
+        {"id": "B", "text": {"en": "[Ar] 3d⁴ 4s²", "hi": "[Ar] 3d⁴ 4s²"}},
+        {"id": "C", "text": {"en": "[Ar] 3d⁶", "hi": "[Ar] 3d⁶"}},
+        {"id": "D", "text": {"en": "[Ar] 3d³ 4s² 4p¹", "hi": "[Ar] 3d³ 4s² 4p¹"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Expected [Ar] 3d⁴ 4s², but the actual configuration is [Ar] 3d⁵ 4s¹ because a half-filled d subshell has extra stability (symmetry and greater exchange energy). Copper shows a similar exception: [Ar] 3d¹⁰ 4s¹.",
+        "hi": "अपेक्षित [Ar] 3d⁴ 4s² है, परंतु वास्तविक विन्यास [Ar] 3d⁵ 4s¹ है क्योंकि अर्धपूरित d उपकोश अधिक स्थायी होता है (सममिति और अधिक विनिमय ऊर्जा)। कॉपर में भी ऐसा ही अपवाद है: [Ar] 3d¹⁰ 4s¹।"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-05",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following elements has the most negative electron gain enthalpy?",
+        "hi": "निम्नलिखित में से किस तत्व की इलेक्ट्रॉन लब्धि एन्थैल्पी सबसे अधिक ऋणात्मक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "F", "hi": "F"}},
+        {"id": "B", "text": {"en": "Br", "hi": "Br"}},
+        {"id": "C", "text": {"en": "Cl", "hi": "Cl"}},
+        {"id": "D", "text": {"en": "O", "hi": "O"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Although F is more electronegative, its very small 2p subshell causes strong electron–electron repulsion for the incoming electron. So Cl (−349 kJ/mol) has a more negative electron gain enthalpy than F (−328 kJ/mol).",
+        "hi": "यद्यपि F अधिक विद्युत ऋणात्मक है, परंतु इसके बहुत छोटे 2p उपकोश में आने वाले इलेक्ट्रॉन को प्रबल इलेक्ट्रॉन–इलेक्ट्रॉन प्रतिकर्षण झेलना पड़ता है। अतः Cl (−349 kJ/mol) की इलेक्ट्रॉन लब्धि एन्थैल्पी F (−328 kJ/mol) से अधिक ऋणात्मक है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-06",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In the balanced ionic equation for the reaction MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺ + H₂O (smallest whole-number coefficients), find the coefficient of H⁺.",
+        "hi": "अभिक्रिया MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺ + H₂O के संतुलित आयनिक समीकरण (न्यूनतम पूर्णांक गुणांक) में H⁺ का गुणांक ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Reduction half: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Oxidation half: Fe²⁺ → Fe³⁺ + e⁻ (multiply by 5). Adding: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Coefficient of H⁺ = 8. Check charge: left $-1 + 10 + 8 = +17$; right $+2 + 15 = +17$ ✓.",
+        "hi": "अपचयन अर्ध-अभिक्रिया: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O। ऑक्सीकरण अर्ध-अभिक्रिया: Fe²⁺ → Fe³⁺ + e⁻ (5 से गुणा)। जोड़ने पर: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O। H⁺ का गुणांक = 8। आवेश जाँच: बायाँ $-1 + 10 + 8 = +17$; दायाँ $+2 + 15 = +17$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $e^{3x}$ with respect to $x$ is:",
+        "hi": "$x$ के सापेक्ष $e^{3x}$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "e³ˣ", "hi": "e³ˣ"}},
+        {"id": "B", "text": {"en": "e³ˣ/3", "hi": "e³ˣ/3"}},
+        {"id": "C", "text": {"en": "3x·e³ˣ", "hi": "3x·e³ˣ"}},
+        {"id": "D", "text": {"en": "3e³ˣ", "hi": "3e³ˣ"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Chain rule: $\\frac{d}{dx}e^{3x} = e^{3x} \\cdot \\frac{d}{dx}(3x) = 3e^{3x}$.",
+        "hi": "शृंखला नियम: $\\frac{d}{dx}e^{3x} = e^{3x} \\cdot \\frac{d}{dx}(3x) = 3e^{3x}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A committee of 3 is to be formed from 5 men and 4 women. In how many ways can it be formed so that it contains exactly 2 women?",
+        "hi": "5 पुरुषों और 4 महिलाओं में से 3 सदस्यों की एक समिति बनानी है। इसे कितने प्रकार से बनाया जा सकता है ताकि इसमें ठीक 2 महिलाएँ हों?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "60", "hi": "60"}},
+        {"id": "B", "text": {"en": "15", "hi": "15"}},
+        {"id": "C", "text": {"en": "84", "hi": "84"}},
+        {"id": "D", "text": {"en": "30", "hi": "30"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Choose 2 women from 4: ${}^4C_2 = 6$; choose 1 man from 5: ${}^5C_1 = 5$. Total $= 6 \\times 5 = 30$. (84 $= {}^9C_3$ is the count with no restriction.)",
+        "hi": "4 में से 2 महिलाएँ: ${}^4C_2 = 6$; 5 में से 1 पुरुष: ${}^5C_1 = 5$। कुल $= 6 \\times 5 = 30$। (84 $= {}^9C_3$ बिना प्रतिबंध की संख्या है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The standard deviation of the observations $2, 4, 6, 8, 10$ is:",
+        "hi": "प्रेक्षणों $2, 4, 6, 8, 10$ का मानक विचलन है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "2√2", "hi": "2√2"}},
+        {"id": "C", "text": {"en": "√2", "hi": "√2"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Mean $= 6$. Deviations: $-4, -2, 0, 2, 4$; squares sum to $16 + 4 + 0 + 4 + 16 = 40$. Variance $= \\frac{40}{5} = 8$, so SD $= \\sqrt{8} = 2\\sqrt{2}$. (Trap: 8 is the variance, not the SD.)",
+        "hi": "माध्य $= 6$। विचलन: $-4, -2, 0, 2, 4$; वर्गों का योग $16 + 4 + 0 + 4 + 16 = 40$। प्रसरण $= \\frac{40}{5} = 8$, अतः मानक विचलन $= \\sqrt{8} = 2\\sqrt{2}$। (ध्यान दें: 8 प्रसरण है, मानक विचलन नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-06-10",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $16\\sin 20^\\circ \\sin 40^\\circ \\sin 80^\\circ = k\\sqrt{3}$, find $k$.",
+        "hi": "यदि $16\\sin 20^\\circ \\sin 40^\\circ \\sin 80^\\circ = k\\sqrt{3}$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "Use the identity $\\sin\\theta\\,\\sin(60^\\circ - \\theta)\\,\\sin(60^\\circ + \\theta) = \\frac{1}{4}\\sin 3\\theta$. With $\\theta = 20^\\circ$: $\\sin 20^\\circ \\sin 40^\\circ \\sin 80^\\circ = \\frac{1}{4}\\sin 60^\\circ = \\frac{\\sqrt{3}}{8}$. So $16 \\times \\frac{\\sqrt{3}}{8} = 2\\sqrt{3}$, giving $k = 2$.",
+        "hi": "सर्वसमिका $\\sin\\theta\\,\\sin(60^\\circ - \\theta)\\,\\sin(60^\\circ + \\theta) = \\frac{1}{4}\\sin 3\\theta$ का प्रयोग करें। $\\theta = 20^\\circ$ रखने पर: $\\sin 20^\\circ \\sin 40^\\circ \\sin 80^\\circ = \\frac{1}{4}\\sin 60^\\circ = \\frac{\\sqrt{3}}{8}$। अतः $16 \\times \\frac{\\sqrt{3}}{8} = 2\\sqrt{3}$, अर्थात $k = 2$।"
+      }
+    }
+  ]
+}

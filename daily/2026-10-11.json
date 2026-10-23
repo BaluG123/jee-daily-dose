@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-11",
+  "questions": [
+    {
+      "id": "dd-2026-10-11-01",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The first law of thermodynamics is a statement of:",
+        "hi": "ऊष्मागतिकी का प्रथम नियम किसका कथन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Conservation of energy", "hi": "ऊर्जा संरक्षण"}},
+        {"id": "B", "text": {"en": "Conservation of momentum", "hi": "संवेग संरक्षण"}},
+        {"id": "C", "text": {"en": "Increase of entropy", "hi": "एन्ट्रॉपी में वृद्धि"}},
+        {"id": "D", "text": {"en": "Thermal equilibrium", "hi": "तापीय साम्य"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\Delta Q = \\Delta U + \\Delta W$: heat supplied to a system goes partly into increasing its internal energy and partly into work done by it. This is the law of conservation of energy applied to thermal systems. (Entropy relates to the second law; thermal equilibrium to the zeroth law.)",
+        "hi": "$\\Delta Q = \\Delta U + \\Delta W$: निकाय को दी गई ऊष्मा का कुछ भाग आंतरिक ऊर्जा बढ़ाने में और कुछ भाग निकाय द्वारा कार्य करने में जाता है। यह ऊष्मीय निकायों पर लागू ऊर्जा संरक्षण का नियम है। (एन्ट्रॉपी द्वितीय नियम से और तापीय साम्य शून्यवें नियम से संबंधित है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-02",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of degrees of freedom of a rigid diatomic gas molecule at room temperature is:",
+        "hi": "कमरे के ताप पर एक दृढ़ द्विपरमाणुक गैस अणु की स्वातंत्र्य कोटियों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3", "hi": "3"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "5", "hi": "5"}},
+        {"id": "D", "text": {"en": "7", "hi": "7"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A diatomic molecule has 3 translational + 2 rotational degrees of freedom (rotation about the molecular axis is negligible) = 5. Vibrational modes are not excited at room temperature. Hence $C_v = \\frac{5}{2}R$ and $\\gamma = \\frac{7}{5}$.",
+        "hi": "द्विपरमाणुक अणु की 3 स्थानांतरीय + 2 घूर्णी स्वातंत्र्य कोटियाँ होती हैं (आण्विक अक्ष के परितः घूर्णन नगण्य है) = 5। कमरे के ताप पर कंपन विधाएँ उत्तेजित नहीं होतीं। अतः $C_v = \\frac{5}{2}R$ और $\\gamma = \\frac{7}{5}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-03",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A Carnot refrigerator works between a cold reservoir at 250 K and the surroundings at 300 K. Find its coefficient of performance.",
+        "hi": "एक कार्नो प्रशीतित्र 250 K के ठंडे भंडार और 300 K के परिवेश के बीच कार्य करता है। इसका निष्पादन गुणांक ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "COP of a refrigerator $\\beta = \\frac{Q_2}{W} = \\frac{T_2}{T_1 - T_2} = \\frac{250}{300 - 250} = 5$. It removes 5 J of heat from the cold reservoir for every 1 J of work. Relation with engine efficiency: $\\beta = \\frac{1 - \\eta}{\\eta}$ with $\\eta = \\frac{1}{6}$.",
+        "hi": "प्रशीतित्र का निष्पादन गुणांक $\\beta = \\frac{Q_2}{W} = \\frac{T_2}{T_1 - T_2} = \\frac{250}{300 - 250} = 5$। यह प्रत्येक 1 J कार्य के बदले ठंडे भंडार से 5 J ऊष्मा निकालता है। इंजन दक्षता से संबंध: $\\beta = \\frac{1 - \\eta}{\\eta}$, जहाँ $\\eta = \\frac{1}{6}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-04",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The general formula of alkynes is:",
+        "hi": "ऐल्काइनों का सामान्य सूत्र है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CₙH₂ₙ", "hi": "CₙH₂ₙ"}},
+        {"id": "B", "text": {"en": "CₙH₂ₙ₋₂", "hi": "CₙH₂ₙ₋₂"}},
+        {"id": "C", "text": {"en": "CₙH₂ₙ₊₂", "hi": "CₙH₂ₙ₊₂"}},
+        {"id": "D", "text": {"en": "CₙH₂ₙ₋₆", "hi": "CₙH₂ₙ₋₆"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Alkanes: CₙH₂ₙ₊₂; alkenes (one C=C): CₙH₂ₙ; alkynes (one C≡C): CₙH₂ₙ₋₂ — each π bond removes 2 H atoms. Example: ethyne C₂H₂ ($n = 2$).",
+        "hi": "ऐल्केन: CₙH₂ₙ₊₂; ऐल्कीन (एक C=C): CₙH₂ₙ; ऐल्काइन (एक C≡C): CₙH₂ₙ₋₂ — प्रत्येक π आबंध 2 H परमाणु कम करता है। उदाहरण: एथाइन C₂H₂ ($n = 2$)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-05",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For which of the following is the standard enthalpy of formation ($\\Delta_f H^\\circ$) equal to zero?",
+        "hi": "निम्नलिखित में से किसके लिए मानक संभवन एन्थैल्पी ($\\Delta_f H^\\circ$) शून्य है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "O₃(g)", "hi": "O₃(g)"}},
+        {"id": "B", "text": {"en": "C(diamond)", "hi": "C(हीरा)"}},
+        {"id": "C", "text": {"en": "O₂(g)", "hi": "O₂(g)"}},
+        {"id": "D", "text": {"en": "H₂O(l)", "hi": "H₂O(l)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\Delta_f H^\\circ$ is zero for an element in its most stable form (reference state) at 1 bar and 298 K. O₂(g) is the reference state of oxygen. O₃(g) and diamond are not the most stable allotropes (graphite is the reference state of carbon), and H₂O is a compound.",
+        "hi": "1 bar और 298 K पर किसी तत्व के सबसे स्थायी रूप (संदर्भ अवस्था) के लिए $\\Delta_f H^\\circ$ शून्य होता है। O₂(g) ऑक्सीजन की संदर्भ अवस्था है। O₃(g) और हीरा सबसे स्थायी अपररूप नहीं हैं (कार्बन की संदर्भ अवस्था ग्रेफ़ाइट है), और H₂O एक यौगिक है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the pH of a 0.1 M solution of a weak monobasic acid HA whose ionisation constant $K_a = 1 \\times 10^{-5}$ at 25°C.",
+        "hi": "25°C पर एक दुर्बल एकक्षारकी अम्ल HA, जिसका आयनन स्थिरांक $K_a = 1 \\times 10^{-5}$ है, के 0.1 M विलयन का pH ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "For a weak acid with small ionisation, $\\alpha = \\sqrt{\\frac{K_a}{C}} = \\sqrt{\\frac{10^{-5}}{0.1}} = 10^{-2}$. $[\\text{H}^+] = C\\alpha = 0.1 \\times 10^{-2} = 10^{-3}$ M, so pH $= 3$. (Equivalently $[\\text{H}^+] = \\sqrt{K_a C}$; the approximation is valid since $\\alpha = 1\\% \\ll 1$.)",
+        "hi": "अल्प आयनन वाले दुर्बल अम्ल के लिए $\\alpha = \\sqrt{\\frac{K_a}{C}} = \\sqrt{\\frac{10^{-5}}{0.1}} = 10^{-2}$। $[\\text{H}^+] = C\\alpha = 0.1 \\times 10^{-2} = 10^{-3}$ M, अतः pH $= 3$। (समतुल्य रूप से $[\\text{H}^+] = \\sqrt{K_a C}$; सन्निकटन मान्य है क्योंकि $\\alpha = 1\\% \\ll 1$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $U = \\{1, 2, 3, \\ldots, 10\\}$ and $A = \\{2, 4, 6, 8, 10\\}$, then $n(A')$ is:",
+        "hi": "यदि $U = \\{1, 2, 3, \\ldots, 10\\}$ और $A = \\{2, 4, 6, 8, 10\\}$ है, तो $n(A')$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "5", "hi": "5"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$A' = U - A = \\{1, 3, 5, 7, 9\\}$, so $n(A') = n(U) - n(A) = 10 - 5 = 5$.",
+        "hi": "$A' = U - A = \\{1, 3, 5, 7, 9\\}$, अतः $n(A') = n(U) - n(A) = 10 - 5 = 5$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\tan 15^\\circ$ is:",
+        "hi": "$\\tan 15^\\circ$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2 − √3", "hi": "2 − √3"}},
+        {"id": "B", "text": {"en": "2 + √3", "hi": "2 + √3"}},
+        {"id": "C", "text": {"en": "√3 − 1", "hi": "√3 − 1"}},
+        {"id": "D", "text": {"en": "1/√3", "hi": "1/√3"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\tan 15^\\circ = \\tan(45^\\circ - 30^\\circ) = \\frac{1 - \\frac{1}{\\sqrt{3}}}{1 + \\frac{1}{\\sqrt{3}}} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1} = \\frac{(\\sqrt{3} - 1)^2}{2} = \\frac{4 - 2\\sqrt{3}}{2} = 2 - \\sqrt{3}$. (And $\\tan 75^\\circ = 2 + \\sqrt{3}$.)",
+        "hi": "$\\tan 15^\\circ = \\tan(45^\\circ - 30^\\circ) = \\frac{1 - \\frac{1}{\\sqrt{3}}}{1 + \\frac{1}{\\sqrt{3}}} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1} = \\frac{(\\sqrt{3} - 1)^2}{2} = \\frac{4 - 2\\sqrt{3}}{2} = 2 - \\sqrt{3}$। (तथा $\\tan 75^\\circ = 2 + \\sqrt{3}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the line making intercepts 3 and 4 on the x-axis and y-axis respectively is:",
+        "hi": "x-अक्ष और y-अक्ष पर क्रमशः 3 और 4 अंतःखंड काटने वाली रेखा का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3x + 4y = 12", "hi": "3x + 4y = 12"}},
+        {"id": "B", "text": {"en": "4x + 3y = 7", "hi": "4x + 3y = 7"}},
+        {"id": "C", "text": {"en": "3x + 4y = 7", "hi": "3x + 4y = 7"}},
+        {"id": "D", "text": {"en": "4x + 3y = 12", "hi": "4x + 3y = 12"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Intercept form: $\\frac{x}{a} + \\frac{y}{b} = 1 \\Rightarrow \\frac{x}{3} + \\frac{y}{4} = 1$. Multiply by 12: $4x + 3y = 12$. Check: $y = 0 \\Rightarrow x = 3$ ✓; $x = 0 \\Rightarrow y = 4$ ✓.",
+        "hi": "अंतःखंड रूप: $\\frac{x}{a} + \\frac{y}{b} = 1 \\Rightarrow \\frac{x}{3} + \\frac{y}{4} = 1$। 12 से गुणा करने पर: $4x + 3y = 12$। जाँच: $y = 0 \\Rightarrow x = 3$ ✓; $x = 0 \\Rightarrow y = 4$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-10-11-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A$ is a square matrix of order 3 with $|A| = 3$, find $|3\\,\\text{adj } A|$.",
+        "hi": "यदि $A$ कोटि 3 का वर्ग आव्यूह है और $|A| = 3$ है, तो $|3\\,\\text{adj } A|$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 243,
+      "solution": {
+        "en": "$|\\text{adj } A| = |A|^{n-1} = 3^2 = 9$. For an $n \\times n$ matrix $B$, $|kB| = k^n|B|$. So $|3\\,\\text{adj } A| = 3^3 \\times 9 = 27 \\times 9 = 243$. Common trap: writing $3 \\times 9$ instead of $3^3 \\times 9$.",
+        "hi": "$|\\text{adj } A| = |A|^{n-1} = 3^2 = 9$। $n \\times n$ आव्यूह $B$ के लिए $|kB| = k^n|B|$। अतः $|3\\,\\text{adj } A| = 3^3 \\times 9 = 27 \\times 9 = 243$। सामान्य गलती: $3^3 \\times 9$ की जगह $3 \\times 9$ लिखना।"
+      }
+    }
+  ]
+}

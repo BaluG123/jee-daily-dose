@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-07",
+  "questions": [
+    {
+      "id": "dd-2026-10-07-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Water has its maximum density at:",
+        "hi": "जल का घनत्व अधिकतम होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0°C", "hi": "0°C"}},
+        {"id": "B", "text": {"en": "100°C", "hi": "100°C"}},
+        {"id": "C", "text": {"en": "−4°C", "hi": "−4°C"}},
+        {"id": "D", "text": {"en": "4°C", "hi": "4°C"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Water shows anomalous expansion: from 0°C to 4°C it contracts on heating, and above 4°C it expands. So its density is maximum at 4°C. This is why lakes freeze from the top while water at the bottom stays at about 4°C, protecting aquatic life.",
+        "hi": "जल असंगत प्रसार दर्शाता है: 0°C से 4°C तक गर्म करने पर यह सिकुड़ता है और 4°C से ऊपर फैलता है। अतः इसका घनत्व 4°C पर अधिकतम होता है। इसी कारण झीलें ऊपर से जमती हैं जबकि तली का जल लगभग 4°C पर रहता है, जिससे जलीय जीवन सुरक्षित रहता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Solids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two wires of the same material have lengths in the ratio 1 : 2 and radii in the ratio 2 : 1. They are stretched by the same force. The ratio of their extensions is:",
+        "hi": "एक ही पदार्थ के दो तारों की लंबाइयों का अनुपात 1 : 2 और त्रिज्याओं का अनुपात 2 : 1 है। इन्हें समान बल से खींचा जाता है। इनके प्रसारों का अनुपात है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8 : 1", "hi": "8 : 1"}},
+        {"id": "B", "text": {"en": "1 : 4", "hi": "1 : 4"}},
+        {"id": "C", "text": {"en": "1 : 8", "hi": "1 : 8"}},
+        {"id": "D", "text": {"en": "1 : 2", "hi": "1 : 2"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\Delta L = \\frac{FL}{AY} = \\frac{FL}{\\pi r^2 Y} \\propto \\frac{L}{r^2}$ (same $F$ and $Y$). $\\frac{\\Delta L_1}{\\Delta L_2} = \\frac{L_1}{L_2}\\left(\\frac{r_2}{r_1}\\right)^2 = \\frac{1}{2} \\times \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{8}$.",
+        "hi": "$\\Delta L = \\frac{FL}{AY} = \\frac{FL}{\\pi r^2 Y} \\propto \\frac{L}{r^2}$ (समान $F$ और $Y$)। $\\frac{\\Delta L_1}{\\Delta L_2} = \\frac{L_1}{L_2}\\left(\\frac{r_2}{r_1}\\right)^2 = \\frac{1}{2} \\times \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{8}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-03",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the excess pressure (in Pa) inside a soap bubble of radius 1 cm. (Surface tension of soap solution = 0.03 N/m)",
+        "hi": "1 cm त्रिज्या वाले साबुन के बुलबुले के अंदर आधिक्य दाब (Pa में) ज्ञात कीजिए। (साबुन के विलयन का पृष्ठ तनाव = 0.03 N/m)"
+      },
+      "options": [],
+      "correctAnswer": 12,
+      "solution": {
+        "en": "A soap bubble has two free surfaces (inner and outer), so $\\Delta P = \\frac{4T}{r} = \\frac{4 \\times 0.03}{0.01} = 12\\text{ Pa}$. (For a liquid drop or an air bubble inside a liquid, which have one surface, $\\Delta P = \\frac{2T}{r}$.)",
+        "hi": "साबुन के बुलबुले में दो मुक्त पृष्ठ (भीतरी और बाहरी) होते हैं, अतः $\\Delta P = \\frac{4T}{r} = \\frac{4 \\times 0.03}{0.01} = 12\\text{ Pa}$। (द्रव की बूँद या द्रव के अंदर वायु के बुलबुले में एक ही पृष्ठ होता है, अतः $\\Delta P = \\frac{2T}{r}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-04",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Homolytic fission of a covalent bond produces:",
+        "hi": "किसी सहसंयोजक आबंध का समांश विखंडन (homolytic fission) उत्पन्न करता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Carbocations only", "hi": "केवल कार्बधनायन"}},
+        {"id": "B", "text": {"en": "Carbanions only", "hi": "केवल कार्बऋणायन"}},
+        {"id": "C", "text": {"en": "A carbocation and a carbanion", "hi": "एक कार्बधनायन और एक कार्बऋणायन"}},
+        {"id": "D", "text": {"en": "Free radicals", "hi": "मुक्त मूलक"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In homolytic fission, the shared electron pair splits equally, each atom getting one electron, forming free radicals (e.g. Cl–Cl → 2Cl•). It is favoured by heat, light or peroxides. Heterolytic fission gives ions (carbocation/carbanion).",
+        "hi": "समांश विखंडन में साझा इलेक्ट्रॉन युग्म बराबर बँटता है, प्रत्येक परमाणु को एक इलेक्ट्रॉन मिलता है और मुक्त मूलक बनते हैं (जैसे Cl–Cl → 2Cl•)। यह ऊष्मा, प्रकाश या परॉक्साइड की उपस्थिति में होता है। विषमांश विखंडन से आयन (कार्बधनायन/कार्बऋणायन) बनते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-05",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The major product of the addition of HBr to propene (in the absence of peroxide) is:",
+        "hi": "प्रोपीन पर HBr के योग (परॉक्साइड की अनुपस्थिति में) का मुख्य उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1-Bromopropane", "hi": "1-ब्रोमोप्रोपेन"}},
+        {"id": "B", "text": {"en": "2-Bromopropane", "hi": "2-ब्रोमोप्रोपेन"}},
+        {"id": "C", "text": {"en": "1,2-Dibromopropane", "hi": "1,2-डाइब्रोमोप्रोपेन"}},
+        {"id": "D", "text": {"en": "Propan-2-ol", "hi": "प्रोपेन-2-ऑल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Markovnikov's rule: H⁺ adds to the carbon with more hydrogens, forming the more stable secondary carbocation CH₃–CH⁺–CH₃, which is then attacked by Br⁻ → CH₃CHBrCH₃ (2-bromopropane). In the presence of peroxide, a free-radical (anti-Markovnikov) addition gives 1-bromopropane.",
+        "hi": "मार्कोनीकॉफ़ नियम: H⁺ अधिक हाइड्रोजन वाले कार्बन पर जुड़ता है, जिससे अधिक स्थायी द्वितीयक कार्बधनायन CH₃–CH⁺–CH₃ बनता है, जिस पर Br⁻ आक्रमण करता है → CH₃CHBrCH₃ (2-ब्रोमोप्रोपेन)। परॉक्साइड की उपस्थिति में मुक्त-मूलक (प्रति-मार्कोनीकॉफ़) योग से 1-ब्रोमोप्रोपेन बनता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "4 mol of PCl₅ is heated in a closed 1 L vessel. At equilibrium, 50% of PCl₅ has dissociated according to PCl₅(g) ⇌ PCl₃(g) + Cl₂(g). Find the value of $K_c$ (in mol/L).",
+        "hi": "4 mol PCl₅ को 1 L के बंद पात्र में गर्म किया जाता है। साम्य पर PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) के अनुसार 50% PCl₅ वियोजित हो चुका है। $K_c$ (mol/L में) का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "At equilibrium: PCl₅ $= 4(1 - 0.5) = 2$ mol; PCl₃ $= 2$ mol; Cl₂ $= 2$ mol (volume 1 L, so concentrations are the same numbers). $K_c = \\frac{[\\text{PCl}_3][\\text{Cl}_2]}{[\\text{PCl}_5]} = \\frac{2 \\times 2}{2} = 2\\text{ mol/L}$.",
+        "hi": "साम्य पर: PCl₅ $= 4(1 - 0.5) = 2$ mol; PCl₃ $= 2$ mol; Cl₂ $= 2$ mol (आयतन 1 L, अतः सांद्रताएँ भी यही हैं)। $K_c = \\frac{[\\text{PCl}_3][\\text{Cl}_2]}{[\\text{PCl}_5]} = \\frac{2 \\times 2}{2} = 2\\text{ mol/L}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-07",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The geometric mean (GM) of 4 and 16 is:",
+        "hi": "4 और 16 का गुणोत्तर माध्य (GM) है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "10", "hi": "10"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "64", "hi": "64"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "GM of $a$ and $b$ $= \\sqrt{ab} = \\sqrt{64} = 8$. (Their AM is $\\frac{4 + 16}{2} = 10$; note AM ≥ GM.)",
+        "hi": "$a$ और $b$ का GM $= \\sqrt{ab} = \\sqrt{64} = 8$। (इनका AM $\\frac{4 + 16}{2} = 10$ है; ध्यान दें AM ≥ GM।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-08",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The perpendicular distance of the point $(1, 2)$ from the line $3x + 4y - 1 = 0$ is:",
+        "hi": "बिंदु $(1, 2)$ की रेखा $3x + 4y - 1 = 0$ से लांबिक दूरी है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3 + 8 - 1|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$.",
+        "hi": "$d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3 + 8 - 1|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-09",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The range of the function $f(x) = \\frac{1}{1 + x^2}$, $x \\in \\mathbb{R}$, is:",
+        "hi": "फलन $f(x) = \\frac{1}{1 + x^2}$, $x \\in \\mathbb{R}$, का परिसर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(0, 1]", "hi": "(0, 1]"}},
+        {"id": "B", "text": {"en": "[0, 1]", "hi": "[0, 1]"}},
+        {"id": "C", "text": {"en": "(0, 1)", "hi": "(0, 1)"}},
+        {"id": "D", "text": {"en": "[1, ∞)", "hi": "[1, ∞)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$1 + x^2 \\ge 1$, so $0 < \\frac{1}{1 + x^2} \\le 1$. The value 1 is attained at $x = 0$, but 0 is never attained (it is only approached as $|x| \\to \\infty$). Range $= (0, 1]$.",
+        "hi": "$1 + x^2 \\ge 1$, अतः $0 < \\frac{1}{1 + x^2} \\le 1$। मान 1, $x = 0$ पर प्राप्त होता है, परंतु 0 कभी प्राप्त नहीं होता (केवल $|x| \\to \\infty$ पर निकट पहुँचता है)। परिसर $= (0, 1]$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-07-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of distinct real roots of the equation $x^3 - 3x + 1 = 0$.",
+        "hi": "समीकरण $x^3 - 3x + 1 = 0$ के भिन्न वास्तविक मूलों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "Let $f(x) = x^3 - 3x + 1$. $f'(x) = 3x^2 - 3 = 0 \\Rightarrow x = \\pm 1$. Local max $f(-1) = -1 + 3 + 1 = 3 > 0$; local min $f(1) = 1 - 3 + 1 = -1 < 0$. Since $f \\to -\\infty$ as $x \\to -\\infty$ and $f \\to +\\infty$ as $x \\to \\infty$, and the local max and min have opposite signs, the graph crosses the x-axis 3 times.",
+        "hi": "माना $f(x) = x^3 - 3x + 1$। $f'(x) = 3x^2 - 3 = 0 \\Rightarrow x = \\pm 1$। स्थानीय उच्चतम $f(-1) = -1 + 3 + 1 = 3 > 0$; स्थानीय निम्नतम $f(1) = 1 - 3 + 1 = -1 < 0$। चूँकि $x \\to -\\infty$ पर $f \\to -\\infty$ और $x \\to \\infty$ पर $f \\to +\\infty$, तथा स्थानीय उच्चतम और निम्नतम के चिह्न विपरीत हैं, ग्राफ़ x-अक्ष को 3 बार काटता है।"
+      }
+    }
+  ]
+}

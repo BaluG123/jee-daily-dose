@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-15",
+  "questions": [
+    {
+      "id": "dd-2026-10-15-01",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The rms value of an alternating current of peak value $I_0$ is:",
+        "hi": "शिखर मान $I_0$ वाली प्रत्यावर्ती धारा का वर्ग-माध्य-मूल (rms) मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "I₀/2", "hi": "I₀/2"}},
+        {"id": "B", "text": {"en": "√2 I₀", "hi": "√2 I₀"}},
+        {"id": "C", "text": {"en": "I₀/√2", "hi": "I₀/√2"}},
+        {"id": "D", "text": {"en": "I₀", "hi": "I₀"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For sinusoidal AC, $I_{\\text{rms}} = \\sqrt{\\langle I_0^2\\sin^2\\omega t\\rangle} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0$. AC ammeters and voltmeters read rms values.",
+        "hi": "ज्यावक्रीय AC के लिए $I_{\\text{rms}} = \\sqrt{\\langle I_0^2\\sin^2\\omega t\\rangle} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0$। AC अमीटर और वोल्टमीटर rms मान पढ़ते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-02",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "At resonance in a series LCR circuit, the impedance of the circuit is:",
+        "hi": "श्रेणी LCR परिपथ में अनुनाद पर परिपथ की प्रतिबाधा होती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Equal to R (minimum)", "hi": "R के बराबर (न्यूनतम)"}},
+        {"id": "B", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "C", "text": {"en": "Infinite", "hi": "अनंत"}},
+        {"id": "D", "text": {"en": "√(R² + (ωL + 1/ωC)²)", "hi": "√(R² + (ωL + 1/ωC)²)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$. At resonance $X_L = X_C$, so $Z = R$, the minimum possible value; the current is maximum and in phase with the voltage (power factor = 1).",
+        "hi": "$Z = \\sqrt{R^2 + (X_L - X_C)^2}$। अनुनाद पर $X_L = X_C$, अतः $Z = R$, जो न्यूनतम संभव मान है; धारा अधिकतम होती है और वोल्टता के साथ समान कला में होती है (शक्ति गुणांक = 1)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-03",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the resonant angular frequency (in rad/s) of a series LCR circuit with $L = 1\\text{ H}$, $C = 25\\,\\mu\\text{F}$ and $R = 10\\,\\Omega$.",
+        "hi": "$L = 1\\text{ H}$, $C = 25\\,\\mu\\text{F}$ और $R = 10\\,\\Omega$ वाले श्रेणी LCR परिपथ की अनुनादी कोणीय आवृत्ति (rad/s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 200,
+      "solution": {
+        "en": "$\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{1 \\times 25 \\times 10^{-6}}} = \\frac{1}{5 \\times 10^{-3}} = 200\\text{ rad/s}$. The resistance does not affect the resonant frequency (it only affects the sharpness of resonance).",
+        "hi": "$\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{1 \\times 25 \\times 10^{-6}}} = \\frac{1}{5 \\times 10^{-3}} = 200\\text{ rad/s}$। प्रतिरोध अनुनादी आवृत्ति को प्रभावित नहीं करता (यह केवल अनुनाद की तीक्ष्णता को प्रभावित करता है)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-04",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The electrode potential of the standard hydrogen electrode (SHE) at 298 K is taken as:",
+        "hi": "298 K पर मानक हाइड्रोजन इलेक्ट्रोड (SHE) का इलेक्ट्रोड विभव माना जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0 V", "hi": "0 V"}},
+        {"id": "B", "text": {"en": "1 V", "hi": "1 V"}},
+        {"id": "C", "text": {"en": "−0.76 V", "hi": "−0.76 V"}},
+        {"id": "D", "text": {"en": "+0.34 V", "hi": "+0.34 V"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "By convention, SHE (Pt | H₂(g, 1 bar) | H⁺(aq, 1 M)) is assigned exactly 0 V at all temperatures. All other standard electrode potentials are measured relative to it.",
+        "hi": "परिपाटी के अनुसार SHE (Pt | H₂(g, 1 bar) | H⁺(aq, 1 M)) को सभी तापों पर ठीक 0 V माना जाता है। अन्य सभी मानक इलेक्ट्रोड विभव इसी के सापेक्ष मापे जाते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-05",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "According to Henry's law, at constant temperature the solubility of a gas in a liquid is directly proportional to the:",
+        "hi": "हेनरी नियम के अनुसार, नियत ताप पर किसी द्रव में गैस की विलेयता किसके अनुक्रमानुपाती होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Volume of the solvent", "hi": "विलायक का आयतन"}},
+        {"id": "B", "text": {"en": "Partial pressure of the gas above the solution", "hi": "विलयन के ऊपर गैस का आंशिक दाब"}},
+        {"id": "C", "text": {"en": "Molar mass of the gas", "hi": "गैस का मोलर द्रव्यमान"}},
+        {"id": "D", "text": {"en": "Viscosity of the liquid", "hi": "द्रव की श्यानता"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Henry's law: $p = K_H x$, i.e. the mole fraction of dissolved gas is proportional to its partial pressure. Applications: soda bottles are sealed under high CO₂ pressure; scuba divers face 'bends' due to N₂ dissolved at high pressure. Gas solubility decreases with rise in temperature ($K_H$ increases).",
+        "hi": "हेनरी नियम: $p = K_H x$, अर्थात घुली गैस का मोल अंश उसके आंशिक दाब के अनुक्रमानुपाती होता है। अनुप्रयोग: सोडा बोतलें उच्च CO₂ दाब पर बंद की जाती हैं; गोताखोरों को उच्च दाब पर घुली N₂ के कारण 'बेंड्स' होता है। ताप बढ़ने पर गैस की विलेयता घटती है ($K_H$ बढ़ता है)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following complexes shows optical isomerism?",
+        "hi": "निम्नलिखित में से कौन-सा संकुल प्रकाशिक समावयवता दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "trans-[Co(en)₂Cl₂]⁺", "hi": "trans-[Co(en)₂Cl₂]⁺"}},
+        {"id": "B", "text": {"en": "[Co(NH₃)₆]³⁺", "hi": "[Co(NH₃)₆]³⁺"}},
+        {"id": "C", "text": {"en": "trans-[Co(NH₃)₄Cl₂]⁺", "hi": "trans-[Co(NH₃)₄Cl₂]⁺"}},
+        {"id": "D", "text": {"en": "cis-[Co(en)₂Cl₂]⁺", "hi": "cis-[Co(en)₂Cl₂]⁺"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Optical isomers exist when a molecule is non-superimposable on its mirror image (no plane of symmetry). In cis-[Co(en)₂Cl₂]⁺, the two chelating en rings and the cis Cl atoms create a chiral arrangement, giving d and l forms. The trans isomer has a mirror plane containing the en rings, so it is optically inactive; the other two are also symmetric.",
+        "hi": "प्रकाशिक समावयवी तब होते हैं जब अणु अपने दर्पण प्रतिबिंब पर अध्यारोपित न हो (सममिति तल न हो)। cis-[Co(en)₂Cl₂]⁺ में दो कीलेटी en वलय और cis Cl परमाणु एक किरेल व्यवस्था बनाते हैं, जिससे d और l रूप मिलते हैं। trans समावयवी में en वलयों वाला दर्पण तल होता है, अतः यह प्रकाशतः निष्क्रिय है; अन्य दोनों भी सममित हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-07",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The mode of the data $2, 3, 3, 5, 7, 3, 8$ is:",
+        "hi": "आँकड़ों $2, 3, 3, 5, 7, 3, 8$ का बहुलक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "8", "hi": "8"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The mode is the value that occurs most often. 3 appears three times; every other value appears once. Mode $= 3$.",
+        "hi": "बहुलक वह मान है जो सबसे अधिक बार आता है। 3 तीन बार आता है; अन्य प्रत्येक मान एक बार। बहुलक $= 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If ${}^nC_3 = {}^nC_7$, then ${}^nC_2$ equals:",
+        "hi": "यदि ${}^nC_3 = {}^nC_7$ है, तो ${}^nC_2$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "90", "hi": "90"}},
+        {"id": "C", "text": {"en": "45", "hi": "45"}},
+        {"id": "D", "text": {"en": "21", "hi": "21"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "If ${}^nC_r = {}^nC_s$ with $r \\ne s$, then $r + s = n$. So $n = 3 + 7 = 10$, and ${}^{10}C_2 = \\frac{10 \\times 9}{2} = 45$.",
+        "hi": "यदि ${}^nC_r = {}^nC_s$ और $r \\ne s$, तो $r + s = n$। अतः $n = 3 + 7 = 10$, और ${}^{10}C_2 = \\frac{10 \\times 9}{2} = 45$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The locus of the complex number $z$ satisfying $|z - 1| = |z + 1|$ is:",
+        "hi": "$|z - 1| = |z + 1|$ को संतुष्ट करने वाली सम्मिश्र संख्या $z$ का बिंदुपथ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "The real axis (Im z = 0)", "hi": "वास्तविक अक्ष (Im z = 0)"}},
+        {"id": "B", "text": {"en": "A circle of radius 1", "hi": "त्रिज्या 1 का वृत्त"}},
+        {"id": "C", "text": {"en": "The line Re z = 1", "hi": "रेखा Re z = 1"}},
+        {"id": "D", "text": {"en": "The imaginary axis (Re z = 0)", "hi": "काल्पनिक अक्ष (Re z = 0)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$z$ is equidistant from $1$ and $-1$, so it lies on the perpendicular bisector of the segment joining $(1, 0)$ and $(-1, 0)$, which is the y-axis. Algebraically: $(x - 1)^2 + y^2 = (x + 1)^2 + y^2 \\Rightarrow x = 0$.",
+        "hi": "$z$, $1$ और $-1$ से समान दूरी पर है, अतः यह $(1, 0)$ और $(-1, 0)$ को मिलाने वाले रेखाखंड के लंब समद्विभाजक पर है, जो y-अक्ष है। बीजीय रूप से: $(x - 1)^2 + y^2 = (x + 1)^2 + y^2 \\Rightarrow x = 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-15-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the sum of all natural numbers between 100 and 200 that are divisible by 7.",
+        "hi": "100 और 200 के बीच 7 से विभाज्य सभी प्राकृत संख्याओं का योग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2107,
+      "solution": {
+        "en": "First term $= 105$, last term $= 196$, common difference $= 7$. Number of terms $n = \\frac{196 - 105}{7} + 1 = 14$. Sum $= \\frac{n}{2}(a + l) = 7 \\times (105 + 196) = 7 \\times 301 = 2107$.",
+        "hi": "प्रथम पद $= 105$, अंतिम पद $= 196$, सार्व अंतर $= 7$। पदों की संख्या $n = \\frac{196 - 105}{7} + 1 = 14$। योग $= \\frac{n}{2}(a + l) = 7 \\times (105 + 196) = 7 \\times 301 = 2107$।"
+      }
+    }
+  ]
+}

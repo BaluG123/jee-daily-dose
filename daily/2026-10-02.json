@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-02",
+  "questions": [
+    {
+      "id": "dd-2026-10-02-01",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The magnetic susceptibility of a diamagnetic substance is:",
+        "hi": "प्रतिचुंबकीय पदार्थ की चुंबकीय प्रवृत्ति (susceptibility) होती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Small and positive", "hi": "कम और धनात्मक"}},
+        {"id": "B", "text": {"en": "Large and positive", "hi": "अधिक और धनात्मक"}},
+        {"id": "C", "text": {"en": "Small and negative", "hi": "कम और ऋणात्मक"}},
+        {"id": "D", "text": {"en": "Exactly zero", "hi": "ठीक शून्य"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Diamagnetic materials (e.g. Bi, Cu, water) are weakly repelled by a magnet; their induced magnetisation opposes the applied field, so $\\chi$ is small and negative ($-1 \\le \\chi < 0$). Paramagnetic: small positive; ferromagnetic: large positive.",
+        "hi": "प्रतिचुंबकीय पदार्थ (जैसे Bi, Cu, जल) चुंबक द्वारा दुर्बल रूप से प्रतिकर्षित होते हैं; इनका प्रेरित चुंबकन आरोपित क्षेत्र का विरोध करता है, अतः $\\chi$ कम और ऋणात्मक होती है ($-1 \\le \\chi < 0$)। अनुचुंबकीय: कम धनात्मक; लौहचुंबकीय: अधिक धनात्मक।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Water flows out of a small hole at a depth $h$ below the free surface of water in a wide open tank. The speed of efflux is:",
+        "hi": "एक चौड़े खुले टैंक में जल की मुक्त सतह से $h$ गहराई पर स्थित छोटे छिद्र से जल बाहर निकलता है। बहिःस्राव की चाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "√(gh)", "hi": "√(gh)"}},
+        {"id": "B", "text": {"en": "√(2gh)", "hi": "√(2gh)"}},
+        {"id": "C", "text": {"en": "2gh", "hi": "2gh"}},
+        {"id": "D", "text": {"en": "√(gh/2)", "hi": "√(gh/2)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Torricelli's law (from Bernoulli's equation between the free surface and the hole, both at atmospheric pressure): $v = \\sqrt{2gh}$ — the same as the speed of a body falling freely through height $h$.",
+        "hi": "टॉरिसेली का नियम (मुक्त सतह और छिद्र, दोनों वायुमंडलीय दाब पर, के बीच बर्नूली समीकरण से): $v = \\sqrt{2gh}$ — यह $h$ ऊँचाई से मुक्त रूप से गिरते पिंड की चाल के समान है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A particle executes SHM with amplitude 5 cm and angular frequency 2 rad/s. Find its speed (in cm/s) when it is at a displacement of 3 cm from the mean position.",
+        "hi": "एक कण 5 cm आयाम और 2 rad/s कोणीय आवृत्ति से सरल आवर्त गति करता है। माध्य स्थिति से 3 cm विस्थापन पर इसकी चाल (cm/s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "In SHM, $v = \\omega\\sqrt{A^2 - x^2} = 2\\sqrt{5^2 - 3^2} = 2\\sqrt{16} = 8\\text{ cm/s}$. (Maximum speed $\\omega A = 10$ cm/s occurs at the mean position.)",
+        "hi": "सरल आवर्त गति में $v = \\omega\\sqrt{A^2 - x^2} = 2\\sqrt{5^2 - 3^2} = 2\\sqrt{16} = 8\\text{ cm/s}$। (अधिकतम चाल $\\omega A = 10$ cm/s माध्य स्थिति पर होती है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-04",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The general outer electronic configuration of d-block elements is:",
+        "hi": "d-ब्लॉक तत्वों का सामान्य बाह्य इलेक्ट्रॉनिक विन्यास है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(n−1)d¹⁻¹⁰ ns⁰⁻²", "hi": "(n−1)d¹⁻¹⁰ ns⁰⁻²"}},
+        {"id": "B", "text": {"en": "(n−1)d¹⁻¹⁰ ns² np⁶", "hi": "(n−1)d¹⁻¹⁰ ns² np⁶"}},
+        {"id": "C", "text": {"en": "ns² np¹⁻⁶", "hi": "ns² np¹⁻⁶"}},
+        {"id": "D", "text": {"en": "(n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns²", "hi": "(n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns²"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "In d-block elements, the last electron enters the $(n-1)$d subshell. General configuration: (n−1)d¹⁻¹⁰ ns⁰⁻² (ns⁰ occurs in Pd: 4d¹⁰5s⁰). ns² np¹⁻⁶ is the p-block and (n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns² is the f-block.",
+        "hi": "d-ब्लॉक तत्वों में अंतिम इलेक्ट्रॉन $(n-1)$d उपकोश में प्रवेश करता है। सामान्य विन्यास: (n−1)d¹⁻¹⁰ ns⁰⁻² (ns⁰ Pd में मिलता है: 4d¹⁰5s⁰)। ns² np¹⁻⁶ p-ब्लॉक का तथा (n−2)f¹⁻¹⁴ (n−1)d⁰⁻¹ ns² f-ब्लॉक का विन्यास है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-05",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The IUPAC name of [Co(NH₃)₆]Cl₃ is:",
+        "hi": "[Co(NH₃)₆]Cl₃ का IUPAC नाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Hexaamminecobalt(II) chloride", "hi": "हेक्साऐम्मीनकोबाल्ट(II) क्लोराइड"}},
+        {"id": "B", "text": {"en": "Hexaammoniacobalt(III) chloride", "hi": "हेक्साअमोनियाकोबाल्ट(III) क्लोराइड"}},
+        {"id": "C", "text": {"en": "Cobalt hexaammine trichloride", "hi": "कोबाल्ट हेक्साऐम्मीन ट्राइक्लोराइड"}},
+        {"id": "D", "text": {"en": "Hexaamminecobalt(III) chloride", "hi": "हेक्साऐम्मीनकोबाल्ट(III) क्लोराइड"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "NH₃ as a ligand is called 'ammine'. The complex ion is [Co(NH₃)₆]³⁺: $x + 6(0) = +3 \\Rightarrow$ Co is +3. Cation is named first: hexaamminecobalt(III), then the anion: chloride.",
+        "hi": "लिगैंड के रूप में NH₃ को 'ऐम्मीन' कहते हैं। संकुल आयन [Co(NH₃)₆]³⁺ है: $x + 6(0) = +3 \\Rightarrow$ Co की अवस्था +3 है। धनायन का नाम पहले: हेक्साऐम्मीनकोबाल्ट(III), फिर ऋणायन: क्लोराइड।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-06",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "For the Daniell cell Zn | Zn²⁺(1 M) || Cu²⁺(1 M) | Cu, given $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\text{ V}$, $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\text{ V}$ and $F = 96500\\text{ C mol}^{-1}$, the standard Gibbs energy change of the cell reaction is:",
+        "hi": "डेनियल सेल Zn | Zn²⁺(1 M) || Cu²⁺(1 M) | Cu के लिए, दिया है $E^\\circ_{\\text{Zn}^{2+}/\\text{Zn}} = -0.76\\text{ V}$, $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = +0.34\\text{ V}$ तथा $F = 96500\\text{ C mol}^{-1}$। सेल अभिक्रिया का मानक गिब्ज़ ऊर्जा परिवर्तन है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+212.3 kJ mol⁻¹", "hi": "+212.3 kJ mol⁻¹"}},
+        {"id": "B", "text": {"en": "−212.3 kJ mol⁻¹", "hi": "−212.3 kJ mol⁻¹"}},
+        {"id": "C", "text": {"en": "−106.15 kJ mol⁻¹", "hi": "−106.15 kJ mol⁻¹"}},
+        {"id": "D", "text": {"en": "−424.6 kJ mol⁻¹", "hi": "−424.6 kJ mol⁻¹"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 0.34 - (-0.76) = 1.10\\text{ V}$. Cell reaction: Zn + Cu²⁺ → Zn²⁺ + Cu, $n = 2$. $\\Delta G^\\circ = -nFE^\\circ = -2 \\times 96500 \\times 1.10 = -212300\\text{ J} = -212.3\\text{ kJ mol}^{-1}$. Negative $\\Delta G^\\circ$ confirms the cell reaction is spontaneous.",
+        "hi": "$E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 0.34 - (-0.76) = 1.10\\text{ V}$। सेल अभिक्रिया: Zn + Cu²⁺ → Zn²⁺ + Cu, $n = 2$। $\\Delta G^\\circ = -nFE^\\circ = -2 \\times 96500 \\times 1.10 = -212300\\text{ J} = -212.3\\text{ kJ mol}^{-1}$। ऋणात्मक $\\Delta G^\\circ$ पुष्टि करता है कि सेल अभिक्रिया स्वतः प्रवर्तित है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $f(x) = x^2$ and $g(x) = x + 1$, then $(f \\circ g)(2)$ equals:",
+        "hi": "यदि $f(x) = x^2$ और $g(x) = x + 1$ है, तो $(f \\circ g)(2)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "4", "hi": "4"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "9", "hi": "9"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$(f \\circ g)(2) = f(g(2)) = f(3) = 9$. Careful: $(g \\circ f)(2) = g(4) = 5$ — composition is generally not commutative.",
+        "hi": "$(f \\circ g)(2) = f(g(2)) = f(3) = 9$। सावधानी: $(g \\circ f)(2) = g(4) = 5$ — संयोजन सामान्यतः क्रमविनिमेय नहीं होता।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The quadratic equation whose roots are $2 + \\sqrt{3}$ and $2 - \\sqrt{3}$ is:",
+        "hi": "वह द्विघात समीकरण जिसके मूल $2 + \\sqrt{3}$ और $2 - \\sqrt{3}$ हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x² − 4x + 1 = 0", "hi": "x² − 4x + 1 = 0"}},
+        {"id": "B", "text": {"en": "x² + 4x + 1 = 0", "hi": "x² + 4x + 1 = 0"}},
+        {"id": "C", "text": {"en": "x² − 4x − 1 = 0", "hi": "x² − 4x − 1 = 0"}},
+        {"id": "D", "text": {"en": "x² − 2x + 1 = 0", "hi": "x² − 2x + 1 = 0"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Sum of roots $= 4$, product $= (2 + \\sqrt{3})(2 - \\sqrt{3}) = 4 - 3 = 1$. Equation: $x^2 - (\\text{sum})x + \\text{product} = 0 \\Rightarrow x^2 - 4x + 1 = 0$.",
+        "hi": "मूलों का योग $= 4$, गुणनफल $= (2 + \\sqrt{3})(2 - \\sqrt{3}) = 4 - 3 = 1$। समीकरण: $x^2 - (\\text{sum})x + \\text{product} = 0 \\Rightarrow x^2 - 4x + 1 = 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the circle with centre $(2, -3)$ and radius 4 is:",
+        "hi": "केंद्र $(2, -3)$ और त्रिज्या 4 वाले वृत्त का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x² + y² + 4x − 6y − 3 = 0", "hi": "x² + y² + 4x − 6y − 3 = 0"}},
+        {"id": "B", "text": {"en": "x² + y² − 4x + 6y + 3 = 0", "hi": "x² + y² − 4x + 6y + 3 = 0"}},
+        {"id": "C", "text": {"en": "x² + y² − 4x + 6y − 3 = 0", "hi": "x² + y² − 4x + 6y − 3 = 0"}},
+        {"id": "D", "text": {"en": "x² + y² − 4x + 6y − 16 = 0", "hi": "x² + y² − 4x + 6y − 16 = 0"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$(x - 2)^2 + (y + 3)^2 = 16 \\Rightarrow x^2 - 4x + 4 + y^2 + 6y + 9 = 16 \\Rightarrow x^2 + y^2 - 4x + 6y - 3 = 0$. Check: centre $(-g, -f) = (2, -3)$, $r = \\sqrt{4 + 9 + 3} = 4$ ✓.",
+        "hi": "$(x - 2)^2 + (y + 3)^2 = 16 \\Rightarrow x^2 - 4x + 4 + y^2 + 6y + 9 = 16 \\Rightarrow x^2 + y^2 - 4x + 6y - 3 = 0$। जाँच: केंद्र $(-g, -f) = (2, -3)$, $r = \\sqrt{4 + 9 + 3} = 4$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-10-02-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the local maximum value of the function $f(x) = 2x^3 - 9x^2 + 12x + 5$.",
+        "hi": "फलन $f(x) = 2x^3 - 9x^2 + 12x + 5$ का स्थानीय उच्चतम मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "$f'(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)$, so critical points are $x = 1, 2$. $f''(x) = 12x - 18$: $f''(1) = -6 < 0$ → local maximum at $x = 1$; $f''(2) = 6 > 0$ → local minimum at $x = 2$. Local max value $f(1) = 2 - 9 + 12 + 5 = 10$ (local min value $f(2) = 9$).",
+        "hi": "$f'(x) = 6x^2 - 18x + 12 = 6(x - 1)(x - 2)$, अतः क्रांतिक बिंदु $x = 1, 2$ हैं। $f''(x) = 12x - 18$: $f''(1) = -6 < 0$ → $x = 1$ पर स्थानीय उच्चतम; $f''(2) = 6 > 0$ → $x = 2$ पर स्थानीय निम्नतम। स्थानीय उच्चतम मान $f(1) = 2 - 9 + 12 + 5 = 10$ (स्थानीय निम्नतम मान $f(2) = 9$)।"
+      }
+    }
+  ]
+}

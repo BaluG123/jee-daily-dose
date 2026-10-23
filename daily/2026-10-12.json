@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-12",
+  "questions": [
+    {
+      "id": "dd-2026-10-12-01",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Two electric field lines never intersect each other because:",
+        "hi": "दो विद्युत क्षेत्र रेखाएँ एक-दूसरे को कभी नहीं काटतीं क्योंकि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Field lines are always parallel to each other", "hi": "क्षेत्र रेखाएँ सदैव एक-दूसरे के समांतर होती हैं"}},
+        {"id": "B", "text": {"en": "The field would have two directions at the point of intersection", "hi": "प्रतिच्छेद बिंदु पर क्षेत्र की दो दिशाएँ हो जातीं"}},
+        {"id": "C", "text": {"en": "Field lines carry electric charge", "hi": "क्षेत्र रेखाएँ विद्युत आवेश वहन करती हैं"}},
+        {"id": "D", "text": {"en": "The field is zero everywhere along a field line", "hi": "क्षेत्र रेखा के अनुदिश हर जगह क्षेत्र शून्य होता है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The tangent to a field line at any point gives the direction of $\\vec{E}$ there. If two lines crossed, there would be two tangents — two directions of the field — at one point, which is impossible since the field has a unique direction at each point.",
+        "hi": "किसी बिंदु पर क्षेत्र रेखा की स्पर्श रेखा वहाँ $\\vec{E}$ की दिशा देती है। यदि दो रेखाएँ काटतीं, तो एक बिंदु पर दो स्पर्श रेखाएँ — क्षेत्र की दो दिशाएँ — होतीं, जो असंभव है क्योंकि प्रत्येक बिंदु पर क्षेत्र की एक अद्वितीय दिशा होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-02",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The electrostatic force between two point charges is $F$. If the distance between them is halved (charges unchanged), the force becomes:",
+        "hi": "दो बिंदु आवेशों के बीच स्थिरवैद्युत बल $F$ है। यदि उनके बीच की दूरी आधी कर दी जाए (आवेश अपरिवर्तित), तो बल हो जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2F", "hi": "2F"}},
+        {"id": "B", "text": {"en": "F/2", "hi": "F/2"}},
+        {"id": "C", "text": {"en": "F/4", "hi": "F/4"}},
+        {"id": "D", "text": {"en": "4F", "hi": "4F"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Coulomb's law: $F \\propto \\frac{1}{r^2}$. With $r' = \\frac{r}{2}$, $F' = \\frac{F}{(1/2)^2} = 4F$.",
+        "hi": "कूलॉम का नियम: $F \\propto \\frac{1}{r^2}$। $r' = \\frac{r}{2}$ होने पर $F' = \\frac{F}{(1/2)^2} = 4F$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-03",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Four point charges, each $+2\\,\\mu\\text{C}$, are placed at the corners of a square of side $\\sqrt{2}\\text{ m}$. Find the electric potential (in kV) at the centre of the square. (Take $\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N m}^2\\text{C}^{-2}$)",
+        "hi": "$\\sqrt{2}\\text{ m}$ भुजा वाले वर्ग के कोनों पर चार बिंदु आवेश, प्रत्येक $+2\\,\\mu\\text{C}$, रखे हैं। वर्ग के केंद्र पर विद्युत विभव (kV में) ज्ञात कीजिए। ($\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N m}^2\\text{C}^{-2}$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 72,
+      "solution": {
+        "en": "Distance from each corner to the centre $=$ half the diagonal $= \\frac{\\sqrt{2} \\times \\sqrt{2}}{2} = 1\\text{ m}$. Potential is a scalar, so it simply adds: $V = 4 \\times \\frac{kq}{r} = 4 \\times \\frac{9 \\times 10^9 \\times 2 \\times 10^{-6}}{1} = 72000\\text{ V} = 72\\text{ kV}$. Note: the electric field at the centre is zero by symmetry, but the potential is not.",
+        "hi": "प्रत्येक कोने से केंद्र की दूरी $=$ आधा विकर्ण $= \\frac{\\sqrt{2} \\times \\sqrt{2}}{2} = 1\\text{ m}$। विभव अदिश है, अतः सीधे जुड़ता है: $V = 4 \\times \\frac{kq}{r} = 4 \\times \\frac{9 \\times 10^9 \\times 2 \\times 10^{-6}}{1} = 72000\\text{ V} = 72\\text{ kV}$। ध्यान दें: सममिति से केंद्र पर विद्युत क्षेत्र शून्य है, परंतु विभव शून्य नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-04",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The modern periodic law states that the properties of elements are a periodic function of their:",
+        "hi": "आधुनिक आवर्त नियम के अनुसार, तत्वों के गुणधर्म उनके किसके आवर्ती फलन होते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Atomic mass", "hi": "परमाणु द्रव्यमान"}},
+        {"id": "B", "text": {"en": "Number of neutrons", "hi": "न्यूट्रॉनों की संख्या"}},
+        {"id": "C", "text": {"en": "Mass number", "hi": "द्रव्यमान संख्या"}},
+        {"id": "D", "text": {"en": "Atomic number", "hi": "परमाणु क्रमांक"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Moseley showed that atomic number (number of protons), not atomic mass, is the fundamental property. The modern periodic law: properties of elements are periodic functions of their atomic numbers. This removed anomalies of Mendeleev's table such as the Ar–K order.",
+        "hi": "मोज़ले ने दिखाया कि परमाणु द्रव्यमान नहीं, बल्कि परमाणु क्रमांक (प्रोटॉनों की संख्या) मूलभूत गुण है। आधुनिक आवर्त नियम: तत्वों के गुणधर्म उनके परमाणु क्रमांकों के आवर्ती फलन हैं। इससे मेंडलीफ़ की सारणी की विसंगतियाँ, जैसे Ar–K का क्रम, दूर हो गईं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-05",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following group 14 elements shows the maximum tendency for catenation?",
+        "hi": "वर्ग 14 के निम्नलिखित तत्वों में से किसमें शृंखलन (catenation) की प्रवृत्ति अधिकतम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Si", "hi": "Si"}},
+        {"id": "B", "text": {"en": "C", "hi": "C"}},
+        {"id": "C", "text": {"en": "Ge", "hi": "Ge"}},
+        {"id": "D", "text": {"en": "Sn", "hi": "Sn"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Catenation depends on the strength of the element–element bond. The C–C bond is very strong (~348 kJ/mol) due to carbon's small size and effective orbital overlap. Down the group, bond strength decreases (Si–Si ~297, Ge–Ge ~260 kJ/mol), so catenation decreases: C ≫ Si > Ge ≈ Sn.",
+        "hi": "शृंखलन तत्व–तत्व आबंध की प्रबलता पर निर्भर करता है। कार्बन के छोटे आकार और प्रभावी कक्षक अतिव्यापन के कारण C–C आबंध बहुत प्रबल (~348 kJ/mol) है। वर्ग में नीचे जाने पर आबंध प्रबलता घटती है (Si–Si ~297, Ge–Ge ~260 kJ/mol), अतः शृंखलन घटता है: C ≫ Si > Ge ≈ Sn।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is the strongest acid?",
+        "hi": "निम्नलिखित में से सबसे प्रबल अम्ल कौन-सा है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Cl₂CHCOOH", "hi": "Cl₂CHCOOH"}},
+        {"id": "B", "text": {"en": "FCH₂COOH", "hi": "FCH₂COOH"}},
+        {"id": "C", "text": {"en": "ClCH₂COOH", "hi": "ClCH₂COOH"}},
+        {"id": "D", "text": {"en": "CH₃COOH", "hi": "CH₃COOH"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Electron-withdrawing groups (−I effect) stabilise the carboxylate ion and increase acidity. One F is more electron-withdrawing than one Cl, but two Cl atoms together exert a larger total −I effect than a single F. Approximate pKa values: Cl₂CHCOOH ≈ 1.3, FCH₂COOH ≈ 2.6, ClCH₂COOH ≈ 2.9, CH₃COOH ≈ 4.8. Lower pKa = stronger acid.",
+        "hi": "इलेक्ट्रॉन-आकर्षी समूह (−I प्रभाव) कार्बोक्सिलेट आयन को स्थायी करते हैं और अम्लता बढ़ाते हैं। एक F, एक Cl से अधिक इलेक्ट्रॉन-आकर्षी है, परंतु दो Cl परमाणु मिलकर एक F से अधिक कुल −I प्रभाव डालते हैं। लगभग pKa मान: Cl₂CHCOOH ≈ 1.3, FCH₂COOH ≈ 2.6, ClCH₂COOH ≈ 2.9, CH₃COOH ≈ 4.8। कम pKa = अधिक प्रबल अम्ल।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-07",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The real part of $(2 + 3i)(1 - i)$ is:",
+        "hi": "$(2 + 3i)(1 - i)$ का वास्तविक भाग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$(2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 2 + i + 3 = 5 + i$. Real part $= 5$ (imaginary part $= 1$).",
+        "hi": "$(2 + 3i)(1 - i) = 2 - 2i + 3i - 3i^2 = 2 + i + 3 = 5 + i$। वास्तविक भाग $= 5$ (काल्पनिक भाग $= 1$)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The values of $k$ for which the equation $x^2 + kx + 9 = 0$ has equal roots are:",
+        "hi": "$k$ के वे मान जिनके लिए समीकरण $x^2 + kx + 9 = 0$ के मूल बराबर हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "±3", "hi": "±3"}},
+        {"id": "B", "text": {"en": "6 only", "hi": "केवल 6"}},
+        {"id": "C", "text": {"en": "±6", "hi": "±6"}},
+        {"id": "D", "text": {"en": "±9", "hi": "±9"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Equal roots ⟺ discriminant $D = 0$: $k^2 - 4(1)(9) = 0 \\Rightarrow k^2 = 36 \\Rightarrow k = \\pm 6$. (Check: $x^2 + 6x + 9 = (x + 3)^2$.)",
+        "hi": "समान मूल ⟺ विविक्तकर $D = 0$: $k^2 - 4(1)(9) = 0 \\Rightarrow k^2 = 36 \\Rightarrow k = \\pm 6$। (जाँच: $x^2 + 6x + 9 = (x + 3)^2$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the directrix of the parabola $x^2 = -16y$ is:",
+        "hi": "परवलय $x^2 = -16y$ की नियता का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "y = −4", "hi": "y = −4"}},
+        {"id": "B", "text": {"en": "x = 4", "hi": "x = 4"}},
+        {"id": "C", "text": {"en": "y = 4", "hi": "y = 4"}},
+        {"id": "D", "text": {"en": "x = −4", "hi": "x = −4"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Compare with $x^2 = -4ay$: $a = 4$. The parabola opens downward with focus $(0, -4)$; the directrix is on the opposite side of the vertex: $y = a = 4$.",
+        "hi": "$x^2 = -4ay$ से तुलना: $a = 4$। परवलय नीचे की ओर खुलता है और नाभि $(0, -4)$ है; नियता शीर्ष के दूसरी ओर है: $y = a = 4$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-12-10",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For a binomial distribution, the mean is 6 and the variance is 2. Find the number of trials $n$.",
+        "hi": "एक द्विपद बंटन का माध्य 6 और प्रसरण 2 है। परीक्षणों की संख्या $n$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 9,
+      "solution": {
+        "en": "Mean $np = 6$, variance $npq = 2$. Dividing: $q = \\frac{2}{6} = \\frac{1}{3}$, so $p = \\frac{2}{3}$. Then $n = \\frac{6}{p} = \\frac{6}{2/3} = 9$. (Remember: variance < mean always for a binomial distribution, since $q < 1$.)",
+        "hi": "माध्य $np = 6$, प्रसरण $npq = 2$। भाग देने पर: $q = \\frac{2}{6} = \\frac{1}{3}$, अतः $p = \\frac{2}{3}$। तब $n = \\frac{6}{p} = \\frac{6}{2/3} = 9$। (याद रखें: द्विपद बंटन में प्रसरण < माध्य सदैव, क्योंकि $q < 1$।)"
+      }
+    }
+  ]
+}

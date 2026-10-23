@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-08",
+  "questions": [
+    {
+      "id": "dd-2026-10-08-01",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of electric flux is:",
+        "hi": "विद्युत फ्लक्स का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "N C⁻¹", "hi": "N C⁻¹"}},
+        {"id": "B", "text": {"en": "N m² C⁻¹", "hi": "N m² C⁻¹"}},
+        {"id": "C", "text": {"en": "N m C⁻¹", "hi": "N m C⁻¹"}},
+        {"id": "D", "text": {"en": "C m⁻²", "hi": "C m⁻²"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\phi_E = \\oint \\vec{E}\\cdot d\\vec{A}$, so its unit is (N C⁻¹)(m²) = N m² C⁻¹, which is the same as V m. (N C⁻¹ is the unit of electric field; C m⁻² of surface charge density.)",
+        "hi": "$\\phi_E = \\oint \\vec{E}\\cdot d\\vec{A}$, अतः इसका मात्रक (N C⁻¹)(m²) = N m² C⁻¹ है, जो V m के समान है। (N C⁻¹ विद्युत क्षेत्र का मात्रक है; C m⁻² पृष्ठ आवेश घनत्व का।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-02",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The space between the plates of a parallel plate capacitor is completely filled with a dielectric of dielectric constant $K$. Its capacitance becomes:",
+        "hi": "समांतर प्लेट संधारित्र की प्लेटों के बीच का स्थान परावैद्युतांक $K$ वाले परावैद्युत से पूरी तरह भर दिया जाता है। इसकी धारिता हो जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "K times", "hi": "K गुना"}},
+        {"id": "B", "text": {"en": "1/K times", "hi": "1/K गुना"}},
+        {"id": "C", "text": {"en": "K² times", "hi": "K² गुना"}},
+        {"id": "D", "text": {"en": "Unchanged", "hi": "अपरिवर्तित"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$C_0 = \\frac{\\varepsilon_0 A}{d}$. With the dielectric, $C = \\frac{K\\varepsilon_0 A}{d} = KC_0$. The dielectric reduces the field between the plates by a factor $K$, so for the same charge the potential difference falls and the capacitance rises.",
+        "hi": "$C_0 = \\frac{\\varepsilon_0 A}{d}$। परावैद्युत के साथ $C = \\frac{K\\varepsilon_0 A}{d} = KC_0$। परावैद्युत प्लेटों के बीच क्षेत्र को $K$ गुना कम कर देता है, अतः समान आवेश के लिए विभवांतर घटता है और धारिता बढ़ती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-03",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Five resistors, each of 10 Ω, are connected to form a Wheatstone bridge: four of them form the four arms and the fifth is connected between the two middle junctions (in place of the galvanometer). Find the equivalent resistance (in Ω) between the input terminals.",
+        "hi": "10 Ω प्रत्येक वाले पाँच प्रतिरोधकों से एक व्हीटस्टोन सेतु बनाया जाता है: चार प्रतिरोधक चारों भुजाओं में हैं और पाँचवाँ दोनों मध्य संधियों के बीच (धारामापी के स्थान पर) जुड़ा है। निवेश टर्मिनलों के बीच तुल्य प्रतिरोध (Ω में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "$\\frac{P}{Q} = \\frac{10}{10} = \\frac{R}{S}$, so the bridge is balanced and no current flows through the middle resistor — it can be removed. Then two branches of $10 + 10 = 20\\,\\Omega$ are in parallel: $R_{\\text{eq}} = \\frac{20 \\times 20}{20 + 20} = 10\\,\\Omega$.",
+        "hi": "$\\frac{P}{Q} = \\frac{10}{10} = \\frac{R}{S}$, अतः सेतु संतुलित है और मध्य प्रतिरोधक से कोई धारा नहीं बहती — इसे हटाया जा सकता है। तब $10 + 10 = 20\\,\\Omega$ की दो शाखाएँ समांतर क्रम में हैं: $R_{\\text{eq}} = \\frac{20 \\times 20}{20 + 20} = 10\\,\\Omega$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Molality of a solution is defined as the number of:",
+        "hi": "विलयन की मोललता परिभाषित की जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Moles of solute per litre of solution", "hi": "प्रति लीटर विलयन में विलेय के मोल"}},
+        {"id": "B", "text": {"en": "Moles of solute per kg of solution", "hi": "प्रति किलोग्राम विलयन में विलेय के मोल"}},
+        {"id": "C", "text": {"en": "Moles of solute per kg of solvent", "hi": "प्रति किलोग्राम विलायक में विलेय के मोल"}},
+        {"id": "D", "text": {"en": "Grams of solute per litre of solvent", "hi": "प्रति लीटर विलायक में विलेय के ग्राम"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Molality $m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$. Since it is based on mass, it does not change with temperature — unlike molarity, which depends on volume.",
+        "hi": "मोललता $m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$। चूँकि यह द्रव्यमान पर आधारित है, ताप के साथ नहीं बदलती — जबकि मोलरता आयतन पर निर्भर करती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-05",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following mixtures shows a positive deviation from Raoult's law?",
+        "hi": "निम्नलिखित में से कौन-सा मिश्रण राउल्ट नियम से धनात्मक विचलन दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Chloroform + acetone", "hi": "क्लोरोफ़ॉर्म + ऐसीटोन"}},
+        {"id": "B", "text": {"en": "Nitric acid + water", "hi": "नाइट्रिक अम्ल + जल"}},
+        {"id": "C", "text": {"en": "Benzene + toluene", "hi": "बेन्ज़ीन + टॉलूईन"}},
+        {"id": "D", "text": {"en": "Ethanol + acetone", "hi": "एथेनॉल + ऐसीटोन"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In ethanol + acetone, acetone molecules break some of the H-bonds between ethanol molecules; A–B interactions are weaker than A–A and B–B, so the vapour pressure is higher than predicted (positive deviation, $\\Delta H_{\\text{mix}} > 0$). Chloroform + acetone and HNO₃ + water show negative deviation (stronger A–B interactions); benzene + toluene is nearly ideal.",
+        "hi": "एथेनॉल + ऐसीटोन में ऐसीटोन के अणु एथेनॉल अणुओं के बीच के कुछ H-आबंध तोड़ देते हैं; A–B अन्योन्यक्रियाएँ A–A और B–B से दुर्बल हैं, अतः वाष्प दाब अपेक्षा से अधिक होता है (धनात्मक विचलन, $\\Delta H_{\\text{mix}} > 0$)। क्लोरोफ़ॉर्म + ऐसीटोन और HNO₃ + जल ऋणात्मक विचलन (प्रबल A–B अन्योन्यक्रिया) दर्शाते हैं; बेन्ज़ीन + टॉलूईन लगभग आदर्श है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-06",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For how many seconds must a current of 5 A be passed through aqueous CuSO₄ solution to deposit 0.1 mol of copper at the cathode? ($F = 96500\\text{ C mol}^{-1}$)",
+        "hi": "कैथोड पर 0.1 mol कॉपर निक्षेपित करने के लिए जलीय CuSO₄ विलयन में 5 A की धारा कितने सेकंड तक प्रवाहित करनी होगी? ($F = 96500\\text{ C mol}^{-1}$)"
+      },
+      "options": [],
+      "correctAnswer": 3860,
+      "solution": {
+        "en": "Cu²⁺ + 2e⁻ → Cu. 0.1 mol Cu needs 0.2 mol of electrons: $Q = 0.2 \\times 96500 = 19300\\text{ C}$. $t = \\frac{Q}{I} = \\frac{19300}{5} = 3860\\text{ s}$ (about 64 minutes).",
+        "hi": "Cu²⁺ + 2e⁻ → Cu। 0.1 mol Cu के लिए 0.2 mol इलेक्ट्रॉन चाहिए: $Q = 0.2 \\times 96500 = 19300\\text{ C}$। $t = \\frac{Q}{I} = \\frac{19300}{5} = 3860\\text{ s}$ (लगभग 64 मिनट)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A square matrix $A$ is said to be symmetric if:",
+        "hi": "एक वर्ग आव्यूह $A$ सममित कहलाता है यदि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Aᵀ = −A", "hi": "Aᵀ = −A"}},
+        {"id": "B", "text": {"en": "A² = I", "hi": "A² = I"}},
+        {"id": "C", "text": {"en": "Aᵀ = A", "hi": "Aᵀ = A"}},
+        {"id": "D", "text": {"en": "|A| = 0", "hi": "|A| = 0"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A symmetric matrix equals its transpose: $A^T = A$, i.e. $a_{ij} = a_{ji}$ for all $i, j$. ($A^T = -A$ defines a skew-symmetric matrix, whose diagonal elements are all zero.)",
+        "hi": "सममित आव्यूह अपने परिवर्त के बराबर होता है: $A^T = A$, अर्थात सभी $i, j$ के लिए $a_{ij} = a_{ji}$। ($A^T = -A$ विषम-सममित आव्यूह की परिभाषा है, जिसके सभी विकर्ण अवयव शून्य होते हैं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The principal value of $\\cos^{-1}\\left(-\\frac{1}{2}\\right)$ is:",
+        "hi": "$\\cos^{-1}\\left(-\\frac{1}{2}\\right)$ का मुख्य मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−π/3", "hi": "−π/3"}},
+        {"id": "B", "text": {"en": "2π/3", "hi": "2π/3"}},
+        {"id": "C", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "D", "text": {"en": "4π/3", "hi": "4π/3"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The principal range of $\\cos^{-1}$ is $[0, \\pi]$. Use $\\cos^{-1}(-x) = \\pi - \\cos^{-1}x$: $\\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$. ($-\\frac{\\pi}{3}$ and $\\frac{4\\pi}{3}$ lie outside $[0, \\pi]$.)",
+        "hi": "$\\cos^{-1}$ का मुख्य परिसर $[0, \\pi]$ है। $\\cos^{-1}(-x) = \\pi - \\cos^{-1}x$ का प्रयोग करें: $\\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$। ($-\\frac{\\pi}{3}$ और $\\frac{4\\pi}{3}$, $[0, \\pi]$ से बाहर हैं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a king or a heart is:",
+        "hi": "52 पत्तों की अच्छी तरह फेंटी गई गड्डी से यादृच्छया एक पत्ता निकाला जाता है। इसके बादशाह (king) या पान (heart) होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "17/52", "hi": "17/52"}},
+        {"id": "B", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "C", "text": {"en": "1/13", "hi": "1/13"}},
+        {"id": "D", "text": {"en": "4/13", "hi": "4/13"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$P(K \\cup H) = P(K) + P(H) - P(K \\cap H) = \\frac{4}{52} + \\frac{13}{52} - \\frac{1}{52} = \\frac{16}{52} = \\frac{4}{13}$. (The king of hearts is counted twice unless subtracted — that's the trap leading to 17/52.)",
+        "hi": "$P(K \\cup H) = P(K) + P(H) - P(K \\cap H) = \\frac{4}{52} + \\frac{13}{52} - \\frac{1}{52} = \\frac{16}{52} = \\frac{4}{13}$। (पान का बादशाह दो बार गिना जाता है यदि घटाया न जाए — यही 17/52 वाली गलती है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-08-10",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $y = e^{2x} + e^{-2x}$ and $\\frac{d^2y}{dx^2} = ky$, find $k$.",
+        "hi": "यदि $y = e^{2x} + e^{-2x}$ और $\\frac{d^2y}{dx^2} = ky$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "$\\frac{dy}{dx} = 2e^{2x} - 2e^{-2x}$, $\\frac{d^2y}{dx^2} = 4e^{2x} + 4e^{-2x} = 4y$. So $k = 4$.",
+        "hi": "$\\frac{dy}{dx} = 2e^{2x} - 2e^{-2x}$, $\\frac{d^2y}{dx^2} = 4e^{2x} + 4e^{-2x} = 4y$। अतः $k = 4$।"
+      }
+    }
+  ]
+}

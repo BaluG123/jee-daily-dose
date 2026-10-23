@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-30",
+  "questions": [
+    {
+      "id": "dd-2026-09-30-01",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following values of charge is NOT possible on an isolated body? ($e = 1.6 \\times 10^{-19}\\text{ C}$)",
+        "hi": "किसी विलगित पिंड पर आवेश का निम्नलिखित में से कौन-सा मान संभव नहीं है? ($e = 1.6 \\times 10^{-19}\\text{ C}$)"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2.4 × 10⁻¹⁹ C", "hi": "2.4 × 10⁻¹⁹ C"}},
+        {"id": "B", "text": {"en": "3.2 × 10⁻¹⁹ C", "hi": "3.2 × 10⁻¹⁹ C"}},
+        {"id": "C", "text": {"en": "4.8 × 10⁻¹⁹ C", "hi": "4.8 × 10⁻¹⁹ C"}},
+        {"id": "D", "text": {"en": "1.6 × 10⁻¹⁸ C", "hi": "1.6 × 10⁻¹⁸ C"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Charge is quantised: $q = ne$ with $n$ an integer. $\\frac{2.4 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 1.5$, not an integer. The others give $n = 2, 3, 10$.",
+        "hi": "आवेश क्वांटीकृत है: $q = ne$, जहाँ $n$ पूर्णांक है। $\\frac{2.4 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 1.5$, जो पूर्णांक नहीं है। अन्य मानों से $n = 2, 3, 10$ प्राप्त होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-02",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A wire of resistance $R$ is stretched uniformly so that its length becomes double. Its new resistance is:",
+        "hi": "$R$ प्रतिरोध वाले एक तार को समान रूप से इतना खींचा जाता है कि उसकी लंबाई दोगुनी हो जाए। इसका नया प्रतिरोध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2R", "hi": "2R"}},
+        {"id": "B", "text": {"en": "R/2", "hi": "R/2"}},
+        {"id": "C", "text": {"en": "4R", "hi": "4R"}},
+        {"id": "D", "text": {"en": "R/4", "hi": "R/4"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Volume stays constant: $AL = A'L'$, so doubling $L$ halves $A$. $R = \\frac{\\rho L}{A} \\Rightarrow R' = \\frac{\\rho(2L)}{A/2} = 4R$. In general, on stretching $n$ times in length, $R' = n^2 R$.",
+        "hi": "आयतन नियत रहता है: $AL = A'L'$, अतः $L$ दोगुना करने पर $A$ आधा हो जाता है। $R = \\frac{\\rho L}{A} \\Rightarrow R' = \\frac{\\rho(2L)}{A/2} = 4R$। सामान्यतः लंबाई $n$ गुनी खींचने पर $R' = n^2 R$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A ball is thrown horizontally with a speed of $40\\text{ m/s}$ from the top of a tower $45\\text{ m}$ high. Find the speed (in m/s) with which it strikes the ground. (Take $g = 10\\text{ m/s}^2$, neglect air resistance)",
+        "hi": "$45\\text{ m}$ ऊँची मीनार के शिखर से एक गेंद $40\\text{ m/s}$ की चाल से क्षैतिज दिशा में फेंकी जाती है। जिस चाल (m/s में) से यह भूमि से टकराती है, वह ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए, वायु प्रतिरोध नगण्य)"
+      },
+      "options": [],
+      "correctAnswer": 50,
+      "solution": {
+        "en": "Horizontal velocity stays $40\\text{ m/s}$. Vertical velocity on reaching the ground: $v_y = \\sqrt{2gh} = \\sqrt{2(10)(45)} = 30\\text{ m/s}$. Speed $= \\sqrt{40^2 + 30^2} = 50\\text{ m/s}$. (By energy conservation: $v^2 = u^2 + 2gh = 1600 + 900 = 2500$.)",
+        "hi": "क्षैतिज वेग $40\\text{ m/s}$ ही रहता है। भूमि पर ऊर्ध्वाधर वेग: $v_y = \\sqrt{2gh} = \\sqrt{2(10)(45)} = 30\\text{ m/s}$। चाल $= \\sqrt{40^2 + 30^2} = 50\\text{ m/s}$। (ऊर्जा संरक्षण से: $v^2 = u^2 + 2gh = 1600 + 900 = 2500$।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following molecules has zero dipole moment?",
+        "hi": "निम्नलिखित में से किस अणु का द्विध्रुव आघूर्ण शून्य है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "H₂O", "hi": "H₂O"}},
+        {"id": "B", "text": {"en": "NH₃", "hi": "NH₃"}},
+        {"id": "C", "text": {"en": "CHCl₃", "hi": "CHCl₃"}},
+        {"id": "D", "text": {"en": "CO₂", "hi": "CO₂"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "CO₂ is linear (O=C=O). The two C=O bond dipoles are equal and opposite, so they cancel: $\\mu = 0$. H₂O (bent), NH₃ (pyramidal) and CHCl₃ (unsymmetrical tetrahedral) are polar.",
+        "hi": "CO₂ रैखिक है (O=C=O)। दोनों C=O आबंध द्विध्रुव बराबर और विपरीत हैं, अतः निरस्त हो जाते हैं: $\\mu = 0$। H₂O (बंकित), NH₃ (पिरामिडी) और CHCl₃ (असममित चतुष्फलकीय) ध्रुवीय हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-05",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In which of the following processes does the entropy of the system increase?",
+        "hi": "निम्नलिखित में से किस प्रक्रम में निकाय की एन्ट्रॉपी बढ़ती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Freezing of water", "hi": "जल का जमना"}},
+        {"id": "B", "text": {"en": "Melting of ice", "hi": "बर्फ़ का पिघलना"}},
+        {"id": "C", "text": {"en": "Condensation of steam", "hi": "भाप का संघनन"}},
+        {"id": "D", "text": {"en": "2H₂(g) + O₂(g) → 2H₂O(l)", "hi": "2H₂(g) + O₂(g) → 2H₂O(l)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Entropy is a measure of disorder. Solid → liquid increases randomness, so $\\Delta S > 0$ for melting. Freezing and condensation decrease disorder. In 2H₂(g) + O₂(g) → 2H₂O(l), 3 mol of gas form a liquid, so $\\Delta S < 0$.",
+        "hi": "एन्ट्रॉपी अव्यवस्था का माप है। ठोस → द्रव में यादृच्छिकता बढ़ती है, अतः पिघलने में $\\Delta S > 0$। जमने और संघनन में अव्यवस्था घटती है। 2H₂(g) + O₂(g) → 2H₂O(l) में 3 mol गैस से द्रव बनता है, अतः $\\Delta S < 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-06",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "16 g of a non-volatile, non-electrolyte solute (molar mass 128 g/mol) is dissolved in 39 g of benzene (C₆H₆). The vapour pressure of pure benzene at the same temperature is 640 mm Hg. Find the vapour pressure (in mm Hg) of the solution.",
+        "hi": "16 g अवाष्पशील, अविद्युत-अपघट्य विलेय (मोलर द्रव्यमान 128 g/mol) को 39 g बेन्ज़ीन (C₆H₆) में घोला जाता है। उसी ताप पर शुद्ध बेन्ज़ीन का वाष्प दाब 640 mm Hg है। विलयन का वाष्प दाब (mm Hg में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 512,
+      "solution": {
+        "en": "$n_{\\text{solute}} = \\frac{16}{128} = 0.125$ mol; $n_{\\text{benzene}} = \\frac{39}{78} = 0.5$ mol. Mole fraction of solute $x_2 = \\frac{0.125}{0.625} = 0.2$. Raoult's law: $p = p^\\circ(1 - x_2) = 640 \\times 0.8 = 512$ mm Hg.",
+        "hi": "$n_{\\text{solute}} = \\frac{16}{128} = 0.125$ mol; $n_{\\text{benzene}} = \\frac{39}{78} = 0.5$ mol। विलेय का मोल अंश $x_2 = \\frac{0.125}{0.625} = 0.2$। राउल्ट नियम: $p = p^\\circ(1 - x_2) = 640 \\times 0.8 = 512$ mm Hg।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-07",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The fundamental period of $\\sin 2x$ is:",
+        "hi": "$\\sin 2x$ का मूल आवर्तकाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2π", "hi": "2π"}},
+        {"id": "B", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "C", "text": {"en": "π", "hi": "π"}},
+        {"id": "D", "text": {"en": "4π", "hi": "4π"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\sin x$ has period $2\\pi$. For $\\sin(kx)$, the period is $\\frac{2\\pi}{|k|}$. Here $\\frac{2\\pi}{2} = \\pi$.",
+        "hi": "$\\sin x$ का आवर्तकाल $2\\pi$ है। $\\sin(kx)$ के लिए आवर्तकाल $\\frac{2\\pi}{|k|}$ होता है। यहाँ $\\frac{2\\pi}{2} = \\pi$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $a, b, c$ are in AP and $a + b + c = 15$, then $b$ is:",
+        "hi": "यदि $a, b, c$ समांतर श्रेणी में हैं और $a + b + c = 15$ है, तो $b$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3", "hi": "3"}},
+        {"id": "B", "text": {"en": "15", "hi": "15"}},
+        {"id": "C", "text": {"en": "7.5", "hi": "7.5"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In an AP, $2b = a + c$. So $a + b + c = 3b = 15 \\Rightarrow b = 5$. Tip: take three terms in AP as $a - d, a, a + d$ — the sum is simply $3a$.",
+        "hi": "समांतर श्रेणी में $2b = a + c$। अतः $a + b + c = 3b = 15 \\Rightarrow b = 5$। टिप: समांतर श्रेणी के तीन पद $a - d, a, a + d$ लें — योग सीधे $3a$ आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The mean of 10 observations is 20. If each observation is multiplied by 2 and then 5 is added to it, the new mean is:",
+        "hi": "10 प्रेक्षणों का माध्य 20 है। यदि प्रत्येक प्रेक्षण को 2 से गुणा करके फिर उसमें 5 जोड़ा जाए, तो नया माध्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "40", "hi": "40"}},
+        {"id": "B", "text": {"en": "45", "hi": "45"}},
+        {"id": "C", "text": {"en": "25", "hi": "25"}},
+        {"id": "D", "text": {"en": "50", "hi": "50"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "If $y_i = ax_i + b$, then $\\bar{y} = a\\bar{x} + b$. New mean $= 2(20) + 5 = 45$. (The variance would change by a factor $a^2 = 4$, unaffected by adding 5.)",
+        "hi": "यदि $y_i = ax_i + b$, तो $\\bar{y} = a\\bar{x} + b$। नया माध्य $= 2(20) + 5 = 45$। (प्रसरण $a^2 = 4$ गुना होगा, 5 जोड़ने से अप्रभावित।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-30-10",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Bag I contains 3 red and 2 black balls; Bag II contains 2 red and 3 black balls. A bag is chosen at random and a ball drawn from it is found to be red. The probability that it was drawn from Bag I is:",
+        "hi": "थैला I में 3 लाल और 2 काली गेंदें हैं; थैला II में 2 लाल और 3 काली गेंदें हैं। यादृच्छया एक थैला चुनकर उसमें से एक गेंद निकाली जाती है जो लाल है। इसके थैला I से निकाले जाने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3/5", "hi": "3/5"}},
+        {"id": "B", "text": {"en": "2/5", "hi": "2/5"}},
+        {"id": "C", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "D", "text": {"en": "3/10", "hi": "3/10"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Bayes' theorem: $P(E_1) = P(E_2) = \\frac{1}{2}$, $P(R|E_1) = \\frac{3}{5}$, $P(R|E_2) = \\frac{2}{5}$. $P(E_1|R) = \\frac{\\frac{1}{2}\\cdot\\frac{3}{5}}{\\frac{1}{2}\\cdot\\frac{3}{5} + \\frac{1}{2}\\cdot\\frac{2}{5}} = \\frac{3}{3 + 2} = \\frac{3}{5}$.",
+        "hi": "बेज़ प्रमेय: $P(E_1) = P(E_2) = \\frac{1}{2}$, $P(R|E_1) = \\frac{3}{5}$, $P(R|E_2) = \\frac{2}{5}$। $P(E_1|R) = \\frac{\\frac{1}{2}\\cdot\\frac{3}{5}}{\\frac{1}{2}\\cdot\\frac{3}{5} + \\frac{1}{2}\\cdot\\frac{2}{5}} = \\frac{3}{3 + 2} = \\frac{3}{5}$।"
+      }
+    }
+  ]
+}

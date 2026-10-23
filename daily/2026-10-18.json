@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-18",
+  "questions": [
+    {
+      "id": "dd-2026-10-18-01",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A hydraulic lift works on the principle of:",
+        "hi": "हाइड्रॉलिक लिफ़्ट किस सिद्धांत पर कार्य करती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Archimedes' principle", "hi": "आर्किमिडीज़ का सिद्धांत"}},
+        {"id": "B", "text": {"en": "Pascal's law", "hi": "पास्कल का नियम"}},
+        {"id": "C", "text": {"en": "Bernoulli's principle", "hi": "बर्नूली का सिद्धांत"}},
+        {"id": "D", "text": {"en": "Stokes' law", "hi": "स्टोक्स का नियम"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Pascal's law: pressure applied to an enclosed fluid is transmitted undiminished to every part of it. So $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$, and a small force on a small piston produces a large force on a large piston.",
+        "hi": "पास्कल का नियम: किसी बंद तरल पर लगाया गया दाब बिना घटे उसके प्रत्येक भाग तक संचरित होता है। अतः $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$, और छोटे पिस्टन पर लगा छोटा बल बड़े पिस्टन पर बड़ा बल उत्पन्न करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "According to Stokes' law, the viscous drag on a small sphere of radius $r$ moving with speed $v$ through a fluid of viscosity $\\eta$ is:",
+        "hi": "स्टोक्स नियम के अनुसार, श्यानता $\\eta$ वाले तरल में चाल $v$ से गतिमान $r$ त्रिज्या के छोटे गोले पर श्यान कर्षण बल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6πηr²v", "hi": "6πηr²v"}},
+        {"id": "B", "text": {"en": "4πηrv", "hi": "4πηrv"}},
+        {"id": "C", "text": {"en": "6πηrv²", "hi": "6πηrv²"}},
+        {"id": "D", "text": {"en": "6πηrv", "hi": "6πηrv"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Stokes' law: $F = 6\\pi\\eta r v$ (valid for small spheres at low speeds — laminar flow). It leads to terminal velocity $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$.",
+        "hi": "स्टोक्स नियम: $F = 6\\pi\\eta r v$ (कम चाल पर छोटे गोलों के लिए मान्य — धारारेखी प्रवाह)। इससे सीमांत वेग $v_t = \\frac{2r^2(\\rho - \\sigma)g}{9\\eta}$ प्राप्त होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-03",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In a hydraulic lift, the areas of the small and large pistons are 10 cm² and 500 cm² respectively. If a force of 200 N is applied on the small piston, find the maximum mass (in kg) that can be lifted on the large piston. (Take $g = 10\\text{ m/s}^2$, neglect piston masses)",
+        "hi": "एक हाइड्रॉलिक लिफ़्ट में छोटे और बड़े पिस्टनों के क्षेत्रफल क्रमशः 10 cm² और 500 cm² हैं। यदि छोटे पिस्टन पर 200 N बल लगाया जाए, तो बड़े पिस्टन पर उठाया जा सकने वाला अधिकतम द्रव्यमान (kg में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए, पिस्टनों का द्रव्यमान नगण्य)"
+      },
+      "options": [],
+      "correctAnswer": 1000,
+      "solution": {
+        "en": "Pascal's law: $F_2 = F_1\\frac{A_2}{A_1} = 200 \\times \\frac{500}{10} = 10000\\text{ N}$. Mass $= \\frac{F_2}{g} = \\frac{10000}{10} = 1000\\text{ kg}$. (Units of area cancel in the ratio, so no conversion is needed.)",
+        "hi": "पास्कल का नियम: $F_2 = F_1\\frac{A_2}{A_1} = 200 \\times \\frac{500}{10} = 10000\\text{ N}$। द्रव्यमान $= \\frac{F_2}{g} = \\frac{10000}{10} = 1000\\text{ kg}$। (अनुपात में क्षेत्रफल के मात्रक कट जाते हैं, अतः रूपांतरण आवश्यक नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-04",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The ionic product of water, $K_w$, at 25°C is:",
+        "hi": "25°C पर जल का आयनिक गुणनफल $K_w$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1.0 × 10⁻⁷", "hi": "1.0 × 10⁻⁷"}},
+        {"id": "B", "text": {"en": "1.0 × 10⁷", "hi": "1.0 × 10⁷"}},
+        {"id": "C", "text": {"en": "1.0 × 10¹⁴", "hi": "1.0 × 10¹⁴"}},
+        {"id": "D", "text": {"en": "1.0 × 10⁻¹⁴", "hi": "1.0 × 10⁻¹⁴"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$K_w = [\\text{H}^+][\\text{OH}^-] = (10^{-7})(10^{-7}) = 1.0 \\times 10^{-14}$ at 25°C. Hence pH + pOH $= 14$. $K_w$ increases with temperature (ionisation of water is endothermic).",
+        "hi": "25°C पर $K_w = [\\text{H}^+][\\text{OH}^-] = (10^{-7})(10^{-7}) = 1.0 \\times 10^{-14}$। अतः pH + pOH $= 14$। ताप बढ़ने पर $K_w$ बढ़ता है (जल का आयनन ऊष्माशोषी है)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-05",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is a disproportionation reaction?",
+        "hi": "निम्नलिखित में से कौन-सी असमानुपातन अभिक्रिया है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Zn + CuSO₄ → ZnSO₄ + Cu", "hi": "Zn + CuSO₄ → ZnSO₄ + Cu"}},
+        {"id": "B", "text": {"en": "2H₂ + O₂ → 2H₂O", "hi": "2H₂ + O₂ → 2H₂O"}},
+        {"id": "C", "text": {"en": "Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O", "hi": "Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O"}},
+        {"id": "D", "text": {"en": "CaCO₃ → CaO + CO₂", "hi": "CaCO₃ → CaO + CO₂"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In disproportionation, the same element is simultaneously oxidised and reduced. In Cl₂ (0) → Cl⁻ (−1) + ClO⁻ (+1), chlorine does both. Zn + CuSO₄ is a displacement redox reaction, 2H₂ + O₂ is a combination, and CaCO₃ decomposition is not redox.",
+        "hi": "असमानुपातन में एक ही तत्व का साथ-साथ ऑक्सीकरण और अपचयन होता है। Cl₂ (0) → Cl⁻ (−1) + ClO⁻ (+1) में क्लोरीन दोनों करती है। Zn + CuSO₄ विस्थापन रेडॉक्स अभिक्रिया है, 2H₂ + O₂ संयोजन है, और CaCO₃ का अपघटन रेडॉक्स नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-06",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In a sample of hydrogen atoms, electrons are excited to the $n = 5$ level. Find the maximum number of different spectral lines that can be emitted as they return to the ground state.",
+        "hi": "हाइड्रोजन परमाणुओं के एक नमूने में इलेक्ट्रॉन $n = 5$ स्तर तक उत्तेजित किए जाते हैं। मूल अवस्था में लौटते समय उत्सर्जित हो सकने वाली भिन्न स्पेक्ट्रमी रेखाओं की अधिकतम संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "Number of lines $= \\frac{n(n - 1)}{2} = \\frac{5 \\times 4}{2} = 10$ (each pair of levels gives one line): Lyman 4, Balmer 3, Paschen 2, Brackett 1. (For a single atom, the maximum is $n - 1 = 4$.)",
+        "hi": "रेखाओं की संख्या $= \\frac{n(n - 1)}{2} = \\frac{5 \\times 4}{2} = 10$ (स्तरों का प्रत्येक युग्म एक रेखा देता है): लाइमन 4, बामर 3, पाशन 2, ब्रैकेट 1। (एक अकेले परमाणु के लिए अधिकतम $n - 1 = 4$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-07",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The $n$th term of the AP $3, 7, 11, 15, \\ldots$ is:",
+        "hi": "समांतर श्रेणी $3, 7, 11, 15, \\ldots$ का $n$वाँ पद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4n + 3", "hi": "4n + 3"}},
+        {"id": "B", "text": {"en": "4n − 1", "hi": "4n − 1"}},
+        {"id": "C", "text": {"en": "3n + 4", "hi": "3n + 4"}},
+        {"id": "D", "text": {"en": "4n + 1", "hi": "4n + 1"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$a = 3$, $d = 4$. $a_n = a + (n - 1)d = 3 + 4(n - 1) = 4n - 1$. Check: $n = 1 \\Rightarrow 3$ ✓, $n = 2 \\Rightarrow 7$ ✓.",
+        "hi": "$a = 3$, $d = 4$। $a_n = a + (n - 1)d = 3 + 4(n - 1) = 4n - 1$। जाँच: $n = 1 \\Rightarrow 3$ ✓, $n = 2 \\Rightarrow 7$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "$\\sin 3x$ is equal to:",
+        "hi": "$\\sin 3x$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 sin x − 4 sin³x", "hi": "3 sin x − 4 sin³x"}},
+        {"id": "B", "text": {"en": "4 sin³x − 3 sin x", "hi": "4 sin³x − 3 sin x"}},
+        {"id": "C", "text": {"en": "3 sin x + 4 sin³x", "hi": "3 sin x + 4 sin³x"}},
+        {"id": "D", "text": {"en": "4 cos³x − 3 cos x", "hi": "4 cos³x − 3 cos x"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\sin 3x = \\sin(2x + x) = \\sin 2x\\cos x + \\cos 2x\\sin x = 2\\sin x(1 - \\sin^2 x) + (1 - 2\\sin^2 x)\\sin x = 3\\sin x - 4\\sin^3 x$. ($4\\cos^3 x - 3\\cos x$ is $\\cos 3x$.)",
+        "hi": "$\\sin 3x = \\sin(2x + x) = \\sin 2x\\cos x + \\cos 2x\\sin x = 2\\sin x(1 - \\sin^2 x) + (1 - 2\\sin^2 x)\\sin x = 3\\sin x - 4\\sin^3 x$। ($4\\cos^3 x - 3\\cos x$, $\\cos 3x$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-09",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $n(A) = 3$ and $n(B) = 4$, the number of subsets of $A \\times B$ is:",
+        "hi": "यदि $n(A) = 3$ और $n(B) = 4$ है, तो $A \\times B$ के उपसमुच्चयों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4096", "hi": "4096"}},
+        {"id": "B", "text": {"en": "12", "hi": "12"}},
+        {"id": "C", "text": {"en": "144", "hi": "144"}},
+        {"id": "D", "text": {"en": "2048", "hi": "2048"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$n(A \\times B) = 3 \\times 4 = 12$. Number of subsets $= 2^{12} = 4096$.",
+        "hi": "$n(A \\times B) = 3 \\times 4 = 12$। उपसमुच्चयों की संख्या $= 2^{12} = 4096$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-18-10",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $y = x^3 \\ln x$, find the value of $\\frac{d^2y}{dx^2}$ at $x = 1$.",
+        "hi": "यदि $y = x^3 \\ln x$ है, तो $x = 1$ पर $\\frac{d^2y}{dx^2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "$\\frac{dy}{dx} = 3x^2\\ln x + x^3 \\cdot \\frac{1}{x} = 3x^2\\ln x + x^2$. $\\frac{d^2y}{dx^2} = 6x\\ln x + 3x^2 \\cdot \\frac{1}{x} + 2x = 6x\\ln x + 5x$. At $x = 1$: $0 + 5 = 5$.",
+        "hi": "$\\frac{dy}{dx} = 3x^2\\ln x + x^3 \\cdot \\frac{1}{x} = 3x^2\\ln x + x^2$। $\\frac{d^2y}{dx^2} = 6x\\ln x + 3x^2 \\cdot \\frac{1}{x} + 2x = 6x\\ln x + 5x$। $x = 1$ पर: $0 + 5 = 5$।"
+      }
+    }
+  ]
+}

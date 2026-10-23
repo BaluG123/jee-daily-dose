@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-19",
+  "questions": [
+    {
+      "id": "dd-2026-10-19-01",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "In simple harmonic motion, the acceleration $a$ of the particle is related to its displacement $x$ from the mean position as:",
+        "hi": "सरल आवर्त गति में कण का त्वरण $a$, माध्य स्थिति से उसके विस्थापन $x$ से किस प्रकार संबंधित है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "a ∝ −x", "hi": "a ∝ −x"}},
+        {"id": "B", "text": {"en": "a ∝ x", "hi": "a ∝ x"}},
+        {"id": "C", "text": {"en": "a ∝ x²", "hi": "a ∝ x²"}},
+        {"id": "D", "text": {"en": "a ∝ 1/x", "hi": "a ∝ 1/x"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "SHM is defined by $a = -\\omega^2 x$: acceleration is proportional to displacement and always directed towards the mean position (hence the minus sign). '$a \\propto x$' misses the restoring direction.",
+        "hi": "सरल आवर्त गति की परिभाषा $a = -\\omega^2 x$ है: त्वरण विस्थापन के अनुक्रमानुपाती होता है और सदैव माध्य स्थिति की ओर निर्देशित होता है (इसलिए ऋण चिह्न)। '$a \\propto x$' प्रत्यानयन दिशा को नहीं दर्शाता।"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-02",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two identical springs, each of spring constant $k$, are connected in series. The effective spring constant of the combination is:",
+        "hi": "$k$ स्प्रिंग नियतांक वाली दो समरूप स्प्रिंगें श्रेणी क्रम में जोड़ी जाती हैं। संयोजन का प्रभावी स्प्रिंग नियतांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2k", "hi": "2k"}},
+        {"id": "B", "text": {"en": "k", "hi": "k"}},
+        {"id": "C", "text": {"en": "k/4", "hi": "k/4"}},
+        {"id": "D", "text": {"en": "k/2", "hi": "k/2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In series, the same force acts on both springs and the extensions add: $\\frac{1}{k_s} = \\frac{1}{k} + \\frac{1}{k} \\Rightarrow k_s = \\frac{k}{2}$. (In parallel, $k_p = 2k$.)",
+        "hi": "श्रेणी क्रम में दोनों स्प्रिंगों पर समान बल लगता है और प्रसार जुड़ते हैं: $\\frac{1}{k_s} = \\frac{1}{k} + \\frac{1}{k} \\Rightarrow k_s = \\frac{k}{2}$। (समांतर क्रम में $k_p = 2k$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-03",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A block of mass 1 kg attached to a spring oscillates with a time period of $\\frac{\\pi}{5}\\text{ s}$. Find the spring constant (in N/m).",
+        "hi": "एक स्प्रिंग से जुड़ा 1 kg द्रव्यमान का गुटका $\\frac{\\pi}{5}\\text{ s}$ आवर्तकाल से दोलन करता है। स्प्रिंग नियतांक (N/m में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 100,
+      "solution": {
+        "en": "$T = 2\\pi\\sqrt{\\frac{m}{k}} \\Rightarrow k = \\frac{4\\pi^2 m}{T^2} = \\frac{4\\pi^2 \\times 1}{\\pi^2/25} = 100\\text{ N/m}$. (Equivalently $\\omega = \\frac{2\\pi}{T} = 10$ rad/s and $k = m\\omega^2 = 100$ N/m.)",
+        "hi": "$T = 2\\pi\\sqrt{\\frac{m}{k}} \\Rightarrow k = \\frac{4\\pi^2 m}{T^2} = \\frac{4\\pi^2 \\times 1}{\\pi^2/25} = 100\\text{ N/m}$। (समतुल्य रूप से $\\omega = \\frac{2\\pi}{T} = 10$ rad/s और $k = m\\omega^2 = 100$ N/m।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-04",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The hybridisation of carbon atoms in diamond is:",
+        "hi": "हीरे में कार्बन परमाणुओं का संकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sp²", "hi": "sp²"}},
+        {"id": "B", "text": {"en": "sp", "hi": "sp"}},
+        {"id": "C", "text": {"en": "sp³", "hi": "sp³"}},
+        {"id": "D", "text": {"en": "sp³d", "hi": "sp³d"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In diamond, each carbon is bonded tetrahedrally to four other carbons through sp³ hybrid orbitals, forming a rigid 3-D network. This explains its extreme hardness and its being an electrical insulator. (In graphite, carbon is sp².)",
+        "hi": "हीरे में प्रत्येक कार्बन sp³ संकर कक्षकों द्वारा चार अन्य कार्बनों से चतुष्फलकीय रूप से जुड़ा है, जिससे एक दृढ़ त्रिविमीय जालक बनता है। इससे इसकी अत्यधिक कठोरता और विद्युत अचालकता समझ आती है। (ग्रेफ़ाइट में कार्बन sp² है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-05",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Benzene prefers electrophilic substitution over addition reactions because:",
+        "hi": "बेन्ज़ीन योगात्मक अभिक्रियाओं की अपेक्षा इलेक्ट्रॉनस्नेही प्रतिस्थापन को प्राथमिकता देता है क्योंकि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "It has no π electrons", "hi": "इसमें कोई π इलेक्ट्रॉन नहीं होते"}},
+        {"id": "B", "text": {"en": "Its aromatic stability (delocalised π electrons) is retained in substitution", "hi": "प्रतिस्थापन में इसका ऐरोमैटिक स्थायित्व (विस्थानीकृत π इलेक्ट्रॉन) बना रहता है"}},
+        {"id": "C", "text": {"en": "It is a saturated hydrocarbon", "hi": "यह एक संतृप्त हाइड्रोकार्बन है"}},
+        {"id": "D", "text": {"en": "It has localised double bonds", "hi": "इसमें स्थानीकृत द्विआबंध होते हैं"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Benzene's 6π electrons are delocalised over the ring, giving large resonance (aromatic) stabilisation. Addition would destroy this aromatic sextet, while substitution restores it in the final step. So substitution is energetically favoured.",
+        "hi": "बेन्ज़ीन के 6π इलेक्ट्रॉन वलय पर विस्थानीकृत हैं, जिससे बड़ा अनुनाद (ऐरोमैटिक) स्थायित्व मिलता है। योग से यह ऐरोमैटिक षष्टक नष्ट हो जाता, जबकि प्रतिस्थापन के अंतिम चरण में यह पुनः बन जाता है। अतः प्रतिस्थापन ऊर्जा की दृष्टि से अनुकूल है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-06",
+      "subject": "chemistry",
+      "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of hyperconjugative structures (no-bond resonance structures involving C–H bonds) possible for the isopropyl carbocation, (CH₃)₂CH⁺.",
+        "hi": "आइसोप्रोपिल कार्बधनायन, (CH₃)₂CH⁺, के लिए संभव अतिसंयुग्मी संरचनाओं (C–H आबंधों वाली आबंध-रहित अनुनादी संरचनाओं) की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "Hyperconjugation involves α-hydrogens (H atoms on carbons directly attached to C⁺). (CH₃)₂CH⁺ has two CH₃ groups with 3 α-H each, giving 6 α-H and hence 6 hyperconjugative structures. Compare: ethyl cation 3, tert-butyl cation 9 — which explains the stability order 3° > 2° > 1°.",
+        "hi": "अतिसंयुग्मन में α-हाइड्रोजन (C⁺ से सीधे जुड़े कार्बनों पर H परमाणु) भाग लेते हैं। (CH₃)₂CH⁺ में दो CH₃ समूह हैं, प्रत्येक में 3 α-H, अतः 6 α-H और 6 अतिसंयुग्मी संरचनाएँ। तुलना: एथिल धनायन 3, tert-ब्यूटिल धनायन 9 — इससे स्थायित्व क्रम 3° > 2° > 1° समझ आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-07",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A fair die is thrown once. The probability of getting a prime number is:",
+        "hi": "एक निष्पक्ष पासा एक बार फेंका जाता है। अभाज्य संख्या आने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/3", "hi": "1/3"}},
+        {"id": "B", "text": {"en": "2/3", "hi": "2/3"}},
+        {"id": "C", "text": {"en": "1/6", "hi": "1/6"}},
+        {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Prime numbers on a die: 2, 3, 5 (1 is neither prime nor composite). $P = \\frac{3}{6} = \\frac{1}{2}$.",
+        "hi": "पासे पर अभाज्य संख्याएँ: 2, 3, 5 (1 न अभाज्य है न भाज्य)। $P = \\frac{3}{6} = \\frac{1}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\omega$ is a non-real cube root of unity, then $1 + \\omega^{2026} + \\omega^{2027}$ equals:",
+        "hi": "यदि $\\omega$ इकाई का एक अवास्तविक घनमूल है, तो $1 + \\omega^{2026} + \\omega^{2027}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "3", "hi": "3"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\omega^3 = 1$. $2026 = 3 \\times 675 + 1 \\Rightarrow \\omega^{2026} = \\omega$; $2027 = 3 \\times 675 + 2 \\Rightarrow \\omega^{2027} = \\omega^2$. So the expression $= 1 + \\omega + \\omega^2 = 0$.",
+        "hi": "$\\omega^3 = 1$। $2026 = 3 \\times 675 + 1 \\Rightarrow \\omega^{2026} = \\omega$; $2027 = 3 \\times 675 + 2 \\Rightarrow \\omega^{2027} = \\omega^2$। अतः व्यंजक $= 1 + \\omega + \\omega^2 = 0$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the lines $2x + 3y = 5$ and $4x + ky = 7$ are parallel, then $k$ equals:",
+        "hi": "यदि रेखाएँ $2x + 3y = 5$ और $4x + ky = 7$ समांतर हैं, तो $k$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6", "hi": "6"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "−6", "hi": "−6"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Parallel lines have equal slopes: $-\\frac{2}{3} = -\\frac{4}{k} \\Rightarrow k = 6$. (Equivalently, $\\frac{a_1}{a_2} = \\frac{b_1}{b_2}$.)",
+        "hi": "समांतर रेखाओं के ढाल बराबर होते हैं: $-\\frac{2}{3} = -\\frac{4}{k} \\Rightarrow k = 6$। (समतुल्य रूप से $\\frac{a_1}{a_2} = \\frac{b_1}{b_2}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-19-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the absolute maximum value of $f(x) = 2x^3 - 15x^2 + 36x + 1$ on the interval $[1, 5]$.",
+        "hi": "अंतराल $[1, 5]$ पर $f(x) = 2x^3 - 15x^2 + 36x + 1$ का निरपेक्ष उच्चतम मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 56,
+      "solution": {
+        "en": "$f'(x) = 6x^2 - 30x + 36 = 6(x - 2)(x - 3)$, critical points $x = 2, 3$. Evaluate at critical points and endpoints: $f(1) = 24$, $f(2) = 29$, $f(3) = 28$, $f(5) = 250 - 375 + 180 + 1 = 56$. Absolute maximum $= 56$ (at the endpoint $x = 5$). Trap: the local maximum 29 is not the absolute maximum.",
+        "hi": "$f'(x) = 6x^2 - 30x + 36 = 6(x - 2)(x - 3)$, क्रांतिक बिंदु $x = 2, 3$। क्रांतिक बिंदुओं और अंत्य बिंदुओं पर मान: $f(1) = 24$, $f(2) = 29$, $f(3) = 28$, $f(5) = 250 - 375 + 180 + 1 = 56$। निरपेक्ष उच्चतम $= 56$ (अंत्य बिंदु $x = 5$ पर)। ध्यान दें: स्थानीय उच्चतम 29 निरपेक्ष उच्चतम नहीं है।"
+      }
+    }
+  ]
+}

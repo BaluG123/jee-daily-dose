@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-29",
+  "questions": [
+    {
+      "id": "dd-2026-09-29-01",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For small oscillations, the time period of a simple pendulum is independent of:",
+        "hi": "छोटे दोलनों के लिए सरल लोलक का आवर्तकाल किस पर निर्भर नहीं करता?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Length of the pendulum", "hi": "लोलक की लंबाई"}},
+        {"id": "B", "text": {"en": "Acceleration due to gravity", "hi": "गुरुत्वीय त्वरण"}},
+        {"id": "C", "text": {"en": "Height above the Earth's surface", "hi": "पृथ्वी तल से ऊँचाई"}},
+        {"id": "D", "text": {"en": "Mass of the bob", "hi": "गोलक का द्रव्यमान"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$T = 2\\pi\\sqrt{\\frac{l}{g}}$. It depends on length $l$ and $g$ (which changes with height), but not on the mass of the bob.",
+        "hi": "$T = 2\\pi\\sqrt{\\frac{l}{g}}$। यह लंबाई $l$ और $g$ (जो ऊँचाई के साथ बदलता है) पर निर्भर करता है, परंतु गोलक के द्रव्यमान पर नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-02",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The fundamental frequency of an organ pipe of length $L$ closed at one end is ($v$ = speed of sound):",
+        "hi": "एक सिरे पर बंद $L$ लंबाई के ऑर्गन पाइप की मूल आवृत्ति है ($v$ = ध्वनि की चाल):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "v/(2L)", "hi": "v/(2L)"}},
+        {"id": "B", "text": {"en": "v/L", "hi": "v/L"}},
+        {"id": "C", "text": {"en": "v/(4L)", "hi": "v/(4L)"}},
+        {"id": "D", "text": {"en": "2v/L", "hi": "2v/L"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A closed pipe has a node at the closed end and an antinode at the open end. In the fundamental mode $L = \\frac{\\lambda}{4}$, so $f_1 = \\frac{v}{4L}$. Only odd harmonics ($f_1, 3f_1, 5f_1, \\ldots$) are present. (For an open pipe, $f_1 = \\frac{v}{2L}$.)",
+        "hi": "बंद पाइप में बंद सिरे पर निस्पंद और खुले सिरे पर प्रस्पंद होता है। मूल विधा में $L = \\frac{\\lambda}{4}$, अतः $f_1 = \\frac{v}{4L}$। केवल विषम संनादी ($f_1, 3f_1, 5f_1, \\ldots$) उपस्थित होते हैं। (खुले पाइप के लिए $f_1 = \\frac{v}{2L}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-03",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A $2\\,\\mu\\text{F}$ capacitor charged to $100\\text{ V}$ is connected in parallel to an identical uncharged capacitor. Find the energy lost (in mJ) in the process.",
+        "hi": "$100\\text{ V}$ तक आवेशित एक $2\\,\\mu\\text{F}$ संधारित्र को एक समरूप अनावेशित संधारित्र के साथ समांतर क्रम में जोड़ा जाता है। इस प्रक्रिया में ऊर्जा की हानि (mJ में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Initial energy $U_1 = \\frac{1}{2}CV^2 = \\frac{1}{2}(2 \\times 10^{-6})(100)^2 = 10\\text{ mJ}$. Charge $Q = 200\\,\\mu\\text{C}$ is shared; common potential $V = \\frac{Q}{C_1 + C_2} = \\frac{200}{4} = 50\\text{ V}$. Final energy $U_2 = \\frac{1}{2}(4 \\times 10^{-6})(50)^2 = 5\\text{ mJ}$. Loss $= 5\\text{ mJ}$ (as heat in the connecting wires). Formula: $\\Delta U = \\frac{C_1C_2(V_1 - V_2)^2}{2(C_1 + C_2)}$.",
+        "hi": "प्रारंभिक ऊर्जा $U_1 = \\frac{1}{2}CV^2 = \\frac{1}{2}(2 \\times 10^{-6})(100)^2 = 10\\text{ mJ}$। आवेश $Q = 200\\,\\mu\\text{C}$ बँट जाता है; उभयनिष्ठ विभव $V = \\frac{Q}{C_1 + C_2} = \\frac{200}{4} = 50\\text{ V}$। अंतिम ऊर्जा $U_2 = \\frac{1}{2}(4 \\times 10^{-6})(50)^2 = 5\\text{ mJ}$। हानि $= 5\\text{ mJ}$ (जोड़ने वाले तारों में ऊष्मा के रूप में)। सूत्र: $\\Delta U = \\frac{C_1C_2(V_1 - V_2)^2}{2(C_1 + C_2)}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The molarity of a solution containing 4 g of NaOH dissolved in 500 mL of solution is (molar mass of NaOH = 40 g/mol):",
+        "hi": "500 mL विलयन में घुले 4 g NaOH वाले विलयन की मोलरता है (NaOH का मोलर द्रव्यमान = 40 g/mol):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0.1 M", "hi": "0.1 M"}},
+        {"id": "B", "text": {"en": "0.2 M", "hi": "0.2 M"}},
+        {"id": "C", "text": {"en": "0.4 M", "hi": "0.4 M"}},
+        {"id": "D", "text": {"en": "2 M", "hi": "2 M"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Moles of NaOH $= \\frac{4}{40} = 0.1$ mol. Molarity $= \\frac{\\text{moles}}{\\text{volume in L}} = \\frac{0.1}{0.5} = 0.2\\text{ M}$.",
+        "hi": "NaOH के मोल $= \\frac{4}{40} = 0.1$ mol। मोलरता $= \\frac{\\text{moles}}{\\text{volume in L}} = \\frac{0.1}{0.5} = 0.2\\text{ M}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The energy of the electron in the second orbit ($n = 2$) of a hydrogen atom is:",
+        "hi": "हाइड्रोजन परमाणु की द्वितीय कक्षा ($n = 2$) में इलेक्ट्रॉन की ऊर्जा है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−3.4 eV", "hi": "−3.4 eV"}},
+        {"id": "B", "text": {"en": "−13.6 eV", "hi": "−13.6 eV"}},
+        {"id": "C", "text": {"en": "−6.8 eV", "hi": "−6.8 eV"}},
+        {"id": "D", "text": {"en": "−1.51 eV", "hi": "−1.51 eV"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Bohr model: $E_n = -\\frac{13.6 Z^2}{n^2}\\text{ eV}$. For H ($Z = 1$), $n = 2$: $E_2 = -\\frac{13.6}{4} = -3.4\\text{ eV}$. (−1.51 eV corresponds to $n = 3$.)",
+        "hi": "बोर मॉडल: $E_n = -\\frac{13.6 Z^2}{n^2}\\text{ eV}$। H ($Z = 1$), $n = 2$ के लिए: $E_2 = -\\frac{13.6}{4} = -3.4\\text{ eV}$। (−1.51 eV, $n = 3$ के संगत है।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following species is aromatic?",
+        "hi": "निम्नलिखित में से कौन-सी स्पीशीज़ ऐरोमैटिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Cyclopentadienyl cation", "hi": "साइक्लोपेन्टाडाइईनिल धनायन"}},
+        {"id": "B", "text": {"en": "Cyclooctatetraene", "hi": "साइक्लोऑक्टाटेट्राईन"}},
+        {"id": "C", "text": {"en": "Cycloheptatriene", "hi": "साइक्लोहेप्टाट्राईन"}},
+        {"id": "D", "text": {"en": "Cyclopentadienyl anion", "hi": "साइक्लोपेन्टाडाइईनिल ऋणायन"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Hückel's rule: cyclic, planar, fully conjugated with $(4n + 2)\\,\\pi$ electrons. Cyclopentadienyl anion has 6π electrons ($n = 1$) and every carbon is sp² → aromatic. The cation has 4π electrons → antiaromatic. Cyclooctatetraene (8π) is tub-shaped, not planar → non-aromatic. Cycloheptatriene has an sp³ CH₂ group, so it is not fully conjugated → non-aromatic (its cation, the tropylium ion, is aromatic).",
+        "hi": "ह्यूकल नियम: चक्रीय, समतलीय, पूर्णतः संयुग्मित तथा $(4n + 2)\\,\\pi$ इलेक्ट्रॉन। साइक्लोपेन्टाडाइईनिल ऋणायन में 6π इलेक्ट्रॉन ($n = 1$) हैं और सभी कार्बन sp² हैं → ऐरोमैटिक। धनायन में 4π इलेक्ट्रॉन हैं → प्रतिऐरोमैटिक। साइक्लोऑक्टाटेट्राईन (8π) टब-आकार का है, समतलीय नहीं → अनऐरोमैटिक। साइक्लोहेप्टाट्राईन में एक sp³ CH₂ समूह है, अतः पूर्ण संयुग्मन नहीं → अनऐरोमैटिक (इसका धनायन, ट्रोपिलियम आयन, ऐरोमैटिक है)।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+        "hi": "$\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "Does not exist", "hi": "अस्तित्व में नहीं है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Direct substitution gives $\\frac{0}{0}$. Factorise: $\\frac{(x - 2)(x + 2)}{x - 2} = x + 2$ for $x \\ne 2$. So the limit $= 2 + 2 = 4$.",
+        "hi": "सीधे रखने पर $\\frac{0}{0}$ रूप आता है। गुणनखंड करें: $x \\ne 2$ के लिए $\\frac{(x - 2)(x + 2)}{x - 2} = x + 2$। अतः सीमा $= 2 + 2 = 4$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $z = 1 + i$, then $\\frac{\\bar{z}}{z}$ equals:",
+        "hi": "यदि $z = 1 + i$ है, तो $\\frac{\\bar{z}}{z}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "i", "hi": "i"}},
+        {"id": "B", "text": {"en": "−i", "hi": "−i"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "−1", "hi": "−1"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\frac{\\bar{z}}{z} = \\frac{1 - i}{1 + i} \\times \\frac{1 - i}{1 - i} = \\frac{(1 - i)^2}{1 - i^2} = \\frac{1 - 2i - 1}{2} = -i$. (Note $\\left|\\frac{\\bar{z}}{z}\\right| = 1$ always.)",
+        "hi": "$\\frac{\\bar{z}}{z} = \\frac{1 - i}{1 + i} \\times \\frac{1 - i}{1 - i} = \\frac{(1 - i)^2}{1 - i^2} = \\frac{1 - 2i - 1}{2} = -i$। (ध्यान दें $\\left|\\frac{\\bar{z}}{z}\\right| = 1$ सदैव।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-09",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The sum of all the binomial coefficients in the expansion of $(1 + x)^8$ is:",
+        "hi": "$(1 + x)^8$ के प्रसार में सभी द्विपद गुणांकों का योग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "128", "hi": "128"}},
+        {"id": "B", "text": {"en": "512", "hi": "512"}},
+        {"id": "C", "text": {"en": "256", "hi": "256"}},
+        {"id": "D", "text": {"en": "64", "hi": "64"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$(1 + x)^n = \\sum_{r=0}^{n} {}^nC_r x^r$. Put $x = 1$: $\\sum {}^nC_r = 2^n = 2^8 = 256$.",
+        "hi": "$(1 + x)^n = \\sum_{r=0}^{n} {}^nC_r x^r$। $x = 1$ रखने पर: $\\sum {}^nC_r = 2^n = 2^8 = 256$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-29-10",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of points at which $f(x) = |x - 1| + |x - 2| + |x - 3|$ is not differentiable.",
+        "hi": "उन बिंदुओं की संख्या ज्ञात कीजिए जिन पर $f(x) = |x - 1| + |x - 2| + |x - 3|$ अवकलनीय नहीं है।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "Each $|x - a|$ has a sharp corner at $x = a$. Here the corners are at $x = 1, 2, 3$ and they don't cancel: the slope of $f$ changes from $-3$ to $-1$ at $x = 1$, from $-1$ to $1$ at $x = 2$, and from $1$ to $3$ at $x = 3$. So $f$ is non-differentiable at 3 points (though continuous everywhere).",
+        "hi": "प्रत्येक $|x - a|$ का $x = a$ पर नुकीला कोना होता है। यहाँ कोने $x = 1, 2, 3$ पर हैं और वे निरस्त नहीं होते: $x = 1$ पर $f$ का ढाल $-3$ से $-1$, $x = 2$ पर $-1$ से $1$, और $x = 3$ पर $1$ से $3$ हो जाता है। अतः $f$ तीन बिंदुओं पर अवकलनीय नहीं है (यद्यपि हर जगह संतत है)।"
+      }
+    }
+  ]
+}

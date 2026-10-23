@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-01",
+  "questions": [
+    {
+      "id": "dd-2026-10-01-01",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A charge $q$ moves with velocity $v$ parallel to a uniform magnetic field $B$. The magnetic force on it is:",
+        "hi": "एक आवेश $q$ वेग $v$ से एकसमान चुंबकीय क्षेत्र $B$ के समांतर गति करता है। इस पर चुंबकीय बल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "qvB", "hi": "qvB"}},
+        {"id": "B", "text": {"en": "qvB/2", "hi": "qvB/2"}},
+        {"id": "C", "text": {"en": "2qvB", "hi": "2qvB"}},
+        {"id": "D", "text": {"en": "Zero", "hi": "शून्य"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\vec{F} = q(\\vec{v} \\times \\vec{B})$, so $F = qvB\\sin\\theta$. For motion parallel to the field, $\\theta = 0^\\circ$ and $\\sin 0^\\circ = 0$, so $F = 0$. The charge continues in a straight line.",
+        "hi": "$\\vec{F} = q(\\vec{v} \\times \\vec{B})$, अतः $F = qvB\\sin\\theta$। क्षेत्र के समांतर गति के लिए $\\theta = 0^\\circ$ और $\\sin 0^\\circ = 0$, अतः $F = 0$। आवेश सरल रेखा में चलता रहता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-02",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In a Wheatstone bridge, $P$ and $Q$ are in one branch and $R$ and $S$ in the parallel branch, with the galvanometer connected between the $P$–$Q$ junction and the $R$–$S$ junction. The bridge is balanced when:",
+        "hi": "एक व्हीटस्टोन सेतु में $P$ और $Q$ एक शाखा में तथा $R$ और $S$ समांतर शाखा में हैं, और धारामापी $P$–$Q$ संधि तथा $R$–$S$ संधि के बीच जुड़ा है। सेतु संतुलित होता है जब:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "PQ = RS", "hi": "PQ = RS"}},
+        {"id": "B", "text": {"en": "P + Q = R + S", "hi": "P + Q = R + S"}},
+        {"id": "C", "text": {"en": "P − Q = R − S", "hi": "P − Q = R − S"}},
+        {"id": "D", "text": {"en": "P/Q = R/S", "hi": "P/Q = R/S"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "At balance, no current flows through the galvanometer, so both junctions are at the same potential. The voltage divides in the same ratio in both branches: $\\frac{P}{Q} = \\frac{R}{S}$ (equivalently $PS = QR$).",
+        "hi": "संतुलन पर धारामापी से कोई धारा नहीं बहती, अतः दोनों संधियाँ समान विभव पर होती हैं। दोनों शाखाओं में वोल्टता समान अनुपात में बँटती है: $\\frac{P}{Q} = \\frac{R}{S}$ (अर्थात $PS = QR$)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-03",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "A proton and an alpha particle are accelerated from rest through the same potential difference and then enter a uniform magnetic field perpendicular to it. The ratio of the radius of the alpha particle's path to that of the proton ($r_\\alpha / r_p$) is:",
+        "hi": "एक प्रोटॉन और एक ऐल्फ़ा कण विराम से समान विभवांतर द्वारा त्वरित होकर एकसमान चुंबकीय क्षेत्र में उसके लंबवत प्रवेश करते हैं। ऐल्फ़ा कण के पथ की त्रिज्या और प्रोटॉन के पथ की त्रिज्या का अनुपात ($r_\\alpha / r_p$) है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2", "hi": "2"}},
+        {"id": "B", "text": {"en": "√2", "hi": "√2"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "1/√2", "hi": "1/√2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "KE gained $= qV$, so $p = \\sqrt{2mqV}$. Radius $r = \\frac{p}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mV}{q}} \\propto \\sqrt{\\frac{m}{q}}$. For alpha: $m = 4m_p$, $q = 2e$. $\\frac{r_\\alpha}{r_p} = \\sqrt{\\frac{4}{2}} = \\sqrt{2}$.",
+        "hi": "प्राप्त गतिज ऊर्जा $= qV$, अतः $p = \\sqrt{2mqV}$। त्रिज्या $r = \\frac{p}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mV}{q}} \\propto \\sqrt{\\frac{m}{q}}$। ऐल्फ़ा के लिए: $m = 4m_p$, $q = 2e$। $\\frac{r_\\alpha}{r_p} = \\sqrt{\\frac{4}{2}} = \\sqrt{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-04",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of molar conductivity ($\\Lambda_m$) is:",
+        "hi": "मोलर चालकता ($\\Lambda_m$) का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "S m² mol⁻¹", "hi": "S m² mol⁻¹"}},
+        {"id": "B", "text": {"en": "S m⁻¹", "hi": "S m⁻¹"}},
+        {"id": "C", "text": {"en": "S m mol⁻¹", "hi": "S m mol⁻¹"}},
+        {"id": "D", "text": {"en": "Ω m", "hi": "Ω m"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\Lambda_m = \\frac{\\kappa}{c}$, where $\\kappa$ (conductivity) is in S m⁻¹ and $c$ is in mol m⁻³. So $\\Lambda_m$ has units S m⁻¹ / mol m⁻³ = S m² mol⁻¹.",
+        "hi": "$\\Lambda_m = \\frac{\\kappa}{c}$, जहाँ $\\kappa$ (चालकता) S m⁻¹ में और $c$ mol m⁻³ में है। अतः $\\Lambda_m$ का मात्रक S m⁻¹ / mol m⁻³ = S m² mol⁻¹ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The unit of the rate constant of a first-order reaction is:",
+        "hi": "प्रथम कोटि की अभिक्रिया के वेग स्थिरांक का मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "mol L⁻¹ s⁻¹", "hi": "mol L⁻¹ s⁻¹"}},
+        {"id": "B", "text": {"en": "L mol⁻¹ s⁻¹", "hi": "L mol⁻¹ s⁻¹"}},
+        {"id": "C", "text": {"en": "s⁻¹", "hi": "s⁻¹"}},
+        {"id": "D", "text": {"en": "L² mol⁻² s⁻¹", "hi": "L² mol⁻² s⁻¹"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For order $n$, the unit of $k$ is $(\\text{mol L}^{-1})^{1 - n}\\,\\text{s}^{-1}$. For $n = 1$: s⁻¹ (independent of concentration unit). Zero order: mol L⁻¹ s⁻¹; second order: L mol⁻¹ s⁻¹; third order: L² mol⁻² s⁻¹.",
+        "hi": "कोटि $n$ के लिए $k$ का मात्रक $(\\text{mol L}^{-1})^{1 - n}\\,\\text{s}^{-1}$ होता है। $n = 1$ के लिए: s⁻¹ (सांद्रता के मात्रक से स्वतंत्र)। शून्य कोटि: mol L⁻¹ s⁻¹; द्वितीय कोटि: L mol⁻¹ s⁻¹; तृतीय कोटि: L² mol⁻² s⁻¹।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The half-life of a first-order reaction is 10 minutes. Find the time (in minutes) required for 87.5% completion of the reaction.",
+        "hi": "एक प्रथम कोटि की अभिक्रिया की अर्धायु 10 मिनट है। अभिक्रिया के 87.5% पूर्ण होने में लगने वाला समय (मिनट में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 30,
+      "solution": {
+        "en": "After 87.5% completion, 12.5% remains $= \\frac{1}{8} = \\left(\\frac{1}{2}\\right)^3$ of the initial amount, i.e. 3 half-lives. Time $= 3 \\times 10 = 30$ min. Using the formula: $t = \\frac{2.303}{k}\\log\\frac{100}{12.5} = \\frac{2.303 \\times 3\\log 2}{k} = 3t_{1/2}$.",
+        "hi": "87.5% पूर्ण होने पर 12.5% शेष रहता है $= \\frac{1}{8} = \\left(\\frac{1}{2}\\right)^3$, अर्थात 3 अर्धायु। समय $= 3 \\times 10 = 30$ मिनट। सूत्र से: $t = \\frac{2.303}{k}\\log\\frac{100}{12.5} = \\frac{2.303 \\times 3\\log 2}{k} = 3t_{1/2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ is a $2 \\times 3$ matrix and $B$ is a $3 \\times 4$ matrix, the order of the matrix $AB$ is:",
+        "hi": "यदि $A$ एक $2 \\times 3$ आव्यूह और $B$ एक $3 \\times 4$ आव्यूह है, तो आव्यूह $AB$ की कोटि है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 × 3", "hi": "3 × 3"}},
+        {"id": "B", "text": {"en": "2 × 4", "hi": "2 × 4"}},
+        {"id": "C", "text": {"en": "4 × 2", "hi": "4 × 2"}},
+        {"id": "D", "text": {"en": "Not defined", "hi": "परिभाषित नहीं"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$AB$ is defined when the number of columns of $A$ equals the number of rows of $B$ (3 = 3 ✓). The product has the rows of $A$ and the columns of $B$: $2 \\times 4$. (Note: $BA$ is not defined here since $4 \\ne 2$.)",
+        "hi": "$AB$ तब परिभाषित होता है जब $A$ के स्तंभों की संख्या, $B$ की पंक्तियों की संख्या के बराबर हो (3 = 3 ✓)। गुणनफल में $A$ की पंक्तियाँ और $B$ के स्तंभ होते हैं: $2 \\times 4$। (ध्यान दें: यहाँ $BA$ परिभाषित नहीं है क्योंकि $4 \\ne 2$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-08",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Using determinants, the area of the triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 3)$ is:",
+        "hi": "सारणिकों का प्रयोग करके शीर्षों $(0, 0)$, $(4, 0)$ और $(0, 3)$ वाले त्रिभुज का क्षेत्रफल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6", "hi": "6"}},
+        {"id": "B", "text": {"en": "12", "hi": "12"}},
+        {"id": "C", "text": {"en": "7", "hi": "7"}},
+        {"id": "D", "text": {"en": "3.5", "hi": "3.5"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Area $= \\frac{1}{2}\\left|\\begin{vmatrix} 0 & 0 & 1 \\\\ 4 & 0 & 1 \\\\ 0 & 3 & 1 \\end{vmatrix}\\right| = \\frac{1}{2}|0(0 - 3) - 0(4 - 0) + 1(12 - 0)| = \\frac{1}{2}(12) = 6$ square units.",
+        "hi": "क्षेत्रफल $= \\frac{1}{2}\\left|\\begin{vmatrix} 0 & 0 & 1 \\\\ 4 & 0 & 1 \\\\ 0 & 3 & 1 \\end{vmatrix}\\right| = \\frac{1}{2}|0(0 - 3) - 0(4 - 0) + 1(12 - 0)| = \\frac{1}{2}(12) = 6$ वर्ग इकाई।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-09",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\sin^{-1}\\left(\\frac{1}{2}\\right) + \\cos^{-1}\\left(\\frac{1}{2}\\right)$ is:",
+        "hi": "$\\sin^{-1}\\left(\\frac{1}{2}\\right) + \\cos^{-1}\\left(\\frac{1}{2}\\right)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "B", "text": {"en": "π/6", "hi": "π/6"}},
+        {"id": "C", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "D", "text": {"en": "π", "hi": "π"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Identity: $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$ for $x \\in [-1, 1]$. Directly: $\\frac{\\pi}{6} + \\frac{\\pi}{3} = \\frac{\\pi}{2}$.",
+        "hi": "सर्वसमिका: $x \\in [-1, 1]$ के लिए $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$। सीधे: $\\frac{\\pi}{6} + \\frac{\\pi}{3} = \\frac{\\pi}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-01-10",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The function $f(x) = \\frac{1 - \\cos 4x}{x^2}$ for $x \\ne 0$, and $f(0) = k$, is continuous at $x = 0$. Find $k$.",
+        "hi": "फलन $f(x) = \\frac{1 - \\cos 4x}{x^2}$, $x \\ne 0$ के लिए, तथा $f(0) = k$, $x = 0$ पर संतत है। $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "For continuity, $k = \\lim_{x \\to 0}\\frac{1 - \\cos 4x}{x^2}$. Use $1 - \\cos 4x = 2\\sin^2 2x$: limit $= \\lim_{x \\to 0}\\frac{2\\sin^2 2x}{x^2} = 2 \\times 4 \\times \\left(\\frac{\\sin 2x}{2x}\\right)^2 = 8$. Shortcut: $\\lim_{x \\to 0}\\frac{1 - \\cos ax}{x^2} = \\frac{a^2}{2}$.",
+        "hi": "संतता के लिए $k = \\lim_{x \\to 0}\\frac{1 - \\cos 4x}{x^2}$। $1 - \\cos 4x = 2\\sin^2 2x$ का प्रयोग करें: सीमा $= \\lim_{x \\to 0}\\frac{2\\sin^2 2x}{x^2} = 2 \\times 4 \\times \\left(\\frac{\\sin 2x}{2x}\\right)^2 = 8$। शॉर्टकट: $\\lim_{x \\to 0}\\frac{1 - \\cos ax}{x^2} = \\frac{a^2}{2}$।"
+      }
+    }
+  ]
+}

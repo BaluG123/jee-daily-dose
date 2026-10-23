@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-05",
+  "questions": [
+    {
+      "id": "dd-2026-10-05-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The dimensional formula of the universal gravitational constant $G$ is:",
+        "hi": "सार्वत्रिक गुरुत्वाकर्षण नियतांक $G$ का विमीय सूत्र है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[ML²T⁻²]", "hi": "[ML²T⁻²]"}},
+        {"id": "B", "text": {"en": "[M⁻²L³T⁻¹]", "hi": "[M⁻²L³T⁻¹]"}},
+        {"id": "C", "text": {"en": "[ML³T⁻²]", "hi": "[ML³T⁻²]"}},
+        {"id": "D", "text": {"en": "[M⁻¹L³T⁻²]", "hi": "[M⁻¹L³T⁻²]"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$F = \\frac{Gm_1m_2}{r^2} \\Rightarrow G = \\frac{Fr^2}{m_1m_2}$. $[G] = \\frac{[MLT^{-2}][L^2]}{[M^2]} = [M^{-1}L^3T^{-2}]$.",
+        "hi": "$F = \\frac{Gm_1m_2}{r^2} \\Rightarrow G = \\frac{Fr^2}{m_1m_2}$। $[G] = \\frac{[MLT^{-2}][L^2]}{[M^2]} = [M^{-1}L^3T^{-2}]$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-02",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\theta$ is the angle of repose for a surface, the coefficient of static friction $\\mu$ is:",
+        "hi": "यदि किसी पृष्ठ के लिए विराम कोण $\\theta$ है, तो स्थैतिक घर्षण गुणांक $\\mu$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "μ = tan θ", "hi": "μ = tan θ"}},
+        {"id": "B", "text": {"en": "μ = sin θ", "hi": "μ = sin θ"}},
+        {"id": "C", "text": {"en": "μ = cos θ", "hi": "μ = cos θ"}},
+        {"id": "D", "text": {"en": "μ = cot θ", "hi": "μ = cot θ"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "At the angle of repose, a block is just about to slide: $mg\\sin\\theta = f_{\\max} = \\mu mg\\cos\\theta \\Rightarrow \\mu = \\tan\\theta$.",
+        "hi": "विराम कोण पर गुटका फिसलने ही वाला होता है: $mg\\sin\\theta = f_{\\max} = \\mu mg\\cos\\theta \\Rightarrow \\mu = \\tan\\theta$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-03",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A block of mass 2 kg moving at 4 m/s on a smooth horizontal surface hits a light spring of spring constant 200 N/m fixed at the other end. Find the maximum compression of the spring (in cm).",
+        "hi": "एक चिकने क्षैतिज पृष्ठ पर 4 m/s से गतिमान 2 kg का गुटका, 200 N/m स्प्रिंग नियतांक वाली एक हल्की स्प्रिंग से टकराता है जिसका दूसरा सिरा स्थिर है। स्प्रिंग का अधिकतम संपीडन (cm में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 40,
+      "solution": {
+        "en": "At maximum compression the block momentarily stops, so all KE becomes spring PE: $\\frac{1}{2}mv^2 = \\frac{1}{2}kx^2 \\Rightarrow x = v\\sqrt{\\frac{m}{k}} = 4\\sqrt{\\frac{2}{200}} = 4 \\times 0.1 = 0.4\\text{ m} = 40\\text{ cm}$.",
+        "hi": "अधिकतम संपीडन पर गुटका क्षणभर रुक जाता है, अतः पूरी गतिज ऊर्जा स्प्रिंग की स्थितिज ऊर्जा बन जाती है: $\\frac{1}{2}mv^2 = \\frac{1}{2}kx^2 \\Rightarrow x = v\\sqrt{\\frac{m}{k}} = 4\\sqrt{\\frac{2}{200}} = 4 \\times 0.1 = 0.4\\text{ m} = 40\\text{ cm}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-04",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The hybridisation of boron in BF₃ is:",
+        "hi": "BF₃ में बोरॉन का संकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sp³", "hi": "sp³"}},
+        {"id": "B", "text": {"en": "sp", "hi": "sp"}},
+        {"id": "C", "text": {"en": "sp²", "hi": "sp²"}},
+        {"id": "D", "text": {"en": "sp³d", "hi": "sp³d"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "B (2s² 2p¹) forms three B–F σ bonds with no lone pair: three electron domains → sp² hybridisation, trigonal planar shape, 120° bond angle. BF₃ is electron-deficient and acts as a Lewis acid.",
+        "hi": "B (2s² 2p¹) बिना एकाकी युग्म के तीन B–F σ आबंध बनाता है: तीन इलेक्ट्रॉन क्षेत्र → sp² संकरण, त्रिकोणीय समतलीय आकृति, 120° आबंध कोण। BF₃ इलेक्ट्रॉन-न्यून है और लूइस अम्ल की तरह कार्य करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For a zero-order reaction, the half-life is:",
+        "hi": "शून्य कोटि की अभिक्रिया के लिए अर्धायु:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Inversely proportional to the initial concentration", "hi": "प्रारंभिक सांद्रता के व्युत्क्रमानुपाती होती है"}},
+        {"id": "B", "text": {"en": "Independent of the initial concentration", "hi": "प्रारंभिक सांद्रता पर निर्भर नहीं करती"}},
+        {"id": "C", "text": {"en": "Directly proportional to the initial concentration", "hi": "प्रारंभिक सांद्रता के अनुक्रमानुपाती होती है"}},
+        {"id": "D", "text": {"en": "Proportional to the square of the initial concentration", "hi": "प्रारंभिक सांद्रता के वर्ग के अनुक्रमानुपाती होती है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For zero order: $[A] = [A]_0 - kt$. At $t_{1/2}$, $[A] = \\frac{[A]_0}{2} \\Rightarrow t_{1/2} = \\frac{[A]_0}{2k} \\propto [A]_0$. (First order: independent; second order: $\\propto \\frac{1}{[A]_0}$.)",
+        "hi": "शून्य कोटि के लिए: $[A] = [A]_0 - kt$। $t_{1/2}$ पर $[A] = \\frac{[A]_0}{2} \\Rightarrow t_{1/2} = \\frac{[A]_0}{2k} \\propto [A]_0$। (प्रथम कोटि: स्वतंत्र; द्वितीय कोटि: $\\propto \\frac{1}{[A]_0}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-06",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An organic compound contains 40% carbon, 6.67% hydrogen and 53.33% oxygen by mass. Its molar mass is 180 g/mol. Find the number of carbon atoms in one molecule of the compound.",
+        "hi": "एक कार्बनिक यौगिक में द्रव्यमान के अनुसार 40% कार्बन, 6.67% हाइड्रोजन और 53.33% ऑक्सीजन है। इसका मोलर द्रव्यमान 180 g/mol है। यौगिक के एक अणु में कार्बन परमाणुओं की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "Mole ratio — C: $\\frac{40}{12} = 3.33$; H: $\\frac{6.67}{1} = 6.67$; O: $\\frac{53.33}{16} = 3.33$. Dividing by 3.33 gives 1 : 2 : 1, so the empirical formula is CH₂O (mass 30). $n = \\frac{180}{30} = 6$ → molecular formula C₆H₁₂O₆ (glucose), with 6 carbon atoms.",
+        "hi": "मोल अनुपात — C: $\\frac{40}{12} = 3.33$; H: $\\frac{6.67}{1} = 6.67$; O: $\\frac{53.33}{16} = 3.33$। 3.33 से भाग देने पर 1 : 2 : 1, अतः मूलानुपाती सूत्र CH₂O (द्रव्यमान 30)। $n = \\frac{180}{30} = 6$ → आण्विक सूत्र C₆H₁₂O₆ (ग्लूकोज़), जिसमें 6 कार्बन परमाणु हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-07",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $i^{2026}$ is:",
+        "hi": "$i^{2026}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "i", "hi": "i"}},
+        {"id": "D", "text": {"en": "−i", "hi": "−i"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Powers of $i$ repeat in cycles of 4: $i, -1, -i, 1$. $2026 = 4 \\times 506 + 2$, so $i^{2026} = i^2 = -1$.",
+        "hi": "$i$ की घातें 4 के चक्र में दोहराती हैं: $i, -1, -i, 1$। $2026 = 4 \\times 506 + 2$, अतः $i^{2026} = i^2 = -1$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-08",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of proper subsets of the set $\\{1, 2, 3\\}$ is:",
+        "hi": "समुच्चय $\\{1, 2, 3\\}$ के उचित उपसमुच्चयों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "7", "hi": "7"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Total subsets $= 2^3 = 8$. A proper subset excludes the set itself, so the number of proper subsets $= 2^n - 1 = 7$ (this includes $\\phi$).",
+        "hi": "कुल उपसमुच्चय $= 2^3 = 8$। उचित उपसमुच्चय में स्वयं समुच्चय शामिल नहीं होता, अतः उचित उपसमुच्चयों की संख्या $= 2^n - 1 = 7$ ($\\phi$ सहित)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The vertex of the parabola $y = x^2 - 4x + 7$ is:",
+        "hi": "परवलय $y = x^2 - 4x + 7$ का शीर्ष है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(−2, 3)", "hi": "(−2, 3)"}},
+        {"id": "B", "text": {"en": "(2, 3)", "hi": "(2, 3)"}},
+        {"id": "C", "text": {"en": "(2, 7)", "hi": "(2, 7)"}},
+        {"id": "D", "text": {"en": "(4, 7)", "hi": "(4, 7)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Complete the square: $y = (x - 2)^2 - 4 + 7 = (x - 2)^2 + 3$. So $y - 3 = (x - 2)^2$, an upward parabola with vertex $(2, 3)$.",
+        "hi": "पूर्ण वर्ग बनाएँ: $y = (x - 2)^2 - 4 + 7 = (x - 2)^2 + 3$। अतः $y - 3 = (x - 2)^2$, ऊपर की ओर खुलने वाला परवलय जिसका शीर्ष $(2, 3)$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-05-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The value of the determinant $\\begin{vmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{vmatrix}$ is:",
+        "hi": "सारणिक $\\begin{vmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{vmatrix}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(a + b)(b + c)(c + a)", "hi": "(a + b)(b + c)(c + a)"}},
+        {"id": "B", "text": {"en": "(a − b)(b − c)(c − a)", "hi": "(a − b)(b − c)(c − a)"}},
+        {"id": "C", "text": {"en": "abc(a − b)(b − c)(c − a)", "hi": "abc(a − b)(b − c)(c − a)"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Apply $R_2 \\to R_2 - R_1$, $R_3 \\to R_3 - R_1$: rows become $(0, b - a, b^2 - a^2)$ and $(0, c - a, c^2 - a^2)$. Take out $(b - a)(c - a)$: $\\Delta = (b - a)(c - a)\\begin{vmatrix} 1 & b + a \\\\ 1 & c + a \\end{vmatrix} = (b - a)(c - a)(c - b) = (a - b)(b - c)(c - a)$. Check with $a = 0, b = 1, c = 2$: both sides equal 2.",
+        "hi": "$R_2 \\to R_2 - R_1$, $R_3 \\to R_3 - R_1$ लगाएँ: पंक्तियाँ $(0, b - a, b^2 - a^2)$ और $(0, c - a, c^2 - a^2)$ बन जाती हैं। $(b - a)(c - a)$ बाहर निकालें: $\\Delta = (b - a)(c - a)\\begin{vmatrix} 1 & b + a \\\\ 1 & c + a \\end{vmatrix} = (b - a)(c - a)(c - b) = (a - b)(b - c)(c - a)$। $a = 0, b = 1, c = 2$ से जाँच: दोनों पक्ष 2 के बराबर।"
+      }
+    }
+  ]
+}

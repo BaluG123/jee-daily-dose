@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-21",
+  "questions": [
+    {
+      "id": "dd-2026-10-21-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of specific heat capacity is:",
+        "hi": "विशिष्ट ऊष्मा धारिता का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "J K⁻¹", "hi": "J K⁻¹"}},
+        {"id": "B", "text": {"en": "J kg⁻¹", "hi": "J kg⁻¹"}},
+        {"id": "C", "text": {"en": "W m⁻¹ K⁻¹", "hi": "W m⁻¹ K⁻¹"}},
+        {"id": "D", "text": {"en": "J kg⁻¹ K⁻¹", "hi": "J kg⁻¹ K⁻¹"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$Q = mc\\Delta T \\Rightarrow c = \\frac{Q}{m\\Delta T}$, unit J kg⁻¹ K⁻¹. (J K⁻¹ is heat capacity, J kg⁻¹ is latent heat, W m⁻¹ K⁻¹ is thermal conductivity.)",
+        "hi": "$Q = mc\\Delta T \\Rightarrow c = \\frac{Q}{m\\Delta T}$, मात्रक J kg⁻¹ K⁻¹। (J K⁻¹ ऊष्मा धारिता, J kg⁻¹ गुप्त ऊष्मा, और W m⁻¹ K⁻¹ ऊष्मा चालकता का मात्रक है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-02",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "According to Newton's law of cooling, the rate of cooling of a body is proportional to the:",
+        "hi": "न्यूटन के शीतलन नियम के अनुसार, किसी पिंड के ठंडा होने की दर किसके समानुपाती होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fourth power of the body's absolute temperature", "hi": "पिंड के परम ताप की चौथी घात"}},
+        {"id": "B", "text": {"en": "Mass of the body only", "hi": "केवल पिंड का द्रव्यमान"}},
+        {"id": "C", "text": {"en": "Temperature difference between the body and its surroundings", "hi": "पिंड और परिवेश के ताप का अंतर"}},
+        {"id": "D", "text": {"en": "Square of the temperature difference", "hi": "ताप अंतर का वर्ग"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$-\\frac{dT}{dt} = k(T - T_0)$, valid when the temperature difference is small. It is derived from Stefan's law ($\\propto T^4 - T_0^4$) for small differences.",
+        "hi": "$-\\frac{dT}{dt} = k(T - T_0)$, जो ताप अंतर कम होने पर मान्य है। यह कम अंतर के लिए स्टीफ़न नियम ($\\propto T^4 - T_0^4$) से व्युत्पन्न होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-03",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A body cools from 100°C to 60°C in 10 minutes when the surroundings are at 20°C. Assuming Newton's law of cooling, find its temperature (in °C) after a further 10 minutes.",
+        "hi": "परिवेश का ताप 20°C होने पर एक पिंड 10 मिनट में 100°C से 60°C तक ठंडा होता है। न्यूटन के शीतलन नियम को मानते हुए, अगले 10 मिनट बाद इसका ताप (°C में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 40,
+      "solution": {
+        "en": "By Newton's law, the excess temperature $(T - T_0)$ decays exponentially. In the first 10 min it falls from $80$ to $40$ (halves). In the next 10 min it halves again: $40 \\to 20$, so $T = 20 + 20 = 40^\\circ\\text{C}$. (The average-temperature method gives the same: $\\frac{100 - 60}{10} = k(80 - 20)$ and $\\frac{60 - T}{10} = k\\left(\\frac{60 + T}{2} - 20\\right) \\Rightarrow T = 40$.)",
+        "hi": "न्यूटन के नियम से अतिरिक्त ताप $(T - T_0)$ चरघातांकी रूप से घटता है। पहले 10 मिनट में यह $80$ से $40$ (आधा) हो जाता है। अगले 10 मिनट में फिर आधा: $40 \\to 20$, अतः $T = 20 + 20 = 40^\\circ\\text{C}$। (औसत-ताप विधि से भी यही मिलता है: $\\frac{100 - 60}{10} = k(80 - 20)$ और $\\frac{60 - T}{10} = k\\left(\\frac{60 + T}{2} - 20\\right) \\Rightarrow T = 40$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-04",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Chlorobenzene is much less reactive than chloroalkanes towards nucleophilic substitution mainly because of:",
+        "hi": "नाभिकस्नेही प्रतिस्थापन के प्रति क्लोरोबेन्ज़ीन, क्लोरोऐल्केनों से बहुत कम क्रियाशील है, मुख्यतः किसके कारण?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Partial double bond character of the C–Cl bond due to resonance", "hi": "अनुनाद के कारण C–Cl आबंध का आंशिक द्विआबंध लक्षण"}},
+        {"id": "B", "text": {"en": "High polarity of the C–Cl bond", "hi": "C–Cl आबंध की उच्च ध्रुवता"}},
+        {"id": "C", "text": {"en": "sp³ hybridised carbon attached to Cl", "hi": "Cl से जुड़ा sp³ संकरित कार्बन"}},
+        {"id": "D", "text": {"en": "Small size of the chlorine atom", "hi": "क्लोरीन परमाणु का छोटा आकार"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The lone pair on Cl delocalises into the benzene ring, giving the C–Cl bond partial double-bond character, making it shorter and stronger and hard to break. Also, the carbon is sp² (more electronegative, holds the bond more tightly), and the phenyl cation is unstable — so SN1 is ruled out too.",
+        "hi": "Cl पर एकाकी युग्म बेन्ज़ीन वलय में विस्थानीकृत होता है, जिससे C–Cl आबंध में आंशिक द्विआबंध लक्षण आता है, यह छोटा और प्रबल हो जाता है और तोड़ना कठिन होता है। साथ ही कार्बन sp² है (अधिक विद्युत ऋणात्मक, आबंध को अधिक कसकर रखता है), और फ़ेनिल धनायन अस्थायी है — अतः SN1 भी संभव नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-05",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following compounds is chiral?",
+        "hi": "निम्नलिखित में से कौन-सा यौगिक किरेल है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1-Chlorobutane", "hi": "1-क्लोरोब्यूटेन"}},
+        {"id": "B", "text": {"en": "2-Chloropropane", "hi": "2-क्लोरोप्रोपेन"}},
+        {"id": "C", "text": {"en": "2-Chlorobutane", "hi": "2-क्लोरोब्यूटेन"}},
+        {"id": "D", "text": {"en": "2-Chloro-2-methylpropane", "hi": "2-क्लोरो-2-मेथिलप्रोपेन"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A chiral molecule usually has a carbon bonded to four different groups. In CH₃–CHCl–CH₂CH₃, C-2 carries H, Cl, CH₃ and C₂H₅ — four different groups — so it is chiral and exists as two enantiomers. In the others, the C bearing Cl has at least two identical groups.",
+        "hi": "किरेल अणु में सामान्यतः एक कार्बन चार भिन्न समूहों से जुड़ा होता है। CH₃–CHCl–CH₂CH₃ में C-2 पर H, Cl, CH₃ और C₂H₅ — चार भिन्न समूह — हैं, अतः यह किरेल है और दो प्रतिबिंबरूपों में पाया जाता है। अन्य में Cl वाले कार्बन पर कम से कम दो समान समूह हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-06",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The major product formed when tert-butyl bromide, (CH₃)₃CBr, is heated with sodium ethoxide in ethanol is:",
+        "hi": "tert-ब्यूटिल ब्रोमाइड, (CH₃)₃CBr, को एथेनॉल में सोडियम एथॉक्साइड के साथ गर्म करने पर बनने वाला मुख्य उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2-Methylpropene", "hi": "2-मेथिलप्रोपीन"}},
+        {"id": "B", "text": {"en": "tert-Butyl ethyl ether", "hi": "tert-ब्यूटिल एथिल ईथर"}},
+        {"id": "C", "text": {"en": "2-Methylpropan-2-ol", "hi": "2-मेथिलप्रोपेन-2-ऑल"}},
+        {"id": "D", "text": {"en": "Butane", "hi": "ब्यूटेन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For a 3° halide, SN2 is blocked by steric hindrance, and the strong base C₂H₅O⁻ removes a β-hydrogen instead (E2 elimination): (CH₃)₃CBr → (CH₃)₂C=CH₂ + HBr. To make tert-butyl ethyl ether (Williamson synthesis), use (CH₃)₃CO⁻Na⁺ with C₂H₅Br instead.",
+        "hi": "3° हैलाइड के लिए त्रिविम बाधा के कारण SN2 संभव नहीं, और प्रबल क्षारक C₂H₅O⁻ इसके बजाय β-हाइड्रोजन हटा देता है (E2 विलोपन): (CH₃)₃CBr → (CH₃)₂C=CH₂ + HBr। tert-ब्यूटिल एथिल ईथर (विलियम्सन संश्लेषण) बनाने के लिए इसके बजाय (CH₃)₃CO⁻Na⁺ और C₂H₅Br का प्रयोग करें।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-07",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The radius of the circle $x^2 + y^2 = 49$ is:",
+        "hi": "वृत्त $x^2 + y^2 = 49$ की त्रिज्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "49", "hi": "49"}},
+        {"id": "B", "text": {"en": "7", "hi": "7"}},
+        {"id": "C", "text": {"en": "√7", "hi": "√7"}},
+        {"id": "D", "text": {"en": "14", "hi": "14"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$x^2 + y^2 = r^2$ is a circle centred at the origin with radius $r$. Here $r^2 = 49 \\Rightarrow r = 7$.",
+        "hi": "$x^2 + y^2 = r^2$, मूलबिंदु पर केंद्रित $r$ त्रिज्या का वृत्त है। यहाँ $r^2 = 49 \\Rightarrow r = 7$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of ways in which 5 people can be seated around a circular table is:",
+        "hi": "5 व्यक्तियों को एक गोल मेज़ के चारों ओर कितने प्रकार से बैठाया जा सकता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "120", "hi": "120"}},
+        {"id": "B", "text": {"en": "24", "hi": "24"}},
+        {"id": "C", "text": {"en": "12", "hi": "12"}},
+        {"id": "D", "text": {"en": "60", "hi": "60"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "In circular arrangements, rotations are identical, so fix one person and arrange the rest: $(n - 1)! = 4! = 24$. (If clockwise and anticlockwise are also the same, as for a necklace, it would be $\\frac{4!}{2} = 12$.)",
+        "hi": "वृत्तीय व्यवस्थाओं में घूर्णन समान माने जाते हैं, अतः एक व्यक्ति को स्थिर करके शेष को व्यवस्थित करें: $(n - 1)! = 4! = 24$। (यदि दक्षिणावर्त और वामावर्त भी समान हों, जैसे हार में, तो $\\frac{4!}{2} = 12$ होगा।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The mean of 5 observations is 8. If one observation, 12, is removed, the mean of the remaining observations is:",
+        "hi": "5 प्रेक्षणों का माध्य 8 है। यदि एक प्रेक्षण 12 हटा दिया जाए, तो शेष प्रेक्षणों का माध्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "7.5", "hi": "7.5"}},
+        {"id": "D", "text": {"en": "7", "hi": "7"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Sum of 5 observations $= 5 \\times 8 = 40$. After removing 12, sum $= 28$ for 4 observations. New mean $= \\frac{28}{4} = 7$.",
+        "hi": "5 प्रेक्षणों का योग $= 5 \\times 8 = 40$। 12 हटाने पर 4 प्रेक्षणों का योग $= 28$। नया माध्य $= \\frac{28}{4} = 7$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-21-10",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If the coefficients of $x^2$ and $x^3$ in the expansion of $\\left(2 + \\frac{x}{3}\\right)^n$ are equal, find $n$.",
+        "hi": "यदि $\\left(2 + \\frac{x}{3}\\right)^n$ के प्रसार में $x^2$ और $x^3$ के गुणांक बराबर हैं, तो $n$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "$T_{r+1} = {}^nC_r\\, 2^{n-r}\\left(\\frac{x}{3}\\right)^r$. Equate coefficients: ${}^nC_2\\, 2^{n-2}\\cdot\\frac{1}{9} = {}^nC_3\\, 2^{n-3}\\cdot\\frac{1}{27}$. Multiply by $\\frac{27}{2^{n-3}}$: $6\\,{}^nC_2 = {}^nC_3 \\Rightarrow 6\\cdot\\frac{n(n-1)}{2} = \\frac{n(n-1)(n-2)}{6} \\Rightarrow 18 = n - 2 \\Rightarrow n = 20$.",
+        "hi": "$T_{r+1} = {}^nC_r\\, 2^{n-r}\\left(\\frac{x}{3}\\right)^r$। गुणांक बराबर करें: ${}^nC_2\\, 2^{n-2}\\cdot\\frac{1}{9} = {}^nC_3\\, 2^{n-3}\\cdot\\frac{1}{27}$। $\\frac{27}{2^{n-3}}$ से गुणा करें: $6\\,{}^nC_2 = {}^nC_3 \\Rightarrow 6\\cdot\\frac{n(n-1)}{2} = \\frac{n(n-1)(n-2)}{6} \\Rightarrow 18 = n - 2 \\Rightarrow n = 20$।"
+      }
+    }
+  ]
+}

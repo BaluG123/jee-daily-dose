@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-27",
+  "questions": [
+    {
+      "id": "dd-2026-09-27-01",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The work done by the centripetal force on a body in uniform circular motion is:",
+        "hi": "एकसमान वृत्तीय गति में किसी पिंड पर अभिकेंद्र बल द्वारा किया गया कार्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Positive", "hi": "धनात्मक"}},
+        {"id": "B", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "C", "text": {"en": "Negative", "hi": "ऋणात्मक"}},
+        {"id": "D", "text": {"en": "Infinite", "hi": "अनंत"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The centripetal force is always perpendicular to the velocity (displacement), so $W = Fs\\cos 90^\\circ = 0$. That is why the speed (and kinetic energy) remains constant.",
+        "hi": "अभिकेंद्र बल सदैव वेग (विस्थापन) के लंबवत होता है, अतः $W = Fs\\cos 90^\\circ = 0$। इसी कारण चाल (और गतिज ऊर्जा) नियत रहती है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-02",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the Earth suddenly shrinks to half its present radius without any change in its mass, the duration of one day would become:",
+        "hi": "यदि पृथ्वी का द्रव्यमान बदले बिना उसकी त्रिज्या अचानक वर्तमान की आधी हो जाए, तो एक दिन की अवधि हो जाएगी:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "6 hours", "hi": "6 घंटे"}},
+        {"id": "B", "text": {"en": "12 hours", "hi": "12 घंटे"}},
+        {"id": "C", "text": {"en": "48 hours", "hi": "48 घंटे"}},
+        {"id": "D", "text": {"en": "96 hours", "hi": "96 घंटे"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "No external torque, so angular momentum $L = I\\omega$ is conserved. $I = \\frac{2}{5}MR^2$; halving $R$ makes $I' = \\frac{I}{4}$, so $\\omega' = 4\\omega$. Time period $T' = \\frac{T}{4} = \\frac{24}{4} = 6$ hours.",
+        "hi": "कोई बाह्य बल आघूर्ण नहीं है, अतः कोणीय संवेग $L = I\\omega$ संरक्षित रहता है। $I = \\frac{2}{5}MR^2$; $R$ आधा करने पर $I' = \\frac{I}{4}$, अतः $\\omega' = 4\\omega$। आवर्तकाल $T' = \\frac{T}{4} = \\frac{24}{4} = 6$ घंटे।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-03",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A ball is dropped from rest from a height of 80 m. Find the distance (in m) it travels in the last second of its fall. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "एक गेंद को 80 m की ऊँचाई से विरामावस्था से गिराया जाता है। गिरने के अंतिम सेकंड में तय की गई दूरी (m में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 35,
+      "solution": {
+        "en": "Total time: $80 = \\frac{1}{2}(10)t^2 \\Rightarrow t = 4\\text{ s}$. Distance in the first 3 s $= \\frac{1}{2}(10)(3)^2 = 45\\text{ m}$. Distance in the last (4th) second $= 80 - 45 = 35\\text{ m}$. (Or use $s_n = u + \\frac{g}{2}(2n - 1) = 5 \\times 7 = 35\\text{ m}$.)",
+        "hi": "कुल समय: $80 = \\frac{1}{2}(10)t^2 \\Rightarrow t = 4\\text{ s}$। प्रथम 3 s में दूरी $= \\frac{1}{2}(10)(3)^2 = 45\\text{ m}$। अंतिम (चौथे) सेकंड में दूरी $= 80 - 45 = 35\\text{ m}$। (या $s_n = u + \\frac{g}{2}(2n - 1) = 5 \\times 7 = 35\\text{ m}$ का प्रयोग करें।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The shape of the NH₃ molecule is:",
+        "hi": "NH₃ अणु की आकृति है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Trigonal planar", "hi": "त्रिकोणीय समतलीय"}},
+        {"id": "B", "text": {"en": "Tetrahedral", "hi": "चतुष्फलकीय"}},
+        {"id": "C", "text": {"en": "Trigonal pyramidal", "hi": "त्रिकोणीय पिरामिडी"}},
+        {"id": "D", "text": {"en": "T-shaped", "hi": "T-आकार"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "N in NH₃ has 3 bond pairs and 1 lone pair (sp³). The electron-pair geometry is tetrahedral, but the molecular shape (positions of atoms) is trigonal pyramidal. The lone pair compresses the bond angle to about 107°.",
+        "hi": "NH₃ में N पर 3 आबंध युग्म और 1 एकाकी युग्म हैं (sp³)। इलेक्ट्रॉन-युग्म ज्यामिति चतुष्फलकीय है, परंतु आण्विक आकृति (परमाणुओं की स्थिति) त्रिकोणीय पिरामिडी है। एकाकी युग्म आबंध कोण को लगभग 107° तक घटा देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-05",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In acidic medium, MnO₄⁻ is reduced to Mn²⁺. The number of electrons gained per MnO₄⁻ ion is:",
+        "hi": "अम्लीय माध्यम में MnO₄⁻ का अपचयन Mn²⁺ में होता है। प्रति MnO₄⁻ आयन ग्रहण किए गए इलेक्ट्रॉनों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "7", "hi": "7"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Oxidation number of Mn in MnO₄⁻: $x + 4(-2) = -1 \\Rightarrow x = +7$. In Mn²⁺ it is +2. Change $= 7 - 2 = 5$ electrons: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
+        "hi": "MnO₄⁻ में Mn की ऑक्सीकरण संख्या: $x + 4(-2) = -1 \\Rightarrow x = +7$। Mn²⁺ में यह +2 है। परिवर्तन $= 7 - 2 = 5$ इलेक्ट्रॉन: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-06",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Using the bond enthalpies H–H = 436 kJ/mol, Cl–Cl = 242 kJ/mol and H–Cl = 431 kJ/mol, find the magnitude of the enthalpy change (in kJ) for the reaction H₂(g) + Cl₂(g) → 2HCl(g).",
+        "hi": "आबंध एन्थैल्पी H–H = 436 kJ/mol, Cl–Cl = 242 kJ/mol और H–Cl = 431 kJ/mol का प्रयोग करके अभिक्रिया H₂(g) + Cl₂(g) → 2HCl(g) के एन्थैल्पी परिवर्तन का परिमाण (kJ में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 184,
+      "solution": {
+        "en": "$\\Delta H = \\Sigma(\\text{bonds broken}) - \\Sigma(\\text{bonds formed}) = (436 + 242) - 2(431) = 678 - 862 = -184\\text{ kJ}$. Magnitude $= 184$ kJ; the negative sign shows the reaction is exothermic.",
+        "hi": "$\\Delta H = \\Sigma(\\text{bonds broken}) - \\Sigma(\\text{bonds formed}) = (436 + 242) - 2(431) = 678 - 862 = -184\\text{ kJ}$। परिमाण $= 184$ kJ; ऋणात्मक चिह्न दर्शाता है कि अभिक्रिया ऊष्माक्षेपी है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-07",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The 10th term of the GP $2, 4, 8, 16, \\ldots$ is:",
+        "hi": "गुणोत्तर श्रेणी $2, 4, 8, 16, \\ldots$ का 10वाँ पद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "512", "hi": "512"}},
+        {"id": "B", "text": {"en": "2048", "hi": "2048"}},
+        {"id": "C", "text": {"en": "20", "hi": "20"}},
+        {"id": "D", "text": {"en": "1024", "hi": "1024"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$a = 2$, $r = 2$. $a_n = ar^{n-1} \\Rightarrow a_{10} = 2 \\times 2^9 = 2^{10} = 1024$.",
+        "hi": "$a = 2$, $r = 2$। $a_n = ar^{n-1} \\Rightarrow a_{10} = 2 \\times 2^9 = 2^{10} = 1024$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-08",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the line passing through $(2, 3)$ and perpendicular to $2x + y = 5$ is:",
+        "hi": "$(2, 3)$ से गुजरने वाली तथा $2x + y = 5$ के लंबवत रेखा का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2x + y − 7 = 0", "hi": "2x + y − 7 = 0"}},
+        {"id": "B", "text": {"en": "x + 2y − 8 = 0", "hi": "x + 2y − 8 = 0"}},
+        {"id": "C", "text": {"en": "x − 2y − 4 = 0", "hi": "x − 2y − 4 = 0"}},
+        {"id": "D", "text": {"en": "x − 2y + 4 = 0", "hi": "x − 2y + 4 = 0"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Slope of $2x + y = 5$ is $-2$, so the perpendicular slope is $\\frac{1}{2}$. Line: $y - 3 = \\frac{1}{2}(x - 2) \\Rightarrow 2y - 6 = x - 2 \\Rightarrow x - 2y + 4 = 0$. Check: $(2, 3)$ gives $2 - 6 + 4 = 0$ ✓.",
+        "hi": "$2x + y = 5$ का ढाल $-2$ है, अतः लंबवत ढाल $\\frac{1}{2}$ है। रेखा: $y - 3 = \\frac{1}{2}(x - 2) \\Rightarrow 2y - 6 = x - 2 \\Rightarrow x - 2y + 4 = 0$। जाँच: $(2, 3)$ रखने पर $2 - 6 + 4 = 0$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A fair coin is tossed 3 times. The probability of getting at least one head is:",
+        "hi": "एक निष्पक्ष सिक्का 3 बार उछाला जाता है। कम से कम एक चित (head) आने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/8", "hi": "1/8"}},
+        {"id": "B", "text": {"en": "7/8", "hi": "7/8"}},
+        {"id": "C", "text": {"en": "3/8", "hi": "3/8"}},
+        {"id": "D", "text": {"en": "1/2", "hi": "1/2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Use the complement: $P(\\text{no head}) = P(TTT) = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$. So $P(\\text{at least one head}) = 1 - \\frac{1}{8} = \\frac{7}{8}$.",
+        "hi": "पूरक का प्रयोग करें: $P(\\text{no head}) = P(TTT) = \\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$। अतः $P(\\text{at least one head}) = 1 - \\frac{1}{8} = \\frac{7}{8}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-27-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A = \\begin{bmatrix} 2 & 3 \\\\ 1 & 4 \\end{bmatrix}$, find the trace of $A^2$.",
+        "hi": "यदि $A = \\begin{bmatrix} 2 & 3 \\\\ 1 & 4 \\end{bmatrix}$ है, तो $A^2$ का अनुरेख (trace) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 26,
+      "solution": {
+        "en": "$A^2 = \\begin{bmatrix} 4 + 3 & 6 + 12 \\\\ 2 + 4 & 3 + 16 \\end{bmatrix} = \\begin{bmatrix} 7 & 18 \\\\ 6 & 19 \\end{bmatrix}$. Trace $= 7 + 19 = 26$. Shortcut for $2 \\times 2$: $\\text{tr}(A^2) = (\\text{tr }A)^2 - 2|A| = 36 - 2(5) = 26$.",
+        "hi": "$A^2 = \\begin{bmatrix} 4 + 3 & 6 + 12 \\\\ 2 + 4 & 3 + 16 \\end{bmatrix} = \\begin{bmatrix} 7 & 18 \\\\ 6 & 19 \\end{bmatrix}$। अनुरेख $= 7 + 19 = 26$। $2 \\times 2$ के लिए शॉर्टकट: $\\text{tr}(A^2) = (\\text{tr }A)^2 - 2|A| = 36 - 2(5) = 26$।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-23",
+  "questions": [
+    {
+      "id": "dd-2026-10-23-01",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The magnetic field at a perpendicular distance $r$ from a long straight wire carrying current $I$ is:",
+        "hi": "धारा $I$ वाले एक लंबे सीधे तार से लंबवत दूरी $r$ पर चुंबकीय क्षेत्र है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "μ₀I/(2r)", "hi": "μ₀I/(2r)"}},
+        {"id": "B", "text": {"en": "μ₀I/(4πr²)", "hi": "μ₀I/(4πr²)"}},
+        {"id": "C", "text": {"en": "μ₀I/(2πr)", "hi": "μ₀I/(2πr)"}},
+        {"id": "D", "text": {"en": "μ₀Ir/(2π)", "hi": "μ₀Ir/(2π)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "From Ampere's circuital law (or Biot–Savart law): $B \\cdot 2\\pi r = \\mu_0 I \\Rightarrow B = \\frac{\\mu_0 I}{2\\pi r}$. Field lines are concentric circles around the wire (right-hand thumb rule). ($\\frac{\\mu_0 I}{2r}$ is the field at the centre of a circular loop.)",
+        "hi": "ऐम्पियर के परिपथीय नियम (या बायो–सावर्ट नियम) से: $B \\cdot 2\\pi r = \\mu_0 I \\Rightarrow B = \\frac{\\mu_0 I}{2\\pi r}$। क्षेत्र रेखाएँ तार के चारों ओर संकेंद्री वृत्त हैं (दाएँ हाथ के अँगूठे का नियम)। ($\\frac{\\mu_0 I}{2r}$ वृत्ताकार पाश के केंद्र पर क्षेत्र है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-02",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two long parallel straight wires carry currents in the same direction. The wires will:",
+        "hi": "दो लंबे समांतर सीधे तारों में धाराएँ एक ही दिशा में हैं। तार:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Repel each other", "hi": "एक-दूसरे को प्रतिकर्षित करेंगे"}},
+        {"id": "B", "text": {"en": "Attract each other", "hi": "एक-दूसरे को आकर्षित करेंगे"}},
+        {"id": "C", "text": {"en": "Exert no force on each other", "hi": "एक-दूसरे पर कोई बल नहीं लगाएँगे"}},
+        {"id": "D", "text": {"en": "Rotate to become perpendicular", "hi": "घूमकर लंबवत हो जाएँगे"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Each wire lies in the magnetic field of the other, and $\\vec{F} = I\\vec{L} \\times \\vec{B}$ points towards the other wire for parallel currents: like currents attract, unlike currents repel. Force per unit length $= \\frac{\\mu_0 I_1 I_2}{2\\pi d}$ — the basis of the definition of the ampere.",
+        "hi": "प्रत्येक तार दूसरे के चुंबकीय क्षेत्र में होता है, और समांतर धाराओं के लिए $\\vec{F} = I\\vec{L} \\times \\vec{B}$ दूसरे तार की ओर होता है: समान दिशा की धाराएँ आकर्षित, विपरीत दिशा की प्रतिकर्षित करती हैं। प्रति इकाई लंबाई बल $= \\frac{\\mu_0 I_1 I_2}{2\\pi d}$ — ऐम्पियर की परिभाषा का आधार।"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-03",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A charged particle moves with velocity $\\vec{v} = 2\\hat{i}\\text{ m/s}$ in a region with a uniform magnetic field $\\vec{B} = 3\\hat{j}\\text{ T}$. Find the magnitude of the uniform electric field (in V/m) that must also be present so that the particle moves undeflected.",
+        "hi": "एक आवेशित कण वेग $\\vec{v} = 2\\hat{i}\\text{ m/s}$ से उस क्षेत्र में गति करता है जहाँ एकसमान चुंबकीय क्षेत्र $\\vec{B} = 3\\hat{j}\\text{ T}$ है। कण के बिना विक्षेपित हुए चलने के लिए वहाँ उपस्थित एकसमान विद्युत क्षेत्र का परिमाण (V/m में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "Net Lorentz force must vanish: $q(\\vec{E} + \\vec{v} \\times \\vec{B}) = 0 \\Rightarrow \\vec{E} = -\\vec{v} \\times \\vec{B} = -(2\\hat{i} \\times 3\\hat{j}) = -6\\hat{k}\\text{ V/m}$. $|\\vec{E}| = 6\\text{ V/m}$, independent of the particle's charge and mass. This is the velocity selector condition $v = \\frac{E}{B}$.",
+        "hi": "नेट लॉरेंज़ बल शून्य होना चाहिए: $q(\\vec{E} + \\vec{v} \\times \\vec{B}) = 0 \\Rightarrow \\vec{E} = -\\vec{v} \\times \\vec{B} = -(2\\hat{i} \\times 3\\hat{j}) = -6\\hat{k}\\text{ V/m}$। $|\\vec{E}| = 6\\text{ V/m}$, जो कण के आवेश और द्रव्यमान से स्वतंत्र है। यही वेग वरणक की शर्त $v = \\frac{E}{B}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-04",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "According to Werner's theory, the primary valency of the central metal ion corresponds to its:",
+        "hi": "वर्नर के सिद्धांत के अनुसार, केंद्रीय धातु आयन की प्राथमिक संयोजकता उसकी किसके संगत होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Oxidation state", "hi": "ऑक्सीकरण अवस्था"}},
+        {"id": "B", "text": {"en": "Coordination number", "hi": "उपसहसंयोजन संख्या"}},
+        {"id": "C", "text": {"en": "Number of ligands", "hi": "लिगैंडों की संख्या"}},
+        {"id": "D", "text": {"en": "Number of unpaired electrons", "hi": "अयुग्मित इलेक्ट्रॉनों की संख्या"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Werner's theory: primary valency (ionisable, non-directional) = oxidation state, satisfied by anions; secondary valency (non-ionisable, directional) = coordination number, satisfied by ligands. E.g. in [Co(NH₃)₆]Cl₃: primary valency 3, secondary valency 6.",
+        "hi": "वर्नर का सिद्धांत: प्राथमिक संयोजकता (आयननीय, अदिशात्मक) = ऑक्सीकरण अवस्था, जो ऋणायनों से संतुष्ट होती है; द्वितीयक संयोजकता (अनायननीय, दिशात्मक) = उपसहसंयोजन संख्या, जो लिगैंडों से संतुष्ट होती है। उदाहरण: [Co(NH₃)₆]Cl₃ में प्राथमिक संयोजकता 3, द्वितीयक संयोजकता 6।"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following ions is colourless in aqueous solution?",
+        "hi": "निम्नलिखित में से कौन-सा आयन जलीय विलयन में रंगहीन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Ti³⁺", "hi": "Ti³⁺"}},
+        {"id": "B", "text": {"en": "Cu²⁺", "hi": "Cu²⁺"}},
+        {"id": "C", "text": {"en": "Ni²⁺", "hi": "Ni²⁺"}},
+        {"id": "D", "text": {"en": "Sc³⁺", "hi": "Sc³⁺"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Colour in transition metal ions arises from d–d transitions, which need partially filled d orbitals. Sc³⁺ is 3d⁰ (no d electrons), so it is colourless. Ti³⁺ (d¹, purple), Cu²⁺ (d⁹, blue) and Ni²⁺ (d⁸, green) are coloured. (Zn²⁺, d¹⁰, is also colourless.)",
+        "hi": "संक्रमण धातु आयनों में रंग d–d संक्रमणों से उत्पन्न होता है, जिनके लिए आंशिक रूप से भरे d कक्षक चाहिए। Sc³⁺ 3d⁰ है (कोई d इलेक्ट्रॉन नहीं), अतः रंगहीन है। Ti³⁺ (d¹, बैंगनी), Cu²⁺ (d⁹, नीला) और Ni²⁺ (d⁸, हरा) रंगीन हैं। (Zn²⁺, d¹⁰, भी रंगहीन है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The solubility product of AgCl is $1.6 \\times 10^{-10}$ at 298 K. Its solubility in 0.1 M NaCl solution is:",
+        "hi": "298 K पर AgCl का विलेयता गुणनफल $1.6 \\times 10^{-10}$ है। 0.1 M NaCl विलयन में इसकी विलेयता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1.26 × 10⁻⁵ M", "hi": "1.26 × 10⁻⁵ M"}},
+        {"id": "B", "text": {"en": "1.6 × 10⁻⁹ M", "hi": "1.6 × 10⁻⁹ M"}},
+        {"id": "C", "text": {"en": "1.6 × 10⁻¹⁰ M", "hi": "1.6 × 10⁻¹⁰ M"}},
+        {"id": "D", "text": {"en": "1.6 × 10⁻¹¹ M", "hi": "1.6 × 10⁻¹¹ M"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Let solubility be $s$: $[\\text{Ag}^+] = s$, $[\\text{Cl}^-] = s + 0.1 \\approx 0.1$ (since $s \\ll 0.1$). $K_{sp} = s(0.1) \\Rightarrow s = \\frac{1.6 \\times 10^{-10}}{0.1} = 1.6 \\times 10^{-9}$ M. In pure water $s = \\sqrt{K_{sp}} \\approx 1.26 \\times 10^{-5}$ M, so the common ion reduces solubility about 10⁴ times.",
+        "hi": "माना विलेयता $s$ है: $[\\text{Ag}^+] = s$, $[\\text{Cl}^-] = s + 0.1 \\approx 0.1$ (चूँकि $s \\ll 0.1$)। $K_{sp} = s(0.1) \\Rightarrow s = \\frac{1.6 \\times 10^{-10}}{0.1} = 1.6 \\times 10^{-9}$ M। शुद्ध जल में $s = \\sqrt{K_{sp}} \\approx 1.26 \\times 10^{-5}$ M, अतः सम आयन विलेयता को लगभग 10⁴ गुना घटा देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $\\tan x$ with respect to $x$ is:",
+        "hi": "$x$ के सापेक्ष $\\tan x$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−cosec²x", "hi": "−cosec²x"}},
+        {"id": "B", "text": {"en": "sec x tan x", "hi": "sec x tan x"}},
+        {"id": "C", "text": {"en": "cos²x", "hi": "cos²x"}},
+        {"id": "D", "text": {"en": "sec²x", "hi": "sec²x"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\frac{d}{dx}\\tan x = \\frac{d}{dx}\\frac{\\sin x}{\\cos x} = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x} = \\sec^2 x$. ($-\\text{cosec}^2 x$ is the derivative of $\\cot x$; $\\sec x\\tan x$ is that of $\\sec x$.)",
+        "hi": "$\\frac{d}{dx}\\tan x = \\frac{d}{dx}\\frac{\\sin x}{\\cos x} = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x} = \\sec^2 x$। ($-\\text{cosec}^2 x$, $\\cot x$ का अवकलज है; $\\sec x\\tan x$, $\\sec x$ का।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-08",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = x^3$ is:",
+        "hi": "$f(x) = x^3$ द्वारा परिभाषित फलन $f: \\mathbb{R} \\to \\mathbb{R}$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "One-one but not onto", "hi": "एकैकी परंतु आच्छादक नहीं"}},
+        {"id": "B", "text": {"en": "Onto but not one-one", "hi": "आच्छादक परंतु एकैकी नहीं"}},
+        {"id": "C", "text": {"en": "One-one and onto", "hi": "एकैकी और आच्छादक"}},
+        {"id": "D", "text": {"en": "Neither one-one nor onto", "hi": "न एकैकी न आच्छादक"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "One-one: $x_1^3 = x_2^3 \\Rightarrow x_1 = x_2$ (it is strictly increasing). Onto: for any real $y$, $x = \\sqrt[3]{y}$ is real and $f(x) = y$. So $f$ is a bijection. (Compare $x^2$ on $\\mathbb{R}$, which is neither.)",
+        "hi": "एकैकी: $x_1^3 = x_2^3 \\Rightarrow x_1 = x_2$ (यह निरंतर वर्धमान है)। आच्छादक: किसी भी वास्तविक $y$ के लिए $x = \\sqrt[3]{y}$ वास्तविक है और $f(x) = y$। अतः $f$ एकैकी आच्छादी है। (तुलना करें: $\\mathbb{R}$ पर $x^2$ दोनों में से कोई नहीं है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the ellipse with vertices $(\\pm 5, 0)$ and foci $(\\pm 4, 0)$ is:",
+        "hi": "शीर्ष $(\\pm 5, 0)$ और नाभियाँ $(\\pm 4, 0)$ वाले दीर्घवृत्त का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x²/25 + y²/9 = 1", "hi": "x²/25 + y²/9 = 1"}},
+        {"id": "B", "text": {"en": "x²/25 + y²/16 = 1", "hi": "x²/25 + y²/16 = 1"}},
+        {"id": "C", "text": {"en": "x²/9 + y²/25 = 1", "hi": "x²/9 + y²/25 = 1"}},
+        {"id": "D", "text": {"en": "x²/25 − y²/9 = 1", "hi": "x²/25 − y²/9 = 1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$a = 5$, $c = ae = 4$. $b^2 = a^2 - c^2 = 25 - 16 = 9$. Major axis along x: $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+        "hi": "$a = 5$, $c = ae = 4$। $b^2 = a^2 - c^2 = 25 - 16 = 9$। दीर्घ अक्ष x-अक्ष के अनुदिश: $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-23-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of $2 \\times 2$ matrices with each entry either 0 or 1 whose determinant is zero.",
+        "hi": "ऐसे $2 \\times 2$ आव्यूहों की संख्या ज्ञात कीजिए जिनका प्रत्येक अवयव 0 या 1 है और जिनका सारणिक शून्य है।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "For $\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, $|A| = ad - bc = 0 \\Rightarrow ad = bc$. Each product is 0 or 1. $ad = 1$ in 1 way ($a = d = 1$), $ad = 0$ in 3 ways; same for $bc$. Matching: both 1: $1 \\times 1 = 1$; both 0: $3 \\times 3 = 9$. Total $= 10$ (out of 16 matrices).",
+        "hi": "$\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$ के लिए $|A| = ad - bc = 0 \\Rightarrow ad = bc$। प्रत्येक गुणनफल 0 या 1 है। $ad = 1$ एक प्रकार से ($a = d = 1$), $ad = 0$ तीन प्रकार से; $bc$ के लिए भी यही। मिलान: दोनों 1: $1 \\times 1 = 1$; दोनों 0: $3 \\times 3 = 9$। कुल $= 10$ (16 आव्यूहों में से)।"
+      }
+    }
+  ]
+}

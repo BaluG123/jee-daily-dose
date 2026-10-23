@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-22",
+  "questions": [
+    {
+      "id": "dd-2026-09-22-01",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The escape velocity of a body from the surface of the Earth does NOT depend on:",
+        "hi": "पृथ्वी की सतह से किसी पिंड का पलायन वेग किस पर निर्भर नहीं करता?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Mass of the Earth", "hi": "पृथ्वी का द्रव्यमान"}},
+        {"id": "B", "text": {"en": "Radius of the Earth", "hi": "पृथ्वी की त्रिज्या"}},
+        {"id": "C", "text": {"en": "Mass of the projected body", "hi": "प्रक्षेपित पिंड का द्रव्यमान"}},
+        {"id": "D", "text": {"en": "Acceleration due to gravity at the surface", "hi": "सतह पर गुरुत्वीय त्वरण"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}$. It depends on the planet's mass $M$, radius $R$ (and hence $g$), but not on the mass of the body being projected.",
+        "hi": "$v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}$। यह ग्रह के द्रव्यमान $M$, त्रिज्या $R$ (और इसलिए $g$) पर निर्भर करता है, परंतु प्रक्षेपित पिंड के द्रव्यमान पर नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-02",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The moment of inertia of a uniform thin ring of mass $M$ and radius $R$ about any diameter is:",
+        "hi": "द्रव्यमान $M$ और त्रिज्या $R$ की एकसमान पतली वलय का किसी व्यास के परितः जड़त्व आघूर्ण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "MR²", "hi": "MR²"}},
+        {"id": "B", "text": {"en": "MR²/2", "hi": "MR²/2"}},
+        {"id": "C", "text": {"en": "3MR²/2", "hi": "3MR²/2"}},
+        {"id": "D", "text": {"en": "MR²/4", "hi": "MR²/4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "About the axis through the centre perpendicular to the plane, $I_z = MR^2$. By the perpendicular axis theorem, $I_z = I_x + I_y = 2I_d$ (both diameters are equivalent). So $I_d = \\frac{MR^2}{2}$.",
+        "hi": "तल के लंबवत केंद्र से गुजरने वाली अक्ष के परितः $I_z = MR^2$। लंबवत अक्ष प्रमेय से $I_z = I_x + I_y = 2I_d$ (दोनों व्यास समतुल्य हैं)। अतः $I_d = \\frac{MR^2}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-03",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A ball of mass $2\\text{ kg}$ moving at $6\\text{ m/s}$ collides head-on and elastically with a stationary ball of mass $1\\text{ kg}$. Find the speed (in m/s) of the $1\\text{ kg}$ ball after the collision.",
+        "hi": "$6\\text{ m/s}$ से गतिमान $2\\text{ kg}$ द्रव्यमान की एक गेंद, विरामावस्था में स्थित $1\\text{ kg}$ द्रव्यमान की गेंद से सीधी प्रत्यास्थ टक्कर करती है। टक्कर के बाद $1\\text{ kg}$ गेंद की चाल (m/s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "For a 1-D elastic collision with $m_2$ initially at rest: $v_2 = \\frac{2m_1 u_1}{m_1 + m_2} = \\frac{2(2)(6)}{3} = 8\\text{ m/s}$. Also $v_1 = \\frac{(m_1 - m_2)u_1}{m_1 + m_2} = 2\\text{ m/s}$. Check momentum: $2(6) = 2(2) + 1(8) = 12$ ✓.",
+        "hi": "एकविमीय प्रत्यास्थ टक्कर में जब $m_2$ प्रारंभ में विराम में हो: $v_2 = \\frac{2m_1 u_1}{m_1 + m_2} = \\frac{2(2)(6)}{3} = 8\\text{ m/s}$। साथ ही $v_1 = \\frac{(m_1 - m_2)u_1}{m_1 + m_2} = 2\\text{ m/s}$। संवेग जाँच: $2(6) = 2(2) + 1(8) = 12$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-04",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The oxidation number of chromium in K₂Cr₂O₇ is:",
+        "hi": "K₂Cr₂O₇ में क्रोमियम की ऑक्सीकरण संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+7", "hi": "+7"}},
+        {"id": "B", "text": {"en": "+6", "hi": "+6"}},
+        {"id": "C", "text": {"en": "+3", "hi": "+3"}},
+        {"id": "D", "text": {"en": "+12", "hi": "+12"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Let the oxidation number of Cr be $x$. Sum of oxidation numbers in a neutral compound is zero: $2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$.",
+        "hi": "माना Cr की ऑक्सीकरण संख्या $x$ है। उदासीन यौगिक में ऑक्सीकरण संख्याओं का योग शून्य होता है: $2(+1) + 2x + 7(-2) = 0 \\Rightarrow 2x = 12 \\Rightarrow x = +6$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-05",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For the equilibrium N₂O₄(g) ⇌ 2NO₂(g), the relation between $K_p$ and $K_c$ is:",
+        "hi": "साम्य N₂O₄(g) ⇌ 2NO₂(g) के लिए $K_p$ और $K_c$ के बीच संबंध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Kp = Kc(RT)", "hi": "Kp = Kc(RT)"}},
+        {"id": "B", "text": {"en": "Kp = Kc", "hi": "Kp = Kc"}},
+        {"id": "C", "text": {"en": "Kp = Kc/(RT)", "hi": "Kp = Kc/(RT)"}},
+        {"id": "D", "text": {"en": "Kp = Kc(RT)²", "hi": "Kp = Kc(RT)²"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$K_p = K_c(RT)^{\\Delta n_g}$, where $\\Delta n_g = 2 - 1 = 1$. So $K_p = K_c(RT)$.",
+        "hi": "$K_p = K_c(RT)^{\\Delta n_g}$, जहाँ $\\Delta n_g = 2 - 1 = 1$। अतः $K_p = K_c(RT)$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "100 mL of 0.1 M HCl is mixed with 100 mL of 0.12 M NaOH at 25°C. Find the pH of the resulting solution.",
+        "hi": "25°C पर 0.1 M HCl के 100 mL को 0.12 M NaOH के 100 mL के साथ मिलाया जाता है। परिणामी विलयन का pH ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 12,
+      "solution": {
+        "en": "mmol H⁺ $= 100 \\times 0.1 = 10$; mmol OH⁻ $= 100 \\times 0.12 = 12$. After neutralisation, excess OH⁻ $= 2$ mmol in a total volume of 200 mL, so $[\\text{OH}^-] = \\frac{2}{200} = 0.01\\text{ M}$. pOH $= 2$, hence pH $= 14 - 2 = 12$.",
+        "hi": "H⁺ के mmol $= 100 \\times 0.1 = 10$; OH⁻ के mmol $= 100 \\times 0.12 = 12$। उदासीनीकरण के बाद अतिरिक्त OH⁻ $= 2$ mmol, कुल आयतन 200 mL में, अतः $[\\text{OH}^-] = \\frac{2}{200} = 0.01\\text{ M}$। pOH $= 2$, अतः pH $= 14 - 2 = 12$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0} \\frac{\\sin 3x}{x}$.",
+        "hi": "$\\lim_{x \\to 0} \\frac{\\sin 3x}{x}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "1/3", "hi": "1/3"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\lim_{x \\to 0} \\frac{\\sin 3x}{x} = \\lim_{x \\to 0} \\frac{\\sin 3x}{3x} \\times 3 = 1 \\times 3 = 3$, using $\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$.",
+        "hi": "$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$ का प्रयोग करके: $\\lim_{x \\to 0} \\frac{\\sin 3x}{x} = \\lim_{x \\to 0} \\frac{\\sin 3x}{3x} \\times 3 = 1 \\times 3 = 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-08",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The coordinates of the focus of the parabola $y^2 = 12x$ are:",
+        "hi": "परवलय $y^2 = 12x$ की नाभि के निर्देशांक हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(0, 3)", "hi": "(0, 3)"}},
+        {"id": "B", "text": {"en": "(12, 0)", "hi": "(12, 0)"}},
+        {"id": "C", "text": {"en": "(6, 0)", "hi": "(6, 0)"}},
+        {"id": "D", "text": {"en": "(3, 0)", "hi": "(3, 0)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Compare with $y^2 = 4ax$: $4a = 12 \\Rightarrow a = 3$. Focus is $(a, 0) = (3, 0)$; directrix is $x = -3$.",
+        "hi": "$y^2 = 4ax$ से तुलना करने पर: $4a = 12 \\Rightarrow a = 3$। नाभि $(a, 0) = (3, 0)$ है; नियता $x = -3$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The variance of the observations $1, 2, 3, 4, 5$ is:",
+        "hi": "प्रेक्षणों $1, 2, 3, 4, 5$ का प्रसरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "√2", "hi": "√2"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "2.5", "hi": "2.5"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Mean $\\bar{x} = 3$. Squared deviations: $4, 1, 0, 1, 4$; sum $= 10$. Variance $= \\frac{10}{5} = 2$. (Standard deviation would be $\\sqrt{2}$.)",
+        "hi": "माध्य $\\bar{x} = 3$। विचलनों के वर्ग: $4, 1, 0, 1, 4$; योग $= 10$। प्रसरण $= \\frac{10}{5} = 2$। (मानक विचलन $\\sqrt{2}$ होगा।)"
+      }
+    },
+    {
+      "id": "dd-2026-09-22-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A$ is a square matrix of order 3 with $|A| = 2$, find $|\\text{adj}(\\text{adj } A)|$.",
+        "hi": "यदि $A$ कोटि 3 का एक वर्ग आव्यूह है और $|A| = 2$ है, तो $|\\text{adj}(\\text{adj } A)|$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 16,
+      "solution": {
+        "en": "For an $n \\times n$ matrix, $|\\text{adj } A| = |A|^{n-1}$. So $|\\text{adj } A| = 2^2 = 4$. Applying again: $|\\text{adj}(\\text{adj } A)| = |\\text{adj } A|^{n-1} = 4^2 = 16$. (General result: $|A|^{(n-1)^2} = 2^4 = 16$.)",
+        "hi": "$n \\times n$ आव्यूह के लिए $|\\text{adj } A| = |A|^{n-1}$। अतः $|\\text{adj } A| = 2^2 = 4$। पुनः लगाने पर: $|\\text{adj}(\\text{adj } A)| = |\\text{adj } A|^{n-1} = 4^2 = 16$। (व्यापक परिणाम: $|A|^{(n-1)^2} = 2^4 = 16$।)"
+      }
+    }
+  ]
+}
