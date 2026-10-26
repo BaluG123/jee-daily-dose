@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-24",
+  "questions": [
+    {
+      "id": "dd-2026-10-24-01",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The angle of dip at the Earth's magnetic equator is:",
+        "hi": "पृथ्वी की चुंबकीय विषुवत रेखा पर नति कोण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0°", "hi": "0°"}},
+        {"id": "B", "text": {"en": "90°", "hi": "90°"}},
+        {"id": "C", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "D", "text": {"en": "180°", "hi": "180°"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The angle of dip is the angle that the Earth's total magnetic field makes with the horizontal. At the magnetic equator the field is horizontal, so dip $= 0^\\circ$; at the magnetic poles it is vertical, so dip $= 90^\\circ$. Relation: $\\tan\\delta = \\frac{B_V}{B_H}$.",
+        "hi": "नति कोण वह कोण है जो पृथ्वी का कुल चुंबकीय क्षेत्र क्षैतिज से बनाता है। चुंबकीय विषुवत रेखा पर क्षेत्र क्षैतिज होता है, अतः नति $= 0^\\circ$; चुंबकीय ध्रुवों पर यह ऊर्ध्वाधर होता है, अतः नति $= 90^\\circ$। संबंध: $\\tan\\delta = \\frac{B_V}{B_H}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-02",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The average translational kinetic energy per molecule of an ideal gas at absolute temperature $T$ is ($k_B$ = Boltzmann constant):",
+        "hi": "परम ताप $T$ पर किसी आदर्श गैस के प्रति अणु औसत स्थानांतरीय गतिज ऊर्जा है ($k_B$ = बोल्ट्ज़मान नियतांक):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(1/2) k_B T", "hi": "(1/2) k_B T"}},
+        {"id": "B", "text": {"en": "(3/2) k_B T", "hi": "(3/2) k_B T"}},
+        {"id": "C", "text": {"en": "(5/2) k_B T", "hi": "(5/2) k_B T"}},
+        {"id": "D", "text": {"en": "3 k_B T", "hi": "3 k_B T"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Kinetic theory gives $\\frac{1}{2}m\\overline{v^2} = \\frac{3}{2}k_BT$. Each of the 3 translational degrees of freedom contributes $\\frac{1}{2}k_BT$ (equipartition of energy). It depends only on temperature, not on the nature or mass of the gas. ($\\frac{5}{2}k_BT$ is the total KE of a rigid diatomic molecule, including rotation.)",
+        "hi": "गतिज सिद्धांत से $\\frac{1}{2}m\\overline{v^2} = \\frac{3}{2}k_BT$। 3 स्थानांतरीय स्वातंत्र्य कोटियों में से प्रत्येक $\\frac{1}{2}k_BT$ का योगदान देती है (ऊर्जा का समविभाजन)। यह केवल ताप पर निर्भर करती है, गैस की प्रकृति या द्रव्यमान पर नहीं। ($\\frac{5}{2}k_BT$ दृढ़ द्विपरमाणुक अणु की घूर्णन सहित कुल गतिज ऊर्जा है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-03",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A series LCR circuit has $R = 30\\,\\Omega$, $X_L = 80\\,\\Omega$ and $X_C = 40\\,\\Omega$, and is connected to an AC source of rms voltage 100 V. Find the average power (in W) dissipated in the circuit.",
+        "hi": "एक श्रेणी LCR परिपथ में $R = 30\\,\\Omega$, $X_L = 80\\,\\Omega$ और $X_C = 40\\,\\Omega$ हैं, और यह 100 V rms वोल्टता वाले AC स्रोत से जुड़ा है। परिपथ में क्षयित औसत शक्ति (W में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 120,
+      "solution": {
+        "en": "$Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + 40^2} = 50\\,\\Omega$. $I_{\\text{rms}} = \\frac{100}{50} = 2\\text{ A}$. Power is dissipated only in the resistor: $P = I_{\\text{rms}}^2 R = 4 \\times 30 = 120\\text{ W}$. (Equivalently $P = V_{\\text{rms}}I_{\\text{rms}}\\cos\\phi$ with power factor $\\cos\\phi = \\frac{R}{Z} = 0.6$.)",
+        "hi": "$Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + 40^2} = 50\\,\\Omega$। $I_{\\text{rms}} = \\frac{100}{50} = 2\\text{ A}$। शक्ति का क्षय केवल प्रतिरोधक में होता है: $P = I_{\\text{rms}}^2 R = 4 \\times 30 = 120\\text{ W}$। (समतुल्य रूप से $P = V_{\\text{rms}}I_{\\text{rms}}\\cos\\phi$, जहाँ शक्ति गुणांक $\\cos\\phi = \\frac{R}{Z} = 0.6$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-04",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following elements has the highest first ionisation enthalpy?",
+        "hi": "निम्नलिखित में से किस तत्व की प्रथम आयनन एन्थैल्पी सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Neon (Ne)", "hi": "नियॉन (Ne)"}},
+        {"id": "B", "text": {"en": "Hydrogen (H)", "hi": "हाइड्रोजन (H)"}},
+        {"id": "C", "text": {"en": "Fluorine (F)", "hi": "फ्लुओरीन (F)"}},
+        {"id": "D", "text": {"en": "Helium (He)", "hi": "हीलियम (He)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "He has a completely filled 1s² shell and a very small size, with both electrons close to the nucleus and no inner shielding. So it has the highest first ionisation enthalpy of all elements (≈2372 kJ/mol); Ne (≈2081 kJ/mol) comes next. Ionisation enthalpy decreases down a group and generally increases across a period.",
+        "hi": "He का 1s² कोश पूर्णतः भरा है और इसका आकार बहुत छोटा है; दोनों इलेक्ट्रॉन नाभिक के निकट हैं और कोई आंतरिक परिरक्षण नहीं है। अतः इसकी प्रथम आयनन एन्थैल्पी सभी तत्वों में सबसे अधिक (≈2372 kJ/mol) है; इसके बाद Ne (≈2081 kJ/mol) आता है। आयनन एन्थैल्पी वर्ग में नीचे घटती है और आवर्त में सामान्यतः बढ़ती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-05",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following boron trihalides is the strongest Lewis acid?",
+        "hi": "निम्नलिखित बोरॉन ट्राइहैलाइडों में से कौन सबसे प्रबल लूइस अम्ल है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "BF₃", "hi": "BF₃"}},
+        {"id": "B", "text": {"en": "BCl₃", "hi": "BCl₃"}},
+        {"id": "C", "text": {"en": "BBr₃", "hi": "BBr₃"}},
+        {"id": "D", "text": {"en": "BI₃", "hi": "BI₃"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Electronegativity alone would suggest BF₃, but the actual order is BF₃ < BCl₃ < BBr₃ < BI₃. In BF₃, the filled 2p orbital of F overlaps well with the empty 2p orbital of B (similar size), giving strong pπ–pπ back bonding that reduces boron's electron deficiency. This back bonding weakens as the halogen gets larger, so BI₃ is the strongest Lewis acid.",
+        "hi": "केवल विद्युत ऋणात्मकता से BF₃ सबसे प्रबल लगता, परंतु वास्तविक क्रम BF₃ < BCl₃ < BBr₃ < BI₃ है। BF₃ में F का भरा 2p कक्षक B के रिक्त 2p कक्षक (समान आकार) से भली-भाँति अतिव्यापन करता है, जिससे प्रबल pπ–pπ पश्च आबंधन होता है और बोरॉन की इलेक्ट्रॉन न्यूनता घटती है। हैलोजन का आकार बढ़ने पर यह पश्च आबंधन दुर्बल होता जाता है, अतः BI₃ सबसे प्रबल लूइस अम्ल है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-06",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "What volume (in mL) of 0.1 M KMnO₄ solution is needed to completely oxidise 50 mL of 0.5 M FeSO₄ solution in acidic medium?",
+        "hi": "अम्लीय माध्यम में 0.5 M FeSO₄ विलयन के 50 mL को पूर्णतः ऑक्सीकृत करने के लिए 0.1 M KMnO₄ विलयन का कितना आयतन (mL में) आवश्यक है?"
+      },
+      "options": [],
+      "correctAnswer": 50,
+      "solution": {
+        "en": "In acidic medium MnO₄⁻ → Mn²⁺ (n-factor 5) and Fe²⁺ → Fe³⁺ (n-factor 1). Equating milliequivalents: $0.1 \\times 5 \\times V = 0.5 \\times 1 \\times 50 \\Rightarrow V = 50\\text{ mL}$. (Mole method: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, so mmol of MnO₄⁻ $= \\frac{25}{5} = 5$ and $V = \\frac{5}{0.1} = 50$ mL.)",
+        "hi": "अम्लीय माध्यम में MnO₄⁻ → Mn²⁺ (n-गुणांक 5) और Fe²⁺ → Fe³⁺ (n-गुणांक 1)। मिलीतुल्यांक बराबर करने पर: $0.1 \\times 5 \\times V = 0.5 \\times 1 \\times 50 \\Rightarrow V = 50\\text{ mL}$। (मोल विधि: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, अतः MnO₄⁻ के mmol $= \\frac{25}{5} = 5$ और $V = \\frac{5}{0.1} = 50$ mL।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$, then $A - B$ is:",
+        "hi": "यदि $A = \\{1, 2, 3, 4\\}$ और $B = \\{3, 4, 5, 6\\}$ है, तो $A - B$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "{1, 2}", "hi": "{1, 2}"}},
+        {"id": "B", "text": {"en": "{5, 6}", "hi": "{5, 6}"}},
+        {"id": "C", "text": {"en": "{3, 4}", "hi": "{3, 4}"}},
+        {"id": "D", "text": {"en": "{1, 2, 5, 6}", "hi": "{1, 2, 5, 6}"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$A - B$ contains the elements of $A$ that are not in $B$. Removing 3 and 4 from $A$ leaves $\\{1, 2\\}$. (For comparison: $B - A = \\{5, 6\\}$, $A \\cap B = \\{3, 4\\}$, and the symmetric difference is $\\{1, 2, 5, 6\\}$.)",
+        "hi": "$A - B$ में $A$ के वे अवयव होते हैं जो $B$ में नहीं हैं। $A$ से 3 और 4 हटाने पर $\\{1, 2\\}$ बचता है। (तुलना: $B - A = \\{5, 6\\}$, $A \\cap B = \\{3, 4\\}$, और सममित अंतर $\\{1, 2, 5, 6\\}$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\sin^{-1}\\left(\\sin\\frac{2\\pi}{3}\\right)$ is:",
+        "hi": "$\\sin^{-1}\\left(\\sin\\frac{2\\pi}{3}\\right)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2π/3", "hi": "2π/3"}},
+        {"id": "B", "text": {"en": "−π/3", "hi": "−π/3"}},
+        {"id": "C", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "D", "text": {"en": "π/6", "hi": "π/6"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\sin^{-1}(\\sin x) = x$ only when $x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$. Here $\\frac{2\\pi}{3}$ lies outside this range, so rewrite: $\\sin\\frac{2\\pi}{3} = \\sin\\left(\\pi - \\frac{2\\pi}{3}\\right) = \\sin\\frac{\\pi}{3}$, and $\\frac{\\pi}{3}$ is in the principal range. Answer: $\\frac{\\pi}{3}$. Trap: writing $\\frac{2\\pi}{3}$ directly.",
+        "hi": "$\\sin^{-1}(\\sin x) = x$ केवल तब होता है जब $x \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$। यहाँ $\\frac{2\\pi}{3}$ इस परिसर से बाहर है, अतः पुनः लिखें: $\\sin\\frac{2\\pi}{3} = \\sin\\left(\\pi - \\frac{2\\pi}{3}\\right) = \\sin\\frac{\\pi}{3}$, और $\\frac{\\pi}{3}$ मुख्य परिसर में है। उत्तर: $\\frac{\\pi}{3}$। सामान्य गलती: सीधे $\\frac{2\\pi}{3}$ लिख देना।"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-09",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f(x) = x^3 - 3x^2 + 3x - 100$ is:",
+        "hi": "फलन $f(x) = x^3 - 3x^2 + 3x - 100$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Decreasing on ℝ", "hi": "ℝ पर ह्रासमान"}},
+        {"id": "B", "text": {"en": "Increasing on ℝ", "hi": "ℝ पर वर्धमान"}},
+        {"id": "C", "text": {"en": "Increasing only on (1, ∞)", "hi": "केवल (1, ∞) पर वर्धमान"}},
+        {"id": "D", "text": {"en": "Decreasing on (−∞, 1) and increasing on (1, ∞)", "hi": "(−∞, 1) पर ह्रासमान और (1, ∞) पर वर्धमान"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$f'(x) = 3x^2 - 6x + 3 = 3(x - 1)^2 \\ge 0$ for all $x$, and $f'(x) = 0$ only at the single point $x = 1$. A function whose derivative is non-negative and zero only at isolated points is strictly increasing, so $f$ is increasing on $\\mathbb{R}$. ($x = 1$ is a point of inflection, not an extremum.)",
+        "hi": "सभी $x$ के लिए $f'(x) = 3x^2 - 6x + 3 = 3(x - 1)^2 \\ge 0$, और $f'(x) = 0$ केवल एक बिंदु $x = 1$ पर है। जिस फलन का अवकलज ऋणेतर हो और केवल विलगित बिंदुओं पर शून्य हो, वह निरंतर वर्धमान होता है, अतः $f$, $\\mathbb{R}$ पर वर्धमान है। ($x = 1$ नति परिवर्तन बिंदु है, चरम बिंदु नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-24-10",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The function $f(x) = \\begin{cases} ax + 1, & x \\le 1 \\\\ x^2 + b, & x > 1 \\end{cases}$ is differentiable at $x = 1$. Find $a + b$.",
+        "hi": "फलन $f(x) = \\begin{cases} ax + 1, & x \\le 1 \\\\ x^2 + b, & x > 1 \\end{cases}$, $x = 1$ पर अवकलनीय है। $a + b$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "Differentiability implies continuity. Continuity at $x = 1$: $a(1) + 1 = 1^2 + b \\Rightarrow a = b$. Equal one-sided derivatives: left derivative $= a$, right derivative $= 2x$ at $x = 1$, which is $2$. So $a = 2$ and hence $b = 2$, giving $a + b = 4$.",
+        "hi": "अवकलनीयता से संतता निहित है। $x = 1$ पर संतता: $a(1) + 1 = 1^2 + b \\Rightarrow a = b$। एकपक्षीय अवकलज बराबर: बायाँ अवकलज $= a$, दायाँ अवकलज $= 2x$, जो $x = 1$ पर $2$ है। अतः $a = 2$ और इसलिए $b = 2$, अर्थात $a + b = 4$।"
+      }
+    }
+  ]
+}

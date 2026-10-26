@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-25",
+  "questions": [
+    {
+      "id": "dd-2026-10-25-01",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Solids",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The ratio of lateral strain to longitudinal strain (in magnitude) in a stretched wire is called:",
+        "hi": "किसी खींचे गए तार में पार्श्व विकृति और अनुदैर्ध्य विकृति के अनुपात (परिमाण में) को कहते हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Young's modulus", "hi": "यंग गुणांक"}},
+        {"id": "B", "text": {"en": "Bulk modulus", "hi": "आयतन गुणांक"}},
+        {"id": "C", "text": {"en": "Shear modulus", "hi": "अपरूपण गुणांक"}},
+        {"id": "D", "text": {"en": "Poisson's ratio", "hi": "पॉयसन अनुपात"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Poisson's ratio $\\sigma = \\frac{\\text{lateral strain}}{\\text{longitudinal strain}} = \\frac{\\Delta d/d}{\\Delta L/L}$. Being a ratio of two strains, it is dimensionless and unitless; for most materials it lies between 0 and 0.5. The three moduli are ratios of stress to strain.",
+        "hi": "पॉयसन अनुपात $\\sigma = \\frac{\\text{lateral strain}}{\\text{longitudinal strain}} = \\frac{\\Delta d/d}{\\Delta L/L}$। दो विकृतियों का अनुपात होने से यह विमाहीन और मात्रकहीन है; अधिकांश पदार्थों के लिए यह 0 और 0.5 के बीच होता है। तीनों गुणांक प्रतिबल और विकृति के अनुपात हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-02",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For a given speed of projection, a projectile has the same horizontal range for the angles of projection:",
+        "hi": "प्रक्षेपण की दी गई चाल के लिए, एक प्रक्षेप्य की क्षैतिज परास किन प्रक्षेपण कोणों के लिए समान होती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "θ and 2θ", "hi": "θ और 2θ"}},
+        {"id": "B", "text": {"en": "θ and (90° − θ)", "hi": "θ और (90° − θ)"}},
+        {"id": "C", "text": {"en": "θ and (45° − θ)", "hi": "θ और (45° − θ)"}},
+        {"id": "D", "text": {"en": "θ and (60° − θ)", "hi": "θ और (60° − θ)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$R = \\frac{u^2\\sin 2\\theta}{g}$. Since $\\sin 2(90^\\circ - \\theta) = \\sin(180^\\circ - 2\\theta) = \\sin 2\\theta$, complementary angles give equal ranges (e.g. $30^\\circ$ and $60^\\circ$), though the times of flight and maximum heights differ. The maximum range $\\frac{u^2}{g}$ occurs at $45^\\circ$.",
+        "hi": "$R = \\frac{u^2\\sin 2\\theta}{g}$। चूँकि $\\sin 2(90^\\circ - \\theta) = \\sin(180^\\circ - 2\\theta) = \\sin 2\\theta$, पूरक कोणों पर परास समान होती है (जैसे $30^\\circ$ और $60^\\circ$), यद्यपि उड्डयन काल और अधिकतम ऊँचाई भिन्न होती हैं। अधिकतम परास $\\frac{u^2}{g}$, $45^\\circ$ पर होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-03",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "One mole of a monatomic ideal gas is mixed with one mole of a rigid diatomic ideal gas. Find the ratio of specific heats $\\gamma = \\frac{C_p}{C_v}$ of the mixture.",
+        "hi": "एक मोल एकपरमाणुक आदर्श गैस को एक मोल दृढ़ द्विपरमाणुक आदर्श गैस के साथ मिलाया जाता है। मिश्रण की विशिष्ट ऊष्माओं का अनुपात $\\gamma = \\frac{C_p}{C_v}$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1.5,
+      "solution": {
+        "en": "Molar heat capacities combine in proportion to moles: $C_{v,\\text{mix}} = \\frac{n_1C_{v1} + n_2C_{v2}}{n_1 + n_2} = \\frac{\\frac{3}{2}R + \\frac{5}{2}R}{2} = 2R$. Then $C_{p,\\text{mix}} = C_{v,\\text{mix}} + R = 3R$, so $\\gamma = \\frac{3R}{2R} = 1.5$. Trap: simply averaging the two $\\gamma$ values, $\\frac{1}{2}\\left(\\frac{5}{3} + \\frac{7}{5}\\right) \\approx 1.53$, is wrong.",
+        "hi": "मोलर ऊष्मा धारिताएँ मोलों के अनुपात में जुड़ती हैं: $C_{v,\\text{mix}} = \\frac{n_1C_{v1} + n_2C_{v2}}{n_1 + n_2} = \\frac{\\frac{3}{2}R + \\frac{5}{2}R}{2} = 2R$। तब $C_{p,\\text{mix}} = C_{v,\\text{mix}} + R = 3R$, अतः $\\gamma = \\frac{3R}{2R} = 1.5$। सामान्य गलती: दोनों $\\gamma$ का सीधा औसत, $\\frac{1}{2}\\left(\\frac{5}{3} + \\frac{7}{5}\\right) \\approx 1.53$, लेना गलत है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following contains the same number of molecules as 16 g of O₂?",
+        "hi": "निम्नलिखित में से किसमें 16 g O₂ के समान संख्या में अणु हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "16 g of CH₄", "hi": "16 g CH₄"}},
+        {"id": "B", "text": {"en": "14 g of N₂", "hi": "14 g N₂"}},
+        {"id": "C", "text": {"en": "44 g of CO₂", "hi": "44 g CO₂"}},
+        {"id": "D", "text": {"en": "2 g of H₂", "hi": "2 g H₂"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Equal numbers of molecules means equal numbers of moles. 16 g O₂ $= \\frac{16}{32} = 0.5$ mol, and 14 g N₂ $= \\frac{14}{28} = 0.5$ mol ✓. Each of the others is 1 mol: 16 g CH₄, 44 g CO₂ and 2 g H₂.",
+        "hi": "अणुओं की समान संख्या का अर्थ है मोलों की समान संख्या। 16 g O₂ $= \\frac{16}{32} = 0.5$ mol, और 14 g N₂ $= \\frac{14}{28} = 0.5$ mol ✓। अन्य सभी 1 mol हैं: 16 g CH₄, 44 g CO₂ और 2 g H₂।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following 3d-series elements shows the maximum number of oxidation states?",
+        "hi": "3d-श्रेणी के निम्नलिखित तत्वों में से कौन अधिकतम संख्या में ऑक्सीकरण अवस्थाएँ दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Sc", "hi": "Sc"}},
+        {"id": "B", "text": {"en": "Zn", "hi": "Zn"}},
+        {"id": "C", "text": {"en": "Mn", "hi": "Mn"}},
+        {"id": "D", "text": {"en": "Cu", "hi": "Cu"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Mn (3d⁵ 4s²) can use all seven of its 4s and 3d electrons in bonding, showing oxidation states from +2 to +7 (as in KMnO₄). Sc shows only +3, Zn only +2, and Cu mainly +1 and +2. The number of oxidation states is greatest in the middle of the 3d series.",
+        "hi": "Mn (3d⁵ 4s²) अपने सभी सात 4s और 3d इलेक्ट्रॉनों का आबंधन में प्रयोग कर सकता है, अतः +2 से +7 तक ऑक्सीकरण अवस्थाएँ दर्शाता है (जैसे KMnO₄ में)। Sc केवल +3, Zn केवल +2, और Cu मुख्यतः +1 और +2 दर्शाते हैं। 3d श्रेणी के मध्य में ऑक्सीकरण अवस्थाओं की संख्या सबसे अधिक होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Propyne is treated with dilute H₂SO₄ in the presence of HgSO₄. The final product is:",
+        "hi": "प्रोपाइन को HgSO₄ की उपस्थिति में तनु H₂SO₄ से उपचारित किया जाता है। अंतिम उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Propanone (acetone)", "hi": "प्रोपेनोन (ऐसीटोन)"}},
+        {"id": "B", "text": {"en": "Propanal", "hi": "प्रोपेनैल"}},
+        {"id": "C", "text": {"en": "Propan-1-ol", "hi": "प्रोपेन-1-ऑल"}},
+        {"id": "D", "text": {"en": "Propan-2-ol", "hi": "प्रोपेन-2-ऑल"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Hg²⁺-catalysed hydration follows Markovnikov's rule: the OH adds to the more substituted carbon of the triple bond, giving the enol CH₃–C(OH)=CH₂. Enols are unstable and tautomerise to the keto form, CH₃COCH₃ (propanone). Only ethyne gives an aldehyde (ethanal) in this reaction; all other alkynes give ketones.",
+        "hi": "Hg²⁺-उत्प्रेरित जलयोजन मार्कोनीकॉफ़ नियम का पालन करता है: OH त्रिआबंध के अधिक प्रतिस्थापित कार्बन पर जुड़ता है, जिससे ईनॉल CH₃–C(OH)=CH₂ बनता है। ईनॉल अस्थायी होते हैं और चलावयवता द्वारा कीटो रूप CH₃COCH₃ (प्रोपेनोन) में बदल जाते हैं। इस अभिक्रिया में केवल एथाइन ऐल्डिहाइड (एथेनैल) देता है; अन्य सभी ऐल्काइन कीटोन देते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-07",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The slope of the tangent to the curve $y = x^2$ at the point $(2, 4)$ is:",
+        "hi": "वक्र $y = x^2$ के बिंदु $(2, 4)$ पर स्पर्श रेखा का ढाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2", "hi": "2"}},
+        {"id": "B", "text": {"en": "8", "hi": "8"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "16", "hi": "16"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\frac{dy}{dx} = 2x$. At $x = 2$, slope $= 4$. Equation of the tangent: $y - 4 = 4(x - 2)$, i.e. $y = 4x - 4$.",
+        "hi": "$\\frac{dy}{dx} = 2x$। $x = 2$ पर ढाल $= 4$। स्पर्श रेखा का समीकरण: $y - 4 = 4(x - 2)$, अर्थात $y = 4x - 4$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\cos\\left(\\sin^{-1}\\frac{3}{5}\\right)$ is:",
+        "hi": "$\\cos\\left(\\sin^{-1}\\frac{3}{5}\\right)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4/5", "hi": "4/5"}},
+        {"id": "B", "text": {"en": "3/5", "hi": "3/5"}},
+        {"id": "C", "text": {"en": "3/4", "hi": "3/4"}},
+        {"id": "D", "text": {"en": "5/4", "hi": "5/4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Let $\\theta = \\sin^{-1}\\frac{3}{5}$, so $\\sin\\theta = \\frac{3}{5}$ with $\\theta \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$, where cosine is non-negative. $\\cos\\theta = \\sqrt{1 - \\frac{9}{25}} = \\frac{4}{5}$. (A 3-4-5 right triangle gives this instantly.)",
+        "hi": "माना $\\theta = \\sin^{-1}\\frac{3}{5}$, अतः $\\sin\\theta = \\frac{3}{5}$ और $\\theta \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$, जहाँ cosine ऋणेतर होता है। $\\cos\\theta = \\sqrt{1 - \\frac{9}{25}} = \\frac{4}{5}$। (3-4-5 समकोण त्रिभुज से यह तुरंत मिल जाता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-09",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In a class of 50 students, 30 like Mathematics, 25 like Physics and 10 like both. The number of students who like neither subject is:",
+        "hi": "50 विद्यार्थियों की एक कक्षा में 30 को गणित, 25 को भौतिकी और 10 को दोनों विषय पसंद हैं। उन विद्यार्थियों की संख्या जिन्हें कोई भी विषय पसंद नहीं है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "15", "hi": "15"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$n(M \\cup P) = n(M) + n(P) - n(M \\cap P) = 30 + 25 - 10 = 45$. Students who like neither $= 50 - 45 = 5$.",
+        "hi": "$n(M \\cup P) = n(M) + n(P) - n(M \\cap P) = 30 + 25 - 10 = 45$। जिन्हें कोई भी विषय पसंद नहीं $= 50 - 45 = 5$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-25-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of arrangements of the letters of the word MISSISSIPPI in which no two S's are adjacent.",
+        "hi": "शब्द MISSISSIPPI के अक्षरों की उन व्यवस्थाओं की संख्या ज्ञात कीजिए जिनमें कोई भी दो S आसन्न न हों।"
+      },
+      "options": [],
+      "correctAnswer": 7350,
+      "solution": {
+        "en": "MISSISSIPPI has M × 1, I × 4, S × 4, P × 2. First arrange the 7 non-S letters (M, I, I, I, I, P, P): $\\frac{7!}{4!\\,2!} = 105$ ways. These create 8 gaps (including both ends); choose 4 of them for the identical S's: ${}^8C_4 = 70$. Total $= 105 \\times 70 = 7350$.",
+        "hi": "MISSISSIPPI में M × 1, I × 4, S × 4, P × 2 हैं। पहले S के अतिरिक्त 7 अक्षरों (M, I, I, I, I, P, P) को व्यवस्थित करें: $\\frac{7!}{4!\\,2!} = 105$ प्रकार। इससे 8 रिक्त स्थान बनते हैं (दोनों सिरों सहित); इनमें से 4 स्थान समान S के लिए चुनें: ${}^8C_4 = 70$। कुल $= 105 \\times 70 = 7350$।"
+      }
+    }
+  ]
+}

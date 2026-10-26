@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-26",
+  "questions": [
+    {
+      "id": "dd-2026-10-26-01",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is a ferromagnetic substance?",
+        "hi": "निम्नलिखित में से कौन-सा लौहचुंबकीय पदार्थ है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Copper", "hi": "ताँबा"}},
+        {"id": "B", "text": {"en": "Iron", "hi": "लोहा"}},
+        {"id": "C", "text": {"en": "Aluminium", "hi": "ऐलुमिनियम"}},
+        {"id": "D", "text": {"en": "Bismuth", "hi": "बिस्मथ"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Ferromagnetic materials (Fe, Co, Ni, Gd) are strongly attracted by magnets and have a large positive susceptibility because of magnetic domains. Aluminium is paramagnetic (weakly attracted); copper and bismuth are diamagnetic (weakly repelled). Above its Curie temperature, a ferromagnet becomes paramagnetic.",
+        "hi": "लौहचुंबकीय पदार्थ (Fe, Co, Ni, Gd) चुंबकीय डोमेनों के कारण चुंबक द्वारा प्रबलता से आकर्षित होते हैं और इनकी चुंबकीय प्रवृत्ति अधिक धनात्मक होती है। ऐलुमिनियम अनुचुंबकीय है (दुर्बल आकर्षण); ताँबा और बिस्मथ प्रतिचुंबकीय हैं (दुर्बल प्रतिकर्षण)। क्यूरी ताप से ऊपर लौहचुंबक अनुचुंबकीय हो जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-02",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In a purely inductive AC circuit, the current:",
+        "hi": "शुद्ध प्रेरकीय AC परिपथ में धारा:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Leads the voltage by π/2", "hi": "वोल्टता से π/2 आगे रहती है"}},
+        {"id": "B", "text": {"en": "Lags the voltage by π/2", "hi": "वोल्टता से π/2 पीछे रहती है"}},
+        {"id": "C", "text": {"en": "Is in phase with the voltage", "hi": "वोल्टता के साथ समान कला में रहती है"}},
+        {"id": "D", "text": {"en": "Lags the voltage by π", "hi": "वोल्टता से π पीछे रहती है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $v = V_0\\sin\\omega t$ across an inductor, $L\\frac{di}{dt} = v \\Rightarrow i = -\\frac{V_0}{\\omega L}\\cos\\omega t = I_0\\sin\\left(\\omega t - \\frac{\\pi}{2}\\right)$. The current lags the voltage by $\\frac{\\pi}{2}$, so the average power over a full cycle is zero. (In a pure capacitor, the current leads by $\\frac{\\pi}{2}$.)",
+        "hi": "प्रेरक के सिरों पर $v = V_0\\sin\\omega t$ के लिए, $L\\frac{di}{dt} = v \\Rightarrow i = -\\frac{V_0}{\\omega L}\\cos\\omega t = I_0\\sin\\left(\\omega t - \\frac{\\pi}{2}\\right)$। धारा वोल्टता से $\\frac{\\pi}{2}$ पीछे रहती है, अतः पूरे चक्र में औसत शक्ति शून्य होती है। (शुद्ध संधारित्र में धारा $\\frac{\\pi}{2}$ आगे रहती है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-03",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Three capacitors of capacitance $2\\,\\mu\\text{F}$, $3\\,\\mu\\text{F}$ and $6\\,\\mu\\text{F}$ are connected in series across a 12 V battery. Find the potential difference (in V) across the $2\\,\\mu\\text{F}$ capacitor.",
+        "hi": "$2\\,\\mu\\text{F}$, $3\\,\\mu\\text{F}$ और $6\\,\\mu\\text{F}$ धारिता वाले तीन संधारित्र 12 V की बैटरी से श्रेणी क्रम में जुड़े हैं। $2\\,\\mu\\text{F}$ संधारित्र के सिरों के बीच विभवांतर (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "$\\frac{1}{C_{\\text{eq}}} = \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6} = 1 \\Rightarrow C_{\\text{eq}} = 1\\,\\mu\\text{F}$. In series every capacitor carries the same charge: $Q = C_{\\text{eq}}V = 12\\,\\mu\\text{C}$. So $V_2 = \\frac{Q}{C} = \\frac{12}{2} = 6\\text{ V}$ (and 4 V and 2 V across the $3\\,\\mu\\text{F}$ and $6\\,\\mu\\text{F}$; total 12 V ✓). In series, the smallest capacitor gets the largest voltage.",
+        "hi": "$\\frac{1}{C_{\\text{eq}}} = \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6} = 1 \\Rightarrow C_{\\text{eq}} = 1\\,\\mu\\text{F}$। श्रेणी क्रम में प्रत्येक संधारित्र पर समान आवेश होता है: $Q = C_{\\text{eq}}V = 12\\,\\mu\\text{C}$। अतः $V_2 = \\frac{Q}{C} = \\frac{12}{2} = 6\\text{ V}$ (तथा $3\\,\\mu\\text{F}$ और $6\\,\\mu\\text{F}$ पर 4 V और 2 V; कुल 12 V ✓)। श्रेणी क्रम में सबसे छोटे संधारित्र पर सबसे अधिक वोल्टता होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-04",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The oxidation number of oxygen in hydrogen peroxide (H₂O₂) is:",
+        "hi": "हाइड्रोजन परॉक्साइड (H₂O₂) में ऑक्सीजन की ऑक्सीकरण संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−2", "hi": "−2"}},
+        {"id": "B", "text": {"en": "+1", "hi": "+1"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "−1", "hi": "−1"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In H₂O₂ (H–O–O–H), each H is +1: $2(+1) + 2x = 0 \\Rightarrow x = -1$. Oxygen shows −1 in peroxides because of the O–O bond; it is −2 in most oxides and +2 in OF₂.",
+        "hi": "H₂O₂ (H–O–O–H) में प्रत्येक H की ऑक्सीकरण संख्या +1 है: $2(+1) + 2x = 0 \\Rightarrow x = -1$। O–O आबंध के कारण परॉक्साइडों में ऑक्सीजन −1 दर्शाती है; अधिकांश ऑक्साइडों में यह −2 और OF₂ में +2 होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-05",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following isoelectronic ions has the smallest radius?",
+        "hi": "निम्नलिखित समइलेक्ट्रॉनी आयनों में से किसकी त्रिज्या सबसे कम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Na⁺", "hi": "Na⁺"}},
+        {"id": "B", "text": {"en": "Mg²⁺", "hi": "Mg²⁺"}},
+        {"id": "C", "text": {"en": "F⁻", "hi": "F⁻"}},
+        {"id": "D", "text": {"en": "Al³⁺", "hi": "Al³⁺"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "All four ions have 10 electrons. For isoelectronic species, radius decreases as nuclear charge increases: F⁻ (Z = 9) > Na⁺ (Z = 11) > Mg²⁺ (Z = 12) > Al³⁺ (Z = 13). Al³⁺ has the strongest pull on the same number of electrons, so it is the smallest.",
+        "hi": "चारों आयनों में 10 इलेक्ट्रॉन हैं। समइलेक्ट्रॉनी स्पीशीज़ में नाभिकीय आवेश बढ़ने पर त्रिज्या घटती है: F⁻ (Z = 9) > Na⁺ (Z = 11) > Mg²⁺ (Z = 12) > Al³⁺ (Z = 13)। Al³⁺ समान संख्या के इलेक्ट्रॉनों को सबसे प्रबलता से खींचता है, अतः यह सबसे छोटा है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "In which of the following molecules is the central atom sp³d hybridised and the molecular shape see-saw?",
+        "hi": "निम्नलिखित में से किस अणु में केंद्रीय परमाणु sp³d संकरित है और आण्विक आकृति सी-सॉ (see-saw) है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "SF₄", "hi": "SF₄"}},
+        {"id": "B", "text": {"en": "PCl₅", "hi": "PCl₅"}},
+        {"id": "C", "text": {"en": "ClF₃", "hi": "ClF₃"}},
+        {"id": "D", "text": {"en": "XeF₄", "hi": "XeF₄"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "SF₄: S has 4 bond pairs + 1 lone pair = 5 electron pairs → sp³d (trigonal bipyramidal arrangement). The lone pair occupies an equatorial position, giving a see-saw shape. PCl₅ (5 bp, 0 lp) is trigonal bipyramidal, ClF₃ (3 bp, 2 lp) is T-shaped, and XeF₄ (4 bp, 2 lp, sp³d²) is square planar.",
+        "hi": "SF₄: S पर 4 आबंध युग्म + 1 एकाकी युग्म = 5 इलेक्ट्रॉन युग्म → sp³d (त्रिकोणीय द्विपिरामिडी व्यवस्था)। एकाकी युग्म विषुवतीय स्थिति में रहता है, जिससे सी-सॉ आकृति बनती है। PCl₅ (5 आबंध युग्म, 0 एकाकी युग्म) त्रिकोणीय द्विपिरामिडी, ClF₃ (3 आबंध युग्म, 2 एकाकी युग्म) T-आकार, और XeF₄ (4 आबंध युग्म, 2 एकाकी युग्म, sp³d²) वर्ग समतलीय है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-07",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "At $x = 0$, the function $f(x) = |x|$ is:",
+        "hi": "$x = 0$ पर फलन $f(x) = |x|$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Differentiable but not continuous", "hi": "अवकलनीय परंतु संतत नहीं"}},
+        {"id": "B", "text": {"en": "Both continuous and differentiable", "hi": "संतत और अवकलनीय दोनों"}},
+        {"id": "C", "text": {"en": "Continuous but not differentiable", "hi": "संतत परंतु अवकलनीय नहीं"}},
+        {"id": "D", "text": {"en": "Neither continuous nor differentiable", "hi": "न संतत न अवकलनीय"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\lim_{x \\to 0}|x| = 0 = f(0)$, so $f$ is continuous at 0. Left derivative $= \\lim_{h \\to 0^-}\\frac{|h|}{h} = -1$ and right derivative $= +1$; they differ, so $f$ is not differentiable at 0 (sharp corner). Differentiability always implies continuity, so 'differentiable but not continuous' is never possible.",
+        "hi": "$\\lim_{x \\to 0}|x| = 0 = f(0)$, अतः $f$, 0 पर संतत है। बायाँ अवकलज $= \\lim_{h \\to 0^-}\\frac{|h|}{h} = -1$ और दायाँ अवकलज $= +1$; ये भिन्न हैं, अतः $f$, 0 पर अवकलनीय नहीं है (नुकीला कोना)। अवकलनीयता से संतता सदैव निहित है, अतः 'अवकलनीय परंतु संतत नहीं' कभी संभव नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-08",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The rate of change of the area of a circle with respect to its radius $r$, at $r = 5$ cm, is:",
+        "hi": "किसी वृत्त के क्षेत्रफल में उसकी त्रिज्या $r$ के सापेक्ष परिवर्तन की दर, $r = 5$ cm पर, है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10π cm²/cm", "hi": "10π cm²/cm"}},
+        {"id": "B", "text": {"en": "25π cm²/cm", "hi": "25π cm²/cm"}},
+        {"id": "C", "text": {"en": "5π cm²/cm", "hi": "5π cm²/cm"}},
+        {"id": "D", "text": {"en": "20π cm²/cm", "hi": "20π cm²/cm"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$A = \\pi r^2 \\Rightarrow \\frac{dA}{dr} = 2\\pi r$. At $r = 5$ cm: $\\frac{dA}{dr} = 10\\pi$ cm²/cm. (Notice that $2\\pi r$ is the circumference.)",
+        "hi": "$A = \\pi r^2 \\Rightarrow \\frac{dA}{dr} = 2\\pi r$। $r = 5$ cm पर: $\\frac{dA}{dr} = 10\\pi$ cm²/cm। (ध्यान दें कि $2\\pi r$ परिधि है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $z = \\frac{1 + i}{1 - i}$, then $z^4$ equals:",
+        "hi": "यदि $z = \\frac{1 + i}{1 - i}$ है, तो $z^4$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "B", "text": {"en": "i", "hi": "i"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "−i", "hi": "−i"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$z = \\frac{1 + i}{1 - i} \\times \\frac{1 + i}{1 + i} = \\frac{(1 + i)^2}{1 - i^2} = \\frac{2i}{2} = i$. So $z^4 = i^4 = 1$.",
+        "hi": "$z = \\frac{1 + i}{1 - i} \\times \\frac{1 + i}{1 + i} = \\frac{(1 + i)^2}{1 - i^2} = \\frac{2i}{2} = i$। अतः $z^4 = i^4 = 1$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-26-10",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $2\\tan^{-1}\\left(\\frac{1}{3}\\right) + \\tan^{-1}\\left(\\frac{1}{7}\\right) = \\frac{\\pi}{k}$, find $k$.",
+        "hi": "यदि $2\\tan^{-1}\\left(\\frac{1}{3}\\right) + \\tan^{-1}\\left(\\frac{1}{7}\\right) = \\frac{\\pi}{k}$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "For $|x| < 1$, $2\\tan^{-1}x = \\tan^{-1}\\frac{2x}{1 - x^2}$, so $2\\tan^{-1}\\frac{1}{3} = \\tan^{-1}\\frac{2/3}{8/9} = \\tan^{-1}\\frac{3}{4}$. Then $\\tan^{-1}\\frac{3}{4} + \\tan^{-1}\\frac{1}{7} = \\tan^{-1}\\frac{\\frac{3}{4} + \\frac{1}{7}}{1 - \\frac{3}{28}} = \\tan^{-1}\\frac{25/28}{25/28} = \\tan^{-1}1 = \\frac{\\pi}{4}$. So $k = 4$.",
+        "hi": "$|x| < 1$ के लिए $2\\tan^{-1}x = \\tan^{-1}\\frac{2x}{1 - x^2}$, अतः $2\\tan^{-1}\\frac{1}{3} = \\tan^{-1}\\frac{2/3}{8/9} = \\tan^{-1}\\frac{3}{4}$। तब $\\tan^{-1}\\frac{3}{4} + \\tan^{-1}\\frac{1}{7} = \\tan^{-1}\\frac{\\frac{3}{4} + \\frac{1}{7}}{1 - \\frac{3}{28}} = \\tan^{-1}\\frac{25/28}{25/28} = \\tan^{-1}1 = \\frac{\\pi}{4}$। अतः $k = 4$।"
+      }
+    }
+  ]
+}
