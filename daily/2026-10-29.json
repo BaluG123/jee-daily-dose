@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-29",
+  "questions": [
+    {
+      "id": "dd-2026-10-29-01",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For an ideal gas undergoing an isothermal process, the change in internal energy is:",
+        "hi": "समतापीय प्रक्रम से गुजरती एक आदर्श गैस के लिए आंतरिक ऊर्जा में परिवर्तन है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Equal to the heat supplied", "hi": "दी गई ऊष्मा के बराबर"}},
+        {"id": "B", "text": {"en": "Equal to the work done on the gas", "hi": "गैस पर किए गए कार्य के बराबर"}},
+        {"id": "C", "text": {"en": "Always positive", "hi": "सदैव धनात्मक"}},
+        {"id": "D", "text": {"en": "Zero", "hi": "शून्य"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The internal energy of an ideal gas depends only on its temperature. In an isothermal process $\\Delta T = 0$, so $\\Delta U = 0$, and by the first law all the heat supplied is converted into work: $Q = W$.",
+        "hi": "आदर्श गैस की आंतरिक ऊर्जा केवल उसके ताप पर निर्भर करती है। समतापीय प्रक्रम में $\\Delta T = 0$, अतः $\\Delta U = 0$, और प्रथम नियम से दी गई पूरी ऊष्मा कार्य में बदल जाती है: $Q = W$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-02",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A uniform disc rolls without slipping on a horizontal surface. The ratio of its rotational kinetic energy to its total kinetic energy is:",
+        "hi": "एक एकसमान चकती क्षैतिज पृष्ठ पर बिना फिसले लुढ़कती है। इसकी घूर्णन गतिज ऊर्जा और कुल गतिज ऊर्जा का अनुपात है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "1/3", "hi": "1/3"}},
+        {"id": "C", "text": {"en": "2/3", "hi": "2/3"}},
+        {"id": "D", "text": {"en": "2/7", "hi": "2/7"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "With $v = \\omega R$ and $I = \\frac{1}{2}MR^2$: $K_{\\text{rot}} = \\frac{1}{2}I\\omega^2 = \\frac{1}{4}Mv^2$ and $K_{\\text{trans}} = \\frac{1}{2}Mv^2$. Total $= \\frac{3}{4}Mv^2$, so the ratio $= \\frac{1/4}{3/4} = \\frac{1}{3}$. (Ring: $\\frac{1}{2}$; solid sphere: $\\frac{2}{7}$.)",
+        "hi": "$v = \\omega R$ और $I = \\frac{1}{2}MR^2$ के साथ: $K_{\\text{rot}} = \\frac{1}{2}I\\omega^2 = \\frac{1}{4}Mv^2$ और $K_{\\text{trans}} = \\frac{1}{2}Mv^2$। कुल $= \\frac{3}{4}Mv^2$, अतः अनुपात $= \\frac{1/4}{3/4} = \\frac{1}{3}$। (वलय: $\\frac{1}{2}$; ठोस गोला: $\\frac{2}{7}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-03",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A battery of emf 12 V and internal resistance 2 Ω is connected to a variable external resistor $R$. Find the maximum power (in W) that can be delivered to $R$.",
+        "hi": "12 V विद्युत वाहक बल और 2 Ω आंतरिक प्रतिरोध वाली एक बैटरी एक परिवर्ती बाह्य प्रतिरोधक $R$ से जुड़ी है। $R$ को दी जा सकने वाली अधिकतम शक्ति (W में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 18,
+      "solution": {
+        "en": "$P = I^2R = \\frac{E^2R}{(R + r)^2}$. Setting $\\frac{dP}{dR} = 0$ gives $R = r$ (maximum power transfer theorem). Then $P_{\\max} = \\frac{E^2}{4r} = \\frac{144}{8} = 18$ W. At this point the efficiency is only 50%, since equal power is wasted inside the battery.",
+        "hi": "$P = I^2R = \\frac{E^2R}{(R + r)^2}$। $\\frac{dP}{dR} = 0$ रखने पर $R = r$ (अधिकतम शक्ति स्थानांतरण प्रमेय)। तब $P_{\\max} = \\frac{E^2}{4r} = \\frac{144}{8} = 18$ W। इस स्थिति में दक्षता केवल 50% होती है, क्योंकि उतनी ही शक्ति बैटरी के भीतर व्यर्थ होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-04",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Baeyer's reagent (cold, dilute, alkaline KMnO₄) is used to detect:",
+        "hi": "बेयर अभिकर्मक (ठंडा, तनु, क्षारीय KMnO₄) किसके परीक्षण में प्रयुक्त होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Unsaturation (C=C or C≡C)", "hi": "असंतृप्तता (C=C या C≡C)"}},
+        {"id": "B", "text": {"en": "Aromaticity", "hi": "ऐरोमैटिकता"}},
+        {"id": "C", "text": {"en": "An –OH group", "hi": "–OH समूह"}},
+        {"id": "D", "text": {"en": "A halogen atom", "hi": "हैलोजन परमाणु"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Alkenes and alkynes reduce cold dilute alkaline KMnO₄: the purple colour disappears and a brown precipitate of MnO₂ forms, while the alkene is converted into a 1,2-diol (glycol). Saturated hydrocarbons do not respond. (Bromine water decolourisation is another test for unsaturation.)",
+        "hi": "ऐल्कीन और ऐल्काइन ठंडे तनु क्षारीय KMnO₄ को अपचयित करते हैं: बैंगनी रंग गायब हो जाता है और MnO₂ का भूरा अवक्षेप बनता है, जबकि ऐल्कीन 1,2-डाइऑल (ग्लाइकॉल) में बदल जाती है। संतृप्त हाइड्रोकार्बन यह परीक्षण नहीं देते। (ब्रोमीन जल का रंगहीन होना असंतृप्तता का एक और परीक्षण है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For a reaction with rate law rate $= k[A]^2[B]$, if the concentrations of both A and B are doubled, the rate becomes:",
+        "hi": "वेग नियम वेग $= k[A]^2[B]$ वाली अभिक्रिया में यदि A और B दोनों की सांद्रताएँ दोगुनी कर दी जाएँ, तो वेग हो जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4 times", "hi": "4 गुना"}},
+        {"id": "B", "text": {"en": "8 times", "hi": "8 गुना"}},
+        {"id": "C", "text": {"en": "6 times", "hi": "6 गुना"}},
+        {"id": "D", "text": {"en": "2 times", "hi": "2 गुना"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "New rate $= k(2[A])^2(2[B]) = 4 \\times 2 \\times k[A]^2[B] = 8$ times. The overall order is $2 + 1 = 3$, and doubling all concentrations multiplies the rate by $2^3$.",
+        "hi": "नया वेग $= k(2[A])^2(2[B]) = 4 \\times 2 \\times k[A]^2[B] = 8$ गुना। कुल कोटि $2 + 1 = 3$ है, और सभी सांद्रताएँ दोगुनी करने पर वेग $2^3$ गुना हो जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following statements about [Ni(CN)₄]²⁻ is correct?",
+        "hi": "[Ni(CN)₄]²⁻ के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "It is square planar, dsp² hybridised and diamagnetic", "hi": "यह वर्ग समतलीय, dsp² संकरित और प्रतिचुंबकीय है"}},
+        {"id": "B", "text": {"en": "It is tetrahedral, sp³ hybridised and paramagnetic", "hi": "यह चतुष्फलकीय, sp³ संकरित और अनुचुंबकीय है"}},
+        {"id": "C", "text": {"en": "It is square planar with two unpaired electrons", "hi": "यह दो अयुग्मित इलेक्ट्रॉनों वाला वर्ग समतलीय है"}},
+        {"id": "D", "text": {"en": "It is octahedral and d²sp³ hybridised", "hi": "यह अष्टफलकीय और d²sp³ संकरित है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Ni²⁺ is 3d⁸ with two unpaired electrons. CN⁻ is a strong-field ligand, so it forces these two electrons to pair up, leaving one 3d orbital empty. That 3d orbital plus 4s and two 4p orbitals give dsp² hybridisation: square planar with no unpaired electrons (diamagnetic). Contrast [NiCl₄]²⁻: Cl⁻ is weak-field, so it is sp³, tetrahedral and paramagnetic.",
+        "hi": "Ni²⁺ का विन्यास 3d⁸ है जिसमें दो अयुग्मित इलेक्ट्रॉन हैं। CN⁻ प्रबल क्षेत्र लिगैंड है, अतः यह इन दोनों इलेक्ट्रॉनों को युग्मित कर देता है और एक 3d कक्षक रिक्त हो जाता है। यह 3d कक्षक, 4s और दो 4p कक्षक मिलकर dsp² संकरण देते हैं: वर्ग समतलीय और कोई अयुग्मित इलेक्ट्रॉन नहीं (प्रतिचुंबकीय)। तुलना: [NiCl₄]²⁻ में Cl⁻ दुर्बल क्षेत्र लिगैंड है, अतः यह sp³, चतुष्फलकीय और अनुचुंबकीय है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-07",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For $x \\ne 0$, $\\int \\frac{1}{x}\\,dx$ is equal to:",
+        "hi": "$x \\ne 0$ के लिए $\\int \\frac{1}{x}\\,dx$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−1/x² + C", "hi": "−1/x² + C"}},
+        {"id": "B", "text": {"en": "x ln x + C", "hi": "x ln x + C"}},
+        {"id": "C", "text": {"en": "ln|x| + C", "hi": "ln|x| + C"}},
+        {"id": "D", "text": {"en": "eˣ + C", "hi": "eˣ + C"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\frac{d}{dx}\\ln|x| = \\frac{1}{x}$ for both $x > 0$ and $x < 0$, so $\\int\\frac{dx}{x} = \\ln|x| + C$. The power rule $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$ fails at $n = -1$ — that is exactly why the logarithm appears. The modulus is needed for negative $x$.",
+        "hi": "$x > 0$ और $x < 0$ दोनों के लिए $\\frac{d}{dx}\\ln|x| = \\frac{1}{x}$, अतः $\\int\\frac{dx}{x} = \\ln|x| + C$। घात नियम $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$, $n = -1$ पर लागू नहीं होता — इसीलिए लघुगणक आता है। ऋणात्मक $x$ के लिए मापांक आवश्यक है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-08",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The foci of the hyperbola $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ are:",
+        "hi": "अतिपरवलय $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ की नाभियाँ हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(±√7, 0)", "hi": "(±√7, 0)"}},
+        {"id": "B", "text": {"en": "(0, ±5)", "hi": "(0, ±5)"}},
+        {"id": "C", "text": {"en": "(±5, 0)", "hi": "(±5, 0)"}},
+        {"id": "D", "text": {"en": "(±4, 0)", "hi": "(±4, 0)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For a hyperbola $c^2 = a^2 + b^2 = 16 + 9 = 25$, so $c = 5$ and the foci are $(\\pm 5, 0)$, with $e = \\frac{5}{4} > 1$. Trap: $(\\pm\\sqrt{7}, 0)$ comes from wrongly using the ellipse relation $c^2 = a^2 - b^2$; $(\\pm 4, 0)$ are the vertices.",
+        "hi": "अतिपरवलय के लिए $c^2 = a^2 + b^2 = 16 + 9 = 25$, अतः $c = 5$ और नाभियाँ $(\\pm 5, 0)$ हैं, तथा $e = \\frac{5}{4} > 1$। ध्यान दें: $(\\pm\\sqrt{7}, 0)$ दीर्घवृत्त का संबंध $c^2 = a^2 - b^2$ गलती से लगाने पर आता है; $(\\pm 4, 0)$ शीर्ष हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The mean of 10 observations is 15 and the mean of another 15 observations is 20. The mean of all 25 observations is:",
+        "hi": "10 प्रेक्षणों का माध्य 15 है और अन्य 15 प्रेक्षणों का माध्य 20 है। सभी 25 प्रेक्षणों का माध्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "17.5", "hi": "17.5"}},
+        {"id": "B", "text": {"en": "17", "hi": "17"}},
+        {"id": "C", "text": {"en": "19", "hi": "19"}},
+        {"id": "D", "text": {"en": "18", "hi": "18"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Combined mean $= \\frac{n_1\\bar{x}_1 + n_2\\bar{x}_2}{n_1 + n_2} = \\frac{10(15) + 15(20)}{25} = \\frac{150 + 300}{25} = 18$. Trap: the simple average of the two means, 17.5, ignores that the groups have different sizes.",
+        "hi": "संयुक्त माध्य $= \\frac{n_1\\bar{x}_1 + n_2\\bar{x}_2}{n_1 + n_2} = \\frac{10(15) + 15(20)}{25} = \\frac{150 + 300}{25} = 18$। ध्यान दें: दोनों माध्यों का सीधा औसत, 17.5, यह नहीं देखता कि समूहों के आकार भिन्न हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-29-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of complex numbers $z$ that satisfy $z^2 + |z| = 0$.",
+        "hi": "$z^2 + |z| = 0$ को संतुष्ट करने वाली सम्मिश्र संख्याओं $z$ की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "Let $z = x + iy$. Then $x^2 - y^2 + \\sqrt{x^2 + y^2} = 0$ (real part) and $2xy = 0$ (imaginary part). If $y = 0$: $x^2 + |x| = 0 \\Rightarrow x = 0$. If $x = 0$: $-y^2 + |y| = 0 \\Rightarrow |y|(1 - |y|) = 0 \\Rightarrow y = 0, \\pm 1$. Solutions: $z = 0, i, -i$, i.e. 3 values.",
+        "hi": "माना $z = x + iy$। तब $x^2 - y^2 + \\sqrt{x^2 + y^2} = 0$ (वास्तविक भाग) और $2xy = 0$ (काल्पनिक भाग)। यदि $y = 0$: $x^2 + |x| = 0 \\Rightarrow x = 0$। यदि $x = 0$: $-y^2 + |y| = 0 \\Rightarrow |y|(1 - |y|) = 0 \\Rightarrow y = 0, \\pm 1$। हल: $z = 0, i, -i$, अर्थात 3 मान।"
+      }
+    }
+  ]
+}

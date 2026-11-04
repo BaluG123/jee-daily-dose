@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-30",
+  "questions": [
+    {
+      "id": "dd-2026-10-30-01",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The work done in moving a charge between two points on an equipotential surface is:",
+        "hi": "समविभव पृष्ठ पर दो बिंदुओं के बीच किसी आवेश को ले जाने में किया गया कार्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Always positive", "hi": "सदैव धनात्मक"}},
+        {"id": "B", "text": {"en": "Always negative", "hi": "सदैव ऋणात्मक"}},
+        {"id": "C", "text": {"en": "Dependent on the path taken", "hi": "लिए गए पथ पर निर्भर"}},
+        {"id": "D", "text": {"en": "Zero", "hi": "शून्य"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$W = q(V_B - V_A)$, and on an equipotential surface $V_A = V_B$, so $W = 0$. This is also why the electric field is always perpendicular to an equipotential surface — a field component along the surface would do work.",
+        "hi": "$W = q(V_B - V_A)$, और समविभव पृष्ठ पर $V_A = V_B$, अतः $W = 0$। इसी कारण विद्युत क्षेत्र सदैव समविभव पृष्ठ के लंबवत होता है — पृष्ठ के अनुदिश क्षेत्र का कोई घटक कार्य करता।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-02",
+      "subject": "physics",
+      "chapter": "Mechanical Properties of Fluids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Water rises to a height $h$ in a capillary tube of radius $r$. If the radius is halved (same liquid, same temperature), the water will rise to a height of:",
+        "hi": "$r$ त्रिज्या की केशनली में जल $h$ ऊँचाई तक चढ़ता है। यदि त्रिज्या आधी कर दी जाए (वही द्रव, वही ताप), तो जल कितनी ऊँचाई तक चढ़ेगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2h", "hi": "2h"}},
+        {"id": "B", "text": {"en": "h/2", "hi": "h/2"}},
+        {"id": "C", "text": {"en": "4h", "hi": "4h"}},
+        {"id": "D", "text": {"en": "h", "hi": "h"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Jurin's law: $h = \\frac{2T\\cos\\theta}{r\\rho g}$, so $h \\propto \\frac{1}{r}$. Halving $r$ doubles the height: $h' = 2h$. That is why liquids rise higher in narrower tubes (and why water climbs through fine pores in soil and cloth).",
+        "hi": "ज्यूरिन नियम: $h = \\frac{2T\\cos\\theta}{r\\rho g}$, अतः $h \\propto \\frac{1}{r}$। $r$ आधा करने पर ऊँचाई दोगुनी हो जाती है: $h' = 2h$। इसी कारण द्रव पतली नलियों में अधिक ऊँचाई तक चढ़ते हैं (और जल मिट्टी तथा कपड़े के महीन छिद्रों में ऊपर चढ़ता है)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-03",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An object is placed 30 cm in front of a concave mirror of focal length 20 cm. Find the distance (in cm) of the image from the mirror.",
+        "hi": "20 cm फोकस दूरी वाले अवतल दर्पण के सामने 30 cm पर एक वस्तु रखी है। दर्पण से प्रतिबिंब की दूरी (cm में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 60,
+      "solution": {
+        "en": "Cartesian sign convention: $u = -30$ cm, $f = -20$ cm. Mirror formula: $\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = -\\frac{1}{20} + \\frac{1}{30} = -\\frac{1}{60} \\Rightarrow v = -60$ cm. The image is 60 cm in front of the mirror: real and inverted, with $m = -\\frac{v}{u} = -2$ (twice the size). This fits the rule that an object between $F$ and $C$ forms an image beyond $C$.",
+        "hi": "कार्तीय चिह्न परिपाटी: $u = -30$ cm, $f = -20$ cm। दर्पण सूत्र: $\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = -\\frac{1}{20} + \\frac{1}{30} = -\\frac{1}{60} \\Rightarrow v = -60$ cm। प्रतिबिंब दर्पण के सामने 60 cm पर है: वास्तविक और उल्टा, $m = -\\frac{v}{u} = -2$ (दोगुने आकार का)। यह नियम के अनुरूप है कि $F$ और $C$ के बीच रखी वस्तु का प्रतिबिंब $C$ से आगे बनता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-04",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is an extensive property?",
+        "hi": "निम्नलिखित में से कौन-सा विस्तीर्ण गुण है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Temperature", "hi": "ताप"}},
+        {"id": "B", "text": {"en": "Enthalpy", "hi": "एन्थैल्पी"}},
+        {"id": "C", "text": {"en": "Density", "hi": "घनत्व"}},
+        {"id": "D", "text": {"en": "Pressure", "hi": "दाब"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Extensive properties depend on the amount of matter: mass, volume, internal energy, enthalpy, entropy, Gibbs energy, heat capacity. Intensive properties do not: temperature, pressure, density, molar and specific quantities. Note that the ratio of two extensive properties (e.g. density $= \\frac{m}{V}$) is intensive.",
+        "hi": "विस्तीर्ण गुण पदार्थ की मात्रा पर निर्भर करते हैं: द्रव्यमान, आयतन, आंतरिक ऊर्जा, एन्थैल्पी, एन्ट्रॉपी, गिब्ज़ ऊर्जा, ऊष्मा धारिता। गहन गुण निर्भर नहीं करते: ताप, दाब, घनत्व, मोलर और विशिष्ट राशियाँ। ध्यान दें कि दो विस्तीर्ण गुणों का अनुपात (जैसे घनत्व $= \\frac{m}{V}$) गहन होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-05",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of three-centre two-electron (3c–2e) B–H–B bridge bonds in diborane (B₂H₆) is:",
+        "hi": "डाइबोरेन (B₂H₆) में त्रिकेंद्री द्विइलेक्ट्रॉन (3c–2e) B–H–B सेतु आबंधों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "B₂H₆ has 4 terminal B–H bonds (normal 2c–2e) and 2 bridging B–H–B bonds. Each bridge bond holds just 2 electrons spread over 3 atoms (a 'banana bond'), because diborane is electron-deficient — it has only 12 valence electrons. Each B is roughly sp³ hybridised.",
+        "hi": "B₂H₆ में 4 सिरस्थ B–H आबंध (सामान्य 2c–2e) और 2 सेतु B–H–B आबंध हैं। प्रत्येक सेतु आबंध में केवल 2 इलेक्ट्रॉन 3 परमाणुओं पर फैले होते हैं ('बनाना आबंध'), क्योंकि डाइबोरेन इलेक्ट्रॉन-न्यून है — इसमें केवल 12 संयोजी इलेक्ट्रॉन हैं। प्रत्येक B लगभग sp³ संकरित है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-06",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "What mass (in g) of KClO₃ must be decomposed to produce 6.72 L of O₂ at STP? (2KClO₃ → 2KCl + 3O₂; molar mass of KClO₃ = 122.5 g/mol; molar volume at STP = 22.4 L)",
+        "hi": "STP पर 6.72 L O₂ प्राप्त करने के लिए KClO₃ के कितने द्रव्यमान (g में) का अपघटन करना होगा? (2KClO₃ → 2KCl + 3O₂; KClO₃ का मोलर द्रव्यमान = 122.5 g/mol; STP पर मोलर आयतन = 22.4 L)"
+      },
+      "options": [],
+      "correctAnswer": 24.5,
+      "solution": {
+        "en": "$n(\\text{O}_2) = \\frac{6.72}{22.4} = 0.3$ mol. From the equation, 3 mol O₂ come from 2 mol KClO₃, so $n(\\text{KClO}_3) = \\frac{2}{3} \\times 0.3 = 0.2$ mol. Mass $= 0.2 \\times 122.5 = 24.5$ g. Always use the mole ratio from the balanced equation.",
+        "hi": "$n(\\text{O}_2) = \\frac{6.72}{22.4} = 0.3$ mol। समीकरण से 3 mol O₂, 2 mol KClO₃ से मिलती है, अतः $n(\\text{KClO}_3) = \\frac{2}{3} \\times 0.3 = 0.2$ mol। द्रव्यमान $= 0.2 \\times 122.5 = 24.5$ g। सदैव संतुलित समीकरण के मोल अनुपात का प्रयोग करें।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $\\sin^2 x$ with respect to $x$ is:",
+        "hi": "$x$ के सापेक्ष $\\sin^2 x$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2 sin x", "hi": "2 sin x"}},
+        {"id": "B", "text": {"en": "cos²x", "hi": "cos²x"}},
+        {"id": "C", "text": {"en": "sin 2x", "hi": "sin 2x"}},
+        {"id": "D", "text": {"en": "2 cos x", "hi": "2 cos x"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Chain rule: $\\frac{d}{dx}(\\sin x)^2 = 2\\sin x \\cdot \\cos x = \\sin 2x$. Trap: '2 sin x' forgets to multiply by the derivative of the inner function, $\\cos x$.",
+        "hi": "शृंखला नियम: $\\frac{d}{dx}(\\sin x)^2 = 2\\sin x \\cdot \\cos x = \\sin 2x$। ध्यान दें: '2 sin x' में आंतरिक फलन के अवकलज, $\\cos x$, से गुणा करना भूल गए हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of distinct arrangements of the letters of the word BANANA is:",
+        "hi": "शब्द BANANA के अक्षरों की भिन्न व्यवस्थाओं की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "720", "hi": "720"}},
+        {"id": "B", "text": {"en": "60", "hi": "60"}},
+        {"id": "C", "text": {"en": "120", "hi": "120"}},
+        {"id": "D", "text": {"en": "36", "hi": "36"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "BANANA has 6 letters: A three times, N twice, B once. Arrangements $= \\frac{6!}{3!\\,2!} = \\frac{720}{12} = 60$. Dividing removes the repeated counts that come from swapping identical letters.",
+        "hi": "BANANA में 6 अक्षर हैं: A तीन बार, N दो बार, B एक बार। व्यवस्थाएँ $= \\frac{6!}{3!\\,2!} = \\frac{720}{12} = 60$। भाग देने से समान अक्षरों की अदला-बदली से होने वाली दोहरी गिनती हट जाती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-09",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\cos^{-1}\\left(\\cos\\frac{7\\pi}{6}\\right)$ is:",
+        "hi": "$\\cos^{-1}\\left(\\cos\\frac{7\\pi}{6}\\right)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "7π/6", "hi": "7π/6"}},
+        {"id": "B", "text": {"en": "π/6", "hi": "π/6"}},
+        {"id": "C", "text": {"en": "5π/6", "hi": "5π/6"}},
+        {"id": "D", "text": {"en": "−π/6", "hi": "−π/6"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "The principal range of $\\cos^{-1}$ is $[0, \\pi]$, and $\\frac{7\\pi}{6} > \\pi$. Since $\\cos\\theta = \\cos(2\\pi - \\theta)$: $\\cos\\frac{7\\pi}{6} = \\cos\\frac{5\\pi}{6}$, and $\\frac{5\\pi}{6} \\in [0, \\pi]$. So the answer is $\\frac{5\\pi}{6}$.",
+        "hi": "$\\cos^{-1}$ का मुख्य परिसर $[0, \\pi]$ है, और $\\frac{7\\pi}{6} > \\pi$। चूँकि $\\cos\\theta = \\cos(2\\pi - \\theta)$: $\\cos\\frac{7\\pi}{6} = \\cos\\frac{5\\pi}{6}$, और $\\frac{5\\pi}{6} \\in [0, \\pi]$। अतः उत्तर $\\frac{5\\pi}{6}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-30-10",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A square matrix $A$ satisfies $A^2 = A$. If $(I + A)^3 = I + kA$, find $k$.",
+        "hi": "एक वर्ग आव्यूह $A$, $A^2 = A$ को संतुष्ट करता है। यदि $(I + A)^3 = I + kA$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 7,
+      "solution": {
+        "en": "$I$ and $A$ commute, so the binomial expansion is valid: $(I + A)^3 = I + 3A + 3A^2 + A^3$. Since $A^2 = A$, also $A^3 = A^2 \\cdot A = A$. So $(I + A)^3 = I + 3A + 3A + A = I + 7A$, giving $k = 7$. (Such a matrix is called idempotent.)",
+        "hi": "$I$ और $A$ क्रमविनिमेय हैं, अतः द्विपद प्रसार मान्य है: $(I + A)^3 = I + 3A + 3A^2 + A^3$। चूँकि $A^2 = A$, अतः $A^3 = A^2 \\cdot A = A$। इसलिए $(I + A)^3 = I + 3A + 3A + A = I + 7A$, अर्थात $k = 7$। (ऐसे आव्यूह को वर्गसम आव्यूह कहते हैं।)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-04",
+  "questions": [
+    {
+      "id": "dd-2026-11-04-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following electromagnetic radiations has the shortest wavelength?",
+        "hi": "निम्नलिखित विद्युतचुंबकीय विकिरणों में से किसकी तरंगदैर्ध्य सबसे कम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Gamma rays", "hi": "गामा किरणें"}},
+        {"id": "B", "text": {"en": "X-rays", "hi": "X-किरणें"}},
+        {"id": "C", "text": {"en": "Ultraviolet rays", "hi": "पराबैंगनी किरणें"}},
+        {"id": "D", "text": {"en": "Microwaves", "hi": "सूक्ष्म तरंगें"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Order of increasing wavelength: γ-rays < X-rays < UV < visible < infrared < microwaves < radio waves. Gamma rays (λ below about $10^{-11}$ m) have the highest frequency and photon energy; they come from nuclear processes.",
+        "hi": "बढ़ती तरंगदैर्ध्य का क्रम: γ-किरणें < X-किरणें < पराबैंगनी < दृश्य < अवरक्त < सूक्ष्म तरंगें < रेडियो तरंगें। गामा किरणों (λ लगभग $10^{-11}$ m से कम) की आवृत्ति और फ़ोटॉन ऊर्जा सबसे अधिक होती है; ये नाभिकीय प्रक्रमों से उत्पन्न होती हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-02",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A force $F = 3x^2$ N ($x$ in metres) acts on a body along the x-axis. The work done by the force in moving the body from $x = 0$ to $x = 2$ m is:",
+        "hi": "एक बल $F = 3x^2$ N ($x$ मीटर में) x-अक्ष के अनुदिश एक पिंड पर लगता है। पिंड को $x = 0$ से $x = 2$ m तक ले जाने में बल द्वारा किया गया कार्य है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "12 J", "hi": "12 J"}},
+        {"id": "B", "text": {"en": "24 J", "hi": "24 J"}},
+        {"id": "C", "text": {"en": "8 J", "hi": "8 J"}},
+        {"id": "D", "text": {"en": "4 J", "hi": "4 J"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For a variable force, $W = \\int F\\,dx = \\int_0^2 3x^2\\,dx = [x^3]_0^2 = 8$ J. Trap: $F(2) \\times 2 = 12 \\times 2 = 24$ J assumes the force is constant at its final value, which it isn't. The work equals the area under the $F$–$x$ graph.",
+        "hi": "परिवर्ती बल के लिए $W = \\int F\\,dx = \\int_0^2 3x^2\\,dx = [x^3]_0^2 = 8$ J। ध्यान दें: $F(2) \\times 2 = 12 \\times 2 = 24$ J मानता है कि बल अपने अंतिम मान पर नियत है, जो सही नहीं है। कार्य $F$–$x$ ग्राफ़ के नीचे के क्षेत्रफल के बराबर होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-03",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Two rods A and B of the same length and cross-sectional area, with thermal conductivities $K$ and $2K$ respectively, are joined end to end. The free end of A is kept at 90°C and the free end of B at 0°C. Find the temperature (in °C) of the junction in the steady state.",
+        "hi": "समान लंबाई और अनुप्रस्थ काट क्षेत्रफल वाली दो छड़ें A और B, जिनकी ऊष्मा चालकताएँ क्रमशः $K$ और $2K$ हैं, सिरे से सिरा जोड़ी गई हैं। A का मुक्त सिरा 90°C और B का मुक्त सिरा 0°C पर रखा है। स्थायी अवस्था में संधि का ताप (°C में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 30,
+      "solution": {
+        "en": "In the steady state, the same heat current flows through both rods: $\\frac{KA(90 - T)}{l} = \\frac{2KA(T - 0)}{l} \\Rightarrow 90 - T = 2T \\Rightarrow T = 30^\\circ$C. The better conductor B has half the thermal resistance $\\frac{l}{KA}$, so it takes only one-third of the total 90°C drop.",
+        "hi": "स्थायी अवस्था में दोनों छड़ों से समान ऊष्मा धारा बहती है: $\\frac{KA(90 - T)}{l} = \\frac{2KA(T - 0)}{l} \\Rightarrow 90 - T = 2T \\Rightarrow T = 30^\\circ$C। अच्छे चालक B का ऊष्मीय प्रतिरोध $\\frac{l}{KA}$ आधा है, अतः कुल 90°C पतन का केवल एक-तिहाई इस पर होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-04",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The conjugate base of HSO₄⁻ is:",
+        "hi": "HSO₄⁻ का संयुग्मी क्षारक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "H₂SO₄", "hi": "H₂SO₄"}},
+        {"id": "B", "text": {"en": "SO₄²⁻", "hi": "SO₄²⁻"}},
+        {"id": "C", "text": {"en": "HSO₃⁻", "hi": "HSO₃⁻"}},
+        {"id": "D", "text": {"en": "SO₃²⁻", "hi": "SO₃²⁻"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A conjugate base is what remains after an acid loses one H⁺: HSO₄⁻ → H⁺ + SO₄²⁻. H₂SO₄ is the conjugate acid of HSO₄⁻ (it has one more H⁺). HSO₄⁻ can both donate and accept a proton, so it is amphiprotic.",
+        "hi": "संयुग्मी क्षारक वह है जो अम्ल के एक H⁺ खोने पर बचता है: HSO₄⁻ → H⁺ + SO₄²⁻। H₂SO₄, HSO₄⁻ का संयुग्मी अम्ल है (इसमें एक H⁺ अधिक है)। HSO₄⁻ प्रोटॉन दे और ले दोनों सकता है, अतः यह उभयप्रोटिक है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-05",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "On the basis of standard electrode potentials, which alkali metal is the strongest reducing agent in aqueous solution?",
+        "hi": "मानक इलेक्ट्रोड विभवों के आधार पर, जलीय विलयन में कौन-सी क्षार धातु सबसे प्रबल अपचायक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Li", "hi": "Li"}},
+        {"id": "B", "text": {"en": "Na", "hi": "Na"}},
+        {"id": "C", "text": {"en": "K", "hi": "K"}},
+        {"id": "D", "text": {"en": "Cs", "hi": "Cs"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$E^\\circ(\\text{Li}^+/\\text{Li}) = -3.04$ V is the most negative of all. Although Li has the highest ionisation enthalpy in the group, the tiny Li⁺ ion has a very large hydration enthalpy, which makes the overall change Li(s) → Li⁺(aq) the most favourable. So in water, Li is the strongest reducing agent, an exception to the group trend.",
+        "hi": "$E^\\circ(\\text{Li}^+/\\text{Li}) = -3.04$ V सबसे अधिक ऋणात्मक है। यद्यपि वर्ग में Li की आयनन एन्थैल्पी सबसे अधिक है, अत्यंत छोटे Li⁺ आयन की जलयोजन एन्थैल्पी बहुत अधिक है, जिससे कुल परिवर्तन Li(s) → Li⁺(aq) सबसे अनुकूल होता है। अतः जल में Li सबसे प्रबल अपचायक है, जो वर्ग प्रवृत्ति का अपवाद है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-06",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Given: C(graphite) + O₂(g) → CO₂(g), ΔH = −393.5 kJ mol⁻¹; and CO(g) + ½O₂(g) → CO₂(g), ΔH = −283.0 kJ mol⁻¹. Using Hess's law, find the magnitude of the standard enthalpy of formation of CO(g) (in kJ mol⁻¹).",
+        "hi": "दिया है: C(ग्रेफ़ाइट) + O₂(g) → CO₂(g), ΔH = −393.5 kJ mol⁻¹; तथा CO(g) + ½O₂(g) → CO₂(g), ΔH = −283.0 kJ mol⁻¹। हेस के नियम का प्रयोग करके CO(g) की मानक संभवन एन्थैल्पी का परिमाण (kJ mol⁻¹ में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 110.5,
+      "solution": {
+        "en": "Target: C(graphite) + ½O₂ → CO. Subtract the second equation from the first: $\\Delta_f H^\\circ(\\text{CO}) = -393.5 - (-283.0) = -110.5$ kJ mol⁻¹. Magnitude $= 110.5$. Hess's law is essential here because burning carbon in limited oxygen always gives some CO₂ too, so this value can't be measured directly.",
+        "hi": "लक्ष्य: C(ग्रेफ़ाइट) + ½O₂ → CO। पहले समीकरण में से दूसरा घटाएँ: $\\Delta_f H^\\circ(\\text{CO}) = -393.5 - (-283.0) = -110.5$ kJ mol⁻¹। परिमाण $= 110.5$। यहाँ हेस का नियम आवश्यक है क्योंकि सीमित ऑक्सीजन में कार्बन जलाने पर कुछ CO₂ भी बनती ही है, अतः यह मान सीधे नहीं मापा जा सकता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-07",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The centroid of the triangle with vertices $(1, 2)$, $(3, 4)$ and $(5, 0)$ is:",
+        "hi": "शीर्षों $(1, 2)$, $(3, 4)$ और $(5, 0)$ वाले त्रिभुज का केन्द्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(9, 6)", "hi": "(9, 6)"}},
+        {"id": "B", "text": {"en": "(3, 3)", "hi": "(3, 3)"}},
+        {"id": "C", "text": {"en": "(2, 3)", "hi": "(2, 3)"}},
+        {"id": "D", "text": {"en": "(3, 2)", "hi": "(3, 2)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Centroid $= \\left(\\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}\\right) = \\left(\\frac{1 + 3 + 5}{3}, \\frac{2 + 4 + 0}{3}\\right) = (3, 2)$. It divides each median in the ratio 2 : 1.",
+        "hi": "केन्द्रक $= \\left(\\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}\\right) = \\left(\\frac{1 + 3 + 5}{3}, \\frac{2 + 4 + 0}{3}\\right) = (3, 2)$। यह प्रत्येक माध्यिका को 2 : 1 के अनुपात में विभाजित करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-08",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $c$ in Rolle's theorem for $f(x) = x^2 - 4x + 3$ on the interval $[1, 3]$ is:",
+        "hi": "अंतराल $[1, 3]$ पर $f(x) = x^2 - 4x + 3$ के लिए रोले प्रमेय में $c$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "5/2", "hi": "5/2"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$f$ is a polynomial, so it is continuous on $[1, 3]$ and differentiable on $(1, 3)$, and $f(1) = 0 = f(3)$. Rolle's theorem gives $c \\in (1, 3)$ with $f'(c) = 2c - 4 = 0 \\Rightarrow c = 2$. Note that $c$ must lie strictly inside the interval, so 1 and 3 can never be the answer.",
+        "hi": "$f$ एक बहुपद है, अतः $[1, 3]$ पर संतत और $(1, 3)$ पर अवकलनीय है, तथा $f(1) = 0 = f(3)$। रोले प्रमेय से $c \\in (1, 3)$ मिलता है जिसके लिए $f'(c) = 2c - 4 = 0 \\Rightarrow c = 2$। ध्यान दें कि $c$ अंतराल के ठीक भीतर होना चाहिए, अतः 1 और 3 कभी उत्तर नहीं हो सकते।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-09",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\int_0^{\\pi/2}\\frac{\\sin x}{\\sin x + \\cos x}\\,dx$ is:",
+        "hi": "$\\int_0^{\\pi/2}\\frac{\\sin x}{\\sin x + \\cos x}\\,dx$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "B", "text": {"en": "π/4", "hi": "π/4"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Let $I$ be the integral. Using $\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$ with $a = \\frac{\\pi}{2}$: $I = \\int_0^{\\pi/2}\\frac{\\cos x}{\\cos x + \\sin x}\\,dx$. Adding the two forms: $2I = \\int_0^{\\pi/2} 1\\,dx = \\frac{\\pi}{2}$, so $I = \\frac{\\pi}{4}$. This 'King's property' trick is a JEE favourite.",
+        "hi": "माना समाकल $I$ है। $a = \\frac{\\pi}{2}$ के साथ $\\int_0^a f(x)\\,dx = \\int_0^a f(a - x)\\,dx$ का प्रयोग करें: $I = \\int_0^{\\pi/2}\\frac{\\cos x}{\\cos x + \\sin x}\\,dx$। दोनों रूपों को जोड़ने पर: $2I = \\int_0^{\\pi/2} 1\\,dx = \\frac{\\pi}{2}$, अतः $I = \\frac{\\pi}{4}$। यह गुणधर्म JEE में बहुत पूछा जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-04-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $S = \\sum_{r=1}^{20}\\frac{1}{r(r+1)}$, find $21S$.",
+        "hi": "यदि $S = \\sum_{r=1}^{20}\\frac{1}{r(r+1)}$ है, तो $21S$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "Partial fractions: $\\frac{1}{r(r+1)} = \\frac{1}{r} - \\frac{1}{r+1}$. The sum telescopes: $\\left(1 - \\frac{1}{2}\\right) + \\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\cdots + \\left(\\frac{1}{20} - \\frac{1}{21}\\right) = 1 - \\frac{1}{21} = \\frac{20}{21}$. So $21S = 20$. In general $\\sum_{r=1}^{n}\\frac{1}{r(r+1)} = \\frac{n}{n+1}$.",
+        "hi": "आंशिक भिन्न: $\\frac{1}{r(r+1)} = \\frac{1}{r} - \\frac{1}{r+1}$। योग में पद कटते जाते हैं: $\\left(1 - \\frac{1}{2}\\right) + \\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\cdots + \\left(\\frac{1}{20} - \\frac{1}{21}\\right) = 1 - \\frac{1}{21} = \\frac{20}{21}$। अतः $21S = 20$। व्यापक रूप से $\\sum_{r=1}^{n}\\frac{1}{r(r+1)} = \\frac{n}{n+1}$।"
+      }
+    }
+  ]
+}

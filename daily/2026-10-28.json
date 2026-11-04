@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-28",
+  "questions": [
+    {
+      "id": "dd-2026-10-28-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Electromagnetic waves are:",
+        "hi": "विद्युतचुंबकीय तरंगें हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Longitudinal waves", "hi": "अनुदैर्ध्य तरंगें"}},
+        {"id": "B", "text": {"en": "Partly transverse and partly longitudinal", "hi": "आंशिक रूप से अनुप्रस्थ और आंशिक रूप से अनुदैर्ध्य"}},
+        {"id": "C", "text": {"en": "Mechanical waves that need a medium", "hi": "माध्यम की आवश्यकता वाली यांत्रिक तरंगें"}},
+        {"id": "D", "text": {"en": "Transverse waves", "hi": "अनुप्रस्थ तरंगें"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In an EM wave, $\\vec{E}$ and $\\vec{B}$ oscillate perpendicular to each other and to the direction of propagation (along $\\vec{E} \\times \\vec{B}$), so the wave is transverse. EM waves need no medium and travel in vacuum at $c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}} = 3 \\times 10^8$ m/s, with $\\frac{E_0}{B_0} = c$.",
+        "hi": "विद्युतचुंबकीय तरंग में $\\vec{E}$ और $\\vec{B}$ एक-दूसरे के तथा संचरण दिशा ($\\vec{E} \\times \\vec{B}$ के अनुदिश) के लंबवत दोलन करते हैं, अतः तरंग अनुप्रस्थ है। इन्हें माध्यम की आवश्यकता नहीं होती और ये निर्वात में $c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}} = 3 \\times 10^8$ m/s से चलती हैं, तथा $\\frac{E_0}{B_0} = c$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-02",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A ball of mass 0.1 kg strikes a wall normally at 10 m/s and rebounds with the same speed. The magnitude of the impulse imparted to the ball is:",
+        "hi": "0.1 kg द्रव्यमान की एक गेंद 10 m/s से दीवार से अभिलंबवत टकराकर उसी चाल से लौट आती है। गेंद को दिए गए आवेग का परिमाण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2 N s", "hi": "2 N s"}},
+        {"id": "B", "text": {"en": "1 N s", "hi": "1 N s"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "0.5 N s", "hi": "0.5 N s"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Impulse $= \\Delta p = m(v - u)$. Taking the incoming direction as positive: $u = +10$, $v = -10$ m/s, so $\\Delta p = 0.1(-10 - 10) = -2$ N s. Magnitude $= 2$ N s. Trap: the speed is unchanged, but the velocity reverses, so the momentum change is $2mv$, not zero.",
+        "hi": "आवेग $= \\Delta p = m(v - u)$। आने की दिशा को धनात्मक लेने पर: $u = +10$, $v = -10$ m/s, अतः $\\Delta p = 0.1(-10 - 10) = -2$ N s। परिमाण $= 2$ N s। ध्यान दें: चाल नहीं बदलती, परंतु वेग की दिशा उलट जाती है, अतः संवेग परिवर्तन $2mv$ है, शून्य नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-03",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A source emitting sound of frequency 500 Hz moves towards a stationary observer at 30 m/s. If the speed of sound in air is 330 m/s, find the frequency (in Hz) heard by the observer.",
+        "hi": "500 Hz आवृत्ति की ध्वनि उत्सर्जित करने वाला एक स्रोत 30 m/s से एक स्थिर प्रेक्षक की ओर गति करता है। यदि वायु में ध्वनि की चाल 330 m/s है, तो प्रेक्षक द्वारा सुनी गई आवृत्ति (Hz में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 550,
+      "solution": {
+        "en": "Doppler effect for a source moving towards a stationary observer: $f' = f\\frac{v}{v - v_s} = 500 \\times \\frac{330}{330 - 30} = 500 \\times \\frac{330}{300} = 550$ Hz. The waves get compressed ahead of the source, so the pitch rises. If the source moved away, $f' = 500 \\times \\frac{330}{360} \\approx 458$ Hz.",
+        "hi": "स्थिर प्रेक्षक की ओर आते स्रोत के लिए डॉप्लर प्रभाव: $f' = f\\frac{v}{v - v_s} = 500 \\times \\frac{330}{330 - 30} = 500 \\times \\frac{330}{300} = 550$ Hz। स्रोत के आगे तरंगें सिकुड़ जाती हैं, अतः तारत्व बढ़ता है। यदि स्रोत दूर जाता, तो $f' = 500 \\times \\frac{330}{360} \\approx 458$ Hz।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-04",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Ethanol, on heating with concentrated H₂SO₄ at 443 K, mainly gives:",
+        "hi": "एथेनॉल को 443 K पर सांद्र H₂SO₄ के साथ गर्म करने पर मुख्यतः प्राप्त होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Ethene", "hi": "एथीन"}},
+        {"id": "B", "text": {"en": "Diethyl ether", "hi": "डाइएथिल ईथर"}},
+        {"id": "C", "text": {"en": "Ethanal", "hi": "एथेनैल"}},
+        {"id": "D", "text": {"en": "Ethanoic acid", "hi": "एथेनॉइक अम्ल"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "At 443 K, intramolecular dehydration occurs: CH₃CH₂OH → CH₂=CH₂ + H₂O. At the lower temperature of 413 K (with excess ethanol), intermolecular dehydration gives diethyl ether, C₂H₅–O–C₂H₅. So temperature decides the product — a favourite exam point.",
+        "hi": "443 K पर अंतःआण्विक निर्जलीकरण होता है: CH₃CH₂OH → CH₂=CH₂ + H₂O। कम ताप 413 K पर (अधिक एथेनॉल के साथ) अंतराआण्विक निर्जलीकरण से डाइएथिल ईथर, C₂H₅–O–C₂H₅ बनता है। अतः ताप उत्पाद तय करता है — परीक्षा का प्रिय बिंदु।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following has the highest boiling point?",
+        "hi": "निम्नलिखित में से किसका क्वथनांक सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "H₂S", "hi": "H₂S"}},
+        {"id": "B", "text": {"en": "H₂O", "hi": "H₂O"}},
+        {"id": "C", "text": {"en": "H₂Se", "hi": "H₂Se"}},
+        {"id": "D", "text": {"en": "H₂Te", "hi": "H₂Te"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "From H₂S to H₂Te, boiling point rises with molar mass (stronger van der Waals forces). H₂O should be the lowest by that trend, but it is actually the highest (373 K) because small, highly electronegative O forms extensive intermolecular hydrogen bonds. Order: H₂O > H₂Te > H₂Se > H₂S.",
+        "hi": "H₂S से H₂Te तक मोलर द्रव्यमान के साथ क्वथनांक बढ़ता है (प्रबल वान्डरवाल्स बल)। इस प्रवृत्ति से H₂O का सबसे कम होना चाहिए, परंतु वास्तव में यह सबसे अधिक (373 K) है क्योंकि छोटा और अत्यधिक विद्युत ऋणात्मक O व्यापक अंतराआण्विक हाइड्रोजन आबंध बनाता है। क्रम: H₂O > H₂Te > H₂Se > H₂S।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-06",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For the cell Zn | Zn²⁺(0.01 M) || Cu²⁺(1 M) | Cu at 298 K, by how many millivolts does the cell emf exceed the standard emf $E^\\circ_{\\text{cell}}$? (Take $\\frac{2.303RT}{F} = 0.059$ V)",
+        "hi": "298 K पर सेल Zn | Zn²⁺(0.01 M) || Cu²⁺(1 M) | Cu का विद्युत वाहक बल, मानक विद्युत वाहक बल $E^\\circ_{\\text{cell}}$ से कितने मिलीवोल्ट अधिक है? ($\\frac{2.303RT}{F} = 0.059$ V लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 59,
+      "solution": {
+        "en": "Cell reaction: Zn + Cu²⁺ → Zn²⁺ + Cu, $n = 2$. Nernst: $E = E^\\circ - \\frac{0.059}{2}\\log\\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = E^\\circ - 0.0295\\log(10^{-2}) = E^\\circ + 0.059$ V. So the emf is higher by 59 mV (with $E^\\circ = 1.10$ V, $E = 1.159$ V). A lower product concentration favours the forward reaction, raising the emf.",
+        "hi": "सेल अभिक्रिया: Zn + Cu²⁺ → Zn²⁺ + Cu, $n = 2$। नर्न्स्ट: $E = E^\\circ - \\frac{0.059}{2}\\log\\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = E^\\circ - 0.0295\\log(10^{-2}) = E^\\circ + 0.059$ V। अतः विद्युत वाहक बल 59 mV अधिक है ($E^\\circ = 1.10$ V के साथ $E = 1.159$ V)। उत्पाद की कम सांद्रता अग्र अभिक्रिया के पक्ष में है, जिससे विद्युत वाहक बल बढ़ता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of all possible matrices of order $3 \\times 3$ with each entry 0 or 1 is:",
+        "hi": "$3 \\times 3$ कोटि के ऐसे सभी संभव आव्यूहों की संख्या जिनका प्रत्येक अवयव 0 या 1 है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9", "hi": "9"}},
+        {"id": "B", "text": {"en": "81", "hi": "81"}},
+        {"id": "C", "text": {"en": "512", "hi": "512"}},
+        {"id": "D", "text": {"en": "18", "hi": "18"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A $3 \\times 3$ matrix has 9 entries, and each can be chosen in 2 ways. Total $= 2^9 = 512$.",
+        "hi": "$3 \\times 3$ आव्यूह में 9 अवयव होते हैं, और प्रत्येक को 2 प्रकार से चुना जा सकता है। कुल $= 2^9 = 512$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-08",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The probability that a leap year selected at random contains 53 Sundays is:",
+        "hi": "यादृच्छया चुने गए एक लीप वर्ष में 53 रविवार होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/7", "hi": "1/7"}},
+        {"id": "B", "text": {"en": "3/7", "hi": "3/7"}},
+        {"id": "C", "text": {"en": "53/366", "hi": "53/366"}},
+        {"id": "D", "text": {"en": "2/7", "hi": "2/7"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "A leap year has 366 days = 52 complete weeks + 2 extra days. The extra pair can be (Sun, Mon), (Mon, Tue), …, (Sat, Sun): 7 equally likely pairs, and Sunday appears in 2 of them. $P = \\frac{2}{7}$. (For a non-leap year, with 1 extra day, it is $\\frac{1}{7}$.)",
+        "hi": "लीप वर्ष में 366 दिन = 52 पूरे सप्ताह + 2 अतिरिक्त दिन होते हैं। अतिरिक्त युग्म (रवि, सोम), (सोम, मंगल), …, (शनि, रवि) हो सकते हैं: 7 समसंभाव्य युग्म, जिनमें से 2 में रविवार है। $P = \\frac{2}{7}$। (साधारण वर्ष में 1 अतिरिक्त दिन होने से यह $\\frac{1}{7}$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-09",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 2}\\frac{x^5 - 32}{x - 2}$.",
+        "hi": "$\\lim_{x \\to 2}\\frac{x^5 - 32}{x - 2}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "32", "hi": "32"}},
+        {"id": "B", "text": {"en": "16", "hi": "16"}},
+        {"id": "C", "text": {"en": "80", "hi": "80"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Standard result: $\\lim_{x \\to a}\\frac{x^n - a^n}{x - a} = na^{n-1}$. With $n = 5$, $a = 2$: $5 \\times 2^4 = 80$. (This limit is exactly the derivative of $x^5$ at $x = 2$.)",
+        "hi": "मानक परिणाम: $\\lim_{x \\to a}\\frac{x^n - a^n}{x - a} = na^{n-1}$। $n = 5$, $a = 2$ के साथ: $5 \\times 2^4 = 80$। (यह सीमा ठीक $x = 2$ पर $x^5$ का अवकलज है।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-28-10",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of equivalence relations on the set $\\{1, 2, 3\\}$.",
+        "hi": "समुच्चय $\\{1, 2, 3\\}$ पर तुल्यता संबंधों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Every equivalence relation corresponds to exactly one way of splitting the set into disjoint classes (a partition). Partitions of $\\{1, 2, 3\\}$: $\\{1\\},\\{2\\},\\{3\\}$; $\\{1, 2\\},\\{3\\}$; $\\{1, 3\\},\\{2\\}$; $\\{2, 3\\},\\{1\\}$; $\\{1, 2, 3\\}$. So there are 5 equivalence relations — from the identity relation to the universal relation.",
+        "hi": "प्रत्येक तुल्यता संबंध, समुच्चय को असंयुक्त वर्गों में बाँटने के ठीक एक तरीके (विभाजन) के संगत होता है। $\\{1, 2, 3\\}$ के विभाजन: $\\{1\\},\\{2\\},\\{3\\}$; $\\{1, 2\\},\\{3\\}$; $\\{1, 3\\},\\{2\\}$; $\\{2, 3\\},\\{1\\}$; $\\{1, 2, 3\\}$। अतः 5 तुल्यता संबंध हैं — तत्समक संबंध से सार्वत्रिक संबंध तक।"
+      }
+    }
+  ]
+}

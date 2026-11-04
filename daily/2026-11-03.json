@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-03",
+  "questions": [
+    {
+      "id": "dd-2026-11-03-01",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "According to Curie's law, the magnetic susceptibility of a paramagnetic substance is:",
+        "hi": "क्यूरी के नियम के अनुसार, अनुचुंबकीय पदार्थ की चुंबकीय प्रवृत्ति होती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Directly proportional to its absolute temperature", "hi": "उसके परम ताप के अनुक्रमानुपाती"}},
+        {"id": "B", "text": {"en": "Inversely proportional to its absolute temperature", "hi": "उसके परम ताप के व्युत्क्रमानुपाती"}},
+        {"id": "C", "text": {"en": "Independent of temperature", "hi": "ताप से स्वतंत्र"}},
+        {"id": "D", "text": {"en": "Proportional to the square of its temperature", "hi": "उसके ताप के वर्ग के अनुक्रमानुपाती"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Curie's law: $\\chi = \\frac{C}{T}$. At higher temperature, thermal agitation randomises the atomic magnetic dipoles more, making them harder to align with the field, so the susceptibility falls. (Diamagnetism is nearly independent of temperature.)",
+        "hi": "क्यूरी का नियम: $\\chi = \\frac{C}{T}$। अधिक ताप पर तापीय क्षोभ परमाणु चुंबकीय द्विध्रुवों को अधिक अव्यवस्थित कर देता है, जिससे उन्हें क्षेत्र के अनुदिश संरेखित करना कठिन होता है, अतः प्रवृत्ति घटती है। (प्रतिचुंबकत्व लगभग ताप से स्वतंत्र होता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-02",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A satellite moves around the Earth in a circular orbit with kinetic energy $K$. Its total mechanical energy is:",
+        "hi": "एक उपग्रह पृथ्वी के चारों ओर वृत्तीय कक्षा में गतिज ऊर्जा $K$ के साथ घूमता है। इसकी कुल यांत्रिक ऊर्जा है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "K", "hi": "K"}},
+        {"id": "B", "text": {"en": "−2K", "hi": "−2K"}},
+        {"id": "C", "text": {"en": "2K", "hi": "2K"}},
+        {"id": "D", "text": {"en": "−K", "hi": "−K"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "For a circular orbit, $\\frac{mv^2}{r} = \\frac{GMm}{r^2}$ gives $K = \\frac{GMm}{2r}$. Potential energy $U = -\\frac{GMm}{r} = -2K$. Total $E = K + U = -K$. The negative sign shows the satellite is bound; its binding energy (energy needed to free it) is $K$.",
+        "hi": "वृत्तीय कक्षा के लिए $\\frac{mv^2}{r} = \\frac{GMm}{r^2}$ से $K = \\frac{GMm}{2r}$। स्थितिज ऊर्जा $U = -\\frac{GMm}{r} = -2K$। कुल $E = K + U = -K$। ऋणात्मक चिह्न दर्शाता है कि उपग्रह बद्ध है; इसकी बंधन ऊर्जा (मुक्त करने के लिए आवश्यक ऊर्जा) $K$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-03",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An ideal transformer has 100 turns in its primary and 2000 turns in its secondary. The primary is connected to a 220 V AC supply, and the secondary delivers a current of 0.5 A to a load. Find the current (in A) drawn by the primary.",
+        "hi": "एक आदर्श ट्रांसफ़ॉर्मर की प्राथमिक कुंडली में 100 फेरे और द्वितीयक कुंडली में 2000 फेरे हैं। प्राथमिक 220 V AC आपूर्ति से जुड़ी है, और द्वितीयक एक लोड को 0.5 A धारा देती है। प्राथमिक द्वारा ली गई धारा (A में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "$\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = 20 \\Rightarrow V_s = 4400$ V (step-up). An ideal transformer has no losses: $V_pI_p = V_sI_s \\Rightarrow I_p = \\frac{4400 \\times 0.5}{220} = 10$ A. Equivalently $\\frac{I_p}{I_s} = \\frac{N_s}{N_p}$: stepping voltage up steps current down by the same factor.",
+        "hi": "$\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = 20 \\Rightarrow V_s = 4400$ V (उच्चायी)। आदर्श ट्रांसफ़ॉर्मर में कोई हानि नहीं होती: $V_pI_p = V_sI_s \\Rightarrow I_p = \\frac{4400 \\times 0.5}{220} = 10$ A। समतुल्य रूप से $\\frac{I_p}{I_s} = \\frac{N_s}{N_p}$: वोल्टता जितनी गुना बढ़ती है, धारा उतनी गुना घटती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-04",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Among the conformations of ethane, the most stable one is:",
+        "hi": "एथेन के संरूपणों में सबसे स्थायी है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Eclipsed", "hi": "ग्रसित"}},
+        {"id": "B", "text": {"en": "Skew", "hi": "विषमतलीय (स्क्यू)"}},
+        {"id": "C", "text": {"en": "Staggered", "hi": "सांतरित"}},
+        {"id": "D", "text": {"en": "All are equally stable", "hi": "सभी समान रूप से स्थायी हैं"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In the staggered conformation, the H atoms on the two carbons are as far apart as possible, so torsional strain is minimum. The eclipsed form is the least stable. The energy gap is only about 12.5 kJ/mol, so the conformers interconvert freely at room temperature and cannot be isolated.",
+        "hi": "सांतरित संरूपण में दोनों कार्बनों पर H परमाणु यथासंभव दूर होते हैं, अतः मरोड़ी विकृति न्यूनतम होती है। ग्रसित रूप सबसे कम स्थायी है। ऊर्जा अंतर केवल लगभग 12.5 kJ/mol है, अतः कमरे के ताप पर संरूपण स्वतंत्र रूप से परस्पर बदलते रहते हैं और पृथक नहीं किए जा सकते।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "When an alkali is added to an orange solution of potassium dichromate, the solution turns yellow. This is due to the formation of:",
+        "hi": "पोटैशियम डाइक्रोमेट के नारंगी विलयन में क्षार मिलाने पर विलयन पीला हो जाता है। इसका कारण किसका बनना है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Chromate ion, CrO₄²⁻", "hi": "क्रोमेट आयन, CrO₄²⁻"}},
+        {"id": "B", "text": {"en": "Cr³⁺ ion", "hi": "Cr³⁺ आयन"}},
+        {"id": "C", "text": {"en": "Chromium(III) oxide, Cr₂O₃", "hi": "क्रोमियम(III) ऑक्साइड, Cr₂O₃"}},
+        {"id": "D", "text": {"en": "Chromium peroxide, CrO₅", "hi": "क्रोमियम परॉक्साइड, CrO₅"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Cr₂O₇²⁻ (orange) + 2OH⁻ ⇌ 2CrO₄²⁻ (yellow) + H₂O. The interconversion depends on pH: adding acid turns the solution orange again. Chromium stays in the +6 state in both ions, so this is not a redox reaction.",
+        "hi": "Cr₂O₇²⁻ (नारंगी) + 2OH⁻ ⇌ 2CrO₄²⁻ (पीला) + H₂O। यह परस्पर परिवर्तन pH पर निर्भर करता है: अम्ल मिलाने पर विलयन फिर नारंगी हो जाता है। दोनों आयनों में क्रोमियम +6 अवस्था में रहता है, अतः यह रेडॉक्स अभिक्रिया नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-06",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Phenol is treated with chloroform and aqueous NaOH, and the product is then acidified. The main product is:",
+        "hi": "फ़ीनॉल को क्लोरोफ़ॉर्म और जलीय NaOH से उपचारित करके उत्पाद को अम्लीकृत किया जाता है। मुख्य उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Salicylic acid", "hi": "सैलिसिलिक अम्ल"}},
+        {"id": "B", "text": {"en": "Salicylaldehyde (2-hydroxybenzaldehyde)", "hi": "सैलिसिलैल्डिहाइड (2-हाइड्रॉक्सीबेन्ज़ैल्डिहाइड)"}},
+        {"id": "C", "text": {"en": "Benzaldehyde", "hi": "बेन्ज़ैल्डिहाइड"}},
+        {"id": "D", "text": {"en": "Chlorobenzene", "hi": "क्लोरोबेन्ज़ीन"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "This is the Reimer–Tiemann reaction. CHCl₃ + OH⁻ forms dichlorocarbene (:CCl₂), an electrophile. The electron-rich phenoxide ion attacks it mainly at the ortho position, giving –CHCl₂, which hydrolyses to –CHO. Result: salicylaldehyde. Using CCl₄ instead gives salicylic acid, which is also made by Kolbe's reaction (phenoxide + CO₂).",
+        "hi": "यह राइमर–टीमन अभिक्रिया है। CHCl₃ + OH⁻ से डाइक्लोरोकार्बीन (:CCl₂), एक इलेक्ट्रॉनस्नेही, बनता है। इलेक्ट्रॉन-समृद्ध फ़ीनॉक्साइड आयन मुख्यतः ऑर्थो स्थिति पर इससे अभिक्रिया करता है, जिससे –CHCl₂ बनता है, जो जल-अपघटित होकर –CHO बन जाता है। परिणाम: सैलिसिलैल्डिहाइड। CCl₄ लेने पर सैलिसिलिक अम्ल बनता है, जो कोल्बे अभिक्रिया (फ़ीनॉक्साइड + CO₂) से भी बनता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-07",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If two rows of a determinant are identical, the value of the determinant is:",
+        "hi": "यदि किसी सारणिक की दो पंक्तियाँ सर्वसम हों, तो सारणिक का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "C", "text": {"en": "0", "hi": "0"}},
+        {"id": "D", "text": {"en": "Equal to the product of its diagonal elements", "hi": "उसके विकर्ण अवयवों के गुणनफल के बराबर"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Interchanging two rows changes the sign of a determinant. Swapping the two identical rows leaves it unchanged, so $\\Delta = -\\Delta \\Rightarrow \\Delta = 0$. The same holds if two rows (or columns) are proportional.",
+        "hi": "दो पंक्तियों की अदला-बदली से सारणिक का चिह्न बदल जाता है। दोनों सर्वसम पंक्तियों की अदला-बदली से यह अपरिवर्तित रहता है, अतः $\\Delta = -\\Delta \\Rightarrow \\Delta = 0$। यही तब भी सत्य है जब दो पंक्तियाँ (या स्तंभ) समानुपाती हों।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The mean deviation about the mean of the data $2, 4, 6, 8, 10$ is:",
+        "hi": "आँकड़ों $2, 4, 6, 8, 10$ का माध्य के सापेक्ष माध्य विचलन है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2", "hi": "2"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "2√2", "hi": "2√2"}},
+        {"id": "D", "text": {"en": "2.4", "hi": "2.4"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Mean $= 6$. Absolute deviations: $4, 2, 0, 2, 4$, with sum 12. Mean deviation $= \\frac{12}{5} = 2.4$. (The standard deviation of the same data is $2\\sqrt{2} \\approx 2.83$; mean deviation is never larger than the SD.)",
+        "hi": "माध्य $= 6$। निरपेक्ष विचलन: $4, 2, 0, 2, 4$, योग 12। माध्य विचलन $= \\frac{12}{5} = 2.4$। (इन्हीं आँकड़ों का मानक विचलन $2\\sqrt{2} \\approx 2.83$ है; माध्य विचलन कभी मानक विचलन से अधिक नहीं होता।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-09",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $|z| = 1$, then $\\frac{1}{z}$ is equal to:",
+        "hi": "यदि $|z| = 1$ है, तो $\\frac{1}{z}$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "z̄", "hi": "z̄"}},
+        {"id": "B", "text": {"en": "z", "hi": "z"}},
+        {"id": "C", "text": {"en": "−z", "hi": "−z"}},
+        {"id": "D", "text": {"en": "−z̄", "hi": "−z̄"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$z\\bar{z} = |z|^2 = 1$, so $\\frac{1}{z} = \\bar{z}$. Geometrically, for a point on the unit circle, the reciprocal is its reflection in the real axis. Example: $z = i$ gives $\\frac{1}{i} = -i = \\bar{z}$ ✓.",
+        "hi": "$z\\bar{z} = |z|^2 = 1$, अतः $\\frac{1}{z} = \\bar{z}$। ज्यामितीय रूप से इकाई वृत्त पर किसी बिंदु का व्युत्क्रम, वास्तविक अक्ष में उसका प्रतिबिंब होता है। उदाहरण: $z = i$ से $\\frac{1}{i} = -i = \\bar{z}$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-03-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The radius of a spherical balloon increases at the rate of 0.5 cm/s. When the radius is 2 cm, its volume increases at the rate of $k\\pi$ cm³/s. Find $k$.",
+        "hi": "एक गोलाकार गुब्बारे की त्रिज्या 0.5 cm/s की दर से बढ़ती है। जब त्रिज्या 2 cm है, तब इसका आयतन $k\\pi$ cm³/s की दर से बढ़ता है। $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "$V = \\frac{4}{3}\\pi r^3 \\Rightarrow \\frac{dV}{dt} = 4\\pi r^2\\frac{dr}{dt} = 4\\pi(2)^2(0.5) = 8\\pi$ cm³/s. So $k = 8$. Note that $4\\pi r^2$ is the surface area: volume grows at (surface area) × (rate of radius).",
+        "hi": "$V = \\frac{4}{3}\\pi r^3 \\Rightarrow \\frac{dV}{dt} = 4\\pi r^2\\frac{dr}{dt} = 4\\pi(2)^2(0.5) = 8\\pi$ cm³/s। अतः $k = 8$। ध्यान दें कि $4\\pi r^2$ पृष्ठीय क्षेत्रफल है: आयतन (पृष्ठीय क्षेत्रफल) × (त्रिज्या की दर) से बढ़ता है।"
+      }
+    }
+  ]
+}

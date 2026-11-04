@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-01",
+  "questions": [
+    {
+      "id": "dd-2026-11-01-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For an isotropic solid, the coefficient of volume expansion $\\gamma$ is related to the coefficient of linear expansion $\\alpha$ as:",
+        "hi": "समदैशिक ठोस के लिए आयतन प्रसार गुणांक $\\gamma$ का रेखीय प्रसार गुणांक $\\alpha$ से संबंध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "γ = 3α", "hi": "γ = 3α"}},
+        {"id": "B", "text": {"en": "γ = 2α", "hi": "γ = 2α"}},
+        {"id": "C", "text": {"en": "γ = α", "hi": "γ = α"}},
+        {"id": "D", "text": {"en": "γ = α/3", "hi": "γ = α/3"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For a cube of side $L$, $V = L^3$, so $\\frac{\\Delta V}{V} = 3\\frac{\\Delta L}{L} \\Rightarrow \\gamma = 3\\alpha$. Similarly the areal coefficient is $\\beta = 2\\alpha$. So $\\alpha : \\beta : \\gamma = 1 : 2 : 3$.",
+        "hi": "$L$ भुजा वाले घन के लिए $V = L^3$, अतः $\\frac{\\Delta V}{V} = 3\\frac{\\Delta L}{L} \\Rightarrow \\gamma = 3\\alpha$। इसी प्रकार क्षेत्रीय प्रसार गुणांक $\\beta = 2\\alpha$। अतः $\\alpha : \\beta : \\gamma = 1 : 2 : 3$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-02",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A simple pendulum hangs from the ceiling of a lift. If the lift falls freely under gravity, the time period of the pendulum becomes:",
+        "hi": "एक सरल लोलक लिफ़्ट की छत से लटका है। यदि लिफ़्ट गुरुत्व के अधीन मुक्त रूप से गिरे, तो लोलक का आवर्तकाल हो जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "B", "text": {"en": "Unchanged", "hi": "अपरिवर्तित"}},
+        {"id": "C", "text": {"en": "Infinite", "hi": "अनंत"}},
+        {"id": "D", "text": {"en": "Doubled", "hi": "दोगुना"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$T = 2\\pi\\sqrt{\\frac{l}{g_{\\text{eff}}}}$. In free fall, $g_{\\text{eff}} = g - g = 0$, so $T \\to \\infty$: the bob does not oscillate at all. In a lift accelerating up at $a$, $g_{\\text{eff}} = g + a$ and $T$ decreases; accelerating down, $g_{\\text{eff}} = g - a$ and $T$ increases.",
+        "hi": "$T = 2\\pi\\sqrt{\\frac{l}{g_{\\text{eff}}}}$। मुक्त पतन में $g_{\\text{eff}} = g - g = 0$, अतः $T \\to \\infty$: गोलक बिल्कुल दोलन नहीं करता। $a$ से ऊपर त्वरित लिफ़्ट में $g_{\\text{eff}} = g + a$ और $T$ घटता है; नीचे त्वरित होने पर $g_{\\text{eff}} = g - a$ और $T$ बढ़ता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-03",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A coil of 100 turns and area 0.01 m² is placed in a uniform magnetic field of 0.5 T with its plane perpendicular to the field. It is rotated in 0.1 s so that its plane becomes parallel to the field. Find the magnitude of the average emf (in V) induced in the coil.",
+        "hi": "100 फेरों और 0.01 m² क्षेत्रफल की एक कुंडली 0.5 T के एकसमान चुंबकीय क्षेत्र में इस प्रकार रखी है कि उसका तल क्षेत्र के लंबवत है। इसे 0.1 s में घुमाया जाता है ताकि इसका तल क्षेत्र के समांतर हो जाए। कुंडली में प्रेरित औसत विद्युत वाहक बल का परिमाण (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Plane perpendicular to $B$ means the area vector is along $B$: initial flux per turn $= BA = 0.5 \\times 0.01 = 0.005$ Wb. Plane parallel to $B$: flux $= 0$. Average emf $= N\\frac{\\Delta\\Phi}{\\Delta t} = 100 \\times \\frac{0.005}{0.1} = 5$ V. Trap: confusing 'plane perpendicular' with 'area vector perpendicular'.",
+        "hi": "तल का $B$ के लंबवत होना अर्थात क्षेत्रफल सदिश $B$ के अनुदिश है: प्रति फेरा प्रारंभिक फ्लक्स $= BA = 0.5 \\times 0.01 = 0.005$ Wb। तल $B$ के समांतर: फ्लक्स $= 0$। औसत विद्युत वाहक बल $= N\\frac{\\Delta\\Phi}{\\Delta t} = 100 \\times \\frac{0.005}{0.1} = 5$ V। ध्यान दें: 'तल लंबवत' और 'क्षेत्रफल सदिश लंबवत' में भ्रम न करें।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Assuming complete dissociation, the van't Hoff factor ($i$) of K₄[Fe(CN)₆] in aqueous solution is:",
+        "hi": "पूर्ण वियोजन मानते हुए, जलीय विलयन में K₄[Fe(CN)₆] का वान्ट हॉफ़ गुणांक ($i$) है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "5", "hi": "5"}},
+        {"id": "C", "text": {"en": "11", "hi": "11"}},
+        {"id": "D", "text": {"en": "2", "hi": "2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "K₄[Fe(CN)₆] → 4K⁺ + [Fe(CN)₆]⁴⁻, giving 5 ions per formula unit, so $i = 5$. The complex ion [Fe(CN)₆]⁴⁻ stays intact; it does not break into Fe²⁺ and CN⁻ (that would wrongly give 11).",
+        "hi": "K₄[Fe(CN)₆] → 4K⁺ + [Fe(CN)₆]⁴⁻, प्रति सूत्र इकाई 5 आयन, अतः $i = 5$। संकुल आयन [Fe(CN)₆]⁴⁻ अखंड रहता है; यह Fe²⁺ और CN⁻ में नहीं टूटता (ऐसा मानने पर गलत उत्तर 11 आता है)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-05",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following compounds shows geometrical (cis–trans) isomerism?",
+        "hi": "निम्नलिखित में से कौन-सा यौगिक ज्यामितीय (समपक्ष–विपक्ष) समावयवता दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "But-1-ene", "hi": "ब्यूट-1-ईन"}},
+        {"id": "B", "text": {"en": "2-Methylprop-1-ene", "hi": "2-मेथिलप्रोप-1-ईन"}},
+        {"id": "C", "text": {"en": "Propene", "hi": "प्रोपीन"}},
+        {"id": "D", "text": {"en": "But-2-ene", "hi": "ब्यूट-2-ईन"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Geometrical isomerism needs restricted rotation (C=C) and two different groups on each doubly bonded carbon. In CH₃–CH=CH–CH₃, each alkene carbon carries H and CH₃, so cis and trans forms exist. In but-1-ene and propene, C-1 has two H atoms; in 2-methylpropene, C-2 has two CH₃ groups — so none of these shows it.",
+        "hi": "ज्यामितीय समावयवता के लिए प्रतिबंधित घूर्णन (C=C) और प्रत्येक द्विआबंधित कार्बन पर दो भिन्न समूह चाहिए। CH₃–CH=CH–CH₃ में प्रत्येक ऐल्कीन कार्बन पर H और CH₃ हैं, अतः समपक्ष और विपक्ष रूप होते हैं। ब्यूट-1-ईन और प्रोपीन में C-1 पर दो H हैं; 2-मेथिलप्रोपीन में C-2 पर दो CH₃ हैं — अतः इनमें से कोई यह नहीं दर्शाता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-06",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Anisole (methoxybenzene), on heating with HI, gives:",
+        "hi": "ऐनिसोल (मेथॉक्सीबेन्ज़ीन) को HI के साथ गर्म करने पर प्राप्त होते हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Iodobenzene and methanol", "hi": "आयोडोबेन्ज़ीन और मेथेनॉल"}},
+        {"id": "B", "text": {"en": "Phenol and methyl iodide", "hi": "फ़ीनॉल और मेथिल आयोडाइड"}},
+        {"id": "C", "text": {"en": "Iodobenzene and methyl iodide", "hi": "आयोडोबेन्ज़ीन और मेथिल आयोडाइड"}},
+        {"id": "D", "text": {"en": "Benzene and methanol", "hi": "बेन्ज़ीन और मेथेनॉल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "C₆H₅–O–CH₃ + HI → C₆H₅OH + CH₃I. HI protonates the ether oxygen, and I⁻ attacks the less hindered CH₃ group (SN2). The O–C(aryl) bond is not broken because it has partial double-bond character from resonance and the sp² carbon resists nucleophilic attack. That is why iodobenzene is not formed, and phenol does not react further with HI.",
+        "hi": "C₆H₅–O–CH₃ + HI → C₆H₅OH + CH₃I। HI ईथर ऑक्सीजन को प्रोटॉनित करता है, और I⁻ कम बाधित CH₃ समूह पर आक्रमण करता है (SN2)। O–C(ऐरिल) आबंध नहीं टूटता क्योंकि अनुनाद से इसमें आंशिक द्विआबंध लक्षण होता है और sp² कार्बन नाभिकस्नेही आक्रमण का विरोध करता है। इसी कारण आयोडोबेन्ज़ीन नहीं बनता, और फ़ीनॉल HI से आगे अभिक्रिया नहीं करता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-07",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The length of the latus rectum of the parabola $y^2 = 8x$ is:",
+        "hi": "परवलय $y^2 = 8x$ के नाभिलंब की लंबाई है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "16", "hi": "16"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Compare with $y^2 = 4ax$: $4a = 8$, so $a = 2$. Latus rectum $= 4a = 8$; its endpoints are $(a, \\pm 2a) = (2, \\pm 4)$, and the focus is $(2, 0)$.",
+        "hi": "$y^2 = 4ax$ से तुलना: $4a = 8$, अतः $a = 2$। नाभिलंब $= 4a = 8$; इसके अंत्य बिंदु $(a, \\pm 2a) = (2, \\pm 4)$ हैं, और नाभि $(2, 0)$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For $x > 0$, the minimum value of $x + \\frac{1}{x}$ is:",
+        "hi": "$x > 0$ के लिए $x + \\frac{1}{x}$ का न्यूनतम मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "No minimum exists", "hi": "कोई न्यूनतम मान नहीं है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "AM ≥ GM for positive numbers: $\\frac{x + \\frac{1}{x}}{2} \\ge \\sqrt{x \\cdot \\frac{1}{x}} = 1 \\Rightarrow x + \\frac{1}{x} \\ge 2$, with equality when $x = \\frac{1}{x}$, i.e. $x = 1$. So the minimum is 2. (For $x < 0$, the expression is $\\le -2$.)",
+        "hi": "धनात्मक संख्याओं के लिए AM ≥ GM: $\\frac{x + \\frac{1}{x}}{2} \\ge \\sqrt{x \\cdot \\frac{1}{x}} = 1 \\Rightarrow x + \\frac{1}{x} \\ge 2$, समता तब जब $x = \\frac{1}{x}$, अर्थात $x = 1$। अतः न्यूनतम मान 2 है। ($x < 0$ के लिए व्यंजक $\\le -2$ होता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-09",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The general solution of $\\tan x = \\sqrt{3}$ is ($n \\in \\mathbb{Z}$):",
+        "hi": "$\\tan x = \\sqrt{3}$ का व्यापक हल है ($n \\in \\mathbb{Z}$):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x = 2nπ + π/3", "hi": "x = 2nπ + π/3"}},
+        {"id": "B", "text": {"en": "x = nπ + π/6", "hi": "x = nπ + π/6"}},
+        {"id": "C", "text": {"en": "x = 2nπ ± π/3", "hi": "x = 2nπ ± π/3"}},
+        {"id": "D", "text": {"en": "x = nπ + π/3", "hi": "x = nπ + π/3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\tan x = \\tan\\alpha \\Rightarrow x = n\\pi + \\alpha$, because $\\tan$ has period $\\pi$. Here $\\alpha = \\frac{\\pi}{3}$, so $x = n\\pi + \\frac{\\pi}{3}$. ($2n\\pi \\pm \\alpha$ is the form for $\\cos x = \\cos\\alpha$.)",
+        "hi": "$\\tan x = \\tan\\alpha \\Rightarrow x = n\\pi + \\alpha$, क्योंकि $\\tan$ का आवर्तकाल $\\pi$ है। यहाँ $\\alpha = \\frac{\\pi}{3}$, अतः $x = n\\pi + \\frac{\\pi}{3}$। ($2n\\pi \\pm \\alpha$ रूप $\\cos x = \\cos\\alpha$ के लिए है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-01-10",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A and B throw a fair die alternately, with A starting. The first one to throw a six wins. If the probability that A wins is $\\frac{p}{11}$, find $p$.",
+        "hi": "A और B बारी-बारी से एक निष्पक्ष पासा फेंकते हैं, A पहले फेंकता है। जो पहले छह फेंकता है वह जीतता है। यदि A के जीतने की प्रायिकता $\\frac{p}{11}$ है, तो $p$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "A wins on throw 1, 3, 5, …: $P(A) = \\frac{1}{6} + \\left(\\frac{5}{6}\\right)^2\\frac{1}{6} + \\left(\\frac{5}{6}\\right)^4\\frac{1}{6} + \\cdots$, an infinite GP with ratio $\\frac{25}{36}$. $P(A) = \\frac{1/6}{1 - 25/36} = \\frac{1}{6} \\cdot \\frac{36}{11} = \\frac{6}{11}$. So $p = 6$ (and B wins with $\\frac{5}{11}$ — going first is an advantage).",
+        "hi": "A, फेंक 1, 3, 5, … पर जीतता है: $P(A) = \\frac{1}{6} + \\left(\\frac{5}{6}\\right)^2\\frac{1}{6} + \\left(\\frac{5}{6}\\right)^4\\frac{1}{6} + \\cdots$, सार्व अनुपात $\\frac{25}{36}$ की अनंत गुणोत्तर श्रेणी। $P(A) = \\frac{1/6}{1 - 25/36} = \\frac{1}{6} \\cdot \\frac{36}{11} = \\frac{6}{11}$। अतः $p = 6$ (और B के जीतने की प्रायिकता $\\frac{5}{11}$ है — पहले फेंकना लाभदायक है)।"
+      }
+    }
+  ]
+}

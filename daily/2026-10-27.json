@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-27",
+  "questions": [
+    {
+      "id": "dd-2026-10-27-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The radius of a sphere is measured with a percentage error of 2%. The maximum percentage error in its calculated volume is:",
+        "hi": "एक गोले की त्रिज्या 2% प्रतिशत त्रुटि के साथ मापी जाती है। इसके परिकलित आयतन में अधिकतम प्रतिशत त्रुटि है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2%", "hi": "2%"}},
+        {"id": "B", "text": {"en": "6%", "hi": "6%"}},
+        {"id": "C", "text": {"en": "4%", "hi": "4%"}},
+        {"id": "D", "text": {"en": "8%", "hi": "8%"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$V = \\frac{4}{3}\\pi r^3$. For a product of powers, relative errors multiply by the powers: $\\frac{\\Delta V}{V} = 3\\frac{\\Delta r}{r} = 3 \\times 2\\% = 6\\%$. Constants like $\\frac{4}{3}\\pi$ carry no error.",
+        "hi": "$V = \\frac{4}{3}\\pi r^3$। घातों के गुणनफल में आपेक्षिक त्रुटि घात से गुणा होती है: $\\frac{\\Delta V}{V} = 3\\frac{\\Delta r}{r} = 3 \\times 2\\% = 6\\%$। $\\frac{4}{3}\\pi$ जैसे अचरों में कोई त्रुटि नहीं होती।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-02",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The critical angle for light travelling from glass of refractive index $\\sqrt{2}$ into air is:",
+        "hi": "$\\sqrt{2}$ अपवर्तनांक वाले काँच से वायु में जाने वाले प्रकाश के लिए क्रांतिक कोण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "30°", "hi": "30°"}},
+        {"id": "B", "text": {"en": "60°", "hi": "60°"}},
+        {"id": "C", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "D", "text": {"en": "90°", "hi": "90°"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "At the critical angle the refracted ray grazes the surface ($r = 90^\\circ$): $\\sin C = \\frac{1}{n} = \\frac{1}{\\sqrt{2}} \\Rightarrow C = 45^\\circ$. If the angle of incidence in glass exceeds $45^\\circ$, total internal reflection occurs. TIR is possible only when light goes from a denser to a rarer medium.",
+        "hi": "क्रांतिक कोण पर अपवर्तित किरण पृष्ठ को छूती हुई निकलती है ($r = 90^\\circ$): $\\sin C = \\frac{1}{n} = \\frac{1}{\\sqrt{2}} \\Rightarrow C = 45^\\circ$। यदि काँच में आपतन कोण $45^\\circ$ से अधिक हो, तो पूर्ण आंतरिक परावर्तन होता है। पूर्ण आंतरिक परावर्तन केवल सघन से विरल माध्यम में जाते समय संभव है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A river 100 m wide flows at 3 m/s. A boat whose speed relative to water is 5 m/s is steered perpendicular to the current (heading straight across). How far downstream (in m) from the starting point does it reach the opposite bank?",
+        "hi": "100 m चौड़ी एक नदी 3 m/s से बहती है। जल के सापेक्ष 5 m/s चाल वाली एक नाव को धारा के लंबवत (सीधे आर-पार) दिशा में चलाया जाता है। प्रारंभिक बिंदु से धारा की दिशा में कितनी दूरी (m में) पर यह दूसरे किनारे पर पहुँचती है?"
+      },
+      "options": [],
+      "correctAnswer": 60,
+      "solution": {
+        "en": "Only the boat's own velocity carries it across: $t = \\frac{100}{5} = 20$ s (this is also the minimum crossing time). Meanwhile the current carries it downstream by $3 \\times 20 = 60$ m. Compare: to land directly opposite, the boat must head upstream, its speed across becomes $\\sqrt{5^2 - 3^2} = 4$ m/s and it takes 25 s.",
+        "hi": "केवल नाव का अपना वेग उसे पार ले जाता है: $t = \\frac{100}{5} = 20$ s (यही न्यूनतम पार करने का समय भी है)। इस बीच धारा उसे $3 \\times 20 = 60$ m आगे बहा देती है। तुलना: ठीक सामने पहुँचने के लिए नाव को धारा के विपरीत मोड़ना पड़ता है, तब आर-पार चाल $\\sqrt{5^2 - 3^2} = 4$ m/s और समय 25 s होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-04",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which named reaction converts an alkyl chloride or bromide into an alkyl iodide by heating with NaI in dry acetone?",
+        "hi": "कौन-सी नामित अभिक्रिया शुष्क ऐसीटोन में NaI के साथ गर्म करके ऐल्किल क्लोराइड या ब्रोमाइड को ऐल्किल आयोडाइड में बदलती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Finkelstein reaction", "hi": "फ़िंकेलस्टाइन अभिक्रिया"}},
+        {"id": "B", "text": {"en": "Swarts reaction", "hi": "स्वार्ट्स अभिक्रिया"}},
+        {"id": "C", "text": {"en": "Wurtz reaction", "hi": "वुर्ट्ज़ अभिक्रिया"}},
+        {"id": "D", "text": {"en": "Sandmeyer reaction", "hi": "सैंडमेयर अभिक्रिया"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "R–Cl + NaI → R–I + NaCl (in dry acetone). NaCl and NaBr are insoluble in acetone and precipitate out, which drives the reaction forward (Le Chatelier). Swarts reaction makes alkyl fluorides (with AgF, Hg₂F₂, CoF₂ or SbF₃); Sandmeyer works on diazonium salts.",
+        "hi": "R–Cl + NaI → R–I + NaCl (शुष्क ऐसीटोन में)। NaCl और NaBr ऐसीटोन में अविलेय हैं और अवक्षेपित हो जाते हैं, जिससे अभिक्रिया आगे बढ़ती है (ला-शातैलिए)। स्वार्ट्स अभिक्रिया से ऐल्किल फ्लुओराइड बनते हैं (AgF, Hg₂F₂, CoF₂ या SbF₃ से); सैंडमेयर अभिक्रिया डाइऐज़ोनियम लवणों पर होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-05",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of radial nodes in a 3p orbital is:",
+        "hi": "3p कक्षक में त्रिज्य नोडों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0", "hi": "0"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Radial nodes $= n - l - 1$. For 3p, $n = 3$ and $l = 1$: $3 - 1 - 1 = 1$. Angular nodes $= l = 1$, so total nodes $= n - 1 = 2$. (Example: 3s has 2 radial nodes, 3d has none.)",
+        "hi": "त्रिज्य नोड $= n - l - 1$। 3p के लिए $n = 3$ और $l = 1$: $3 - 1 - 1 = 1$। कोणीय नोड $= l = 1$, अतः कुल नोड $= n - 1 = 2$। (उदाहरण: 3s में 2 त्रिज्य नोड हैं, 3d में कोई नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A buffer solution contains 0.01 M acetic acid and 0.1 M sodium acetate. Find its pH. (pKa of acetic acid = 4.74)",
+        "hi": "एक बफ़र विलयन में 0.01 M ऐसीटिक अम्ल और 0.1 M सोडियम ऐसीटेट है। इसका pH ज्ञात कीजिए। (ऐसीटिक अम्ल का pKa = 4.74)"
+      },
+      "options": [],
+      "correctAnswer": 5.74,
+      "solution": {
+        "en": "Henderson–Hasselbalch equation: $\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log\\frac{0.1}{0.01} = 4.74 + 1 = 5.74$. When [salt] = [acid], pH = pKa — that is where the buffer resists pH change best.",
+        "hi": "हेंडरसन–हैसलबाख समीकरण: $\\text{pH} = \\text{p}K_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]} = 4.74 + \\log\\frac{0.1}{0.01} = 4.74 + 1 = 5.74$। जब [लवण] = [अम्ल], तब pH = pKa — इसी स्थिति में बफ़र pH परिवर्तन का सबसे अच्छा प्रतिरोध करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For any two sets $A$ and $B$, $(A \\cup B)'$ is equal to:",
+        "hi": "किन्हीं दो समुच्चयों $A$ और $B$ के लिए $(A \\cup B)'$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A′ ∪ B′", "hi": "A′ ∪ B′"}},
+        {"id": "B", "text": {"en": "A ∩ B", "hi": "A ∩ B"}},
+        {"id": "C", "text": {"en": "A′ ∩ B", "hi": "A′ ∩ B"}},
+        {"id": "D", "text": {"en": "A′ ∩ B′", "hi": "A′ ∩ B′"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "De Morgan's law: the complement of a union is the intersection of the complements, $(A \\cup B)' = A' \\cap B'$. Similarly $(A \\cap B)' = A' \\cup B'$. An element is outside $A \\cup B$ exactly when it is outside both $A$ and $B$.",
+        "hi": "दे मॉर्गन नियम: सम्मिलन का पूरक, पूरकों का सर्वनिष्ठ होता है, $(A \\cup B)' = A' \\cap B'$। इसी प्रकार $(A \\cap B)' = A' \\cup B'$। कोई अवयव $A \\cup B$ से बाहर तभी होता है जब वह $A$ और $B$ दोनों से बाहर हो।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The number of solutions of $\\sin x = \\cos x$ in the interval $[0, 2\\pi]$ is:",
+        "hi": "अंतराल $[0, 2\\pi]$ में $\\sin x = \\cos x$ के हलों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2", "hi": "2"}},
+        {"id": "B", "text": {"en": "1", "hi": "1"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\sin x$ and $\\cos x$ are never both zero, so at a solution $\\cos x \\ne 0$ and we can divide: $\\tan x = 1 \\Rightarrow x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$ in $[0, 2\\pi]$ (the next one, $\\frac{9\\pi}{4}$, is beyond $2\\pi$). So there are 2 solutions.",
+        "hi": "$\\sin x$ और $\\cos x$ कभी एक साथ शून्य नहीं होते, अतः हल पर $\\cos x \\ne 0$ और हम भाग दे सकते हैं: $\\tan x = 1 \\Rightarrow [0, 2\\pi]$ में $x = \\frac{\\pi}{4}, \\frac{5\\pi}{4}$ (अगला हल $\\frac{9\\pi}{4}$, $2\\pi$ से बाहर है)। अतः 2 हल हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The distance between the parallel lines $3x + 4y = 5$ and $3x + 4y = 15$ is:",
+        "hi": "समांतर रेखाओं $3x + 4y = 5$ और $3x + 4y = 15$ के बीच की दूरी है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For $ax + by = c_1$ and $ax + by = c_2$: $d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}} = \\frac{|5 - 15|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$. First make sure the coefficients of $x$ and $y$ are identical in both equations.",
+        "hi": "$ax + by = c_1$ और $ax + by = c_2$ के लिए: $d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}} = \\frac{|5 - 15|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$। पहले सुनिश्चित करें कि दोनों समीकरणों में $x$ और $y$ के गुणांक समान हों।"
+      }
+    },
+    {
+      "id": "dd-2026-10-27-10",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the remainder when $5^{99}$ is divided by 13.",
+        "hi": "$5^{99}$ को 13 से भाग देने पर शेषफल ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "$5^{99} = 5 \\cdot (5^2)^{49} = 5(26 - 1)^{49}$. In the binomial expansion of $(26 - 1)^{49}$, every term except the last contains a power of 26 (a multiple of 13), so $(26 - 1)^{49} = 13k - 1$. Then $5^{99} = 65k - 5 = 13(5k - 1) + 8$. Remainder $= 8$.",
+        "hi": "$5^{99} = 5 \\cdot (5^2)^{49} = 5(26 - 1)^{49}$। $(26 - 1)^{49}$ के द्विपद प्रसार में अंतिम पद को छोड़कर हर पद में 26 की घात (13 का गुणज) है, अतः $(26 - 1)^{49} = 13k - 1$। तब $5^{99} = 65k - 5 = 13(5k - 1) + 8$। शेषफल $= 8$।"
+      }
+    }
+  ]
+}

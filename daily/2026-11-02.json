@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-02",
+  "questions": [
+    {
+      "id": "dd-2026-11-02-01",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Kirchhoff's junction rule (first law) is based on the law of conservation of:",
+        "hi": "किरखॉफ़ का संधि नियम (प्रथम नियम) किसके संरक्षण के नियम पर आधारित है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Charge", "hi": "आवेश"}},
+        {"id": "B", "text": {"en": "Energy", "hi": "ऊर्जा"}},
+        {"id": "C", "text": {"en": "Momentum", "hi": "संवेग"}},
+        {"id": "D", "text": {"en": "Mass", "hi": "द्रव्यमान"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Junction rule: $\\Sigma I = 0$ at any junction — the current entering equals the current leaving, because charge cannot pile up at a point. Kirchhoff's loop rule ($\\Sigma V = 0$ around a closed loop) is based on conservation of energy.",
+        "hi": "संधि नियम: किसी भी संधि पर $\\Sigma I = 0$ — प्रवेश करने वाली धारा, निकलने वाली धारा के बराबर होती है, क्योंकि किसी बिंदु पर आवेश एकत्र नहीं हो सकता। किरखॉफ़ का पाश नियम (बंद पाश में $\\Sigma V = 0$) ऊर्जा संरक्षण पर आधारित है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-02",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The time period of revolution of a charged particle moving perpendicular to a uniform magnetic field (as in a cyclotron):",
+        "hi": "एकसमान चुंबकीय क्षेत्र के लंबवत गतिमान आवेशित कण का परिक्रमण आवर्तकाल (जैसे साइक्लोट्रॉन में):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increases with its speed", "hi": "उसकी चाल के साथ बढ़ता है"}},
+        {"id": "B", "text": {"en": "Decreases with its speed", "hi": "उसकी चाल के साथ घटता है"}},
+        {"id": "C", "text": {"en": "Is proportional to the radius of its path", "hi": "उसके पथ की त्रिज्या के अनुक्रमानुपाती होता है"}},
+        {"id": "D", "text": {"en": "Is independent of its speed", "hi": "उसकी चाल से स्वतंत्र होता है"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$r = \\frac{mv}{qB}$, so $T = \\frac{2\\pi r}{v} = \\frac{2\\pi m}{qB}$ — the speed cancels. A faster particle moves on a bigger circle but takes the same time per revolution. This is why a cyclotron can use a fixed-frequency oscillator, $f = \\frac{qB}{2\\pi m}$ (valid at non-relativistic speeds).",
+        "hi": "$r = \\frac{mv}{qB}$, अतः $T = \\frac{2\\pi r}{v} = \\frac{2\\pi m}{qB}$ — चाल निरस्त हो जाती है। तेज़ कण बड़े वृत्त पर चलता है, परंतु प्रति परिक्रमण उतना ही समय लेता है। इसी कारण साइक्लोट्रॉन में नियत आवृत्ति का दोलित्र प्रयुक्त होता है, $f = \\frac{qB}{2\\pi m}$ (अनापेक्षिकीय चालों पर मान्य)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-03",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A convex lens of focal length 20 cm and a concave lens of focal length 40 cm are placed in contact. Find the power (in dioptre) of the combination.",
+        "hi": "20 cm फोकस दूरी का एक उत्तल लेंस और 40 cm फोकस दूरी का एक अवतल लेंस संपर्क में रखे हैं। संयोजन की क्षमता (डायॉप्टर में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2.5,
+      "solution": {
+        "en": "Power $P = \\frac{1}{f}$ with $f$ in metres; convex is positive, concave negative. $P_1 = \\frac{1}{0.20} = +5$ D, $P_2 = -\\frac{1}{0.40} = -2.5$ D. For lenses in contact, powers add: $P = 5 - 2.5 = +2.5$ D. The combination is converging, with $f = \\frac{1}{2.5}$ m $= 40$ cm.",
+        "hi": "क्षमता $P = \\frac{1}{f}$, जहाँ $f$ मीटर में; उत्तल धनात्मक, अवतल ऋणात्मक। $P_1 = \\frac{1}{0.20} = +5$ D, $P_2 = -\\frac{1}{0.40} = -2.5$ D। संपर्क में रखे लेंसों की क्षमताएँ जुड़ती हैं: $P = 5 - 2.5 = +2.5$ D। संयोजन अभिसारी है, $f = \\frac{1}{2.5}$ m $= 40$ cm।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following molecules is linear?",
+        "hi": "निम्नलिखित में से कौन-सा अणु रैखिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "H₂O", "hi": "H₂O"}},
+        {"id": "B", "text": {"en": "SO₂", "hi": "SO₂"}},
+        {"id": "C", "text": {"en": "BeCl₂", "hi": "BeCl₂"}},
+        {"id": "D", "text": {"en": "O₃", "hi": "O₃"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In BeCl₂, Be has 2 bond pairs and no lone pair, so it is sp hybridised and linear (180°). H₂O (2 lone pairs), SO₂ (1 lone pair) and O₃ (1 lone pair on the central O) are all bent, because lone pairs push the bonds together.",
+        "hi": "BeCl₂ में Be पर 2 आबंध युग्म हैं और कोई एकाकी युग्म नहीं, अतः यह sp संकरित और रैखिक (180°) है। H₂O (2 एकाकी युग्म), SO₂ (1 एकाकी युग्म) और O₃ (केंद्रीय O पर 1 एकाकी युग्म) सभी बंकित हैं, क्योंकि एकाकी युग्म आबंधों को पास धकेलते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "On diluting the solution of an electrolyte:",
+        "hi": "किसी वैद्युतअपघट्य के विलयन को तनु करने पर:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Both κ and Λm increase", "hi": "κ और Λm दोनों बढ़ती हैं"}},
+        {"id": "B", "text": {"en": "Both κ and Λm decrease", "hi": "κ और Λm दोनों घटती हैं"}},
+        {"id": "C", "text": {"en": "Conductivity (κ) decreases but molar conductivity (Λm) increases", "hi": "चालकता (κ) घटती है परंतु मोलर चालकता (Λm) बढ़ती है"}},
+        {"id": "D", "text": {"en": "κ increases but Λm decreases", "hi": "κ बढ़ती है परंतु Λm घटती है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Conductivity κ is the conductance of a unit volume of solution; on dilution there are fewer ions per unit volume, so κ falls. Molar conductivity $\\Lambda_m = \\frac{\\kappa}{c}$ counts the ions from one whole mole; on dilution interionic attraction weakens (and weak electrolytes dissociate more), so $\\Lambda_m$ rises. For strong electrolytes: $\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{c}$.",
+        "hi": "चालकता κ विलयन के इकाई आयतन का चालकत्व है; तनु करने पर प्रति इकाई आयतन आयन कम होते हैं, अतः κ घटती है। मोलर चालकता $\\Lambda_m = \\frac{\\kappa}{c}$ पूरे एक मोल से बने आयनों को गिनती है; तनु करने पर अंतरआयनिक आकर्षण दुर्बल होता है (और दुर्बल वैद्युतअपघट्य अधिक वियोजित होते हैं), अतः $\\Lambda_m$ बढ़ती है। प्रबल वैद्युतअपघट्यों के लिए: $\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{c}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of unpaired electrons in the complex ion [CoF₆]³⁻.",
+        "hi": "संकुल आयन [CoF₆]³⁻ में अयुग्मित इलेक्ट्रॉनों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "Co³⁺ is 3d⁶. F⁻ is a weak-field ligand, so the crystal field splitting is small and the complex is high-spin: t₂g⁴ e_g², with 4 unpaired electrons (sp³d², outer-orbital complex, paramagnetic, $\\mu \\approx 4.9$ BM). Contrast [Co(NH₃)₆]³⁺: NH₃ is stronger, giving low-spin t₂g⁶ with 0 unpaired electrons (d²sp³, diamagnetic).",
+        "hi": "Co³⁺ का विन्यास 3d⁶ है। F⁻ दुर्बल क्षेत्र लिगैंड है, अतः क्रिस्टल क्षेत्र विपाटन कम है और संकुल उच्च-चक्रण है: t₂g⁴ e_g², जिसमें 4 अयुग्मित इलेक्ट्रॉन हैं (sp³d², बाह्य कक्षक संकुल, अनुचुंबकीय, $\\mu \\approx 4.9$ BM)। तुलना: [Co(NH₃)₆]³⁺ में NH₃ प्रबल है, जिससे निम्न-चक्रण t₂g⁶ और 0 अयुग्मित इलेक्ट्रॉन मिलते हैं (d²sp³, प्रतिचुंबकीय)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-07",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "For all real $x$, $\\tan^{-1}x + \\cot^{-1}x$ is equal to:",
+        "hi": "सभी वास्तविक $x$ के लिए $\\tan^{-1}x + \\cot^{-1}x$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π", "hi": "π"}},
+        {"id": "B", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "C", "text": {"en": "π/4", "hi": "π/4"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Standard identity: $\\tan^{-1}x + \\cot^{-1}x = \\frac{\\pi}{2}$ for all $x \\in \\mathbb{R}$. Check with $x = 1$: $\\frac{\\pi}{4} + \\frac{\\pi}{4} = \\frac{\\pi}{2}$. Similar identities: $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$ and $\\sec^{-1}x + \\text{cosec}^{-1}x = \\frac{\\pi}{2}$.",
+        "hi": "मानक सर्वसमिका: सभी $x \\in \\mathbb{R}$ के लिए $\\tan^{-1}x + \\cot^{-1}x = \\frac{\\pi}{2}$। $x = 1$ से जाँच: $\\frac{\\pi}{4} + \\frac{\\pi}{4} = \\frac{\\pi}{2}$। समान सर्वसमिकाएँ: $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$ और $\\sec^{-1}x + \\text{cosec}^{-1}x = \\frac{\\pi}{2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-08",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "$\\int x e^x\\,dx$ is equal to:",
+        "hi": "$\\int x e^x\\,dx$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "eˣ(x − 1) + C", "hi": "eˣ(x − 1) + C"}},
+        {"id": "B", "text": {"en": "eˣ(x + 1) + C", "hi": "eˣ(x + 1) + C"}},
+        {"id": "C", "text": {"en": "x²eˣ/2 + C", "hi": "x²eˣ/2 + C"}},
+        {"id": "D", "text": {"en": "xeˣ + C", "hi": "xeˣ + C"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Integration by parts (ILATE: take $u = x$, $dv = e^x\\,dx$): $\\int xe^x\\,dx = xe^x - \\int e^x\\,dx = xe^x - e^x + C = e^x(x - 1) + C$. Check by differentiating: $\\frac{d}{dx}[e^x(x - 1)] = e^x(x - 1) + e^x = xe^x$ ✓.",
+        "hi": "खंडशः समाकलन (ILATE: $u = x$, $dv = e^x\\,dx$ लें): $\\int xe^x\\,dx = xe^x - \\int e^x\\,dx = xe^x - e^x + C = e^x(x - 1) + C$। अवकलन से जाँच: $\\frac{d}{dx}[e^x(x - 1)] = e^x(x - 1) + e^x = xe^x$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-09",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The minimum value of $f(x) = x^2 - 6x + 10$ is:",
+        "hi": "$f(x) = x^2 - 6x + 10$ का न्यूनतम मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "10", "hi": "10"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$f'(x) = 2x - 6 = 0 \\Rightarrow x = 3$, and $f''(x) = 2 > 0$, so $x = 3$ gives the minimum: $f(3) = 9 - 18 + 10 = 1$. Completing the square confirms it: $f(x) = (x - 3)^2 + 1 \\ge 1$. (3 is where the minimum occurs, not the minimum value.)",
+        "hi": "$f'(x) = 2x - 6 = 0 \\Rightarrow x = 3$, और $f''(x) = 2 > 0$, अतः $x = 3$ पर न्यूनतम है: $f(3) = 9 - 18 + 10 = 1$। पूर्ण वर्ग से पुष्टि: $f(x) = (x - 3)^2 + 1 \\ge 1$। (3 वह बिंदु है जहाँ न्यूनतम होता है, न्यूनतम मान नहीं।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-02-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "There are 10 points in a plane, of which exactly 4 are collinear, and no other three points are collinear. Find the number of triangles that can be formed with these points as vertices.",
+        "hi": "एक तल में 10 बिंदु हैं, जिनमें से ठीक 4 संरेख हैं, और कोई अन्य तीन बिंदु संरेख नहीं हैं। इन बिंदुओं को शीर्ष मानकर बनने वाले त्रिभुजों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 116,
+      "solution": {
+        "en": "Any 3 points form a triangle unless they are collinear. Total selections ${}^{10}C_3 = 120$. Selections of 3 points from the 4 collinear points give no triangle: ${}^4C_3 = 4$. Triangles $= 120 - 4 = 116$.",
+        "hi": "कोई भी 3 बिंदु त्रिभुज बनाते हैं जब तक वे संरेख न हों। कुल चयन ${}^{10}C_3 = 120$। 4 संरेख बिंदुओं में से 3 के चयन से त्रिभुज नहीं बनता: ${}^4C_3 = 4$। त्रिभुज $= 120 - 4 = 116$।"
+      }
+    }
+  ]
+}

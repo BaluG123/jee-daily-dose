@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-31",
+  "questions": [
+    {
+      "id": "dd-2026-10-31-01",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The time period of a geostationary satellite is:",
+        "hi": "भूस्थिर उपग्रह का आवर्तकाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "12 hours", "hi": "12 घंटे"}},
+        {"id": "B", "text": {"en": "1 hour", "hi": "1 घंटा"}},
+        {"id": "C", "text": {"en": "24 hours", "hi": "24 घंटे"}},
+        {"id": "D", "text": {"en": "365 days", "hi": "365 दिन"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A geostationary satellite stays above the same point on the equator, so it must revolve with the Earth's rotation: period 24 hours, in the equatorial plane, moving west to east. This requires a height of about 36,000 km above the surface. Such satellites are used for communication and weather monitoring.",
+        "hi": "भूस्थिर उपग्रह विषुवत रेखा के एक ही बिंदु के ऊपर बना रहता है, अतः इसे पृथ्वी के घूर्णन के साथ घूमना होता है: आवर्तकाल 24 घंटे, विषुवतीय तल में, पश्चिम से पूर्व की ओर। इसके लिए सतह से लगभग 36,000 km की ऊँचाई चाहिए। ऐसे उपग्रह संचार और मौसम निगरानी में प्रयुक्त होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-02",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The electric field due to a uniformly charged infinite plane sheet (surface charge density $\\sigma$) at a distance $r$ from it:",
+        "hi": "एकसमान आवेशित अनंत समतल चादर (पृष्ठ आवेश घनत्व $\\sigma$) के कारण उससे $r$ दूरी पर विद्युत क्षेत्र:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Is proportional to 1/r", "hi": "1/r के अनुक्रमानुपाती है"}},
+        {"id": "B", "text": {"en": "Is proportional to 1/r²", "hi": "1/r² के अनुक्रमानुपाती है"}},
+        {"id": "C", "text": {"en": "Is proportional to r", "hi": "r के अनुक्रमानुपाती है"}},
+        {"id": "D", "text": {"en": "Is σ/(2ε₀), independent of r", "hi": "σ/(2ε₀) है, r से स्वतंत्र"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Take a cylindrical Gaussian surface crossing the sheet: flux $= E \\cdot 2A = \\frac{\\sigma A}{\\varepsilon_0} \\Rightarrow E = \\frac{\\sigma}{2\\varepsilon_0}$, the same at every distance. Compare: infinite line charge $E = \\frac{\\lambda}{2\\pi\\varepsilon_0 r} \\propto \\frac{1}{r}$; point charge $\\propto \\frac{1}{r^2}$.",
+        "hi": "चादर को पार करता एक बेलनाकार गाउसीय पृष्ठ लें: फ्लक्स $= E \\cdot 2A = \\frac{\\sigma A}{\\varepsilon_0} \\Rightarrow E = \\frac{\\sigma}{2\\varepsilon_0}$, जो हर दूरी पर समान है। तुलना: अनंत रैखिक आवेश $E = \\frac{\\lambda}{2\\pi\\varepsilon_0 r} \\propto \\frac{1}{r}$; बिंदु आवेश $\\propto \\frac{1}{r^2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-03",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A man of mass 60 kg stands on a weighing machine (calibrated in newtons) inside a lift that is accelerating upward at 2 m/s². Find the reading (in N) of the machine. (Take $g = 10\\text{ m/s}^2$)",
+        "hi": "60 kg द्रव्यमान का एक व्यक्ति 2 m/s² से ऊपर की ओर त्वरित होती लिफ़्ट में एक तोलन मशीन (न्यूटन में अंशांकित) पर खड़ा है। मशीन का पाठ्यांक (N में) ज्ञात कीजिए। ($g = 10\\text{ m/s}^2$ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 720,
+      "solution": {
+        "en": "The machine reads the normal force $N$. Newton's second law for the man (upward positive): $N - mg = ma \\Rightarrow N = m(g + a) = 60(10 + 2) = 720$ N. Accelerating downward at 2 m/s² it would read $60(10 - 2) = 480$ N; in free fall it reads 0 (weightlessness).",
+        "hi": "मशीन अभिलंब बल $N$ पढ़ती है। व्यक्ति के लिए न्यूटन का द्वितीय नियम (ऊपर धनात्मक): $N - mg = ma \\Rightarrow N = m(g + a) = 60(10 + 2) = 720$ N। 2 m/s² से नीचे त्वरित होने पर पाठ्यांक $60(10 - 2) = 480$ N होता; मुक्त पतन में 0 (भारहीनता)।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-04",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is an ambidentate ligand?",
+        "hi": "निम्नलिखित में से कौन-सा उभयदंती (ambidentate) लिगैंड है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "NH₃", "hi": "NH₃"}},
+        {"id": "B", "text": {"en": "H₂O", "hi": "H₂O"}},
+        {"id": "C", "text": {"en": "NO₂⁻", "hi": "NO₂⁻"}},
+        {"id": "D", "text": {"en": "C₂O₄²⁻", "hi": "C₂O₄²⁻"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "An ambidentate ligand can bind through either of two different donor atoms, but only one at a time. NO₂⁻ binds through N (nitro, –NO₂) or through O (nitrito, –ONO); SCN⁻ (S or N) and CN⁻ (C or N) are other examples. This gives rise to linkage isomerism. Oxalate is bidentate, not ambidentate.",
+        "hi": "उभयदंती लिगैंड दो भिन्न दाता परमाणुओं में से किसी एक से जुड़ सकता है, परंतु एक समय में केवल एक से। NO₂⁻, N द्वारा (नाइट्रो, –NO₂) या O द्वारा (नाइट्राइटो, –ONO) जुड़ता है; SCN⁻ (S या N) और CN⁻ (C या N) अन्य उदाहरण हैं। इससे बंधनी समावयवता उत्पन्न होती है। ऑक्सेलेट द्विदंतुर है, उभयदंती नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-05",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "With Lucas reagent (conc. HCl + anhydrous ZnCl₂) at room temperature, which alcohol produces turbidity immediately?",
+        "hi": "कमरे के ताप पर ल्यूकास अभिकर्मक (सांद्र HCl + निर्जल ZnCl₂) के साथ कौन-सा ऐल्कोहॉल तुरंत आविलता (धुंधलापन) देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Butan-2-ol", "hi": "ब्यूटेन-2-ऑल"}},
+        {"id": "B", "text": {"en": "Butan-1-ol", "hi": "ब्यूटेन-1-ऑल"}},
+        {"id": "C", "text": {"en": "Methanol", "hi": "मेथेनॉल"}},
+        {"id": "D", "text": {"en": "2-Methylpropan-2-ol", "hi": "2-मेथिलप्रोपेन-2-ऑल"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The Lucas test proceeds through a carbocation (SN1). A 3° alcohol such as 2-methylpropan-2-ol forms the most stable carbocation, so the insoluble alkyl chloride separates at once (turbidity). 2° alcohols take about 5 minutes; 1° alcohols give no turbidity at room temperature. This distinguishes 1°, 2° and 3° alcohols.",
+        "hi": "ल्यूकास परीक्षण कार्बधनायन (SN1) के माध्यम से होता है। 2-मेथिलप्रोपेन-2-ऑल जैसा 3° ऐल्कोहॉल सबसे स्थायी कार्बधनायन बनाता है, अतः अविलेय ऐल्किल क्लोराइड तुरंत अलग हो जाता है (आविलता)। 2° ऐल्कोहॉल लगभग 5 मिनट लेते हैं; 1° ऐल्कोहॉल कमरे के ताप पर आविलता नहीं देते। इससे 1°, 2° और 3° ऐल्कोहॉलों में अंतर किया जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For a first-order reaction, find the ratio of the time required for 99% completion to the time required for 90% completion.",
+        "hi": "एक प्रथम कोटि की अभिक्रिया के लिए 99% पूर्ण होने में लगे समय और 90% पूर्ण होने में लगे समय का अनुपात ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "$t = \\frac{2.303}{k}\\log\\frac{[A]_0}{[A]}$. For 99%: $[A] = \\frac{[A]_0}{100}$, so $t_{99} = \\frac{2.303}{k}\\log 100 = \\frac{2.303}{k} \\times 2$. For 90%: $t_{90} = \\frac{2.303}{k}\\log 10 = \\frac{2.303}{k}$. Ratio $= 2$. Going from 90% to 99% takes as long as reaching 90% in the first place.",
+        "hi": "$t = \\frac{2.303}{k}\\log\\frac{[A]_0}{[A]}$। 99% के लिए $[A] = \\frac{[A]_0}{100}$, अतः $t_{99} = \\frac{2.303}{k}\\log 100 = \\frac{2.303}{k} \\times 2$। 90% के लिए $t_{90} = \\frac{2.303}{k}\\log 10 = \\frac{2.303}{k}$। अनुपात $= 2$। 90% से 99% तक पहुँचने में उतना ही समय लगता है जितना 90% तक पहुँचने में।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-07",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Three fair coins are tossed together. The probability of getting exactly two heads is:",
+        "hi": "तीन निष्पक्ष सिक्के एक साथ उछाले जाते हैं। ठीक दो चित (head) आने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "3/8", "hi": "3/8"}},
+        {"id": "C", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "D", "text": {"en": "7/8", "hi": "7/8"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Total outcomes $= 2^3 = 8$. Exactly two heads: HHT, HTH, THH = 3 outcomes. $P = \\frac{3}{8}$. (Binomial form: ${}^3C_2\\left(\\frac{1}{2}\\right)^3 = \\frac{3}{8}$.)",
+        "hi": "कुल परिणाम $= 2^3 = 8$। ठीक दो चित: HHT, HTH, THH = 3 परिणाम। $P = \\frac{3}{8}$। (द्विपद रूप: ${}^3C_2\\left(\\frac{1}{2}\\right)^3 = \\frac{3}{8}$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-08",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ is a skew-symmetric matrix of order 3, then $|A|$ is:",
+        "hi": "यदि $A$ कोटि 3 का विषम-सममित आव्यूह है, तो $|A|$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "D", "text": {"en": "Any real number", "hi": "कोई भी वास्तविक संख्या"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$A^T = -A$. Taking determinants: $|A| = |A^T| = |-A| = (-1)^3|A| = -|A|$, so $2|A| = 0 \\Rightarrow |A| = 0$. This holds for every skew-symmetric matrix of odd order. (For even order it need not be zero, e.g. $\\begin{vmatrix} 0 & 1 \\\\ -1 & 0 \\end{vmatrix} = 1$.)",
+        "hi": "$A^T = -A$। सारणिक लेने पर: $|A| = |A^T| = |-A| = (-1)^3|A| = -|A|$, अतः $2|A| = 0 \\Rightarrow |A| = 0$। यह विषम कोटि के हर विषम-सममित आव्यूह के लिए सत्य है। (सम कोटि में आवश्यक नहीं, जैसे $\\begin{vmatrix} 0 & 1 \\\\ -1 & 0 \\end{vmatrix} = 1$।)"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-09",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $x = at^2$ and $y = 2at$, then $\\frac{dy}{dx}$ is:",
+        "hi": "यदि $x = at^2$ और $y = 2at$ है, तो $\\frac{dy}{dx}$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/t", "hi": "1/t"}},
+        {"id": "B", "text": {"en": "t", "hi": "t"}},
+        {"id": "C", "text": {"en": "2t", "hi": "2t"}},
+        {"id": "D", "text": {"en": "1/(2t)", "hi": "1/(2t)"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Parametric differentiation: $\\frac{dx}{dt} = 2at$, $\\frac{dy}{dt} = 2a$, so $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{2a}{2at} = \\frac{1}{t}$. These are the parametric equations of the parabola $y^2 = 4ax$, so $\\frac{1}{t}$ is the slope of the tangent at the point '$t$'.",
+        "hi": "प्राचलिक अवकलन: $\\frac{dx}{dt} = 2at$, $\\frac{dy}{dt} = 2a$, अतः $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{2a}{2at} = \\frac{1}{t}$। ये परवलय $y^2 = 4ax$ के प्राचलिक समीकरण हैं, अतः $\\frac{1}{t}$ बिंदु '$t$' पर स्पर्श रेखा का ढाल है।"
+      }
+    },
+    {
+      "id": "dd-2026-10-31-10",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Evaluate $\\int_0^{\\pi} |\\cos x|\\,dx$.",
+        "hi": "$\\int_0^{\\pi} |\\cos x|\\,dx$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "$\\cos x \\ge 0$ on $\\left[0, \\frac{\\pi}{2}\\right]$ and $\\le 0$ on $\\left[\\frac{\\pi}{2}, \\pi\\right]$. So $\\int_0^{\\pi}|\\cos x|\\,dx = \\int_0^{\\pi/2}\\cos x\\,dx - \\int_{\\pi/2}^{\\pi}\\cos x\\,dx = [\\sin x]_0^{\\pi/2} - [\\sin x]_{\\pi/2}^{\\pi} = 1 - (0 - 1) = 2$. Trap: without the modulus, $\\int_0^{\\pi}\\cos x\\,dx = 0$ — the areas cancel.",
+        "hi": "$\\left[0, \\frac{\\pi}{2}\\right]$ पर $\\cos x \\ge 0$ और $\\left[\\frac{\\pi}{2}, \\pi\\right]$ पर $\\le 0$। अतः $\\int_0^{\\pi}|\\cos x|\\,dx = \\int_0^{\\pi/2}\\cos x\\,dx - \\int_{\\pi/2}^{\\pi}\\cos x\\,dx = [\\sin x]_0^{\\pi/2} - [\\sin x]_{\\pi/2}^{\\pi} = 1 - (0 - 1) = 2$। ध्यान दें: मापांक के बिना $\\int_0^{\\pi}\\cos x\\,dx = 0$ — क्षेत्रफल निरस्त हो जाते हैं।"
+      }
+    }
+  ]
+}
