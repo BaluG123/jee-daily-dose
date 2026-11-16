@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-06",
+  "questions": [
+    {
+      "id": "dd-2026-11-06-01",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The wavefront of light reaching us from a very distant point source (such as a star) is:",
+        "hi": "किसी बहुत दूर स्थित बिंदु स्रोत (जैसे तारे) से हम तक पहुँचने वाले प्रकाश का तरंगाग्र होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Spherical", "hi": "गोलीय"}},
+        {"id": "B", "text": {"en": "Plane", "hi": "समतल"}},
+        {"id": "C", "text": {"en": "Cylindrical", "hi": "बेलनाकार"}},
+        {"id": "D", "text": {"en": "Elliptical", "hi": "दीर्घवृत्तीय"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A point source emits spherical wavefronts. Far from the source the radius becomes so large that a small part of the sphere is practically flat, so the wavefront is plane and the rays are parallel. A linear source (like a slit) gives cylindrical wavefronts. Rays are always perpendicular to the wavefront.",
+        "hi": "बिंदु स्रोत गोलीय तरंगाग्र उत्सर्जित करता है। स्रोत से बहुत दूर त्रिज्या इतनी बड़ी हो जाती है कि गोले का छोटा भाग व्यावहारिक रूप से समतल होता है, अतः तरंगाग्र समतल और किरणें समांतर होती हैं। रैखिक स्रोत (जैसे झिरी) बेलनाकार तरंगाग्र देता है। किरणें सदैव तरंगाग्र के लंबवत होती हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-02",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Kepler's second law (a planet sweeps out equal areas in equal times) is a consequence of the conservation of:",
+        "hi": "केप्लर का द्वितीय नियम (ग्रह समान समय में समान क्षेत्रफल तय करता है) किसके संरक्षण का परिणाम है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Linear momentum", "hi": "रैखिक संवेग"}},
+        {"id": "B", "text": {"en": "Kinetic energy", "hi": "गतिज ऊर्जा"}},
+        {"id": "C", "text": {"en": "Angular momentum", "hi": "कोणीय संवेग"}},
+        {"id": "D", "text": {"en": "Mass", "hi": "द्रव्यमान"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Gravity on a planet points towards the Sun (a central force), so its torque about the Sun is zero and angular momentum $L$ is conserved. Areal velocity $\\frac{dA}{dt} = \\frac{L}{2m}$ is therefore constant. Consequence: a planet moves fastest at perihelion (closest) and slowest at aphelion. Its kinetic energy is not constant.",
+        "hi": "ग्रह पर गुरुत्व सूर्य की ओर (केंद्रीय बल) होता है, अतः सूर्य के परितः इसका बल आघूर्ण शून्य है और कोणीय संवेग $L$ संरक्षित रहता है। इसलिए क्षेत्रीय वेग $\\frac{dA}{dt} = \\frac{L}{2m}$ नियत है। परिणाम: ग्रह उपसौर (सबसे निकट) पर सबसे तेज़ और अपसौर पर सबसे धीमा चलता है। इसकी गतिज ऊर्जा नियत नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-03",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A coin lies at the bottom of a tank filled with water to a depth of 20 cm. Viewed from directly above, at what depth (in cm) does the coin appear to be? (Refractive index of water = 4/3)",
+        "hi": "20 cm गहराई तक जल से भरे टैंक की तली में एक सिक्का पड़ा है। ठीक ऊपर से देखने पर सिक्का कितनी गहराई (cm में) पर दिखाई देता है? (जल का अपवर्तनांक = 4/3)"
+      },
+      "options": [],
+      "correctAnswer": 15,
+      "solution": {
+        "en": "For near-normal viewing, apparent depth $= \\frac{\\text{real depth}}{n} = \\frac{20}{4/3} = 15$ cm. The coin appears raised by $20 - 15 = 5$ cm. This is why pools look shallower than they are.",
+        "hi": "लगभग अभिलंब दिशा से देखने पर आभासी गहराई $= \\frac{\\text{real depth}}{n} = \\frac{20}{4/3} = 15$ cm। सिक्का $20 - 15 = 5$ cm ऊपर उठा दिखता है। इसी कारण तालाब वास्तविकता से उथले दिखते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-04",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "According to Pauli's exclusion principle:",
+        "hi": "पाउली के अपवर्जन सिद्धांत के अनुसार:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Electrons fill orbitals in increasing order of energy", "hi": "इलेक्ट्रॉन ऊर्जा के बढ़ते क्रम में कक्षकों को भरते हैं"}},
+        {"id": "B", "text": {"en": "Pairing in degenerate orbitals starts only after each has one electron", "hi": "समऊर्जी कक्षकों में युग्मन तभी होता है जब प्रत्येक में एक इलेक्ट्रॉन हो"}},
+        {"id": "C", "text": {"en": "The position and momentum of an electron cannot both be known exactly", "hi": "इलेक्ट्रॉन की स्थिति और संवेग दोनों ठीक-ठीक ज्ञात नहीं हो सकते"}},
+        {"id": "D", "text": {"en": "No two electrons in an atom can have the same set of all four quantum numbers", "hi": "किसी परमाणु में कोई भी दो इलेक्ट्रॉन चारों क्वांटम संख्याओं का समान समुच्चय नहीं रख सकते"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Pauli: no two electrons in an atom can have identical values of all four quantum numbers ($n, l, m_l, m_s$). So one orbital holds at most 2 electrons, with opposite spins. The other statements are the Aufbau principle, Hund's rule and Heisenberg's uncertainty principle.",
+        "hi": "पाउली: किसी परमाणु में कोई भी दो इलेक्ट्रॉन चारों क्वांटम संख्याओं ($n, l, m_l, m_s$) के समान मान नहीं रख सकते। अतः एक कक्षक में अधिकतम 2 इलेक्ट्रॉन, विपरीत चक्रण के साथ, होते हैं। अन्य कथन आउफ़बाउ सिद्धांत, हुंड का नियम और हाइज़ेनबर्ग का अनिश्चितता सिद्धांत हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-05",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The quantity of electricity needed to deposit 1 mol of aluminium from a solution of Al³⁺ ions is:",
+        "hi": "Al³⁺ आयनों के विलयन से 1 mol ऐलुमिनियम निक्षेपित करने के लिए आवश्यक विद्युत की मात्रा है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1 F", "hi": "1 F"}},
+        {"id": "B", "text": {"en": "2 F", "hi": "2 F"}},
+        {"id": "C", "text": {"en": "3 F", "hi": "3 F"}},
+        {"id": "D", "text": {"en": "6 F", "hi": "6 F"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Al³⁺ + 3e⁻ → Al. One mole of Al needs 3 mol of electrons, i.e. 3 F $= 3 \\times 96500 = 289500$ C. (1 F, the faraday, is the charge of 1 mol of electrons.) For comparison, 1 mol Ag⁺ needs 1 F and 1 mol Cu²⁺ needs 2 F.",
+        "hi": "Al³⁺ + 3e⁻ → Al। एक मोल Al के लिए 3 mol इलेक्ट्रॉन चाहिए, अर्थात 3 F $= 3 \\times 96500 = 289500$ C। (1 F, फैराडे, 1 mol इलेक्ट्रॉनों का आवेश है।) तुलना: 1 mol Ag⁺ के लिए 1 F और 1 mol Cu²⁺ के लिए 2 F चाहिए।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-06",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Formaldehyde (HCHO), on heating with concentrated NaOH solution, gives:",
+        "hi": "फ़ॉर्मैल्डिहाइड (HCHO) को सांद्र NaOH विलयन के साथ गर्म करने पर प्राप्त होते हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "An aldol product", "hi": "एक ऐल्डॉल उत्पाद"}},
+        {"id": "B", "text": {"en": "Methanol only", "hi": "केवल मेथेनॉल"}},
+        {"id": "C", "text": {"en": "Sodium acetate and methanol", "hi": "सोडियम ऐसीटेट और मेथेनॉल"}},
+        {"id": "D", "text": {"en": "Methanol and sodium formate", "hi": "मेथेनॉल और सोडियम फ़ॉर्मेट"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "HCHO has no α-hydrogen, so it cannot undergo aldol condensation. Instead it undergoes the Cannizzaro reaction (self oxidation–reduction): 2HCHO + NaOH → CH₃OH + HCOONa. One molecule is reduced to methanol and the other is oxidised to sodium formate. Benzaldehyde behaves the same way.",
+        "hi": "HCHO में α-हाइड्रोजन नहीं है, अतः यह ऐल्डॉल संघनन नहीं कर सकता। इसके बजाय यह कैनिज़ारो अभिक्रिया (स्व ऑक्सीकरण–अपचयन) देता है: 2HCHO + NaOH → CH₃OH + HCOONa। एक अणु मेथेनॉल में अपचयित और दूसरा सोडियम फ़ॉर्मेट में ऑक्सीकृत होता है। बेन्ज़ैल्डिहाइड भी ऐसा ही व्यवहार करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-07",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The multiplicative inverse of $i$ is:",
+        "hi": "$i$ का गुणात्मक प्रतिलोम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−i", "hi": "−i"}},
+        {"id": "B", "text": {"en": "i", "hi": "i"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "−1", "hi": "−1"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\frac{1}{i} = \\frac{1}{i} \\times \\frac{i}{i} = \\frac{i}{i^2} = \\frac{i}{-1} = -i$. Check: $i \\times (-i) = -i^2 = 1$ ✓.",
+        "hi": "$\\frac{1}{i} = \\frac{1}{i} \\times \\frac{i}{i} = \\frac{i}{i^2} = \\frac{i}{-1} = -i$। जाँच: $i \\times (-i) = -i^2 = 1$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-08",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A bag contains 5 red and 3 blue balls. Two balls are drawn at random one after the other without replacement. The probability that both are red is:",
+        "hi": "एक थैले में 5 लाल और 3 नीली गेंदें हैं। बिना प्रतिस्थापन के एक के बाद एक यादृच्छया दो गेंदें निकाली जाती हैं। दोनों के लाल होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "25/64", "hi": "25/64"}},
+        {"id": "B", "text": {"en": "5/14", "hi": "5/14"}},
+        {"id": "C", "text": {"en": "5/8", "hi": "5/8"}},
+        {"id": "D", "text": {"en": "3/28", "hi": "3/28"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$P = \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}$. After the first red ball, only 4 red remain among 7 balls. (25/64 would be the answer with replacement.) Equivalently $\\frac{{}^5C_2}{{}^8C_2} = \\frac{10}{28} = \\frac{5}{14}$.",
+        "hi": "$P = \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}$। पहली लाल गेंद के बाद 7 गेंदों में केवल 4 लाल बचती हैं। (25/64 प्रतिस्थापन सहित उत्तर होता।) समतुल्य रूप से $\\frac{{}^5C_2}{{}^8C_2} = \\frac{10}{28} = \\frac{5}{14}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-09",
+      "subject": "maths",
+      "chapter": "Application of Integrals",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The area of the region bounded by the curve $y = x^2$, the x-axis and the lines $x = 0$ and $x = 3$ is:",
+        "hi": "वक्र $y = x^2$, x-अक्ष तथा रेखाओं $x = 0$ और $x = 3$ से घिरे क्षेत्र का क्षेत्रफल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9 square units", "hi": "9 वर्ग इकाई"}},
+        {"id": "B", "text": {"en": "27 square units", "hi": "27 वर्ग इकाई"}},
+        {"id": "C", "text": {"en": "3 square units", "hi": "3 वर्ग इकाई"}},
+        {"id": "D", "text": {"en": "6 square units", "hi": "6 वर्ग इकाई"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Area $= \\int_0^3 x^2\\,dx = \\left[\\frac{x^3}{3}\\right]_0^3 = \\frac{27}{3} = 9$ square units. The curve lies above the x-axis on $[0, 3]$, so no modulus is needed.",
+        "hi": "क्षेत्रफल $= \\int_0^3 x^2\\,dx = \\left[\\frac{x^3}{3}\\right]_0^3 = \\frac{27}{3} = 9$ वर्ग इकाई। $[0, 3]$ पर वक्र x-अक्ष के ऊपर है, अतः मापांक की आवश्यकता नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-06-10",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of terms in the expansion of $(1 + x)^{10}(1 - x)^{10}$ after simplification.",
+        "hi": "सरलीकरण के बाद $(1 + x)^{10}(1 - x)^{10}$ के प्रसार में पदों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 11,
+      "solution": {
+        "en": "$(1 + x)^{10}(1 - x)^{10} = (1 - x^2)^{10}$, which expands into powers $x^0, x^2, x^4, \\ldots, x^{20}$ — that is 11 terms. Trap: multiplying two expansions of 11 terms each does not give 21 or 121 terms; all odd powers cancel.",
+        "hi": "$(1 + x)^{10}(1 - x)^{10} = (1 - x^2)^{10}$, जिसके प्रसार में घातें $x^0, x^2, x^4, \\ldots, x^{20}$ हैं — अर्थात 11 पद। ध्यान दें: 11-11 पदों वाले दो प्रसारों का गुणन 21 या 121 पद नहीं देता; सभी विषम घातें कट जाती हैं।"
+      }
+    }
+  ]
+}

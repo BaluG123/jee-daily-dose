@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-08",
+  "questions": [
+    {
+      "id": "dd-2026-11-08-01",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "In which of the following media does sound travel fastest?",
+        "hi": "निम्नलिखित में से किस माध्यम में ध्वनि सबसे तेज़ चलती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Water", "hi": "जल"}},
+        {"id": "B", "text": {"en": "Air", "hi": "वायु"}},
+        {"id": "C", "text": {"en": "Vacuum", "hi": "निर्वात"}},
+        {"id": "D", "text": {"en": "Steel", "hi": "इस्पात"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$v = \\sqrt{\\frac{E}{\\rho}}$, where $E$ is the elastic modulus. Solids are far more rigid, so sound is fastest in steel (≈5000 m/s), slower in water (≈1500 m/s) and slowest in air (≈340 m/s). Sound cannot travel through vacuum at all.",
+        "hi": "$v = \\sqrt{\\frac{E}{\\rho}}$, जहाँ $E$ प्रत्यास्थता गुणांक है। ठोस बहुत अधिक दृढ़ होते हैं, अतः ध्वनि इस्पात में सबसे तेज़ (≈5000 m/s), जल में धीमी (≈1500 m/s) और वायु में सबसे धीमी (≈340 m/s) चलती है। निर्वात में ध्वनि बिल्कुल नहीं चल सकती।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-02",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A 100 W bulb and a 60 W bulb, both rated for 220 V, are connected in series across a 220 V supply. Which bulb glows brighter?",
+        "hi": "100 W और 60 W के दो बल्ब, दोनों 220 V के लिए निर्धारित, 220 V आपूर्ति से श्रेणी क्रम में जुड़े हैं। कौन-सा बल्ब अधिक चमकेगा?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "The 60 W bulb", "hi": "60 W बल्ब"}},
+        {"id": "B", "text": {"en": "The 100 W bulb", "hi": "100 W बल्ब"}},
+        {"id": "C", "text": {"en": "Both glow equally", "hi": "दोनों समान चमकेंगे"}},
+        {"id": "D", "text": {"en": "Neither glows", "hi": "कोई नहीं चमकेगा"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$R = \\frac{V^2}{P}$, so the 60 W bulb has more resistance ($\\approx 807\\,\\Omega$ vs $484\\,\\Omega$). In series, the same current flows through both, and power $P = I^2R$ is larger for larger $R$. So the 60 W bulb glows brighter. (In parallel, at full voltage, the 100 W bulb is brighter.)",
+        "hi": "$R = \\frac{V^2}{P}$, अतः 60 W बल्ब का प्रतिरोध अधिक है ($\\approx 807\\,\\Omega$ बनाम $484\\,\\Omega$)। श्रेणी क्रम में दोनों में समान धारा बहती है, और शक्ति $P = I^2R$ अधिक $R$ के लिए अधिक है। अतः 60 W बल्ब अधिक चमकता है। (समांतर क्रम में, पूरी वोल्टता पर, 100 W बल्ब अधिक चमकता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-03",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "In Young's double-slit experiment, light of wavelength 600 nm is used, the slits are 0.5 mm apart and the screen is 1 m away. Find the fringe width (in mm).",
+        "hi": "यंग के द्वि-झिरी प्रयोग में 600 nm तरंगदैर्ध्य का प्रकाश प्रयुक्त है, झिरियाँ 0.5 mm दूर हैं और परदा 1 m दूर है। फ्रिंज चौड़ाई (mm में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1.2,
+      "solution": {
+        "en": "$\\beta = \\frac{\\lambda D}{d} = \\frac{600 \\times 10^{-9} \\times 1}{0.5 \\times 10^{-3}} = 1.2 \\times 10^{-3}$ m $= 1.2$ mm. Bright and dark fringes are equally spaced, each $\\beta$ apart. Convert every quantity to metres before substituting.",
+        "hi": "$\\beta = \\frac{\\lambda D}{d} = \\frac{600 \\times 10^{-9} \\times 1}{0.5 \\times 10^{-3}} = 1.2 \\times 10^{-3}$ m $= 1.2$ mm। दीप्त और अदीप्त फ्रिंजें समान दूरी पर होती हैं, प्रत्येक $\\beta$ के अंतर पर। रखने से पहले हर राशि को मीटर में बदलें।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-04",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Methane reacts with chlorine in the presence of ultraviolet light by:",
+        "hi": "पराबैंगनी प्रकाश की उपस्थिति में मेथेन क्लोरीन के साथ किसके द्वारा अभिक्रिया करता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Free-radical substitution", "hi": "मुक्त-मूलक प्रतिस्थापन"}},
+        {"id": "B", "text": {"en": "Electrophilic addition", "hi": "इलेक्ट्रॉनस्नेही योग"}},
+        {"id": "C", "text": {"en": "Nucleophilic substitution", "hi": "नाभिकस्नेही प्रतिस्थापन"}},
+        {"id": "D", "text": {"en": "Elimination", "hi": "विलोपन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "UV light splits Cl₂ homolytically into Cl• radicals (initiation). Cl• abstracts H from CH₄ to give CH₃•, which reacts with Cl₂ to give CH₃Cl and a new Cl• (chain propagation). Alkanes have no π bond, so they substitute rather than add. Further substitution gives CH₂Cl₂, CHCl₃ and CCl₄.",
+        "hi": "पराबैंगनी प्रकाश Cl₂ को समांश रूप से Cl• मूलकों में तोड़ता है (प्रारंभन)। Cl•, CH₄ से H हटाकर CH₃• बनाता है, जो Cl₂ से अभिक्रिया करके CH₃Cl और नया Cl• देता है (शृंखला संचरण)। ऐल्केनों में π आबंध नहीं होता, अतः वे योग के बजाय प्रतिस्थापन करते हैं। आगे प्रतिस्थापन से CH₂Cl₂, CHCl₃ और CCl₄ बनते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The intense purple colour of KMnO₄ is due to:",
+        "hi": "KMnO₄ का गहरा बैंगनी रंग किसके कारण है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "d–d transitions of Mn⁷⁺", "hi": "Mn⁷⁺ के d–d संक्रमण"}},
+        {"id": "B", "text": {"en": "Unpaired electrons in Mn", "hi": "Mn में अयुग्मित इलेक्ट्रॉन"}},
+        {"id": "C", "text": {"en": "Charge transfer from oxygen to manganese", "hi": "ऑक्सीजन से मैंगनीज़ पर आवेश स्थानांतरण"}},
+        {"id": "D", "text": {"en": "The presence of K⁺ ions", "hi": "K⁺ आयनों की उपस्थिति"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Mn in MnO₄⁻ is +7, i.e. 3d⁰ — it has no d electrons, so no d–d transitions are possible. The colour comes from ligand-to-metal charge transfer: an electron jumps from an O²⁻ orbital to an empty Mn orbital on absorbing visible light. The same explains the orange colour of Cr₂O₇²⁻ (Cr⁶⁺, d⁰).",
+        "hi": "MnO₄⁻ में Mn की अवस्था +7, अर्थात 3d⁰ है — इसमें कोई d इलेक्ट्रॉन नहीं, अतः d–d संक्रमण संभव नहीं। रंग लिगैंड से धातु पर आवेश स्थानांतरण से आता है: दृश्य प्रकाश अवशोषित करके इलेक्ट्रॉन O²⁻ के कक्षक से Mn के रिक्त कक्षक में जाता है। यही Cr₂O₇²⁻ (Cr⁶⁺, d⁰) के नारंगी रंग की व्याख्या करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the total number of stereoisomers (geometrical + optical) of the complex ion [Co(en)₂Cl₂]⁺.",
+        "hi": "संकुल आयन [Co(en)₂Cl₂]⁺ के कुल त्रिविम समावयवियों (ज्यामितीय + प्रकाशिक) की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "[Co(en)₂Cl₂]⁺ has two geometrical isomers: trans (Cl atoms opposite) and cis (Cl atoms adjacent). The trans form has a mirror plane, so it is optically inactive. The cis form is chiral and exists as a pair of enantiomers (d and l). Total $= 1 + 2 = 3$ stereoisomers.",
+        "hi": "[Co(en)₂Cl₂]⁺ के दो ज्यामितीय समावयवी हैं: trans (Cl परमाणु आमने-सामने) और cis (Cl परमाणु आसन्न)। trans रूप में दर्पण तल है, अतः यह प्रकाशतः निष्क्रिय है। cis रूप किरेल है और प्रतिबिंबरूपी युग्म (d और l) के रूप में पाया जाता है। कुल $= 1 + 2 = 3$ त्रिविम समावयवी।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of functions from the set $\\{a, b\\}$ to the set $\\{1, 2, 3\\}$ is:",
+        "hi": "समुच्चय $\\{a, b\\}$ से समुच्चय $\\{1, 2, 3\\}$ में फलनों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8", "hi": "8"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "9", "hi": "9"}},
+        {"id": "D", "text": {"en": "5", "hi": "5"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Each element of the domain must be mapped to exactly one element of the codomain: $a$ has 3 choices and $b$ has 3 choices, so $3 \\times 3 = 3^2 = 9$ functions. In general, from a set of $m$ elements to a set of $n$ elements there are $n^m$ functions (8 would be $2^3$, the reverse direction).",
+        "hi": "प्रांत के प्रत्येक अवयव को सहप्रांत के ठीक एक अवयव पर जाना है: $a$ के 3 विकल्प और $b$ के 3 विकल्प, अतः $3 \\times 3 = 3^2 = 9$ फलन। व्यापक रूप से $m$ अवयवों वाले समुच्चय से $n$ अवयवों वाले समुच्चय में $n^m$ फलन होते हैं (8 = $2^3$ उलटी दिशा का उत्तर है)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-08",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The centre and radius of the circle $x^2 + y^2 - 6x + 8y = 0$ are:",
+        "hi": "वृत्त $x^2 + y^2 - 6x + 8y = 0$ का केंद्र और त्रिज्या हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(−3, 4) and 5", "hi": "(−3, 4) और 5"}},
+        {"id": "B", "text": {"en": "(3, −4) and 5", "hi": "(3, −4) और 5"}},
+        {"id": "C", "text": {"en": "(3, −4) and 25", "hi": "(3, −4) और 25"}},
+        {"id": "D", "text": {"en": "(6, −8) and 10", "hi": "(6, −8) और 10"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Compare with $x^2 + y^2 + 2gx + 2fy + c = 0$: $g = -3$, $f = 4$, $c = 0$. Centre $(-g, -f) = (3, -4)$; radius $\\sqrt{g^2 + f^2 - c} = \\sqrt{9 + 16} = 5$. Since $c = 0$, the circle passes through the origin.",
+        "hi": "$x^2 + y^2 + 2gx + 2fy + c = 0$ से तुलना: $g = -3$, $f = 4$, $c = 0$। केंद्र $(-g, -f) = (3, -4)$; त्रिज्या $\\sqrt{g^2 + f^2 - c} = \\sqrt{9 + 16} = 5$। चूँकि $c = 0$, वृत्त मूलबिंदु से गुजरता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-09",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\int_0^1\\frac{dx}{1 + x^2}$ is:",
+        "hi": "$\\int_0^1\\frac{dx}{1 + x^2}$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "B", "text": {"en": "π/4", "hi": "π/4"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "ln 2", "hi": "ln 2"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\int\\frac{dx}{1 + x^2} = \\tan^{-1}x + C$. So $\\int_0^1\\frac{dx}{1 + x^2} = \\tan^{-1}1 - \\tan^{-1}0 = \\frac{\\pi}{4} - 0 = \\frac{\\pi}{4}$. (ln 2 would come from $\\int_0^1\\frac{dx}{1 + x}$.)",
+        "hi": "$\\int\\frac{dx}{1 + x^2} = \\tan^{-1}x + C$। अतः $\\int_0^1\\frac{dx}{1 + x^2} = \\tan^{-1}1 - \\tan^{-1}0 = \\frac{\\pi}{4} - 0 = \\frac{\\pi}{4}$। (ln 2, $\\int_0^1\\frac{dx}{1 + x}$ से आता।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-08-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Two positive numbers have a sum of 20. Find the maximum possible value of their product.",
+        "hi": "दो धनात्मक संख्याओं का योग 20 है। उनके गुणनफल का अधिकतम संभव मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 100,
+      "solution": {
+        "en": "Let the numbers be $x$ and $20 - x$. $P = x(20 - x) = 20x - x^2$. $\\frac{dP}{dx} = 20 - 2x = 0 \\Rightarrow x = 10$, and $\\frac{d^2P}{dx^2} = -2 < 0$, so it is a maximum. $P_{\\max} = 10 \\times 10 = 100$. For a fixed sum, the product is greatest when the numbers are equal (AM ≥ GM).",
+        "hi": "माना संख्याएँ $x$ और $20 - x$ हैं। $P = x(20 - x) = 20x - x^2$। $\\frac{dP}{dx} = 20 - 2x = 0 \\Rightarrow x = 10$, और $\\frac{d^2P}{dx^2} = -2 < 0$, अतः यह उच्चतम है। $P_{\\max} = 10 \\times 10 = 100$। नियत योग के लिए गुणनफल तब अधिकतम होता है जब संख्याएँ बराबर हों (AM ≥ GM)।"
+      }
+    }
+  ]
+}

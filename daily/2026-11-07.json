@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-07",
+  "questions": [
+    {
+      "id": "dd-2026-11-07-01",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A projectile is thrown with speed $u$ at an angle $\\theta$ above the horizontal. Its velocity at the highest point of its path is:",
+        "hi": "एक प्रक्षेप्य को चाल $u$ से क्षैतिज से $\\theta$ कोण पर फेंका जाता है। इसके पथ के उच्चतम बिंदु पर इसका वेग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Zero", "hi": "Zero"}},
+        {"id": "B", "text": {"en": "u sin θ", "hi": "u sin θ"}},
+        {"id": "C", "text": {"en": "u", "hi": "u"}},
+        {"id": "D", "text": {"en": "u cos θ", "hi": "u cos θ"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Gravity acts only vertically, so the horizontal component $u\\cos\\theta$ stays constant throughout. At the top, the vertical component becomes zero, leaving velocity $u\\cos\\theta$ (horizontal). Trap: the velocity is not zero at the top — only its vertical part is. The acceleration there is still $g$ downwards.",
+        "hi": "गुरुत्व केवल ऊर्ध्वाधर दिशा में लगता है, अतः क्षैतिज घटक $u\\cos\\theta$ पूरे पथ में नियत रहता है। उच्चतम बिंदु पर ऊर्ध्वाधर घटक शून्य हो जाता है, अतः वेग $u\\cos\\theta$ (क्षैतिज) बचता है। ध्यान दें: शीर्ष पर वेग शून्य नहीं होता — केवल उसका ऊर्ध्वाधर भाग। वहाँ त्वरण अब भी नीचे की ओर $g$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-02",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "When an ideal gas expands adiabatically, its temperature:",
+        "hi": "जब एक आदर्श गैस रुद्धोष्म रूप से प्रसारित होती है, तो उसका ताप:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Decreases", "hi": "घटता है"}},
+        {"id": "B", "text": {"en": "Increases", "hi": "बढ़ता है"}},
+        {"id": "C", "text": {"en": "Remains constant", "hi": "नियत रहता है"}},
+        {"id": "D", "text": {"en": "First increases, then decreases", "hi": "पहले बढ़ता है, फिर घटता है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Adiabatic: $Q = 0$, so the first law gives $\\Delta U = -W$. In expansion the gas does positive work, so its internal energy — and hence its temperature — falls. That is why air cools as it rises and expands in the atmosphere (cloud formation). In adiabatic compression, the temperature rises.",
+        "hi": "रुद्धोष्म: $Q = 0$, अतः प्रथम नियम से $\\Delta U = -W$। प्रसार में गैस धनात्मक कार्य करती है, अतः इसकी आंतरिक ऊर्जा — और इसलिए ताप — घटता है। इसी कारण वायुमंडल में ऊपर उठकर फैलती वायु ठंडी होती है (बादल बनना)। रुद्धोष्म संपीडन में ताप बढ़ता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-03",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Two point charges of $2\\,\\mu\\text{C}$ and $3\\,\\mu\\text{C}$ are held 0.3 m apart in air. Find the electrostatic potential energy (in mJ) of the system. (Take $\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9$ N m² C⁻²)",
+        "hi": "$2\\,\\mu\\text{C}$ और $3\\,\\mu\\text{C}$ के दो बिंदु आवेश वायु में 0.3 m की दूरी पर रखे हैं। निकाय की स्थिरवैद्युत स्थितिज ऊर्जा (mJ में) ज्ञात कीजिए। ($\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9$ N m² C⁻² लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 180,
+      "solution": {
+        "en": "$U = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r} = \\frac{9 \\times 10^9 \\times 2 \\times 10^{-6} \\times 3 \\times 10^{-6}}{0.3} = \\frac{0.054}{0.3} = 0.18$ J $= 180$ mJ. This is the work needed to bring the charges from infinity to this separation. It is positive because like charges repel. Note that $U \\propto \\frac{1}{r}$, not $\\frac{1}{r^2}$.",
+        "hi": "$U = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r} = \\frac{9 \\times 10^9 \\times 2 \\times 10^{-6} \\times 3 \\times 10^{-6}}{0.3} = \\frac{0.054}{0.3} = 0.18$ J $= 180$ mJ। यह आवेशों को अनंत से इस दूरी तक लाने में आवश्यक कार्य है। सजातीय आवेशों के प्रतिकर्षण के कारण यह धनात्मक है। ध्यान दें कि $U \\propto \\frac{1}{r}$, न कि $\\frac{1}{r^2}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-04",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which noble gas forms the largest number of chemical compounds?",
+        "hi": "कौन-सी उत्कृष्ट गैस सबसे अधिक संख्या में रासायनिक यौगिक बनाती है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Helium", "hi": "हीलियम"}},
+        {"id": "B", "text": {"en": "Neon", "hi": "नियॉन"}},
+        {"id": "C", "text": {"en": "Xenon", "hi": "ज़ीनॉन"}},
+        {"id": "D", "text": {"en": "Argon", "hi": "आर्गन"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Xenon has a large atomic size and a comparatively low ionisation enthalpy (about 1170 kJ/mol, close to that of O₂), so it can form compounds with highly electronegative F and O, e.g. XeF₂, XeF₄, XeF₆, XeO₃. He and Ne form no stable compounds. The first noble gas compound was made by Neil Bartlett (1962).",
+        "hi": "ज़ीनॉन का परमाणु आकार बड़ा और आयनन एन्थैल्पी अपेक्षाकृत कम (लगभग 1170 kJ/mol, O₂ के निकट) है, अतः यह अत्यधिक विद्युत ऋणात्मक F और O के साथ यौगिक बना सकता है, जैसे XeF₂, XeF₄, XeF₆, XeO₃। He और Ne कोई स्थायी यौगिक नहीं बनाते। प्रथम उत्कृष्ट गैस यौगिक नील बार्टलेट ने (1962) बनाया था।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A catalyst increases the rate of a reaction by:",
+        "hi": "उत्प्रेरक अभिक्रिया का वेग किसके द्वारा बढ़ाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increasing the equilibrium constant", "hi": "साम्य स्थिरांक बढ़ाकर"}},
+        {"id": "B", "text": {"en": "Lowering the activation energy", "hi": "सक्रियण ऊर्जा घटाकर"}},
+        {"id": "C", "text": {"en": "Making ΔH more negative", "hi": "ΔH को अधिक ऋणात्मक बनाकर"}},
+        {"id": "D", "text": {"en": "Increasing the temperature of the system", "hi": "निकाय का ताप बढ़ाकर"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A catalyst provides an alternative pathway with lower activation energy, so more molecules can react. It speeds up the forward and backward reactions equally, so it does not change $K$, $\\Delta H$ or $\\Delta G$; it only helps equilibrium be reached faster. It is not consumed in the reaction.",
+        "hi": "उत्प्रेरक कम सक्रियण ऊर्जा वाला वैकल्पिक मार्ग देता है, जिससे अधिक अणु अभिक्रिया कर पाते हैं। यह अग्र और पश्च अभिक्रियाओं को समान रूप से तेज़ करता है, अतः $K$, $\\Delta H$ या $\\Delta G$ नहीं बदलता; यह केवल साम्य जल्दी स्थापित करने में मदद करता है। अभिक्रिया में इसका उपभोग नहीं होता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-06",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A solution containing 9 g of a non-electrolyte in 1 L of solution has an osmotic pressure of 1.23 atm at 300 K. Find the molar mass (in g/mol) of the solute. (R = 0.082 L atm K⁻¹ mol⁻¹)",
+        "hi": "1 L विलयन में 9 g अविद्युत-अपघट्य वाले विलयन का 300 K पर परासरण दाब 1.23 atm है। विलेय का मोलर द्रव्यमान (g/mol में) ज्ञात कीजिए। (R = 0.082 L atm K⁻¹ mol⁻¹)"
+      },
+      "options": [],
+      "correctAnswer": 180,
+      "solution": {
+        "en": "$\\pi = CRT \\Rightarrow C = \\frac{\\pi}{RT} = \\frac{1.23}{0.082 \\times 300} = \\frac{1.23}{24.6} = 0.05$ mol/L. Moles in 1 L $= 0.05$, so $M = \\frac{9}{0.05} = 180$ g/mol (glucose). Osmotic pressure is the preferred method for macromolecules like proteins because it is measurable at room temperature and gives large readings.",
+        "hi": "$\\pi = CRT \\Rightarrow C = \\frac{\\pi}{RT} = \\frac{1.23}{0.082 \\times 300} = \\frac{1.23}{24.6} = 0.05$ mol/L। 1 L में मोल $= 0.05$, अतः $M = \\frac{9}{0.05} = 180$ g/mol (ग्लूकोज़)। प्रोटीन जैसे बृहदणुओं के लिए परासरण दाब पसंदीदा विधि है क्योंकि यह कमरे के ताप पर मापा जा सकता है और बड़े मान देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0}\\frac{e^x - 1}{x}$.",
+        "hi": "$\\lim_{x \\to 0}\\frac{e^x - 1}{x}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0", "hi": "0"}},
+        {"id": "B", "text": {"en": "e", "hi": "e"}},
+        {"id": "C", "text": {"en": "Does not exist", "hi": "अस्तित्व में नहीं है"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "From the series $e^x = 1 + x + \\frac{x^2}{2!} + \\cdots$: $\\frac{e^x - 1}{x} = 1 + \\frac{x}{2} + \\cdots \\to 1$. This standard limit also says the slope of $e^x$ at $x = 0$ is 1.",
+        "hi": "श्रेणी $e^x = 1 + x + \\frac{x^2}{2!} + \\cdots$ से: $\\frac{e^x - 1}{x} = 1 + \\frac{x}{2} + \\cdots \\to 1$। यह मानक सीमा यह भी बताती है कि $x = 0$ पर $e^x$ का ढाल 1 है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-08",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The slope of a line perpendicular to $3x + 4y = 7$ is:",
+        "hi": "$3x + 4y = 7$ के लंबवत रेखा का ढाल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−3/4", "hi": "−3/4"}},
+        {"id": "B", "text": {"en": "4/3", "hi": "4/3"}},
+        {"id": "C", "text": {"en": "3/4", "hi": "3/4"}},
+        {"id": "D", "text": {"en": "−4/3", "hi": "−4/3"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Slope of $3x + 4y = 7$ is $-\\frac{a}{b} = -\\frac{3}{4}$. Perpendicular slopes satisfy $m_1m_2 = -1$, so $m_2 = \\frac{4}{3}$. (−3/4 is the slope of a parallel line.)",
+        "hi": "$3x + 4y = 7$ का ढाल $-\\frac{a}{b} = -\\frac{3}{4}$ है। लंबवत ढालों के लिए $m_1m_2 = -1$, अतः $m_2 = \\frac{4}{3}$। (−3/4 समांतर रेखा का ढाल है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If 5 is added to each observation of a data set, its variance:",
+        "hi": "यदि किसी आँकड़ा समुच्चय के प्रत्येक प्रेक्षण में 5 जोड़ दिया जाए, तो उसका प्रसरण:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Remains unchanged", "hi": "अपरिवर्तित रहता है"}},
+        {"id": "B", "text": {"en": "Increases by 5", "hi": "5 बढ़ जाता है"}},
+        {"id": "C", "text": {"en": "Increases by 25", "hi": "25 बढ़ जाता है"}},
+        {"id": "D", "text": {"en": "Becomes 5 times", "hi": "5 गुना हो जाता है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Adding a constant shifts every value and the mean by the same amount, so every deviation $x_i - \\bar{x}$ is unchanged — hence the variance (and SD) stay the same. The mean, median and mode all increase by 5. Only multiplying by a constant $a$ changes variance (by $a^2$).",
+        "hi": "अचर जोड़ने से प्रत्येक मान और माध्य समान मात्रा से खिसकते हैं, अतः प्रत्येक विचलन $x_i - \\bar{x}$ अपरिवर्तित रहता है — इसलिए प्रसरण (और मानक विचलन) वही रहते हैं। माध्य, माध्यिका और बहुलक सभी 5 बढ़ जाते हैं। केवल अचर $a$ से गुणा करने पर प्रसरण ($a^2$ गुना) बदलता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-07-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "For what value of $k$ does the system $x + y + z = 1$, $x + 2y + 3z = 2$, $x + 3y + kz = 3$ have infinitely many solutions?",
+        "hi": "$k$ के किस मान के लिए निकाय $x + y + z = 1$, $x + 2y + 3z = 2$, $x + 3y + kz = 3$ के अनंत हल हैं?"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Infinitely many solutions need the coefficient determinant to vanish: $\\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 3 & k \\end{vmatrix} = 1(2k - 9) - 1(k - 3) + 1(3 - 2) = k - 5 = 0 \\Rightarrow k = 5$. Consistency check: subtracting equations gives $y + 2z = 1$ from both (2)−(1) and (3)−(2), so the third equation adds nothing new — infinitely many solutions ✓.",
+        "hi": "अनंत हलों के लिए गुणांक सारणिक शून्य होना चाहिए: $\\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 3 & k \\end{vmatrix} = 1(2k - 9) - 1(k - 3) + 1(3 - 2) = k - 5 = 0 \\Rightarrow k = 5$। संगतता जाँच: (2)−(1) और (3)−(2) दोनों से $y + 2z = 1$ मिलता है, अतः तीसरा समीकरण कुछ नया नहीं जोड़ता — अनंत हल ✓।"
+      }
+    }
+  ]
+}

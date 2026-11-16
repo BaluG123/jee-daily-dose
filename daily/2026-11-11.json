@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-11",
+  "questions": [
+    {
+      "id": "dd-2026-11-11-01",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Action and reaction forces (Newton's third law) do not cancel each other because they:",
+        "hi": "क्रिया और प्रतिक्रिया बल (न्यूटन का तृतीय नियम) एक-दूसरे को निरस्त नहीं करते क्योंकि वे:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Act on different bodies", "hi": "भिन्न पिंडों पर लगते हैं"}},
+        {"id": "B", "text": {"en": "Are unequal in magnitude", "hi": "परिमाण में असमान होते हैं"}},
+        {"id": "C", "text": {"en": "Act in the same direction", "hi": "एक ही दिशा में लगते हैं"}},
+        {"id": "D", "text": {"en": "Act at different times", "hi": "भिन्न समयों पर लगते हैं"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Action and reaction are equal in magnitude, opposite in direction and simultaneous, but they act on two different bodies. Forces can cancel only when they act on the same body. Example: a horse pulls a cart forward and the cart pulls the horse back, yet the cart moves because only the forces on the cart decide its motion.",
+        "hi": "क्रिया और प्रतिक्रिया परिमाण में बराबर, दिशा में विपरीत और एक साथ होती हैं, परंतु वे दो भिन्न पिंडों पर लगती हैं। बल तभी निरस्त हो सकते हैं जब वे एक ही पिंड पर लगें। उदाहरण: घोड़ा गाड़ी को आगे खींचता है और गाड़ी घोड़े को पीछे, फिर भी गाड़ी चलती है क्योंकि गाड़ी की गति केवल उस पर लगे बल तय करते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-02",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the pressure of a gas is doubled at constant temperature, the mean free path of its molecules:",
+        "hi": "यदि नियत ताप पर किसी गैस का दाब दोगुना कर दिया जाए, तो उसके अणुओं का माध्य मुक्त पथ:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Becomes double", "hi": "दोगुना हो जाता है"}},
+        {"id": "B", "text": {"en": "Remains unchanged", "hi": "अपरिवर्तित रहता है"}},
+        {"id": "C", "text": {"en": "Becomes four times", "hi": "चार गुना हो जाता है"}},
+        {"id": "D", "text": {"en": "Becomes half", "hi": "आधा हो जाता है"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Mean free path $\\lambda = \\frac{1}{\\sqrt{2}\\pi d^2 n}$, where $n = \\frac{P}{k_BT}$ is the number density. At constant $T$, doubling $P$ doubles $n$ — molecules are packed twice as closely and collide twice as often — so $\\lambda$ becomes half.",
+        "hi": "माध्य मुक्त पथ $\\lambda = \\frac{1}{\\sqrt{2}\\pi d^2 n}$, जहाँ $n = \\frac{P}{k_BT}$ संख्या घनत्व है। नियत $T$ पर $P$ दोगुना करने से $n$ दोगुना होता है — अणु दोगुने पास होते हैं और दोगुनी बार टकराते हैं — अतः $\\lambda$ आधा हो जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-03",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A prism of angle 60° is made of glass of refractive index $\\sqrt{3}$. Find the angle of minimum deviation (in degrees).",
+        "hi": "60° कोण वाला एक प्रिज़्म $\\sqrt{3}$ अपवर्तनांक वाले काँच से बना है। न्यूनतम विचलन कोण (डिग्री में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 60,
+      "solution": {
+        "en": "Prism formula: $n = \\frac{\\sin\\frac{A + \\delta_m}{2}}{\\sin\\frac{A}{2}}$. So $\\sin\\frac{60^\\circ + \\delta_m}{2} = \\sqrt{3}\\sin 30^\\circ = \\frac{\\sqrt{3}}{2} \\Rightarrow \\frac{60^\\circ + \\delta_m}{2} = 60^\\circ \\Rightarrow \\delta_m = 60^\\circ$. At minimum deviation, the ray passes through the prism parallel to its base.",
+        "hi": "प्रिज़्म सूत्र: $n = \\frac{\\sin\\frac{A + \\delta_m}{2}}{\\sin\\frac{A}{2}}$। अतः $\\sin\\frac{60^\\circ + \\delta_m}{2} = \\sqrt{3}\\sin 30^\\circ = \\frac{\\sqrt{3}}{2} \\Rightarrow \\frac{60^\\circ + \\delta_m}{2} = 60^\\circ \\Rightarrow \\delta_m = 60^\\circ$। न्यूनतम विचलन पर किरण प्रिज़्म में आधार के समांतर गुजरती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-04",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is a Lewis base?",
+        "hi": "निम्नलिखित में से कौन लूइस क्षारक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "BF₃", "hi": "BF₃"}},
+        {"id": "B", "text": {"en": "AlCl₃", "hi": "AlCl₃"}},
+        {"id": "C", "text": {"en": "NH₃", "hi": "NH₃"}},
+        {"id": "D", "text": {"en": "H⁺", "hi": "H⁺"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A Lewis base donates an electron pair. NH₃ has a lone pair on N and readily donates it (e.g. H₃N→BF₃). BF₃ and AlCl₃ are electron-deficient and H⁺ has an empty orbital, so all three are Lewis acids (electron-pair acceptors).",
+        "hi": "लूइस क्षारक इलेक्ट्रॉन युग्म दान करता है। NH₃ में N पर एकाकी युग्म है और यह इसे आसानी से दान करता है (जैसे H₃N→BF₃)। BF₃ और AlCl₃ इलेक्ट्रॉन-न्यून हैं और H⁺ में रिक्त कक्षक है, अतः तीनों लूइस अम्ल (इलेक्ट्रॉन युग्म ग्राही) हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-05",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Lithium shows a diagonal relationship with:",
+        "hi": "लीथियम किसके साथ विकर्ण संबंध दर्शाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Sodium", "hi": "सोडियम"}},
+        {"id": "B", "text": {"en": "Magnesium", "hi": "मैग्नीशियम"}},
+        {"id": "C", "text": {"en": "Potassium", "hi": "पोटैशियम"}},
+        {"id": "D", "text": {"en": "Beryllium", "hi": "बेरिलियम"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Moving one step right and one step down in the periodic table, the opposite trends in size and charge balance out, so Li (group 1, period 2) resembles Mg (group 2, period 3) — similar charge-to-radius ratio and polarising power. Both form nitrides with N₂, normal oxides, and carbonates that decompose on heating. Be–Al and B–Si are other diagonal pairs.",
+        "hi": "आवर्त सारणी में एक कदम दाएँ और एक कदम नीचे जाने पर आकार और आवेश की विपरीत प्रवृत्तियाँ संतुलित हो जाती हैं, अतः Li (वर्ग 1, आवर्त 2), Mg (वर्ग 2, आवर्त 3) से मिलता-जुलता है — समान आवेश/त्रिज्या अनुपात और ध्रुवण क्षमता। दोनों N₂ से नाइट्राइड, सामान्य ऑक्साइड, और गर्म करने पर अपघटित होने वाले कार्बोनेट बनाते हैं। Be–Al और B–Si अन्य विकर्ण युग्म हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-06",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Concentrated sulphuric acid is 98% H₂SO₄ by mass and has a density of 1.84 g/mL. Find its molarity. (Molar mass of H₂SO₄ = 98 g/mol)",
+        "hi": "सांद्र सल्फ़्यूरिक अम्ल में द्रव्यमान के अनुसार 98% H₂SO₄ है और इसका घनत्व 1.84 g/mL है। इसकी मोलरता ज्ञात कीजिए। (H₂SO₄ का मोलर द्रव्यमान = 98 g/mol)"
+      },
+      "options": [],
+      "correctAnswer": 18.4,
+      "solution": {
+        "en": "Take 1 L (1000 mL) of solution: mass $= 1000 \\times 1.84 = 1840$ g. Mass of H₂SO₄ $= 0.98 \\times 1840 = 1803.2$ g, i.e. $\\frac{1803.2}{98} = 18.4$ mol. Molarity $= 18.4$ M. Shortcut: $M = \\frac{10 \\times \\%\\text{ by mass} \\times d}{\\text{molar mass}} = \\frac{10 \\times 98 \\times 1.84}{98} = 18.4$.",
+        "hi": "1 L (1000 mL) विलयन लें: द्रव्यमान $= 1000 \\times 1.84 = 1840$ g। H₂SO₄ का द्रव्यमान $= 0.98 \\times 1840 = 1803.2$ g, अर्थात $\\frac{1803.2}{98} = 18.4$ mol। मोलरता $= 18.4$ M। शॉर्टकट: $M = \\frac{10 \\times \\%\\text{ by mass} \\times d}{\\text{molar mass}} = \\frac{10 \\times 98 \\times 1.84}{98} = 18.4$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The transpose of a row matrix is a:",
+        "hi": "किसी पंक्ति आव्यूह का परिवर्त होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Row matrix", "hi": "पंक्ति आव्यूह"}},
+        {"id": "B", "text": {"en": "Square matrix", "hi": "वर्ग आव्यूह"}},
+        {"id": "C", "text": {"en": "Zero matrix", "hi": "शून्य आव्यूह"}},
+        {"id": "D", "text": {"en": "Column matrix", "hi": "स्तंभ आव्यूह"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Transposing turns rows into columns. A $1 \\times n$ row matrix becomes an $n \\times 1$ column matrix. Example: $\\begin{bmatrix} 1 & 2 & 3 \\end{bmatrix}^T = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$.",
+        "hi": "परिवर्त लेने पर पंक्तियाँ स्तंभ बन जाती हैं। $1 \\times n$ पंक्ति आव्यूह, $n \\times 1$ स्तंभ आव्यूह बन जाता है। उदाहरण: $\\begin{bmatrix} 1 & 2 & 3 \\end{bmatrix}^T = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The range of $f(x) = \\sin x + \\cos x$ is:",
+        "hi": "$f(x) = \\sin x + \\cos x$ का परिसर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[−1, 1]", "hi": "[−1, 1]"}},
+        {"id": "B", "text": {"en": "[−2, 2]", "hi": "[−2, 2]"}},
+        {"id": "C", "text": {"en": "[−√2, √2]", "hi": "[−√2, √2]"}},
+        {"id": "D", "text": {"en": "[0, √2]", "hi": "[0, √2]"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\sin x + \\cos x = \\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\sin x + \\frac{1}{\\sqrt{2}}\\cos x\\right) = \\sqrt{2}\\sin\\left(x + \\frac{\\pi}{4}\\right)$. Since sine ranges over $[-1, 1]$, the range is $[-\\sqrt{2}, \\sqrt{2}]$. Trap: [−2, 2] assumes both reach 1 at the same $x$, which never happens.",
+        "hi": "$\\sin x + \\cos x = \\sqrt{2}\\left(\\frac{1}{\\sqrt{2}}\\sin x + \\frac{1}{\\sqrt{2}}\\cos x\\right) = \\sqrt{2}\\sin\\left(x + \\frac{\\pi}{4}\\right)$। चूँकि sine का परिसर $[-1, 1]$ है, परिसर $[-\\sqrt{2}, \\sqrt{2}]$ है। ध्यान दें: [−2, 2] मानता है कि दोनों एक ही $x$ पर 1 हो जाते हैं, जो कभी नहीं होता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-09",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The total number of relations that can be defined on a set with $m$ elements is:",
+        "hi": "$m$ अवयवों वाले समुच्चय पर परिभाषित किए जा सकने वाले संबंधों की कुल संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "m²", "hi": "m²"}},
+        {"id": "B", "text": {"en": "2^(m²)", "hi": "2^(m²)"}},
+        {"id": "C", "text": {"en": "2^m", "hi": "2^m"}},
+        {"id": "D", "text": {"en": "m!", "hi": "m!"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A relation on $A$ is any subset of $A \\times A$, which has $m^2$ elements. The number of subsets of a set with $m^2$ elements is $2^{m^2}$. For $m = 2$: $2^4 = 16$ relations.",
+        "hi": "$A$ पर कोई भी संबंध $A \\times A$ का एक उपसमुच्चय होता है, जिसमें $m^2$ अवयव हैं। $m^2$ अवयवों वाले समुच्चय के उपसमुच्चयों की संख्या $2^{m^2}$ है। $m = 2$ के लिए: $2^4 = 16$ संबंध।"
+      }
+    },
+    {
+      "id": "dd-2026-11-11-10",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $\\lim_{x \\to \\infty}\\left(1 + \\frac{3}{x}\\right)^{2x} = e^k$, find $k$.",
+        "hi": "यदि $\\lim_{x \\to \\infty}\\left(1 + \\frac{3}{x}\\right)^{2x} = e^k$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "This is a $1^\\infty$ form. Use $\\lim(1 + f)^g = e^{\\lim fg}$ when $f \\to 0$, $g \\to \\infty$: $k = \\lim_{x \\to \\infty}\\frac{3}{x} \\cdot 2x = 6$. Equivalently, $\\left[\\left(1 + \\frac{3}{x}\\right)^{x/3}\\right]^6 \\to e^6$.",
+        "hi": "यह $1^\\infty$ रूप है। जब $f \\to 0$, $g \\to \\infty$ तब $\\lim(1 + f)^g = e^{\\lim fg}$ का प्रयोग करें: $k = \\lim_{x \\to \\infty}\\frac{3}{x} \\cdot 2x = 6$। समतुल्य रूप से, $\\left[\\left(1 + \\frac{3}{x}\\right)^{x/3}\\right]^6 \\to e^6$।"
+      }
+    }
+  ]
+}

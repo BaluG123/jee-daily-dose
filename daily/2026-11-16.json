@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-16",
+  "questions": [
+    {
+      "id": "dd-2026-11-16-01",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The image formed by a plane mirror is:",
+        "hi": "समतल दर्पण द्वारा बना प्रतिबिंब होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Real and inverted", "hi": "वास्तविक और उल्टा"}},
+        {"id": "B", "text": {"en": "Virtual and diminished", "hi": "आभासी और छोटा"}},
+        {"id": "C", "text": {"en": "Real and magnified", "hi": "वास्तविक और बड़ा"}},
+        {"id": "D", "text": {"en": "Virtual, erect and of the same size", "hi": "आभासी, सीधा और समान आकार का"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "A plane mirror forms a virtual, erect image of the same size as the object, as far behind the mirror as the object is in front ($m = +1$). The image is laterally inverted — that is why 'AMBULANCE' is written in mirror letters on ambulances.",
+        "hi": "समतल दर्पण वस्तु के समान आकार का आभासी, सीधा प्रतिबिंब बनाता है, जो दर्पण के पीछे उतनी ही दूरी पर होता है जितनी वस्तु सामने ($m = +1$)। प्रतिबिंब पार्श्व रूप से उलटा होता है — इसीलिए एम्बुलेंस पर 'AMBULANCE' दर्पण अक्षरों में लिखा जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-02",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which material is most suitable for the core of an electromagnet?",
+        "hi": "विद्युतचुंबक के क्रोड के लिए कौन-सा पदार्थ सबसे उपयुक्त है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Steel", "hi": "इस्पात"}},
+        {"id": "B", "text": {"en": "Copper", "hi": "ताँबा"}},
+        {"id": "C", "text": {"en": "Aluminium", "hi": "ऐलुमिनियम"}},
+        {"id": "D", "text": {"en": "Soft iron", "hi": "नर्म लोहा"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "An electromagnet must magnetise strongly when the current is on and lose its magnetism when it is off. Soft iron has high permeability, low retentivity and low coercivity, with a narrow hysteresis loop (little energy loss). Steel has high retentivity and coercivity, so it suits permanent magnets. Copper and aluminium are not ferromagnetic.",
+        "hi": "विद्युतचुंबक को धारा चालू होने पर प्रबल चुंबकित और बंद होने पर अचुंबकित होना चाहिए। नर्म लोहे की चुंबकशीलता अधिक, धारणशीलता कम और निग्राहिता कम होती है, तथा शैथिल्य लूप संकरा होता है (कम ऊर्जा हानि)। इस्पात की धारणशीलता और निग्राहिता अधिक है, अतः यह स्थायी चुंबकों के लिए उपयुक्त है। ताँबा और ऐलुमिनियम लौहचुंबकीय नहीं हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-03",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A metal rod of length 1 m rotates about one of its ends with an angular velocity of 20 rad/s, in a plane perpendicular to a uniform magnetic field of 0.5 T. Find the emf (in V) induced between the ends of the rod.",
+        "hi": "1 m लंबी एक धातु की छड़ अपने एक सिरे के परितः 20 rad/s कोणीय वेग से, 0.5 T के एकसमान चुंबकीय क्षेत्र के लंबवत तल में घूमती है। छड़ के सिरों के बीच प्रेरित विद्युत वाहक बल (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Different parts of the rod move at different speeds ($v = \\omega r$), so add up the emf of small elements: $\\varepsilon = \\int_0^L B\\omega r\\,dr = \\frac{1}{2}B\\omega L^2 = \\frac{1}{2} \\times 0.5 \\times 20 \\times 1^2 = 5$ V. Equivalently, $\\varepsilon = Bv_{\\text{avg}}L$ with average speed $\\frac{\\omega L}{2}$.",
+        "hi": "छड़ के भिन्न भाग भिन्न चालों ($v = \\omega r$) से चलते हैं, अतः छोटे अवयवों का विद्युत वाहक बल जोड़ें: $\\varepsilon = \\int_0^L B\\omega r\\,dr = \\frac{1}{2}B\\omega L^2 = \\frac{1}{2} \\times 0.5 \\times 20 \\times 1^2 = 5$ V। समतुल्य रूप से $\\varepsilon = Bv_{\\text{avg}}L$, जहाँ औसत चाल $\\frac{\\omega L}{2}$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-04",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The numbers of σ and π bonds in a molecule of ethyne (C₂H₂) are:",
+        "hi": "एथाइन (C₂H₂) के एक अणु में σ और π आबंधों की संख्याएँ हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2 σ and 3 π", "hi": "2 σ और 3 π"}},
+        {"id": "B", "text": {"en": "3 σ and 2 π", "hi": "3 σ और 2 π"}},
+        {"id": "C", "text": {"en": "5 σ and 0 π", "hi": "5 σ और 0 π"}},
+        {"id": "D", "text": {"en": "3 σ and 1 π", "hi": "3 σ और 1 π"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "H–C≡C–H: each C–H bond is one σ bond (2 σ). The triple bond has 1 σ and 2 π bonds. Total: 3 σ and 2 π. Rule: every single bond is σ; a double bond is 1σ + 1π; a triple bond is 1σ + 2π.",
+        "hi": "H–C≡C–H: प्रत्येक C–H आबंध एक σ आबंध है (2 σ)। त्रिआबंध में 1 σ और 2 π आबंध हैं। कुल: 3 σ और 2 π। नियम: हर एकल आबंध σ है; द्विआबंध 1σ + 1π है; त्रिआबंध 1σ + 2π है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-05",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The best method to prepare tert-butyl methyl ether by Williamson synthesis is:",
+        "hi": "विलियम्सन संश्लेषण द्वारा tert-ब्यूटिल मेथिल ईथर बनाने की सर्वोत्तम विधि है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₃ONa + (CH₃)₃CBr", "hi": "CH₃ONa + (CH₃)₃CBr"}},
+        {"id": "B", "text": {"en": "CH₃OH + (CH₃)₃COH with conc. H₂SO₄", "hi": "CH₃OH + (CH₃)₃COH, सांद्र H₂SO₄ के साथ"}},
+        {"id": "C", "text": {"en": "(CH₃)₃CONa + CH₃Br", "hi": "(CH₃)₃CONa + CH₃Br"}},
+        {"id": "D", "text": {"en": "CH₃Br + (CH₃)₃CBr with Na", "hi": "CH₃Br + (CH₃)₃CBr, Na के साथ"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Williamson synthesis is SN2: an alkoxide attacks an alkyl halide. It works only if the halide is primary (preferably methyl). So use the bulky alkoxide (CH₃)₃CO⁻ with CH₃Br. The reverse pair, CH₃O⁻ with the 3° halide (CH₃)₃CBr, mostly gives elimination — 2-methylpropene — instead of the ether.",
+        "hi": "विलियम्सन संश्लेषण SN2 है: ऐल्कॉक्साइड ऐल्किल हैलाइड पर आक्रमण करता है। यह तभी कार्य करता है जब हैलाइड प्राथमिक (बेहतर मेथिल) हो। अतः भारी ऐल्कॉक्साइड (CH₃)₃CO⁻ को CH₃Br के साथ लें। उलटा युग्म, CH₃O⁻ और 3° हैलाइड (CH₃)₃CBr, ईथर के बजाय मुख्यतः विलोपन — 2-मेथिलप्रोपीन — देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-06",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "18 g of glucose (molar mass 180 g/mol) is dissolved in 500 g of water. Find the elevation in boiling point (in K). ($K_b$ for water = 0.52 K kg mol⁻¹)",
+        "hi": "18 g ग्लूकोज़ (मोलर द्रव्यमान 180 g/mol) को 500 g जल में घोला जाता है। क्वथनांक उन्नयन (K में) ज्ञात कीजिए। (जल के लिए $K_b$ = 0.52 K kg mol⁻¹)"
+      },
+      "options": [],
+      "correctAnswer": 0.104,
+      "solution": {
+        "en": "Moles of glucose $= \\frac{18}{180} = 0.1$. Molality $m = \\frac{0.1}{0.5\\text{ kg}} = 0.2$ mol/kg. $\\Delta T_b = K_b m = 0.52 \\times 0.2 = 0.104$ K, so the solution boils at about 373.254 K. Glucose is a non-electrolyte, so $i = 1$. Remember to convert grams of solvent to kilograms.",
+        "hi": "ग्लूकोज़ के मोल $= \\frac{18}{180} = 0.1$। मोललता $m = \\frac{0.1}{0.5\\text{ kg}} = 0.2$ mol/kg। $\\Delta T_b = K_b m = 0.52 \\times 0.2 = 0.104$ K, अतः विलयन लगभग 373.254 K पर उबलता है। ग्लूकोज़ अविद्युत-अपघट्य है, अतः $i = 1$। विलायक के ग्राम को किलोग्राम में बदलना याद रखें।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of elements in the power set of the empty set, $P(\\phi)$, is:",
+        "hi": "रिक्त समुच्चय के घात समुच्चय $P(\\phi)$ में अवयवों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "Infinite", "hi": "अनंत"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\phi$ has 0 elements, so it has $2^0 = 1$ subset — itself. So $P(\\phi) = \\{\\phi\\}$, which has exactly one element. Note that $\\{\\phi\\}$ is not empty: it contains the empty set as an element.",
+        "hi": "$\\phi$ में 0 अवयव हैं, अतः इसका $2^0 = 1$ उपसमुच्चय है — स्वयं। अतः $P(\\phi) = \\{\\phi\\}$, जिसमें ठीक एक अवयव है। ध्यान दें कि $\\{\\phi\\}$ रिक्त नहीं है: इसमें रिक्त समुच्चय एक अवयव के रूप में है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-08",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In how many ways can 5 people be seated in a row so that two particular people, A and B, always sit together?",
+        "hi": "5 व्यक्तियों को एक पंक्ति में कितने प्रकार से बैठाया जा सकता है कि दो विशेष व्यक्ति, A और B, सदैव साथ बैठें?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "48", "hi": "48"}},
+        {"id": "B", "text": {"en": "24", "hi": "24"}},
+        {"id": "C", "text": {"en": "120", "hi": "120"}},
+        {"id": "D", "text": {"en": "72", "hi": "72"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Treat A and B as one unit: 4 units in a row give $4! = 24$ arrangements. A and B can swap within their unit in $2! = 2$ ways. Total $= 24 \\times 2 = 48$. (They would be apart in $120 - 48 = 72$ arrangements.)",
+        "hi": "A और B को एक इकाई मानें: पंक्ति में 4 इकाइयाँ $4! = 24$ व्यवस्थाएँ देती हैं। A और B अपनी इकाई में $2! = 2$ प्रकार से स्थान बदल सकते हैं। कुल $= 24 \\times 2 = 48$। (वे $120 - 48 = 72$ व्यवस्थाओं में अलग होंगे।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-09",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For $x > 0$, the derivative of $x^x$ with respect to $x$ is:",
+        "hi": "$x > 0$ के लिए $x$ के सापेक्ष $x^x$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x · xˣ⁻¹", "hi": "x · xˣ⁻¹"}},
+        {"id": "B", "text": {"en": "xˣ ln x", "hi": "xˣ ln x"}},
+        {"id": "C", "text": {"en": "xˣ(1 + ln x)", "hi": "xˣ(1 + ln x)"}},
+        {"id": "D", "text": {"en": "xˣ", "hi": "xˣ"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Use logarithmic differentiation: $y = x^x \\Rightarrow \\ln y = x\\ln x \\Rightarrow \\frac{1}{y}\\frac{dy}{dx} = \\ln x + 1 \\Rightarrow \\frac{dy}{dx} = x^x(1 + \\ln x)$. Trap: the power rule ($x \\cdot x^{x-1}$) and the exponential rule ($x^x\\ln x$) each give only one of the two parts.",
+        "hi": "लघुगणकीय अवकलन का प्रयोग करें: $y = x^x \\Rightarrow \\ln y = x\\ln x \\Rightarrow \\frac{1}{y}\\frac{dy}{dx} = \\ln x + 1 \\Rightarrow \\frac{dy}{dx} = x^x(1 + \\ln x)$। ध्यान दें: घात नियम ($x \\cdot x^{x-1}$) और चरघातांकी नियम ($x^x\\ln x$) प्रत्येक दो भागों में से केवल एक देते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-16-10",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $\\int_0^{\\pi/2}\\sin^2 x\\,dx = \\frac{\\pi}{k}$, find $k$.",
+        "hi": "यदि $\\int_0^{\\pi/2}\\sin^2 x\\,dx = \\frac{\\pi}{k}$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "Use $\\sin^2x = \\frac{1 - \\cos 2x}{2}$: $\\int_0^{\\pi/2}\\frac{1 - \\cos 2x}{2}\\,dx = \\frac{1}{2}\\left[x - \\frac{\\sin 2x}{2}\\right]_0^{\\pi/2} = \\frac{1}{2} \\cdot \\frac{\\pi}{2} = \\frac{\\pi}{4}$. So $k = 4$. Quick check: $\\int_0^{\\pi/2}\\sin^2x\\,dx = \\int_0^{\\pi/2}\\cos^2x\\,dx$ (King's property), and their sum is $\\int_0^{\\pi/2}1\\,dx = \\frac{\\pi}{2}$, so each is $\\frac{\\pi}{4}$ ✓.",
+        "hi": "$\\sin^2x = \\frac{1 - \\cos 2x}{2}$ का प्रयोग करें: $\\int_0^{\\pi/2}\\frac{1 - \\cos 2x}{2}\\,dx = \\frac{1}{2}\\left[x - \\frac{\\sin 2x}{2}\\right]_0^{\\pi/2} = \\frac{1}{2} \\cdot \\frac{\\pi}{2} = \\frac{\\pi}{4}$। अतः $k = 4$। त्वरित जाँच: $\\int_0^{\\pi/2}\\sin^2x\\,dx = \\int_0^{\\pi/2}\\cos^2x\\,dx$ (किंग गुणधर्म), और इनका योग $\\int_0^{\\pi/2}1\\,dx = \\frac{\\pi}{2}$ है, अतः प्रत्येक $\\frac{\\pi}{4}$ है ✓।"
+      }
+    }
+  ]
+}

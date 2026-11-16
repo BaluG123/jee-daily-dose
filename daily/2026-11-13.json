@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-13",
+  "questions": [
+    {
+      "id": "dd-2026-11-13-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The concept of displacement current was introduced by:",
+        "hi": "विस्थापन धारा की अवधारणा किसने प्रस्तुत की?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Maxwell", "hi": "मैक्सवेल"}},
+        {"id": "B", "text": {"en": "Faraday", "hi": "फैराडे"}},
+        {"id": "C", "text": {"en": "Hertz", "hi": "हर्ट्ज़"}},
+        {"id": "D", "text": {"en": "Ampere", "hi": "ऐम्पियर"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Maxwell noticed that Ampere's law fails between the plates of a charging capacitor. He added the displacement current $I_d = \\varepsilon_0\\frac{d\\Phi_E}{dt}$ — a changing electric field produces a magnetic field. This completed the theory that predicts EM waves, which Hertz later produced experimentally.",
+        "hi": "मैक्सवेल ने देखा कि आवेशित होते संधारित्र की प्लेटों के बीच ऐम्पियर का नियम विफल हो जाता है। उन्होंने विस्थापन धारा $I_d = \\varepsilon_0\\frac{d\\Phi_E}{dt}$ जोड़ी — परिवर्ती विद्युत क्षेत्र चुंबकीय क्षेत्र उत्पन्न करता है। इससे विद्युतचुंबकीय तरंगों की भविष्यवाणी करने वाला सिद्धांत पूरा हुआ, जिन्हें बाद में हर्ट्ज़ ने प्रायोगिक रूप से उत्पन्न किया।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-02",
+      "subject": "physics",
+      "chapter": "Work, Energy and Power",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A car moves at a constant speed of 20 m/s against a total resistive force of 1000 N. The power delivered by its engine is:",
+        "hi": "एक कार 1000 N के कुल प्रतिरोधी बल के विरुद्ध 20 m/s की नियत चाल से चलती है। इसके इंजन द्वारा दी गई शक्ति है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "50 kW", "hi": "50 kW"}},
+        {"id": "B", "text": {"en": "2 kW", "hi": "2 kW"}},
+        {"id": "C", "text": {"en": "200 kW", "hi": "200 kW"}},
+        {"id": "D", "text": {"en": "20 kW", "hi": "20 kW"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "At constant speed the engine's force equals the resistive force, 1000 N. Power $P = Fv = 1000 \\times 20 = 20000$ W $= 20$ kW. The formula $P = Fv$ is handy whenever a force acts on a moving body.",
+        "hi": "नियत चाल पर इंजन का बल प्रतिरोधी बल, 1000 N, के बराबर होता है। शक्ति $P = Fv = 1000 \\times 20 = 20000$ W $= 20$ kW। जब भी कोई बल गतिमान पिंड पर लगे, $P = Fv$ सूत्र उपयोगी है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-03",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A 10 μF capacitor is charged to 50 V and then disconnected from the battery. A dielectric slab of dielectric constant 5 is inserted to fill the space between its plates completely. Find the new potential difference (in V) across the capacitor.",
+        "hi": "एक 10 μF संधारित्र को 50 V तक आवेशित करके बैटरी से अलग कर दिया जाता है। फिर परावैद्युतांक 5 वाली परावैद्युत पट्टिका को प्लेटों के बीच का स्थान पूरा भरने के लिए डाला जाता है। संधारित्र के सिरों के बीच नया विभवांतर (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "Disconnected, so the charge stays fixed: $Q = CV = 10\\,\\mu\\text{F} \\times 50 = 500\\,\\mu\\text{C}$. The dielectric makes $C' = KC = 50\\,\\mu\\text{F}$, so $V' = \\frac{Q}{C'} = \\frac{500}{50} = 10$ V. The energy $\\frac{Q^2}{2C}$ also drops by a factor of 5 — the slab is pulled in. (If the battery stayed connected, V would stay at 50 V and Q would become 5 times.)",
+        "hi": "बैटरी अलग है, अतः आवेश नियत रहता है: $Q = CV = 10\\,\\mu\\text{F} \\times 50 = 500\\,\\mu\\text{C}$। परावैद्युत से $C' = KC = 50\\,\\mu\\text{F}$, अतः $V' = \\frac{Q}{C'} = \\frac{500}{50} = 10$ V। ऊर्जा $\\frac{Q^2}{2C}$ भी 5 गुना घटती है — पट्टिका भीतर खिंचती है। (यदि बैटरी जुड़ी रहती, तो V, 50 V पर रहता और Q, 5 गुना हो जाता।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-04",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Methanol is commonly known as:",
+        "hi": "मेथेनॉल को सामान्यतः कहा जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Grain alcohol", "hi": "अनाज ऐल्कोहॉल"}},
+        {"id": "B", "text": {"en": "Carbolic acid", "hi": "कार्बोलिक अम्ल"}},
+        {"id": "C", "text": {"en": "Wood spirit", "hi": "काष्ठ स्पिरिट"}},
+        {"id": "D", "text": {"en": "Glycol", "hi": "ग्लाइकॉल"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Methanol was originally obtained by destructive distillation of wood, hence 'wood spirit'. It is highly poisonous — small amounts cause blindness, larger amounts death. Ethanol is grain alcohol, phenol is carbolic acid, and ethane-1,2-diol is glycol.",
+        "hi": "मेथेनॉल मूल रूप से लकड़ी के भंजक आसवन से प्राप्त किया जाता था, इसलिए 'काष्ठ स्पिरिट'। यह अत्यधिक विषैला है — थोड़ी मात्रा अंधापन और अधिक मात्रा मृत्यु का कारण बनती है। एथेनॉल अनाज ऐल्कोहॉल है, फ़ीनॉल कार्बोलिक अम्ल है, और एथेन-1,2-डाइऑल ग्लाइकॉल है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-05",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For the same metal ion, ligands and metal–ligand distance, the crystal field splitting in a tetrahedral field (Δt) is related to that in an octahedral field (Δo) as:",
+        "hi": "समान धातु आयन, लिगैंड और धातु–लिगैंड दूरी के लिए, चतुष्फलकीय क्षेत्र में क्रिस्टल क्षेत्र विपाटन (Δt) का अष्टफलकीय क्षेत्र के विपाटन (Δo) से संबंध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Δt = (4/9) Δo", "hi": "Δt = (4/9) Δo"}},
+        {"id": "B", "text": {"en": "Δt = (9/4) Δo", "hi": "Δt = (9/4) Δo"}},
+        {"id": "C", "text": {"en": "Δt = Δo", "hi": "Δt = Δo"}},
+        {"id": "D", "text": {"en": "Δt = 2Δo", "hi": "Δt = 2Δo"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Δt = (4/9)Δo because a tetrahedral complex has only 4 ligands (vs 6), and none of them points directly at the d orbitals. Since Δt is so small, it is almost always less than the pairing energy, so tetrahedral complexes are generally high-spin.",
+        "hi": "Δt = (4/9)Δo, क्योंकि चतुष्फलकीय संकुल में केवल 4 लिगैंड होते हैं (6 के स्थान पर), और कोई भी सीधे d कक्षकों की ओर नहीं होता। चूँकि Δt इतना कम है, यह लगभग सदैव युग्मन ऊर्जा से कम होता है, अतः चतुष्फलकीय संकुल सामान्यतः उच्च-चक्रण होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-06",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following gives a white precipitate with ammoniacal silver nitrate solution?",
+        "hi": "निम्नलिखित में से कौन अमोनियामय सिल्वर नाइट्रेट विलयन के साथ सफ़ेद अवक्षेप देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "But-2-yne", "hi": "ब्यूट-2-आइन"}},
+        {"id": "B", "text": {"en": "But-1-yne", "hi": "ब्यूट-1-आइन"}},
+        {"id": "C", "text": {"en": "But-1-ene", "hi": "ब्यूट-1-ईन"}},
+        {"id": "D", "text": {"en": "Butane", "hi": "ब्यूटेन"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Terminal alkynes (R–C≡C–H) have an acidic H because the sp carbon has 50% s-character. It is replaced by Ag⁺: CH₃CH₂C≡CH + [Ag(NH₃)₂]⁺ → CH₃CH₂C≡CAg↓ (white). But-2-yne has no H on the triple-bond carbons, so it does not react. This test distinguishes terminal from internal alkynes.",
+        "hi": "सिरस्थ ऐल्काइन (R–C≡C–H) में अम्लीय H होता है क्योंकि sp कार्बन में 50% s-लक्षण होता है। यह Ag⁺ द्वारा प्रतिस्थापित होता है: CH₃CH₂C≡CH + [Ag(NH₃)₂]⁺ → CH₃CH₂C≡CAg↓ (सफ़ेद)। ब्यूट-2-आइन में त्रिआबंधी कार्बनों पर H नहीं है, अतः यह अभिक्रिया नहीं करता। यह परीक्षण सिरस्थ और आंतरिक ऐल्काइनों में अंतर करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-07",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The number of terms in the expansion of $(a + b)^{12}$ is:",
+        "hi": "$(a + b)^{12}$ के प्रसार में पदों की संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "12", "hi": "12"}},
+        {"id": "B", "text": {"en": "11", "hi": "11"}},
+        {"id": "C", "text": {"en": "24", "hi": "24"}},
+        {"id": "D", "text": {"en": "13", "hi": "13"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$(a + b)^n$ has $n + 1$ terms, with the power of $a$ running from $n$ down to 0. For $n = 12$: 13 terms. The middle term here is the 7th, since $n$ is even.",
+        "hi": "$(a + b)^n$ में $n + 1$ पद होते हैं, जिनमें $a$ की घात $n$ से 0 तक घटती है। $n = 12$ के लिए: 13 पद। यहाँ $n$ सम है, अतः मध्य पद 7वाँ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-08",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The 3rd term of a GP is 12 and its 6th term is 96. The first term is:",
+        "hi": "एक गुणोत्तर श्रेणी का तीसरा पद 12 और छठा पद 96 है। प्रथम पद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "2", "hi": "2"}},
+        {"id": "B", "text": {"en": "3", "hi": "3"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "4", "hi": "4"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$ar^2 = 12$ and $ar^5 = 96$. Dividing: $r^3 = 8 \\Rightarrow r = 2$. Then $a = \\frac{12}{4} = 3$. The GP is $3, 6, 12, 24, 48, 96, \\ldots$ ✓.",
+        "hi": "$ar^2 = 12$ और $ar^5 = 96$। भाग देने पर: $r^3 = 8 \\Rightarrow r = 2$। तब $a = \\frac{12}{4} = 3$। गुणोत्तर श्रेणी $3, 6, 12, 24, 48, 96, \\ldots$ है ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-09",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The point on the curve $y = x^2 - 4x + 1$ at which the tangent is parallel to the x-axis is:",
+        "hi": "वक्र $y = x^2 - 4x + 1$ पर वह बिंदु जहाँ स्पर्श रेखा x-अक्ष के समांतर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(2, 1)", "hi": "(2, 1)"}},
+        {"id": "B", "text": {"en": "(−2, 13)", "hi": "(−2, 13)"}},
+        {"id": "C", "text": {"en": "(2, −3)", "hi": "(2, −3)"}},
+        {"id": "D", "text": {"en": "(0, 1)", "hi": "(0, 1)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "A tangent parallel to the x-axis has slope 0: $\\frac{dy}{dx} = 2x - 4 = 0 \\Rightarrow x = 2$, and $y = 4 - 8 + 1 = -3$. So the point is $(2, -3)$, which is also the vertex (lowest point) of this parabola.",
+        "hi": "x-अक्ष के समांतर स्पर्श रेखा का ढाल 0 होता है: $\\frac{dy}{dx} = 2x - 4 = 0 \\Rightarrow x = 2$, और $y = 4 - 8 + 1 = -3$। अतः बिंदु $(2, -3)$ है, जो इस परवलय का शीर्ष (निम्नतम बिंदु) भी है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-13-10",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of reflexive relations on the set $\\{1, 2, 3\\}$.",
+        "hi": "समुच्चय $\\{1, 2, 3\\}$ पर स्वतुल्य संबंधों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 64,
+      "solution": {
+        "en": "A reflexive relation must contain all 3 diagonal pairs $(1,1), (2,2), (3,3)$. Each of the remaining $9 - 3 = 6$ ordered pairs may or may not be included: $2^6 = 64$ reflexive relations. In general there are $2^{n^2 - n}$ reflexive relations on a set with $n$ elements.",
+        "hi": "स्वतुल्य संबंध में तीनों विकर्ण युग्म $(1,1), (2,2), (3,3)$ होने चाहिए। शेष $9 - 3 = 6$ क्रमित युग्मों में से प्रत्येक शामिल हो भी सकता है और नहीं भी: $2^6 = 64$ स्वतुल्य संबंध। व्यापक रूप से $n$ अवयवों वाले समुच्चय पर $2^{n^2 - n}$ स्वतुल्य संबंध होते हैं।"
+      }
+    }
+  ]
+}

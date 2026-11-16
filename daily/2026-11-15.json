@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-15",
+  "questions": [
+    {
+      "id": "dd-2026-11-15-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI base unit of luminous intensity is the:",
+        "hi": "ज्योति तीव्रता का SI मूल मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Lumen", "hi": "ल्यूमेन"}},
+        {"id": "B", "text": {"en": "Lux", "hi": "लक्स"}},
+        {"id": "C", "text": {"en": "Candela", "hi": "कैंडेला"}},
+        {"id": "D", "text": {"en": "Watt", "hi": "वाट"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "The seven SI base units are metre, kilogram, second, ampere, kelvin, mole and candela (luminous intensity). The lumen (luminous flux) and lux (illuminance) are derived units; the watt is the unit of power.",
+        "hi": "सात SI मूल मात्रक हैं: मीटर, किलोग्राम, सेकंड, ऐम्पियर, केल्विन, मोल और कैंडेला (ज्योति तीव्रता)। ल्यूमेन (ज्योति फ्लक्स) और लक्स (प्रदीप्ति) व्युत्पन्न मात्रक हैं; वाट शक्ति का मात्रक है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-02",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the amplitude of a simple harmonic oscillator is doubled, its total mechanical energy becomes:",
+        "hi": "यदि किसी सरल आवर्त दोलित्र का आयाम दोगुना कर दिया जाए, तो उसकी कुल यांत्रिक ऊर्जा हो जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Double", "hi": "दोगुनी"}},
+        {"id": "B", "text": {"en": "Half", "hi": "आधी"}},
+        {"id": "C", "text": {"en": "Unchanged", "hi": "अपरिवर्तित"}},
+        {"id": "D", "text": {"en": "Four times", "hi": "चार गुनी"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Total energy in SHM $E = \\frac{1}{2}kA^2 = \\frac{1}{2}m\\omega^2A^2 \\propto A^2$. Doubling $A$ makes $E$ four times. The time period does not depend on amplitude, but the maximum speed $\\omega A$ doubles.",
+        "hi": "सरल आवर्त गति में कुल ऊर्जा $E = \\frac{1}{2}kA^2 = \\frac{1}{2}m\\omega^2A^2 \\propto A^2$। $A$ दोगुना करने पर $E$ चार गुनी हो जाती है। आवर्तकाल आयाम पर निर्भर नहीं करता, परंतु अधिकतम चाल $\\omega A$ दोगुनी हो जाती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-03",
+      "subject": "physics",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "2 moles of a monatomic ideal gas are heated at constant pressure so that its temperature rises by 100 K. Find the heat supplied (in J). (Take R = 8.3 J mol⁻¹ K⁻¹)",
+        "hi": "2 मोल एकपरमाणुक आदर्श गैस को नियत दाब पर गर्म किया जाता है जिससे इसका ताप 100 K बढ़ जाता है। दी गई ऊष्मा (J में) ज्ञात कीजिए। (R = 8.3 J mol⁻¹ K⁻¹ लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 4150,
+      "solution": {
+        "en": "For a monatomic gas $C_p = \\frac{5}{2}R$. $Q = nC_p\\Delta T = 2 \\times \\frac{5}{2} \\times 8.3 \\times 100 = 4150$ J. Of this, $\\Delta U = nC_v\\Delta T = 2490$ J raises the internal energy and $W = nR\\Delta T = 1660$ J is work done in expanding: $2490 + 1660 = 4150$ ✓.",
+        "hi": "एकपरमाणुक गैस के लिए $C_p = \\frac{5}{2}R$। $Q = nC_p\\Delta T = 2 \\times \\frac{5}{2} \\times 8.3 \\times 100 = 4150$ J। इसमें से $\\Delta U = nC_v\\Delta T = 2490$ J आंतरिक ऊर्जा बढ़ाती है और $W = nR\\Delta T = 1660$ J प्रसार में किया गया कार्य है: $2490 + 1660 = 4150$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-04",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The most common oxidation state shown by the lanthanoids is:",
+        "hi": "लैंथेनॉइडों द्वारा प्रदर्शित सबसे सामान्य ऑक्सीकरण अवस्था है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+2", "hi": "+2"}},
+        {"id": "B", "text": {"en": "+4", "hi": "+4"}},
+        {"id": "C", "text": {"en": "+6", "hi": "+6"}},
+        {"id": "D", "text": {"en": "+3", "hi": "+3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "All lanthanoids show +3 as their characteristic oxidation state. Some also show +2 or +4 when this gives an empty, half-filled or completely filled 4f subshell: Ce⁴⁺ (4f⁰) is a good oxidising agent and Eu²⁺ (4f⁷) a good reducing agent, because both tend to return to +3.",
+        "hi": "सभी लैंथेनॉइड अपनी विशिष्ट ऑक्सीकरण अवस्था +3 दर्शाते हैं। कुछ +2 या +4 भी दर्शाते हैं जब इससे 4f उपकोश रिक्त, अर्धपूरित या पूर्णपूरित हो: Ce⁴⁺ (4f⁰) अच्छा ऑक्सीकारक और Eu²⁺ (4f⁷) अच्छा अपचायक है, क्योंकि दोनों +3 पर लौटने की प्रवृत्ति रखते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-05",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following alkyl halides undergoes SN1 reaction fastest?",
+        "hi": "निम्नलिखित ऐल्किल हैलाइडों में से कौन SN1 अभिक्रिया सबसे तेज़ी से देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "(CH₃)₂CHBr", "hi": "(CH₃)₂CHBr"}},
+        {"id": "B", "text": {"en": "CH₃CH₂Br", "hi": "CH₃CH₂Br"}},
+        {"id": "C", "text": {"en": "(CH₃)₃CBr", "hi": "(CH₃)₃CBr"}},
+        {"id": "D", "text": {"en": "CH₃Br", "hi": "CH₃Br"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "SN1 goes through a carbocation, so its rate depends on carbocation stability: 3° > 2° > 1° > methyl. (CH₃)₃CBr forms the tert-butyl cation, stabilised by +I effect and hyperconjugation from 9 α-H, so it reacts fastest. This is exactly the reverse of the SN2 order.",
+        "hi": "SN1 कार्बधनायन से होकर जाती है, अतः इसका वेग कार्बधनायन के स्थायित्व पर निर्भर करता है: 3° > 2° > 1° > मेथिल। (CH₃)₃CBr से tert-ब्यूटिल धनायन बनता है, जो +I प्रभाव और 9 α-H के अतिसंयुग्मन से स्थायी है, अतः यह सबसे तेज़ अभिक्रिया करता है। यह SN2 क्रम का ठीक उलटा है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The equilibrium constant for N₂(g) + 3H₂(g) ⇌ 2NH₃(g) is $K$. The equilibrium constant for NH₃(g) ⇌ ½N₂(g) + 3/2 H₂(g) at the same temperature is:",
+        "hi": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g) का साम्य स्थिरांक $K$ है। उसी ताप पर NH₃(g) ⇌ ½N₂(g) + 3/2 H₂(g) का साम्य स्थिरांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "√K", "hi": "√K"}},
+        {"id": "B", "text": {"en": "1/√K", "hi": "1/√K"}},
+        {"id": "C", "text": {"en": "1/K", "hi": "1/K"}},
+        {"id": "D", "text": {"en": "K²", "hi": "K²"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Two rules: reversing a reaction inverts $K$, and multiplying the equation by $n$ raises $K$ to the power $n$. The new reaction is the original reversed ($\\frac{1}{K}$) and halved ($\\frac{1}{2}$ power): $K' = \\left(\\frac{1}{K}\\right)^{1/2} = \\frac{1}{\\sqrt{K}}$.",
+        "hi": "दो नियम: अभिक्रिया उलटने पर $K$ व्युत्क्रम हो जाता है, और समीकरण को $n$ से गुणा करने पर $K$ की घात $n$ हो जाती है। नई अभिक्रिया मूल को उलटकर ($\\frac{1}{K}$) और आधा करके ($\\frac{1}{2}$ घात) मिलती है: $K' = \\left(\\frac{1}{K}\\right)^{1/2} = \\frac{1}{\\sqrt{K}}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-07",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "$\\int \\cos x\\,dx$ is equal to:",
+        "hi": "$\\int \\cos x\\,dx$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sin x + C", "hi": "sin x + C"}},
+        {"id": "B", "text": {"en": "−sin x + C", "hi": "−sin x + C"}},
+        {"id": "C", "text": {"en": "cos x + C", "hi": "cos x + C"}},
+        {"id": "D", "text": {"en": "tan x + C", "hi": "tan x + C"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Since $\\frac{d}{dx}\\sin x = \\cos x$, we get $\\int\\cos x\\,dx = \\sin x + C$. Careful with signs: $\\int\\sin x\\,dx = -\\cos x + C$.",
+        "hi": "चूँकि $\\frac{d}{dx}\\sin x = \\cos x$, अतः $\\int\\cos x\\,dx = \\sin x + C$। चिह्नों का ध्यान रखें: $\\int\\sin x\\,dx = -\\cos x + C$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\tan^{-1}\\sqrt{3} - \\sec^{-1}(-2)$ is:",
+        "hi": "$\\tan^{-1}\\sqrt{3} - \\sec^{-1}(-2)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/3", "hi": "π/3"}},
+        {"id": "B", "text": {"en": "−π/3", "hi": "−π/3"}},
+        {"id": "C", "text": {"en": "π", "hi": "π"}},
+        {"id": "D", "text": {"en": "−π", "hi": "−π"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\tan^{-1}\\sqrt{3} = \\frac{\\pi}{3}$. For $\\sec^{-1}$, the principal range is $[0, \\pi] - \\left\\{\\frac{\\pi}{2}\\right\\}$: $\\sec\\theta = -2 \\Rightarrow \\cos\\theta = -\\frac{1}{2} \\Rightarrow \\theta = \\frac{2\\pi}{3}$. So the value is $\\frac{\\pi}{3} - \\frac{2\\pi}{3} = -\\frac{\\pi}{3}$. Trap: taking $\\sec^{-1}(-2) = -\\frac{\\pi}{3}$ — negative angles are not in its principal range.",
+        "hi": "$\\tan^{-1}\\sqrt{3} = \\frac{\\pi}{3}$। $\\sec^{-1}$ का मुख्य परिसर $[0, \\pi] - \\left\\{\\frac{\\pi}{2}\\right\\}$ है: $\\sec\\theta = -2 \\Rightarrow \\cos\\theta = -\\frac{1}{2} \\Rightarrow \\theta = \\frac{2\\pi}{3}$। अतः मान $\\frac{\\pi}{3} - \\frac{2\\pi}{3} = -\\frac{\\pi}{3}$ है। ध्यान दें: $\\sec^{-1}(-2) = -\\frac{\\pi}{3}$ लेना गलत है — ऋणात्मक कोण इसके मुख्य परिसर में नहीं हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-09",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The variance of the first 10 natural numbers is:",
+        "hi": "प्रथम 10 प्राकृत संख्याओं का प्रसरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8.25", "hi": "8.25"}},
+        {"id": "B", "text": {"en": "9.17", "hi": "9.17"}},
+        {"id": "C", "text": {"en": "5.5", "hi": "5.5"}},
+        {"id": "D", "text": {"en": "38.5", "hi": "38.5"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "For the first $n$ natural numbers, variance $= \\frac{n^2 - 1}{12} = \\frac{100 - 1}{12} = 8.25$. Check: $\\frac{\\sum x^2}{n} - \\bar{x}^2 = \\frac{385}{10} - 5.5^2 = 38.5 - 30.25 = 8.25$ ✓. (5.5 is the mean.)",
+        "hi": "प्रथम $n$ प्राकृत संख्याओं का प्रसरण $= \\frac{n^2 - 1}{12} = \\frac{100 - 1}{12} = 8.25$। जाँच: $\\frac{\\sum x^2}{n} - \\bar{x}^2 = \\frac{385}{10} - 5.5^2 = 38.5 - 30.25 = 8.25$ ✓। (5.5 माध्य है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-15-10",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $(1 + i)^{10} = ki$, find $k$.",
+        "hi": "यदि $(1 + i)^{10} = ki$ है, तो $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 32,
+      "solution": {
+        "en": "$(1 + i)^2 = 1 + 2i + i^2 = 2i$. So $(1 + i)^{10} = (2i)^5 = 32i^5 = 32i$ (since $i^4 = 1$). Hence $k = 32$. Polar check: $1 + i = \\sqrt{2}\\,e^{i\\pi/4}$, so $(1 + i)^{10} = 32e^{i5\\pi/2} = 32i$ ✓.",
+        "hi": "$(1 + i)^2 = 1 + 2i + i^2 = 2i$। अतः $(1 + i)^{10} = (2i)^5 = 32i^5 = 32i$ (चूँकि $i^4 = 1$)। इसलिए $k = 32$। ध्रुवीय जाँच: $1 + i = \\sqrt{2}\\,e^{i\\pi/4}$, अतः $(1 + i)^{10} = 32e^{i5\\pi/2} = 32i$ ✓।"
+      }
+    }
+  ]
+}

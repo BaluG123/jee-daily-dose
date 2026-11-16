@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-12",
+  "questions": [
+    {
+      "id": "dd-2026-11-12-01",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "According to Wien's displacement law, as the temperature of a black body increases, the wavelength at which it emits maximum energy:",
+        "hi": "वीन के विस्थापन नियम के अनुसार, कृष्णिका का ताप बढ़ने पर जिस तरंगदैर्ध्य पर यह अधिकतम ऊर्जा उत्सर्जित करती है, वह:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increases", "hi": "बढ़ती है"}},
+        {"id": "B", "text": {"en": "Remains the same", "hi": "समान रहती है"}},
+        {"id": "C", "text": {"en": "Decreases", "hi": "घटती है"}},
+        {"id": "D", "text": {"en": "First increases, then decreases", "hi": "पहले बढ़ती है, फिर घटती है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Wien's law: $\\lambda_m T = b$ (constant ≈ $2.9 \\times 10^{-3}$ m K), so $\\lambda_m \\propto \\frac{1}{T}$. That is why a heated iron rod glows dull red, then orange, then white as it gets hotter, and why blue stars are hotter than red stars.",
+        "hi": "वीन का नियम: $\\lambda_m T = b$ (नियतांक ≈ $2.9 \\times 10^{-3}$ m K), अतः $\\lambda_m \\propto \\frac{1}{T}$। इसी कारण गर्म की गई लोहे की छड़ अधिक गर्म होने पर पहले हल्की लाल, फिर नारंगी, फिर सफ़ेद चमकती है, और नीले तारे लाल तारों से अधिक गर्म होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-02",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "At a large distance $r$ from a short electric dipole, along its axis, the electric field varies as:",
+        "hi": "एक लघु विद्युत द्विध्रुव से उसकी अक्ष के अनुदिश बड़ी दूरी $r$ पर विद्युत क्षेत्र किसके अनुसार बदलता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/r³", "hi": "1/r³"}},
+        {"id": "B", "text": {"en": "1/r²", "hi": "1/r²"}},
+        {"id": "C", "text": {"en": "1/r", "hi": "1/r"}},
+        {"id": "D", "text": {"en": "1/r⁴", "hi": "1/r⁴"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Axial field of a short dipole: $E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{2p}{r^3}$; equatorial: $\\frac{1}{4\\pi\\varepsilon_0}\\frac{p}{r^3}$. The fields of $+q$ and $-q$ nearly cancel at large distances, so the dipole field falls faster ($\\propto \\frac{1}{r^3}$) than a point charge's field ($\\propto \\frac{1}{r^2}$).",
+        "hi": "लघु द्विध्रुव का अक्षीय क्षेत्र: $E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{2p}{r^3}$; निरक्षीय: $\\frac{1}{4\\pi\\varepsilon_0}\\frac{p}{r^3}$। बड़ी दूरी पर $+q$ और $-q$ के क्षेत्र लगभग निरस्त हो जाते हैं, अतः द्विध्रुव क्षेत्र ($\\propto \\frac{1}{r^3}$) बिंदु आवेश के क्षेत्र ($\\propto \\frac{1}{r^2}$) से तेज़ी से घटता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-03",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A rectangular coil of 50 turns and area 0.02 m² carries a current of 2 A and is placed in a uniform magnetic field of 0.5 T. Find the maximum torque (in N m) that can act on the coil.",
+        "hi": "50 फेरों और 0.02 m² क्षेत्रफल की एक आयताकार कुंडली में 2 A धारा है और यह 0.5 T के एकसमान चुंबकीय क्षेत्र में रखी है। कुंडली पर लग सकने वाला अधिकतम बल आघूर्ण (N m में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1,
+      "solution": {
+        "en": "$\\tau = NIAB\\sin\\theta$, where $\\theta$ is the angle between the area vector and $\\vec{B}$. Maximum when $\\theta = 90^\\circ$ (plane of the coil parallel to the field): $\\tau_{\\max} = 50 \\times 2 \\times 0.02 \\times 0.5 = 1$ N m. This torque is the working principle of the moving-coil galvanometer and electric motors.",
+        "hi": "$\\tau = NIAB\\sin\\theta$, जहाँ $\\theta$ क्षेत्रफल सदिश और $\\vec{B}$ के बीच का कोण है। अधिकतम जब $\\theta = 90^\\circ$ (कुंडली का तल क्षेत्र के समांतर): $\\tau_{\\max} = 50 \\times 2 \\times 0.02 \\times 0.5 = 1$ N m। यही बल आघूर्ण चल-कुंडली धारामापी और विद्युत मोटरों का कार्य सिद्धांत है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-04",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Formalin is an aqueous solution of:",
+        "hi": "फ़ॉर्मेलिन किसका जलीय विलयन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Formic acid", "hi": "फ़ॉर्मिक अम्ल"}},
+        {"id": "B", "text": {"en": "Formaldehyde (about 40%)", "hi": "फ़ॉर्मैल्डिहाइड (लगभग 40%)"}},
+        {"id": "C", "text": {"en": "Acetaldehyde", "hi": "ऐसीटैल्डिहाइड"}},
+        {"id": "D", "text": {"en": "Methanol only", "hi": "केवल मेथेनॉल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Formalin is about 40% formaldehyde (HCHO) in water, usually with some methanol added to stop polymerisation. It is used to preserve biological specimens because it denatures proteins and kills microbes. Formic acid (HCOOH) is a different compound.",
+        "hi": "फ़ॉर्मेलिन जल में लगभग 40% फ़ॉर्मैल्डिहाइड (HCHO) है, जिसमें बहुलकीकरण रोकने के लिए प्रायः थोड़ा मेथेनॉल मिलाया जाता है। यह जैविक नमूनों को संरक्षित करने में प्रयुक्त होता है क्योंकि यह प्रोटीनों को विकृत करता है और सूक्ष्मजीवों को मारता है। फ़ॉर्मिक अम्ल (HCOOH) एक भिन्न यौगिक है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-05",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The correct decreasing order of bond angle in the hydrides of group 15 is:",
+        "hi": "वर्ग 15 के हाइड्राइडों में आबंध कोण का सही घटता क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "NH₃ > PH₃ > AsH₃", "hi": "NH₃ > PH₃ > AsH₃"}},
+        {"id": "B", "text": {"en": "AsH₃ > PH₃ > NH₃", "hi": "AsH₃ > PH₃ > NH₃"}},
+        {"id": "C", "text": {"en": "PH₃ > NH₃ > AsH₃", "hi": "PH₃ > NH₃ > AsH₃"}},
+        {"id": "D", "text": {"en": "NH₃ = PH₃ = AsH₃", "hi": "NH₃ = PH₃ = AsH₃"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "NH₃ ≈ 107°, PH₃ ≈ 93.6°, AsH₃ ≈ 91.8°. Going down the group, the central atom becomes larger and less electronegative, so the bond pairs lie farther from it and repel each other less. The bonds then use nearly pure p orbitals, and the angle approaches 90°.",
+        "hi": "NH₃ ≈ 107°, PH₃ ≈ 93.6°, AsH₃ ≈ 91.8°। वर्ग में नीचे जाने पर केंद्रीय परमाणु बड़ा और कम विद्युत ऋणात्मक होता है, अतः आबंध युग्म उससे दूर रहते हैं और एक-दूसरे को कम प्रतिकर्षित करते हैं। तब आबंध लगभग शुद्ध p कक्षकों का प्रयोग करते हैं, और कोण 90° के निकट पहुँच जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A zero-order reaction has a rate constant of 0.02 mol L⁻¹ s⁻¹. If the initial concentration of the reactant is 0.8 mol L⁻¹, find the time (in s) needed for the reaction to go to completion.",
+        "hi": "एक शून्य कोटि की अभिक्रिया का वेग स्थिरांक 0.02 mol L⁻¹ s⁻¹ है। यदि अभिकारक की प्रारंभिक सांद्रता 0.8 mol L⁻¹ है, तो अभिक्रिया पूर्ण होने में लगने वाला समय (s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 40,
+      "solution": {
+        "en": "For zero order, $[A] = [A]_0 - kt$: the concentration falls linearly at a constant rate. Completion means $[A] = 0$: $t = \\frac{[A]_0}{k} = \\frac{0.8}{0.02} = 40$ s. (A first-order reaction, by contrast, never strictly reaches completion.) Half-life here is 20 s.",
+        "hi": "शून्य कोटि के लिए $[A] = [A]_0 - kt$: सांद्रता नियत दर से रैखिक रूप से घटती है। पूर्णता का अर्थ $[A] = 0$: $t = \\frac{[A]_0}{k} = \\frac{0.8}{0.02} = 40$ s। (इसके विपरीत प्रथम कोटि की अभिक्रिया कभी पूरी तरह पूर्ण नहीं होती।) यहाँ अर्धायु 20 s है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-07",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the x-axis is:",
+        "hi": "x-अक्ष का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x = 0", "hi": "x = 0"}},
+        {"id": "B", "text": {"en": "y = x", "hi": "y = x"}},
+        {"id": "C", "text": {"en": "y = 0", "hi": "y = 0"}},
+        {"id": "D", "text": {"en": "x + y = 0", "hi": "x + y = 0"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Every point on the x-axis has y-coordinate 0, such as $(1, 0)$ and $(-5, 0)$, so the x-axis is $y = 0$. Likewise the y-axis is $x = 0$.",
+        "hi": "x-अक्ष के प्रत्येक बिंदु का y-निर्देशांक 0 होता है, जैसे $(1, 0)$ और $(-5, 0)$, अतः x-अक्ष $y = 0$ है। इसी प्रकार y-अक्ष $x = 0$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-08",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ is an invertible matrix with $|A| = 4$, then $|A^{-1}|$ is:",
+        "hi": "यदि $A$ एक व्युत्क्रमणीय आव्यूह है और $|A| = 4$ है, तो $|A^{-1}|$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4", "hi": "4"}},
+        {"id": "B", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "C", "text": {"en": "−4", "hi": "−4"}},
+        {"id": "D", "text": {"en": "16", "hi": "16"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$AA^{-1} = I \\Rightarrow |A||A^{-1}| = |I| = 1 \\Rightarrow |A^{-1}| = \\frac{1}{|A|} = \\frac{1}{4}$. This holds for a square matrix of any order.",
+        "hi": "$AA^{-1} = I \\Rightarrow |A||A^{-1}| = |I| = 1 \\Rightarrow |A^{-1}| = \\frac{1}{|A|} = \\frac{1}{4}$। यह किसी भी कोटि के वर्ग आव्यूह के लिए सत्य है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A fair die is thrown twice. The probability that the sum of the numbers obtained is at least 11 is:",
+        "hi": "एक निष्पक्ष पासा दो बार फेंका जाता है। प्राप्त संख्याओं का योग कम से कम 11 होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/18", "hi": "1/18"}},
+        {"id": "B", "text": {"en": "1/36", "hi": "1/36"}},
+        {"id": "C", "text": {"en": "1/6", "hi": "1/6"}},
+        {"id": "D", "text": {"en": "1/12", "hi": "1/12"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Sum ≥ 11 means 11 or 12: (5, 6), (6, 5), (6, 6) — 3 outcomes out of 36. $P = \\frac{3}{36} = \\frac{1}{12}$. (Sum exactly 11 alone would be $\\frac{2}{36} = \\frac{1}{18}$.)",
+        "hi": "योग ≥ 11 का अर्थ 11 या 12: (5, 6), (6, 5), (6, 6) — 36 में से 3 परिणाम। $P = \\frac{3}{36} = \\frac{1}{12}$। (केवल योग 11 के लिए $\\frac{2}{36} = \\frac{1}{18}$ होता।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-12-10",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Evaluate $\\int_{-1}^{1}(x^3 + x + 1)\\,dx$.",
+        "hi": "$\\int_{-1}^{1}(x^3 + x + 1)\\,dx$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "Use symmetry: $\\int_{-a}^{a}f(x)\\,dx = 0$ if $f$ is odd. Here $x^3$ and $x$ are odd, so they contribute 0, leaving $\\int_{-1}^{1}1\\,dx = 2$. Spotting odd functions over symmetric limits saves a lot of calculation in JEE.",
+        "hi": "सममिति का प्रयोग करें: यदि $f$ विषम है तो $\\int_{-a}^{a}f(x)\\,dx = 0$। यहाँ $x^3$ और $x$ विषम हैं, अतः इनका योगदान 0 है, और $\\int_{-1}^{1}1\\,dx = 2$ बचता है। सममित सीमाओं पर विषम फलन पहचानना JEE में बहुत गणना बचाता है।"
+      }
+    }
+  ]
+}

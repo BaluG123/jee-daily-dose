@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-05",
+  "questions": [
+    {
+      "id": "dd-2026-11-05-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following physical quantities is dimensionless?",
+        "hi": "निम्नलिखित में से कौन-सी भौतिक राशि विमाहीन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Velocity", "hi": "वेग"}},
+        {"id": "B", "text": {"en": "Refractive index", "hi": "अपवर्तनांक"}},
+        {"id": "C", "text": {"en": "Force", "hi": "बल"}},
+        {"id": "D", "text": {"en": "Pressure", "hi": "दाब"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Refractive index $n = \\frac{c}{v}$ is a ratio of two speeds, so its dimensions cancel. Other dimensionless quantities: strain, relative density, angle (in radians) and coefficient of friction. Velocity is $[LT^{-1}]$, force $[MLT^{-2}]$ and pressure $[ML^{-1}T^{-2}]$.",
+        "hi": "अपवर्तनांक $n = \\frac{c}{v}$ दो चालों का अनुपात है, अतः इसकी विमाएँ कट जाती हैं। अन्य विमाहीन राशियाँ: विकृति, आपेक्षिक घनत्व, कोण (रेडियन में) और घर्षण गुणांक। वेग $[LT^{-1}]$, बल $[MLT^{-2}]$ और दाब $[ML^{-1}T^{-2}]$ है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-02",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In Young's double-slit experiment, if the separation between the slits is halved (keeping everything else the same), the fringe width becomes:",
+        "hi": "यंग के द्वि-झिरी प्रयोग में यदि झिरियों के बीच की दूरी आधी कर दी जाए (बाकी सब समान रखते हुए), तो फ्रिंज चौड़ाई हो जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Half", "hi": "आधी"}},
+        {"id": "B", "text": {"en": "Four times", "hi": "चार गुनी"}},
+        {"id": "C", "text": {"en": "Double", "hi": "दोगुनी"}},
+        {"id": "D", "text": {"en": "Unchanged", "hi": "अपरिवर्तित"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Fringe width $\\beta = \\frac{\\lambda D}{d}$, so $\\beta \\propto \\frac{1}{d}$. Halving $d$ doubles $\\beta$. Similarly, increasing the screen distance $D$ or the wavelength $\\lambda$ widens the fringes; immersing the setup in water ($\\lambda \\to \\frac{\\lambda}{n}$) narrows them.",
+        "hi": "फ्रिंज चौड़ाई $\\beta = \\frac{\\lambda D}{d}$, अतः $\\beta \\propto \\frac{1}{d}$। $d$ आधा करने पर $\\beta$ दोगुनी हो जाती है। इसी प्रकार परदे की दूरी $D$ या तरंगदैर्ध्य $\\lambda$ बढ़ाने पर फ्रिंजें चौड़ी होती हैं; उपकरण को जल में डुबोने पर ($\\lambda \\to \\frac{\\lambda}{n}$) वे संकरी हो जाती हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-03",
+      "subject": "physics",
+      "chapter": "Motion in a Straight Line",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A car moving at 20 m/s applies brakes that produce a uniform retardation of 5 m/s². Find the distance (in m) it travels before coming to rest.",
+        "hi": "20 m/s से चलती एक कार ब्रेक लगाती है जिससे 5 m/s² का एकसमान मंदन उत्पन्न होता है। रुकने से पहले कार द्वारा तय की गई दूरी (m में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 40,
+      "solution": {
+        "en": "$v^2 = u^2 - 2as \\Rightarrow 0 = 20^2 - 2(5)s \\Rightarrow s = \\frac{400}{10} = 40$ m (it stops after $t = \\frac{u}{a} = 4$ s). Since $s = \\frac{u^2}{2a}$, the stopping distance is proportional to $u^2$: doubling the speed makes it four times longer — the physics behind speed limits.",
+        "hi": "$v^2 = u^2 - 2as \\Rightarrow 0 = 20^2 - 2(5)s \\Rightarrow s = \\frac{400}{10} = 40$ m (यह $t = \\frac{u}{a} = 4$ s बाद रुकती है)। चूँकि $s = \\frac{u^2}{2a}$, रुकने की दूरी $u^2$ के अनुक्रमानुपाती है: चाल दोगुनी करने पर दूरी चार गुनी हो जाती है — गति सीमा के पीछे यही भौतिकी है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-04",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The mass of one atom of carbon-12 is approximately:",
+        "hi": "कार्बन-12 के एक परमाणु का द्रव्यमान लगभग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1.99 × 10⁻²³ g", "hi": "1.99 × 10⁻²³ g"}},
+        {"id": "B", "text": {"en": "12 g", "hi": "12 g"}},
+        {"id": "C", "text": {"en": "6.022 × 10⁻²³ g", "hi": "6.022 × 10⁻²³ g"}},
+        {"id": "D", "text": {"en": "1.66 × 10⁻²⁴ g", "hi": "1.66 × 10⁻²⁴ g"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "One mole (12 g) of C-12 contains $N_A = 6.022 \\times 10^{23}$ atoms, so one atom has mass $\\frac{12}{6.022 \\times 10^{23}} \\approx 1.99 \\times 10^{-23}$ g. (1.66 × 10⁻²⁴ g is 1 u, one-twelfth of this; 12 g is the mass of a whole mole.)",
+        "hi": "C-12 के एक मोल (12 g) में $N_A = 6.022 \\times 10^{23}$ परमाणु होते हैं, अतः एक परमाणु का द्रव्यमान $\\frac{12}{6.022 \\times 10^{23}} \\approx 1.99 \\times 10^{-23}$ g है। (1.66 × 10⁻²⁴ g, 1 u है, जो इसका बारहवाँ भाग है; 12 g पूरे एक मोल का द्रव्यमान है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-05",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following gives a silver mirror with Tollens' reagent?",
+        "hi": "निम्नलिखित में से कौन टॉलेन अभिकर्मक के साथ रजत दर्पण देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Propanone", "hi": "प्रोपेनोन"}},
+        {"id": "B", "text": {"en": "Ethanal", "hi": "एथेनैल"}},
+        {"id": "C", "text": {"en": "Butan-2-one", "hi": "ब्यूटेन-2-ओन"}},
+        {"id": "D", "text": {"en": "Diethyl ether", "hi": "डाइएथिल ईथर"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Tollens' reagent (ammoniacal AgNO₃, [Ag(NH₃)₂]⁺) is a mild oxidising agent. Aldehydes such as ethanal (CH₃CHO) are easily oxidised to carboxylate, reducing Ag⁺ to metallic silver, which coats the tube as a mirror. Ketones lack the aldehydic H and are not oxidised, so this test distinguishes aldehydes from ketones.",
+        "hi": "टॉलेन अभिकर्मक (अमोनियामय AgNO₃, [Ag(NH₃)₂]⁺) एक मृदु ऑक्सीकारक है। एथेनैल (CH₃CHO) जैसे ऐल्डिहाइड आसानी से कार्बोक्सिलेट में ऑक्सीकृत होते हैं और Ag⁺ को धात्विक चाँदी में अपचयित करते हैं, जो नली पर दर्पण की तरह जम जाती है। कीटोनों में ऐल्डिहाइडी H नहीं होता और वे ऑक्सीकृत नहीं होते, अतः यह परीक्षण ऐल्डिहाइड और कीटोन में अंतर करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The solubility product of CaF₂ at 298 K is $3.2 \\times 10^{-11}$. If its solubility in water is $x \\times 10^{-4}$ mol/L, find $x$.",
+        "hi": "298 K पर CaF₂ का विलेयता गुणनफल $3.2 \\times 10^{-11}$ है। यदि जल में इसकी विलेयता $x \\times 10^{-4}$ mol/L है, तो $x$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2,
+      "solution": {
+        "en": "CaF₂(s) ⇌ Ca²⁺ + 2F⁻. With solubility $s$: $[\\text{Ca}^{2+}] = s$, $[\\text{F}^-] = 2s$. $K_{sp} = s(2s)^2 = 4s^3 \\Rightarrow s^3 = \\frac{3.2 \\times 10^{-11}}{4} = 8 \\times 10^{-12} \\Rightarrow s = 2 \\times 10^{-4}$ mol/L. So $x = 2$. Trap: forgetting to square the 2s gives the wrong answer.",
+        "hi": "CaF₂(s) ⇌ Ca²⁺ + 2F⁻। विलेयता $s$ होने पर: $[\\text{Ca}^{2+}] = s$, $[\\text{F}^-] = 2s$। $K_{sp} = s(2s)^2 = 4s^3 \\Rightarrow s^3 = \\frac{3.2 \\times 10^{-11}}{4} = 8 \\times 10^{-12} \\Rightarrow s = 2 \\times 10^{-4}$ mol/L। अतः $x = 2$। ध्यान दें: 2s का वर्ग करना भूलने पर गलत उत्तर आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A \\subset B$, then $A \\cap B$ is equal to:",
+        "hi": "यदि $A \\subset B$ है, तो $A \\cap B$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "B", "hi": "B"}},
+        {"id": "B", "text": {"en": "∅", "hi": "∅"}},
+        {"id": "C", "text": {"en": "A ∪ B", "hi": "A ∪ B"}},
+        {"id": "D", "text": {"en": "A", "hi": "A"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Every element of $A$ is already in $B$, so the common elements of $A$ and $B$ are exactly the elements of $A$: $A \\cap B = A$. Similarly, $A \\cup B = B$ when $A \\subset B$.",
+        "hi": "$A$ का प्रत्येक अवयव पहले से $B$ में है, अतः $A$ और $B$ के उभयनिष्ठ अवयव ठीक $A$ के अवयव हैं: $A \\cap B = A$। इसी प्रकार $A \\subset B$ होने पर $A \\cup B = B$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\tan x = \\frac{1}{2}$, then $\\cos 2x$ is equal to:",
+        "hi": "यदि $\\tan x = \\frac{1}{2}$ है, तो $\\cos 2x$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3/5", "hi": "3/5"}},
+        {"id": "B", "text": {"en": "4/5", "hi": "4/5"}},
+        {"id": "C", "text": {"en": "1/5", "hi": "1/5"}},
+        {"id": "D", "text": {"en": "2/5", "hi": "2/5"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\cos 2x = \\frac{1 - \\tan^2 x}{1 + \\tan^2 x} = \\frac{1 - \\frac{1}{4}}{1 + \\frac{1}{4}} = \\frac{3/4}{5/4} = \\frac{3}{5}$. This formula works directly with $\\tan x$, without finding $\\sin x$ and $\\cos x$ separately. (4/5 is $\\sin 2x$.)",
+        "hi": "$\\cos 2x = \\frac{1 - \\tan^2 x}{1 + \\tan^2 x} = \\frac{1 - \\frac{1}{4}}{1 + \\frac{1}{4}} = \\frac{3/4}{5/4} = \\frac{3}{5}$। यह सूत्र $\\sin x$ और $\\cos x$ अलग-अलग निकाले बिना सीधे $\\tan x$ से काम करता है। (4/5, $\\sin 2x$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-09",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The inverse of the matrix $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$ is:",
+        "hi": "आव्यूह $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$ का व्युत्क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "[[4, −2], [−3, 1]]", "hi": "[[4, −2], [−3, 1]]"}},
+        {"id": "B", "text": {"en": "[[2, −1], [−3/2, 1/2]]", "hi": "[[2, −1], [−3/2, 1/2]]"}},
+        {"id": "C", "text": {"en": "[[−2, 3/2], [1, −1/2]]", "hi": "[[−2, 3/2], [1, −1/2]]"}},
+        {"id": "D", "text": {"en": "[[−2, 1], [3/2, −1/2]]", "hi": "[[−2, 1], [3/2, −1/2]]"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$|A| = 4 - 6 = -2 \\ne 0$, so $A^{-1}$ exists. For a $2 \\times 2$ matrix, swap the diagonal entries and change the signs of the off-diagonal ones: $\\text{adj }A = \\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix}$. $A^{-1} = \\frac{1}{|A|}\\text{adj }A = -\\frac{1}{2}\\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix} = \\begin{bmatrix} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{bmatrix}$. Check: $AA^{-1} = I$ ✓.",
+        "hi": "$|A| = 4 - 6 = -2 \\ne 0$, अतः $A^{-1}$ का अस्तित्व है। $2 \\times 2$ आव्यूह के लिए विकर्ण अवयवों की अदला-बदली करें और अन्य दोनों के चिह्न बदलें: $\\text{adj }A = \\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix}$। $A^{-1} = \\frac{1}{|A|}\\text{adj }A = -\\frac{1}{2}\\begin{bmatrix} 4 & -2 \\\\ -3 & 1 \\end{bmatrix} = \\begin{bmatrix} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{bmatrix}$। जाँच: $AA^{-1} = I$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-05-10",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Evaluate $\\int_0^1 x e^x\\,dx$.",
+        "hi": "$\\int_0^1 x e^x\\,dx$ का मान ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1,
+      "solution": {
+        "en": "By parts, $\\int xe^x\\,dx = e^x(x - 1) + C$. So $\\int_0^1 xe^x\\,dx = \\left[e^x(x - 1)\\right]_0^1 = e(0) - e^0(-1) = 0 + 1 = 1$. Nice: the $e$ terms vanish completely.",
+        "hi": "खंडशः समाकलन से $\\int xe^x\\,dx = e^x(x - 1) + C$। अतः $\\int_0^1 xe^x\\,dx = \\left[e^x(x - 1)\\right]_0^1 = e(0) - e^0(-1) = 0 + 1 = 1$। रोचक: $e$ वाले पद पूरी तरह कट जाते हैं।"
+      }
+    }
+  ]
+}

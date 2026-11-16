@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-14",
+  "questions": [
+    {
+      "id": "dd-2026-11-14-01",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The escape velocity from the surface of the Earth is approximately:",
+        "hi": "पृथ्वी की सतह से पलायन वेग लगभग है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "11.2 km/s", "hi": "11.2 km/s"}},
+        {"id": "B", "text": {"en": "7.9 km/s", "hi": "7.9 km/s"}},
+        {"id": "C", "text": {"en": "3 × 10⁵ km/s", "hi": "3 × 10⁵ km/s"}},
+        {"id": "D", "text": {"en": "1.1 km/s", "hi": "1.1 km/s"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$v_e = \\sqrt{2gR} = \\sqrt{2 \\times 9.8 \\times 6.4 \\times 10^6} \\approx 11.2$ km/s. 7.9 km/s is the orbital speed near the surface ($v_e = \\sqrt{2}\\,v_o$), and $3 \\times 10^5$ km/s is the speed of light.",
+        "hi": "$v_e = \\sqrt{2gR} = \\sqrt{2 \\times 9.8 \\times 6.4 \\times 10^6} \\approx 11.2$ km/s। 7.9 km/s सतह के निकट कक्षीय चाल है ($v_e = \\sqrt{2}\\,v_o$), और $3 \\times 10^5$ km/s प्रकाश की चाल है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-02",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Unpolarised light falls on a glass surface of refractive index $\\sqrt{3}$. At what angle of incidence is the reflected light completely plane polarised?",
+        "hi": "अध्रुवित प्रकाश $\\sqrt{3}$ अपवर्तनांक वाले काँच के पृष्ठ पर पड़ता है। किस आपतन कोण पर परावर्तित प्रकाश पूर्णतः समतल ध्रुवित होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "60°", "hi": "60°"}},
+        {"id": "B", "text": {"en": "30°", "hi": "30°"}},
+        {"id": "C", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "D", "text": {"en": "90°", "hi": "90°"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Brewster's law: $\\tan i_B = n = \\sqrt{3} \\Rightarrow i_B = 60^\\circ$. At this angle the reflected and refracted rays are perpendicular ($i_B + r = 90^\\circ$, so $r = 30^\\circ$). Polarisation itself proves that light waves are transverse.",
+        "hi": "ब्रूस्टर का नियम: $\\tan i_B = n = \\sqrt{3} \\Rightarrow i_B = 60^\\circ$। इस कोण पर परावर्तित और अपवर्तित किरणें लंबवत होती हैं ($i_B + r = 90^\\circ$, अतः $r = 30^\\circ$)। ध्रुवण स्वयं सिद्ध करता है कि प्रकाश तरंगें अनुप्रस्थ हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-03",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Two cells, one of emf 2 V and internal resistance 1 Ω and the other of emf 4 V and internal resistance 1 Ω, are connected in parallel with like terminals together. Find the emf (in V) of the equivalent cell.",
+        "hi": "दो सेल, एक 2 V विद्युत वाहक बल और 1 Ω आंतरिक प्रतिरोध का तथा दूसरा 4 V विद्युत वाहक बल और 1 Ω आंतरिक प्रतिरोध का, समान टर्मिनल एक साथ जोड़कर समांतर क्रम में जुड़े हैं। तुल्य सेल का विद्युत वाहक बल (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "For cells in parallel: $E_{\\text{eq}} = \\frac{E_1r_2 + E_2r_1}{r_1 + r_2} = \\frac{2(1) + 4(1)}{1 + 1} = 3$ V, with $r_{\\text{eq}} = \\frac{r_1r_2}{r_1 + r_2} = 0.5\\,\\Omega$. Physically, a current of $\\frac{4 - 2}{2} = 1$ A circulates between the cells, so the terminal voltage is $4 - 1 = 3$ V (or $2 + 1 = 3$ V) ✓.",
+        "hi": "समांतर सेलों के लिए: $E_{\\text{eq}} = \\frac{E_1r_2 + E_2r_1}{r_1 + r_2} = \\frac{2(1) + 4(1)}{1 + 1} = 3$ V, तथा $r_{\\text{eq}} = \\frac{r_1r_2}{r_1 + r_2} = 0.5\\,\\Omega$। भौतिक रूप से, सेलों के बीच $\\frac{4 - 2}{2} = 1$ A धारा घूमती है, अतः टर्मिनल वोल्टता $4 - 1 = 3$ V (या $2 + 1 = 3$ V) ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-04",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Colligative properties of a dilute solution depend on the:",
+        "hi": "किसी तनु विलयन के अणुसंख्य गुणधर्म किस पर निर्भर करते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Nature of the solute", "hi": "विलेय की प्रकृति"}},
+        {"id": "B", "text": {"en": "Chemical formula of the solute", "hi": "विलेय के रासायनिक सूत्र"}},
+        {"id": "C", "text": {"en": "Number of solute particles", "hi": "विलेय कणों की संख्या"}},
+        {"id": "D", "text": {"en": "Colour of the solution", "hi": "विलयन के रंग"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Colligative ('bound together') properties — relative lowering of vapour pressure, elevation of boiling point, depression of freezing point and osmotic pressure — depend only on the number of solute particles in a given amount of solvent, not on what they are. That is why they are used to find molar masses, and why electrolytes need the van't Hoff factor $i$.",
+        "hi": "अणुसंख्य गुणधर्म — वाष्प दाब का आपेक्षिक अवनमन, क्वथनांक उन्नयन, हिमांक अवनमन और परासरण दाब — केवल विलायक की दी गई मात्रा में विलेय कणों की संख्या पर निर्भर करते हैं, उनकी प्रकृति पर नहीं। इसी कारण इनसे मोलर द्रव्यमान ज्ञात किए जाते हैं, और वैद्युतअपघट्यों के लिए वान्ट हॉफ़ गुणांक $i$ आवश्यक है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-05",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The average oxidation number of iron in Fe₃O₄ is:",
+        "hi": "Fe₃O₄ में आयरन की औसत ऑक्सीकरण संख्या है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "+3", "hi": "+3"}},
+        {"id": "B", "text": {"en": "+2", "hi": "+2"}},
+        {"id": "C", "text": {"en": "+4", "hi": "+4"}},
+        {"id": "D", "text": {"en": "+8/3", "hi": "+8/3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$3x + 4(-2) = 0 \\Rightarrow x = +\\frac{8}{3}$. A fractional value means the atoms are in different states: Fe₃O₄ is a mixed oxide, FeO·Fe₂O₃, with one Fe²⁺ and two Fe³⁺ — average $\\frac{2 + 3 + 3}{3} = \\frac{8}{3}$.",
+        "hi": "$3x + 4(-2) = 0 \\Rightarrow x = +\\frac{8}{3}$। भिन्नात्मक मान का अर्थ है कि परमाणु भिन्न अवस्थाओं में हैं: Fe₃O₄ एक मिश्रित ऑक्साइड, FeO·Fe₂O₃, है जिसमें एक Fe²⁺ और दो Fe³⁺ हैं — औसत $\\frac{2 + 3 + 3}{3} = \\frac{8}{3}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-06",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following carboxylic acids is the strongest acid?",
+        "hi": "निम्नलिखित कार्बोक्सिलिक अम्लों में से सबसे प्रबल अम्ल कौन-सा है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Benzoic acid (C₆H₅COOH)", "hi": "बेन्ज़ोइक अम्ल (C₆H₅COOH)"}},
+        {"id": "B", "text": {"en": "Acetic acid (CH₃COOH)", "hi": "ऐसीटिक अम्ल (CH₃COOH)"}},
+        {"id": "C", "text": {"en": "Formic acid (HCOOH)", "hi": "फ़ॉर्मिक अम्ल (HCOOH)"}},
+        {"id": "D", "text": {"en": "Propanoic acid (CH₃CH₂COOH)", "hi": "प्रोपेनॉइक अम्ल (CH₃CH₂COOH)"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "pKa values: HCOOH 3.75 < C₆H₅COOH 4.20 < CH₃COOH 4.76 < CH₃CH₂COOH 4.87. Alkyl groups (+I effect) push electrons into the carboxylate ion and destabilise it, so acetic and propanoic acids are weaker. Formic acid has no alkyl group, so it is the strongest. The sp² phenyl group is mildly electron-withdrawing, which places benzoic acid in between.",
+        "hi": "pKa मान: HCOOH 3.75 < C₆H₅COOH 4.20 < CH₃COOH 4.76 < CH₃CH₂COOH 4.87। ऐल्किल समूह (+I प्रभाव) कार्बोक्सिलेट आयन में इलेक्ट्रॉन धकेलकर उसे अस्थायी करते हैं, अतः ऐसीटिक और प्रोपेनॉइक अम्ल दुर्बल हैं। फ़ॉर्मिक अम्ल में कोई ऐल्किल समूह नहीं, अतः यह सबसे प्रबल है। sp² फ़ेनिल समूह हल्का इलेक्ट्रॉन-आकर्षी है, जिससे बेन्ज़ोइक अम्ल बीच में आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-07",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f(x) = x^3 - 2x + 1$ is continuous:",
+        "hi": "फलन $f(x) = x^3 - 2x + 1$ संतत है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Only at x = 0", "hi": "केवल x = 0 पर"}},
+        {"id": "B", "text": {"en": "Only for x > 0", "hi": "केवल x > 0 के लिए"}},
+        {"id": "C", "text": {"en": "Nowhere", "hi": "कहीं नहीं"}},
+        {"id": "D", "text": {"en": "At every real number", "hi": "प्रत्येक वास्तविक संख्या पर"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Every polynomial is continuous on all of $\\mathbb{R}$: it is built from $x$ and constants using addition and multiplication, which preserve continuity. Polynomials are also differentiable everywhere. Discontinuities usually come from division by zero, jumps (like $[x]$) or piecewise definitions.",
+        "hi": "प्रत्येक बहुपद पूरे $\\mathbb{R}$ पर संतत होता है: यह $x$ और अचरों से योग और गुणन द्वारा बनता है, जो संतता बनाए रखते हैं। बहुपद हर जगह अवकलनीय भी होते हैं। असंततता प्रायः शून्य से भाग, छलाँग ($[x]$ जैसे) या खंडशः परिभाषा से आती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-08",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The eccentricity of the hyperbola $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ is:",
+        "hi": "अतिपरवलय $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ की उत्केंद्रता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5/4", "hi": "5/4"}},
+        {"id": "B", "text": {"en": "5/3", "hi": "5/3"}},
+        {"id": "C", "text": {"en": "4/3", "hi": "4/3"}},
+        {"id": "D", "text": {"en": "√7/3", "hi": "√7/3"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + \\frac{16}{9}} = \\sqrt{\\frac{25}{9}} = \\frac{5}{3}$. For a hyperbola $e > 1$ always. (√7/3 comes from wrongly using the ellipse formula $\\sqrt{1 - \\frac{b^2}{a^2}}$.)",
+        "hi": "$e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + \\frac{16}{9}} = \\sqrt{\\frac{25}{9}} = \\frac{5}{3}$। अतिपरवलय के लिए सदैव $e > 1$। (√7/3 दीर्घवृत्त का सूत्र $\\sqrt{1 - \\frac{b^2}{a^2}}$ गलती से लगाने पर आता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-09",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ and $B$ are square matrices of the same order with $AB = O$ (the zero matrix), then:",
+        "hi": "यदि $A$ और $B$ समान कोटि के वर्ग आव्यूह हैं और $AB = O$ (शून्य आव्यूह) है, तो:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A must be the zero matrix", "hi": "A अवश्य शून्य आव्यूह होगा"}},
+        {"id": "B", "text": {"en": "Neither A nor B need be the zero matrix", "hi": "आवश्यक नहीं कि A या B शून्य आव्यूह हो"}},
+        {"id": "C", "text": {"en": "B must be the zero matrix", "hi": "B अवश्य शून्य आव्यूह होगा"}},
+        {"id": "D", "text": {"en": "Both A and B must be zero matrices", "hi": "A और B दोनों अवश्य शून्य आव्यूह होंगे"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Unlike numbers, matrices can multiply to zero without either being zero. Example: $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$, $B = \\begin{bmatrix} 1 & 0 \\\\ 0 & 0 \\end{bmatrix}$ gives $AB = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$. (If $A$ is invertible, though, $AB = O$ does force $B = O$.)",
+        "hi": "संख्याओं के विपरीत, आव्यूहों का गुणनफल शून्य हो सकता है बिना किसी के शून्य हुए। उदाहरण: $A = \\begin{bmatrix} 0 & 1 \\\\ 0 & 0 \\end{bmatrix}$, $B = \\begin{bmatrix} 1 & 0 \\\\ 0 & 0 \\end{bmatrix}$ से $AB = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$। (परंतु यदि $A$ व्युत्क्रमणीय हो, तो $AB = O$ से $B = O$ होता है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-14-10",
+      "subject": "maths",
+      "chapter": "Application of Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The area enclosed by the ellipse $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$ is $k\\pi$ square units. Find $k$.",
+        "hi": "दीर्घवृत्त $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$ से घिरा क्षेत्रफल $k\\pi$ वर्ग इकाई है। $k$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 6,
+      "solution": {
+        "en": "Area $= 4\\int_0^3\\frac{2}{3}\\sqrt{9 - x^2}\\,dx = \\frac{8}{3}\\left[\\frac{x}{2}\\sqrt{9 - x^2} + \\frac{9}{2}\\sin^{-1}\\frac{x}{3}\\right]_0^3 = \\frac{8}{3} \\cdot \\frac{9}{2} \\cdot \\frac{\\pi}{2} = 6\\pi$. This matches the general result: area of an ellipse $= \\pi ab = \\pi(3)(2) = 6\\pi$. So $k = 6$.",
+        "hi": "क्षेत्रफल $= 4\\int_0^3\\frac{2}{3}\\sqrt{9 - x^2}\\,dx = \\frac{8}{3}\\left[\\frac{x}{2}\\sqrt{9 - x^2} + \\frac{9}{2}\\sin^{-1}\\frac{x}{3}\\right]_0^3 = \\frac{8}{3} \\cdot \\frac{9}{2} \\cdot \\frac{\\pi}{2} = 6\\pi$। यह व्यापक परिणाम से मेल खाता है: दीर्घवृत्त का क्षेत्रफल $= \\pi ab = \\pi(3)(2) = 6\\pi$। अतः $k = 6$।"
+      }
+    }
+  ]
+}
