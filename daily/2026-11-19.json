@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-19",
+  "questions": [
+    {
+      "id": "dd-2026-11-19-01",
+      "subject": "physics",
+      "chapter": "Electromagnetic Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "TV remote controls commonly use which type of electromagnetic radiation?",
+        "hi": "टीवी रिमोट कंट्रोल सामान्यतः किस प्रकार के विद्युतचुंबकीय विकिरण का प्रयोग करते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Infrared", "hi": "अवरक्त"}},
+        {"id": "B", "text": {"en": "Ultraviolet", "hi": "पराबैंगनी"}},
+        {"id": "C", "text": {"en": "X-rays", "hi": "X-किरणें"}},
+        {"id": "D", "text": {"en": "Gamma rays", "hi": "गामा किरणें"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Remote controls use infrared LEDs: IR is invisible, cheap to produce and detect, and harmless. Other uses of IR: night-vision cameras, physiotherapy heat lamps, and maintaining Earth's warmth (greenhouse effect). UV is used for sterilisation, X-rays for medical imaging, and γ-rays for cancer treatment.",
+        "hi": "रिमोट कंट्रोल अवरक्त LED का प्रयोग करते हैं: IR अदृश्य, उत्पन्न और संसूचित करने में सस्ता, और हानिरहित है। IR के अन्य उपयोग: रात्रि-दृष्टि कैमरे, फिज़ियोथेरेपी ताप लैंप, और पृथ्वी की गर्मी बनाए रखना (ग्रीनहाउस प्रभाव)। UV निर्जर्मीकरण में, X-किरणें चिकित्सा प्रतिबिंबन में, और γ-किरणें कैंसर उपचार में प्रयुक्त होती हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-02",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A convex mirror is used as a rear-view mirror in vehicles because it always forms an image that is:",
+        "hi": "वाहनों में उत्तल दर्पण को पश्च-दृश्य दर्पण के रूप में प्रयोग किया जाता है क्योंकि यह सदैव ऐसा प्रतिबिंब बनाता है जो:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Real, inverted and magnified", "hi": "वास्तविक, उल्टा और बड़ा हो"}},
+        {"id": "B", "text": {"en": "Virtual, erect and magnified", "hi": "आभासी, सीधा और बड़ा हो"}},
+        {"id": "C", "text": {"en": "Virtual, erect and diminished, giving a wide field of view", "hi": "आभासी, सीधा और छोटा हो, जिससे दृष्टि क्षेत्र विस्तृत हो"}},
+        {"id": "D", "text": {"en": "Real, erect and of the same size", "hi": "वास्तविक, सीधा और समान आकार का हो"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For any real object, a convex mirror forms a virtual, erect, diminished image between the pole and the focus ($0 < m < 1$). Because images are smaller, much more of the road fits into the mirror — a wide field of view. That is why the glass carries the warning 'objects in the mirror are closer than they appear'.",
+        "hi": "किसी भी वास्तविक वस्तु के लिए उत्तल दर्पण ध्रुव और फोकस के बीच आभासी, सीधा, छोटा प्रतिबिंब बनाता है ($0 < m < 1$)। प्रतिबिंब छोटे होने से सड़क का बहुत अधिक भाग दर्पण में दिखता है — विस्तृत दृष्टि क्षेत्र। इसीलिए दर्पण पर चेतावनी होती है 'दर्पण में वस्तुएँ दिखने से अधिक निकट हैं'।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-03",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An electron is accelerated from rest through a potential difference of 100 V. Using $\\lambda = \\frac{12.27}{\\sqrt{V}}$ Å, find its de Broglie wavelength (in Å).",
+        "hi": "एक इलेक्ट्रॉन विराम से 100 V विभवांतर द्वारा त्वरित किया जाता है। $\\lambda = \\frac{12.27}{\\sqrt{V}}$ Å का प्रयोग करके इसकी दे ब्रॉग्ली तरंगदैर्ध्य (Å में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 1.227,
+      "solution": {
+        "en": "$\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2meV}}$, which for an electron simplifies to $\\frac{12.27}{\\sqrt{V}}$ Å. With $V = 100$: $\\lambda = \\frac{12.27}{10} = 1.227$ Å — comparable to atomic spacings in crystals. That is why electron beams diffract from crystals (Davisson–Germer experiment) and are used in electron microscopes.",
+        "hi": "$\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2meV}}$, जो इलेक्ट्रॉन के लिए $\\frac{12.27}{\\sqrt{V}}$ Å बन जाता है। $V = 100$ के साथ: $\\lambda = \\frac{12.27}{10} = 1.227$ Å — क्रिस्टलों में परमाणु दूरियों के तुल्य। इसी कारण इलेक्ट्रॉन किरणपुंज क्रिस्टलों से विवर्तित होते हैं (डेविसन–जर्मर प्रयोग) और इलेक्ट्रॉन सूक्ष्मदर्शी में प्रयुक्त होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-04",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of molar entropy is:",
+        "hi": "मोलर एन्ट्रॉपी का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "J mol⁻¹", "hi": "J mol⁻¹"}},
+        {"id": "B", "text": {"en": "J K⁻¹ mol⁻¹", "hi": "J K⁻¹ mol⁻¹"}},
+        {"id": "C", "text": {"en": "K J⁻¹ mol⁻¹", "hi": "K J⁻¹ mol⁻¹"}},
+        {"id": "D", "text": {"en": "J K mol⁻¹", "hi": "J K mol⁻¹"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "For a reversible process, $\\Delta S = \\frac{q_{\\text{rev}}}{T}$, so entropy has units J K⁻¹; per mole it is J K⁻¹ mol⁻¹. (J mol⁻¹ is the unit of molar enthalpy or Gibbs energy.) Entropy measures how spread out (disordered) the energy and matter of a system are.",
+        "hi": "उत्क्रमणीय प्रक्रम के लिए $\\Delta S = \\frac{q_{\\text{rev}}}{T}$, अतः एन्ट्रॉपी का मात्रक J K⁻¹ है; प्रति मोल यह J K⁻¹ mol⁻¹ है। (J mol⁻¹ मोलर एन्थैल्पी या गिब्ज़ ऊर्जा का मात्रक है।) एन्ट्रॉपी मापती है कि निकाय की ऊर्जा और द्रव्य कितना बिखरा (अव्यवस्थित) है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-05",
+      "subject": "chemistry",
+      "chapter": "d- and f-Block Elements",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following ions has the highest spin-only magnetic moment?",
+        "hi": "निम्नलिखित आयनों में से किसका केवल-चक्रण चुंबकीय आघूर्ण सबसे अधिक है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fe²⁺", "hi": "Fe²⁺"}},
+        {"id": "B", "text": {"en": "Mn²⁺", "hi": "Mn²⁺"}},
+        {"id": "C", "text": {"en": "Cu²⁺", "hi": "Cu²⁺"}},
+        {"id": "D", "text": {"en": "Zn²⁺", "hi": "Zn²⁺"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$\\mu = \\sqrt{n(n + 2)}$ BM, where $n$ is the number of unpaired electrons. Mn²⁺ (3d⁵): 5 unpaired, 5.92 BM. Fe²⁺ (3d⁶): 4 unpaired, 4.90 BM. Cu²⁺ (3d⁹): 1 unpaired, 1.73 BM. Zn²⁺ (3d¹⁰): 0, diamagnetic. A half-filled d⁵ configuration gives the maximum number of unpaired electrons.",
+        "hi": "$\\mu = \\sqrt{n(n + 2)}$ BM, जहाँ $n$ अयुग्मित इलेक्ट्रॉनों की संख्या है। Mn²⁺ (3d⁵): 5 अयुग्मित, 5.92 BM। Fe²⁺ (3d⁶): 4 अयुग्मित, 4.90 BM। Cu²⁺ (3d⁹): 1 अयुग्मित, 1.73 BM। Zn²⁺ (3d¹⁰): 0, प्रतिचुंबकीय। अर्धपूरित d⁵ विन्यास अधिकतम अयुग्मित इलेक्ट्रॉन देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-06",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The rate constant of a first-order reaction is $2.303 \\times 10^{-2}$ s⁻¹. Find the time (in s) required for the concentration of the reactant to fall to one-tenth of its initial value.",
+        "hi": "एक प्रथम कोटि की अभिक्रिया का वेग स्थिरांक $2.303 \\times 10^{-2}$ s⁻¹ है। अभिकारक की सांद्रता को प्रारंभिक मान का दसवाँ भाग होने में लगने वाला समय (s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 100,
+      "solution": {
+        "en": "$t = \\frac{2.303}{k}\\log\\frac{[A]_0}{[A]} = \\frac{2.303}{2.303 \\times 10^{-2}}\\log 10 = 100 \\times 1 = 100$ s. Note: for first-order reactions, the time to fall to any given fraction is independent of the starting concentration.",
+        "hi": "$t = \\frac{2.303}{k}\\log\\frac{[A]_0}{[A]} = \\frac{2.303}{2.303 \\times 10^{-2}}\\log 10 = 100 \\times 1 = 100$ s। ध्यान दें: प्रथम कोटि की अभिक्रियाओं में किसी दिए गए अंश तक गिरने का समय प्रारंभिक सांद्रता से स्वतंत्र होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A square matrix $A$ with $|A| = 0$ is called:",
+        "hi": "$|A| = 0$ वाला वर्ग आव्यूह $A$ कहलाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Non-singular", "hi": "व्युत्क्रमणीय (Non-singular)"}},
+        {"id": "B", "text": {"en": "Symmetric", "hi": "सममित"}},
+        {"id": "C", "text": {"en": "Identity", "hi": "तत्समक"}},
+        {"id": "D", "text": {"en": "Singular", "hi": "अव्युत्क्रमणीय (Singular)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "A square matrix is singular if its determinant is zero; such a matrix has no inverse, because $A^{-1} = \\frac{\\text{adj }A}{|A|}$ would need division by zero. A matrix with $|A| \\ne 0$ is non-singular and invertible.",
+        "hi": "वर्ग आव्यूह अव्युत्क्रमणीय (singular) होता है यदि उसका सारणिक शून्य हो; ऐसे आव्यूह का व्युत्क्रम नहीं होता, क्योंकि $A^{-1} = \\frac{\\text{adj }A}{|A|}$ में शून्य से भाग देना पड़ेगा। $|A| \\ne 0$ वाला आव्यूह व्युत्क्रमणीय होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-08",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The median of the data $2, 8, 3, 7, 5, 9$ is:",
+        "hi": "आँकड़ों $2, 8, 3, 7, 5, 9$ की माध्यिका है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "7", "hi": "7"}},
+        {"id": "C", "text": {"en": "6", "hi": "6"}},
+        {"id": "D", "text": {"en": "5.67", "hi": "5.67"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Arrange in order: $2, 3, 5, 7, 8, 9$. With an even number of values ($n = 6$), the median is the average of the 3rd and 4th values: $\\frac{5 + 7}{2} = 6$. (5.67 is the mean.)",
+        "hi": "क्रम में लिखें: $2, 3, 5, 7, 8, 9$। सम संख्या में मान ($n = 6$) होने पर माध्यिका तीसरे और चौथे मानों का औसत है: $\\frac{5 + 7}{2} = 6$। (5.67 माध्य है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the parabola with vertex at the origin and focus at $(0, 2)$ is:",
+        "hi": "मूलबिंदु पर शीर्ष और $(0, 2)$ पर नाभि वाले परवलय का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "x² = 8y", "hi": "x² = 8y"}},
+        {"id": "B", "text": {"en": "y² = 8x", "hi": "y² = 8x"}},
+        {"id": "C", "text": {"en": "x² = 2y", "hi": "x² = 2y"}},
+        {"id": "D", "text": {"en": "x² = −8y", "hi": "x² = −8y"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The focus lies on the positive y-axis, so the parabola opens upward: $x^2 = 4ay$ with $a = 2$, giving $x^2 = 8y$. Its directrix is $y = -2$. ($y^2 = 8x$ would have its focus at $(2, 0)$.)",
+        "hi": "नाभि धनात्मक y-अक्ष पर है, अतः परवलय ऊपर की ओर खुलता है: $x^2 = 4ay$, जहाँ $a = 2$, अतः $x^2 = 8y$। इसकी नियता $y = -2$ है। ($y^2 = 8x$ की नाभि $(2, 0)$ पर होती।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-19-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the total number of points of local maxima and local minima of $f(x) = x^4 - 2x^2$.",
+        "hi": "$f(x) = x^4 - 2x^2$ के स्थानीय उच्चतम और स्थानीय निम्नतम बिंदुओं की कुल संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "$f'(x) = 4x^3 - 4x = 4x(x - 1)(x + 1) = 0 \\Rightarrow x = -1, 0, 1$. $f''(x) = 12x^2 - 4$: $f''(0) = -4 < 0$ → local max at $x = 0$ ($f = 0$); $f''(\\pm 1) = 8 > 0$ → local minima at $x = \\pm 1$ ($f = -1$). Total = 3. The graph is a 'W' shape.",
+        "hi": "$f'(x) = 4x^3 - 4x = 4x(x - 1)(x + 1) = 0 \\Rightarrow x = -1, 0, 1$। $f''(x) = 12x^2 - 4$: $f''(0) = -4 < 0$ → $x = 0$ पर स्थानीय उच्चतम ($f = 0$); $f''(\\pm 1) = 8 > 0$ → $x = \\pm 1$ पर स्थानीय निम्नतम ($f = -1$)। कुल = 3। ग्राफ़ 'W' आकार का है।"
+      }
+    }
+  ]
+}

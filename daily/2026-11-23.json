@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-23",
+  "questions": [
+    {
+      "id": "dd-2026-11-23-01",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The resistance of an ideal ammeter is:",
+        "hi": "एक आदर्श अमीटर का प्रतिरोध होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Zero", "hi": "शून्य"}},
+        {"id": "B", "text": {"en": "Infinite", "hi": "अनंत"}},
+        {"id": "C", "text": {"en": "Equal to the circuit resistance", "hi": "परिपथ प्रतिरोध के बराबर"}},
+        {"id": "D", "text": {"en": "Very large but finite", "hi": "बहुत अधिक परंतु परिमित"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "An ammeter is connected in series, so it must not add resistance or change the current it measures — ideally zero resistance. A voltmeter is connected in parallel and must draw no current — ideally infinite resistance.",
+        "hi": "अमीटर श्रेणी क्रम में जोड़ा जाता है, अतः इसे प्रतिरोध नहीं जोड़ना चाहिए और न ही मापी जा रही धारा बदलनी चाहिए — आदर्श रूप से शून्य प्रतिरोध। वोल्टमीटर समांतर क्रम में जोड़ा जाता है और इसे कोई धारा नहीं लेनी चाहिए — आदर्श रूप से अनंत प्रतिरोध।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-02",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In a photoelectric experiment, the intensity of the incident light is increased while its frequency is kept constant (above threshold). This:",
+        "hi": "एक प्रकाश-विद्युत प्रयोग में आपतित प्रकाश की तीव्रता बढ़ाई जाती है जबकि उसकी आवृत्ति (देहली से ऊपर) नियत रखी जाती है। इससे:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increases the maximum kinetic energy of the photoelectrons", "hi": "प्रकाश-इलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा बढ़ती है"}},
+        {"id": "B", "text": {"en": "Increases the photocurrent but not the maximum kinetic energy", "hi": "प्रकाश-विद्युत धारा बढ़ती है परंतु अधिकतम गतिज ऊर्जा नहीं"}},
+        {"id": "C", "text": {"en": "Increases the stopping potential", "hi": "निरोधी विभव बढ़ता है"}},
+        {"id": "D", "text": {"en": "Changes the threshold frequency", "hi": "देहली आवृत्ति बदल जाती है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Higher intensity means more photons per second, so more electrons are emitted and the photocurrent rises. Each photon still has the same energy $h\\nu$, so $K_{\\max} = h\\nu - \\phi_0$ and the stopping potential are unchanged. The threshold frequency depends only on the metal.",
+        "hi": "अधिक तीव्रता का अर्थ है प्रति सेकंड अधिक फ़ोटॉन, अतः अधिक इलेक्ट्रॉन उत्सर्जित होते हैं और प्रकाश-विद्युत धारा बढ़ती है। प्रत्येक फ़ोटॉन की ऊर्जा अब भी $h\\nu$ है, अतः $K_{\\max} = h\\nu - \\phi_0$ और निरोधी विभव अपरिवर्तित रहते हैं। देहली आवृत्ति केवल धातु पर निर्भर करती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-03",
+      "subject": "physics",
+      "chapter": "Laws of Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A block of mass 5 kg is pulled along a rough horizontal floor by a horizontal force of 30 N. The coefficient of kinetic friction is 0.2. Find the acceleration (in m/s²) of the block. (Take $g = 10$ m/s²)",
+        "hi": "5 kg द्रव्यमान के एक गुटके को 30 N के क्षैतिज बल से खुरदरे क्षैतिज फ़र्श पर खींचा जाता है। गतिज घर्षण गुणांक 0.2 है। गुटके का त्वरण (m/s² में) ज्ञात कीजिए। ($g = 10$ m/s² लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 4,
+      "solution": {
+        "en": "Normal force $N = mg = 50$ N, so kinetic friction $f = \\mu N = 0.2 \\times 50 = 10$ N, opposing motion. Net force $= 30 - 10 = 20$ N, so $a = \\frac{20}{5} = 4$ m/s². Always subtract friction before applying $F = ma$.",
+        "hi": "अभिलंब बल $N = mg = 50$ N, अतः गतिज घर्षण $f = \\mu N = 0.2 \\times 50 = 10$ N, जो गति का विरोध करता है। नेट बल $= 30 - 10 = 20$ N, अतः $a = \\frac{20}{5} = 4$ m/s²। $F = ma$ लगाने से पहले सदैव घर्षण घटाएँ।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-04",
+      "subject": "chemistry",
+      "chapter": "Hydrocarbons",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "In benzene, all six carbon–carbon bonds:",
+        "hi": "बेन्ज़ीन में सभी छह कार्बन–कार्बन आबंध:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Alternate between single and double bonds of different lengths", "hi": "भिन्न लंबाइयों वाले एकल और द्विआबंधों में बदलते रहते हैं"}},
+        {"id": "B", "text": {"en": "Are all single bonds", "hi": "सभी एकल आबंध हैं"}},
+        {"id": "C", "text": {"en": "Are of equal length (about 139 pm)", "hi": "समान लंबाई के हैं (लगभग 139 pm)"}},
+        {"id": "D", "text": {"en": "Are all double bonds", "hi": "सभी द्विआबंध हैं"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Because the 6 π electrons are delocalised over the ring (resonance), every C–C bond in benzene is identical, about 139 pm — between a C–C single bond (154 pm) and a C=C double bond (134 pm). Kekulé structures with alternating bonds are only resonance contributors.",
+        "hi": "चूँकि 6 π इलेक्ट्रॉन वलय पर विस्थानीकृत हैं (अनुनाद), बेन्ज़ीन का प्रत्येक C–C आबंध समान, लगभग 139 pm, है — C–C एकल आबंध (154 pm) और C=C द्विआबंध (134 pm) के बीच। एकांतर आबंधों वाली केकुले संरचनाएँ केवल अनुनादी संरचनाएँ हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-05",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The IUPAC name of K₄[Fe(CN)₆] is:",
+        "hi": "K₄[Fe(CN)₆] का IUPAC नाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Potassium hexacyanoferrate(III)", "hi": "पोटैशियम हेक्सासायनोफ़ेरेट(III)"}},
+        {"id": "B", "text": {"en": "Potassium hexacyanoferrate(II)", "hi": "पोटैशियम हेक्सासायनोफ़ेरेट(II)"}},
+        {"id": "C", "text": {"en": "Potassium hexacyanoiron(II)", "hi": "पोटैशियम हेक्सासायनोआयरन(II)"}},
+        {"id": "D", "text": {"en": "Tetrapotassium ferrocyanide(III)", "hi": "टेट्रापोटैशियम फ़ेरोसायनाइड(III)"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "The complex anion is [Fe(CN)₆]⁴⁻: $x + 6(-1) = -4 \\Rightarrow$ Fe is +2. In an anionic complex the metal name ends in '-ate', and for iron the Latin root is used: ferrate. So: potassium hexacyanoferrate(II) (also written hexacyanidoferrate(II) in the latest IUPAC style). K₃[Fe(CN)₆] is hexacyanoferrate(III).",
+        "hi": "संकुल ऋणायन [Fe(CN)₆]⁴⁻ है: $x + 6(-1) = -4 \\Rightarrow$ Fe की अवस्था +2 है। ऋणायनी संकुल में धातु का नाम '-ate' पर समाप्त होता है, और आयरन के लिए लैटिन मूल प्रयुक्त होता है: फ़ेरेट। अतः: पोटैशियम हेक्सासायनोफ़ेरेट(II) (नवीनतम IUPAC शैली में हेक्सासायनिडोफ़ेरेट(II) भी लिखा जाता है)। K₃[Fe(CN)₆] हेक्सासायनोफ़ेरेट(III) है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-06",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "Aniline is treated with NaNO₂ and dilute HCl at 0–5°C. The product formed is:",
+        "hi": "ऐनिलीन को 0–5°C पर NaNO₂ और तनु HCl से उपचारित किया जाता है। बनने वाला उत्पाद है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Benzenediazonium chloride", "hi": "बेन्ज़ीनडाइऐज़ोनियम क्लोराइड"}},
+        {"id": "B", "text": {"en": "Phenol", "hi": "फ़ीनॉल"}},
+        {"id": "C", "text": {"en": "Nitrobenzene", "hi": "नाइट्रोबेन्ज़ीन"}},
+        {"id": "D", "text": {"en": "Chlorobenzene", "hi": "क्लोरोबेन्ज़ीन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "This is diazotisation: C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O. The low temperature is essential: above about 5°C the diazonium salt decomposes to phenol and N₂. Aryl diazonium salts are stabilised by resonance with the ring; aliphatic ones decompose at once. The diazonium group can then be replaced by Cl, Br, CN (Sandmeyer), OH, I and more.",
+        "hi": "यह डाइऐज़ोटीकरण है: C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O। कम ताप आवश्यक है: लगभग 5°C से ऊपर डाइऐज़ोनियम लवण फ़ीनॉल और N₂ में अपघटित हो जाता है। ऐरिल डाइऐज़ोनियम लवण वलय के साथ अनुनाद से स्थायी होते हैं; ऐलिफ़ैटिक तुरंत अपघटित होते हैं। फिर डाइऐज़ोनियम समूह को Cl, Br, CN (सैंडमेयर), OH, I आदि से प्रतिस्थापित किया जा सकता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-07",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "$\\int \\sec^2 x\\,dx$ is equal to:",
+        "hi": "$\\int \\sec^2 x\\,dx$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sec x + C", "hi": "sec x + C"}},
+        {"id": "B", "text": {"en": "sec x tan x + C", "hi": "sec x tan x + C"}},
+        {"id": "C", "text": {"en": "−cot x + C", "hi": "−cot x + C"}},
+        {"id": "D", "text": {"en": "tan x + C", "hi": "tan x + C"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Since $\\frac{d}{dx}\\tan x = \\sec^2x$, $\\int\\sec^2x\\,dx = \\tan x + C$. Companion results: $\\int\\text{cosec}^2x\\,dx = -\\cot x + C$ and $\\int\\sec x\\tan x\\,dx = \\sec x + C$.",
+        "hi": "चूँकि $\\frac{d}{dx}\\tan x = \\sec^2x$, अतः $\\int\\sec^2x\\,dx = \\tan x + C$। संबंधित परिणाम: $\\int\\text{cosec}^2x\\,dx = -\\cot x + C$ और $\\int\\sec x\\tan x\\,dx = \\sec x + C$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $\\cos x = \\frac{1}{2}$, then $\\cos 3x$ is equal to:",
+        "hi": "यदि $\\cos x = \\frac{1}{2}$ है, तो $\\cos 3x$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "−1", "hi": "−1"}},
+        {"id": "D", "text": {"en": "3/2", "hi": "3/2"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$\\cos 3x = 4\\cos^3x - 3\\cos x = 4 \\cdot \\frac{1}{8} - 3 \\cdot \\frac{1}{2} = \\frac{1}{2} - \\frac{3}{2} = -1$. Check with $x = 60^\\circ$: $\\cos 180^\\circ = -1$ ✓. (Trap: $3\\cos x = \\frac{3}{2}$ treats $\\cos$ as linear.)",
+        "hi": "$\\cos 3x = 4\\cos^3x - 3\\cos x = 4 \\cdot \\frac{1}{8} - 3 \\cdot \\frac{1}{2} = \\frac{1}{2} - \\frac{3}{2} = -1$। $x = 60^\\circ$ से जाँच: $\\cos 180^\\circ = -1$ ✓। (ध्यान दें: $3\\cos x = \\frac{3}{2}$ मानना cos को रैखिक मानना है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-09",
+      "subject": "maths",
+      "chapter": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The derivative of $e^{\\sin x}$ with respect to $x$ is:",
+        "hi": "$x$ के सापेक्ष $e^{\\sin x}$ का अवकलज है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "e^(sin x)", "hi": "e^(sin x)"}},
+        {"id": "B", "text": {"en": "sin x · e^(sin x)", "hi": "sin x · e^(sin x)"}},
+        {"id": "C", "text": {"en": "e^(cos x)", "hi": "e^(cos x)"}},
+        {"id": "D", "text": {"en": "cos x · e^(sin x)", "hi": "cos x · e^(sin x)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Chain rule: $\\frac{d}{dx}e^{u} = e^u\\frac{du}{dx}$ with $u = \\sin x$: $\\frac{d}{dx}e^{\\sin x} = e^{\\sin x}\\cos x$. Always multiply by the derivative of the exponent.",
+        "hi": "शृंखला नियम: $u = \\sin x$ के साथ $\\frac{d}{dx}e^{u} = e^u\\frac{du}{dx}$: $\\frac{d}{dx}e^{\\sin x} = e^{\\sin x}\\cos x$। सदैव घातांक के अवकलज से गुणा करें।"
+      }
+    },
+    {
+      "id": "dd-2026-11-23-10",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the sum of the infinite series $1 + \\frac{2}{3} + \\frac{3}{3^2} + \\frac{4}{3^3} + \\cdots$.",
+        "hi": "अनंत श्रेणी $1 + \\frac{2}{3} + \\frac{3}{3^2} + \\frac{4}{3^3} + \\cdots$ का योग ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2.25,
+      "solution": {
+        "en": "This is an arithmetico-geometric series: $S = \\sum_{n=1}^{\\infty} n r^{n-1}$ with $r = \\frac{1}{3}$. Multiply by $r$ and subtract: $S - rS = 1 + r + r^2 + \\cdots = \\frac{1}{1 - r}$, so $S = \\frac{1}{(1 - r)^2} = \\frac{1}{(2/3)^2} = \\frac{9}{4} = 2.25$.",
+        "hi": "यह समांतर-गुणोत्तर श्रेणी है: $S = \\sum_{n=1}^{\\infty} n r^{n-1}$, जहाँ $r = \\frac{1}{3}$। $r$ से गुणा करके घटाएँ: $S - rS = 1 + r + r^2 + \\cdots = \\frac{1}{1 - r}$, अतः $S = \\frac{1}{(1 - r)^2} = \\frac{1}{(2/3)^2} = \\frac{9}{4} = 2.25$।"
+      }
+    }
+  ]
+}

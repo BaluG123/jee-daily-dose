@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-18",
+  "questions": [
+    {
+      "id": "dd-2026-11-18-01",
+      "subject": "physics",
+      "chapter": "Units and Measurements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is NOT a unit of energy?",
+        "hi": "निम्नलिखित में से कौन ऊर्जा का मात्रक नहीं है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Watt", "hi": "वाट"}},
+        {"id": "B", "text": {"en": "Joule", "hi": "जूल"}},
+        {"id": "C", "text": {"en": "Electron volt", "hi": "इलेक्ट्रॉन वोल्ट"}},
+        {"id": "D", "text": {"en": "Kilowatt-hour", "hi": "किलोवाट-घंटा"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The watt (J/s) is a unit of power — the rate of using energy. Joule, electron volt ($1.6 \\times 10^{-19}$ J) and kilowatt-hour ($3.6 \\times 10^6$ J, the 'unit' on electricity bills) are all units of energy. A kWh is power × time, which is why it measures energy.",
+        "hi": "वाट (J/s) शक्ति का मात्रक है — ऊर्जा उपयोग की दर। जूल, इलेक्ट्रॉन वोल्ट ($1.6 \\times 10^{-19}$ J) और किलोवाट-घंटा ($3.6 \\times 10^6$ J, बिजली बिल की 'यूनिट') सभी ऊर्जा के मात्रक हैं। kWh शक्ति × समय है, इसीलिए यह ऊर्जा मापता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-02",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the current through a given metal wire is doubled, the drift velocity of the electrons:",
+        "hi": "यदि किसी दिए गए धातु के तार में धारा दोगुनी कर दी जाए, तो इलेक्ट्रॉनों का अनुगमन वेग:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Halves", "hi": "आधा हो जाता है"}},
+        {"id": "B", "text": {"en": "Remains unchanged", "hi": "अपरिवर्तित रहता है"}},
+        {"id": "C", "text": {"en": "Doubles", "hi": "दोगुना हो जाता है"}},
+        {"id": "D", "text": {"en": "Becomes four times", "hi": "चार गुना हो जाता है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$I = neAv_d \\Rightarrow v_d = \\frac{I}{neA}$. For the same wire, $n$ (free electrons per m³) and $A$ are fixed, so $v_d \\propto I$ and it doubles. Drift speeds are tiny (about mm/s); a bulb glows instantly because the electric field travels through the wire almost at the speed of light.",
+        "hi": "$I = neAv_d \\Rightarrow v_d = \\frac{I}{neA}$। उसी तार के लिए $n$ (प्रति m³ मुक्त इलेक्ट्रॉन) और $A$ नियत हैं, अतः $v_d \\propto I$ और यह दोगुना हो जाता है। अनुगमन चाल बहुत कम (लगभग mm/s) होती है; बल्ब तुरंत जलता है क्योंकि विद्युत क्षेत्र तार में लगभग प्रकाश की चाल से फैलता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-03",
+      "subject": "physics",
+      "chapter": "Gravitation",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A planet has twice the mass and twice the radius of the Earth. If the acceleration due to gravity on the Earth's surface is 10 m/s², find its value (in m/s²) on the planet's surface.",
+        "hi": "एक ग्रह का द्रव्यमान पृथ्वी का दोगुना और त्रिज्या पृथ्वी की दोगुनी है। यदि पृथ्वी की सतह पर गुरुत्वीय त्वरण 10 m/s² है, तो ग्रह की सतह पर इसका मान (m/s² में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "$g = \\frac{GM}{R^2}$, so $\\frac{g_p}{g_E} = \\frac{M_p}{M_E}\\left(\\frac{R_E}{R_p}\\right)^2 = 2 \\times \\frac{1}{4} = \\frac{1}{2}$. Hence $g_p = 5$ m/s². Radius matters more because it is squared — a bigger planet need not have stronger surface gravity.",
+        "hi": "$g = \\frac{GM}{R^2}$, अतः $\\frac{g_p}{g_E} = \\frac{M_p}{M_E}\\left(\\frac{R_E}{R_p}\\right)^2 = 2 \\times \\frac{1}{4} = \\frac{1}{2}$। अतः $g_p = 5$ m/s²। त्रिज्या का प्रभाव अधिक है क्योंकि उसका वर्ग होता है — बड़े ग्रह पर पृष्ठ गुरुत्व अधिक होना आवश्यक नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-04",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Hinsberg's reagent, used to distinguish primary, secondary and tertiary amines, is:",
+        "hi": "प्राथमिक, द्वितीयक और तृतीयक ऐमीनों में अंतर करने के लिए प्रयुक्त हिंसबर्ग अभिकर्मक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Benzoyl chloride (C₆H₅COCl)", "hi": "बेन्ज़ॉयल क्लोराइड (C₆H₅COCl)"}},
+        {"id": "B", "text": {"en": "Nitrous acid (HNO₂)", "hi": "नाइट्रस अम्ल (HNO₂)"}},
+        {"id": "C", "text": {"en": "Chloroform with alcoholic KOH", "hi": "ऐल्कोहॉली KOH के साथ क्लोरोफ़ॉर्म"}},
+        {"id": "D", "text": {"en": "Benzenesulphonyl chloride (C₆H₅SO₂Cl)", "hi": "बेन्ज़ीनसल्फ़ोनिल क्लोराइड (C₆H₅SO₂Cl)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "With C₆H₅SO₂Cl: a 1° amine gives a sulphonamide that dissolves in alkali (it still has an acidic N–H); a 2° amine gives a sulphonamide insoluble in alkali (no N–H left); a 3° amine does not react. CHCl₃/KOH is the carbylamine test, which detects only 1° amines.",
+        "hi": "C₆H₅SO₂Cl के साथ: 1° ऐमीन ऐसा सल्फ़ोनैमाइड देती है जो क्षार में घुलता है (इसमें अब भी अम्लीय N–H है); 2° ऐमीन क्षार में अविलेय सल्फ़ोनैमाइड देती है (N–H नहीं बचता); 3° ऐमीन अभिक्रिया नहीं करती। CHCl₃/KOH कार्बिलऐमीन परीक्षण है, जो केवल 1° ऐमीनों को पहचानता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Bonding and Molecular Structure",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The hybridisation states of carbon atoms C-1, C-2 and C-3 in propene (CH₂=CH–CH₃) are respectively:",
+        "hi": "प्रोपीन (CH₂=CH–CH₃) में कार्बन परमाणुओं C-1, C-2 और C-3 की संकरण अवस्थाएँ क्रमशः हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sp², sp³, sp³", "hi": "sp², sp³, sp³"}},
+        {"id": "B", "text": {"en": "sp, sp², sp³", "hi": "sp, sp², sp³"}},
+        {"id": "C", "text": {"en": "sp², sp², sp³", "hi": "sp², sp², sp³"}},
+        {"id": "D", "text": {"en": "sp³, sp², sp²", "hi": "sp³, sp², sp²"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Count σ bonds plus lone pairs on each carbon: C-1 and C-2 form the double bond, each with 3 σ bonds → sp². C-3 (CH₃) has 4 σ bonds → sp³. Quick rule: a carbon with a double bond is sp², with a triple bond (or two double bonds) is sp, and with only single bonds is sp³.",
+        "hi": "प्रत्येक कार्बन पर σ आबंध और एकाकी युग्म गिनें: C-1 और C-2 द्विआबंध बनाते हैं, प्रत्येक के 3 σ आबंध → sp²। C-3 (CH₃) के 4 σ आबंध → sp³। त्वरित नियम: द्विआबंध वाला कार्बन sp², त्रिआबंध (या दो द्विआबंध) वाला sp, और केवल एकल आबंध वाला sp³ होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-06",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "hard",
+      "type": "mcq",
+      "question": {
+        "en": "The correct decreasing order of basic strength in aqueous solution is:",
+        "hi": "जलीय विलयन में क्षारकीय सामर्थ्य का सही घटता क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "C₆H₅NH₂ > NH₃ > CH₃NH₂", "hi": "C₆H₅NH₂ > NH₃ > CH₃NH₂"}},
+        {"id": "B", "text": {"en": "CH₃NH₂ > NH₃ > C₆H₅NH₂", "hi": "CH₃NH₂ > NH₃ > C₆H₅NH₂"}},
+        {"id": "C", "text": {"en": "NH₃ > CH₃NH₂ > C₆H₅NH₂", "hi": "NH₃ > CH₃NH₂ > C₆H₅NH₂"}},
+        {"id": "D", "text": {"en": "NH₃ > C₆H₅NH₂ > CH₃NH₂", "hi": "NH₃ > C₆H₅NH₂ > CH₃NH₂"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "In methylamine, the +I effect of CH₃ pushes electron density onto N, making its lone pair more available (pKb 3.38). In aniline, the N lone pair is delocalised into the benzene ring by resonance, so it is much less available (pKb 9.38). Ammonia lies in between (pKb 4.75). So aliphatic amines > NH₃ > aromatic amines.",
+        "hi": "मेथिलऐमीन में CH₃ का +I प्रभाव N पर इलेक्ट्रॉन घनत्व बढ़ाता है, जिससे इसका एकाकी युग्म अधिक उपलब्ध होता है (pKb 3.38)। ऐनिलीन में N का एकाकी युग्म अनुनाद द्वारा बेन्ज़ीन वलय में विस्थानीकृत होता है, अतः बहुत कम उपलब्ध है (pKb 9.38)। अमोनिया बीच में है (pKb 4.75)। अतः ऐलिफ़ैटिक ऐमीन > NH₃ > ऐरोमैटिक ऐमीन।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-07",
+      "subject": "maths",
+      "chapter": "Relations and Functions",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f: \\mathbb{R} \\to \\mathbb{R}$, $f(x) = x^2$, is:",
+        "hi": "फलन $f: \\mathbb{R} \\to \\mathbb{R}$, $f(x) = x^2$, है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "One-one but not onto", "hi": "एकैकी परंतु आच्छादक नहीं"}},
+        {"id": "B", "text": {"en": "Onto but not one-one", "hi": "आच्छादक परंतु एकैकी नहीं"}},
+        {"id": "C", "text": {"en": "Both one-one and onto", "hi": "एकैकी और आच्छादक दोनों"}},
+        {"id": "D", "text": {"en": "Neither one-one nor onto", "hi": "न एकैकी न आच्छादक"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Not one-one: $f(2) = f(-2) = 4$. Not onto: negative numbers such as $-1$ are never outputs, since $x^2 \\ge 0$. If the domain is restricted to $[0, \\infty)$ and the codomain to $[0, \\infty)$, the same rule becomes a bijection.",
+        "hi": "एकैकी नहीं: $f(2) = f(-2) = 4$। आच्छादक नहीं: $-1$ जैसी ऋणात्मक संख्याएँ कभी निर्गत नहीं होतीं, क्योंकि $x^2 \\ge 0$। यदि प्रांत $[0, \\infty)$ और सहप्रांत $[0, \\infty)$ तक सीमित किया जाए, तो यही नियम एकैकी आच्छादी बन जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-08",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The equation of the line passing through $(1, 2)$ with slope 3 is:",
+        "hi": "$(1, 2)$ से गुजरने वाली तथा ढाल 3 वाली रेखा का समीकरण है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "y = 3x − 1", "hi": "y = 3x − 1"}},
+        {"id": "B", "text": {"en": "y = 3x + 2", "hi": "y = 3x + 2"}},
+        {"id": "C", "text": {"en": "y = 3x + 1", "hi": "y = 3x + 1"}},
+        {"id": "D", "text": {"en": "y = 3x − 2", "hi": "y = 3x − 2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Point–slope form: $y - y_1 = m(x - x_1) \\Rightarrow y - 2 = 3(x - 1) \\Rightarrow y = 3x - 1$. Check: at $x = 1$, $y = 2$ ✓.",
+        "hi": "बिंदु–ढाल रूप: $y - y_1 = m(x - x_1) \\Rightarrow y - 2 = 3(x - 1) \\Rightarrow y = 3x - 1$। जाँच: $x = 1$ पर $y = 2$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-09",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The general solution of the differential equation $\\frac{dy}{dx} = y$ is:",
+        "hi": "अवकल समीकरण $\\frac{dy}{dx} = y$ का व्यापक हल है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "y = x + C", "hi": "y = x + C"}},
+        {"id": "B", "text": {"en": "y = Ceˣ", "hi": "y = Ceˣ"}},
+        {"id": "C", "text": {"en": "y = Cx", "hi": "y = Cx"}},
+        {"id": "D", "text": {"en": "y = x²/2 + C", "hi": "y = x²/2 + C"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Separate variables: $\\frac{dy}{y} = dx \\Rightarrow \\ln|y| = x + c \\Rightarrow y = Ce^x$. Check: $\\frac{d}{dx}(Ce^x) = Ce^x = y$ ✓. This equation models any quantity whose growth rate equals its size — population growth, compound interest, radioactive decay (with a minus sign).",
+        "hi": "चरों को पृथक करें: $\\frac{dy}{y} = dx \\Rightarrow \\ln|y| = x + c \\Rightarrow y = Ce^x$। जाँच: $\\frac{d}{dx}(Ce^x) = Ce^x = y$ ✓। यह समीकरण उस राशि को दर्शाता है जिसकी वृद्धि दर उसके आकार के बराबर हो — जनसंख्या वृद्धि, चक्रवृद्धि ब्याज, रेडियोधर्मी क्षय (ऋण चिह्न के साथ)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-18-10",
+      "subject": "maths",
+      "chapter": "Binomial Theorem",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the coefficient of $x^2$ in the expansion of $(1 + x)^5(1 + 2x)$.",
+        "hi": "$(1 + x)^5(1 + 2x)$ के प्रसार में $x^2$ का गुणांक ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "$(1 + x)^5 = 1 + 5x + 10x^2 + \\cdots$. An $x^2$ term arises in two ways: $10x^2 \\times 1$ and $5x \\times 2x$. Coefficient $= 10 + 10 = 20$. Strategy: list every pair of powers that add up to the required power.",
+        "hi": "$(1 + x)^5 = 1 + 5x + 10x^2 + \\cdots$। $x^2$ पद दो प्रकार से बनता है: $10x^2 \\times 1$ और $5x \\times 2x$। गुणांक $= 10 + 10 = 20$। रणनीति: घातों के वे सभी युग्म सूचीबद्ध करें जिनका योग अभीष्ट घात हो।"
+      }
+    }
+  ]
+}

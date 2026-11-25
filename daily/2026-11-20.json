@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-20",
+  "questions": [
+    {
+      "id": "dd-2026-11-20-01",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Ultrasonic waves are sound waves with frequency:",
+        "hi": "पराश्रव्य तरंगें वे ध्वनि तरंगें हैं जिनकी आवृत्ति:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Below 20 Hz", "hi": "20 Hz से कम"}},
+        {"id": "B", "text": {"en": "Between 20 Hz and 20 kHz", "hi": "20 Hz और 20 kHz के बीच"}},
+        {"id": "C", "text": {"en": "Exactly 1 kHz", "hi": "ठीक 1 kHz"}},
+        {"id": "D", "text": {"en": "Above 20 kHz", "hi": "20 kHz से अधिक"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Humans hear roughly 20 Hz – 20 kHz. Above 20 kHz is ultrasonic (used in sonography, SONAR, cleaning; bats and dolphins use it to navigate). Below 20 Hz is infrasonic (produced by earthquakes and elephants).",
+        "hi": "मनुष्य लगभग 20 Hz – 20 kHz सुन सकते हैं। 20 kHz से ऊपर पराश्रव्य है (सोनोग्राफ़ी, सोनार, सफ़ाई में प्रयुक्त; चमगादड़ और डॉल्फ़िन दिशा ज्ञात करने में इसका उपयोग करते हैं)। 20 Hz से नीचे अवश्रव्य है (भूकंप और हाथियों द्वारा उत्पन्न)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-02",
+      "subject": "physics",
+      "chapter": "Oscillations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the length of a simple pendulum is increased to four times its original length, its time period becomes:",
+        "hi": "यदि किसी सरल लोलक की लंबाई उसकी मूल लंबाई की चार गुनी कर दी जाए, तो उसका आवर्तकाल हो जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Four times", "hi": "चार गुना"}},
+        {"id": "B", "text": {"en": "Twice", "hi": "दोगुना"}},
+        {"id": "C", "text": {"en": "Half", "hi": "आधा"}},
+        {"id": "D", "text": {"en": "Unchanged", "hi": "अपरिवर्तित"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$T = 2\\pi\\sqrt{\\frac{l}{g}} \\propto \\sqrt{l}$. Making $l$ four times gives $T' = \\sqrt{4}\\,T = 2T$. A seconds pendulum (period 2 s) is about 1 m long on Earth.",
+        "hi": "$T = 2\\pi\\sqrt{\\frac{l}{g}} \\propto \\sqrt{l}$। $l$ चार गुना करने पर $T' = \\sqrt{4}\\,T = 2T$। पृथ्वी पर सेकंड लोलक (आवर्तकाल 2 s) लगभग 1 m लंबा होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-03",
+      "subject": "physics",
+      "chapter": "Electric Charges and Fields",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The electric field at a point 0.3 m from a point charge of $3\\,\\mu\\text{C}$ in air is $x \\times 10^5$ N/C. Find $x$. (Take $\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9$ N m² C⁻²)",
+        "hi": "वायु में $3\\,\\mu\\text{C}$ के बिंदु आवेश से 0.3 m दूर स्थित बिंदु पर विद्युत क्षेत्र $x \\times 10^5$ N/C है। $x$ ज्ञात कीजिए। ($\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9$ N m² C⁻² लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "$E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2} = \\frac{9 \\times 10^9 \\times 3 \\times 10^{-6}}{(0.3)^2} = \\frac{27 \\times 10^3}{0.09} = 3 \\times 10^5$ N/C. So $x = 3$. Compare: the potential there is $\\frac{kq}{r} = 9 \\times 10^4$ V — the field uses $r^2$, the potential only $r$.",
+        "hi": "$E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2} = \\frac{9 \\times 10^9 \\times 3 \\times 10^{-6}}{(0.3)^2} = \\frac{27 \\times 10^3}{0.09} = 3 \\times 10^5$ N/C। अतः $x = 3$। तुलना: वहाँ विभव $\\frac{kq}{r} = 9 \\times 10^4$ V है — क्षेत्र में $r^2$, विभव में केवल $r$ आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-04",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following gives a positive iodoform test (yellow precipitate with I₂ and NaOH)?",
+        "hi": "निम्नलिखित में से कौन धनात्मक आयोडोफ़ॉर्म परीक्षण (I₂ और NaOH के साथ पीला अवक्षेप) देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Methanal (HCHO)", "hi": "मेथेनैल (HCHO)"}},
+        {"id": "B", "text": {"en": "Propanal (CH₃CH₂CHO)", "hi": "प्रोपेनैल (CH₃CH₂CHO)"}},
+        {"id": "C", "text": {"en": "Benzaldehyde (C₆H₅CHO)", "hi": "बेन्ज़ैल्डिहाइड (C₆H₅CHO)"}},
+        {"id": "D", "text": {"en": "Propanone (CH₃COCH₃)", "hi": "प्रोपेनोन (CH₃COCH₃)"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The iodoform test is given by compounds with a CH₃CO– group (methyl ketones and ethanal), or a CH₃CH(OH)– group that can be oxidised to it (ethanol, propan-2-ol). Propanone has CH₃CO–, so it gives yellow CHI₃ with a characteristic smell. HCHO, propanal and benzaldehyde lack this group.",
+        "hi": "आयोडोफ़ॉर्म परीक्षण CH₃CO– समूह वाले यौगिक (मेथिल कीटोन और एथेनैल), या CH₃CH(OH)– समूह वाले यौगिक जो इसमें ऑक्सीकृत हो सकें (एथेनॉल, प्रोपेन-2-ऑल) देते हैं। प्रोपेनोन में CH₃CO– है, अतः यह विशिष्ट गंध वाला पीला CHI₃ देता है। HCHO, प्रोपेनैल और बेन्ज़ैल्डिहाइड में यह समूह नहीं है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-05",
+      "subject": "chemistry",
+      "chapter": "Haloalkanes and Haloarenes",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Chlorobenzene reacts with Cl₂ in the presence of anhydrous FeCl₃ to give mainly:",
+        "hi": "निर्जल FeCl₃ की उपस्थिति में क्लोरोबेन्ज़ीन Cl₂ के साथ अभिक्रिया करके मुख्यतः देता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A mixture of o- and p-dichlorobenzene", "hi": "o- और p-डाइक्लोरोबेन्ज़ीन का मिश्रण"}},
+        {"id": "B", "text": {"en": "m-Dichlorobenzene", "hi": "m-डाइक्लोरोबेन्ज़ीन"}},
+        {"id": "C", "text": {"en": "Hexachlorobenzene", "hi": "हेक्साक्लोरोबेन्ज़ीन"}},
+        {"id": "D", "text": {"en": "Benzene hexachloride", "hi": "बेन्ज़ीन हेक्साक्लोराइड"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Halogens are a special case: their −I effect deactivates the ring (so the reaction is slower than with benzene), but their +R effect (lone pair donation) directs incoming electrophiles to the ortho and para positions. So chlorination gives o- and p-dichlorobenzene, with para as the major product (less steric hindrance).",
+        "hi": "हैलोजन एक विशेष स्थिति हैं: उनका −I प्रभाव वलय को निष्क्रिय करता है (अतः अभिक्रिया बेन्ज़ीन से धीमी होती है), परंतु उनका +R प्रभाव (एकाकी युग्म दान) आने वाले इलेक्ट्रॉनस्नेही को ऑर्थो और पैरा स्थितियों पर निर्देशित करता है। अतः क्लोरीनन से o- और p-डाइक्लोरोबेन्ज़ीन बनते हैं, पैरा मुख्य उत्पाद है (कम त्रिविम बाधा)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-06",
+      "subject": "chemistry",
+      "chapter": "Redox Reactions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "What volume (in mL) of 0.2 M K₂Cr₂O₇ solution is required to completely oxidise 60 mL of 0.1 M FeSO₄ solution in acidic medium?",
+        "hi": "अम्लीय माध्यम में 0.1 M FeSO₄ विलयन के 60 mL को पूर्णतः ऑक्सीकृत करने के लिए 0.2 M K₂Cr₂O₇ विलयन का कितना आयतन (mL में) आवश्यक है?"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O, so the n-factor of K₂Cr₂O₇ is 6 (each Cr: +6 → +3). Fe²⁺ → Fe³⁺ has n-factor 1. Equating milliequivalents: $0.2 \\times 6 \\times V = 0.1 \\times 1 \\times 60 \\Rightarrow V = 5$ mL. The overall equation is Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O.",
+        "hi": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O, अतः K₂Cr₂O₇ का n-गुणांक 6 है (प्रत्येक Cr: +6 → +3)। Fe²⁺ → Fe³⁺ का n-गुणांक 1 है। मिलीतुल्यांक बराबर करने पर: $0.2 \\times 6 \\times V = 0.1 \\times 1 \\times 60 \\Rightarrow V = 5$ mL। कुल समीकरण: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-07",
+      "subject": "maths",
+      "chapter": "Limits and Derivatives",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Evaluate $\\lim_{x \\to 0}\\frac{\\tan x}{x}$.",
+        "hi": "$\\lim_{x \\to 0}\\frac{\\tan x}{x}$ का मान ज्ञात कीजिए।"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "∞", "hi": "∞"}},
+        {"id": "D", "text": {"en": "Does not exist", "hi": "अस्तित्व में नहीं है"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "$\\frac{\\tan x}{x} = \\frac{\\sin x}{x} \\cdot \\frac{1}{\\cos x} \\to 1 \\times 1 = 1$. Near 0, $\\sin x \\approx x$ and $\\tan x \\approx x$ (with $x$ in radians).",
+        "hi": "$\\frac{\\tan x}{x} = \\frac{\\sin x}{x} \\cdot \\frac{1}{\\cos x} \\to 1 \\times 1 = 1$। 0 के निकट $\\sin x \\approx x$ और $\\tan x \\approx x$ ($x$ रेडियन में)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-08",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of a $3 \\times 3$ determinant is 5. If its first and second rows are interchanged, the new value is:",
+        "hi": "एक $3 \\times 3$ सारणिक का मान 5 है। यदि इसकी पहली और दूसरी पंक्तियाँ आपस में बदल दी जाएँ, तो नया मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "−5", "hi": "−5"}},
+        {"id": "D", "text": {"en": "25", "hi": "25"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Interchanging any two rows (or columns) of a determinant changes its sign but not its magnitude. So the new value is $-5$. By contrast, multiplying one row by $k$ multiplies the determinant by $k$, and adding a multiple of one row to another changes nothing.",
+        "hi": "सारणिक की किन्हीं दो पंक्तियों (या स्तंभों) की अदला-बदली से उसका चिह्न बदलता है, परिमाण नहीं। अतः नया मान $-5$ है। इसके विपरीत, एक पंक्ति को $k$ से गुणा करने पर सारणिक $k$ गुना होता है, और एक पंक्ति का गुणज दूसरी में जोड़ने से कुछ नहीं बदलता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-09",
+      "subject": "maths",
+      "chapter": "Sequences and Series",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The arithmetic mean of two positive numbers is 10 and their geometric mean is 8. The numbers are:",
+        "hi": "दो धनात्मक संख्याओं का समांतर माध्य 10 और गुणोत्तर माध्य 8 है। संख्याएँ हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "12 and 8", "hi": "12 and 8"}},
+        {"id": "B", "text": {"en": "18 and 2", "hi": "18 and 2"}},
+        {"id": "C", "text": {"en": "16 and 4", "hi": "16 and 4"}},
+        {"id": "D", "text": {"en": "15 and 5", "hi": "15 and 5"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$a + b = 20$ and $ab = 64$, so $a, b$ are roots of $t^2 - 20t + 64 = 0 \\Rightarrow (t - 16)(t - 4) = 0$. The numbers are 16 and 4. Check: AM $= 10$, GM $= \\sqrt{64} = 8$ ✓. (12 and 8 have the right AM but GM $\\approx 9.8$.)",
+        "hi": "$a + b = 20$ और $ab = 64$, अतः $a, b$ समीकरण $t^2 - 20t + 64 = 0 \\Rightarrow (t - 16)(t - 4) = 0$ के मूल हैं। संख्याएँ 16 और 4 हैं। जाँच: AM $= 10$, GM $= \\sqrt{64} = 8$ ✓। (12 और 8 का AM सही है परंतु GM $\\approx 9.8$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-20-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of non-negative integer solutions of $x + y + z = 10$.",
+        "hi": "$x + y + z = 10$ के ऋणेतर पूर्णांक हलों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 66,
+      "solution": {
+        "en": "Stars and bars: distributing 10 identical units into 3 variables (each $\\ge 0$) is like arranging 10 stars and 2 bars in a row. Number of ways $= {}^{10 + 3 - 1}C_{3 - 1} = {}^{12}C_2 = 66$. For positive solutions (each $\\ge 1$) it would be ${}^{9}C_2 = 36$.",
+        "hi": "तारे और रेखाएँ (stars and bars): 10 समान इकाइयों को 3 चरों (प्रत्येक $\\ge 0$) में बाँटना 10 तारों और 2 रेखाओं को पंक्ति में व्यवस्थित करने जैसा है। तरीकों की संख्या $= {}^{10 + 3 - 1}C_{3 - 1} = {}^{12}C_2 = 66$। धनात्मक हलों (प्रत्येक $\\ge 1$) के लिए यह ${}^{9}C_2 = 36$ होता।"
+      }
+    }
+  ]
+}

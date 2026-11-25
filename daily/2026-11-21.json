@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-21",
+  "questions": [
+    {
+      "id": "dd-2026-11-21-01",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which photon carries more energy: one of violet light or one of red light?",
+        "hi": "किस फ़ोटॉन में अधिक ऊर्जा होती है: बैंगनी प्रकाश के या लाल प्रकाश के?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Red, because it has longer wavelength", "hi": "लाल, क्योंकि उसकी तरंगदैर्ध्य अधिक है"}},
+        {"id": "B", "text": {"en": "Violet, because it has higher frequency", "hi": "बैंगनी, क्योंकि उसकी आवृत्ति अधिक है"}},
+        {"id": "C", "text": {"en": "Both carry equal energy", "hi": "दोनों में समान ऊर्जा होती है"}},
+        {"id": "D", "text": {"en": "It depends on the intensity", "hi": "यह तीव्रता पर निर्भर करता है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Photon energy $E = h\\nu = \\frac{hc}{\\lambda}$. Violet light (λ ≈ 400 nm) has higher frequency than red (λ ≈ 700 nm), so each violet photon carries more energy (about 3.1 eV vs 1.8 eV). Intensity changes only the number of photons, not the energy of each one.",
+        "hi": "फ़ोटॉन ऊर्जा $E = h\\nu = \\frac{hc}{\\lambda}$। बैंगनी प्रकाश (λ ≈ 400 nm) की आवृत्ति लाल (λ ≈ 700 nm) से अधिक है, अतः प्रत्येक बैंगनी फ़ोटॉन में अधिक ऊर्जा होती है (लगभग 3.1 eV बनाम 1.8 eV)। तीव्रता केवल फ़ोटॉनों की संख्या बदलती है, प्रत्येक की ऊर्जा नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-02",
+      "subject": "physics",
+      "chapter": "Thermal Properties of Matter",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If the absolute temperature of a black body is doubled, the total power it radiates becomes:",
+        "hi": "यदि किसी कृष्णिका का परम ताप दोगुना कर दिया जाए, तो उसके द्वारा विकिरित कुल शक्ति हो जाती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "4 times", "hi": "4 गुनी"}},
+        {"id": "B", "text": {"en": "8 times", "hi": "8 गुनी"}},
+        {"id": "C", "text": {"en": "16 times", "hi": "16 गुनी"}},
+        {"id": "D", "text": {"en": "2 times", "hi": "2 गुनी"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Stefan–Boltzmann law: $P = \\sigma AT^4$, so $P \\propto T^4$. Doubling $T$ gives $2^4 = 16$ times the power. Use absolute temperature (kelvin) — doubling from 27°C means going to 327°C (300 K → 600 K), not 54°C.",
+        "hi": "स्टीफ़न–बोल्ट्ज़मान नियम: $P = \\sigma AT^4$, अतः $P \\propto T^4$। $T$ दोगुना करने पर शक्ति $2^4 = 16$ गुनी होती है। परम ताप (केल्विन) लें — 27°C से दोगुना करने का अर्थ 327°C (300 K → 600 K) है, 54°C नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-03",
+      "subject": "physics",
+      "chapter": "System of Particles and Rotational Motion",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A flywheel of moment of inertia 2 kg m², initially at rest, is acted on by a constant torque of 10 N m for 4 s. Find its angular velocity (in rad/s) at the end of this time.",
+        "hi": "2 kg m² जड़त्व आघूर्ण वाले एक गतिपालक चक्र पर, जो प्रारंभ में विराम में है, 4 s तक 10 N m का नियत बल आघूर्ण लगता है। इस समय के अंत में इसका कोणीय वेग (rad/s में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 20,
+      "solution": {
+        "en": "Rotational analogue of $F = ma$: $\\tau = I\\alpha \\Rightarrow \\alpha = \\frac{10}{2} = 5$ rad/s². Then $\\omega = \\omega_0 + \\alpha t = 0 + 5 \\times 4 = 20$ rad/s. Equivalently, angular impulse $\\tau t = 40 = I\\omega$. Its kinetic energy is then $\\frac{1}{2}I\\omega^2 = 400$ J.",
+        "hi": "$F = ma$ का घूर्णी रूप: $\\tau = I\\alpha \\Rightarrow \\alpha = \\frac{10}{2} = 5$ rad/s²। तब $\\omega = \\omega_0 + \\alpha t = 0 + 5 \\times 4 = 20$ rad/s। समतुल्य रूप से, कोणीय आवेग $\\tau t = 40 = I\\omega$। तब इसकी गतिज ऊर्जा $\\frac{1}{2}I\\omega^2 = 400$ J है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-04",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The carbylamine test (heating with chloroform and alcoholic KOH to give a foul-smelling isocyanide) is given by:",
+        "hi": "कार्बिलऐमीन परीक्षण (क्लोरोफ़ॉर्म और ऐल्कोहॉली KOH के साथ गर्म करने पर दुर्गंधयुक्त आइसोसायनाइड बनना) कौन देता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Secondary amines only", "hi": "केवल द्वितीयक ऐमीन"}},
+        {"id": "B", "text": {"en": "Tertiary amines only", "hi": "केवल तृतीयक ऐमीन"}},
+        {"id": "C", "text": {"en": "Primary amines only", "hi": "केवल प्राथमिक ऐमीन"}},
+        {"id": "D", "text": {"en": "All amines", "hi": "सभी ऐमीन"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "R–NH₂ + CHCl₃ + 3KOH → R–NC + 3KCl + 3H₂O. The reaction needs two hydrogens on nitrogen, so only primary amines (aliphatic or aromatic, e.g. aniline) respond; secondary and tertiary amines do not. The unbearable smell of the isocyanide makes it a simple identification test.",
+        "hi": "R–NH₂ + CHCl₃ + 3KOH → R–NC + 3KCl + 3H₂O। इस अभिक्रिया के लिए नाइट्रोजन पर दो हाइड्रोजन चाहिए, अतः केवल प्राथमिक ऐमीन (ऐलिफ़ैटिक या ऐरोमैटिक, जैसे ऐनिलीन) यह देती हैं; द्वितीयक और तृतीयक ऐमीन नहीं। आइसोसायनाइड की असहनीय गंध इसे सरल पहचान परीक्षण बनाती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-05",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A solution showing a large positive deviation from Raoult's law forms:",
+        "hi": "राउल्ट नियम से अधिक धनात्मक विचलन दर्शाने वाला विलयन बनाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A maximum-boiling azeotrope", "hi": "अधिकतम क्वथनांक वाला स्थिरक्वाथी"}},
+        {"id": "B", "text": {"en": "A minimum-boiling azeotrope", "hi": "न्यूनतम क्वथनांक वाला स्थिरक्वाथी"}},
+        {"id": "C", "text": {"en": "An ideal solution", "hi": "एक आदर्श विलयन"}},
+        {"id": "D", "text": {"en": "No azeotrope under any condition", "hi": "किसी भी स्थिति में कोई स्थिरक्वाथी नहीं"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Positive deviation means weaker A–B attractions, so the vapour pressure is higher than ideal and the mixture boils at a lower temperature than expected; at one composition it boils lowest of all — a minimum-boiling azeotrope (e.g. about 95% ethanol–water). Negative deviation gives a maximum-boiling azeotrope (e.g. 68% HNO₃–water). An azeotrope boils at constant composition, so it cannot be separated by fractional distillation.",
+        "hi": "धनात्मक विचलन का अर्थ है दुर्बल A–B आकर्षण, अतः वाष्प दाब आदर्श से अधिक होता है और मिश्रण अपेक्षा से कम ताप पर उबलता है; एक संघटन पर यह सबसे कम ताप पर उबलता है — न्यूनतम क्वथनांक स्थिरक्वाथी (जैसे लगभग 95% एथेनॉल–जल)। ऋणात्मक विचलन अधिकतम क्वथनांक स्थिरक्वाथी देता है (जैसे 68% HNO₃–जल)। स्थिरक्वाथी नियत संघटन पर उबलता है, अतः इसे प्रभाजी आसवन से अलग नहीं किया जा सकता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-06",
+      "subject": "chemistry",
+      "chapter": "Electrochemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A cell reaction involving the transfer of 2 electrons has a standard emf of 0.5 V. Find the magnitude of its standard Gibbs energy change (in kJ mol⁻¹). ($F = 96500$ C mol⁻¹)",
+        "hi": "2 इलेक्ट्रॉनों के स्थानांतरण वाली एक सेल अभिक्रिया का मानक विद्युत वाहक बल 0.5 V है। इसके मानक गिब्ज़ ऊर्जा परिवर्तन का परिमाण (kJ mol⁻¹ में) ज्ञात कीजिए। ($F = 96500$ C mol⁻¹)"
+      },
+      "options": [],
+      "correctAnswer": 96.5,
+      "solution": {
+        "en": "$\\Delta G^\\circ = -nFE^\\circ_{\\text{cell}} = -2 \\times 96500 \\times 0.5 = -96500$ J mol⁻¹ $= -96.5$ kJ mol⁻¹. Magnitude $= 96.5$. A positive $E^\\circ$ gives a negative $\\Delta G^\\circ$, so the cell reaction is spontaneous. Note that $\\Delta G^\\circ$ depends on $n$, while $E^\\circ$ does not.",
+        "hi": "$\\Delta G^\\circ = -nFE^\\circ_{\\text{cell}} = -2 \\times 96500 \\times 0.5 = -96500$ J mol⁻¹ $= -96.5$ kJ mol⁻¹। परिमाण $= 96.5$। धनात्मक $E^\\circ$ से ऋणात्मक $\\Delta G^\\circ$ मिलता है, अतः सेल अभिक्रिया स्वतः प्रवर्तित है। ध्यान दें कि $\\Delta G^\\circ$, $n$ पर निर्भर करता है, जबकि $E^\\circ$ नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-07",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The conjugate of the complex number $2 - 3i$ is:",
+        "hi": "सम्मिश्र संख्या $2 - 3i$ का संयुग्मी है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "−2 + 3i", "hi": "−2 + 3i"}},
+        {"id": "B", "text": {"en": "−2 − 3i", "hi": "−2 − 3i"}},
+        {"id": "C", "text": {"en": "3 − 2i", "hi": "3 − 2i"}},
+        {"id": "D", "text": {"en": "2 + 3i", "hi": "2 + 3i"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The conjugate of $a + ib$ is $a - ib$: keep the real part and change the sign of the imaginary part. So $\\overline{2 - 3i} = 2 + 3i$. Geometrically it is the reflection of the point in the real axis, and $z\\bar{z} = 4 + 9 = 13 = |z|^2$.",
+        "hi": "$a + ib$ का संयुग्मी $a - ib$ है: वास्तविक भाग वही रखें और काल्पनिक भाग का चिह्न बदलें। अतः $\\overline{2 - 3i} = 2 + 3i$। ज्यामितीय रूप से यह वास्तविक अक्ष में बिंदु का प्रतिबिंब है, और $z\\bar{z} = 4 + 9 = 13 = |z|^2$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-08",
+      "subject": "maths",
+      "chapter": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\sin^{-1}(1) + \\cos^{-1}(0)$ is:",
+        "hi": "$\\sin^{-1}(1) + \\cos^{-1}(0)$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "π/2", "hi": "π/2"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "2π", "hi": "2π"}},
+        {"id": "D", "text": {"en": "π", "hi": "π"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\sin^{-1}(1) = \\frac{\\pi}{2}$ (in $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$) and $\\cos^{-1}(0) = \\frac{\\pi}{2}$ (in $[0, \\pi]$). Sum $= \\pi$. Don't confuse this with the identity $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$, which needs the same $x$ in both terms.",
+        "hi": "$\\sin^{-1}(1) = \\frac{\\pi}{2}$ ($\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ में) और $\\cos^{-1}(0) = \\frac{\\pi}{2}$ ($[0, \\pi]$ में)। योग $= \\pi$। इसे सर्वसमिका $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$ से न मिलाएँ, जिसमें दोनों पदों में समान $x$ होना चाहिए।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-09",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The order of the differential equation of the family of all circles $x^2 + y^2 = r^2$ centred at the origin ($r$ arbitrary) is:",
+        "hi": "मूलबिंदु पर केंद्रित सभी वृत्तों $x^2 + y^2 = r^2$ ($r$ स्वेच्छ) के कुल के अवकल समीकरण की कोटि है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "2", "hi": "2"}},
+        {"id": "C", "text": {"en": "3", "hi": "3"}},
+        {"id": "D", "text": {"en": "0", "hi": "0"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The family has one arbitrary constant ($r$), so its differential equation has order 1. Differentiating once eliminates $r$: $2x + 2y\\frac{dy}{dx} = 0 \\Rightarrow x + y\\frac{dy}{dx} = 0$. In general, the number of arbitrary constants equals the order of the differential equation.",
+        "hi": "इस कुल में एक स्वेच्छ अचर ($r$) है, अतः इसके अवकल समीकरण की कोटि 1 है। एक बार अवकलन करने से $r$ विलुप्त हो जाता है: $2x + 2y\\frac{dy}{dx} = 0 \\Rightarrow x + y\\frac{dy}{dx} = 0$। व्यापक रूप से स्वेच्छ अचरों की संख्या अवकल समीकरण की कोटि के बराबर होती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-21-10",
+      "subject": "maths",
+      "chapter": "Application of Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Let $A$ be the area of the region bounded by $y = \\sqrt{x}$, the x-axis and the line $x = 4$. Find $3A$.",
+        "hi": "माना $A$ वक्र $y = \\sqrt{x}$, x-अक्ष और रेखा $x = 4$ से घिरे क्षेत्र का क्षेत्रफल है। $3A$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 16,
+      "solution": {
+        "en": "$A = \\int_0^4\\sqrt{x}\\,dx = \\left[\\frac{2}{3}x^{3/2}\\right]_0^4 = \\frac{2}{3} \\times 8 = \\frac{16}{3}$. So $3A = 16$. Cross-check: the rectangle $[0, 4] \\times [0, 2]$ has area 8, and the region is $\\frac{2}{3}$ of it — a known property of parabolic areas.",
+        "hi": "$A = \\int_0^4\\sqrt{x}\\,dx = \\left[\\frac{2}{3}x^{3/2}\\right]_0^4 = \\frac{2}{3} \\times 8 = \\frac{16}{3}$। अतः $3A = 16$। जाँच: आयत $[0, 4] \\times [0, 2]$ का क्षेत्रफल 8 है, और यह क्षेत्र उसका $\\frac{2}{3}$ है — परवलयी क्षेत्रफलों का ज्ञात गुण।"
+      }
+    }
+  ]
+}

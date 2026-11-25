@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-24",
+  "questions": [
+    {
+      "id": "dd-2026-11-24-01",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "A lens has a power of +2 D. It is a:",
+        "hi": "एक लेंस की क्षमता +2 D है। यह है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Concave lens of focal length 50 cm", "hi": "50 cm फोकस दूरी का अवतल लेंस"}},
+        {"id": "B", "text": {"en": "Convex lens of focal length 2 m", "hi": "2 m फोकस दूरी का उत्तल लेंस"}},
+        {"id": "C", "text": {"en": "Convex lens of focal length 50 cm", "hi": "50 cm फोकस दूरी का उत्तल लेंस"}},
+        {"id": "D", "text": {"en": "Concave lens of focal length 2 cm", "hi": "2 cm फोकस दूरी का अवतल लेंस"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$f = \\frac{1}{P} = \\frac{1}{2}$ m $= 50$ cm. A positive power means a converging (convex) lens; a negative power means a diverging (concave) lens. Dioptre is the reciprocal of focal length in metres.",
+        "hi": "$f = \\frac{1}{P} = \\frac{1}{2}$ m $= 50$ cm। धनात्मक क्षमता का अर्थ अभिसारी (उत्तल) लेंस और ऋणात्मक क्षमता का अर्थ अपसारी (अवतल) लेंस है। डायॉप्टर, मीटर में फोकस दूरी का व्युत्क्रम है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-02",
+      "subject": "physics",
+      "chapter": "Electromagnetic Induction",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The cores of transformers are laminated (made of thin insulated sheets) in order to:",
+        "hi": "ट्रांसफ़ॉर्मरों के क्रोड पटलित (पतली विद्युतरोधी चादरों से बने) होते हैं ताकि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Increase the magnetic flux leakage", "hi": "चुंबकीय फ्लक्स का क्षरण बढ़े"}},
+        {"id": "B", "text": {"en": "Reduce eddy current losses", "hi": "भँवर धारा हानि कम हो"}},
+        {"id": "C", "text": {"en": "Increase the resistance of the windings", "hi": "कुंडलियों का प्रतिरोध बढ़े"}},
+        {"id": "D", "text": {"en": "Reduce the weight of the transformer only", "hi": "केवल ट्रांसफ़ॉर्मर का भार कम हो"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A changing magnetic flux induces circulating currents (eddy currents) inside a solid metal core, wasting energy as heat. Thin laminations separated by insulation break up these current loops and greatly reduce the loss. Eddy currents are also useful: in induction cooktops, electromagnetic braking and metal detectors.",
+        "hi": "परिवर्ती चुंबकीय फ्लक्स ठोस धातु क्रोड के भीतर परिसंचारी धाराएँ (भँवर धाराएँ) प्रेरित करता है, जिससे ऊर्जा ऊष्मा के रूप में व्यर्थ होती है। विद्युतरोधन से अलग की गई पतली पट्टियाँ इन धारा लूपों को तोड़ देती हैं और हानि बहुत कम कर देती हैं। भँवर धाराएँ उपयोगी भी हैं: इंडक्शन कुकटॉप, विद्युतचुंबकीय ब्रेक और धातु संसूचक में।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-03",
+      "subject": "physics",
+      "chapter": "Waves",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the fundamental frequency (in Hz) of an organ pipe 50 cm long that is open at both ends. (Speed of sound = 340 m/s)",
+        "hi": "दोनों सिरों पर खुले 50 cm लंबे ऑर्गन पाइप की मूल आवृत्ति (Hz में) ज्ञात कीजिए। (ध्वनि की चाल = 340 m/s)"
+      },
+      "options": [],
+      "correctAnswer": 340,
+      "solution": {
+        "en": "An open pipe has antinodes at both ends; in the fundamental mode $L = \\frac{\\lambda}{2}$, so $f_1 = \\frac{v}{2L} = \\frac{340}{2 \\times 0.5} = 340$ Hz. An open pipe produces all harmonics ($f_1, 2f_1, 3f_1, \\ldots$). Closed at one end, the same pipe would give $\\frac{v}{4L} = 170$ Hz with only odd harmonics.",
+        "hi": "खुले पाइप के दोनों सिरों पर प्रस्पंद होते हैं; मूल विधा में $L = \\frac{\\lambda}{2}$, अतः $f_1 = \\frac{v}{2L} = \\frac{340}{2 \\times 0.5} = 340$ Hz। खुला पाइप सभी संनादी ($f_1, 2f_1, 3f_1, \\ldots$) उत्पन्न करता है। एक सिरा बंद होने पर वही पाइप केवल विषम संनादियों के साथ $\\frac{v}{4L} = 170$ Hz देता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-04",
+      "subject": "chemistry",
+      "chapter": "Classification of Elements and Periodicity in Properties",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The element with atomic number 19 belongs to:",
+        "hi": "परमाणु क्रमांक 19 वाला तत्व किससे संबंधित है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "s-block, group 1, period 4", "hi": "s-ब्लॉक, वर्ग 1, आवर्त 4"}},
+        {"id": "B", "text": {"en": "p-block, group 17, period 3", "hi": "p-ब्लॉक, वर्ग 17, आवर्त 3"}},
+        {"id": "C", "text": {"en": "d-block, group 3, period 4", "hi": "d-ब्लॉक, वर्ग 3, आवर्त 4"}},
+        {"id": "D", "text": {"en": "s-block, group 2, period 4", "hi": "s-ब्लॉक, वर्ग 2, आवर्त 4"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Z = 19: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹. The last electron enters the 4s orbital → s-block; one valence electron → group 1; highest shell $n = 4$ → period 4. This is potassium, an alkali metal.",
+        "hi": "Z = 19: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹। अंतिम इलेक्ट्रॉन 4s कक्षक में जाता है → s-ब्लॉक; एक संयोजी इलेक्ट्रॉन → वर्ग 1; उच्चतम कोश $n = 4$ → आवर्त 4। यह पोटैशियम, एक क्षार धातु, है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-05",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In Clemmensen reduction, a ketone is converted into an alkane (C=O → CH₂) using:",
+        "hi": "क्लेमेन्सन अपचयन में किसका प्रयोग करके कीटोन को ऐल्केन (C=O → CH₂) में बदला जाता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Hydrazine and KOH in ethylene glycol", "hi": "एथिलीन ग्लाइकॉल में हाइड्राज़ीन और KOH"}},
+        {"id": "B", "text": {"en": "LiAlH₄", "hi": "LiAlH₄"}},
+        {"id": "C", "text": {"en": "Zinc amalgam and concentrated HCl", "hi": "ज़िंक अमलगम और सांद्र HCl"}},
+        {"id": "D", "text": {"en": "Tollens' reagent", "hi": "टॉलेन अभिकर्मक"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Clemmensen: Zn-Hg / conc. HCl reduces >C=O to >CH₂ in acidic conditions. Wolff–Kishner (NH₂NH₂, then KOH in ethylene glycol on heating) does the same in basic conditions — choose it when the molecule is acid-sensitive. LiAlH₄ only reduces C=O to an alcohol (CH–OH).",
+        "hi": "क्लेमेन्सन: Zn-Hg / सांद्र HCl अम्लीय परिस्थितियों में >C=O को >CH₂ में अपचयित करता है। वोल्फ़–किशनर (NH₂NH₂, फिर एथिलीन ग्लाइकॉल में KOH के साथ गर्म करना) यही काम क्षारीय परिस्थितियों में करता है — अम्ल-संवेदी अणु के लिए इसे चुनें। LiAlH₄ केवल C=O को ऐल्कोहॉल (CH–OH) में अपचयित करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-06",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the pH of a 0.005 M aqueous solution of barium hydroxide, Ba(OH)₂, at 25°C. (Assume complete dissociation)",
+        "hi": "25°C पर बेरियम हाइड्रॉक्साइड, Ba(OH)₂, के 0.005 M जलीय विलयन का pH ज्ञात कीजिए। (पूर्ण वियोजन मानें)"
+      },
+      "options": [],
+      "correctAnswer": 12,
+      "solution": {
+        "en": "Ba(OH)₂ → Ba²⁺ + 2OH⁻, so $[\\text{OH}^-] = 2 \\times 0.005 = 0.01$ M. pOH $= -\\log(10^{-2}) = 2$, and pH $= 14 - 2 = 12$. Trap: forgetting the factor of 2 gives pOH 2.3 and pH 11.7.",
+        "hi": "Ba(OH)₂ → Ba²⁺ + 2OH⁻, अतः $[\\text{OH}^-] = 2 \\times 0.005 = 0.01$ M। pOH $= -\\log(10^{-2}) = 2$, और pH $= 14 - 2 = 12$। ध्यान दें: 2 का गुणक भूलने पर pOH 2.3 और pH 11.7 आता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-07",
+      "subject": "maths",
+      "chapter": "Statistics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The range of the data $3, 8, 1, 9, 4$ is:",
+        "hi": "आँकड़ों $3, 8, 1, 9, 4$ का परिसर (range) है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "9", "hi": "9"}},
+        {"id": "B", "text": {"en": "5", "hi": "5"}},
+        {"id": "C", "text": {"en": "4", "hi": "4"}},
+        {"id": "D", "text": {"en": "8", "hi": "8"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Range = largest value − smallest value $= 9 - 1 = 8$. It is the simplest measure of dispersion, but it depends only on the two extreme values.",
+        "hi": "परिसर = सबसे बड़ा मान − सबसे छोटा मान $= 9 - 1 = 8$। यह प्रकीर्णन का सबसे सरल माप है, परंतु यह केवल दो चरम मानों पर निर्भर करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-08",
+      "subject": "maths",
+      "chapter": "Complex Numbers and Quadratic Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "If $z = 3 + 4i$, then $z\\bar{z}$ is equal to:",
+        "hi": "यदि $z = 3 + 4i$ है, तो $z\\bar{z}$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "25", "hi": "25"}},
+        {"id": "C", "text": {"en": "7", "hi": "7"}},
+        {"id": "D", "text": {"en": "−7 + 24i", "hi": "−7 + 24i"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$z\\bar{z} = (3 + 4i)(3 - 4i) = 9 - 16i^2 = 9 + 16 = 25 = |z|^2$. The product of a complex number and its conjugate is always a non-negative real number. ($-7 + 24i$ is $z^2$.)",
+        "hi": "$z\\bar{z} = (3 + 4i)(3 - 4i) = 9 - 16i^2 = 9 + 16 = 25 = |z|^2$। किसी सम्मिश्र संख्या और उसके संयुग्मी का गुणनफल सदैव ऋणेतर वास्तविक संख्या होती है। ($-7 + 24i$, $z^2$ है।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-09",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The function $f(x) = e^x$ on $\\mathbb{R}$ is:",
+        "hi": "$\\mathbb{R}$ पर फलन $f(x) = e^x$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Strictly decreasing", "hi": "निरंतर ह्रासमान"}},
+        {"id": "B", "text": {"en": "Constant", "hi": "अचर"}},
+        {"id": "C", "text": {"en": "Increasing only for x > 0", "hi": "केवल x > 0 के लिए वर्धमान"}},
+        {"id": "D", "text": {"en": "Strictly increasing", "hi": "निरंतर वर्धमान"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$f'(x) = e^x > 0$ for every real $x$, so $e^x$ is strictly increasing on all of $\\mathbb{R}$. It is also always positive, with $e^x \\to 0$ as $x \\to -\\infty$. $e^{-x}$, by contrast, is strictly decreasing.",
+        "hi": "प्रत्येक वास्तविक $x$ के लिए $f'(x) = e^x > 0$, अतः $e^x$ पूरे $\\mathbb{R}$ पर निरंतर वर्धमान है। यह सदैव धनात्मक भी है, और $x \\to -\\infty$ पर $e^x \\to 0$। इसके विपरीत $e^{-x}$ निरंतर ह्रासमान है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-24-10",
+      "subject": "maths",
+      "chapter": "Determinants",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $A$ is a square matrix of order 3 with $|A| = 2$, find $|A \\cdot \\text{adj } A|$.",
+        "hi": "यदि $A$ कोटि 3 का वर्ग आव्यूह है और $|A| = 2$ है, तो $|A \\cdot \\text{adj } A|$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Key identity: $A(\\text{adj }A) = |A|I$. So $A \\cdot \\text{adj }A = 2I_3$, and $|2I_3| = 2^3 = 8$. Equivalently $|A||\\text{adj }A| = 2 \\times 2^2 = 8$. Trap: answering 2 — $|A|I$ is a matrix, and its determinant is $|A|^n$.",
+        "hi": "मुख्य सर्वसमिका: $A(\\text{adj }A) = |A|I$। अतः $A \\cdot \\text{adj }A = 2I_3$, और $|2I_3| = 2^3 = 8$। समतुल्य रूप से $|A||\\text{adj }A| = 2 \\times 2^2 = 8$। ध्यान दें: उत्तर 2 देना गलत है — $|A|I$ एक आव्यूह है, और इसका सारणिक $|A|^n$ है।"
+      }
+    }
+  ]
+}

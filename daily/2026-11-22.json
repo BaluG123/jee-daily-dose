@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-22",
+  "questions": [
+    {
+      "id": "dd-2026-11-22-01",
+      "subject": "physics",
+      "chapter": "Magnetism and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The SI unit of magnetic flux is the:",
+        "hi": "चुंबकीय फ्लक्स का SI मात्रक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Tesla", "hi": "टेस्ला"}},
+        {"id": "B", "text": {"en": "Weber", "hi": "वेबर"}},
+        {"id": "C", "text": {"en": "Henry", "hi": "हेनरी"}},
+        {"id": "D", "text": {"en": "Ampere-metre", "hi": "ऐम्पियर-मीटर"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Magnetic flux $\\Phi = \\vec{B}\\cdot\\vec{A}$, measured in weber (Wb) = T m². Tesla is the unit of magnetic field (flux density, Wb/m²), henry of inductance, and A m of pole strength.",
+        "hi": "चुंबकीय फ्लक्स $\\Phi = \\vec{B}\\cdot\\vec{A}$, जो वेबर (Wb) = T m² में मापा जाता है। टेस्ला चुंबकीय क्षेत्र (फ्लक्स घनत्व, Wb/m²) का, हेनरी प्रेरकत्व का, और A m ध्रुव प्रबलता का मात्रक है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-02",
+      "subject": "physics",
+      "chapter": "Alternating Current",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The power factor of an AC circuit containing only a pure resistor is:",
+        "hi": "केवल शुद्ध प्रतिरोधक वाले AC परिपथ का शक्ति गुणांक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "0", "hi": "0"}},
+        {"id": "B", "text": {"en": "0.5", "hi": "0.5"}},
+        {"id": "C", "text": {"en": "1/√2", "hi": "1/√2"}},
+        {"id": "D", "text": {"en": "1", "hi": "1"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Power factor $= \\cos\\phi$, where $\\phi$ is the phase difference between voltage and current. In a pure resistor they are in phase ($\\phi = 0$), so $\\cos\\phi = 1$ and all supplied power is consumed. For a pure inductor or capacitor, $\\phi = 90^\\circ$ and the power factor is 0 (wattless current).",
+        "hi": "शक्ति गुणांक $= \\cos\\phi$, जहाँ $\\phi$ वोल्टता और धारा के बीच कलांतर है। शुद्ध प्रतिरोधक में वे समान कला में होते हैं ($\\phi = 0$), अतः $\\cos\\phi = 1$ और दी गई पूरी शक्ति खर्च होती है। शुद्ध प्रेरक या संधारित्र के लिए $\\phi = 90^\\circ$ और शक्ति गुणांक 0 है (वाटहीन धारा)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-03",
+      "subject": "physics",
+      "chapter": "Kinetic Theory",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "At what temperature (in K) is the rms speed of hydrogen molecules equal to the rms speed of oxygen molecules at 1600 K? (Molar masses: H₂ = 2 g/mol, O₂ = 32 g/mol)",
+        "hi": "किस ताप (K में) पर हाइड्रोजन अणुओं की rms चाल, 1600 K पर ऑक्सीजन अणुओं की rms चाल के बराबर होगी? (मोलर द्रव्यमान: H₂ = 2 g/mol, O₂ = 32 g/mol)"
+      },
+      "options": [],
+      "correctAnswer": 100,
+      "solution": {
+        "en": "$v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}}$, so equal speeds need equal $\\frac{T}{M}$: $\\frac{T_{H_2}}{2} = \\frac{1600}{32} \\Rightarrow T_{H_2} = 100$ K. Light molecules move much faster at the same temperature — which is why the Moon and small planets have lost their hydrogen to space.",
+        "hi": "$v_{\\text{rms}} = \\sqrt{\\frac{3RT}{M}}$, अतः समान चाल के लिए $\\frac{T}{M}$ बराबर चाहिए: $\\frac{T_{H_2}}{2} = \\frac{1600}{32} \\Rightarrow T_{H_2} = 100$ K। समान ताप पर हल्के अणु बहुत तेज़ चलते हैं — इसी कारण चंद्रमा और छोटे ग्रह अपनी हाइड्रोजन अंतरिक्ष में खो चुके हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-04",
+      "subject": "chemistry",
+      "chapter": "p-Block Elements",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following halogens is the most reactive?",
+        "hi": "निम्नलिखित हैलोजनों में से सबसे अधिक क्रियाशील कौन-सा है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Fluorine", "hi": "फ्लुओरीन"}},
+        {"id": "B", "text": {"en": "Chlorine", "hi": "क्लोरीन"}},
+        {"id": "C", "text": {"en": "Bromine", "hi": "ब्रोमीन"}},
+        {"id": "D", "text": {"en": "Iodine", "hi": "आयोडीन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Fluorine is the most reactive element of all. Two reasons: its F–F bond is unusually weak (158 kJ/mol, due to lone-pair repulsion in the tiny molecule), and it forms very strong bonds with other elements because of its small size and highest electronegativity. Reactivity decreases down the group: F₂ > Cl₂ > Br₂ > I₂.",
+        "hi": "फ्लुओरीन सभी तत्वों में सबसे अधिक क्रियाशील है। दो कारण: इसका F–F आबंध असामान्य रूप से दुर्बल है (158 kJ/mol, छोटे अणु में एकाकी युग्म प्रतिकर्षण के कारण), और यह अपने छोटे आकार और सर्वाधिक विद्युत ऋणात्मकता के कारण अन्य तत्वों से बहुत प्रबल आबंध बनाता है। वर्ग में नीचे क्रियाशीलता घटती है: F₂ > Cl₂ > Br₂ > I₂।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-05",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Gabriel phthalimide synthesis is used to prepare:",
+        "hi": "गैब्रिएल थैलिमाइड संश्लेषण किसे बनाने में प्रयुक्त होता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Pure primary aliphatic amines", "hi": "शुद्ध प्राथमिक ऐलिफ़ैटिक ऐमीन"}},
+        {"id": "B", "text": {"en": "Secondary amines", "hi": "द्वितीयक ऐमीन"}},
+        {"id": "C", "text": {"en": "Tertiary amines", "hi": "तृतीयक ऐमीन"}},
+        {"id": "D", "text": {"en": "Aromatic primary amines like aniline", "hi": "ऐनिलीन जैसी ऐरोमैटिक प्राथमिक ऐमीन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Phthalimide + KOH gives potassium phthalimide, which is alkylated by R–X (SN2); hydrolysis then releases R–NH₂. Only one alkyl group can attach, so the product is a pure 1° amine (unlike ammonolysis, which gives a mixture). Aryl halides do not undergo SN2, so aniline cannot be made this way.",
+        "hi": "थैलिमाइड + KOH से पोटैशियम थैलिमाइड बनता है, जो R–X से ऐल्किलीकृत होता है (SN2); फिर जल-अपघटन से R–NH₂ मुक्त होती है। केवल एक ऐल्किल समूह जुड़ सकता है, अतः उत्पाद शुद्ध 1° ऐमीन है (अमोनी-अपघटन के विपरीत, जो मिश्रण देता है)। ऐरिल हैलाइड SN2 नहीं देते, अतः ऐनिलीन इस विधि से नहीं बनती।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-06",
+      "subject": "chemistry",
+      "chapter": "Some Basic Concepts of Chemistry",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the percentage by mass of carbon in glucose (C₆H₁₂O₆). (Atomic masses: C = 12, H = 1, O = 16)",
+        "hi": "ग्लूकोज़ (C₆H₁₂O₆) में द्रव्यमान के अनुसार कार्बन की प्रतिशतता ज्ञात कीजिए। (परमाणु द्रव्यमान: C = 12, H = 1, O = 16)"
+      },
+      "options": [],
+      "correctAnswer": 40,
+      "solution": {
+        "en": "Molar mass $= 6(12) + 12(1) + 6(16) = 72 + 12 + 96 = 180$ g/mol. Mass % of C $= \\frac{72}{180} \\times 100 = 40\\%$ (H: 6.67%, O: 53.33%). Glucose has the same percentage composition as its empirical formula CH₂O ($\\frac{12}{30} = 40\\%$).",
+        "hi": "मोलर द्रव्यमान $= 6(12) + 12(1) + 6(16) = 72 + 12 + 96 = 180$ g/mol। C का द्रव्यमान % $= \\frac{72}{180} \\times 100 = 40\\%$ (H: 6.67%, O: 53.33%)। ग्लूकोज़ का प्रतिशत संघटन उसके मूलानुपाती सूत्र CH₂O ($\\frac{12}{30} = 40\\%$) के समान है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-07",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $n(A) = 3$ and $n(B) = 2$, then $n(A \\times B)$ is:",
+        "hi": "यदि $n(A) = 3$ और $n(B) = 2$ है, तो $n(A \\times B)$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "5", "hi": "5"}},
+        {"id": "B", "text": {"en": "9", "hi": "9"}},
+        {"id": "C", "text": {"en": "8", "hi": "8"}},
+        {"id": "D", "text": {"en": "6", "hi": "6"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$A \\times B$ consists of all ordered pairs $(a, b)$ with $a \\in A$, $b \\in B$. There are 3 choices for $a$ and 2 for $b$, so $n(A \\times B) = 3 \\times 2 = 6$.",
+        "hi": "$A \\times B$ में वे सभी क्रमित युग्म $(a, b)$ होते हैं जहाँ $a \\in A$, $b \\in B$। $a$ के 3 और $b$ के 2 विकल्प हैं, अतः $n(A \\times B) = 3 \\times 2 = 6$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-08",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For any square matrix $A$, the matrix $A + A^T$ is always:",
+        "hi": "किसी भी वर्ग आव्यूह $A$ के लिए आव्यूह $A + A^T$ सदैव होता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Skew-symmetric", "hi": "विषम-सममित"}},
+        {"id": "B", "text": {"en": "The identity matrix", "hi": "तत्समक आव्यूह"}},
+        {"id": "C", "text": {"en": "Symmetric", "hi": "सममित"}},
+        {"id": "D", "text": {"en": "The zero matrix", "hi": "शून्य आव्यूह"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "$(A + A^T)^T = A^T + (A^T)^T = A^T + A$, so $A + A^T$ equals its own transpose — symmetric. Similarly $A - A^T$ is skew-symmetric. Hence every square matrix can be written uniquely as $A = \\frac{1}{2}(A + A^T) + \\frac{1}{2}(A - A^T)$.",
+        "hi": "$(A + A^T)^T = A^T + (A^T)^T = A^T + A$, अतः $A + A^T$ अपने परिवर्त के बराबर है — सममित। इसी प्रकार $A - A^T$ विषम-सममित है। अतः प्रत्येक वर्ग आव्यूह को अद्वितीय रूप से $A = \\frac{1}{2}(A + A^T) + \\frac{1}{2}(A - A^T)$ लिखा जा सकता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Three fair coins are tossed. The probability of getting at least two heads is:",
+        "hi": "तीन निष्पक्ष सिक्के उछाले जाते हैं। कम से कम दो चित (head) आने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3/8", "hi": "3/8"}},
+        {"id": "B", "text": {"en": "1/8", "hi": "1/8"}},
+        {"id": "C", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "D", "text": {"en": "7/8", "hi": "7/8"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "At least two heads = exactly 2 or exactly 3: HHT, HTH, THH, HHH — 4 of 8 outcomes. $P = \\frac{4}{8} = \\frac{1}{2}$. (3/8 is exactly two heads; by symmetry, 'at least two heads' and 'at least two tails' are equally likely and together cover everything.)",
+        "hi": "कम से कम दो चित = ठीक 2 या ठीक 3: HHT, HTH, THH, HHH — 8 में से 4 परिणाम। $P = \\frac{4}{8} = \\frac{1}{2}$। (3/8 ठीक दो चित है; सममिति से 'कम से कम दो चित' और 'कम से कम दो पट' समसंभाव्य हैं और मिलकर सब कुछ घेरते हैं।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-22-10",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $y = f(x)$ satisfies $\\frac{dy}{dx} = 2x$ and $y(0) = 1$, find $y(3)$.",
+        "hi": "यदि $y = f(x)$, $\\frac{dy}{dx} = 2x$ और $y(0) = 1$ को संतुष्ट करता है, तो $y(3)$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 10,
+      "solution": {
+        "en": "Integrate: $y = x^2 + C$. The initial condition fixes $C$: $y(0) = C = 1$. So the particular solution is $y = x^2 + 1$, and $y(3) = 9 + 1 = 10$. The general solution is a whole family of parabolas; the condition picks out exactly one.",
+        "hi": "समाकलन करें: $y = x^2 + C$। प्रारंभिक प्रतिबंध $C$ तय करता है: $y(0) = C = 1$। अतः विशिष्ट हल $y = x^2 + 1$ है, और $y(3) = 9 + 1 = 10$। व्यापक हल परवलयों का पूरा कुल है; प्रतिबंध उनमें से ठीक एक चुनता है।"
+      }
+    }
+  ]
+}

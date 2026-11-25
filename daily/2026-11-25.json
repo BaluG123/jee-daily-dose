@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-25",
+  "questions": [
+    {
+      "id": "dd-2026-11-25-01",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Einstein's photoelectric equation is ($\\phi_0$ = work function):",
+        "hi": "आइंस्टाइन का प्रकाश-विद्युत समीकरण है ($\\phi_0$ = कार्य फलन):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "K_max = hν + φ₀", "hi": "K_max = hν + φ₀"}},
+        {"id": "B", "text": {"en": "K_max = hν − φ₀", "hi": "K_max = hν − φ₀"}},
+        {"id": "C", "text": {"en": "K_max = φ₀ − hν", "hi": "K_max = φ₀ − hν"}},
+        {"id": "D", "text": {"en": "K_max = hν/φ₀", "hi": "K_max = hν/φ₀"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "A photon gives all its energy $h\\nu$ to one electron. Part of it ($\\phi_0$) is used to escape the surface, and the rest becomes kinetic energy: $K_{\\max} = h\\nu - \\phi_0 = h(\\nu - \\nu_0)$. A graph of $K_{\\max}$ against $\\nu$ is a straight line of slope $h$ — this is how Millikan measured Planck's constant.",
+        "hi": "एक फ़ोटॉन अपनी पूरी ऊर्जा $h\\nu$ एक इलेक्ट्रॉन को देता है। इसका एक भाग ($\\phi_0$) पृष्ठ से बाहर निकलने में लगता है, और शेष गतिज ऊर्जा बनता है: $K_{\\max} = h\\nu - \\phi_0 = h(\\nu - \\nu_0)$। $K_{\\max}$ और $\\nu$ का ग्राफ़ $h$ ढाल वाली सरल रेखा है — मिलिकन ने इसी से प्लांक नियतांक मापा।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-02",
+      "subject": "physics",
+      "chapter": "Electrostatic Potential and Capacitance",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Two identical capacitors connected in series have an equivalent capacitance of 2 μF. If they are connected in parallel instead, the equivalent capacitance is:",
+        "hi": "श्रेणी क्रम में जुड़े दो समरूप संधारित्रों की तुल्य धारिता 2 μF है। यदि इन्हें समांतर क्रम में जोड़ा जाए, तो तुल्य धारिता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "8 μF", "hi": "8 μF"}},
+        {"id": "B", "text": {"en": "4 μF", "hi": "4 μF"}},
+        {"id": "C", "text": {"en": "2 μF", "hi": "2 μF"}},
+        {"id": "D", "text": {"en": "1 μF", "hi": "1 μF"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "In series, two equal capacitors give $\\frac{C}{2} = 2\\,\\mu\\text{F} \\Rightarrow C = 4\\,\\mu\\text{F}$ each. In parallel, capacitances add: $4 + 4 = 8\\,\\mu\\text{F}$. So the parallel value is 4 times the series value for two identical capacitors (the opposite of resistors).",
+        "hi": "श्रेणी क्रम में दो समान संधारित्र $\\frac{C}{2} = 2\\,\\mu\\text{F} \\Rightarrow C = 4\\,\\mu\\text{F}$ प्रत्येक देते हैं। समांतर क्रम में धारिताएँ जुड़ती हैं: $4 + 4 = 8\\,\\mu\\text{F}$। अतः दो समरूप संधारित्रों के लिए समांतर मान, श्रेणी मान का 4 गुना होता है (प्रतिरोधकों के विपरीत)।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-03",
+      "subject": "physics",
+      "chapter": "Motion in a Plane",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A ball is projected with a speed of 20 m/s at an angle of 30° above the horizontal. Find the maximum height (in m) it reaches. (Take $g = 10$ m/s²)",
+        "hi": "एक गेंद को क्षैतिज से 30° कोण पर 20 m/s की चाल से प्रक्षेपित किया जाता है। इसके द्वारा प्राप्त अधिकतम ऊँचाई (m में) ज्ञात कीजिए। ($g = 10$ m/s² लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 5,
+      "solution": {
+        "en": "Only the vertical component $u\\sin\\theta = 20 \\times \\frac{1}{2} = 10$ m/s fights gravity. $H = \\frac{(u\\sin\\theta)^2}{2g} = \\frac{100}{20} = 5$ m. Also: time of flight $= \\frac{2u\\sin\\theta}{g} = 2$ s and range $= \\frac{u^2\\sin 2\\theta}{g} = 20\\sqrt{3} \\approx 34.6$ m.",
+        "hi": "केवल ऊर्ध्वाधर घटक $u\\sin\\theta = 20 \\times \\frac{1}{2} = 10$ m/s गुरुत्व के विरुद्ध कार्य करता है। $H = \\frac{(u\\sin\\theta)^2}{2g} = \\frac{100}{20} = 5$ m। साथ ही: उड्डयन काल $= \\frac{2u\\sin\\theta}{g} = 2$ s और परास $= \\frac{u^2\\sin 2\\theta}{g} = 20\\sqrt{3} \\approx 34.6$ m।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-04",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Amines behave as bases because of the:",
+        "hi": "ऐमीन क्षारक के रूप में व्यवहार करती हैं, क्योंकि:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Presence of hydrogen atoms on nitrogen", "hi": "नाइट्रोजन पर हाइड्रोजन परमाणुओं की उपस्थिति"}},
+        {"id": "B", "text": {"en": "Positive charge on nitrogen", "hi": "नाइट्रोजन पर धनावेश"}},
+        {"id": "C", "text": {"en": "High molar mass of amines", "hi": "ऐमीनों का उच्च मोलर द्रव्यमान"}},
+        {"id": "D", "text": {"en": "Lone pair of electrons on the nitrogen atom", "hi": "नाइट्रोजन परमाणु पर इलेक्ट्रॉनों का एकाकी युग्म"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "The nitrogen in amines has an unshared electron pair, which it can donate to a proton (Brønsted base) or to any electron-deficient species (Lewis base): R–NH₂ + H⁺ → R–NH₃⁺. That is why amines form salts with acids and turn red litmus blue. Anything that makes this lone pair less available (e.g. resonance in aniline) weakens the base.",
+        "hi": "ऐमीनों में नाइट्रोजन पर एक असहभाजित इलेक्ट्रॉन युग्म होता है, जिसे यह प्रोटॉन (ब्रॉन्स्टेड क्षारक) या किसी इलेक्ट्रॉन-न्यून स्पीशीज़ (लूइस क्षारक) को दान कर सकता है: R–NH₂ + H⁺ → R–NH₃⁺। इसी कारण ऐमीन अम्लों के साथ लवण बनाती हैं और लाल लिटमस को नीला करती हैं। जो भी इस एकाकी युग्म को कम उपलब्ध करे (जैसे ऐनिलीन में अनुनाद), वह क्षारकता घटाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-05",
+      "subject": "chemistry",
+      "chapter": "Chemical Kinetics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following statements about the molecularity of a reaction is correct?",
+        "hi": "अभिक्रिया की आण्विकता के बारे में निम्नलिखित में से कौन-सा कथन सही है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "It can be zero", "hi": "यह शून्य हो सकती है"}},
+        {"id": "B", "text": {"en": "It is determined only by experiment", "hi": "यह केवल प्रयोग द्वारा निर्धारित होती है"}},
+        {"id": "C", "text": {"en": "It cannot be zero or fractional", "hi": "यह शून्य या भिन्नात्मक नहीं हो सकती"}},
+        {"id": "D", "text": {"en": "It can be negative", "hi": "यह ऋणात्मक हो सकती है"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Molecularity is the number of reacting species that collide simultaneously in an elementary step, so it must be a whole number — 1, 2, or rarely 3 — never zero, fractional or negative. It is a theoretical concept for elementary steps. Order, by contrast, is found experimentally and can be 0, fractional or negative.",
+        "hi": "आण्विकता किसी प्राथमिक चरण में एक साथ टकराने वाली अभिकारक स्पीशीज़ की संख्या है, अतः यह पूर्ण संख्या होनी चाहिए — 1, 2, या दुर्लभ रूप से 3 — कभी शून्य, भिन्नात्मक या ऋणात्मक नहीं। यह प्राथमिक चरणों के लिए सैद्धांतिक अवधारणा है। इसके विपरीत कोटि प्रयोग से ज्ञात होती है और 0, भिन्नात्मक या ऋणात्मक हो सकती है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-06",
+      "subject": "chemistry",
+      "chapter": "Coordination Compounds",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Ignoring pairing energy, find the magnitude of the crystal field stabilisation energy (CFSE), in units of Δo, for a low-spin d⁶ octahedral complex such as [Co(NH₃)₆]³⁺.",
+        "hi": "युग्मन ऊर्जा की उपेक्षा करते हुए, [Co(NH₃)₆]³⁺ जैसे निम्न-चक्रण d⁶ अष्टफलकीय संकुल के लिए क्रिस्टल क्षेत्र स्थायीकरण ऊर्जा (CFSE) का परिमाण, Δo के मात्रकों में, ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 2.4,
+      "solution": {
+        "en": "In an octahedral field, each t₂g electron lowers the energy by $0.4\\Delta_o$ and each e_g electron raises it by $0.6\\Delta_o$. Low-spin d⁶: t₂g⁶ e_g⁰, so CFSE $= 6 \\times (-0.4\\Delta_o) = -2.4\\Delta_o$. Magnitude $= 2.4$. This large stabilisation is why low-spin d⁶ complexes such as [Co(NH₃)₆]³⁺ are so stable and inert.",
+        "hi": "अष्टफलकीय क्षेत्र में प्रत्येक t₂g इलेक्ट्रॉन ऊर्जा को $0.4\\Delta_o$ घटाता और प्रत्येक e_g इलेक्ट्रॉन $0.6\\Delta_o$ बढ़ाता है। निम्न-चक्रण d⁶: t₂g⁶ e_g⁰, अतः CFSE $= 6 \\times (-0.4\\Delta_o) = -2.4\\Delta_o$। परिमाण $= 2.4$। यही बड़ा स्थायीकरण [Co(NH₃)₆]³⁺ जैसे निम्न-चक्रण d⁶ संकुलों के अत्यधिक स्थायी और अक्रिय होने का कारण है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-07",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The general solution of a second-order differential equation contains how many arbitrary constants?",
+        "hi": "द्वितीय कोटि के अवकल समीकरण के व्यापक हल में कितने स्वेच्छ अचर होते हैं?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "0", "hi": "0"}},
+        {"id": "C", "text": {"en": "2", "hi": "2"}},
+        {"id": "D", "text": {"en": "3", "hi": "3"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "The general solution of an $n$th-order differential equation contains exactly $n$ arbitrary constants — one for each integration needed to undo the derivatives. Example: $\\frac{d^2y}{dx^2} = 0$ gives $y = Ax + B$ (two constants). A particular solution fixes all of them using given conditions.",
+        "hi": "$n$वीं कोटि के अवकल समीकरण के व्यापक हल में ठीक $n$ स्वेच्छ अचर होते हैं — अवकलजों को हटाने के लिए आवश्यक प्रत्येक समाकलन के लिए एक। उदाहरण: $\\frac{d^2y}{dx^2} = 0$ से $y = Ax + B$ (दो अचर)। विशिष्ट हल दिए गए प्रतिबंधों से इन सभी को तय करता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-08",
+      "subject": "maths",
+      "chapter": "Sets",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In roster form, the set $A = \\{x \\in \\mathbb{R} : x^2 = 4\\}$ is:",
+        "hi": "सूचीरूप में समुच्चय $A = \\{x \\in \\mathbb{R} : x^2 = 4\\}$ है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "{2}", "hi": "{2}"}},
+        {"id": "B", "text": {"en": "{−2, 2}", "hi": "{−2, 2}"}},
+        {"id": "C", "text": {"en": "{4}", "hi": "{4}"}},
+        {"id": "D", "text": {"en": "{−4, 4}", "hi": "{−4, 4}"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "$x^2 = 4 \\Rightarrow x = \\pm 2$, and both are real. So $A = \\{-2, 2\\}$. Trap: writing only $\\{2\\}$ misses the negative root; $\\{4\\}$ confuses the value of $x^2$ with $x$.",
+        "hi": "$x^2 = 4 \\Rightarrow x = \\pm 2$, और दोनों वास्तविक हैं। अतः $A = \\{-2, 2\\}$। ध्यान दें: केवल $\\{2\\}$ लिखने पर ऋणात्मक मूल छूट जाता है; $\\{4\\}$ में $x^2$ के मान को $x$ समझ लिया गया है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-09",
+      "subject": "maths",
+      "chapter": "Straight Lines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The angle that the line $\\sqrt{3}x - y + 1 = 0$ makes with the positive x-axis is:",
+        "hi": "रेखा $\\sqrt{3}x - y + 1 = 0$ धनात्मक x-अक्ष से जो कोण बनाती है, वह है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "30°", "hi": "30°"}},
+        {"id": "B", "text": {"en": "45°", "hi": "45°"}},
+        {"id": "C", "text": {"en": "120°", "hi": "120°"}},
+        {"id": "D", "text": {"en": "60°", "hi": "60°"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Rewrite as $y = \\sqrt{3}x + 1$: slope $m = \\sqrt{3} = \\tan\\theta \\Rightarrow \\theta = 60^\\circ$. The inclination is always measured anticlockwise from the positive x-axis and lies in $[0^\\circ, 180^\\circ)$.",
+        "hi": "$y = \\sqrt{3}x + 1$ के रूप में लिखें: ढाल $m = \\sqrt{3} = \\tan\\theta \\Rightarrow \\theta = 60^\\circ$। झुकाव सदैव धनात्मक x-अक्ष से वामावर्त मापा जाता है और $[0^\\circ, 180^\\circ)$ में होता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-25-10",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A fair coin is tossed 10 times. If $P$ is the probability of getting exactly 5 heads, find $1024P$.",
+        "hi": "एक निष्पक्ष सिक्का 10 बार उछाला जाता है। यदि ठीक 5 चित आने की प्रायिकता $P$ है, तो $1024P$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 252,
+      "solution": {
+        "en": "Binomial distribution with $n = 10$, $p = q = \\frac{1}{2}$: $P(X = 5) = {}^{10}C_5\\left(\\frac{1}{2}\\right)^{10} = \\frac{252}{1024}$. So $1024P = 252$. Interesting: even the most likely outcome (5 heads) happens less than 25% of the time.",
+        "hi": "$n = 10$, $p = q = \\frac{1}{2}$ वाला द्विपद बंटन: $P(X = 5) = {}^{10}C_5\\left(\\frac{1}{2}\\right)^{10} = \\frac{252}{1024}$। अतः $1024P = 252$। रोचक: सबसे संभावित परिणाम (5 चित) भी 25% से कम बार होता है।"
+      }
+    }
+  ]
+}

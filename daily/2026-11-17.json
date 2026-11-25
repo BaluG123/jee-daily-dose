@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-17",
+  "questions": [
+    {
+      "id": "dd-2026-11-17-01",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "In the photoelectric effect, whether electrons are emitted from a metal surface or not depends on the:",
+        "hi": "प्रकाश-विद्युत प्रभाव में धातु पृष्ठ से इलेक्ट्रॉन उत्सर्जित होंगे या नहीं, यह किस पर निर्भर करता है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Frequency of the incident light", "hi": "आपतित प्रकाश की आवृत्ति"}},
+        {"id": "B", "text": {"en": "Intensity of the incident light", "hi": "आपतित प्रकाश की तीव्रता"}},
+        {"id": "C", "text": {"en": "Time for which light falls", "hi": "प्रकाश पड़ने का समय"}},
+        {"id": "D", "text": {"en": "Area of the metal surface", "hi": "धातु पृष्ठ का क्षेत्रफल"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Emission happens only if the photon energy $h\\nu$ is at least the work function $\\phi_0$, i.e. $\\nu \\ge \\nu_0$ (threshold frequency). Below $\\nu_0$, no electrons come out however bright the light is. Above it, emission is instantaneous. This could not be explained by the wave theory, and Einstein explained it using photons.",
+        "hi": "उत्सर्जन तभी होता है जब फ़ोटॉन ऊर्जा $h\\nu$ कम से कम कार्य फलन $\\phi_0$ के बराबर हो, अर्थात $\\nu \\ge \\nu_0$ (देहली आवृत्ति)। $\\nu_0$ से कम पर प्रकाश कितना भी तीव्र हो, कोई इलेक्ट्रॉन नहीं निकलता। इससे ऊपर उत्सर्जन तात्क्षणिक होता है। तरंग सिद्धांत इसे नहीं समझा सका; आइंस्टाइन ने फ़ोटॉन की सहायता से इसकी व्याख्या की।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-02",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In the single-slit diffraction pattern, the central maximum:",
+        "hi": "एकल-झिरी विवर्तन पैटर्न में केंद्रीय उच्चिष्ठ:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Has the same width as each secondary maximum", "hi": "प्रत्येक द्वितीयक उच्चिष्ठ के समान चौड़ा होता है"}},
+        {"id": "B", "text": {"en": "Is twice as wide as each secondary maximum", "hi": "प्रत्येक द्वितीयक उच्चिष्ठ से दोगुना चौड़ा होता है"}},
+        {"id": "C", "text": {"en": "Is the dimmest band", "hi": "सबसे मंद पट्टी होता है"}},
+        {"id": "D", "text": {"en": "Is half as wide as each secondary maximum", "hi": "प्रत्येक द्वितीयक उच्चिष्ठ से आधा चौड़ा होता है"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Minima occur at $a\\sin\\theta = n\\lambda$. The central maximum extends from the first minimum on one side to the first minimum on the other, so its angular width is $\\frac{2\\lambda}{a}$, while every secondary maximum has width $\\frac{\\lambda}{a}$. The central maximum is also by far the brightest. Unlike YDSE fringes, diffraction bands are not all equal.",
+        "hi": "निम्निष्ठ $a\\sin\\theta = n\\lambda$ पर होते हैं। केंद्रीय उच्चिष्ठ एक ओर के प्रथम निम्निष्ठ से दूसरी ओर के प्रथम निम्निष्ठ तक फैला होता है, अतः इसकी कोणीय चौड़ाई $\\frac{2\\lambda}{a}$ है, जबकि प्रत्येक द्वितीयक उच्चिष्ठ की चौड़ाई $\\frac{\\lambda}{a}$ है। केंद्रीय उच्चिष्ठ सबसे अधिक दीप्त भी होता है। YDSE फ्रिंजों के विपरीत, विवर्तन पट्टियाँ सभी समान नहीं होतीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-03",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Light of photon energy 5 eV falls on a metal surface of work function 2 eV. Find the stopping potential (in V).",
+        "hi": "5 eV फ़ोटॉन ऊर्जा वाला प्रकाश 2 eV कार्य फलन वाले धातु पृष्ठ पर पड़ता है। निरोधी विभव (V में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 3,
+      "solution": {
+        "en": "Einstein's equation: $K_{\\max} = h\\nu - \\phi_0 = 5 - 2 = 3$ eV. The stopping potential just stops the fastest electrons: $eV_0 = K_{\\max} \\Rightarrow V_0 = 3$ V. Since energy in eV divided by $e$ gives volts directly, no unit conversion is needed.",
+        "hi": "आइंस्टाइन का समीकरण: $K_{\\max} = h\\nu - \\phi_0 = 5 - 2 = 3$ eV। निरोधी विभव सबसे तेज़ इलेक्ट्रॉनों को ठीक रोक देता है: $eV_0 = K_{\\max} \\Rightarrow V_0 = 3$ V। eV में ऊर्जा को $e$ से भाग देने पर सीधे वोल्ट मिलता है, अतः मात्रक बदलने की आवश्यकता नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-04",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Which of the following is a primary amine?",
+        "hi": "निम्नलिखित में से कौन-सी प्राथमिक ऐमीन है?"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₃CH₂NH₂", "hi": "CH₃CH₂NH₂"}},
+        {"id": "B", "text": {"en": "(CH₃)₂NH", "hi": "(CH₃)₂NH"}},
+        {"id": "C", "text": {"en": "(CH₃)₃N", "hi": "(CH₃)₃N"}},
+        {"id": "D", "text": {"en": "(CH₃)₄N⁺Cl⁻", "hi": "(CH₃)₄N⁺Cl⁻"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Amines are classified by the number of alkyl/aryl groups on nitrogen: 1° R–NH₂ (one group), 2° R₂NH, 3° R₃N. Ethylamine CH₃CH₂NH₂ is primary; dimethylamine is secondary, trimethylamine is tertiary, and (CH₃)₄N⁺Cl⁻ is a quaternary ammonium salt. Note: this differs from alcohols, where 1°/2°/3° refers to the carbon atom.",
+        "hi": "ऐमीनों का वर्गीकरण नाइट्रोजन पर ऐल्किल/ऐरिल समूहों की संख्या से होता है: 1° R–NH₂ (एक समूह), 2° R₂NH, 3° R₃N। एथिलऐमीन CH₃CH₂NH₂ प्राथमिक है; डाइमेथिलऐमीन द्वितीयक, ट्राइमेथिलऐमीन तृतीयक, और (CH₃)₄N⁺Cl⁻ चतुष्क अमोनियम लवण है। ध्यान दें: यह ऐल्कोहॉलों से भिन्न है, जहाँ 1°/2°/3° कार्बन परमाणु को दर्शाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-05",
+      "subject": "chemistry",
+      "chapter": "Equilibrium",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "For a weak acid HA and its conjugate base A⁻ in water at 25°C, the product $K_a \\times K_b$ is equal to:",
+        "hi": "25°C पर जल में दुर्बल अम्ल HA और उसके संयुग्मी क्षारक A⁻ के लिए गुणनफल $K_a \\times K_b$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1", "hi": "1"}},
+        {"id": "B", "text": {"en": "Ka²", "hi": "Ka²"}},
+        {"id": "C", "text": {"en": "Kw/Ka", "hi": "Kw/Ka"}},
+        {"id": "D", "text": {"en": "Kw = 1.0 × 10⁻¹⁴", "hi": "Kw = 1.0 × 10⁻¹⁴"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Adding HA ⇌ H⁺ + A⁻ and A⁻ + H₂O ⇌ HA + OH⁻ gives H₂O ⇌ H⁺ + OH⁻. Adding reactions multiplies their constants: $K_aK_b = K_w = 10^{-14}$ (equivalently p$K_a$ + p$K_b$ = 14). So the stronger the acid, the weaker its conjugate base. Example: for acetic acid ($K_a = 1.8 \\times 10^{-5}$), acetate has $K_b \\approx 5.6 \\times 10^{-10}$.",
+        "hi": "HA ⇌ H⁺ + A⁻ और A⁻ + H₂O ⇌ HA + OH⁻ जोड़ने पर H₂O ⇌ H⁺ + OH⁻ मिलता है। अभिक्रियाएँ जोड़ने पर स्थिरांक गुणा होते हैं: $K_aK_b = K_w = 10^{-14}$ (समतुल्य रूप से p$K_a$ + p$K_b$ = 14)। अतः अम्ल जितना प्रबल, उसका संयुग्मी क्षारक उतना दुर्बल। उदाहरण: ऐसीटिक अम्ल ($K_a = 1.8 \\times 10^{-5}$) के लिए ऐसीटेट का $K_b \\approx 5.6 \\times 10^{-10}$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-06",
+      "subject": "chemistry",
+      "chapter": "Structure of Atom",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Find the number of electrons with azimuthal quantum number $l = 1$ in a ground-state chlorine atom (Z = 17).",
+        "hi": "मूल अवस्था वाले क्लोरीन परमाणु (Z = 17) में दिगंशी क्वांटम संख्या $l = 1$ वाले इलेक्ट्रॉनों की संख्या ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 11,
+      "solution": {
+        "en": "Cl: 1s² 2s² 2p⁶ 3s² 3p⁵. $l = 1$ means p-orbitals: 2p⁶ (6 electrons) + 3p⁵ (5 electrons) = 11. Electrons with $l = 0$ (s-orbitals) number $2 + 2 + 2 = 6$; total $11 + 6 = 17$ ✓.",
+        "hi": "Cl: 1s² 2s² 2p⁶ 3s² 3p⁵। $l = 1$ का अर्थ p-कक्षक है: 2p⁶ (6 इलेक्ट्रॉन) + 3p⁵ (5 इलेक्ट्रॉन) = 11। $l = 0$ (s-कक्षक) वाले इलेक्ट्रॉन $2 + 2 + 2 = 6$ हैं; कुल $11 + 6 = 17$ ✓।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-07",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The order and degree of the differential equation $\\left(\\frac{d^2y}{dx^2}\\right)^3 + \\left(\\frac{dy}{dx}\\right)^4 + y = 0$ are respectively:",
+        "hi": "अवकल समीकरण $\\left(\\frac{d^2y}{dx^2}\\right)^3 + \\left(\\frac{dy}{dx}\\right)^4 + y = 0$ की कोटि और घात क्रमशः हैं:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 and 2", "hi": "3 and 2"}},
+        {"id": "B", "text": {"en": "2 and 4", "hi": "2 and 4"}},
+        {"id": "C", "text": {"en": "2 and 3", "hi": "2 and 3"}},
+        {"id": "D", "text": {"en": "4 and 2", "hi": "4 and 2"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Order = the highest derivative present = 2 ($\\frac{d^2y}{dx^2}$). Degree = the power of that highest-order derivative (once the equation is a polynomial in derivatives) = 3. The power 4 belongs to a lower-order derivative, so it does not decide the degree.",
+        "hi": "कोटि = उपस्थित उच्चतम अवकलज = 2 ($\\frac{d^2y}{dx^2}$)। घात = उस उच्चतम कोटि के अवकलज की घात (जब समीकरण अवकलजों में बहुपद हो) = 3। घात 4 निम्न कोटि के अवकलज की है, अतः यह घात तय नहीं करती।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-08",
+      "subject": "maths",
+      "chapter": "Trigonometric Functions",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The value of $\\sin 15^\\circ \\cos 15^\\circ$ is:",
+        "hi": "$\\sin 15^\\circ \\cos 15^\\circ$ का मान है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "√3/4", "hi": "√3/4"}},
+        {"id": "C", "text": {"en": "1", "hi": "1"}},
+        {"id": "D", "text": {"en": "1/4", "hi": "1/4"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "$\\sin\\theta\\cos\\theta = \\frac{1}{2}\\sin 2\\theta$, so $\\sin 15^\\circ\\cos 15^\\circ = \\frac{1}{2}\\sin 30^\\circ = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$. Using the double-angle formula avoids computing $\\sin 15^\\circ$ and $\\cos 15^\\circ$ separately.",
+        "hi": "$\\sin\\theta\\cos\\theta = \\frac{1}{2}\\sin 2\\theta$, अतः $\\sin 15^\\circ\\cos 15^\\circ = \\frac{1}{2}\\sin 30^\\circ = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$। द्विगुण कोण सूत्र से $\\sin 15^\\circ$ और $\\cos 15^\\circ$ अलग-अलग निकालने की आवश्यकता नहीं पड़ती।"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A number is chosen at random from 1 to 100. The probability that it is a perfect square is:",
+        "hi": "1 से 100 तक की संख्याओं में से यादृच्छया एक संख्या चुनी जाती है। इसके पूर्ण वर्ग होने की प्रायिकता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/100", "hi": "1/100"}},
+        {"id": "B", "text": {"en": "1/10", "hi": "1/10"}},
+        {"id": "C", "text": {"en": "1/5", "hi": "1/5"}},
+        {"id": "D", "text": {"en": "9/100", "hi": "9/100"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Perfect squares from 1 to 100: $1^2, 2^2, \\ldots, 10^2$ — exactly 10 numbers. $P = \\frac{10}{100} = \\frac{1}{10}$. (9/100 comes from forgetting that 1 and 100 are both included.)",
+        "hi": "1 से 100 तक पूर्ण वर्ग: $1^2, 2^2, \\ldots, 10^2$ — ठीक 10 संख्याएँ। $P = \\frac{10}{100} = \\frac{1}{10}$। (9/100 तब आता है जब भूल जाएँ कि 1 और 100 दोनों शामिल हैं।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-17-10",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "If $I = \\int_0^2 x\\sqrt{4 - x^2}\\,dx$, find $3I$.",
+        "hi": "यदि $I = \\int_0^2 x\\sqrt{4 - x^2}\\,dx$ है, तो $3I$ ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 8,
+      "solution": {
+        "en": "Substitute $u = 4 - x^2$, $du = -2x\\,dx$; limits $x = 0 \\to u = 4$, $x = 2 \\to u = 0$. $I = \\frac{1}{2}\\int_0^4\\sqrt{u}\\,du = \\frac{1}{2} \\cdot \\frac{2}{3}u^{3/2}\\Big|_0^4 = \\frac{1}{3} \\times 8 = \\frac{8}{3}$. So $3I = 8$. When the derivative of the inside function ($-2x$) appears outside, substitution is the key.",
+        "hi": "$u = 4 - x^2$, $du = -2x\\,dx$ रखें; सीमाएँ $x = 0 \\to u = 4$, $x = 2 \\to u = 0$। $I = \\frac{1}{2}\\int_0^4\\sqrt{u}\\,du = \\frac{1}{2} \\cdot \\frac{2}{3}u^{3/2}\\Big|_0^4 = \\frac{1}{3} \\times 8 = \\frac{8}{3}$। अतः $3I = 8$। जब आंतरिक फलन का अवकलज ($-2x$) बाहर हो, तब प्रतिस्थापन ही कुंजी है।"
+      }
+    }
+  ]
+}
