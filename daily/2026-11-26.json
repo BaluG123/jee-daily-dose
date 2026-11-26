@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-26",
+  "questions": [
+    {
+      "id": "dd-2026-11-26-01",
+      "subject": "physics",
+      "chapter": "Wave Optics",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Two light sources are said to be coherent if they emit waves of the same frequency with:",
+        "hi": "दो प्रकाश स्रोत कलासंबद्ध (coherent) कहलाते हैं यदि वे समान आवृत्ति की तरंगें उत्सर्जित करें और उनके बीच:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A randomly changing phase difference", "hi": "यादृच्छिक रूप से बदलता कलांतर हो"}},
+        {"id": "B", "text": {"en": "Different amplitudes only", "hi": "केवल भिन्न आयाम हों"}},
+        {"id": "C", "text": {"en": "Different speeds", "hi": "भिन्न चालें हों"}},
+        {"id": "D", "text": {"en": "A constant phase difference", "hi": "नियत कलांतर हो"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Coherent sources keep a constant (time-independent) phase difference, so the interference pattern stays fixed and visible. Two separate bulbs are incoherent because atoms emit randomly, changing the phase ~$10^8$ times per second. That is why YDSE derives both slits from a single source, and lasers are highly coherent.",
+        "hi": "कलासंबद्ध स्रोत नियत (समय से स्वतंत्र) कलांतर बनाए रखते हैं, अतः व्यतिकरण पैटर्न स्थिर और दृश्य रहता है। दो अलग बल्ब असंबद्ध होते हैं क्योंकि परमाणु यादृच्छिक रूप से उत्सर्जन करते हैं, जिससे कला प्रति सेकंड ~$10^8$ बार बदलती है। इसी कारण YDSE में दोनों झिरियाँ एक ही स्रोत से प्रकाश लेती हैं, और लेज़र अत्यधिक कलासंबद्ध होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-02",
+      "subject": "physics",
+      "chapter": "Moving Charges and Magnetism",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A circular loop of radius $R$ carries a current $I$. If the radius is doubled while the current stays the same, the magnetic field at the centre becomes:",
+        "hi": "$R$ त्रिज्या के वृत्ताकार पाश में धारा $I$ बहती है। यदि धारा समान रखते हुए त्रिज्या दोगुनी कर दी जाए, तो केंद्र पर चुंबकीय क्षेत्र हो जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Half", "hi": "आधा"}},
+        {"id": "B", "text": {"en": "Double", "hi": "दोगुना"}},
+        {"id": "C", "text": {"en": "Four times", "hi": "चार गुना"}},
+        {"id": "D", "text": {"en": "One-fourth", "hi": "एक-चौथाई"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Biot–Savart law gives the field at the centre of a loop: $B = \\frac{\\mu_0 I}{2R}$, so $B \\propto \\frac{1}{R}$. Doubling $R$ halves $B$. Note the difference: a long straight wire gives $\\frac{\\mu_0 I}{2\\pi r}$, and a coil of $N$ turns gives $\\frac{\\mu_0 NI}{2R}$.",
+        "hi": "बायो–सावर्ट नियम से पाश के केंद्र पर क्षेत्र: $B = \\frac{\\mu_0 I}{2R}$, अतः $B \\propto \\frac{1}{R}$। $R$ दोगुना करने पर $B$ आधा हो जाता है। अंतर पर ध्यान दें: लंबे सीधे तार से $\\frac{\\mu_0 I}{2\\pi r}$, और $N$ फेरों की कुंडली से $\\frac{\\mu_0 NI}{2R}$ मिलता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-03",
+      "subject": "physics",
+      "chapter": "Dual Nature of Radiation and Matter",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The work function of a metal is 2.48 eV. Find its threshold wavelength (in nm). (Take $hc = 1240$ eV nm)",
+        "hi": "एक धातु का कार्य फलन 2.48 eV है। इसकी देहली तरंगदैर्ध्य (nm में) ज्ञात कीजिए। ($hc = 1240$ eV nm लीजिए)"
+      },
+      "options": [],
+      "correctAnswer": 500,
+      "solution": {
+        "en": "At threshold, photon energy equals the work function: $\\frac{hc}{\\lambda_0} = \\phi_0 \\Rightarrow \\lambda_0 = \\frac{1240}{2.48} = 500$ nm (green light). Light of wavelength longer than 500 nm (e.g. red) cannot eject electrons from this metal, however intense it is. The shortcut $hc = 1240$ eV nm saves a lot of calculation.",
+        "hi": "देहली पर फ़ोटॉन ऊर्जा कार्य फलन के बराबर होती है: $\\frac{hc}{\\lambda_0} = \\phi_0 \\Rightarrow \\lambda_0 = \\frac{1240}{2.48} = 500$ nm (हरा प्रकाश)। 500 nm से अधिक तरंगदैर्ध्य का प्रकाश (जैसे लाल) इस धातु से इलेक्ट्रॉन नहीं निकाल सकता, चाहे कितना भी तीव्र हो। शॉर्टकट $hc = 1240$ eV nm बहुत गणना बचाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-04",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The IUPAC name of CH₃–NH–CH₃ is:",
+        "hi": "CH₃–NH–CH₃ का IUPAC नाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "N-Methylmethanamine", "hi": "N-मेथिलमेथेनैमीन"}},
+        {"id": "B", "text": {"en": "Dimethylamine-1", "hi": "डाइमेथिलऐमीन-1"}},
+        {"id": "C", "text": {"en": "Ethanamine", "hi": "एथेनैमीन"}},
+        {"id": "D", "text": {"en": "Aminoethane", "hi": "ऐमीनोएथेन"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "In IUPAC naming of amines, the longest chain attached to N gives the parent 'alkanamine' (here methanamine), and the other group on nitrogen is shown with the prefix 'N-'. So (CH₃)₂NH is N-methylmethanamine; its common name is dimethylamine. Ethanamine (CH₃CH₂NH₂) is a primary amine isomeric with it.",
+        "hi": "ऐमीनों के IUPAC नामकरण में N से जुड़ी सबसे लंबी शृंखला मूल 'ऐल्केनैमीन' (यहाँ मेथेनैमीन) देती है, और नाइट्रोजन पर अन्य समूह 'N-' उपसर्ग से दर्शाया जाता है। अतः (CH₃)₂NH, N-मेथिलमेथेनैमीन है; इसका सामान्य नाम डाइमेथिलऐमीन है। एथेनैमीन (CH₃CH₂NH₂) इसकी समावयवी प्राथमिक ऐमीन है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-05",
+      "subject": "chemistry",
+      "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The correct decreasing order of reactivity towards nucleophilic addition is:",
+        "hi": "नाभिकस्नेही योग के प्रति क्रियाशीलता का सही घटता क्रम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "CH₃COCH₃ > CH₃CHO > HCHO", "hi": "CH₃COCH₃ > CH₃CHO > HCHO"}},
+        {"id": "B", "text": {"en": "HCHO > CH₃CHO > CH₃COCH₃", "hi": "HCHO > CH₃CHO > CH₃COCH₃"}},
+        {"id": "C", "text": {"en": "CH₃CHO > HCHO > CH₃COCH₃", "hi": "CH₃CHO > HCHO > CH₃COCH₃"}},
+        {"id": "D", "text": {"en": "CH₃CHO > CH₃COCH₃ > HCHO", "hi": "CH₃CHO > CH₃COCH₃ > HCHO"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Nucleophiles attack the partially positive carbonyl carbon. Alkyl groups reduce this reactivity in two ways: their +I effect lowers the positive charge on carbon, and their bulk hinders the approaching nucleophile. HCHO has no alkyl group, CH₃CHO has one and CH₃COCH₃ has two — so aldehydes are generally more reactive than ketones.",
+        "hi": "नाभिकस्नेही आंशिक धनात्मक कार्बोनिल कार्बन पर आक्रमण करते हैं। ऐल्किल समूह इस क्रियाशीलता को दो प्रकार से घटाते हैं: उनका +I प्रभाव कार्बन पर धनावेश कम करता है, और उनका आकार आते हुए नाभिकस्नेही को बाधित करता है। HCHO में कोई ऐल्किल समूह नहीं, CH₃CHO में एक और CH₃COCH₃ में दो हैं — अतः ऐल्डिहाइड सामान्यतः कीटोनों से अधिक क्रियाशील होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-06",
+      "subject": "chemistry",
+      "chapter": "Solutions",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "A solution is prepared by mixing 46 g of ethanol (C₂H₅OH) with 72 g of water. Find the mole fraction of ethanol in the solution. (Molar masses: C₂H₅OH = 46 g/mol, H₂O = 18 g/mol)",
+        "hi": "46 g एथेनॉल (C₂H₅OH) को 72 g जल के साथ मिलाकर एक विलयन बनाया जाता है। विलयन में एथेनॉल का मोल अंश ज्ञात कीजिए। (मोलर द्रव्यमान: C₂H₅OH = 46 g/mol, H₂O = 18 g/mol)"
+      },
+      "options": [],
+      "correctAnswer": 0.2,
+      "solution": {
+        "en": "$n(\\text{ethanol}) = \\frac{46}{46} = 1$ mol; $n(\\text{water}) = \\frac{72}{18} = 4$ mol. Mole fraction $x = \\frac{1}{1 + 4} = 0.2$, so water's mole fraction is 0.8; the two always add up to 1. Mole fraction, like molality, does not change with temperature.",
+        "hi": "$n(\\text{ethanol}) = \\frac{46}{46} = 1$ mol; $n(\\text{water}) = \\frac{72}{18} = 4$ mol। मोल अंश $x = \\frac{1}{1 + 4} = 0.2$, अतः जल का मोल अंश 0.8 है; दोनों का योग सदैव 1 होता है। मोल अंश, मोललता की तरह, ताप के साथ नहीं बदलता।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-07",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "$\\int \\frac{1}{\\sqrt{1 - x^2}}\\,dx$ (for $|x| < 1$) is equal to:",
+        "hi": "$\\int \\frac{1}{\\sqrt{1 - x^2}}\\,dx$ ($|x| < 1$ के लिए) बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "tan⁻¹x + C", "hi": "tan⁻¹x + C"}},
+        {"id": "B", "text": {"en": "cos x + C", "hi": "cos x + C"}},
+        {"id": "C", "text": {"en": "sin⁻¹x + C", "hi": "sin⁻¹x + C"}},
+        {"id": "D", "text": {"en": "ln|1 − x²| + C", "hi": "ln|1 − x²| + C"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Since $\\frac{d}{dx}\\sin^{-1}x = \\frac{1}{\\sqrt{1 - x^2}}$, we get $\\int\\frac{dx}{\\sqrt{1 - x^2}} = \\sin^{-1}x + C$ (equivalently $-\\cos^{-1}x + C'$). Compare: $\\int\\frac{dx}{1 + x^2} = \\tan^{-1}x + C$. Recognising these standard forms is the first step in many JEE integrals.",
+        "hi": "चूँकि $\\frac{d}{dx}\\sin^{-1}x = \\frac{1}{\\sqrt{1 - x^2}}$, अतः $\\int\\frac{dx}{\\sqrt{1 - x^2}} = \\sin^{-1}x + C$ (समतुल्य रूप से $-\\cos^{-1}x + C'$)। तुलना: $\\int\\frac{dx}{1 + x^2} = \\tan^{-1}x + C$। इन मानक रूपों को पहचानना कई JEE समाकलनों का पहला कदम है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-08",
+      "subject": "maths",
+      "chapter": "Differential Equations",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The integrating factor of the linear differential equation $\\frac{dy}{dx} + \\frac{y}{x} = x^2$ ($x > 0$) is:",
+        "hi": "रैखिक अवकल समीकरण $\\frac{dy}{dx} + \\frac{y}{x} = x^2$ ($x > 0$) का समाकलन गुणक है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/x", "hi": "1/x"}},
+        {"id": "B", "text": {"en": "eˣ", "hi": "eˣ"}},
+        {"id": "C", "text": {"en": "x", "hi": "x"}},
+        {"id": "D", "text": {"en": "ln x", "hi": "ln x"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "For $\\frac{dy}{dx} + Py = Q$, the integrating factor is $e^{\\int P\\,dx}$. Here $P = \\frac{1}{x}$, so IF $= e^{\\ln x} = x$. Multiplying through: $\\frac{d}{dx}(xy) = x^3 \\Rightarrow xy = \\frac{x^4}{4} + C$. The IF turns the left side into the derivative of a product.",
+        "hi": "$\\frac{dy}{dx} + Py = Q$ के लिए समाकलन गुणक $e^{\\int P\\,dx}$ है। यहाँ $P = \\frac{1}{x}$, अतः IF $= e^{\\ln x} = x$। पूरे समीकरण को गुणा करने पर: $\\frac{d}{dx}(xy) = x^3 \\Rightarrow xy = \\frac{x^4}{4} + C$। IF बाएँ पक्ष को एक गुणनफल का अवकलज बना देता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-09",
+      "subject": "maths",
+      "chapter": "Probability",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "A family has two children. Given that at least one of them is a boy, the probability that both are boys is (assume boys and girls are equally likely):",
+        "hi": "एक परिवार में दो बच्चे हैं। यह दिया है कि उनमें से कम से कम एक लड़का है, तो दोनों के लड़के होने की प्रायिकता है (लड़के और लड़की को समसंभाव्य मानें):"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1/2", "hi": "1/2"}},
+        {"id": "B", "text": {"en": "1/4", "hi": "1/4"}},
+        {"id": "C", "text": {"en": "2/3", "hi": "2/3"}},
+        {"id": "D", "text": {"en": "1/3", "hi": "1/3"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "Sample space: BB, BG, GB, GG. 'At least one boy' leaves BB, BG, GB — 3 equally likely cases, of which only BB has both boys. $P = \\frac{1}{3}$. Trap: answering $\\frac{1}{2}$ treats it as 'the other child is a boy', ignoring that BG and GB are different outcomes. A classic conditional probability question.",
+        "hi": "प्रतिदर्श समष्टि: BB, BG, GB, GG। 'कम से कम एक लड़का' से BB, BG, GB बचते हैं — 3 समसंभाव्य स्थितियाँ, जिनमें केवल BB में दोनों लड़के हैं। $P = \\frac{1}{3}$। ध्यान दें: $\\frac{1}{2}$ उत्तर मानता है कि 'दूसरा बच्चा लड़का है', जो भूल जाता है कि BG और GB भिन्न परिणाम हैं। सप्रतिबंध प्रायिकता का एक क्लासिक प्रश्न।"
+      }
+    },
+    {
+      "id": "dd-2026-11-26-10",
+      "subject": "maths",
+      "chapter": "Applications of Derivatives",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An open box is made from a square sheet of side 18 cm by cutting equal squares from each corner and folding up the sides. Find the maximum possible volume of the box (in cm³).",
+        "hi": "18 cm भुजा वाली वर्गाकार चादर के प्रत्येक कोने से समान वर्ग काटकर और किनारों को मोड़कर एक खुला डिब्बा बनाया जाता है। डिब्बे का अधिकतम संभव आयतन (cm³ में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 432,
+      "solution": {
+        "en": "If squares of side $x$ are cut, the box has base $(18 - 2x)^2$ and height $x$: $V = x(18 - 2x)^2$. $\\frac{dV}{dx} = (18 - 2x)(18 - 6x) = 0 \\Rightarrow x = 3$ (since $x = 9$ gives no box). $V''(3) < 0$, so it is a maximum: $V = 3 \\times 12^2 = 432$ cm³. In general, for a square sheet of side $a$, cut $x = \\frac{a}{6}$.",
+        "hi": "यदि $x$ भुजा के वर्ग काटे जाएँ, तो डिब्बे का आधार $(18 - 2x)^2$ और ऊँचाई $x$ है: $V = x(18 - 2x)^2$। $\\frac{dV}{dx} = (18 - 2x)(18 - 6x) = 0 \\Rightarrow x = 3$ (क्योंकि $x = 9$ से डिब्बा नहीं बनता)। $V''(3) < 0$, अतः यह उच्चतम है: $V = 3 \\times 12^2 = 432$ cm³। व्यापक रूप से $a$ भुजा वाली वर्गाकार चादर के लिए $x = \\frac{a}{6}$ काटें।"
+      }
+    }
+  ]
+}
