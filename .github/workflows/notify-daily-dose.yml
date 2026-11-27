@@ -1,0 +1,45 @@
+# Sends "Today's Daily Dose is live" to every app user subscribed to the
+# FCM topic `daily_dose` whenever a new date is added to daily/index.json.
+# Copy this file to the jee-daily-dose repo at .github/workflows/.
+name: Notify Daily Dose
+
+on:
+  push:
+    branches: [main]
+    paths: ['daily/index.json']
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Notification title (leave empty for the Daily Dose default)'
+        required: false
+      body:
+        description: 'Notification text'
+        required: false
+      topic:
+        description: 'FCM topic: daily_dose or all_users'
+        required: false
+        default: 'daily_dose'
+      route:
+        description: 'Screen to open on tap (DailyDose, Home, Tests, PreviousPapers)'
+        required: false
+        default: 'DailyDose'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send push
+        env:
+          FCM_SERVICE_ACCOUNT: ${{ secrets.FCM_SERVICE_ACCOUNT }}
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_TITLE: ${{ github.event.inputs.title }}
+          INPUT_BODY: ${{ github.event.inputs.body }}
+          INPUT_TOPIC: ${{ github.event.inputs.topic }}
+          INPUT_ROUTE: ${{ github.event.inputs.route }}
+        run: node scripts/send-daily-dose-push.js
