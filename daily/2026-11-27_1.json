@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-27",
+  "questions": [
+    {
+      "id": "dd-2026-11-27-01",
+      "subject": "physics",
+      "chapter": "Current Electricity",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "The equivalent resistance of $n$ identical resistors, each of resistance $R$, connected in parallel is:",
+        "hi": "$R$ प्रतिरोध वाले $n$ समरूप प्रतिरोधकों को समांतर क्रम में जोड़ने पर तुल्य प्रतिरोध है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "nR", "hi": "nR"}},
+        {"id": "B", "text": {"en": "n²R", "hi": "n²R"}},
+        {"id": "C", "text": {"en": "R/n²", "hi": "R/n²"}},
+        {"id": "D", "text": {"en": "R/n", "hi": "R/n"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "In parallel, $\\frac{1}{R_p} = \\frac{1}{R} + \\frac{1}{R} + \\cdots$ ($n$ terms) $= \\frac{n}{R}$, so $R_p = \\frac{R}{n}$ — always smaller than the smallest resistor. In series, $R_s = nR$. Useful result: $\\frac{R_s}{R_p} = n^2$.",
+        "hi": "समांतर क्रम में $\\frac{1}{R_p} = \\frac{1}{R} + \\frac{1}{R} + \\cdots$ ($n$ पद) $= \\frac{n}{R}$, अतः $R_p = \\frac{R}{n}$ — जो सदैव सबसे छोटे प्रतिरोधक से कम होता है। श्रेणी क्रम में $R_s = nR$। उपयोगी परिणाम: $\\frac{R_s}{R_p} = n^2$।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-02",
+      "subject": "physics",
+      "chapter": "Electromagnetic Waves",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "In a plane electromagnetic wave in vacuum, the amplitude of the electric field is 300 V/m. The amplitude of the magnetic field is:",
+        "hi": "निर्वात में एक समतल विद्युतचुंबकीय तरंग में विद्युत क्षेत्र का आयाम 300 V/m है। चुंबकीय क्षेत्र का आयाम है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "1 mT", "hi": "1 mT"}},
+        {"id": "B", "text": {"en": "9 × 10¹⁰ T", "hi": "9 × 10¹⁰ T"}},
+        {"id": "C", "text": {"en": "1 μT", "hi": "1 μT"}},
+        {"id": "D", "text": {"en": "300 T", "hi": "300 T"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "In an EM wave, $\\frac{E_0}{B_0} = c$, so $B_0 = \\frac{E_0}{c} = \\frac{300}{3 \\times 10^8} = 10^{-6}$ T $= 1\\,\\mu$T. The magnetic field looks tiny, but the energy is shared equally: average electric and magnetic energy densities are the same.",
+        "hi": "विद्युतचुंबकीय तरंग में $\\frac{E_0}{B_0} = c$, अतः $B_0 = \\frac{E_0}{c} = \\frac{300}{3 \\times 10^8} = 10^{-6}$ T $= 1\\,\\mu$T। चुंबकीय क्षेत्र बहुत छोटा दिखता है, परंतु ऊर्जा बराबर बँटी होती है: औसत विद्युत और चुंबकीय ऊर्जा घनत्व समान होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-03",
+      "subject": "physics",
+      "chapter": "Ray Optics and Optical Instruments",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "An object is placed 15 cm in front of a convex lens of focal length 10 cm. Find the distance (in cm) of the image from the lens.",
+        "hi": "10 cm फोकस दूरी वाले उत्तल लेंस के सामने 15 cm पर एक वस्तु रखी है। लेंस से प्रतिबिंब की दूरी (cm में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 30,
+      "solution": {
+        "en": "Lens formula: $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$ with $u = -15$ cm, $f = +10$ cm: $\\frac{1}{v} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30} \\Rightarrow v = +30$ cm. The image is real and inverted, on the other side of the lens, with $m = \\frac{v}{u} = -2$ (twice the size). Note the lens formula has a minus sign where the mirror formula has a plus.",
+        "hi": "लेंस सूत्र: $u = -15$ cm, $f = +10$ cm के साथ $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$: $\\frac{1}{v} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30} \\Rightarrow v = +30$ cm। प्रतिबिंब लेंस के दूसरी ओर वास्तविक और उल्टा है, $m = \\frac{v}{u} = -2$ (दोगुने आकार का)। ध्यान दें कि जहाँ दर्पण सूत्र में धन चिह्न है, वहाँ लेंस सूत्र में ऋण चिह्न है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-04",
+      "subject": "chemistry",
+      "chapter": "Alcohols, Phenols and Ethers",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "Phenol is also known as:",
+        "hi": "फ़ीनॉल को यह भी कहा जाता है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "Wood spirit", "hi": "काष्ठ स्पिरिट"}},
+        {"id": "B", "text": {"en": "Carbolic acid", "hi": "कार्बोलिक अम्ल"}},
+        {"id": "C", "text": {"en": "Formalin", "hi": "फ़ॉर्मेलिन"}},
+        {"id": "D", "text": {"en": "Picric acid", "hi": "पिक्रिक अम्ल"}}
+      ],
+      "correctAnswer": "B",
+      "solution": {
+        "en": "Phenol (C₆H₅OH) was first isolated from coal tar and named carbolic acid because it is weakly acidic. It was the first antiseptic used in surgery (by Joseph Lister). Wood spirit is methanol, formalin is aqueous formaldehyde, and picric acid is 2,4,6-trinitrophenol, a much stronger acid.",
+        "hi": "फ़ीनॉल (C₆H₅OH) पहली बार कोलतार से पृथक किया गया था और दुर्बल अम्लीय होने के कारण इसे कार्बोलिक अम्ल नाम दिया गया। यह शल्य चिकित्सा में प्रयुक्त पहला पूतिरोधी (जोसेफ़ लिस्टर द्वारा) था। काष्ठ स्पिरिट मेथेनॉल है, फ़ॉर्मेलिन जलीय फ़ॉर्मैल्डिहाइड है, और पिक्रिक अम्ल 2,4,6-ट्राइनाइट्रोफ़ीनॉल है, जो बहुत अधिक प्रबल अम्ल है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-05",
+      "subject": "chemistry",
+      "chapter": "Amines",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "Aniline reacts with bromine water at room temperature to give:",
+        "hi": "कमरे के ताप पर ऐनिलीन ब्रोमीन जल के साथ अभिक्रिया करके देती है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "A white precipitate of 2,4,6-tribromoaniline", "hi": "2,4,6-ट्राइब्रोमोऐनिलीन का सफ़ेद अवक्षेप"}},
+        {"id": "B", "text": {"en": "Only p-bromoaniline", "hi": "केवल p-ब्रोमोऐनिलीन"}},
+        {"id": "C", "text": {"en": "Only m-bromoaniline", "hi": "केवल m-ब्रोमोऐनिलीन"}},
+        {"id": "D", "text": {"en": "No reaction", "hi": "कोई अभिक्रिया नहीं"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "The –NH₂ group strongly activates the ring by donating its lone pair, making the ortho and para positions so electron-rich that bromine substitutes all three at once, giving a white precipitate of 2,4,6-tribromoaniline. To get only the mono-bromo product, the –NH₂ is first acetylated (–NHCOCH₃), which tames its activating effect, and hydrolysed back afterwards.",
+        "hi": "–NH₂ समूह अपना एकाकी युग्म दान करके वलय को प्रबल रूप से सक्रिय करता है, जिससे ऑर्थो और पैरा स्थितियाँ इतनी इलेक्ट्रॉन-समृद्ध हो जाती हैं कि ब्रोमीन तीनों को एक साथ प्रतिस्थापित कर देती है, और 2,4,6-ट्राइब्रोमोऐनिलीन का सफ़ेद अवक्षेप बनता है। केवल मोनो-ब्रोमो उत्पाद पाने के लिए पहले –NH₂ का ऐसीटिलीकरण (–NHCOCH₃) किया जाता है, जो इसके सक्रियण प्रभाव को कम करता है, और बाद में जल-अपघटन से वापस लाया जाता है।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-06",
+      "subject": "chemistry",
+      "chapter": "Thermodynamics",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "The enthalpy of fusion of ice is 6.006 kJ mol⁻¹ at its melting point, 273 K. Find the entropy change (in J K⁻¹ mol⁻¹) when 1 mol of ice melts at this temperature.",
+        "hi": "बर्फ़ की गलन एन्थैल्पी उसके गलनांक, 273 K, पर 6.006 kJ mol⁻¹ है। इस ताप पर 1 mol बर्फ़ पिघलने पर एन्ट्रॉपी परिवर्तन (J K⁻¹ mol⁻¹ में) ज्ञात कीजिए।"
+      },
+      "options": [],
+      "correctAnswer": 22,
+      "solution": {
+        "en": "At the melting point the phase change is reversible, so $\\Delta S = \\frac{\\Delta H_{\\text{fus}}}{T} = \\frac{6006}{273} = 22$ J K⁻¹ mol⁻¹. Convert kJ to J first. $\\Delta S$ is positive because liquid water is more disordered than ice. At this temperature $\\Delta G = \\Delta H - T\\Delta S = 0$: ice and water are in equilibrium.",
+        "hi": "गलनांक पर प्रावस्था परिवर्तन उत्क्रमणीय होता है, अतः $\\Delta S = \\frac{\\Delta H_{\\text{fus}}}{T} = \\frac{6006}{273} = 22$ J K⁻¹ mol⁻¹। पहले kJ को J में बदलें। $\\Delta S$ धनात्मक है क्योंकि द्रव जल, बर्फ़ से अधिक अव्यवस्थित है। इस ताप पर $\\Delta G = \\Delta H - T\\Delta S = 0$: बर्फ़ और जल साम्य में हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-07",
+      "subject": "maths",
+      "chapter": "Matrices",
+      "difficulty": "easy",
+      "type": "mcq",
+      "question": {
+        "en": "If $A$ is a matrix of order $2 \\times 3$, then the order of $A^T$ is:",
+        "hi": "यदि $A$ कोटि $2 \\times 3$ का आव्यूह है, तो $A^T$ की कोटि है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "3 × 2", "hi": "3 × 2"}},
+        {"id": "B", "text": {"en": "2 × 3", "hi": "2 × 3"}},
+        {"id": "C", "text": {"en": "3 × 3", "hi": "3 × 3"}},
+        {"id": "D", "text": {"en": "2 × 2", "hi": "2 × 2"}}
+      ],
+      "correctAnswer": "A",
+      "solution": {
+        "en": "Transposing swaps rows and columns, so an $m \\times n$ matrix becomes $n \\times m$. Here $2 \\times 3 \\to 3 \\times 2$. Consequently $AA^T$ is $2 \\times 2$ and $A^TA$ is $3 \\times 3$ — both are always square and symmetric.",
+        "hi": "परिवर्त लेने पर पंक्तियाँ और स्तंभ आपस में बदल जाते हैं, अतः $m \\times n$ आव्यूह $n \\times m$ बन जाता है। यहाँ $2 \\times 3 \\to 3 \\times 2$। परिणामस्वरूप $AA^T$, $2 \\times 2$ और $A^TA$, $3 \\times 3$ है — दोनों सदैव वर्ग और सममित होते हैं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-08",
+      "subject": "maths",
+      "chapter": "Integrals",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "$\\int \\tan x\\,dx$ is equal to:",
+        "hi": "$\\int \\tan x\\,dx$ बराबर है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "sec²x + C", "hi": "sec²x + C"}},
+        {"id": "B", "text": {"en": "ln|sin x| + C", "hi": "ln|sin x| + C"}},
+        {"id": "C", "text": {"en": "ln|sec x| + C", "hi": "ln|sec x| + C"}},
+        {"id": "D", "text": {"en": "−ln|sec x| + C", "hi": "−ln|sec x| + C"}}
+      ],
+      "correctAnswer": "C",
+      "solution": {
+        "en": "Write $\\tan x = \\frac{\\sin x}{\\cos x}$ and put $u = \\cos x$, $du = -\\sin x\\,dx$: $\\int\\tan x\\,dx = -\\int\\frac{du}{u} = -\\ln|\\cos x| + C = \\ln|\\sec x| + C$. Similarly $\\int\\cot x\\,dx = \\ln|\\sin x| + C$. Trap: $\\sec^2x$ is the derivative of $\\tan x$, not its integral.",
+        "hi": "$\\tan x = \\frac{\\sin x}{\\cos x}$ लिखें और $u = \\cos x$, $du = -\\sin x\\,dx$ रखें: $\\int\\tan x\\,dx = -\\int\\frac{du}{u} = -\\ln|\\cos x| + C = \\ln|\\sec x| + C$। इसी प्रकार $\\int\\cot x\\,dx = \\ln|\\sin x| + C$। ध्यान दें: $\\sec^2x$, $\\tan x$ का अवकलज है, समाकल नहीं।"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-09",
+      "subject": "maths",
+      "chapter": "Conic Sections",
+      "difficulty": "medium",
+      "type": "mcq",
+      "question": {
+        "en": "The length of the latus rectum of the ellipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ is:",
+        "hi": "दीर्घवृत्त $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ के नाभिलंब की लंबाई है:"
+      },
+      "options": [
+        {"id": "A", "text": {"en": "50/3", "hi": "50/3"}},
+        {"id": "B", "text": {"en": "6", "hi": "6"}},
+        {"id": "C", "text": {"en": "10", "hi": "10"}},
+        {"id": "D", "text": {"en": "18/5", "hi": "18/5"}}
+      ],
+      "correctAnswer": "D",
+      "solution": {
+        "en": "For an ellipse with $a > b$, latus rectum $= \\frac{2b^2}{a} = \\frac{2 \\times 9}{5} = \\frac{18}{5}$. It is the chord through a focus perpendicular to the major axis. (50/3 comes from mixing up $a$ and $b$; 10 and 6 are the lengths of the major and minor axes.)",
+        "hi": "$a > b$ वाले दीर्घवृत्त के लिए नाभिलंब $= \\frac{2b^2}{a} = \\frac{2 \\times 9}{5} = \\frac{18}{5}$। यह नाभि से होकर दीर्घ अक्ष के लंबवत जीवा है। (50/3, $a$ और $b$ को आपस में बदलने से आता है; 10 और 6 दीर्घ और लघु अक्षों की लंबाइयाँ हैं।)"
+      }
+    },
+    {
+      "id": "dd-2026-11-27-10",
+      "subject": "maths",
+      "chapter": "Permutations and Combinations",
+      "difficulty": "hard",
+      "type": "numerical",
+      "question": {
+        "en": "Three distinct numbers are selected from $\\{1, 2, 3, \\ldots, 20\\}$. In how many ways can they be chosen so that they form an arithmetic progression (in some order)?",
+        "hi": "$\\{1, 2, 3, \\ldots, 20\\}$ में से तीन भिन्न संख्याएँ चुनी जाती हैं। इन्हें कितने प्रकार से चुना जा सकता है कि वे (किसी क्रम में) समांतर श्रेणी बनाएँ?"
+      },
+      "options": [],
+      "correctAnswer": 90,
+      "solution": {
+        "en": "For $a < b < c$ in AP, $b = \\frac{a + c}{2}$, so $a + c$ must be even: $a$ and $c$ must have the same parity, and then $b$ is fixed automatically. There are 10 odd and 10 even numbers, so the choices of $\\{a, c\\}$ number ${}^{10}C_2 + {}^{10}C_2 = 45 + 45 = 90$. Key insight: choose the two end terms; the middle one comes for free.",
+        "hi": "$a < b < c$ समांतर श्रेणी में हों तो $b = \\frac{a + c}{2}$, अतः $a + c$ सम होना चाहिए: $a$ और $c$ की समता समान होनी चाहिए, तब $b$ स्वतः तय हो जाता है। 10 विषम और 10 सम संख्याएँ हैं, अतः $\\{a, c\\}$ के चयन ${}^{10}C_2 + {}^{10}C_2 = 45 + 45 = 90$ हैं। मुख्य विचार: दोनों अंतिम पद चुनें; मध्य पद अपने आप मिल जाता है।"
+      }
+    }
+  ]
+}
